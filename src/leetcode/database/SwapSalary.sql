@@ -1,1 +1,2 @@
-update salary set sex=if(sex="m","f","m")
+update salary
+set sex=if(sex = "m", "f", "m")
