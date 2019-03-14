@@ -2,6 +2,9 @@ package leetcode.util;
 
 import leetcode.entity.TreeNode;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Description:
  *
@@ -36,5 +39,26 @@ public class BinaryTreeUtils {
             return root;
         }
         return root;
+    }
+
+    /**
+     * 中序遍历二叉树
+     *
+     * @param treeNode
+     * @return
+     */
+    public static List<Integer> inOrder(TreeNode treeNode) {
+        List<Integer> list = new ArrayList<>();
+
+        if (treeNode != null && treeNode.left != null) {
+            list.addAll(inOrder(treeNode.left));
+        }
+        if (treeNode != null) {
+            list.add(treeNode.val);
+        }
+        if (treeNode != null && treeNode.right != null) {
+            list.addAll(inOrder(treeNode.right));
+        }
+        return list;
     }
 }
