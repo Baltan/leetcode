@@ -1,5 +1,11 @@
 package leetcode.algorithms;
 
+/**
+ * Description: Design Linked List
+ *
+ * @author Baltan
+ * @date 2019/3/18 13:22
+ */
 public class MyLinkedList {
 
     private int size;
