@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Description:
+ * Description: Implement Magic Dictionary
  *
  * @author Baltan
  * @date 2019-04-04 09:41
