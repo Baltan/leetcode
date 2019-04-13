@@ -1,5 +1,8 @@
 package leetcode.algorithms;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Description: Number of Recent Calls
  *
@@ -7,66 +10,29 @@ package leetcode.algorithms;
  * @date 2019-04-13 19:47
  */
 public class RecentCounter {
-    private class Node {
-        int val;
-        Node next;
-
-        public Node(int val) {
-            this.val = val;
-        }
-
-        @Override
-        public String toString() {
-            return "Node{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
-    }
-
-    private Node pings;
+    private Queue<Integer> pings;
 
     public RecentCounter() {
-        pings = null;
+        pings = new LinkedList<>();
     }
 
     public int ping(int t) {
-        if (pings == null) {
-            pings = new Node(t);
+        if (pings.isEmpty()) {
+            pings.offer(t);
             return 1;
-        }
-
-        int start = t - 3000;
-        Node temp = pings;
-
-        while (temp != null) {
-            if (temp.val < start) {
-                temp = temp.next;
-            } else {
-                break;
+        } else {
+            int start = t - 3000;
+            while (!pings.isEmpty()) {
+                int time = pings.peek();
+                if (time < start) {
+                    pings.poll();
+                } else {
+                    break;
+                }
             }
+            pings.offer(t);
+            return pings.size();
         }
-
-        if (temp == null) {
-            pings = new Node(t);
-            return 1;
-        }
-
-        Node node = new Node(-1);
-        node.next = temp;
-        pings = temp;
-
-        int num = 0;
-
-        while (node.next != null) {
-            num++;
-            node = node.next;
-        }
-
-        node.next = new Node(t);
-
-        num++;
-        return num;
     }
 
     public static void main(String[] args) {
