@@ -29,9 +29,7 @@ public class LongestArithSeqLength {
         for (int i = 0; i < length; i++) {
             for (int j = 0; j < i; j++) {
                 int difference = A[i] - A[j];
-                int m = array[j].getOrDefault(difference, 1) + 1;
-                int n = array[i].getOrDefault(difference, 0);
-                array[i].put(difference, Math.max(m, n));
+                array[i].put(difference, array[j].getOrDefault(difference, 1) + 1);
                 result = Math.max(result, array[i].get(difference));
             }
         }
