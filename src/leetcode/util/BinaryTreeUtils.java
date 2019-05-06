@@ -128,4 +128,27 @@ public class BinaryTreeUtils {
         }
         return list;
     }
+
+    /**
+     * 前序遍历顺序存储的<em>完全二叉树</em>
+     *
+     * @param arr
+     * @param startIndex
+     * @return
+     */
+    public static List<Integer> preOrderArray(int[] arr, int startIndex) {
+        List<Integer> list = new ArrayList<>();
+
+        if (arr == null || arr.length == 0 || startIndex >= arr.length) {
+            return list;
+        }
+        list.add(arr[startIndex]);
+        if (startIndex * 2 + 1 < arr.length) {
+            list.addAll(preOrderArray(arr, startIndex * 2 + 1));
+        }
+        if (startIndex * 2 + 2 < arr.length) {
+            list.addAll(preOrderArray(arr, startIndex * 2 + 2));
+        }
+        return list;
+    }
 }
