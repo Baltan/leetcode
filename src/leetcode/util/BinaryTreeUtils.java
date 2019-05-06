@@ -151,4 +151,23 @@ public class BinaryTreeUtils {
         }
         return list;
     }
+
+    /**
+     * 删除指定数值的节点
+     *
+     * @param treeNode
+     * @param value
+     * @return
+     */
+    public static TreeNode deleteNode(TreeNode treeNode, int value) {
+        if (treeNode != null) {
+            if (treeNode.val == value) {
+                treeNode = null;
+            } else {
+                treeNode.left = deleteNode(treeNode.left, value);
+                treeNode.right = deleteNode(treeNode.right, value);
+            }
+        }
+        return treeNode;
+    }
 }
