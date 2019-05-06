@@ -3,6 +3,7 @@ package leetcode.util;
 import leetcode.entity.TreeNode;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -101,6 +102,29 @@ public class BinaryTreeUtils {
         }
         if (treeNode != null) {
             list.add(treeNode.val);
+        }
+        return list;
+    }
+
+    /**
+     * 逐行遍历二叉树
+     *
+     * @param treeNode
+     * @return
+     */
+    public static List<Integer> lineByLine(TreeNode treeNode) {
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        List<Integer> list = new ArrayList<>();
+
+        queue.offer(treeNode);
+
+        while (!queue.isEmpty()) {
+            TreeNode currentTreeNode = queue.poll();
+            if (currentTreeNode != null) {
+                list.add(currentTreeNode.val);
+                queue.offer(currentTreeNode.left);
+                queue.offer(currentTreeNode.right);
+            }
         }
         return list;
     }
