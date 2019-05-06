@@ -83,4 +83,25 @@ public class BinaryTreeUtils {
             return list;
         }
     }
+
+    /**
+     * 后序遍历二叉树
+     *
+     * @param treeNode
+     * @return
+     */
+    public static List<Integer> postOrder(TreeNode treeNode) {
+        List<Integer> list = new ArrayList<>();
+
+        if (treeNode != null && treeNode.left != null) {
+            list.addAll(postOrder(treeNode.left));
+        }
+        if (treeNode != null && treeNode.right != null) {
+            list.addAll(postOrder(treeNode.right));
+        }
+        if (treeNode != null) {
+            list.add(treeNode.val);
+        }
+        return list;
+    }
 }
