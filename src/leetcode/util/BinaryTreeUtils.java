@@ -61,4 +61,26 @@ public class BinaryTreeUtils {
         }
         return list;
     }
+
+    /**
+     * 前序遍历二叉树
+     *
+     * @param treeNode
+     * @return
+     */
+    public static List<Integer> preOrder(TreeNode treeNode) {
+        List<Integer> list = new ArrayList<>();
+
+        if (treeNode == null) {
+            return list;
+        } else if (treeNode.left == null && treeNode.right == null) {
+            list.add(treeNode.val);
+            return list;
+        } else {
+            list.addAll(preOrder(treeNode.left));
+            list.add(treeNode.val);
+            list.addAll(preOrder(treeNode.right));
+            return list;
+        }
+    }
 }
