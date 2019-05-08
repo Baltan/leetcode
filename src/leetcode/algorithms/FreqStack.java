@@ -10,34 +10,34 @@ import java.util.*;
  */
 public class FreqStack {
     private Map<Integer, Integer> map;
-    private TreeMap<Integer, Stack<Integer>> frequecyMap;
+    private TreeMap<Integer, Stack<Integer>> frequencyMap;
 
     public FreqStack() {
         map = new HashMap<>();
-        frequecyMap = new TreeMap<>();
+        frequencyMap = new TreeMap<>();
     }
 
     public void push(int x) {
         int xNewFrequency = map.getOrDefault(x, 0) + 1;
         map.put(x, xNewFrequency);
 
-        if (frequecyMap.get(xNewFrequency) == null) {
+        if (frequencyMap.get(xNewFrequency) == null) {
             Stack<Integer> stack = new Stack<>();
             stack.push(x);
-            frequecyMap.put(xNewFrequency, stack);
+            frequencyMap.put(xNewFrequency, stack);
         } else {
-            frequecyMap.get(xNewFrequency).push(x);
+            frequencyMap.get(xNewFrequency).push(x);
         }
     }
 
     public int pop() {
-        Map.Entry<Integer, Stack<Integer>> entry = frequecyMap.lastEntry();
+        Map.Entry<Integer, Stack<Integer>> entry = frequencyMap.lastEntry();
         int frequency = entry.getKey();
         Stack<Integer> stack = entry.getValue();
         int x = stack.pop();
 
         if (stack.isEmpty()) {
-            frequecyMap.remove(new Integer(frequency));
+            frequencyMap.remove(new Integer(frequency));
         }
         map.put(x, map.get(x) - 1);
         return x;
