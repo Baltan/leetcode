@@ -2,10 +2,6 @@ package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-
 /**
  * Description: Maximum Difference Between Node and Ancestor
  *
@@ -13,6 +9,8 @@ import java.util.List;
  * @date 2019-04-15 13:37
  */
 public class MaxAncestorDiff {
+    private static int result;
+
     public static void main(String[] args) {
         TreeNode node11 = new TreeNode(8);
         TreeNode node12 = new TreeNode(3);
@@ -46,41 +44,19 @@ public class MaxAncestorDiff {
     }
 
     public static int maxAncestorDiff(TreeNode root) {
-        List<int[]> list = getAncestorDiff(root);
-        return list.stream().map(x -> Math.abs(x[1])).max(Comparator.comparingInt(x -> x)).get();
+        result = 0;
+        dfs(root, root.val, root.val);
+        return result;
     }
 
-    public static List<int[]> getAncestorDiff(TreeNode root) {
-        List<int[]> result = new ArrayList<>();
-        if (root == null) {
-            return result;
-        } else {
-            List<int[]> left = getAncestorDiff(root.left);
-            List<int[]> right = getAncestorDiff(root.right);
-
-            if (root.left != null) {
-                result.add(new int[]{root.val, root.val - root.left.val});
-            }
-
-            if (root.right != null) {
-                result.add(new int[]{root.val, root.val - root.right.val});
-            }
-
-            if (!left.isEmpty()) {
-                for (int[] value : left) {
-                    result.add(new int[]{root.val, root.val - value[0] + value[1]});
-                }
-            }
-
-            if (!right.isEmpty()) {
-                for (int[] value : right) {
-                    result.add(new int[]{root.val, root.val - value[0] + value[1]});
-                }
-            }
-
-            result.addAll(left);
-            result.addAll(right);
-            return result;
+    public static void dfs(TreeNode node, int min, int max) {
+        if (node != null) {
+            int difference1 = Math.abs(node.val - min);
+            int difference2 = Math.abs(node.val - max);
+            result = Math.max(result, difference1);
+            result = Math.max(result, difference2);
+            dfs(node.left, Math.min(min, node.val), Math.max(max, node.val));
+            dfs(node.right, Math.min(min, node.val), Math.max(max, node.val));
         }
     }
 }
