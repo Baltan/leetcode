@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:
+ * Description: Search in Rotated Sorted Array II
  *
  * @author Baltan
  * @date 2019-05-18 17:30
