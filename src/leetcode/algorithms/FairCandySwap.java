@@ -5,7 +5,7 @@ import leetcode.util.OutputUtils;
 import java.util.Arrays;
 
 /**
- * Description: Fair Candy Swap
+ * Description: 888. Fair Candy Swap
  *
  * @author Baltan
  * @date 2018/8/21 15:59
