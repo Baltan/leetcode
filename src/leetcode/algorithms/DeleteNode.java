@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.ListNode;
 
 /**
- * Description:Delete Node in a Linked List
+ * Description: 237. Delete Node in a Linked List
  *
  * @author Baltan
  * @date 2018/1/3 10:43
