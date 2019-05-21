@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description:Product of Array Except Self
+ * Description: 238. Product of Array Except Self
  *
  * @author Baltan
  * @date 2017/11/29 08:58
