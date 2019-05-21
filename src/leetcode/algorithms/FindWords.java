@@ -1,26 +1,23 @@
 package leetcode.algorithms;
 
+import leetcode.util.OutputUtils;
+
 import java.util.ArrayList;
 
 /**
- * Description:Keyboard Row
+ * Description: 500. Keyboard Row
  *
  * @author Baltan
  * @date 2017/12/29 10:16
  */
 public class FindWords {
     public static void main(String[] args) {
-        String[] wordArr = findWords(new String[]{"Hello", "Alaska", "Dad", "Peace"});
-        String[] wordArr1 = findWords(new String[]{"abdfs", "cccd", "a", "qwwewm"});
-        for (int i = 0; i < wordArr1.length; i++) {
-            System.out.print(wordArr1[i] + "\t");
-        }
-        System.out.println();
+        OutputUtils.print1DStringArray(findWords(new String[]{"Hello", "Alaska", "Dad", "Peace"}));
+        OutputUtils.print1DStringArray(findWords(new String[]{"abdfs", "cccd", "a", "qwwewm"}));
     }
 
     public static String[] findWords(String[] words) {
         ArrayList<String> al = new ArrayList<String>();
-        int count = 0;
         String[] keyboardArr = {"qwertyuiop", "asdfghjkl", "zxcvbnm"};
         for (int i = 0; i < words.length; i++) {
             String word = words[i];
@@ -39,7 +36,6 @@ public class FindWords {
                 }
             }
             if (flag) {
-                count++;
                 al.add(word);
             }
         }
