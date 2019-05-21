@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Can Place Flowers
+ * Description: 605. Can Place Flowers
  * @author Baltan
  *
  * @date 2017/11/12 14:24
