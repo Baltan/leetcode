@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Sum of Square Numbers
+ * Description: 633. Sum of Square Numbers
  *
  * @author Baltan
  * @date 2018/1/8 14:00
