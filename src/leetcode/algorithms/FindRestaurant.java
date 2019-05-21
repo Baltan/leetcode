@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Description:Minimum Index Sum of Two Lists
+ * Description: 599. Minimum Index Sum of Two Lists
  *
  * @author Baltan
  * @date 2018/1/3 13:58
