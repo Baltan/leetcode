@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.ArrayList;
 
 /**
- * Description:Baseball Game
+ * Description: 682. Baseball Game
  *
  * @author Baltan
  * @date 2017/12/29 11:13
