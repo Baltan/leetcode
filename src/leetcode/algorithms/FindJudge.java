@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Find the Town Judge
+ * Description: 997. Find the Town Judge
  *
  * @author Baltan
  * @date 2019-03-15 15:21
