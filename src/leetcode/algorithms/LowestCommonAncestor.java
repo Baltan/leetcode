@@ -4,7 +4,7 @@ import leetcode.entity.TreeNode;
 import leetcode.util.BinaryTreeUtils;
 
 /**
- * Description: Lowest Common Ancestor of a Binary Search Tree
+ * Description: 235. Lowest Common Ancestor of a Binary Search Tree
  *
  * @author Baltan
  * @date 2019-02-27 09:03
