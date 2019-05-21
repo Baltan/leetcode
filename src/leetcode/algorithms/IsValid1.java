@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Objects;
 
 /**
- * Description: Check If Word Is Valid After Substitutions
+ * Description: 1003. Check If Word Is Valid After Substitutions
  *
  * @author Baltan
  * @date 2019-04-23 09:47
