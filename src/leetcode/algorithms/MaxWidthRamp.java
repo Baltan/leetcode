@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Maximum Width Ramp
+ * Description: 962. Maximum Width Ramp
  *
  * @author Baltan
  * @date 2019-04-11 11:16
