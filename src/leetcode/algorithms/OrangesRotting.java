@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Rotting Oranges
+ * Description: 994. Rotting Oranges
  *
  * @author Baltan
  * @date 2019-03-15 15:49
