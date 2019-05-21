@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: Combination Sum II
+ * Description: 40. Combination Sum II
  *
  * @author Baltan
  * @date 2018/9/4 13:08
