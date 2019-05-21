@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Add Binary
+ * Description: 67. Add Binary
  *
  * @author Baltan
  * @date 2017/11/24 20:58
