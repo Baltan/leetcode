@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Available Captures for Rook
+ * Description: 999. Available Captures for Rook
  *
  * @author Baltan
  * @date 2019-03-12 10:54
