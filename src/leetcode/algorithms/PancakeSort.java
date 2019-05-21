@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Description: Pancake Sorting
+ * Description: 969. Pancake Sorting
  *
  * @author Baltan
  * @date 2019-03-22 20:30
