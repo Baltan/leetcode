@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Monotonic Array
+ * Description: 896. Monotonic Array
  *
  * @author Baltan
  * @date 2018/9/3 12:38
