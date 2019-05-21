@@ -16,10 +16,9 @@ public class ReverseWords {
         String[] sArr = s.split("\\s");
         StringBuilder str = new StringBuilder();
         for (int i = 0; i < sArr.length; i++) {
-            int length = sArr[i].length();
             StringBuilder sb = new StringBuilder();
             for (int j = sArr[i].length() - 1; j >= 0; j--) {
-                sb.append(sArr[i].substring(j, j + 1));
+                sb.append(sArr[i], j, j + 1);
             }
             str.append(sb + " ");
         }
