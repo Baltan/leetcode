@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Repeated String Match
+ * Description: 686. Repeated String Match
  *
  * @author Baltan
  * @date 2017/11/24 22:07
