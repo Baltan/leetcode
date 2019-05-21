@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Repeated Substring Pattern
+ * Description: 459. Repeated Substring Pattern
  *
  * @author Baltan
  * @date 2017/11/24 14:43
