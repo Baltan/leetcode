@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Stack;
 
 /**
- * Description: Remove Outermost Parentheses
+ * Description: 1021. Remove Outermost Parentheses
  *
  * @author Baltan
  * @date 2019-04-08 08:44
