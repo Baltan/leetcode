@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Power of Two
+ * Description: 231. Power of Two
  *
  * @author Baltan
  * @date 2018/1/5 14:03
