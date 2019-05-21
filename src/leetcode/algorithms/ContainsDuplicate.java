@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description:Contains Duplicate
+ * Description: 217. Contains Duplicate
  * @author Baltan
  *
  * @date 2017/11/7 16:37
