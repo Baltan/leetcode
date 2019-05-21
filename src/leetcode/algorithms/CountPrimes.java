@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Count Primes
+ * Description: 204. Count Primes
  *
  * @author Baltan
  * @date 2018/1/8 21:31
