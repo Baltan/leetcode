@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Min Cost Climbing Stairs
+ * Description: 746. Min Cost Climbing Stairs
  *
  * @author Baltan
  * @date 2018/8/7 16:59
