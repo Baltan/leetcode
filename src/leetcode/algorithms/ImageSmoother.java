@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Image Smoother
+ * Description: 661. Image Smoother
  * @author Baltan
  *
  * @date 2017/11/7 16:56
