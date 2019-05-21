@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description:Pascal's Triangle
+ * Description: 118. Pascal's Triangle
  * @author Baltan
  *
  * @date 2017/11/8 15:56
