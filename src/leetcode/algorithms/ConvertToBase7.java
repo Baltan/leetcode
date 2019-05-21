@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Base 7
+ * Description: 504. Base 7
  *
  * @author Baltan
  * @date 2018/1/4 14:54
