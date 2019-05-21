@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: String to Integer (atoi)
+ * Description: 8. String to Integer (atoi)
  *
  * @author Baltan
  * @date 2018/8/28 16:00
