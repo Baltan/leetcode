@@ -5,7 +5,7 @@ import leetcode.util.OutputUtils;
 import java.util.Arrays;
 
 /**
- * Description: Sum of Even Numbers After Queries
+ * Description: 985. Sum of Even Numbers After Queries
  *
  * @author Baltan
  * @date 2019-03-13 11:25
