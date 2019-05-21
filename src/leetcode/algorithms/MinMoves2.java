@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description: Minimum Moves to Equal Array Elements II
+ * Description: 462. Minimum Moves to Equal Array Elements II
  *
  * @author Baltan
  * @date 2018/8/17 22:05
