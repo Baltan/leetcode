@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Reverse Integer
+ * Description: 7. Reverse Integer
  *
  * @author Baltan
  * @date 2018/1/10 10:06
