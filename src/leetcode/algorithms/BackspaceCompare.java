@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Stack;
 
 /**
- * Description: Backspace String Compare
+ * Description: 844. Backspace String Compare
  *
  * @author Baltan
  * @date 2018/8/2 18:24
