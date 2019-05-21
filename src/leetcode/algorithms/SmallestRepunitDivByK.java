@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Smallest Integer Divisible by K
+ * Description: 1015. Smallest Integer Divisible by K
  *
  * @author Baltan
  * @date 2019-04-28 09:45
