@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Third Maximum Number
+ * Description: 414. Third Maximum Number
  * @author Baltan
  *
  * @date 2017/11/15 17:09
