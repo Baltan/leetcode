@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: Generate Parentheses
+ * Description: 22. Generate Parentheses
  *
  * @author Baltan
  * @date 2018/8/31 10:53
