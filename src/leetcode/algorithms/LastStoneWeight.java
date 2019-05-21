@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 /**
- * Description: Last Stone Weight
+ * Description: 1046. Last Stone Weight
  *
  * @author Baltan
  * @date 2019-05-19 14:04
