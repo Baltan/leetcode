@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Construct String from Binary Tree
+ * Description: 606. Construct String from Binary Tree
  *
  * @author Baltan
  * @date 2018/8/1 16:37
