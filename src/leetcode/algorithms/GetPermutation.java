@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.IntStream;
 
 /**
- * Description: Permutation Sequence
+ * Description: 60. Permutation Sequence
  *
  * @author Baltan
  * @date 2018/9/19 10:10
