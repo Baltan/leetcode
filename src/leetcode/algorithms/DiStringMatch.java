@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: DI String Match
+ * Description: 942. DI String Match
  *
  * @author Baltan
  * @date 2019-03-13 09:47
