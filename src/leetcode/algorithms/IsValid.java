@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Stack;
 
 /**
- * Description:Valid Parentheses
+ * Description: 20. Valid Parentheses
  *
  * @author Baltan
  * @date 2017/11/25 12:07
