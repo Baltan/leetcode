@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Description:Majority Element
+ * Description: 169. Majority Element
  * @author Baltan
  *
  * @date 2017/11/7 16:10
