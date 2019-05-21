@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Unique Paths
+ * Description: 62. Unique Paths
  *
  * @author Baltan
  * @date 2018/9/20 11:13
