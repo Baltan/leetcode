@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Friends Of Appropriate Ages
+ * Description: 825. Friends Of Appropriate Ages
  *
  * @author Baltan
  * @date 2019-05-14 10:34
