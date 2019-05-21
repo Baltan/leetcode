@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Rotated Digits
+ * Description: 788. Rotated Digits
  *
  * @author Baltan
  * @date 2018/8/1 14:59
