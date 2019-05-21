@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Palindromic Substrings
+ * Description: 647. Palindromic Substrings
  *
  * @author Baltan
  * @date 2018/1/11 14:35
