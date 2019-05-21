@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Jewels and Stones
+ * Description: 771. Jewels and Stones
  *
  * @author Baltan
  * @date 2018/7/30 08:45
