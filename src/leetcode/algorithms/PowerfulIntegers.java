@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Powerful Integers
+ * Description: 970. Powerful Integers
  *
  * @author Baltan
  * @date 2019-03-16 23:13
