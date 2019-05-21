@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Length of Last Word
+ * Description: 58. Length of Last Word
  *
  * @author Baltan
  * @date 2017/11/27 16:31
