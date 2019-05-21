@@ -4,7 +4,7 @@ import leetcode.entity.TreeNode;
 import leetcode.util.BinaryTreeUtils;
 
 /**
- * Description: Range Sum of BST
+ * Description: 938. Range Sum of BST
  *
  * @author Baltan
  * @date 2019-03-18 13:56
