@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Number of Lines To Write String
+ * Description: 806. Number of Lines To Write String
  *
  * @author Baltan
  * @date 2018/7/30 16:44
