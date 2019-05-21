@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Remove Duplicates from Sorted Array II
+ * Description: 80. Remove Duplicates from Sorted Array II
  *
  * @author Baltan
  * @date 2019-03-25 15:23
