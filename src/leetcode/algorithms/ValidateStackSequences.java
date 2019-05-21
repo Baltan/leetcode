@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Stack;
 
 /**
- * Description: Validate Stack Sequences
+ * Description: 946. Validate Stack Sequences
  *
  * @author Baltan
  * @date 2019-05-02 23:31
