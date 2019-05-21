@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Design HashSet
+ * Description: 705. Design HashSet
  *
  * @author Baltan
  * @date 2018/8/11 00:32
