@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Transpose Matrix
+ * Description: 867. Transpose Matrix
  *
  * @author Baltan
  * @date 2018/7/30 15:15
