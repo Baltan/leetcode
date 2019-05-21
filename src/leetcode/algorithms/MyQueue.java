@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Stack;
 
 /**
- * Description:Implement Queue using Stacks
+ * Description: 232. Implement Queue using Stacks
  *
  * @author Baltan
  * @date 2018/1/6 20:16
