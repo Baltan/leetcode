@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.ListNode;
 
 /**
- * Description: Palindrome Linked List
+ * Description: 234. Palindrome Linked List
  *
  * @author Baltan
  * @date 2018/8/10 11:17
