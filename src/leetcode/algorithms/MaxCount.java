@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Range Addition II
+ * Description: 598. Range Addition II
  *
  * @author Baltan
  * @date 2018/1/2 10:28
