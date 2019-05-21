@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Multiply Strings
+ * Description: 43. Multiply Strings
  *
  * @author Baltan
  * @date 2018/9/5 10:45
