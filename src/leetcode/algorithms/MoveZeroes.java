@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.ArrayList;
 
 /**
- * Description:Move Zeroes
+ * Description: 283. Move Zeroes
  * @author Baltan
  *
  * @date 2017/11/7 11:05
