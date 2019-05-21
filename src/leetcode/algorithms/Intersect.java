@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description:Intersection of Two Arrays II
+ * Description: 350. Intersection of Two Arrays II
  *
  * @author Baltan
  * @date 2018/1/4 14:32
