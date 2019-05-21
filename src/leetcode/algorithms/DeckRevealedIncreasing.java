@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Description: Reveal Cards In Increasing Order
+ * Description: 950. Reveal Cards In Increasing Order
  *
  * @author Baltan
  * @date 2019-03-18 15:40
