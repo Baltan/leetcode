@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Maximum Depth of Binary Tree
+ * Description: 104. Maximum Depth of Binary Tree
  *
  * @author Baltan
  * @date 2018/7/27 23:49
