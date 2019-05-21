@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Optimal Division
+ * Description: 553. Optimal Division
  *
  * @author Baltan
  * @date 2018/1/11 15:21
