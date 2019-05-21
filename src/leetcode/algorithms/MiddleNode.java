@@ -4,7 +4,7 @@ import leetcode.entity.ListNode;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Middle of the Linked List
+ * Description: 876. Middle of the Linked List
  *
  * @author Baltan
  * @date 2018/7/30 09:13
