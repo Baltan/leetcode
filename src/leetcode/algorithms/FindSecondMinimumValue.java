@@ -5,7 +5,7 @@ import leetcode.entity.TreeNode;
 import java.util.TreeSet;
 
 /**
- * Description: Second Minimum Node In a Binary Tree
+ * Description: 671. Second Minimum Node In a Binary Tree
  *
  * @author Baltan
  * @date 2018/8/8 11:37
