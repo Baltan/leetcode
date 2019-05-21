@@ -4,14 +4,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * Description:ZigZag Conversion
+ * Description: 6. ZigZag Conversion
  * @author Baltan
  *
  * @date 2017/11/7 11:29
  */
-public class ZigZagConversion {
+public class Convert {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入一个英文字符串：");
         String string = scanner.next();
