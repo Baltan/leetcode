@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description: Partition Array Into Three Parts With Equal Sum
+ * Description: 1013. Partition Array Into Three Parts With Equal Sum
  *
  * @author Baltan
  * @date 2019-03-24 12:09
