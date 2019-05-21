@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Description: Number of Enclaves
+ * Description: 1020. Number of Enclaves
  *
  * @author Baltan
  * @date 2019-04-27 18:17
