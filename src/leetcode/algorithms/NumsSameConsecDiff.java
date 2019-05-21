@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- * Description: Numbers With Same Consecutive Differences
+ * Description: 967. Numbers With Same Consecutive Differences
  *
  * @author Baltan
  * @date 2019-04-11 09:56
