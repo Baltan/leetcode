@@ -1,22 +1,17 @@
 package leetcode.algorithms;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 /**
  * Description: 6. ZigZag Conversion
- * @author Baltan
  *
+ * @author Baltan
  * @date 2017/11/7 11:29
  */
 public class Convert {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入一个英文字符串：");
-        String string = scanner.next();
-        System.out.println("请输入之字形的行数：");
-        int rows = scanner.nextInt();
-        System.out.println(convert(string, rows));
+        System.out.println(convert("PAYPALISHIRING", 3));
+        System.out.println(convert("PAYPALISHIRING", 4));
     }
 
     public static String convert(String s, int numRows) {
