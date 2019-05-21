@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Longest Continuous Increasing Subsequence
+ * Description: 674. Longest Continuous Increasing Subsequence
  * @author Baltan
  *
  * @date 2017/11/7 19:47
