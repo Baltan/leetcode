@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Binary Tree Tilt
+ * Description: 563. Binary Tree Tilt
  *
  * @author Baltan
  * @date 2018/8/2 14:43
@@ -22,7 +22,7 @@ public class FindTilt {
         if (root == null) {
             return 0;
         }
-        int totalTilt = 0;
+        int totalTilt;
         totalTilt = Math.abs(treeSum(root.left) - treeSum(root.right)) + findTilt(root.left) + findTilt(root
                 .right);
         return totalTilt;
