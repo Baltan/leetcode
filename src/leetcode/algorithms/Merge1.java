@@ -5,7 +5,7 @@ import leetcode.entity.Interval;
 import java.util.*;
 
 /**
- * Description: Merge Intervals
+ * Description: 56. Merge Intervals
  *
  * @author Baltan
  * @date 2018/9/18 09:42
