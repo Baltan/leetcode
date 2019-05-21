@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Binary String With Substrings Representing 1 To N
+ * Description: 1016. Binary String With Substrings Representing 1 To N
  *
  * @author Baltan
  * @date 2019-03-24 13:33
