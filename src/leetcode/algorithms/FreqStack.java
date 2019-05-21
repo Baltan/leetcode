@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: Maximum Frequency Stack
+ * Description: 895. Maximum Frequency Stack
  *
  * @author Baltan
  * @date 2019-05-08 10:29
