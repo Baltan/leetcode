@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Capacity To Ship Packages Within D Days
+ * Description: 1011. Capacity To Ship Packages Within D Days
  *
  * @author Baltan
  * @date 2019-05-12 12:07
