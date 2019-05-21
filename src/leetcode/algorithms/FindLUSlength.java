@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Longest Uncommon Subsequence I
+ * Description: 521. Longest Uncommon Subsequence I
  * @author Baltan
  *
  * @date 2017/11/17 14:45
