@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Description:Intersection of Two Arrays
+ * Description: 349. Intersection of Two Arrays
  *
  * @author Baltan
  * @date 2018/1/2 16:20
