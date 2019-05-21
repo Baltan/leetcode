@@ -3,14 +3,13 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description:Two Sum
+ * Description: 1. Two Sum
  * @author Baltan
  *
  * @date 2017/11/7 11:29
  */
 
 public class TwoSum {
-
     public static void main(String[] args) {
     }
 
