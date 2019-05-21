@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description:Self Dividing Numbers
+ * Description: 728. Self Dividing Numbers
  *
  * @author Baltan
  * @date 2017/11/29 17:02
