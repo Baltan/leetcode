@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- * Description: 5. Longest Palindromic Substring
+ * Description: 409. Longest Palindrome
  *
  * @author Baltan
  * @date 2018/1/4 10:58
