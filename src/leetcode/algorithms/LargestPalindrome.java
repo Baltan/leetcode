@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Largest Palindrome Product
+ * Description: 479. Largest Palindrome Product
  *
  * @author Baltan
  * @date 2018/1/10 11:29
