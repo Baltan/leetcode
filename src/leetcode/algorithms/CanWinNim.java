@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Nim Game
+ * Description: 292. Nim Game
  *
  * @author Baltan
  * @date 2017/12/29 16:54
