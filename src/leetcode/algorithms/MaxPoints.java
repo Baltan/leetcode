@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.Point;
 
 /**
- * Description: Max Points on a Line
+ * Description: 149. Max Points on a Line
  *
  * @author Baltan
  * @date 2018/8/28 12:03
