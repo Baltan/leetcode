@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Description: N-ary Tree Postorder Traversal
+ * Description: 590. N-ary Tree Postorder Traversal
  *
  * @author Baltan
  * @date 2018/8/1 16:06
