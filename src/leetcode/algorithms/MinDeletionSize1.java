@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Delete Columns to Make Sorted II
+ * Description: 955. Delete Columns to Make Sorted II
  *
  * @author Baltan
  * @date 2019-05-03 11:09
