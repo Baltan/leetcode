@@ -5,7 +5,7 @@ import leetcode.entity.IslandCoordinate;
 import java.util.LinkedList;
 
 /**
- * Description: Max Area of Island
+ * Description: 695. Max Area of Island
  *
  * @author Baltan
  * @date 2018/8/7 09:07
