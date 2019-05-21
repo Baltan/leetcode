@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Positions of Large Groups
+ * Description: 830. Positions of Large Groups
  *
  * @author Baltan
  * @date 2018/8/2 15:06
