@@ -6,17 +6,14 @@ import leetcode.util.BinaryTreeUtils;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.TreeSet;
 
 /**
- * Description: Smallest String Starting From Leaf
+ * Description: 988. Smallest String Starting From Leaf
  *
  * @author Baltan
  * @date 2019-05-05 09:35
  */
 public class SmallestFromLeaf {
-    private TreeSet<String> set;
-
     public static void main(String[] args) {
         TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{0, 1, 2, 3, 4, 3, 4}, 0);
         System.out.println(smallestFromLeaf(root1));
