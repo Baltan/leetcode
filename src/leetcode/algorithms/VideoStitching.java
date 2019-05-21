@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description: Video Stitching
+ * Description: 1024. Video Stitching
  *
  * @author Baltan
  * @date 2019-04-27 19:28
