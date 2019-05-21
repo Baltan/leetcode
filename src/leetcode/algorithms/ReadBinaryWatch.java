@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description:Binary Watch
+ * Description: 401. Binary Watch
  *
  * @author Baltan
  * @date 2018/1/4 13:33
