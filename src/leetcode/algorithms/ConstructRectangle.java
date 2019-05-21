@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description:Construct the Rectangle
+ * Description: 492. Construct the Rectangle
  *
  * @author Baltan
  * @date 2017/12/31 14:36
