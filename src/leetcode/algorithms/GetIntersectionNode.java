@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.ListNode;
 
 /**
- * Description: Intersection of Two Linked Lists
+ * Description: 160. Intersection of Two Linked Lists
  *
  * @author Baltan
  * @date 2019-03-17 10:48
