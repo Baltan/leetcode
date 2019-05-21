@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Rotate String
+ * Description: 796. Rotate String
  *
  * @author Baltan
  * @date 2018/8/1 17:16
