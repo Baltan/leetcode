@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Remove Element
+ * Description: 27. Remove Element
  * @author Baltan
  *
  * @date 2017/11/8 14:11
