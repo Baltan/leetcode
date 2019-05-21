@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Valid Sudoku
+ * Description: 36. Valid Sudoku
  *
  * @author Baltan
  * @date 2018/9/3 10:58
