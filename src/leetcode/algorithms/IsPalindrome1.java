@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Palindrome Number
+ * Description: 9. Palindrome Number
  *
  * @author Baltan
  * @date 2018/1/6 21:50
