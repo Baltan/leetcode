@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Description: Uncommon Words from Two Sentences
+ * Description: 884. Uncommon Words from Two Sentences
  *
  * @author Baltan
  * @date 2018/8/15 10:39
