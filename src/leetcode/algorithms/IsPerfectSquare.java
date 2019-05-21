@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Valid Perfect Square
+ * Description: 367. Valid Perfect Square
  *
  * @author Baltan
  * @date 2018/1/6 19:59
