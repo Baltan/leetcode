@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Max Consecutive Ones
+ * Description: 485. Max Consecutive Ones
  * @author Baltan
  *
  * @date 2017/11/6 22:54
