@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: Subdomain Visit Count
+ * Description: 811. Subdomain Visit Count
  *
  * @author Baltan
  * @date 2018/7/30 16:58
