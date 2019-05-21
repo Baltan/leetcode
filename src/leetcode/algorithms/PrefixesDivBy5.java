@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Binary Prefix Divisible By 5
+ * Description: 1018. Binary Prefix Divisible By 5
  *
  * @author Baltan
  * @date 2019-04-01 09:26
