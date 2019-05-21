@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Word Search
+ * Description: 79. Word Search
  *
  * @author Baltan
  * @date 2019-05-17 10:24
