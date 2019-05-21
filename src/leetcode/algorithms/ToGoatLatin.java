@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Description: Goat Latin
+ * Description: 824. Goat Latin
  *
  * @author Baltan
  * @date 2018/7/31 15:50
