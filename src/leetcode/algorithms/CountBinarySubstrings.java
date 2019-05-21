@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Count Binary Substrings
+ * Description: 696. Count Binary Substrings
  * @author Baltan
  *
  * @date 2017/11/19 21:30
