@@ -5,7 +5,7 @@ import leetcode.util.OutputUtils;
 import java.util.LinkedList;
 
 /**
- * Description: Shortest Distance to a Character
+ * Description: 821. Shortest Distance to a Character
  *
  * @author Baltan
  * @date 2018/7/31 10:17
