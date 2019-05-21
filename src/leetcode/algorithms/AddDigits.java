@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Add Digits
+ * Description: 258. Add Digits
  *
  * @author Baltan
  * @date 2017/12/31 00:24
