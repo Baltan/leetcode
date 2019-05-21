@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Valid Mountain Array
+ * Description: 941. Valid Mountain Array
  *
  * @author Baltan
  * @date 2019-03-16 23:46
