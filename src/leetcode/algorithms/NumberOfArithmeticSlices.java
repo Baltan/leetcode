@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Arithmetic Slices
+ * Description: 413. Arithmetic Slices
  *
  * @author Baltan
  * @date 2018/1/11 15:52
