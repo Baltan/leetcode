@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Description: N-ary Tree Preorder Traversal
+ * Description: 589. N-ary Tree Preorder Traversal
  *
  * @author Baltan
  * @date 2018/8/5 10:41
