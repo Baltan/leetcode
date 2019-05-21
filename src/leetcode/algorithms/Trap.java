@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Trapping Rain Water
+ * Description: 42. Trapping Rain Water
  *
  * @author Baltan
  * @date 2018/9/5 10:24
