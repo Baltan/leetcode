@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Largest Number At Least Twice of Others
+ * Description: 747. Largest Number At Least Twice of Others
  *
  * @author Baltan
  * @date 2017/12/31 13:46
