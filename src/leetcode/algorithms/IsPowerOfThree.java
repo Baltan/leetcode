@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Power of Three
+ * Description: 326. Power of Three
  *
  * @author Baltan
  * @date 2018/1/5 13:47
