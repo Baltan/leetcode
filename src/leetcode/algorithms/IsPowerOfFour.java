@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Power of Four
+ * Description: 342. Power of Four
  *
  * @author Baltan
  * @date 2018/1/6 19:40
