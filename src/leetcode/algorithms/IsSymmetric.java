@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Symmetric Tree
+ * Description: 101. Symmetric Tree
  *
  * @author Baltan
  * @date 2018/7/27 15:01
