@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Maximum Depth of N-ary Tree
+ * Description: 559. Maximum Depth of N-ary Tree
  *
  * @author Baltan
  * @date 2018/8/1 14:32
