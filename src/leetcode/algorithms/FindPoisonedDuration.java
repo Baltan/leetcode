@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Teemo Attacking
+ * Description: 495. Teemo Attacking
  *
  * @author Baltan
  * @date 2017/11/28 09:20
