@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description: Minimum Increment to Make Array Unique
+ * Description: 945. Minimum Increment to Make Array Unique
  *
  * @author Baltan
  * @date 2019-05-03 00:10
