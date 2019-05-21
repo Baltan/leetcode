@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description:Next Greater Element I
+ * Description: 496. Next Greater Element I
  *
  * @author Baltan
  * @date 2018/1/2 09:58
