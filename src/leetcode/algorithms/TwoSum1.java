@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Two Sum II - Input array is sorted
+ * Description: 167. Two Sum II - Input array is sorted
  *
  * @author Baltan
  * @date 2017/11/7 16:29
