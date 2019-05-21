@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Binary Gap
+ * Description: 868. Binary Gap
  *
  * @author Baltan
  * @date 2018/7/30 21:12
