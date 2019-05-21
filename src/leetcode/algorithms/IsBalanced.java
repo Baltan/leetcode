@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Balanced Binary Tree
+ * Description: 110. Balanced Binary Tree
  *
  * @author Baltan
  * @date 2018/8/9 14:21
