@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Design HashMap
+ * Description: 706. Design HashMap
  *
  * @author Baltan
  * @date 2018/8/10 09:21
