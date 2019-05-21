@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Beautiful Arrangement II
+ * Description: 667. Beautiful Arrangement II
  *
  * @author Baltan
  * @date 2018/8/20 16:43
