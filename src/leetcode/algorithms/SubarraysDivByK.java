@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Subarray Sums Divisible by K
+ * Description: 974. Subarray Sums Divisible by K
  *
  * @author Baltan
  * @date 2019-04-21 10:10
