@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Rotate Image
+ * Description: 48. Rotate Image
  *
  * @author Baltan
  * @date 2018/9/14 10:15

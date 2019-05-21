@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: Permutations II
+ * Description: 47. Permutations II
  *
  * @author Baltan
  * @date 2019-03-24 13:50
