@@ -5,7 +5,7 @@ import leetcode.entity.Employee;
 import java.util.*;
 
 /**
- * Description:Employee Importance
+ * Description: 690. Employee Importance
  *
  * @author Baltan
  * @date 2017/12/30 10:37
