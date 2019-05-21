@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.HashMap;
 
 /**
- * Description:Longest Substring Without Repeating Characters
+ * Description: 3. Longest Substring Without Repeating Characters
  * @author Baltan
  *
  * @date 2017/11/7 11:29
