@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Maximum Average Subarray I
+ * Description: 643. Maximum Average Subarray I
  * @author Baltan
  *
  * @date 2017/11/9 09:44
