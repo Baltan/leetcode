@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description: Rotate Function
+ * Description: 396. Rotate Function
  *
  * @author Baltan
  * @date 2019-04-12 10:43
