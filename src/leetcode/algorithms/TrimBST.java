@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Trim a Binary Search Tree
+ * Description: 669. Trim a Binary Search Tree
  *
  * @author Baltan
  * @date 2018/7/31 12:28
