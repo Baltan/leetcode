@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Complement of Base 10 Integer
+ * Description: 1009. Complement of Base 10 Integer
  *
  * @author Baltan
  * @date 2019-03-18 10:17
