@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Reach a Number
+ * Description: 754. Reach a Number
  *
  * @author Baltan
  * @date 2019-03-17 11:18
