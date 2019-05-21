@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:First Unique Character in a String
+ * Description: 387. First Unique Character in a String
  *
  * @author Baltan
  * @date 2018/1/3 09:49
