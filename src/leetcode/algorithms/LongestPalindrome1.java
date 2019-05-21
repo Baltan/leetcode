@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Longest Palindromic Substring
+ * Description: 5. Longest Palindromic Substring
  *
  * @author Baltan
  * @date 2018/1/12 10:25
