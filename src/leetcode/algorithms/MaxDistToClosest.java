@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Maximize Distance to Closest Person
+ * Description: 849. Maximize Distance to Closest Person
  *
  * @author Baltan
  * @date 2018/8/9 15:11
