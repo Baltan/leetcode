@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Description: Magic Squares In Grid
+ * Description: 840. Magic Squares In Grid
  *
  * @author Baltan
  * @date 2018/8/10 09:39
