@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Max Consecutive Ones III
+ * Description: 1004. Max Consecutive Ones III
  *
  * @author Baltan
  * @date 2019-05-10 10:32
