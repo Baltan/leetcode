@@ -5,7 +5,7 @@ import leetcode.util.OutputUtils;
 import java.util.Arrays;
 
 /**
- * Description: K Closest Points to Origin
+ * Description: 973. K Closest Points to Origin
  *
  * @author Baltan
  * @date 2019-03-19 15:42
