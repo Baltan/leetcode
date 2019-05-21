@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description: Triples with Bitwise AND Equal To Zero
+ * Description: 982. Triples with Bitwise AND Equal To Zero
  *
  * @author Baltan
  * @date 2019-04-26 14:13
