@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Peak Index in a Mountain Array
+ * Description: 852. Peak Index in a Mountain Array
  *
  * @author Baltan
  * @date 2018/7/30 14:52
