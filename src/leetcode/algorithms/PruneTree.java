@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Binary Tree Pruning
+ * Description: 814. Binary Tree Pruning
  *
  * @author Baltan
  * @date 2018/8/11 14:26
