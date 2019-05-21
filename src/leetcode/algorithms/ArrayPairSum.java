@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description:Array Partition I
+ * Description: 561. Array Partition I
  * @author Baltan
  *
  * @date 2017/11/6 17:05
