@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Sum of Two Integers
+ * Description: 371. Sum of Two Integers
  *
  * @author Baltan
  * @date 2019-03-15 14:41
