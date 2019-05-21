@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Pow(x, n)
+ * Description: 50. Pow(x, n)
  *
  * @author Baltan
  * @date 2018/9/18 11:28
