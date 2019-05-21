@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Stack;
 
 /**
- * Description: Simplify Path
+ * Description: 71. Simplify Path
  *
  * @author Baltan
  * @date 2018/9/24 10:57
