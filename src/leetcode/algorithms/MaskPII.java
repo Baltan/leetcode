@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Masking Personal Information
+ * Description: 831. Masking Personal Information
  *
  * @author Baltan
  * @date 2019-05-04 09:23
