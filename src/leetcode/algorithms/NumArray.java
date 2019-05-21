@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description:Range Sum Query - Immutable
+ * Description: 303. Range Sum Query - Immutable
  *
  * @author Baltan
  * @date 2018/1/8 14:09
