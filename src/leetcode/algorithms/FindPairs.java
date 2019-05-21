@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.ArrayList;
 
 /**
- * Description:K-diff Pairs in an Array
+ * Description: 532. K-diff Pairs in an Array
  * @author Baltan
  *
  * @date 2017/11/16 13:59
