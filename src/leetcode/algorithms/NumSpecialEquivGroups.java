@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: Groups of Special-Equivalent Strings
+ * Description: 893. Groups of Special-Equivalent Strings
  *
  * @author Baltan
  * @date 2019-03-14 17:17
