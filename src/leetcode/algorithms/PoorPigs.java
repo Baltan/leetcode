@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Poor Pigs
+ * Description: 458. Poor Pigs
  *
  * @author Baltan
  * @date 2018/8/8 10:02
