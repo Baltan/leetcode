@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Maximum Difference Between Node and Ancestor
+ * Description: 1026. Maximum Difference Between Node and Ancestor
  *
  * @author Baltan
  * @date 2019-04-15 13:37
