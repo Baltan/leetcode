@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Convert BST to Greater Tree
+ * Description: 538. Convert BST to Greater Tree
  *
  * @author Baltan
  * @date 2019-02-25 10:02
