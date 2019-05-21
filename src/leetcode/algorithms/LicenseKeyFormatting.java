@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description:License Key Formatting
+ * Description: 482. License Key Formatting
  *
  * @author Baltan
  * @date 2018/1/4 17:13
