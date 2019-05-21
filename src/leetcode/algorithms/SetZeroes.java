@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Set Matrix Zeroes
+ * Description: 73. Set Matrix Zeroes
  *
  * @author Baltan
  * @date 2018/9/24 11:58
