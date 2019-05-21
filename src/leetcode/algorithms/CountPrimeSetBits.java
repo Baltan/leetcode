@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Description: Prime Number of Set Bits in Binary Representation
+ * Description: 762. Prime Number of Set Bits in Binary Representation
  *
  * @author Baltan
  * @date 2018/7/31 14:50
