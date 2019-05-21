@@ -4,7 +4,7 @@ import leetcode.entity.ListNode;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Partition List
+ * Description: 86. Partition List
  *
  * @author Baltan
  * @date 2019-03-26 09:13
