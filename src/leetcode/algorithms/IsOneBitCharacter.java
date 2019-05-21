@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:1-bit and 2-bit Characters
+ * Description: 717. 1-bit and 2-bit Characters
  * @author Baltan
  *
  * @date 2017/11/7 09:42
