@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.ListNode;
 
 /**
- * Description: Linked List Cycle
+ * Description: 141. Linked List Cycle
  *
  * @author Baltan
  * @date 2018/8/9 23:11
