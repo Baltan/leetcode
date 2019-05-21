@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Find Smallest Letter Greater Than Target
+ * Description: 744. Find Smallest Letter Greater Than Target
  *
  * @author Baltan
  * @date 2017/12/31 14:15
