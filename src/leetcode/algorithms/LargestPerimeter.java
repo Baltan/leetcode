@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description: Largest Perimeter Triangle
+ * Description: 976. Largest Perimeter Triangle
  *
  * @author Baltan
  * @date 2019-03-15 09:39
