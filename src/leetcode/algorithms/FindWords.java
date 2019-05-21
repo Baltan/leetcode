@@ -17,7 +17,7 @@ public class FindWords {
     }
 
     public static String[] findWords(String[] words) {
-        ArrayList<String> al = new ArrayList<String>();
+        ArrayList<String> al = new ArrayList<>();
         String[] keyboardArr = {"qwertyuiop", "asdfghjkl", "zxcvbnm"};
         for (int i = 0; i < words.length; i++) {
             String word = words[i];
@@ -39,6 +39,6 @@ public class FindWords {
                 al.add(word);
             }
         }
-        return (String[]) al.toArray(new String[0]);
+        return al.toArray(new String[0]);
     }
 }
