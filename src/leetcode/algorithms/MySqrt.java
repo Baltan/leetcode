@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Sqrt(x)
+ * Description: 69. Sqrt(x)
  *
  * @author Baltan
  * @date 2018/7/27 11:19
