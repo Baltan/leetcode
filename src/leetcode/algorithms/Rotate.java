@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description:Rotate Array
+ * Description: 189. Rotate Array
  *
  * @author Baltan
  * @date 2017/11/17 10:51
