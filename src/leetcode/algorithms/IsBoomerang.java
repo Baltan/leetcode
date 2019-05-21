@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description: Valid Boomerang
+ * Description: 1037. Valid Boomerang
  *
  * @author Baltan
  * @date 2019-05-06 08:59
