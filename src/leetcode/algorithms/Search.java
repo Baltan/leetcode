@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Binary Search
+ * Description: 704. Binary Search
  *
  * @author Baltan
  * @date 2018/8/11 00:48
