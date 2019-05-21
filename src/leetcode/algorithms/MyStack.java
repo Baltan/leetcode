@@ -4,13 +4,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Description:Implement Stack using Queues
+ * Description: 225. Implement Stack using Queues
  *
  * @author Baltan
  * @date 2018/1/7 10:34
  */
 public class MyStack {
-
     Queue<Integer> queue = new LinkedList<>();
     Queue<Integer> tempQueue = new LinkedList<>();
 
