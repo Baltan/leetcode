@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Design Linked List
+ * Description: 707. Design Linked List
  *
  * @author Baltan
  * @date 2019/3/18 13:22
