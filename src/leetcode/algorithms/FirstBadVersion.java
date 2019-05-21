@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: First Bad Version
+ * Description: 278. First Bad Version
  *
  * @author Baltan
  * @date 2018/8/11 00:09
