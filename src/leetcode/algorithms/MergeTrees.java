@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Merge Two Binary Trees
+ * Description: 617. Merge Two Binary Trees
  *
  * @author Baltan
  * @date 2018/7/30 14:32
