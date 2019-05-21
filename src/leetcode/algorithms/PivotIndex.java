@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Find Pivot Index
+ * Description: 724. Find Pivot Index
  * @author Baltan
  *
  * @date 2017/11/12 16:06
