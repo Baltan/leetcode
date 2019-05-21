@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Reverse Vowels of a String
+ * Description: 345. Reverse Vowels of a String
  *
  * @author Baltan
  * @date 2017/11/24 14:15
