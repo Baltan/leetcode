@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Arranging Coins
+ * Description: 441. Arranging Coins
  *
  * @author Baltan
  * @date 2018/1/6 20:54
