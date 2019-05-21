@@ -4,7 +4,7 @@ import leetcode.entity.ListNode;
 import leetcode.util.OutputUtils;
 
 /**
- * Description:Remove Duplicates from Sorted List
+ * Description: 83. Remove Duplicates from Sorted List
  *
  * @author Baltan
  * @date 2018/1/5 15:17
