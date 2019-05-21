@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description: Longest Arithmetic Sequence
+ * Description: 1027. Longest Arithmetic Sequence
  *
  * @author Baltan
  * @date 2019-04-19 10:28
