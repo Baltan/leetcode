@@ -4,7 +4,7 @@ import leetcode.entity.ListNode;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Rotate List
+ * Description: 61. Rotate List
  *
  * @author Baltan
  * @date 2018/9/20 09:58
