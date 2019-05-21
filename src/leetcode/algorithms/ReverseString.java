@@ -2,8 +2,8 @@ package leetcode.algorithms;
 
 /**
  * Description: 344. Reverse String
- * @author Baltan
  *
+ * @author Baltan
  * @date 2017/11/17 14:22
  */
 public class ReverseString {
@@ -15,7 +15,7 @@ public class ReverseString {
     public static String reverseString(String s) {
         StringBuilder sb = new StringBuilder();
         for (int i = s.length() - 1; i >= 0; i--) {
-            sb.append(s.substring(i, i + 1));
+            sb.append(s, i, i + 1);
         }
         return sb.toString();
     }
