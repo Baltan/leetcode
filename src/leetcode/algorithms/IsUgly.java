@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Ugly Number
+ * Description: 263. Ugly Number
  *
  * @author Baltan
  * @date 2018/1/6 19:43
