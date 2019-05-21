@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description: Rabbits in Forest
+ * Description: 781. Rabbits in Forest
  *
  * @author Baltan
  * @date 2018/8/21 16:38
@@ -14,10 +14,10 @@ public class NumRabbits {
         System.out.println(numRabbits(new int[]{1, 1, 2}));
         System.out.println(numRabbits(new int[]{10, 10, 10}));
         System.out.println(numRabbits(new int[]{}));
-        System.out.println(numRabbits(new int[]{1, 0, 1, 0, 0})); // 5
-        System.out.println(numRabbits(new int[]{0, 0, 1, 1, 1})); // 6
-        System.out.println(numRabbits(new int[]{2, 1, 2, 2, 2, 2, 2, 2, 1, 1})); // 13
-        System.out.println(numRabbits(new int[]{0, 1, 0, 2, 0, 1, 0, 2, 1, 1})); // 11
+        System.out.println(numRabbits(new int[]{1, 0, 1, 0, 0}));
+        System.out.println(numRabbits(new int[]{0, 0, 1, 1, 1}));
+        System.out.println(numRabbits(new int[]{2, 1, 2, 2, 2, 2, 2, 2, 1, 1}));
+        System.out.println(numRabbits(new int[]{0, 1, 0, 2, 0, 1, 0, 2, 1, 1}));
     }
 
     public static int numRabbits(int[] answers) {
