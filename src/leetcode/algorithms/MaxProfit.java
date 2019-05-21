@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Best Time to Buy and Sell Stock
+ * Description: 121. Best Time to Buy and Sell Stock
  * @author Baltan
  *
  * @date 2017/11/7 20:03
