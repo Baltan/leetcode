@@ -1,3 +1,4 @@
+# 184. Department Highest Salary
 select d.Name Department, b.name Employee, b.salary Salary
 from Department d,
      (select e2.Name name, a.salary salary, a.id id
