@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Factorial Trailing Zeroes
+ * Description: 172. Factorial Trailing Zeroes
  *
  * @author Baltan
  * @date 2018/1/6 20:30
