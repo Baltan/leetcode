@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.stream.IntStream;
 
 /**
- * Description: Beautiful Arrangement
+ * Description: 526. Beautiful Arrangement
  *
  * @author Baltan
  * @date 2019-04-26 10:45
