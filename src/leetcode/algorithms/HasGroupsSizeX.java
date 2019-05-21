@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description: X of a Kind in a Deck of Cards
+ * Description: 914. X of a Kind in a Deck of Cards
  *
  * @author Baltan
  * @date 2019-03-17 08:58
