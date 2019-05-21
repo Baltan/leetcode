@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Next Permutation
+ * Description: 31. Next Permutation
  *
  * @author Baltan
  * @date 2018/9/3 10:05
