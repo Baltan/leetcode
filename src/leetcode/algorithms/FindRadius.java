@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description:Heaters
+ * Description: 475. Heaters
  *
  * @author Baltan
  * @date 2018/1/8 20:40
