@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Leaf-Similar Trees
+ * Description: 872. Leaf-Similar Trees
  *
  * @author Baltan
  * @date 2018/8/11 22:21
