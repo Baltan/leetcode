@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Description: N-Repeated Element in Size 2N Array
+ * Description: 961. N-Repeated Element in Size 2N Array
  *
  * @author Baltan
  * @date 2019-03-12 09:45
