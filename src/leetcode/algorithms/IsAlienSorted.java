@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description: Verifying an Alien Dictionary
+ * Description: 953. Verifying an Alien Dictionary
  *
  * @author Baltan
  * @date 2019-03-15 09:54
