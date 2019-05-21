@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Counting Bits
+ * Description: 338. Counting Bits
  *
  * @author Baltan
  * @date 2018/1/11 10:45
