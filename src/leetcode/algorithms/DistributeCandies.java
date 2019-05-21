@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Description:Distribute Candies
+ * Description: 575. Distribute Candies
  *
  * @author Baltan
  * @date 2017/12/29 16:01
