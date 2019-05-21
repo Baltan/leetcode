@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Description: Friend Circles
+ * Description: 547. Friend Circles
  *
  * @author Baltan
  * @date 2019-05-10 09:44
