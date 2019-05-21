@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Best Sightseeing Pair
+ * Description: 1014. Best Sightseeing Pair
  *
  * @author Baltan
  * @date 2019-04-28 10:41
