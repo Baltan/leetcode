@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description:Degree of an Array
+ * Description: 697. Degree of an Array
  * @author Baltan
  *
  * @date 2017/11/7 11:29
