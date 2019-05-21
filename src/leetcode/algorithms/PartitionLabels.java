@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Partition Labels
+ * Description: 763. Partition Labels
  *
  * @author Baltan
  * @date 2018/8/11 20:41
