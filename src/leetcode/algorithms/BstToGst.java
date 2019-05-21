@@ -4,7 +4,7 @@ import leetcode.entity.TreeNode;
 import leetcode.util.BinaryTreeUtils;
 
 /**
- * Description: Binary Search Tree to Greater Sum Tree
+ * Description: 1038. Binary Search Tree to Greater Sum Tree
  * @see ConvertBST
  *
  * @author Baltan
