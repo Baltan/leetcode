@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:
+ * Description: 374. Guess Number Higher or Lower
  *
  * @author Baltan
  * @date 2018/8/9 16:15
