@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Stack;
 
 /**
- * Description: Remove All Adjacent Duplicates In String
+ * Description: 1047. Remove All Adjacent Duplicates In String
  *
  * @author Baltan
  * @date 2019-05-19 14:25
