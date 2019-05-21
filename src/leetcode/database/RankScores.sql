@@ -1,3 +1,4 @@
+# 178. Rank Scores
 select s2.Score, c.rank
 from Scores s2,
      (select @rank := @rank + 1 rank, a.score score
