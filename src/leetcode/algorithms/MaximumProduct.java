@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description:Maximum Product of Three Numbers
+ * Description: 628. Maximum Product of Three Numbers
  * @author Baltan
  *
  * @date 2017/11/7 19:35
