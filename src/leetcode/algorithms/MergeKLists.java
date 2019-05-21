@@ -4,7 +4,7 @@ import leetcode.entity.ListNode;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Merge k Sorted Lists
+ * Description: 23. Merge k Sorted Lists
  *
  * @author Baltan
  * @date 2018/8/31 14:17
