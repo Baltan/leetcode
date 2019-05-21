@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Maximum Subarray
+ * Description: 53. Maximum Subarray
  * @author Baltan
  *
  * @date 2017/11/8 09:22
