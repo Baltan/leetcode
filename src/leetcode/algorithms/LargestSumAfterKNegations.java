@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description: Maximize Sum Of Array After K Negations
+ * Description: 1005. Maximize Sum Of Array After K Negations
  *
  * @author Baltan
  * @date 2019-03-15 14:51
