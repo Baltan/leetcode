@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Sum of Root To Leaf Binary Numbers
+ * Description: 1022. Sum of Root To Leaf Binary Numbers
  *
  * @author Baltan
  * @date 2019-04-08 09:12
