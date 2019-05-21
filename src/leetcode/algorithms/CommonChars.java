@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Description: Find Common Characters
+ * Description: 1002. Find Common Characters
  *
  * @author Baltan
  * @date 2019-03-13 11:06
