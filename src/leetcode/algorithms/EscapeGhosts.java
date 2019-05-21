@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Escape The Ghosts
+ * Description: 789. Escape The Ghosts
  *
  * @author Baltan
  * @date 2019-05-08 10:11
