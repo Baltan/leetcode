@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Student Attendance Record I
+ * Description: 551. Student Attendance Record I
  *
  * @author Baltan
  * @date 2017/11/24 10:02
