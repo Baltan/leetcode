@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Binary Tree Paths
+ * Description: 257. Binary Tree Paths
  *
  * @author Baltan
  * @date 2018/8/8 09:33
