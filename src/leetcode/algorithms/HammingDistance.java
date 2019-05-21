@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Hamming Distance
+ * Description: 461. Hamming Distance
  * @author Baltan
  *
  * @date 2017/11/7 11:29
