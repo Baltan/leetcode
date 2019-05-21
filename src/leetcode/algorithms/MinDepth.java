@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Minimum Depth of Binary Tree
+ * Description: 111. Minimum Depth of Binary Tree
  *
  * @author Baltan
  * @date 2018/8/10 15:14
