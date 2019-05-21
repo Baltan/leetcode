@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Detect Capital
+ * Description: 520. Detect Capital
  * @author Baltan
  *
  * @date 2017/11/17 14:57
