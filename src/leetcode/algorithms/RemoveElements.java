@@ -4,7 +4,7 @@ import leetcode.entity.ListNode;
 import leetcode.util.OutputUtils;
 
 /**
- * Description:Remove Linked List Elements
+ * Description: 203. Remove Linked List Elements
  *
  * @author Baltan
  * @date 2018/1/8 09:49
