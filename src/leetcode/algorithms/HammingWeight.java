@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Number of 1 Bits
+ * Description: 191. Number of 1 Bits
  *
  * @author Baltan
  * @date 2018/1/9 16:09
