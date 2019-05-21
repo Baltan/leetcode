@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Diameter of Binary Tree
+ * Description: 543. Diameter of Binary Tree
  *
  * @author Baltan
  * @date 2019-03-16 12:16
