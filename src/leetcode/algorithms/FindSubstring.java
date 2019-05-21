@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: Substring with Concatenation of All Words
+ * Description: 30. Substring with Concatenation of All Words
  *
  * @author Baltan
  * @date 2018/9/2 14:28
