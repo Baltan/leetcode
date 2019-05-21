@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Flipping an Image
+ * Description: 832. Flipping an Image
  *
  * @author Baltan
  * @date 2018/7/30 10:39
