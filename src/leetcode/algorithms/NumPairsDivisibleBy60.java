@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Pairs of Songs With Total Durations Divisible by 60
+ * Description: 1010. Pairs of Songs With Total Durations Divisible by 60
  *
  * @author Baltan
  * @date 2019-03-18 10:29
