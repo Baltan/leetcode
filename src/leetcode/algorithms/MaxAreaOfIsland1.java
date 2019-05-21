@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Max Area of Island
+ * Description: 695. Max Area of Island
  *
  * @author Baltan
  * @date 2018/8/7 15:11
