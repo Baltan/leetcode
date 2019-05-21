@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Clumsy Factorial
+ * Description: 1006. Clumsy Factorial
  *
  * @author Baltan
  * @date 2019-04-26 09:31
