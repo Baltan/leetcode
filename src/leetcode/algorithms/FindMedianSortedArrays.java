@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.Arrays;
 
 /**
- * Description:Median of Two Sorted Arrays
+ * Description: 4. Median of Two Sorted Arrays
  *
  * @author Baltan
  * @date 2018/1/12 09:53
