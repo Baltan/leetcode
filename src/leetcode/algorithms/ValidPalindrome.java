@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Valid Palindrome II
+ * Description: 680. Valid Palindrome II
  *
  * @author Baltan
  * @date 2017/11/27 09:45
@@ -56,8 +56,8 @@ public class ValidPalindrome {
                     StringBuilder sb1 = new StringBuilder();
                     StringBuilder sb2 = new StringBuilder();
                     for (int i = s1.length() - 1; i >= 0; i--) {
-                        sb1.append(s1.substring(i, i + 1));
-                        sb2.append(s2.substring(i, i + 1));
+                        sb1.append(s1, i, i + 1);
+                        sb2.append(s2, i, i + 1);
                     }
                     if (s1.equals(sb1.toString()) || s2.equals(sb2.toString())) {
                         return true;
