@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Minimum Moves to Equal Array Elements
+ * Description: 453. Minimum Moves to Equal Array Elements
  *
  * @author Baltan
  * @date 2018/1/2 15:51
