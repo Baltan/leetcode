@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Climbing Stairs
+ * Description: 70. Climbing Stairs
  *
  * @author Baltan
  * @date 2018/1/5 11:23
