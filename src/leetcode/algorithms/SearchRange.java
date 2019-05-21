@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Find First and Last Position of Element in Sorted Array
+ * Description: 34. Find First and Last Position of Element in Sorted Array
  *
  * @author Baltan
  * @date 2019-05-17 09:08
