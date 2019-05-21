@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Find Mode in Binary Search Tree
+ * Description: 501. Find Mode in Binary Search Tree
  *
  * @author Baltan
  * @date 2019-03-01 09:54
