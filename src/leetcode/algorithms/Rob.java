@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: House Robber
+ * Description: 198. House Robber
  *
  * @author Baltan
  * @date 2018/8/8 16:23
