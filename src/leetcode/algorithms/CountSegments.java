@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Number of Segments in a String
+ * Description: 434. Number of Segments in a String
  *
  * @author Baltan
  * @date 2017/11/24 16:18
