@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Long Pressed Name
+ * Description: 925. Long Pressed Name
  *
  * @author Baltan
  * @date 2019-03-16 16:00
