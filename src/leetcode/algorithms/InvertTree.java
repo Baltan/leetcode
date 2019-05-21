@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Invert Binary Tree
+ * Description: 226. Invert Binary Tree
  *
  * @author Baltan
  * @date 2018/7/31 16:24
