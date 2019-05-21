@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Minimum Absolute Difference in BST
+ * Description: 530. Minimum Absolute Difference in BST
  *
  * @author Baltan
  * @date 2019-02-25 11:19
