@@ -4,13 +4,12 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Same Tree
+ * Description: 100. Same Tree
  *
  * @author Baltan
  * @date 2018/7/27 14:30
  */
 public class IsSameTree {
-
     public static void main(String[] args) {
         TreeNode node1 = new TreeNode(1);
         TreeNode node11 = new TreeNode(2);
