@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Description: Longest Word in Dictionary
+ * Description: 720. Longest Word in Dictionary
  *
  * @author Baltan
  * @date 2018/8/8 15:32
