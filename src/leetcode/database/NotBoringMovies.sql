@@ -1,3 +1,4 @@
+# 620. Not Boring Movies
 select c.id, c.movie, c.description, c.rating
 from cinema c
 where c.description != "boring"
