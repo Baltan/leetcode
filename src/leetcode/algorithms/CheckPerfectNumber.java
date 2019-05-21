@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Perfect Number
+ * Description: 507. Perfect Number
  *
  * @author Baltan
  * @date 2018/1/8 09:40
