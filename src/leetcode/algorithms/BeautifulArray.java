@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Beautiful Array
+ * Description: 932. Beautiful Array
  *
  * @author Baltan
  * @date 2019-03-28 09:42
