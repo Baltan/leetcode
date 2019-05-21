@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.QuadTreeNode;
 
 /**
- * Description:
+ * Description: 427. Construct Quad Tree
  *
  * @author Baltan
  * @date 2018/8/5 13:55
