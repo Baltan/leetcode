@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description:Longest Harmonious Subsequence
+ * Description: 594. Longest Harmonious Subsequence
  *
  * @author Baltan
  * @date 2018/1/4 21:50
