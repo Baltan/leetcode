@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Excel Sheet Column Number
+ * Description: 171. Excel Sheet Column Number
  *
  * @author Baltan
  * @date 2018/1/2 15:28
