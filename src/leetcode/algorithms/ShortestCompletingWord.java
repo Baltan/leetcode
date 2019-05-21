@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description:Shortest Completing Word
+ * Description: 748. Shortest Completing Word
  *
  * @author Baltan
  * @date 2018/1/11 16:28
