@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description:Word Pattern
+ * Description: 290. Word Pattern
  *
  * @author Baltan
  * @date 2018/1/7 10:58
