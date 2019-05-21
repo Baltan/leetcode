@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description:Number of Boomerangs
+ * Description: 447. Number of Boomerangs
  *
  * @author Baltan
  * @date 2018/1/3 17:03
