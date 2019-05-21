@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Jump Game
+ * Description: 55. Jump Game
  *
  * @author Baltan
  * @date 2018/9/17 10:09
