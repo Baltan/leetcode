@@ -1,14 +1,15 @@
 package leetcode.algorithms;
 
 /**
- * Description:Judge Route Circle
- * @author Baltan
+ * Description: 657. Robot Return to Origin
  *
+ * @author Baltan
  * @date 2017/11/17 14:13
  */
 public class JudgeCircle {
     public static void main(String[] args) {
-
+        System.out.println(judgeCircle("UD"));
+        System.out.println(judgeCircle("LL"));
     }
 
     public static boolean judgeCircle(String moves) {
