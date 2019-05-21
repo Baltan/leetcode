@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Nth Digit
+ * Description: 400. Nth Digit
  *
  * @author Baltan
  * @date 2018/1/8 16:38
