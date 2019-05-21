@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Lemonade Change
+ * Description: 860. Lemonade Change
  *
  * @author Baltan
  * @date 2018/8/1 17:29
