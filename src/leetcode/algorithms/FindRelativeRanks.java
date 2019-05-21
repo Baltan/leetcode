@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description: Relative Ranks
+ * Description: 506. Relative Ranks
  *
  * @author Baltan
  * @date 2018/1/3 13:25
