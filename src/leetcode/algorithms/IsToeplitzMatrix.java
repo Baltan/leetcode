@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Toeplitz Matrix
+ * Description: 766. Toeplitz Matrix
  *
  * @author Baltan
  * @date 2018/7/31 11:45
