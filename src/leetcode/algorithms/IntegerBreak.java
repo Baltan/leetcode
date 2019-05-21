@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Integer Break
+ * Description: 343. Integer Break
  *
  * @author Baltan
  * @date 2019-03-31 09:32
