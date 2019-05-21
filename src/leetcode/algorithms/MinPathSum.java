@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Minimum Path Sum
+ * Description: 64. Minimum Path Sum
  *
  * @author Baltan
  * @date 2018/9/21 12:13
