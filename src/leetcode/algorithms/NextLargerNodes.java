@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Next Greater Node In Linked List
+ * Description: 1019. Next Greater Node In Linked List
  *
  * @author Baltan
  * @date 2019-04-01 10:11
