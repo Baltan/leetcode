@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:Binary Number with Alternating Bits
+ * Description: 693. Binary Number with Alternating Bits
  *
  * @author Baltan
  * @date 2017/12/29 16:59
