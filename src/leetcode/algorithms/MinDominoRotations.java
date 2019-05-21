@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Description: Minimum Domino Rotations For Equal Row
+ * Description: 1007. Minimum Domino Rotations For Equal Row
  *
  * @author Baltan
  * @date 2019-04-28 11:27
