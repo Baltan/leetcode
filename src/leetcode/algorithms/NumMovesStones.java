@@ -5,7 +5,7 @@ import leetcode.util.OutputUtils;
 import java.util.Arrays;
 
 /**
- * Description: Moving Stones Until Consecutive
+ * Description: 1033. Moving Stones Until Consecutive
  *
  * @author Baltan
  * @date 2019-04-29 21:55
