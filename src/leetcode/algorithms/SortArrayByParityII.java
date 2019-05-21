@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: 905. Sort Array By Parity
+ * Description: 922. Sort Array By Parity II
  *
  * @author Baltan
  * @date 2019-03-14 14:11
