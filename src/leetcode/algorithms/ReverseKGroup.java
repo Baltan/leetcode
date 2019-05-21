@@ -4,7 +4,7 @@ import leetcode.entity.ListNode;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: Reverse Nodes in k-Group
+ * Description: 25. Reverse Nodes in k-Group
  *
  * @author Baltan
  * @date 2018/9/1 15:10
