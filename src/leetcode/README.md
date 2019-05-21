@@ -163,7 +163,7 @@
 * [401. Binary Watch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReadBinaryWatch.java)
 * [404. Sum of Left Leaves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfLeftLeaves.java)
 * [406. Queue Reconstruction by Height](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReconstructQueue.java)
-* [409. Longest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome2.java)
+* [409. Longest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome.java)
 * [412. Fizz Buzz](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FizzBuzz.java)
 * [413. Arithmetic Slices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfArithmeticSlices.java)
 * [414. Third Maximum Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThirdMax.java)
