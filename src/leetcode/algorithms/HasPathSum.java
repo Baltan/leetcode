@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Path Sum
+ * Description: 112. Path Sum
  *
  * @author Baltan
  * @date 2018/8/9 22:56
