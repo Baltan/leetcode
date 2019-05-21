@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Score After Flipping Matrix
+ * Description: 861. Score After Flipping Matrix
  *
  * @author Baltan
  * @date 2018/8/11 14:06
