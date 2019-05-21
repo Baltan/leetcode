@@ -63,7 +63,6 @@ public class FindTarget {
         list.addAll(midOrder(root.left));
         list.add(root.val);
         list.addAll(midOrder(root.right));
-
         return list;
     }
 }
