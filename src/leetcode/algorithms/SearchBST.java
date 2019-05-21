@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 
 /**
- * Description: Search in a Binary Search Tree
+ * Description: 700. Search in a Binary Search Tree
  *
  * @author Baltan
  * @date 2019-02-24 18:04
