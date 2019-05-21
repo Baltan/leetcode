@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description: Minimum Distance Between BST Nodes
+ * Description: 783. Minimum Distance Between BST Nodes
  *
  * @author Baltan
  * @date 2019-02-25 11:09
