@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: Divide Two Integers
+ * Description: 29. Divide Two Integers
  *
  * @author Baltan
  * @date 2019-03-20 09:48
@@ -16,6 +16,7 @@ public class Divide {
         System.out.println(divide(1, Integer.MIN_VALUE));
         System.out.println(divide(Integer.MAX_VALUE, 1));
         System.out.println(divide(Integer.MAX_VALUE, 3));
+        System.out.println(divide(Integer.MIN_VALUE, 2));
     }
 
     public static int divide(int dividend, int divisor) {
@@ -27,28 +28,22 @@ public class Divide {
             return dividend;
         }
 
-        boolean isDividendPositive;
-        boolean isDivisorPositive;
-        int quotient = 0;
+        if (dividend == 0) {
+            return 0;
+        }
 
-        if (dividend < 0) {
-            isDividendPositive = false;
+        if (dividend < 0 && divisor > 0) {
+            long lDividend = 0L - dividend;
+            return (int) -Math.exp(Math.log(lDividend) - Math.log(divisor));
+        } else if (dividend > 0 && divisor < 0) {
+            long lDivisor = 0L - divisor;
+            return (int) -Math.exp(Math.log(dividend) - Math.log(lDivisor));
+        } else if (dividend < 0 && divisor < 0) {
+            long lDividend = 0L - dividend;
+            long lDivisor = 0L - divisor;
+            return (int) Math.exp(Math.log(lDividend) - Math.log(lDivisor));
         } else {
-            isDividendPositive = true;
-            dividend = -dividend;
+            return (int) Math.exp(Math.log(dividend) - Math.log(divisor));
         }
-
-        if (divisor < 0) {
-            isDivisorPositive = false;
-        } else {
-            isDivisorPositive = true;
-            divisor = -divisor;
-        }
-
-        while (dividend <= divisor) {
-            quotient--;
-            dividend -= divisor;
-        }
-        return isDividendPositive == isDivisorPositive ? -quotient : quotient;
     }
 }
