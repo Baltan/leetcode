@@ -79,6 +79,7 @@
 * [90. Subsets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubsetsWithDup.java)
 * [91. Decode Ways](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumDecodings.java)
 * [93. Restore IP Addresses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreIpAddresses.java)
+* [94. Binary Tree Inorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InorderTraversal.java)
 * [100. Same Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSameTree.java)
 * [101. Symmetric Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSymmetric.java)
 * [104. Maximum Depth of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth.java)
