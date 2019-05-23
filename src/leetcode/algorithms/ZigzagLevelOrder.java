@@ -61,51 +61,45 @@ public class ZigzagLevelOrder {
         }
 
         Deque<TreeNode> queue = new LinkedList<>();
-        int levelCount = 1;
-        int count = 1;
         boolean flag = true;
 
         queue.addLast(root);
 
-        while (true) {
+        while (!queue.isEmpty()) {
             List<Integer> list = new LinkedList<>();
+            int size = queue.size();
 
-            while (count > 0) {
+            for (int i = 0; i < size; i++) {
                 if (flag) {
                     TreeNode node = queue.removeFirst();
                     if (node != null) {
                         list.add(node.val);
-                        queue.addLast(node.left);
-                        queue.addLast(node.right);
-                    } else {
-                        queue.addLast(null);
-                        queue.addLast(null);
+                        if (node.left != null) {
+                            queue.addLast(node.left);
+                        }
+                        if (node.right != null) {
+                            queue.addLast(node.right);
+                        }
                     }
-                    count--;
                 } else {
                     TreeNode node = queue.removeLast();
                     if (node != null) {
                         list.add(node.val);
-                        queue.addFirst(node.right);
-                        queue.addFirst(node.left);
-                    } else {
-                        queue.addFirst(null);
-                        queue.addFirst(null);
+                        if (node.right != null) {
+                            queue.addFirst(node.right);
+                        }
+                        if (node.left != null) {
+                            queue.addFirst(node.left);
+                        }
                     }
-                    count--;
                 }
 
-                if (count == 0) {
-                    levelCount = levelCount * 2;
-                    count = levelCount;
+                if (i == size - 1) {
                     flag = !flag;
-                    if (list.size() == 0) {
-                        return result;
-                    }
                     result.add(list);
-                    list = new LinkedList<>();
                 }
             }
         }
+        return result;
     }
 }
