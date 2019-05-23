@@ -85,6 +85,7 @@
 * [98. Validate Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidBST.java)
 * [100. Same Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSameTree.java)
 * [101. Symmetric Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSymmetric.java)
+* [102. Binary Tree Level Order Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LevelOrder1.java)
 * [103. Binary Tree Zigzag Level Order Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ZigzagLevelOrder.java)
 * [104. Maximum Depth of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth.java)
 * [107. Binary Tree Level Order Traversal II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LevelOrderBottom.java)
