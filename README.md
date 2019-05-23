@@ -82,6 +82,7 @@
 * [93. Restore IP Addresses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreIpAddresses.java)
 * [94. Binary Tree Inorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InorderTraversal.java)
 * [94. Binary Tree Inorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InorderTraversal1.java)
+* [98. Validate Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidBST.java)
 * [100. Same Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSameTree.java)
 * [101. Symmetric Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSymmetric.java)
 * [104. Maximum Depth of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth.java)
