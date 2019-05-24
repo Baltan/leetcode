@@ -51,16 +51,14 @@ public class BinaryTreeUtils {
     public static List<Integer> inOrder(TreeNode treeNode) {
         List<Integer> list = new ArrayList<>();
 
-        if (treeNode != null && treeNode.left != null) {
+        if (treeNode == null) {
+            return list;
+        } else {
             list.addAll(inOrder(treeNode.left));
-        }
-        if (treeNode != null) {
             list.add(treeNode.val);
-        }
-        if (treeNode != null && treeNode.right != null) {
             list.addAll(inOrder(treeNode.right));
+            return list;
         }
-        return list;
     }
 
     /**
@@ -74,12 +72,9 @@ public class BinaryTreeUtils {
 
         if (treeNode == null) {
             return list;
-        } else if (treeNode.left == null && treeNode.right == null) {
-            list.add(treeNode.val);
-            return list;
         } else {
-            list.addAll(preOrder(treeNode.left));
             list.add(treeNode.val);
+            list.addAll(preOrder(treeNode.left));
             list.addAll(preOrder(treeNode.right));
             return list;
         }
@@ -94,16 +89,14 @@ public class BinaryTreeUtils {
     public static List<Integer> postOrder(TreeNode treeNode) {
         List<Integer> list = new ArrayList<>();
 
-        if (treeNode != null && treeNode.left != null) {
+        if (treeNode == null) {
+            return list;
+        } else {
             list.addAll(postOrder(treeNode.left));
-        }
-        if (treeNode != null && treeNode.right != null) {
             list.addAll(postOrder(treeNode.right));
-        }
-        if (treeNode != null) {
             list.add(treeNode.val);
+            return list;
         }
-        return list;
     }
 
     /**
