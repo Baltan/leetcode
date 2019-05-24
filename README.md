@@ -95,6 +95,7 @@
 * [111. Minimum Depth of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDepth.java)
 * [112. Path Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasPathSum.java)
 * [113. Path Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathSum1.java)
+* [114. Flatten Binary Tree to Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Flatten.java)
 * [118. Pascal's Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Generate.java)
 * [119. Pascal's Triangle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetRow.java)
 * [121. Best Time to Buy and Sell Stock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit.java)
