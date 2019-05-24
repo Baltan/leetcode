@@ -11,7 +11,7 @@ import java.util.List;
  * @author Baltan
  * @date 2019-05-24 09:49
  */
-public class pathSum1 {
+public class PathSum1 {
     public static void main(String[] args) {
         /**
          * <pre>
