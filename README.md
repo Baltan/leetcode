@@ -97,6 +97,7 @@
 * [113. Path Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathSum1.java)
 * [114. Flatten Binary Tree to Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Flatten.java)
 * [116. Populating Next Right Pointers in Each Node](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Connect.java)
+* [117. Populating Next Right Pointers in Each Node II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Connect1.java)
 * [118. Pascal's Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Generate.java)
 * [119. Pascal's Triangle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetRow.java)
 * [121. Best Time to Buy and Sell Stock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit.java)
