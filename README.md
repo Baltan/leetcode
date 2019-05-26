@@ -438,3 +438,4 @@
 * [1046. Last Stone Weight](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastStoneWeight.java)
 * [1047. Remove All Adjacent Duplicates In String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicates2.java)
 * [1051. Height Checker](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HeightChecker.java)
+* [1052. Grumpy Bookstore Owner](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSatisfied.java)
