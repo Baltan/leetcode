@@ -106,6 +106,7 @@
 * [128. Longest Consecutive Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestConsecutive.java)
 * [129. Sum Root to Leaf Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumNumbers.java)
 * [130. Surrounded Regions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solve.java)
+* [131. Palindrome Partitioning](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Partition1.java)
 * [136. Single Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SingleNumber.java)
 * [139. Word Break](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordBreak.java)
 * [140. Word Break II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordBreak1.java)
