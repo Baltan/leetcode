@@ -1,7 +1,13 @@
 package leetcode.util;
 
+import leetcode.entity.GraphNode;
 import leetcode.entity.ListNode;
 import leetcode.entity.TreeNode;
+
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Set;
 
 /**
  * Description: 输出类
@@ -106,5 +112,29 @@ public class OutputUtils {
         printPostOrderBinaryTree(root.left);
         printPostOrderBinaryTree(root.right);
         System.out.println(root.val);
+    }
+
+    public static void printGraphNode(GraphNode node) {
+        if (node == null) {
+            System.out.println();
+        }
+
+        Set<GraphNode> set = new HashSet<>();
+        Queue<GraphNode> queue = new LinkedList<>();
+        queue.offer(node);
+
+        while (!queue.isEmpty()) {
+            GraphNode gn = queue.poll();
+            if (!set.contains(gn)) {
+                set.add(gn);
+                for (GraphNode neighbor : gn.neighbors) {
+                    if (!set.contains(neighbor)) {
+                        queue.offer(neighbor);
+                    }
+                }
+                System.out.format("GraphNode[val=%s,neighbors=%s]", gn.val, gn.neighbors);
+                System.out.println();
+            }
+        }
     }
 }
