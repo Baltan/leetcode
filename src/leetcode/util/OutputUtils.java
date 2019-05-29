@@ -10,7 +10,6 @@ import leetcode.entity.TreeNode;
  * @date 2018/7/30 15:42
  */
 public class OutputUtils {
-
     public static void print1DIntegerArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "\t");
@@ -25,9 +24,42 @@ public class OutputUtils {
         System.out.println();
     }
 
+    public static void print1DBooleanArray(boolean[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + "\t");
+        }
+        System.out.println();
+    }
+
     public static void print2DIntegerArray(int[][] arr) {
         if (arr != null) {
             int[] ele;
+            for (int i = 0; i < arr.length; i++) {
+                ele = arr[i];
+                for (int j = 0; j < ele.length; j++) {
+                    System.out.print(ele[j] + "\t");
+                }
+                System.out.println();
+            }
+        }
+    }
+
+    public static void print2DStringArray(String[][] arr) {
+        if (arr != null) {
+            String[] ele;
+            for (int i = 0; i < arr.length; i++) {
+                ele = arr[i];
+                for (int j = 0; j < ele.length; j++) {
+                    System.out.print(ele[j] + "\t");
+                }
+                System.out.println();
+            }
+        }
+    }
+
+    public static void print2DBooleanArray(boolean[][] arr) {
+        if (arr != null) {
+            boolean[] ele;
             for (int i = 0; i < arr.length; i++) {
                 ele = arr[i];
                 for (int j = 0; j < ele.length; j++) {
@@ -56,5 +88,23 @@ public class OutputUtils {
         System.out.println(root.val);
         printPreOrderBinaryTree(root.left);
         printPreOrderBinaryTree(root.right);
+    }
+
+    public static void printInOrderBinaryTree(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        printInOrderBinaryTree(root.left);
+        System.out.println(root.val);
+        printInOrderBinaryTree(root.right);
+    }
+
+    public static void printPostOrderBinaryTree(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        printPostOrderBinaryTree(root.left);
+        printPostOrderBinaryTree(root.right);
+        System.out.println(root.val);
     }
 }
