@@ -2,6 +2,7 @@ package leetcode.util;
 
 import leetcode.entity.GraphNode;
 import leetcode.entity.ListNode;
+import leetcode.entity.RandomNode;
 import leetcode.entity.TreeNode;
 
 import java.util.HashSet;
@@ -77,14 +78,25 @@ public class OutputUtils {
     }
 
     public static void printListNode(ListNode listNode) {
-        if (listNode != null) {
-            System.out.print(listNode.val + "\t");
-            while (listNode.next != null) {
-                System.out.print(listNode.next.val + "\t");
-                listNode = listNode.next;
+        Set<ListNode> set = new HashSet<>();
+
+        while (listNode != null) {
+            set.add(listNode);
+            System.out.format("[val=%s,next.val=%s]", listNode.val,
+                    listNode.next == null ? null : listNode.next.val);
+            listNode = listNode.next;
+
+            if (listNode != null) {
+                System.out.print(" ==> ");
             }
-            System.out.println();
+
+            if (set.contains(listNode)) {
+                System.out.format("[val=%s,next.val=%s]", listNode.val,
+                        listNode.next == null ? null : listNode.next.val);
+                break;
+            }
         }
+        System.out.println();
     }
 
     public static void printPreOrderBinaryTree(TreeNode root) {
@@ -136,5 +148,31 @@ public class OutputUtils {
                 System.out.println();
             }
         }
+    }
+
+    public static void printRandomNode(RandomNode randomNode) {
+        Set<RandomNode> set = new HashSet<>();
+
+        while (randomNode != null) {
+            set.add(randomNode);
+            System.out.format("[val=%s,next.val=%s,random.val=%s]", randomNode.val,
+                    randomNode.next == null ?
+                            null : randomNode.next.val, randomNode.random == null ?
+                            null : randomNode.random.val);
+            randomNode = randomNode.next;
+
+            if (randomNode != null) {
+                System.out.print(" ==> ");
+            }
+
+            if (set.contains(randomNode)) {
+                System.out.format("[val=%s,next.val=%s,random.val=%s]", randomNode.val,
+                        randomNode.next == null ?
+                                null : randomNode.next.val, randomNode.random == null ?
+                                null : randomNode.random.val);
+                break;
+            }
+        }
+        System.out.println();
     }
 }
