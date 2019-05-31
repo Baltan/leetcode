@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class BstFromPreorder {
     public static void main(String[] args) {
         TreeNode root1 = bstFromPreorder(new int[]{8, 5, 1, 7, 10, 12});
-        System.out.println(BinaryTreeUtils.inOrder(root1));
+        System.out.println(BinaryTreeUtils.recursivelyInOrder(root1));
     }
 
     public static TreeNode bstFromPreorder(int[] preorder) {
