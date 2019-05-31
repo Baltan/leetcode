@@ -37,7 +37,7 @@ public class IncreasingBST {
         node8.left = node7;
         node8.right = node9;
 
-        System.out.println(BinaryTreeUtils.inOrder(increasingBST(node5)));
+        System.out.println(BinaryTreeUtils.recursivelyInOrder(increasingBST(node5)));
     }
 
     public static TreeNode increasingBST(TreeNode root) {
