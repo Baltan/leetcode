@@ -117,6 +117,7 @@
 * [139. Word Break](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordBreak.java)
 * [140. Word Break II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordBreak1.java)
 * [141. Linked List Cycle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasCycle.java)
+* [142. Linked List Cycle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DetectCycle.java)
 * [149. Max Points on a Line](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints.java)
 * [151. Reverse Words in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseWords1.java)
 * [155. Min Stack](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinStack.java)
