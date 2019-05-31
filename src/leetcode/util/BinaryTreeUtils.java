@@ -5,6 +5,7 @@ import leetcode.entity.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Description: 二叉树操作
@@ -43,57 +44,111 @@ public class BinaryTreeUtils {
     }
 
     /**
-     * 中序遍历二叉树
+     * 中序遍历二叉树（递归）
      *
      * @param treeNode
      * @return
      */
-    public static List<Integer> inOrder(TreeNode treeNode) {
+    public static List<Integer> recursivelyInOrder(TreeNode treeNode) {
         List<Integer> list = new ArrayList<>();
 
         if (treeNode == null) {
             return list;
         } else {
-            list.addAll(inOrder(treeNode.left));
+            list.addAll(recursivelyInOrder(treeNode.left));
             list.add(treeNode.val);
-            list.addAll(inOrder(treeNode.right));
+            list.addAll(recursivelyInOrder(treeNode.right));
             return list;
         }
     }
 
     /**
-     * 前序遍历二叉树
+     * 中序遍历二叉树（迭代）
      *
      * @param treeNode
      * @return
      */
-    public static List<Integer> preOrder(TreeNode treeNode) {
+    public static List<Integer> iterativelyInOrder(TreeNode treeNode) {
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        while (treeNode != null || !stack.isEmpty()) {
+            if (treeNode != null) {
+                stack.push(treeNode);
+                treeNode = treeNode.left;
+            } else {
+                treeNode = stack.pop();
+                list.add(treeNode.val);
+                treeNode = treeNode.right;
+            }
+        }
+        return list;
+    }
+
+    /**
+     * 前序遍历二叉树（递归）
+     *
+     * @param treeNode
+     * @return
+     */
+    public static List<Integer> recursivelyPreOrder(TreeNode treeNode) {
         List<Integer> list = new ArrayList<>();
 
         if (treeNode == null) {
             return list;
         } else {
             list.add(treeNode.val);
-            list.addAll(preOrder(treeNode.left));
-            list.addAll(preOrder(treeNode.right));
+            list.addAll(recursivelyPreOrder(treeNode.left));
+            list.addAll(recursivelyPreOrder(treeNode.right));
             return list;
         }
     }
 
     /**
-     * 后序遍历二叉树
+     * 前序遍历二叉树（迭代）
      *
      * @param treeNode
      * @return
      */
-    public static List<Integer> postOrder(TreeNode treeNode) {
+    public static List<Integer> iterativelyPreOrder(TreeNode treeNode) {
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        if (treeNode == null) {
+            return list;
+        }
+
+        stack.push(treeNode);
+
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            list.add(node.val);
+
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
+        return list;
+    }
+
+    /**
+     * 后序遍历二叉树（递归）
+     *
+     * @param treeNode
+     * @return
+     */
+    public static List<Integer> recursivelyPostOrder(TreeNode treeNode) {
         List<Integer> list = new ArrayList<>();
 
         if (treeNode == null) {
             return list;
         } else {
-            list.addAll(postOrder(treeNode.left));
-            list.addAll(postOrder(treeNode.right));
+            list.addAll(recursivelyPostOrder(treeNode.left));
+            list.addAll(recursivelyPostOrder(treeNode.right));
             list.add(treeNode.val);
             return list;
         }
