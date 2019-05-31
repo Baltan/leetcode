@@ -120,6 +120,7 @@
 * [142. Linked List Cycle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DetectCycle.java)
 * [143. Reorder List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderList.java)
 * [144. Binary Tree Preorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PreorderTraversal.java)
+* [146. LRU Cache](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LRUCache.java)
 * [149. Max Points on a Line](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints.java)
 * [151. Reverse Words in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseWords1.java)
 * [155. Min Stack](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinStack.java)
