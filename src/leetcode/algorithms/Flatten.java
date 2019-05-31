@@ -32,21 +32,21 @@ public class Flatten {
         treeNode12.right = treeNode15;
         treeNode13.right = treeNode16;
         flatten(treeNode11);
-        System.out.println(BinaryTreeUtils.inOrder(treeNode11));
+        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode11));
 
         TreeNode treeNode21 = new TreeNode(1);
         TreeNode treeNode22 = new TreeNode(2);
         treeNode21.left = treeNode22;
         flatten(treeNode21);
-        System.out.println(BinaryTreeUtils.inOrder(treeNode21));
+        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode21));
 
         TreeNode treeNode31 = new TreeNode(1);
         flatten(treeNode31);
-        System.out.println(BinaryTreeUtils.inOrder(treeNode31));
+        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode31));
 
         TreeNode treeNode41 = null;
         flatten(treeNode41);
-        System.out.println(BinaryTreeUtils.inOrder(treeNode41));
+        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode41));
     }
 
     public static void flatten(TreeNode root) {
