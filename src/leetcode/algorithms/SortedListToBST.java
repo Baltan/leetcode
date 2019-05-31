@@ -22,9 +22,9 @@ public class SortedListToBST {
         listNode13.next = listNode14;
         listNode14.next = listNode15;
         TreeNode treeNode1 = sortedListToBST(listNode11);
-        System.out.println(BinaryTreeUtils.preOrder(treeNode1));
-        System.out.println(BinaryTreeUtils.inOrder(treeNode1));
-        System.out.println(BinaryTreeUtils.postOrder(treeNode1));
+        System.out.println(BinaryTreeUtils.recursivelyPreOrder(treeNode1));
+        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode1));
+        System.out.println(BinaryTreeUtils.recursivelyPostOrder(treeNode1));
     }
 
     public static TreeNode sortedListToBST(ListNode head) {
