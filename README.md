@@ -124,6 +124,7 @@
 * [149. Max Points on a Line](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints.java)
 * [151. Reverse Words in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseWords1.java)
 * [152. Maximum Product Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct.java)
+* [153. Find Minimum in Rotated Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMin.java)
 * [155. Min Stack](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinStack.java)
 * [160. Intersection of Two Linked Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetIntersectionNode.java)
 * [167. Two Sum II - Input array is sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSum1.java)
