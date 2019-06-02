@@ -456,3 +456,4 @@
 * [1051. Height Checker](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HeightChecker.java)
 * [1052. Grumpy Bookstore Owner](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSatisfied.java)
 * [1054. Distant Barcodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeBarcodes.java)
+* [1071. Greatest Common Divisor of Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GcdOfStrings.java)
