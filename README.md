@@ -129,6 +129,7 @@
 * [160. Intersection of Two Linked Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetIntersectionNode.java)
 * [162. Find Peak Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPeakElement.java)
 * [165. Compare Version Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CompareVersion.java)
+* [166. Fraction to Recurring Decimal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/fractionToDecimal.java)
 * [167. Two Sum II - Input array is sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSum1.java)
 * [168. Excel Sheet Column Title](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConvertToTitle.java)
 * [169. Majority Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MajorityElement.java)
