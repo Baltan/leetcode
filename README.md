@@ -140,6 +140,7 @@
 * [176. Second Highest Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SecondHighestSalary.sql)
 * [178. Rank Scores](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RankScores.sql)
 * [179. Largest Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/largestNumber.java)
+* [180. Consecutive Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ConsecutiveNumbers.java)
 * [181. Employees Earning More Than Their Managers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/EmployeesEarningMoreThanTheirManagers.sql)
 * [182. Duplicate Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DuplicateEmails.sql)
 * [183. Customers Who Never Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CustomersWhoNeverOrder.sql)
