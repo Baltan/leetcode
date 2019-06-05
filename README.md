@@ -135,6 +135,7 @@
 * [169. Majority Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MajorityElement.java)
 * [171. Excel Sheet Column Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TitleToNumber.java)
 * [172. Factorial Trailing Zeroes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TrailingZeroes.java)
+* [174. Dungeon Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalculateMinimumHP.java)
 * [175. Combine Two Tables](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CombineTwoTables.sql)
 * [176. Second Highest Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SecondHighestSalary.sql)
 * [178. Rank Scores](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RankScores.sql)
