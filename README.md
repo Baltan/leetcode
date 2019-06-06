@@ -157,6 +157,7 @@
 * [204. Count Primes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPrimes.java)
 * [205. Isomorphic Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsIsomorphic.java)
 * [206. Reverse Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseList.java)
+* [207. Course Schedule](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanFinish.java)
 * [217. Contains Duplicate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsDuplicate.java)
 * [219. Contains Duplicate II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsNearbyDuplicate.java)
 * [225. Implement Stack using Queues](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyStack.java)
