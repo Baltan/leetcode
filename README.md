@@ -165,6 +165,7 @@
 * [211. Add and Search Word - Data structure design](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordDictionary.java)
 * [213. House Robber II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rob1.java)
 * [214. Shortest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestPalindrome.java)
+* [215. Kth Largest Element in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthLargest.java)
 * [217. Contains Duplicate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsDuplicate.java)
 * [219. Contains Duplicate II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsNearbyDuplicate.java)
 * [225. Implement Stack using Queues](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyStack.java)
