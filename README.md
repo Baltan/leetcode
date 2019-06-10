@@ -168,6 +168,8 @@
 * [215. Kth Largest Element in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthLargest.java)
 * [217. Contains Duplicate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsDuplicate.java)
 * [219. Contains Duplicate II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsNearbyDuplicate.java)
+* [221. Maximal Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalSquare.java)
+* [221. Maximal Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalSquare1.java)
 * [225. Implement Stack using Queues](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyStack.java)
 * [226. Invert Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InvertTree.java)
 * [231. Power of Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfTwo.java)
