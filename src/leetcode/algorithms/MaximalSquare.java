@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:
+ * Description: 221. Maximal Square
  *
  * @author Baltan
  * @date 2019-06-10 12:35
