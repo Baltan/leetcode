@@ -476,3 +476,4 @@
 * [1071. Greatest Common Divisor of Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GcdOfStrings.java)
 * [1072. Flip Columns For Maximum Number of Equal Rows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEqualRowsAfterFlips.java)
 * [1074. Number of Submatrices That Sum to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubmatrixSumTarget.java)
+* [1078. Occurrences After Bigram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindOcurrences.java)
