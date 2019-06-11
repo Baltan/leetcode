@@ -169,6 +169,7 @@
 * [216. Combination Sum III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum3.java)
 * [217. Contains Duplicate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsDuplicate.java)
 * [219. Contains Duplicate II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsNearbyDuplicate.java)
+* [220. Contains Duplicate III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsNearbyAlmostDuplicate.java)
 * [221. Maximal Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalSquare.java)
 * [221. Maximal Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalSquare1.java)
 * [225. Implement Stack using Queues](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyStack.java)
