@@ -166,6 +166,7 @@
 * [213. House Robber II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rob1.java)
 * [214. Shortest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestPalindrome.java)
 * [215. Kth Largest Element in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthLargest.java)
+* [216. Combination Sum III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum3.java)
 * [217. Contains Duplicate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsDuplicate.java)
 * [219. Contains Duplicate II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsNearbyDuplicate.java)
 * [221. Maximal Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalSquare.java)
