@@ -173,6 +173,7 @@
 * [221. Maximal Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalSquare.java)
 * [221. Maximal Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalSquare1.java)
 * [222. Count Complete Tree Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountNodes.java)
+* [223. Rectangle Area](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ComputeArea.java)
 * [225. Implement Stack using Queues](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyStack.java)
 * [226. Invert Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InvertTree.java)
 * [231. Power of Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfTwo.java)
