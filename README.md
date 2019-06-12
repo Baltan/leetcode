@@ -178,6 +178,7 @@
 * [225. Implement Stack using Queues](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyStack.java)
 * [226. Invert Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InvertTree.java)
 * [227. Basic Calculator II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Calculate1.java)
+* [228. Summary Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SummaryRanges.java)
 * [231. Power of Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfTwo.java)
 * [232. Implement Queue using Stacks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyQueue.java)
 * [234. Palindrome Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPalindrome2.java)
