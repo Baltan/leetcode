@@ -51,7 +51,6 @@ public class SummaryRanges {
             String s = start + "->" + end;
             result.add(s);
         }
-
         return result;
     }
 }
