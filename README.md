@@ -188,6 +188,7 @@
 * [237. Delete Node in a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteNode.java)
 * [238. Product of Array Except Self](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProductExceptSelf.java)
 * [240. Search a 2D Matrix II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SearchMatrix1.java)
+* [241. Different Ways to Add Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiffWaysToCompute.java)
 * [242. Valid Anagram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsAnagram.java)
 * [257. Binary Tree Paths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BinaryTreePaths.java)
 * [258. Add Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddDigits.java)
