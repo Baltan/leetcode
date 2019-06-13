@@ -1,7 +1,9 @@
 package leetcode.algorithms;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Description: 241. Different Ways to Add Parentheses
@@ -11,12 +13,18 @@ import java.util.List;
  */
 public class DiffWaysToCompute {
     public static void main(String[] args) {
-        System.out.println(diffWaysToCompute("2-1-1"));
-        System.out.println(diffWaysToCompute("2*3-4*5"));
+//        System.out.println(diffWaysToCompute("2-1-1"));
+//        System.out.println(diffWaysToCompute("2*3-4*5"));
         System.out.println(diffWaysToCompute("1+2+3-4*5-6+7+8*9"));
     }
 
+    public static Map<String, List<Integer>> map = new HashMap<>();
+
     public static List<Integer> diffWaysToCompute(String input) {
+        if (map.containsKey(input)) {
+            return map.get(input);
+        }
+
         List<Integer> result = new LinkedList<>();
 
         if (input == null || input.length() == 0) {
@@ -28,11 +36,29 @@ public class DiffWaysToCompute {
 
         for (int i = 0; i < length; i++) {
             char c = input.charAt(i);
+            String leftString;
+            String rightString;
+            List<Integer> leftResults;
+            List<Integer> rightResults;
 
             if (c == '+') {
                 flag = true;
-                List<Integer> leftResults = diffWaysToCompute(input.substring(0, i));
-                List<Integer> rightResults = diffWaysToCompute(input.substring(i + 1));
+                leftString = input.substring(0, i);
+                rightString = input.substring(i + 1);
+
+                if (map.containsKey(leftString)) {
+                    leftResults = map.get(leftString);
+                } else {
+                    leftResults = diffWaysToCompute(leftString);
+                    map.put(leftString, leftResults);
+                }
+
+                if (map.containsKey(rightString)) {
+                    rightResults = map.get(rightString);
+                } else {
+                    rightResults = diffWaysToCompute(rightString);
+                    map.put(rightString, rightResults);
+                }
 
                 for (int left : leftResults) {
                     for (int right : rightResults) {
@@ -41,8 +67,23 @@ public class DiffWaysToCompute {
                 }
             } else if (c == '-') {
                 flag = true;
-                List<Integer> leftResults = diffWaysToCompute(input.substring(0, i));
-                List<Integer> rightResults = diffWaysToCompute(input.substring(i + 1));
+
+                leftString = input.substring(0, i);
+                rightString = input.substring(i + 1);
+
+                if (map.containsKey(leftString)) {
+                    leftResults = map.get(leftString);
+                } else {
+                    leftResults = diffWaysToCompute(leftString);
+                    map.put(leftString, leftResults);
+                }
+
+                if (map.containsKey(rightString)) {
+                    rightResults = map.get(rightString);
+                } else {
+                    rightResults = diffWaysToCompute(rightString);
+                    map.put(rightString, rightResults);
+                }
 
                 for (int left : leftResults) {
                     for (int right : rightResults) {
@@ -51,8 +92,23 @@ public class DiffWaysToCompute {
                 }
             } else if (c == '*') {
                 flag = true;
-                List<Integer> leftResults = diffWaysToCompute(input.substring(0, i));
-                List<Integer> rightResults = diffWaysToCompute(input.substring(i + 1));
+
+                leftString = input.substring(0, i);
+                rightString = input.substring(i + 1);
+
+                if (map.containsKey(leftString)) {
+                    leftResults = map.get(leftString);
+                } else {
+                    leftResults = diffWaysToCompute(leftString);
+                    map.put(leftString, leftResults);
+                }
+
+                if (map.containsKey(rightString)) {
+                    rightResults = map.get(rightString);
+                } else {
+                    rightResults = diffWaysToCompute(rightString);
+                    map.put(rightString, rightResults);
+                }
 
                 for (int left : leftResults) {
                     for (int right : rightResults) {
