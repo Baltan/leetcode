@@ -194,6 +194,7 @@
 * [258. Add Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddDigits.java)
 * [260. Single Number III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SingleNumber1.java)
 * [263. Ugly Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsUgly.java)
+* [264. Ugly Number II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthUglyNumber.java)
 * [268. Missing Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingNumber.java)
 * [278. First Bad Version](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstBadVersion.java)
 * [283. Move Zeroes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MoveZeroes.java)
