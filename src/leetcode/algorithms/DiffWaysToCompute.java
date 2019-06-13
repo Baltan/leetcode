@@ -13,8 +13,8 @@ import java.util.Map;
  */
 public class DiffWaysToCompute {
     public static void main(String[] args) {
-//        System.out.println(diffWaysToCompute("2-1-1"));
-//        System.out.println(diffWaysToCompute("2*3-4*5"));
+        System.out.println(diffWaysToCompute("2-1-1"));
+        System.out.println(diffWaysToCompute("2*3-4*5"));
         System.out.println(diffWaysToCompute("1+2+3-4*5-6+7+8*9"));
     }
 
