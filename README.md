@@ -201,6 +201,7 @@
 * [274. H-Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HIndex.java)
 * [275. H-Index II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HIndex1.java)
 * [278. First Bad Version](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstBadVersion.java)
+* [279. Perfect Squares](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSquares.java)
 * [283. Move Zeroes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MoveZeroes.java)
 * [290. Word Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordPattern.java)
 * [292. Nim Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanWinNim.java)
