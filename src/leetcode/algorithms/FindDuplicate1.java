@@ -6,7 +6,7 @@ package leetcode.algorithms;
  * @author Baltan
  * @date 2019-06-15 16:42
  */
-public class FindDuplicate {
+public class FindDuplicate1 {
     public static void main(String[] args) {
         int[] nums1 = {1, 3, 4, 2, 2};
         System.out.println(findDuplicate(nums1));
@@ -19,15 +19,21 @@ public class FindDuplicate {
     }
 
     public static int findDuplicate(int[] nums) {
-        int length = nums.length;
+        int slow = 0;
+        int fast = 0;
 
-        for (int i = 0; i < length; i++) {
-            for (int j = i + 1; j < length; j++) {
-                if (nums[i] == nums[j]) {
-                    return nums[i];
-                }
-            }
+        do {
+            slow = nums[slow];
+            fast = nums[fast];
+            fast = nums[fast];
+        } while (slow != fast);
+
+        fast = 0;
+
+        while (slow != fast) {
+            slow = nums[slow];
+            fast = nums[fast];
         }
-        return 0;
+        return fast;
     }
 }
