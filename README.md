@@ -205,6 +205,7 @@
 * [283. Move Zeroes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MoveZeroes.java)
 * [284. Peeking Iterator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeekingIterator.java)
 * [287. Find the Duplicate Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDuplicate.java)
+* [287. Find the Duplicate Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDuplicate1.java)
 * [290. Word Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordPattern.java)
 * [292. Nim Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanWinNim.java)
 * [303. Range Sum Query - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray.java)
