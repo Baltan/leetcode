@@ -499,3 +499,4 @@
 * [1072. Flip Columns For Maximum Number of Equal Rows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEqualRowsAfterFlips.java)
 * [1074. Number of Submatrices That Sum to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubmatrixSumTarget.java)
 * [1078. Occurrences After Bigram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindOcurrences.java)
+* [1089. Duplicate Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DuplicateZeros.java)
