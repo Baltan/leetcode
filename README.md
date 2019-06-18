@@ -210,6 +210,7 @@
 * [290. Word Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordPattern.java)
 * [292. Nim Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanWinNim.java)
 * [297. Serialize and Deserialize Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Codec1.java)
+* [299. Bulls and Cows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetHint.java)
 * [303. Range Sum Query - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray.java)
 * [326. Power of Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfThree.java)
 * [338. Counting Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBits.java)
