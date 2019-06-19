@@ -216,6 +216,7 @@
 * [326. Power of Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfThree.java)
 * [338. Counting Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBits.java)
 * [342. Power of Four](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfFour.java)
+* [342. Power of Four](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfFour1.java)
 * [343. Integer Break](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IntegerBreak.java)
 * [344. Reverse String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseString.java)
 * [345. Reverse Vowels of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseVowels.java)
