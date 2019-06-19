@@ -181,6 +181,7 @@
 * [228. Summary Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SummaryRanges.java)
 * [230. Kth Smallest Element in a BST](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthSmallest.java)
 * [231. Power of Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfTwo.java)
+* [231. Power of Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfTwo1.java)
 * [232. Implement Queue using Stacks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyQueue.java)
 * [234. Palindrome Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPalindrome2.java)
 * [235. Lowest Common Ancestor of a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LowestCommonAncestor.java)
