@@ -216,6 +216,7 @@
 * [303. Range Sum Query - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray.java)
 * [304. Range Sum Query 2D - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMatrix.java)
 * [313. Super Ugly Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthSuperUglyNumber.java)
+* [318. Maximum Product of Word Lengths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct1.java)
 * [326. Power of Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfThree.java)
 * [338. Counting Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBits.java)
 * [342. Power of Four](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfFour.java)
