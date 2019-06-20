@@ -35,16 +35,15 @@ public class NthSuperUglyNumber {
         list.add(1);
 
         while (list.size() < n) {
+            int min = Integer.MAX_VALUE;
+
             for (int i = 0; i < length; i++) {
                 while (list.get(indexArray[i]) * primes[i] < value) {
                     indexArray[i]++;
                 }
-            }
-            int min = Integer.MAX_VALUE;
-
-            for (int i = 0; i < length; i++) {
                 min = Math.min(min, list.get(indexArray[i]) * primes[i]);
             }
+
             list.add(min);
             value = min + 1;
         }
