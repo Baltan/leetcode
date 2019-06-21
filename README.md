@@ -219,6 +219,8 @@
 * [318. Maximum Product of Word Lengths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct1.java)
 * [319. Bulb Switcher](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BulbSwitch.java)
 * [319. Bulb Switcher](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BulbSwitch1.java)
+* [322. Coin Change](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CoinChange.java)
+* [322. Coin Change](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CoinChange1.java)
 * [326. Power of Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfThree.java)
 * [338. Counting Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBits.java)
 * [342. Power of Four](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfFour.java)
