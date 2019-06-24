@@ -228,6 +228,7 @@
 * [329. Longest Increasing Path in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIncreasingPath.java)
 * [331. Verify Preorder Serialization of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidSerialization.java)
 * [334. Increasing Triplet Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncreasingTriplet.java)
+* [336. Palindrome Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PalindromePairs.java)
 * [338. Counting Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBits.java)
 * [342. Power of Four](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfFour.java)
 * [342. Power of Four](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfFour1.java)
