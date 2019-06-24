@@ -521,3 +521,4 @@
 * [1090. Largest Values From Labels](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestValsFromLabels.java)
 * [1091. Shortest Path in Binary Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestPathBinaryMatrix.java)
 * [1093. Statistics from a Large Sample](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SampleStats.java)
+* [1094. Car Pooling](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CarPooling.java)
