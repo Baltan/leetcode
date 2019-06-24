@@ -145,40 +145,48 @@ public class PalindromePairs {
             return result;
         }
 
-        Set<String> palindromeSet = new TreeSet<>((s1, s2) -> s2.length() - s1.length());
         int length = words.length;
+        Map<String, Integer> map = new HashMap<>((int) (length / 0.75));
 
         for (int i = 0; i < length; i++) {
-            outer:
-            for (int j = 0; j < length; j++) {
-                if (i != j) {
-                    String merge = words[i] + words[j];
+            map.put(words[i], i);
+        }
 
-                    for (String s : palindromeSet) {
-                        int mergeLength = merge.length();
-                        int sLength = s.length();
+        for (int i = 0; i < length; i++) {
+            String word = words[i];
+            int wordLength = word.length();
+            String reverse = new StringBuilder(word).reverse().toString();
 
-                        if (((mergeLength - sLength) & 1) == 0 && merge.contains(s)) {
-                            int len = (mergeLength - sLength) / 2;
+            if (Objects.equals(word, "")) {
+                continue;
+            }
 
-                            if (Objects.equals(s, merge.substring(len, mergeLength - len))) {
-                                String head = merge.substring(0, len);
-                                String tail = merge.substring(mergeLength - len);
+            if (isPalindrome(word) && map.containsKey("")) {
+                result.add(Arrays.asList(i, map.get("")));
+                result.add(Arrays.asList(map.get(""), i));
+            }
 
-                                if (isPalindrome(head + tail)) {
-                                    List<Integer> pair = Arrays.asList(i, j);
-                                    result.add(pair);
-                                    palindromeSet.add(merge);
-                                    continue outer;
-                                }
-                            }
-                        }
+            if (!Objects.equals(word, reverse) && map.containsKey(reverse)) {
+                result.add(Arrays.asList(i, map.get(reverse)));
+            }
+
+            for (int j = 1; j < wordLength; j++) {
+                String left = word.substring(0, j);
+                String right = word.substring(j);
+
+                if (isPalindrome(left)) {
+                    String rightReverse = new StringBuilder(right).reverse().toString();
+
+                    if (map.containsKey(rightReverse)) {
+                        result.add(Arrays.asList(map.get(rightReverse), i));
                     }
+                }
 
-                    if (isPalindrome(merge)) {
-                        List<Integer> pair = Arrays.asList(i, j);
-                        result.add(pair);
-                        palindromeSet.add(merge);
+                if (isPalindrome(right)) {
+                    String leftReverse = new StringBuilder(left).reverse().toString();
+
+                    if (map.containsKey(leftReverse)) {
+                        result.add(Arrays.asList(i, map.get(leftReverse)));
                     }
                 }
             }
