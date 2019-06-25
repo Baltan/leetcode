@@ -231,6 +231,7 @@
 * [336. Palindrome Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PalindromePairs.java)
 * [337. House Robber III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rob2.java)
 * [338. Counting Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBits.java)
+* [341. Flatten Nested List Iterator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NestedIterator.java)
 * [342. Power of Four](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfFour.java)
 * [342. Power of Four](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfFour1.java)
 * [343. Integer Break](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IntegerBreak.java)
