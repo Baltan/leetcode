@@ -12,15 +12,13 @@ import java.util.*;
  * @date 2019-06-25 09:39
  */
 public class NestedIterator implements Iterator<Integer> {
-    private Queue<Integer> queue;
+    private List<Integer> list;
 
     public NestedIterator(List<NestedInteger> nestedList) {
-        this.queue = new LinkedList<>();
-
-        queue.addAll(flattenNestedList(nestedList));
+        this.list = flattenNestedList(nestedList);
     }
 
-    private List flattenNestedList(List<NestedInteger> nestedList) {
+    private List<Integer> flattenNestedList(List<NestedInteger> nestedList) {
         List<Integer> list = new LinkedList<>();
 
         if (nestedList != null) {
@@ -37,12 +35,12 @@ public class NestedIterator implements Iterator<Integer> {
 
     @Override
     public Integer next() {
-        return queue.poll();
+        return list.remove(0);
     }
 
     @Override
     public boolean hasNext() {
-        return !queue.isEmpty();
+        return !list.isEmpty();
     }
 
     public static void main(String[] args) {
