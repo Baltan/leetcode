@@ -242,6 +242,7 @@
 * [350. Intersection of Two Arrays II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Intersect.java)
 * [352. Data Stream as Disjoint Intervals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SummaryRanges1.java)
 * [354. Russian Doll Envelopes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEnvelopes.java)
+* [355. Design Twitter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Twitter.java)
 * [367. Valid Perfect Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPerfectSquare.java)
 * [371. Sum of Two Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSum.java)
 * [374. Guess Number Higher or Lower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GuessNumber.java)
