@@ -245,6 +245,7 @@
 * [355. Design Twitter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Twitter.java)
 * [357. Count Numbers with Unique Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountNumbersWithUniqueDigits.java)
 * [357. Count Numbers with Unique Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountNumbersWithUniqueDigits1.java)
+* [363. Max Sum of Rectangle No Larger Than K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumSubmatrix.java)
 * [367. Valid Perfect Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPerfectSquare.java)
 * [371. Sum of Two Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSum.java)
 * [374. Guess Number Higher or Lower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GuessNumber.java)
