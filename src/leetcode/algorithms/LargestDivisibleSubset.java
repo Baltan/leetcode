@@ -34,25 +34,30 @@ public class LargestDivisibleSubset {
         }
 
         int length = nums.length;
-        int[] dp = new int[length];
         Integer[][] subsets = new Integer[length][];
         Arrays.sort(nums);
-        dp[0] = 1;
         subsets[0] = new Integer[]{nums[0]};
+        /**
+         * 最长subset的长度
+         */
         int maxLength = 1;
+        /**
+         * 最长subset所在的位置
+         */
         int maxLengthIndex = 0;
 
         for (int i = 1; i < length; i++) {
             int prevMaxLength = 0;
             int index = -1;
-
+            /**
+             * 查找已有subsets中，加入nums[i]后仍然符合要求的长度最大的subset
+             */
             for (int j = i - 1; j >= 0; j--) {
-                if (nums[i] % nums[j] == 0 && dp[j] > prevMaxLength) {
-                    prevMaxLength = dp[j];
+                if (nums[i] % nums[j] == 0 && subsets[j].length > prevMaxLength) {
+                    prevMaxLength = subsets[j].length;
                     index = j;
                 }
             }
-            dp[i] = prevMaxLength + 1;
             Integer[] subset = new Integer[prevMaxLength + 1];
 
             if (prevMaxLength + 1 > maxLength) {
