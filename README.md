@@ -36,6 +36,7 @@
 * [36. Valid Sudoku](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidSudoku.java)
 * [38. Count and Say](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountAndSay.java)
 * [39. Combination Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum.java)
+* [39. Combination Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum1.java)
 * [40. Combination Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum2.java)
 * [41. First Missing Positive](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstMissingPositive.java)
 * [42. Trapping Rain Water](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Trap.java)
