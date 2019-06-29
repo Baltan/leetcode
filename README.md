@@ -253,6 +253,7 @@
 * [373. Find K Pairs with Smallest Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KSmallestPairs.java)
 * [373. Find K Pairs with Smallest Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KSmallestPairs1.java)
 * [374. Guess Number Higher or Lower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GuessNumber.java)
+* [376. Wiggle Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WiggleMaxLength.java)
 * [383. Ransom Note](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConstruct.java)
 * [387. First Unique Character in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstUniqChar.java)
 * [389. Find the Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDifference.java)
