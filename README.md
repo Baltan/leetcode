@@ -256,6 +256,7 @@
 * [374. Guess Number Higher or Lower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GuessNumber.java)
 * [376. Wiggle Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WiggleMaxLength.java)
 * [377. Combination Sum IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum4.java)
+* [378. Kth Smallest Element in a Sorted Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthSmallest1.java)
 * [383. Ransom Note](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConstruct.java)
 * [387. First Unique Character in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstUniqChar.java)
 * [389. Find the Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDifference.java)
