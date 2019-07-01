@@ -542,3 +542,4 @@
 * [1093. Statistics from a Large Sample](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SampleStats.java)
 * [1094. Car Pooling](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CarPooling.java)
 * [1103. Distribute Candies to People](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCandies1.java)
+* [1104. Path In Zigzag Labelled Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathInZigZagTree.java)
