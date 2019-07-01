@@ -25,8 +25,15 @@ public class MaxEnvelopes {
         }
 
         int result = 0;
+        /**
+         * 有key个信封互相套在一起，map按照key从大到小排序，value为一个队列，队列中的每一个信封可以套(key-1)个信封，
+         * 即一共是key个信封套在一起
+         */
         Map<Integer, Queue<int[]>> map = new TreeMap<>((m, n) -> n - m);
 
+        /**
+         * 将所有信封先按长度递增，再按宽度递增排序
+         */
         Arrays.sort(envelopes, (m, n) -> {
             if (m[0] == n[0]) {
                 return m[1] - n[1];
@@ -37,6 +44,9 @@ public class MaxEnvelopes {
 
         for (int[] envelope : envelopes) {
             if (map.isEmpty()) {
+                /**
+                 * 信封先按长度递增，再按宽度递增排序
+                 */
                 Queue<int[]> queue = new PriorityQueue<>((m, n) -> {
                     if (m[0] == n[0]) {
                         return m[1] - n[1];
@@ -48,6 +58,9 @@ public class MaxEnvelopes {
                 map.put(1, queue);
                 result = 1;
             } else {
+                /**
+                 * 标记是否有信封可以被套进
+                 */
                 boolean flag = false;
 
                 outer:
@@ -55,6 +68,11 @@ public class MaxEnvelopes {
                     Queue<int[]> queue = map.get(num);
 
                     for (int[] element : queue) {
+                        /**
+                         * 如果当前处理的信封可以把当前队列中最小的信封套进，说明当前处理的信封可以套num个信封，
+                         * 即一共是(num+1)个信封套在一起。
+                         * 只要有信封可以套进，都break outer，直接去处理下一个信封
+                         */
                         if (element[0] < envelope[0] && element[1] < envelope[1]) {
                             flag = true;
 
@@ -79,6 +97,9 @@ public class MaxEnvelopes {
                     }
                 }
 
+                /**
+                 * 如果当前处理的信封不能套进其他任何信封
+                 */
                 if (!flag) {
                     map.get(1).offer(envelope);
                 }
