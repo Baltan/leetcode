@@ -262,6 +262,7 @@
 * [382. Linked List Random Node](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution.java)
 * [383. Ransom Note](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConstruct.java)
 * [384. Shuffle an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution1.java)
+* [384. Shuffle an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution2.java)
 * [387. First Unique Character in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstUniqChar.java)
 * [389. Find the Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDifference.java)
 * [396. Rotate Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRotateFunction.java)
