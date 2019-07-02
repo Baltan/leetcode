@@ -259,6 +259,7 @@
 * [378. Kth Smallest Element in a Sorted Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthSmallest1.java)
 * [380. Insert Delete GetRandom O(1)](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RandomizedSet.java)
 * [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RandomizedCollection.java)
+* [382. Linked List Random Node](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution.java)
 * [383. Ransom Note](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConstruct.java)
 * [387. First Unique Character in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstUniqChar.java)
 * [389. Find the Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDifference.java)
