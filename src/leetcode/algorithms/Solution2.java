@@ -40,9 +40,9 @@ public class Solution2 {
             /**
              * 交换nums[i]和nums[j]
              */
-            int temp = nums[i] ^ nums[j];
-            nums[j] = temp ^ nums[j];
-            nums[i] = nums[i] ^ temp;
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
         }
         return nums;
     }
