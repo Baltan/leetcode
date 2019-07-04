@@ -267,6 +267,7 @@
 * [386. Lexicographical Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexicalOrder.java)
 * [387. First Unique Character in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstUniqChar.java)
 * [389. Find the Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDifference.java)
+* [390. Elimination Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastRemaining.java)
 * [396. Rotate Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRotateFunction.java)
 * [400. Nth Digit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindNthDigit.java)
 * [401. Binary Watch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReadBinaryWatch.java)
