@@ -271,6 +271,7 @@
 * [392. Is Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSubsequence.java)
 * [396. Rotate Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRotateFunction.java)
 * [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution4.java)
+* [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution5.java)
 * [400. Nth Digit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindNthDigit.java)
 * [401. Binary Watch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReadBinaryWatch.java)
 * [404. Sum of Left Leaves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfLeftLeaves.java)
