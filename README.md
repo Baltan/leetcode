@@ -269,6 +269,7 @@
 * [389. Find the Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDifference.java)
 * [390. Elimination Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastRemaining.java)
 * [392. Is Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSubsequence.java)
+* [394. Decode String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeString.java)
 * [396. Rotate Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRotateFunction.java)
 * [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution4.java)
 * [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution5.java)
