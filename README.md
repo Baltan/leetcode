@@ -270,6 +270,7 @@
 * [390. Elimination Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastRemaining.java)
 * [392. Is Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSubsequence.java)
 * [394. Decode String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeString.java)
+* [395. Longest Substring with At Least K Repeating Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubstring.java)
 * [396. Rotate Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRotateFunction.java)
 * [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution4.java)
 * [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution5.java)
