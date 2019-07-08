@@ -557,3 +557,4 @@
 * [1104. Path In Zigzag Labelled Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathInZigZagTree.java)
 * [1105. Filling Bookcase Shelves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinHeightShelves.java)
 * [1108. Defanging an IP Address](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DefangIPaddr.java)
+* [1108. Defanging an IP Address](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DefangIPaddr1.java)
