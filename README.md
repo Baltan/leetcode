@@ -284,6 +284,7 @@
 * [413. Arithmetic Slices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfArithmeticSlices.java)
 * [414. Third Maximum Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThirdMax.java)
 * [415. Add Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddStrings.java)
+* [416. Partition Equal Subset Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanPartition.java)
 * [419. Battleships in a Board](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBattleships.java)
 * [427. Construct Quad Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Construct.java)
 * [429. N-ary Tree Level Order Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LevelOrder.java)
