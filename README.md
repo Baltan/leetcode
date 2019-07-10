@@ -277,6 +277,7 @@
 * [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution5.java)
 * [400. Nth Digit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindNthDigit.java)
 * [401. Binary Watch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReadBinaryWatch.java)
+* [402. Remove K Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveKdigits.java)
 * [404. Sum of Left Leaves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfLeftLeaves.java)
 * [406. Queue Reconstruction by Height](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReconstructQueue.java)
 * [409. Longest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome.java)
