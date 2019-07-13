@@ -1,6 +1,8 @@
 package leetcode.algorithms;
 
-import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Description: 1115. Print FooBar Alternately
@@ -10,34 +12,62 @@ import java.util.concurrent.Semaphore;
  */
 public class FooBar {
     private int n;
-    private Semaphore semaphore1;
-    private Semaphore semaphore2;
+    private boolean fooFlag;
+    private boolean barFlag;
+    private Lock lock;
+    private Condition fooCondition;
+    private Condition barCondition;
 
     public FooBar(int n) {
         this.n = n;
-        this.semaphore1 = new Semaphore(0);
-        this.semaphore2 = new Semaphore(1);
+        this.fooFlag = false;
+        this.barFlag = true;
+        this.lock = new ReentrantLock();
+        this.fooCondition = lock.newCondition();
+        this.barCondition = lock.newCondition();
     }
 
     public void foo(Runnable printFoo) throws InterruptedException {
         for (int i = 0; i < n; i++) {
-            /**
-             * printFoo.run() outputs "foo". Do not change or remove this line.
-             */
-            semaphore2.acquire();
-            printFoo.run();
-            semaphore1.release();
+            lock.lock();
+
+            try {
+                while (fooFlag) {
+                    fooCondition.await();
+                }
+
+                /**
+                 * printFoo.run() outputs "foo". Do not change or remove this line.
+                 */
+                printFoo.run();
+                fooFlag = true;
+                barFlag = false;
+                barCondition.signal();
+            } finally {
+                lock.unlock();
+            }
         }
     }
 
     public void bar(Runnable printBar) throws InterruptedException {
         for (int i = 0; i < n; i++) {
-            /**
-             * printBar.run() outputs "bar". Do not change or remove this line.
-             */
-            semaphore1.acquire();
-            printBar.run();
-            semaphore2.release();
+            lock.lock();
+
+            try {
+                while (barFlag) {
+                    barCondition.await();
+                }
+
+                /**
+                 * printBar.run() outputs "bar". Do not change or remove this line.
+                 */
+                printBar.run();
+                barFlag = true;
+                fooFlag = false;
+                fooCondition.signal();
+            } finally {
+                lock.unlock();
+            }
         }
     }
 
