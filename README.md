@@ -566,3 +566,4 @@
 * [1109. Corporate Flight Bookings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CorpFlightBookings.java)
 * [1114. Print in Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Foo.java)
 * [1115. Print FooBar Alternately](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FooBar.java)
+* [1115. Print FooBar Alternately](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FooBar1.java)
