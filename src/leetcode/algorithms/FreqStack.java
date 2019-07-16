@@ -9,7 +9,13 @@ import java.util.*;
  * @date 2019-05-08 10:29
  */
 public class FreqStack {
+    /**
+     * map保存元素及其对应的频数
+     */
     private Map<Integer, Integer> map;
+    /**
+     * frequencyMap保存某一频数，以及保存出现该频数的所有元素的Stack，并且所有键值对按照频数递增保存
+     */
     private TreeMap<Integer, Stack<Integer>> frequencyMap;
 
     public FreqStack() {
