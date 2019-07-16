@@ -31,9 +31,15 @@ public class Calculate {
         int length = s.length();
         char sign = ' ';
         Stack<Character> stack = new Stack<>();
+        /**
+         * 保存每一层小括号前带着的运算符号
+         */
         List<Character> signList = new ArrayList<>();
         int value = 0;
 
+        /**
+         * 如果表达式没有括号，只需从左向右计算即可
+         */
         if (!s.contains("(")) {
             for (int i = 0; i < length; i++) {
                 char c = s.charAt(i);
@@ -46,7 +52,9 @@ public class Calculate {
                     sign = '+';
                 } else {
                     int j;
-
+                    /**
+                     * 如果当前遍历到的字符为数字
+                     */
                     for (j = i; j < length; j++) {
                         char c1 = s.charAt(j);
 
@@ -65,6 +73,10 @@ public class Calculate {
                         result += value;
                     }
                     value = 0;
+                    /**
+                     * 因为以上循环遍历到非数字或表达式最后时跳出，相当于最后第j个字符被忽略了，
+                     * 需要将索引i-1，后面循环还是要处理这个字符的
+                     */
                     i = j - 1;
                 }
             }
@@ -75,12 +87,20 @@ public class Calculate {
                 if (c == ' ') {
                     continue;
                 } else if (c == '(') {
+                    /**
+                     * 标记小括号前是否还有作用于这个括号内表达式的运算符号
+                     */
                     boolean flag = false;
-
+                    /**
+                     * 查找小括号前作用于这个括号内表达式的运算符号
+                     */
                     for (int j = i - 1; j >= 0; j--) {
                         char c1 = s.charAt(j);
 
                         if (c1 == '-') {
+                            /**
+                             * 如果再外层没有小括号了或者再外层小括号前带"+"，则当前这层小括号前带"-"
+                             */
                             if (signList.size() == 0 || signList.get(signList.size() - 1) == '+') {
                                 signList.add('-');
                             } else {
@@ -89,6 +109,9 @@ public class Calculate {
                             flag = true;
                             break;
                         } else if (c1 == '+') {
+                            /**
+                             * 如果再外层没有小括号了或者再外层小括号前带"+"，则当前这层小括号前带"+"
+                             */
                             if (signList.size() == 0 || signList.get(signList.size() - 1) == '+') {
                                 signList.add('+');
                             } else {
@@ -98,7 +121,9 @@ public class Calculate {
                             break;
                         }
                     }
-
+                    /**
+                     * 如果小括号前没有作用于这个括号内表达式的运算符号了，则括号内表达式的计算结果带"+"
+                     */
                     if (!flag) {
                         signList.add('+');
                     }
@@ -107,7 +132,13 @@ public class Calculate {
                     stack.pop();
                     signList.remove(signList.size() - 1);
                 } else if (c == '-') {
+                    /**
+                     * 如果stack不为空，说明含当前字符的表达式是在小括号中的
+                     */
                     if (!stack.isEmpty()) {
+                        /**
+                         * 如果作用于这个括号内表达式的运算符号为"-"，则当前运算实际上要"+"后面的数字
+                         */
                         if (signList.get(stack.size() - 1) == '-') {
                             sign = '+';
                         } else {
@@ -128,7 +159,9 @@ public class Calculate {
                     }
                 } else {
                     int j;
-
+                    /**
+                     * 如果当前遍历到的字符为数字
+                     */
                     for (j = i; j < length; j++) {
                         char c1 = s.charAt(j);
 
@@ -147,6 +180,10 @@ public class Calculate {
                         result += value;
                     }
                     value = 0;
+                    /**
+                     * 因为以上循环遍历到非数字或表达式最后时跳出，相当于最后第j个字符被忽略了，
+                     * 需要将索引i-1，后面循环还是要处理这个字符的
+                     */
                     i = j - 1;
                 }
             }
