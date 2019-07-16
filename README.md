@@ -461,6 +461,7 @@
 * [890. Find and Replace Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindAndReplacePattern.java)
 * [892. Surface Area of 3D Shapes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SurfaceArea.java)
 * [893. Groups of Special-Equivalent Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSpecialEquivGroups.java)
+* [894. All Possible Full Binary Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AllPossibleFBT.java)
 * [895. Maximum Frequency Stack](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FreqStack.java)
 * [896. Monotonic Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsMonotonic.java)
 * [897. Increasing Order Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncreasingBST.java)
