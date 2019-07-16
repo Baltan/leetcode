@@ -20,7 +20,9 @@ public class Calculate1 {
         char sign = ' ';
         int value = 0;
         int length = s.length();
-
+        /**
+         * 如果表达式没有加减运算，从左向右处理乘除运算即可
+         */
         if (!s.contains("-") && !s.contains("+")) {
             result = 1;
 
@@ -41,7 +43,9 @@ public class Calculate1 {
                     value = 0;
                 }
             }
-
+            /**
+             * 最后一个数字没有计算，需要追加计算
+             */
             if (sign == '/') {
                 result /= value;
             } else {
@@ -64,6 +68,10 @@ public class Calculate1 {
                     sign = c;
                     value = 0;
                 } else {
+                    /**
+                     * 如果遇到乘除符号，则从符号前的数字开始向后遍历知道遇到加减号前的数字为止，
+                     * 这部分表达式的结果需要优先计算
+                     */
                     int j;
                     StringBuilder builder = new StringBuilder();
                     builder.append(value).append(c);
@@ -78,10 +86,16 @@ public class Calculate1 {
                         }
                     }
                     value = calculate(builder.toString());
+                    /**
+                     * 因为以上循环遍历到加减号或表达式最后时跳出，相当于最后第j个字符被忽略了，
+                     * 需要将索引i-1，后面循环还是要处理这个字符的
+                     */
                     i = j - 1;
                 }
             }
-
+            /**
+             * 最后一个数字没有计算，需要追加计算
+             */
             if (sign == '-') {
                 result -= value;
             } else {
