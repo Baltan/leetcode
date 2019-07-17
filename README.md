@@ -334,6 +334,7 @@
 * [535. Encode and Decode TinyURL](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Codec.java)
 * [537. Complex Number Multiplication](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ComplexNumberMultiply.java)
 * [538. Convert BST to Greater Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConvertBST.java)
+* [539. Minimum Time Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinDifference.java)
 * [540. Single Element in a Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SingleNonDuplicate.java)
 * [541. Reverse String II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseStr.java)
 * [543. Diameter of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiameterOfBinaryTree.java)
