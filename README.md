@@ -443,6 +443,7 @@
 * [840. Magic Squares In Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMagicSquaresInside.java)
 * [841. Keys and Rooms](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanVisitAllRooms.java)
 * [844. Backspace String Compare](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BackspaceCompare.java)
+* [845. Longest Mountain in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestMountain.java)
 * [849. Maximize Distance to Closest Person](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistToClosest.java)
 * [852. Peak Index in a Mountain Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeakIndexInMountainArray.java)
 * [855. Exam Room](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExamRoom.java)
