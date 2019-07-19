@@ -147,26 +147,11 @@ public class NumFactoredBinaryTrees {
     }
 
     public static long help(int[] A, int rootValue, Map<Integer, Long> map) {
-        long result = 0;
+        /**
+         * 初始化为1，考虑到单独一个根节点作为一个二叉树的情况
+         */
+        long result = 1;
         int length = A.length;
-        int lo = 0;
-        int hi = length - 1;
-
-        while (lo <= hi) {
-            int mid = (lo + hi) / 2;
-
-            if (A[mid] == rootValue) {
-                /**
-                 * 单独一个根节点作为一个二叉树的情况
-                 */
-                result++;
-                break;
-            } else if (A[mid] < rootValue) {
-                lo++;
-            } else {
-                hi--;
-            }
-        }
 
         for (int i = 0; i < length; i++) {
             for (int j = i; j < length; j++) {
