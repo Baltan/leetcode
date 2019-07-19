@@ -433,6 +433,7 @@
 * [817. Linked List Components](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumComponents.java)
 * [819. Most Common Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostCommonWord.java)
 * [821. Shortest Distance to a Character](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestToChar.java)
+* [823. Binary Trees With Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumFactoredBinaryTrees.java)
 * [824. Goat Latin](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ToGoatLatin.java)
 * [825. Friends Of Appropriate Ages](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumFriendRequests.java)
 * [830. Positions of Large Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargeGroupPositions.java)
