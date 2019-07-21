@@ -510,6 +510,8 @@
 * [984. String Without AAA or BBB](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StrWithout3a3b.java)
 * [985. Sum of Even Numbers After Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumEvenAfterQueries.java)
 * [986. Interval List Intersections](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IntervalIntersection.java)
+* [987. Vertical Order Traversal of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/VerticalTraversal.java)
+* [987. Vertical Order Traversal of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/VerticalTraversal1.java)
 * [988. Smallest String Starting From Leaf](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestFromLeaf.java)
 * [989. Add to Array-Form of Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddToArrayForm.java)
 * [990. Satisfiability of Equality Equations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EquationsPossible.java)
