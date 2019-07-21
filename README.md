@@ -512,6 +512,7 @@
 * [986. Interval List Intersections](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IntervalIntersection.java)
 * [988. Smallest String Starting From Leaf](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestFromLeaf.java)
 * [989. Add to Array-Form of Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddToArrayForm.java)
+* [990. Satisfiability of Equality Equations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EquationsPossible.java)
 * [991. Broken Calculator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BrokenCalc.java)
 * [993. Cousins in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCousins.java)
 * [994. Rotting Oranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OrangesRotting.java)
