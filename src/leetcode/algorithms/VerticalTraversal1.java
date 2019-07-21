@@ -10,7 +10,7 @@ import java.util.*;
  * @author Baltan
  * @date 2019-07-21 17:28
  */
-public class VerticalTraversal {
+public class VerticalTraversal1 {
     public static void main(String[] args) {
         TreeNode treeNode11 = new TreeNode(3);
         TreeNode treeNode12 = new TreeNode(9);
@@ -46,31 +46,20 @@ public class VerticalTraversal {
         List<List<Integer>> result = new LinkedList<>();
         /**
          * map的key值为树节点x坐标的值，map中的元素按照x坐标的值从小到大排列，
-         * map的value值为一个有序队列，队列中保存的数组有两个元素，
-         * 第一个元素为树节点的y坐标值，第二个元素为树节点的节点值，队列按照y坐标值由大到小排列，
-         * 若y坐标值相同，则按照树节点的节点值从小到大排列
+         * map的value值为一个链表，链表中保存的数组有两个元素，
+         * 第一个元素为树节点的y坐标值，第二个元素为树节点的节点值
          */
-        Map<Integer, Queue<int[]>> map = new TreeMap<>();
+        Map<Integer, List<int[]>> map = new TreeMap<>();
 
         help(root, 0, 0, map);
 
         for (int x : map.keySet()) {
-            Queue<int[]> queue = map.get(x);
+            List<int[]> arrays = map.get(x);
             List<Integer> list = new LinkedList<>();
-
-            while (!queue.isEmpty()) {
-                list.add(queue.poll()[1]);
-            }
-            result.add(list);
-        }
-        return result;
-    }
-
-    public static void help(TreeNode root, int x, int y, Map<Integer, Queue<int[]>> map) {
-        if (map.containsKey(x)) {
-            map.get(x).offer(new int[]{y, root.val});
-        } else {
-            Queue<int[]> queue = new PriorityQueue<>((m, n) -> {
+            /**
+             * 将链表中的元素排序，按照y坐标值由大到小排列，若y坐标值相同，则按照树节点的节点值从小到大排列
+             */
+            Collections.sort(arrays, (m, n) -> {
                 if (m[0] != n[0]) {
                     return n[0] - m[0];
                 } else {
@@ -78,8 +67,21 @@ public class VerticalTraversal {
                 }
             });
 
-            queue.offer(new int[]{y, root.val});
-            map.put(x, queue);
+            for (int[] array : arrays) {
+                list.add(array[1]);
+            }
+            result.add(list);
+        }
+        return result;
+    }
+
+    public static void help(TreeNode root, int x, int y, Map<Integer, List<int[]>> map) {
+        if (map.containsKey(x)) {
+            map.get(x).add(new int[]{y, root.val});
+        } else {
+            List<int[]> list = new LinkedList<>();
+            list.add(new int[]{y, root.val});
+            map.put(x, list);
         }
 
         if (root.left != null) {
