@@ -46,7 +46,7 @@ public class VerticalTraversal {
         List<List<Integer>> result = new LinkedList<>();
         /**
          * map的key值为树节点x坐标的值，map中的元素按照x坐标的值从小到大排列，
-         * map的value值为一个有序队列，队列中保存的数组有两个元素，
+         * map的value值为一个PriorityQueue，PriorityQueue中保存的数组有两个元素，
          * 第一个元素为树节点的y坐标值，第二个元素为树节点的节点值，队列按照y坐标值由大到小排列，
          * 若y坐标值相同，则按照树节点的节点值从小到大排列
          */
