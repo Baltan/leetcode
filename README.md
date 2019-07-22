@@ -580,3 +580,4 @@
 * [1116. Print Zero Even Odd](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ZeroEvenOdd.java)
 * [1117. Building H2O](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/H2O.java)
 * [1122. Relative Sort Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RelativeSortArray.java)
+* [1128. Number of Equivalent Domino Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumEquivDominoPairs.java)
