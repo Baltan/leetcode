@@ -27,4 +27,16 @@ public class QuadTreeNode {
         bottomLeft = _bottomLeft;
         bottomRight = _bottomRight;
     }
+
+    @Override
+    public String toString() {
+        return "QuadTreeNode{" +
+                "val=" + val +
+                ", isLeaf=" + isLeaf +
+                ", topLeft=" + topLeft +
+                ", topRight=" + topRight +
+                ", bottomLeft=" + bottomLeft +
+                ", bottomRight=" + bottomRight +
+                '}';
+    }
 }
