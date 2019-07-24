@@ -330,6 +330,7 @@
 * [520. Detect Capital](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DetectCapitalUse.java)
 * [521. Longest Uncommon Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLUSlength.java)
 * [526. Beautiful Arrangement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountArrangement.java)
+* [528. Random Pick with Weight](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution6.java)
 * [530. Minimum Absolute Difference in BST](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMinimumDifference.java)
 * [532. K-diff Pairs in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPairs.java)
 * [535. Encode and Decode TinyURL](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Codec.java)
