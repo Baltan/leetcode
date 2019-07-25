@@ -362,6 +362,7 @@
 * [596. Classes More Than 5 Students](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ClassesMoreThan5Students.sql)
 * [598. Range Addition II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCount.java)
 * [599. Minimum Index Sum of Two Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRestaurant.java)
+* [601. Human Traffic of Stadium](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/HumanTrafficOfStadium.sql)
 * [605. Can Place Flowers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanPlaceFlowers.java)
 * [606. Construct String from Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tree2str.java)
 * [617. Merge Two Binary Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeTrees.java)
