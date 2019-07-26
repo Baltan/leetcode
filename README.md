@@ -147,6 +147,7 @@
 * [182. Duplicate Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DuplicateEmails.sql)
 * [183. Customers Who Never Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CustomersWhoNeverOrder.sql)
 * [184. Department Highest Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DepartmentHighestSalary.sql)
+* [185. Department Top Three Salaries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DepartmentTopThreeSalaries.sql)
 * [187. Repeated DNA Sequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRepeatedDnaSequences.java)
 * [189. Rotate Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rotate.java)
 * [191. Number of 1 Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HammingWeight.java)
