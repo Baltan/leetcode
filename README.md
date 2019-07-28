@@ -447,6 +447,7 @@
 * [830. Positions of Large Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargeGroupPositions.java)
 * [831. Masking Personal Information](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaskPII.java)
 * [832. Flipping an Image](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FlipAndInvertImage.java)
+* [833. Find And Replace in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindReplaceString.java)
 * [835. Image Overlap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestOverlap.java)
 * [836. Rectangle Overlap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsRectangleOverlap.java)
 * [840. Magic Squares In Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMagicSquaresInside.java)
