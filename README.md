@@ -314,6 +314,7 @@
 * [463. Island Perimeter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IslandPerimeter.java)
 * [475. Heaters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRadius.java)
 * [476. Number Complement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindComplement.java)
+* [477. Total Hamming Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalHammingDistance.java)
 * [479. Largest Palindrome Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindrome.java)
 * [482. License Key Formatting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LicenseKeyFormatting.java)
 * [485. Max Consecutive Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxConsecutiveOnes.java)
