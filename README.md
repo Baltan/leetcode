@@ -230,6 +230,7 @@
 * [328. Odd Even Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OddEvenList.java)
 * [329. Longest Increasing Path in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIncreasingPath.java)
 * [331. Verify Preorder Serialization of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidSerialization.java)
+* [332. Reconstruct Itinerary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindItinerary.java)
 * [334. Increasing Triplet Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncreasingTriplet.java)
 * [336. Palindrome Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PalindromePairs.java)
 * [337. House Robber III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rob2.java)
