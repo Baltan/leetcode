@@ -380,6 +380,7 @@
 * [645. Set Mismatch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindErrorNums.java)
 * [647. Palindromic Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubstrings.java)
 * [648. Replace Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceWords.java)
+* [652. Find Duplicate Subtrees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDuplicateSubtrees.java)
 * [653. Two Sum IV - Input is a BST](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTarget.java)
 * [654. Maximum Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructMaximumBinaryTree.java)
 * [657. Robot Return to Origin](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JudgeCircle.java)
