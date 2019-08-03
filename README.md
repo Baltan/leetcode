@@ -385,6 +385,7 @@
 * [654. Maximum Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructMaximumBinaryTree.java)
 * [657. Robot Return to Origin](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JudgeCircle.java)
 * [658. Find K Closest Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindClosestElements.java)
+* [659. Split Array into Consecutive Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossible.java)
 * [661. Image Smoother](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ImageSmoother.java)
 * [665. Non-decreasing Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPossibility.java)
 * [667. Beautiful Arrangement II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructArray.java)
