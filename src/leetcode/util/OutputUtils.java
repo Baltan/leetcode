@@ -38,6 +38,16 @@ public class OutputUtils {
         System.out.println();
     }
 
+    public static void print1DListNodeArray(ListNode[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == null) {
+                System.out.println("null");
+            } else {
+                OutputUtils.printListNode(arr[i]);
+            }
+        }
+    }
+
     public static void print2DIntegerArray(int[][] arr) {
         if (arr != null) {
             int[] ele;
