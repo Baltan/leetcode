@@ -17,6 +17,11 @@ import java.util.Set;
  * @date 2018/7/30 15:42
  */
 public class OutputUtils {
+    /**
+     * 打印一维整型数组
+     *
+     * @param arr
+     */
     public static void print1DIntegerArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "\t");
@@ -24,6 +29,11 @@ public class OutputUtils {
         System.out.println();
     }
 
+    /**
+     * 打印一维字符串数组
+     *
+     * @param arr
+     */
     public static void print1DStringArray(String[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "\t");
@@ -31,6 +41,11 @@ public class OutputUtils {
         System.out.println();
     }
 
+    /**
+     * 打印一维布尔类型数组
+     *
+     * @param arr
+     */
     public static void print1DBooleanArray(boolean[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "\t");
@@ -38,6 +53,11 @@ public class OutputUtils {
         System.out.println();
     }
 
+    /**
+     * 打印一维ListNode（链表节点）类型数组
+     *
+     * @param arr
+     */
     public static void print1DListNodeArray(ListNode[] arr) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == null) {
@@ -48,6 +68,11 @@ public class OutputUtils {
         }
     }
 
+    /**
+     * 打印二维整型数组
+     *
+     * @param arr
+     */
     public static void print2DIntegerArray(int[][] arr) {
         if (arr != null) {
             int[] ele;
@@ -61,6 +86,11 @@ public class OutputUtils {
         }
     }
 
+    /**
+     * 打印二维字符串数组
+     *
+     * @param arr
+     */
     public static void print2DStringArray(String[][] arr) {
         if (arr != null) {
             String[] ele;
@@ -74,6 +104,11 @@ public class OutputUtils {
         }
     }
 
+    /**
+     * 打印二维布尔类型数组
+     *
+     * @param arr
+     */
     public static void print2DBooleanArray(boolean[][] arr) {
         if (arr != null) {
             boolean[] ele;
@@ -87,6 +122,11 @@ public class OutputUtils {
         }
     }
 
+    /**
+     * 打印ListNode（链表节点）
+     *
+     * @param listNode
+     */
     public static void printListNode(ListNode listNode) {
         Set<ListNode> set = new HashSet<>();
 
@@ -109,6 +149,11 @@ public class OutputUtils {
         System.out.println();
     }
 
+    /**
+     * 打印前序遍历的二叉树
+     *
+     * @param root
+     */
     public static void printPreOrderBinaryTree(TreeNode root) {
         if (root == null) {
             return;
@@ -118,6 +163,11 @@ public class OutputUtils {
         printPreOrderBinaryTree(root.right);
     }
 
+    /**
+     * 打印中序遍历的二叉树
+     *
+     * @param root
+     */
     public static void printInOrderBinaryTree(TreeNode root) {
         if (root == null) {
             return;
@@ -127,6 +177,11 @@ public class OutputUtils {
         printInOrderBinaryTree(root.right);
     }
 
+    /**
+     * 打印后序遍历的二叉树
+     *
+     * @param root
+     */
     public static void printPostOrderBinaryTree(TreeNode root) {
         if (root == null) {
             return;
@@ -136,6 +191,11 @@ public class OutputUtils {
         System.out.println(root.val);
     }
 
+    /**
+     * 打印GraphNode（无向连通图节点）
+     *
+     * @param node
+     */
     public static void printGraphNode(GraphNode node) {
         if (node == null) {
             System.out.println();
@@ -160,6 +220,11 @@ public class OutputUtils {
         }
     }
 
+    /**
+     * 打印RandomNode（带有随机指针的链表节点）
+     *
+     * @param randomNode
+     */
     public static void printRandomNode(RandomNode randomNode) {
         Set<RandomNode> set = new HashSet<>();
 
