@@ -494,6 +494,7 @@
 * [922. Sort Array By Parity II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArrayByParityII.java)
 * [925. Long Pressed Name](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsLongPressedName.java)
 * [929. Unique Email Addresses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumUniqueEmails.java)
+* [930. Binary Subarrays With Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubarraysWithSum.java)
 * [931. Minimum Falling Path Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFallingPathSum.java)
 * [932. Beautiful Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulArray.java)
 * [933. Number of Recent Calls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RecentCounter.java)
