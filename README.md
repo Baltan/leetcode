@@ -320,6 +320,7 @@
 * [482. License Key Formatting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LicenseKeyFormatting.java)
 * [485. Max Consecutive Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxConsecutiveOnes.java)
 * [492. Construct the Rectangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructRectangle.java)
+* [494. Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTargetSumWays.java)
 * [495. Teemo Attacking](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPoisonedDuration.java)
 * [496. Next Greater Element I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextGreaterElement.java)
 * [500. Keyboard Row](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindWords.java)
