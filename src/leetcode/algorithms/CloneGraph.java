@@ -55,13 +55,20 @@ public class CloneGraph {
         if (node == null) {
             return null;
         }
-
+        /**
+         * map存储原节点和该节点克隆后得到的节点
+         */
         Map<GraphNode, GraphNode> map = new HashMap<>();
         Queue<GraphNode> queue = new LinkedList<>();
+        /**
+         * 创建起始节点的克隆，并加入map中
+         */
         GraphNode _node = new GraphNode(node.val, new ArrayList<>());
         map.put(node, _node);
         queue.offer(node);
-
+        /**
+         * 广度优先搜索
+         */
         while (!queue.isEmpty()) {
             GraphNode gn = queue.poll();
             List<GraphNode> neighbors = gn.neighbors;
@@ -69,11 +76,27 @@ public class CloneGraph {
             if (neighbors != null) {
                 for (GraphNode neighbor : neighbors) {
                     if (!map.containsKey(neighbor)) {
+                        /**
+                         * 创建该邻居节点的克隆
+                         */
                         GraphNode _gn = new GraphNode(neighbor.val, new ArrayList<>());
+                        /**
+                         * 将克隆的邻居节点添加到当前节点的克隆节点的邻居中
+                         */
                         map.get(gn).neighbors.add(_gn);
+                        /**
+                         * 将该邻居节点及其克隆添加到map中
+                         */
                         map.put(neighbor, _gn);
+                        /**
+                         * 将该邻居节点添加到队列中，后续需要处理该邻居节点的邻居节点
+                         */
                         queue.offer(neighbor);
                     } else {
+                        /**
+                         * 如果map中已经有该邻居节点了，说明该邻居节点的克隆已存在，直接将
+                         * 克隆的邻居节点添加到当前节点的克隆节点的邻居中即可
+                         */
                         map.get(gn).neighbors.add(map.get(neighbor));
                     }
                 }
