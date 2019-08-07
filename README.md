@@ -214,6 +214,7 @@
 * [289. Game of Life](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GameOfLife.java)
 * [290. Word Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordPattern.java)
 * [292. Nim Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanWinNim.java)
+* [295. Find Median from Data Stream](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MedianFinder.java)
 * [297. Serialize and Deserialize Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Codec1.java)
 * [299. Bulls and Cows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetHint.java)
 * [303. Range Sum Query - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray.java)
