@@ -294,6 +294,7 @@
 * [423. Reconstruct Original Digits from English](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OriginalDigits.java)
 * [427. Construct Quad Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Construct.java)
 * [429. N-ary Tree Level Order Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LevelOrder.java)
+* [433. Minimum Genetic Mutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMutation.java)
 * [434. Number of Segments in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSegments.java)
 * [437. Path Sum III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathSum.java)
 * [438. Find All Anagrams in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindAnagrams.java)
