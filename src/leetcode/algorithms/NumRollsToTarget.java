@@ -18,6 +18,9 @@ public class NumRollsToTarget {
     }
 
     public static int numRollsToTarget(int d, int f, int target) {
+        /**
+         * 投掷d次的总和至少为d，至多为d*f，如果target不在这个范围内，则不存在任何可能，直接返回0
+         */
         if (d > target || d * f < target) {
             return 0;
         }
