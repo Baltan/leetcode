@@ -611,3 +611,4 @@
 * [1129. Shortest Path with Alternating Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestAlternatingPaths.java)
 * [1137. N-th Tribonacci Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tribonacci.java)
 * [1138. Alphabet Board Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlphabetBoardPath.java)
+* [1154. Day of the Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DayOfYear.java)
