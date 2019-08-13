@@ -429,6 +429,7 @@
 * [746. Min Cost Climbing Stairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCostClimbingStairs.java)
 * [747. Largest Number At Least Twice of Others](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DominantIndex.java)
 * [748. Shortest Completing Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestCompletingWord.java)
+* [752. Open the Lock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OpenLock.java)
 * [754. Reach a Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachNumber.java)
 * [760. Find Anagram Mappings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AnagramMappings.java)
 * [762. Prime Number of Set Bits in Binary Representation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPrimeSetBits.java)
