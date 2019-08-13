@@ -435,6 +435,7 @@
 * [763. Partition Labels](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionLabels.java)
 * [766. Toeplitz Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsToeplitzMatrix.java)
 * [771. Jewels and Stones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumJewelsInStones.java)
+* [780. Reaching Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachingPoints.java)
 * [781. Rabbits in Forest](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRabbits.java)
 * [783. Minimum Distance Between BST Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDiffInBST.java)
 * [784. Letter Case Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LetterCasePermutation.java)
