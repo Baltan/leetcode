@@ -579,6 +579,7 @@
 * [1030. Matrix Cells in Distance Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AllCellsDistOrder.java)
 * [1031. Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumTwoNoOverlap.java)
 * [1033. Moving Stones Until Consecutive](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMovesStones.java)
+* [1034. Coloring A Border](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ColorBorder.java)
 * [1037. Valid Boomerang](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsBoomerang.java)
 * [1038. Binary Search Tree to Greater Sum Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BstToGst.java)
 * [1041. Robot Bounded In Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsRobotBounded.java)
