@@ -375,6 +375,7 @@
 * [606. Construct String from Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tree2str.java)
 * [617. Merge Two Binary Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeTrees.java)
 * [620. Not Boring Movies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/NotBoringMovies.sql)
+* [621. Task Scheduler](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/LeastInterval.sql)
 * [622. Design Circular Queue](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/MyCircularQueue.sql)
 * [626. Exchange Seats](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ExchangeSeats.sql)
 * [627. Swap Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SwapSalary.java)
