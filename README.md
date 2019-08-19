@@ -624,3 +624,4 @@
 * [1156. Swap For Longest Repeated Character Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRepOpt1.java)
 * [1160. Find Words That Can Be Formed by Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCharacters.java)
 * [1161. Maximum Level Sum of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxLevelSum.java)
+* [1162. As Far from Land as Possible](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance.java)
