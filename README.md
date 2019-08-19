@@ -623,3 +623,4 @@
 * [1155. Number of Dice Rolls With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRollsToTarget.java)
 * [1156. Swap For Longest Repeated Character Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRepOpt1.java)
 * [1160. Find Words That Can Be Formed by Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCharacters.java)
+* [1161. Maximum Level Sum of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxLevelSum.java)
