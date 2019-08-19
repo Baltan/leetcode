@@ -622,3 +622,4 @@
 * [1154. Day of the Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DayOfYear.java)
 * [1155. Number of Dice Rolls With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRollsToTarget.java)
 * [1156. Swap For Longest Repeated Character Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRepOpt1.java)
+* [1160. Find Words That Can Be Formed by Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCharacters.java)
