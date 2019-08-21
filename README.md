@@ -440,6 +440,7 @@
 * [762. Prime Number of Set Bits in Binary Representation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPrimeSetBits.java)
 * [763. Partition Labels](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionLabels.java)
 * [766. Toeplitz Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsToeplitzMatrix.java)
+* [769. Max Chunks To Make Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxChunksToSorted.java)
 * [771. Jewels and Stones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumJewelsInStones.java)
 * [780. Reaching Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachingPoints.java)
 * [781. Rabbits in Forest](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRabbits.java)
