@@ -551,6 +551,7 @@
 * [993. Cousins in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCousins.java)
 * [994. Rotting Oranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OrangesRotting.java)
 * [997. Find the Town Judge](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindJudge.java)
+* [998. Maximum Binary Tree II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InsertIntoMaxTree.java)
 * [999. Available Captures for Rook](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRookCaptures.java)
 * [1002. Find Common Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CommonChars.java)
 * [1003. Check If Word Is Valid After Substitutions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValid1.java)
