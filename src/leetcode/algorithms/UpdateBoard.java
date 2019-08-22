@@ -17,7 +17,6 @@ public class UpdateBoard {
         int[] click1 = {3, 0};
         System.out.println(Arrays.deepToString(updateBoard(board1, click1)));
 
-
         char[][] board2 = {{'B', '1', 'E', '1', 'B'}, {'B', '1', 'M', '1', 'B'}, {'B', '1', '1', '1', 'B'},
                 {'B', 'B', 'B', 'B', 'B'}};
         int[] click2 = {1, 2};
