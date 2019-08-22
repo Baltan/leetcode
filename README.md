@@ -588,6 +588,7 @@
 * [1037. Valid Boomerang](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsBoomerang.java)
 * [1038. Binary Search Tree to Greater Sum Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BstToGst.java)
 * [1041. Robot Bounded In Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsRobotBounded.java)
+* [1042. Flower Planting With No Adjacent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GardenNoAdj.java)
 * [1046. Last Stone Weight](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastStoneWeight.java)
 * [1047. Remove All Adjacent Duplicates In String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicates2.java)
 * [1051. Height Checker](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HeightChecker.java)
