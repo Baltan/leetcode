@@ -426,6 +426,7 @@
 * [724. Find Pivot Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotIndex.java)
 * [725. Split Linked List in Parts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitListToParts.java)
 * [728. Self Dividing Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SelfDividingNumbers.java)
+* [729. My Calendar I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyCalendar.java)
 * [732. My Calendar III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyCalendarThree.java)
 * [733. Flood Fill](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FloodFill.java)
 * [735. Asteroid Collision](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AsteroidCollision.java)
