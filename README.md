@@ -633,3 +633,4 @@
 * [1160. Find Words That Can Be Formed by Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCharacters.java)
 * [1161. Maximum Level Sum of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxLevelSum.java)
 * [1162. As Far from Land as Possible](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance.java)
+* [1170. Compare Strings by Frequency of the Smallest Character](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSmallerByFrequency.java)
