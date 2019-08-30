@@ -509,6 +509,7 @@
 * [912. Sort an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArray.java)
 * [914. X of a Kind in a Deck of Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasGroupsSizeX.java)
 * [917. Reverse Only Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseOnlyLetters.java)
+* [918. Maximum Sum Circular Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarraySumCircular.java)
 * [921. Minimum Add to Make Parentheses Valid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAddToMakeValid.java)
 * [922. Sort Array By Parity II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArrayByParityII.java)
 * [923. 3Sum With Multiplicity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThreeSumMulti.java)
