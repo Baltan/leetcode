@@ -641,3 +641,4 @@
 * [1170. Compare Strings by Frequency of the Smallest Character](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSmallerByFrequency.java)
 * [1171. Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveZeroSumSublists.java)
 * [1175. Prime Arrangements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumPrimeArrangements.java)
+* [1176. Diet Plan Performance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DietPlanPerformance.java)
