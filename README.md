@@ -315,6 +315,7 @@
 * [461. Hamming Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HammingDistance.java)
 * [462. Minimum Moves to Equal Array Elements II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves2.java)
 * [463. Island Perimeter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IslandPerimeter.java)
+* [473. Matchsticks to Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Makesquare.java)
 * [475. Heaters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRadius.java)
 * [476. Number Complement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindComplement.java)
 * [477. Total Hamming Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalHammingDistance.java)
