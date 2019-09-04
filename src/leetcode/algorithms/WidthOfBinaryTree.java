@@ -40,30 +40,77 @@ public class WidthOfBinaryTree {
         }
 
         Queue<TreeNode> queue = new LinkedList<>();
-        boolean flag = true;
+        /**
+         * 最大宽度
+         */
         int maxSpan = 0;
         queue.offer(root);
-
-        while (!queue.isEmpty() && flag) {
+        /**
+         * 逐层将节点加入队列中
+         */
+        while (!queue.isEmpty()) {
             int size = queue.size();
-            flag = false;
-            int left = size - 1;
+            /**
+             * 同一层最左边的节点的值，利用节点的值作为该节点在该层的索引
+             */
+            int left = Integer.MAX_VALUE;
+            /**
+             * 同一层最右边的节点的值，利用节点的值作为该节点在该层的索引
+             */
             int right = 0;
+            /**
+             * 同一层将最左边的节点的值变为0需要减去的值，之后同一层的其他节点的值都需要减去该值，否则如果按照上图
+             * 的形式为每个节点赋值，很大的二叉树节点的值会越界，所以处理成下图这样
+             * <pre>
+             *        1
+             *       /  \
+             *      2    3
+             *     / \  /  \
+             *    4  5 6    7
+             *   ……
+             * </pre>
+             *
+             * <pre>
+             *        0
+             *       /  \
+             *      0    1
+             *     / \  /  \
+             *    0  1 2    3
+             *   ……
+             * </pre>
+             */
+            int diff = 0;
 
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
 
-                if (node == null) {
-                    queue.offer(null);
-                    queue.offer(null);
-                } else {
-                    left = Math.min(left, i);
-                    right = Math.max(right, i);
+                if (i == 0) {
+                    /**
+                     * 同一层将最左边的节点的值变为0需要减去的值，之后同一层的其他节点的值都需要减去该值
+                     */
+                    diff = node.val;
+                }
+
+                node.val = node.val - diff;
+                /**
+                 * 保存该层最左边的节点和最右边的节点的值（索引）
+                 */
+                left = Math.min(left, node.val);
+                right = Math.max(right, node.val);
+
+                if (node.left != null) {
+                    node.left.val = node.val * 2;
                     queue.offer(node.left);
+                }
+
+                if (node.right != null) {
+                    node.right.val = node.val * 2 + 1;
                     queue.offer(node.right);
-                    flag = true;
                 }
             }
+            /**
+             * 更新最大宽度
+             */
             maxSpan = Math.max(maxSpan, right - left + 1);
         }
         return maxSpan;
