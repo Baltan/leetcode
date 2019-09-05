@@ -508,6 +508,7 @@
 * [902. Numbers At Most N Given Digit Set](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AtMostNGivenDigitSet.java)
 * [904. Fruit Into Baskets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalFruit.java)
 * [905. Sort Array By Parity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArrayByParity.java)
+* [906. Super Palindromes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SuperpalindromesInRange.java)
 * [908. Smallest Range I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestRangeI.java)
 * [912. Sort an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArray.java)
 * [914. X of a Kind in a Deck of Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasGroupsSizeX.java)
