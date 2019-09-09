@@ -648,3 +648,4 @@
 * [1175. Prime Arrangements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumPrimeArrangements.java)
 * [1176. Diet Plan Performance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DietPlanPerformance.java)
 * [1179. Reformat Department Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ReformatDepartmentTable.sql)
+* [1184. Distance Between Bus Stops](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistanceBetweenBusStops.java)
