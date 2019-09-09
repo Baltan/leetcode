@@ -649,3 +649,4 @@
 * [1176. Diet Plan Performance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DietPlanPerformance.java)
 * [1179. Reformat Department Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ReformatDepartmentTable.sql)
 * [1184. Distance Between Bus Stops](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistanceBetweenBusStops.java)
+* [1185. Day of the Week](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DayOfTheWeek.java)
