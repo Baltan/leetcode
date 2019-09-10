@@ -650,3 +650,4 @@
 * [1179. Reformat Department Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ReformatDepartmentTable.sql)
 * [1184. Distance Between Bus Stops](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistanceBetweenBusStops.java)
 * [1185. Day of the Week](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DayOfTheWeek.java)
+* [1186. Maximum Subarray Sum with One Deletion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSum.java)
