@@ -70,7 +70,7 @@ public class MaxSubarraySumCircular {
          */
         int maxPrefixSum = A[1];
         /**
-         * 子数组的最大值
+         * 数组的前缀和
          */
         prefixSum = A[1];
         /**
