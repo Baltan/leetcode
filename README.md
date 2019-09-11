@@ -480,6 +480,7 @@
 * [844. Backspace String Compare](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BackspaceCompare.java)
 * [845. Longest Mountain in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestMountain.java)
 * [846. Hand of Straights](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsNStraightHand.java)
+* [848. Shifting Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftingLetters.java)
 * [849. Maximize Distance to Closest Person](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistToClosest.java)
 * [852. Peak Index in a Mountain Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeakIndexInMountainArray.java)
 * [853. Car Fleet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CarFleet.java)
