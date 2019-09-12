@@ -66,21 +66,21 @@ public class MinAreaFreeRect1 {
                         Point p4 = new Point(p2.x + p3.x - p1.x, p2.y + p3.y - p1.y);
 
                         if (set.contains(p4)) {
-                            double area = 2 * getArea(p1, p2, p3);
+                            double area = p1.distance(p2) * p1.distance(p3);
                             result = Math.min(result, area);
                         }
                     } else if (isPerpendicular(k12, k23, THRESHOLD)) {
                         Point p4 = new Point(p1.x + p3.x - p2.x, p1.y + p3.y - p2.y);
 
                         if (set.contains(p4)) {
-                            double area = 2 * getArea(p1, p2, p3);
+                            double area = p2.distance(p1) * p2.distance(p3);
                             result = Math.min(result, area);
                         }
                     } else if (isPerpendicular(k13, k23, THRESHOLD)) {
                         Point p4 = new Point(p1.x + p2.x - p3.x, p1.y + p2.y - p3.y);
 
                         if (set.contains(p4)) {
-                            double area = 2 * getArea(p1, p2, p3);
+                            double area = p3.distance(p1) * p3.distance(p2);
                             result = Math.min(result, area);
                         }
                     }
@@ -117,21 +117,5 @@ public class MinAreaFreeRect1 {
         } else {
             return (p2.y - p1.y) * 1.0 / (p2.x - p1.x);
         }
-    }
-
-    /**
-     * 海伦公式计算三角形面积，若三角形三边长分别为a，b，c，令p=(a+b+c)/2，则S=Math.sqrt(p*(p-a)*(p-b)*(p-c))
-     *
-     * @param p1
-     * @param p2
-     * @param p3
-     * @return
-     */
-    public static double getArea(Point p1, Point p2, Point p3) {
-        double l12 = p1.distance(p2);
-        double l13 = p1.distance(p3);
-        double l23 = p2.distance(p3);
-        double p = (l12 + l13 + l23) / 2;
-        return Math.sqrt(p * (p - l12) * (p - l13) * (p - l23));
     }
 }
