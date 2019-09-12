@@ -26,9 +26,14 @@ public class LenLongestFibSubseq {
         for (int num : A) {
             set.add(num);
         }
-
+        /**
+         * 对每一种可能的头两个数的情况进行讨论
+         */
         for (int i = 0; i < length - 2; i++) {
             for (int j = i + 1; j < length - 1; j++) {
+                /**
+                 * 初始化斐波那契数列的长度
+                 */
                 int len = 2;
                 int prev = A[i];
                 int next = A[j];
@@ -39,7 +44,9 @@ public class LenLongestFibSubseq {
                     prev = next;
                     next = sum;
                 }
-
+                /**
+                 * 如果数列的长度大于2，说明构成了斐波那契数列，更新最长斐波那契数列的长度
+                 */
                 if (len > 2) {
                     result = Math.max(result, len);
                 }
