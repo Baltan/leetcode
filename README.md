@@ -358,6 +358,7 @@
 * [557. Reverse Words in a String III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseWords.java)
 * [558. Quad Tree Intersection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Intersect1.java)
 * [559. Maximum Depth of N-ary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth1.java)
+* [560. Subarray Sum Equals K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarraySum.java)
 * [561. Array Partition I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayPairSum.java)
 * [563. Binary Tree Tilt](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTilt.java)
 * [564. Find the Closest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NearestPalindromic.java)
