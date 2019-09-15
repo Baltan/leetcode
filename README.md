@@ -340,6 +340,7 @@
 * [518. Coin Change 2](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Change.java)
 * [520. Detect Capital](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DetectCapitalUse.java)
 * [521. Longest Uncommon Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLUSlength.java)
+* [525. Contiguous Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxLength.java)
 * [526. Beautiful Arrangement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountArrangement.java)
 * [528. Random Pick with Weight](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution6.java)
 * [529. Minesweeper](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UpdateBoard.java)
