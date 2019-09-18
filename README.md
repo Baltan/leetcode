@@ -643,6 +643,7 @@
 * [1129. Shortest Path with Alternating Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestAlternatingPaths.java)
 * [1137. N-th Tribonacci Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tribonacci.java)
 * [1138. Alphabet Board Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlphabetBoardPath.java)
+* [1144. Decrease Elements To Make Array Zigzag](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MovesToMakeZigzag.java)
 * [1154. Day of the Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DayOfYear.java)
 * [1155. Number of Dice Rolls With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRollsToTarget.java)
 * [1156. Swap For Longest Repeated Character Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRepOpt1.java)
