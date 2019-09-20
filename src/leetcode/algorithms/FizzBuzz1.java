@@ -34,7 +34,7 @@ public class FizzBuzz1 {
         /**
          * 计算每个线程最后一次执行输出时的值
          */
-        for (int i = n; i > n - 15 && i > 0; i--) {
+        for (int i = n; i > n - 15; i--) {
             if (i % 3 == 0 && i % 5 == 0) {
                 fizzbuzzLast = Math.max(fizzbuzzLast, i);
             } else if (i % 3 == 0) {
