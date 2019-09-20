@@ -34,7 +34,7 @@ public class FizzBuzz1 {
         /**
          * 计算每个线程最后一次执行输出时的值
          */
-        for (int i = n; i > n - 15; i--) {
+        for (int i = n; i > n - 15 && i > 0; i--) {
             if (i % 3 == 0 && i % 5 == 0) {
                 fizzbuzzLast = Math.max(fizzbuzzLast, i);
             } else if (i % 3 == 0) {
@@ -51,15 +51,11 @@ public class FizzBuzz1 {
      * printFizz.run() outputs "fizz".
      */
     public void fizz(Runnable printFizz) throws InterruptedException {
-        while (currentValue <= n) {
+        while (currentValue <= fizzLast) {
             semaphore1.acquire();
             printFizz.run();
             currentValue++;
             semaphoreDeal(currentValue);
-
-            if (currentValue > fizzLast) {
-                break;
-            }
         }
     }
 
@@ -67,15 +63,11 @@ public class FizzBuzz1 {
      * printBuzz.run() outputs "buzz".
      */
     public void buzz(Runnable printBuzz) throws InterruptedException {
-        while (currentValue <= n) {
+        while (currentValue <= buzzLast) {
             semaphore2.acquire();
             printBuzz.run();
             currentValue++;
             semaphoreDeal(currentValue);
-
-            if (currentValue > buzzLast) {
-                break;
-            }
         }
     }
 
@@ -83,15 +75,11 @@ public class FizzBuzz1 {
      * printFizzBuzz.run() outputs "fizzbuzz".
      */
     public void fizzbuzz(Runnable printFizzBuzz) throws InterruptedException {
-        while (currentValue <= n) {
+        while (currentValue <= fizzbuzzLast) {
             semaphore3.acquire();
             printFizzBuzz.run();
             currentValue++;
             semaphoreDeal(currentValue);
-
-            if (currentValue > fizzbuzzLast) {
-                break;
-            }
         }
     }
 
@@ -99,15 +87,11 @@ public class FizzBuzz1 {
      * printNumber.accept(x) outputs "x", where x is an integer.
      */
     public void number(IntConsumer printNumber) throws InterruptedException {
-        while (currentValue <= n) {
+        while (currentValue <= numberLast) {
             semaphore4.acquire();
             printNumber.accept(currentValue);
             currentValue++;
             semaphoreDeal(currentValue);
-
-            if (currentValue > numberLast) {
-                break;
-            }
         }
     }
 
@@ -200,7 +184,7 @@ public class FizzBuzz1 {
     }
 
     public static void main(String[] args) {
-        FizzBuzz1 fizzBuzz = new FizzBuzz1(10000);
+        FizzBuzz1 fizzBuzz = new FizzBuzz1(5);
         Thread1 thread1 = new Thread1(fizzBuzz);
         Thread2 thread2 = new Thread2(fizzBuzz);
         Thread3 thread3 = new Thread3(fizzBuzz);
