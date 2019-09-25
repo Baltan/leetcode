@@ -154,6 +154,7 @@
 * [196. Delete Duplicate Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DeleteDuplicateEmails.sql)
 * [197. Rising Temperature](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RisingTemperature.sql)
 * [198. House Robber](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rob.java)
+* [199. Binary Tree Right Side View](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RightSideView.java)
 * [200. Number of Islands](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumIslands.java)
 * [202. Happy Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsHappy.java)
 * [203. Remove Linked List Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveElements.java)
