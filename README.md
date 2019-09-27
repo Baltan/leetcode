@@ -505,6 +505,7 @@
 * [874. Walking Robot Simulation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RobotSim.java)
 * [875. Koko Eating Bananas](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinEatingSpeed.java)
 * [876. Middle of the Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MiddleNode.java)
+* [877. Stone Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGame.java)
 * [883. Projection Area of 3D Shapes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProjectionArea.java)
 * [884. Uncommon Words from Two Sentences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UncommonFromSentences.java)
 * [885. Spiral Matrix III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpiralMatrixIII.java)
