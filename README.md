@@ -673,3 +673,4 @@
 * [1191. K-Concatenation Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KConcatenationMaxSum.java)
 * [1195. Fizz Buzz Multithreaded](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FizzBuzz1.java)
 * [1200. Minimum Absolute Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAbsDifference.java)
+* [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
