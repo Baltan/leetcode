@@ -1,7 +1,6 @@
 package leetcode.algorithms;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Description: 869. Reordered Power of 2
@@ -17,6 +16,8 @@ public class ReorderedPowerOf2 {
         System.out.println(reorderedPowerOf2(24));
         System.out.println(reorderedPowerOf2(46));
         System.out.println(reorderedPowerOf2(368407186));
+        System.out.println(reorderedPowerOf2(679213508));
+        System.out.println(reorderedPowerOf2(850239671));
     }
 
     public static boolean reorderedPowerOf2(int N) {
@@ -48,9 +49,15 @@ public class ReorderedPowerOf2 {
         if (length == 1) {
             result.add(str);
         } else {
-            for (int i = 0; i < length; i++) {
-                String head = str.substring(i, i + 1);
-                String restStr = str.substring(0, i) + str.substring(i + 1, length);
+            HashSet<String> set = new HashSet<>();
+
+            for (char c : str.toCharArray()) {
+                set.add(String.valueOf(c));
+            }
+
+            for (String head : set) {
+                int position = str.indexOf(head);
+                String restStr = str.substring(0, position) + str.substring(position + 1, length);
                 List<String> list = permutation(restStr);
 
                 for (String tail : list) {
