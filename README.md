@@ -674,3 +674,4 @@
 * [1195. Fizz Buzz Multithreaded](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FizzBuzz1.java)
 * [1200. Minimum Absolute Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAbsDifference.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
+* [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
