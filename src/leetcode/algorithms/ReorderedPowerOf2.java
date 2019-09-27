@@ -1,6 +1,6 @@
 package leetcode.algorithms;
 
-import java.util.*;
+import java.util.Arrays;
 
 /**
  * Description: 869. Reordered Power of 2
@@ -21,50 +21,27 @@ public class ReorderedPowerOf2 {
     }
 
     public static boolean reorderedPowerOf2(int N) {
-        List<String> list = permutation(String.valueOf(N));
+        /**
+         * 将N的每一位数字按照升序排列保存在数组charArray中
+         */
+        char[] charArray = String.valueOf(N).toCharArray();
+        Arrays.sort(charArray);
+        /**
+         * 对于整型范围内2的幂，如果幂值的长度和N的长度相等，将幂值的每一位数字按照升序排列保存在数组
+         * powerOf2CharArray中，如果charArray和powerOf2CharArray相等，直接返回true
+         */
+        for (int i = 0; i < 32; i++) {
+            String powerOf2String = String.valueOf(1 << i);
 
-        for (String s : list) {
-            if (!s.startsWith("0")) {
-                int value = Integer.parseInt(s);
+            if (powerOf2String.length() == charArray.length) {
+                char[] powerOf2CharArray = powerOf2String.toCharArray();
+                Arrays.sort(powerOf2CharArray);
 
-                while (value != 1) {
-                    if (value % 2 != 0) {
-                        break;
-                    }
-                    value /= 2;
-                }
-
-                if (value == 1) {
+                if (Arrays.equals(charArray, powerOf2CharArray)) {
                     return true;
                 }
             }
         }
         return false;
-    }
-
-    public static List<String> permutation(String str) {
-        List<String> result = new LinkedList<>();
-        int length = str.length();
-
-        if (length == 1) {
-            result.add(str);
-        } else {
-            HashSet<String> set = new HashSet<>();
-
-            for (char c : str.toCharArray()) {
-                set.add(String.valueOf(c));
-            }
-
-            for (String head : set) {
-                int position = str.indexOf(head);
-                String restStr = str.substring(0, position) + str.substring(position + 1, length);
-                List<String> list = permutation(restStr);
-
-                for (String tail : list) {
-                    result.add(head + tail);
-                }
-            }
-        }
-        return result;
     }
 }
