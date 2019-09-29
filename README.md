@@ -75,6 +75,7 @@
 * [81. Search in Rotated Sorted Array II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Search2.java)
 * [82. Remove Duplicates from Sorted List II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteDuplicates1.java)
 * [83. Remove Duplicates from Sorted List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteDuplicates.java)
+* [84. Largest Rectangle in Histogram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestRectangleArea.java)
 * [86. Partition List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Partition.java)
 * [88. Merge Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Merge.java)
 * [90. Subsets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubsetsWithDup.java)
