@@ -14,9 +14,8 @@ public class StoneGame {
 
     public static boolean stoneGame(int[] piles) {
         /**
-         * 参考：https://leetcode-cn.com/problems/predict-the-winner/solution/san-chong-dpsi-lu-jie-jue-duo-si
-         * -lu-by-a-fei-8/
-         *
+         * 参考：
+         * <a href="https://leetcode-cn.com/problems/predict-the-winner/solution/san-chong-dpsi-lu-jie-jue-duo-si-lu-by-a-fei-8/"></a>
          * dp[i][j]表示对于数组的第i个元素到第j个元素（包含）这段数字"先手获得的最大和"和"后手获得的总和"的差值，
          * 例如初始数组nums为[1, 5, 233, 7]：
          * 1、dp[i][i]的值等于nums[i]，因为先手拿走唯一的数字后，后手没有数字可拿获得的总和只能为0，得到dp：
