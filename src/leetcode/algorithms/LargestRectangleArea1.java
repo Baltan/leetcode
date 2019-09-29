@@ -29,6 +29,7 @@ public class LargestRectangleArea1 {
     }
 
     /**
+     * 参考：
      * <a href="https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-leetcode/"></a>
      * 柱状图中面积最大的矩形，可能在以下三种情况中出现：
      * 1、定了最矮柱子以后，矩形的宽尽可能往两边延伸；
