@@ -679,6 +679,7 @@
 * [1200. Minimum Absolute Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAbsDifference.java)
 * [1207. Unique Number of Occurrences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueOccurrences.java)
 * [1208. Get Equal Substrings Within Budget](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualSubstring.java)
+* [1208. Get Equal Substrings Within Budget](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualSubstring1.java)
 * [1209. Remove All Adjacent Duplicates in String II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicates3.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
