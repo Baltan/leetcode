@@ -371,6 +371,7 @@
 * [564. Find the Closest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NearestPalindromic.java)
 * [565. Array Nesting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayNesting.java)
 * [566. Reshape the Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixReshape.java)
+* [567. Permutation in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckInclusion.java)
 * [572. Subtree of Another Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSubtree.java)
 * [575. Distribute Candies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCandies.java)
 * [581. Shortest Unsorted Continuous Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindUnsortedSubarray.java)
