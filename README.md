@@ -685,5 +685,6 @@
 * [1208. Get Equal Substrings Within Budget](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualSubstring1.java)
 * [1209. Remove All Adjacent Duplicates in String II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicates3.java)
 * [1210. Minimum Moves to Reach Target with Rotations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves.java)
+* [1213. Intersection of Three Sorted Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArraysIntersection.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
