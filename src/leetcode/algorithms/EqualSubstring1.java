@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: 1208. Get Equal Substrings Within Budget
+ * Description: 1208. Get Equal Substrings Within Budget（5207. 尽可能使字符串相等）
  *
  * @author Baltan
  * @date 2019-10-01 09:33
