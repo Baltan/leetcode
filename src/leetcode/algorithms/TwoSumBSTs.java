@@ -27,8 +27,8 @@ public class TwoSumBSTs {
         /**
          * 有三种情况符合题意：
          * 1、一个节点为root1的根节点，另一个节点为root2的某个节点，两个节点和为target；
-         * 2、一个节点在root1的左子树的某个节点，另一个节点为root2的某个节点，两个节点和为target；
-         * 3、一个节点在root1的右子树的某个节点，另一个节点为root2的某个节点，两个节点和为target；
+         * 2、一个节点为root1的左子树的某个节点，另一个节点为root2的某个节点，两个节点和为target；
+         * 3、一个节点为root1的右子树的某个节点，另一个节点为root2的某个节点，两个节点和为target。
          */
         return help(root2, target - root1.val) || twoSumBSTs(root1.left, root2, target) ||
                 twoSumBSTs(root1.right, root2, target);
