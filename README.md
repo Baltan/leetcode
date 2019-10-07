@@ -687,5 +687,6 @@
 * [1210. Minimum Moves to Reach Target with Rotations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves.java)
 * [1213. Intersection of Three Sorted Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArraysIntersection.java)
 * [1214. Two Sum BSTs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSumBSTs.java)
+* [1214. Two Sum BSTs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSumBSTs1.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
