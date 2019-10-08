@@ -690,5 +690,6 @@
 * [1214. Two Sum BSTs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSumBSTs1.java)
 * [1215. Stepping Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSteppingNumbers.java)
 * [1217. Play with Chips](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCostToMoveChips.java)
+* [1219. Path with Maximum Gold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaximumGold.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
