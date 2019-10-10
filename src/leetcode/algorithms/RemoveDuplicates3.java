@@ -4,7 +4,7 @@ import java.util.Objects;
 import java.util.Stack;
 
 /**
- * Description: 1209. Remove All Adjacent Duplicates in String II（5206. 删除字符串中的所有相邻重复项 II）
+ * Description: 1209. Remove All Adjacent Duplicates in String II
  *
  * @author Baltan
  * @date 2019-09-30 09:48
