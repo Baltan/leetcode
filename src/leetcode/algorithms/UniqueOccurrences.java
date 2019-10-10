@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Description: 1207. Unique Number of Occurrences（5205. 独一无二的出现次数）
+ * Description: 1207. Unique Number of Occurrences
  *
  * @author Baltan
  * @date 2019-09-30 09:16
