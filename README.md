@@ -692,5 +692,6 @@
 * [1217. Play with Chips](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCostToMoveChips.java)
 * [1218. Longest Arithmetic Subsequence of Given Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubsequence.java)
 * [1219. Path with Maximum Gold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaximumGold.java)
+* [1220. Count Vowels Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountVowelPermutation.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
