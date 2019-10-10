@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Description: 1218. Longest Arithmetic Subsequence of Given Difference（5214. 最长定差子序列）
+ * Description: 1218. Longest Arithmetic Subsequence of Given Difference
  *
  * @author Baltan
  * @date 2019-10-09 08:47
