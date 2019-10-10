@@ -4,7 +4,7 @@ import leetcode.entity.TreeNode;
 import leetcode.util.BinaryTreeUtils;
 
 /**
- * Description: 1214. Two Sum BSTs（5080. 查找两棵二叉搜索树之和）
+ * Description: 1214. Two Sum BSTs
  *
  * @author Baltan
  * @date 2019-10-07 09:04
