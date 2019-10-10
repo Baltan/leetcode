@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: 1210. Minimum Moves to Reach Target with Rotations（5208. 穿过迷宫的最少移动次数）
+ * Description: 1210. Minimum Moves to Reach Target with Rotations
  *
  * @author Baltan
  * @date 2019-10-02 10:53
