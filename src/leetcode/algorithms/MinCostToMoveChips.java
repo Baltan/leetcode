@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: 1217. Play with Chips（5213. 玩筹码）
+ * Description: 1217. Play with Chips
  *
  * @author Baltan
  * @date 2019-10-07 10:50
