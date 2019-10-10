@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Description: 1215. Stepping Numbers（5081. 步进数）
+ * Description: 1215. Stepping Numbers
  *
  * @author Baltan
  * @date 2019-10-07 10:02
