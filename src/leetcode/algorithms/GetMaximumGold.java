@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: 1219. Path with Maximum Gold（5215. 黄金矿工）
+ * Description: 1219. Path with Maximum Gold
  *
  * @author Baltan
  * @date 2019-10-08 09:04
