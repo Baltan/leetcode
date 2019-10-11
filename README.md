@@ -583,6 +583,7 @@
 * [991. Broken Calculator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BrokenCalc.java)
 * [993. Cousins in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCousins.java)
 * [994. Rotting Oranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OrangesRotting.java)
+* [995. Minimum Number of K Consecutive Bit Flips](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinKBitFlips.java)
 * [997. Find the Town Judge](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindJudge.java)
 * [998. Maximum Binary Tree II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InsertIntoMaxTree.java)
 * [999. Available Captures for Rook](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRookCaptures.java)
