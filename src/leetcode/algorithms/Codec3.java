@@ -54,25 +54,30 @@ public class Codec3 {
 
         StringBuilder builder = new StringBuilder();
         Queue<TreeNode> queue = new LinkedList<>();
-        boolean flag = true;
         queue.offer(root);
 
-        while (!queue.isEmpty() && flag) {
+        while (!queue.isEmpty()) {
             int size = queue.size();
-            flag = false;
 
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
 
-                if (node == null) {
-                    builder.append(" ").append("*");
-                    queue.offer(null);
-                    queue.offer(null);
-                } else {
-                    flag = true;
-                    builder.append(node.val).append("*");
-                    queue.offer(node.left);
-                    queue.offer(node.right);
+                if (node != null) {
+                    builder.append(node.val);
+                    TreeNode left = node.left;
+                    TreeNode right = node.right;
+
+                    if (left != null) {
+                        builder.append("l");
+                        queue.offer(left);
+                    }
+
+                    if (right != null) {
+                        builder.append("r");
+                        queue.offer(right);
+                    }
+
+                    builder.append("*");
                 }
             }
         }
@@ -89,45 +94,60 @@ public class Codec3 {
         String[] values = data.split("\\*");
         int length = values.length;
         int index = 1;
-        TreeNode root = new TreeNode(Integer.valueOf(values[0]));
+        TreeNode root = new TreeNode(getValue(values[0]));
         Queue<TreeNode> queue = new LinkedList<>();
+        Queue<String> markQueue = new LinkedList<>();
         queue.offer(root);
+        markQueue.offer(getMark(values[0]));
 
         while (index < length) {
             int size = queue.size();
 
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
+                String mark = markQueue.poll();
 
-                if (node == null) {
-                    index += 2;
-                    queue.offer(null);
-                    queue.offer(null);
-                } else {
-                    String leftValue = values[index++];
-                    String rightValue = values[index++];
-                    TreeNode left;
-                    TreeNode right;
-
-                    if (Objects.equals(leftValue, " ")) {
-                        left = null;
-                    } else {
-                        left = new TreeNode(Integer.valueOf(leftValue));
-                    }
-
-                    if (Objects.equals(rightValue, " ")) {
-                        right = null;
-                    } else {
-                        right = new TreeNode(Integer.valueOf(rightValue));
-                    }
-
+                if (mark.contains("l")) {
+                    TreeNode left = new TreeNode(getValue(values[index]));
+                    String leftMark = getMark(values[index]);
                     node.left = left;
-                    node.right = right;
                     queue.offer(left);
+                    markQueue.offer(leftMark);
+                    index++;
+                }
+
+                if (mark.contains("r")) {
+                    TreeNode right = new TreeNode(getValue(values[index]));
+                    String rightMark = getMark(values[index]);
+                    node.right = right;
                     queue.offer(right);
+                    markQueue.offer(rightMark);
+                    index++;
                 }
             }
         }
         return root;
+    }
+
+    public static int getValue(String str) {
+        StringBuilder builder = new StringBuilder();
+
+        for (char c : str.toCharArray()) {
+            if (c >= '0' && c <= '9') {
+                builder.append(c);
+            }
+        }
+        return Integer.valueOf(builder.toString());
+    }
+
+    public static String getMark(String str) {
+        StringBuilder builder = new StringBuilder();
+
+        for (char c : str.toCharArray()) {
+            if (c < '0' || c > '9') {
+                builder.append(c);
+            }
+        }
+        return builder.toString();
     }
 }
