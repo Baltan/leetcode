@@ -10,6 +10,7 @@ import java.util.Stack;
  *
  * @author Baltan
  * @date 2019-06-18 09:11
+ * @see Codec2
  */
 public class Codec1 {
     /**
