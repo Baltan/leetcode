@@ -60,13 +60,22 @@ public class Codec2 {
         if (data == null || !data.startsWith("[") || !data.endsWith("]") || Objects.equals(data, "[]")) {
             return null;
         }
+        /**
+         * 查找字符串中的第2个"["（第1个"["为字符串的第1个字符）
+         */
         int index = data.indexOf("[", 1);
+        /**
+         * 确定第一个数字，即根节点的值
+         */
         TreeNode root = new TreeNode(Integer.valueOf(data.substring(1, index)));
         int length = data.length();
         Stack<Character> stack = new Stack<>();
-
+        /**
+         * 确定根节点左子树序列化后的字符串和右节点序列化后的字符串
+         */
         for (int i = 1; ; i++) {
             char c = data.charAt(i);
+
             if (c != '[' && c != ']') {
                 continue;
             } else if (c == '[') {
