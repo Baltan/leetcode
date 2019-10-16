@@ -699,5 +699,6 @@
 * [1220. Count Vowels Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountVowelPermutation.java)
 * [1221. Split a String in Balanced Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BalancedStringSplit.java)
 * [1222. Queens That Can Attack the King](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/QueensAttacktheKing.java)
+* [1223. Dice Roll Simulation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DieSimulator.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
