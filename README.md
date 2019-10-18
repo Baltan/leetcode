@@ -389,6 +389,7 @@
 * [601. Human Traffic of Stadium](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/HumanTrafficOfStadium.sql)
 * [605. Can Place Flowers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanPlaceFlowers.java)
 * [606. Construct String from Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tree2str.java)
+* [611. Valid Triangle Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TriangleNumber.java)
 * [617. Merge Two Binary Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeTrees.java)
 * [620. Not Boring Movies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/NotBoringMovies.sql)
 * [621. Task Scheduler](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/LeastInterval.sql)
