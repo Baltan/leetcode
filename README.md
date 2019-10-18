@@ -469,6 +469,7 @@
 * [788. Rotated Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotatedDigits.java)
 * [789. Escape The Ghosts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EscapeGhosts.java)
 * [791. Custom Sort String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CustomSortString.java)
+* [792. Number of Matching Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMatchingSubseq.java)
 * [794. Valid Tic-Tac-Toe State](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidTicTacToe.java)
 * [796. Rotate String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateString.java)
 * [797. All Paths From Source to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AllPathsSourceTarget.java)
