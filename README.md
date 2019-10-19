@@ -414,6 +414,7 @@
 * [665. Non-decreasing Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPossibility.java)
 * [667. Beautiful Arrangement II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructArray.java)
 * [669. Trim a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TrimBST.java)
+* [670. Maximum Swap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSwap.java)
 * [671. Second Minimum Node In a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSecondMinimumValue.java)
 * [674. Longest Continuous Increasing Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLengthOfLCIS.java)
 * [676. Implement Magic Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MagicDictionary.java)
