@@ -705,5 +705,6 @@
 * [1223. Dice Roll Simulation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DieSimulator.java)
 * [1224. Maximum Equal Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEqualFreq.java)
 * [1227. Airplane Seat Assignment Probability](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthPersonGetsNthSeat.java)
+* [1228. Missing Number In Arithmetic Progression](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingNumber1.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
