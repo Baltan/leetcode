@@ -707,5 +707,6 @@
 * [1227. Airplane Seat Assignment Probability](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthPersonGetsNthSeat.java)
 * [1228. Missing Number In Arithmetic Progression](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingNumber1.java)
 * [1232. Check If It Is a Straight Line](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckStraightLine.java)
+* [1233. Remove Sub-Folders from the Filesystem](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveSubfolders.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
