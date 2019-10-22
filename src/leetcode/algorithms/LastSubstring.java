@@ -27,7 +27,6 @@ public class LastSubstring {
                 maxHead = c;
                 maxHeadIndex = i;
             } else if (c == maxHead && isGreater(s, maxHeadIndex, i)) {
-                maxHead = c;
                 maxHeadIndex = i;
             }
         }
