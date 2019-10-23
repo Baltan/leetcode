@@ -450,6 +450,7 @@
 * [735. Asteroid Collision](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AsteroidCollision.java)
 * [738. Monotone Increasing Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MonotoneIncreasingDigits.java)
 * [739. Daily Temperatures](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DailyTemperatures.java)
+* [740. Delete and Earn](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteAndEarn.java)
 * [744. Find Smallest Letter Greater Than Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextGreatestLetter.java)
 * [746. Min Cost Climbing Stairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCostClimbingStairs.java)
 * [747. Largest Number At Least Twice of Others](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DominantIndex.java)
