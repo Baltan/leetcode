@@ -405,6 +405,7 @@
 * [647. Palindromic Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubstrings.java)
 * [648. Replace Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceWords.java)
 * [650. 2 Keys Keyboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps.java)
+* [650. 2 Keys Keyboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps1.java)
 * [652. Find Duplicate Subtrees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDuplicateSubtrees.java)
 * [653. Two Sum IV - Input is a BST](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTarget.java)
 * [654. Maximum Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructMaximumBinaryTree.java)
