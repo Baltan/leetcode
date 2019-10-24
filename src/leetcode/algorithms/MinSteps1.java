@@ -6,7 +6,7 @@ package leetcode.algorithms;
  * @author Baltan
  * @date 2019-10-24 09:47
  */
-public class MinSteps {
+public class MinSteps1 {
     public static void main(String[] args) {
         System.out.println(minSteps(1));
         System.out.println(minSteps(2));
@@ -28,20 +28,20 @@ public class MinSteps {
     }
 
     public static int minSteps(int n) {
-        int[] dp = new int[n + 1];
-        dp[1] = 0;
+        int result = 0;
+        int factor = 2;
 
-        for (int i = 2; i <= n; i++) {
-            dp[i] = i;
+        while (n != 1) {
             /**
-             * 如果i是j的倍数，那么i可以通过dp[j]，复制1次，再粘贴j/i-1次获得，即dp[j]+i/j次操作
+             * 如果n有因数factor，那么n可以通过n/factor复制1次，再粘贴factor-1次获得，即factor次操作，为了让factor
+             * 尽可能小，将factor从2开始依次递增循环
              */
-            for (int j = 2; j <= i / 2; j++) {
-                if (i % j == 0) {
-                    dp[i] = Math.min(dp[i], dp[j] + i / j);
-                }
+            while (n % factor == 0) {
+                result += factor;
+                n /= factor;
             }
+            factor++;
         }
-        return dp[n];
+        return result;
     }
 }
