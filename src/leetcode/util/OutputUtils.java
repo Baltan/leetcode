@@ -1,9 +1,6 @@
 package leetcode.util;
 
-import leetcode.entity.GraphNode;
-import leetcode.entity.ListNode;
-import leetcode.entity.RandomNode;
-import leetcode.entity.TreeNode;
+import leetcode.entity.*;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -249,5 +246,25 @@ public class OutputUtils {
             }
         }
         System.out.println();
+    }
+
+    /**
+     * 打印DoublyLinkedNode（多级双向链表）
+     *
+     * @param head
+     */
+    public static void printDoublyLinkedNode(DoublyLinkedNode head) {
+        while (head != null) {
+            String next = head.next == null ? "null" : String.valueOf(head.next.val);
+            String prev = head.prev == null ? "null" : String.valueOf(head.prev.val);
+            String child = head.child == null ? "null" : String.valueOf(head.child.val);
+            System.out.println("val=" + head.val + ",next=" + next + ",prev=" + prev + ",child=" + child);
+
+            if (head.child != null) {
+                printDoublyLinkedNode(head.child);
+            }
+
+            head = head.next;
+        }
     }
 }
