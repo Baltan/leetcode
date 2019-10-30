@@ -1,7 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.Arrays;
-
 /**
  * Description: 837. New 21 Game
  *
@@ -28,7 +26,7 @@ public class New21Game {
 
         double result = 0;
         double[] dp = new double[N + 1];
-        dp[1] = 1.0;
+        dp[0] = 1.0;
         double p = 1.0 / W;
 
         for (int i = 1; i <= N; i++) {
@@ -45,7 +43,6 @@ public class New21Game {
         for (int i = K; i <= N; i++) {
             result += dp[i];
         }
-        System.out.println(Arrays.toString(dp));
         return result;
     }
 }
