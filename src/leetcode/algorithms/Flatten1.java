@@ -9,7 +9,7 @@ import leetcode.util.OutputUtils;
  * @author Baltan
  * @date 2019-10-30 21:47
  */
-public class Solution9 {
+public class Flatten1 {
     public static void main(String[] args) {
         /**
          * <pre>
