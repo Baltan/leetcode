@@ -298,6 +298,7 @@
 * [424. Longest Repeating Character Replacement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CharacterReplacement.java)
 * [427. Construct Quad Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Construct.java)
 * [429. N-ary Tree Level Order Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LevelOrder.java)
+* [430. Flatten a Multilevel Doubly Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution9.java)
 * [433. Minimum Genetic Mutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMutation.java)
 * [434. Number of Segments in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSegments.java)
 * [437. Path Sum III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathSum.java)
