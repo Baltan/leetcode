@@ -78,6 +78,7 @@ public class Solution9 {
         node112.prev = node111;
 
         OutputUtils.printDoublyLinkedNode(node11);
+        System.out.println("-----------------------------------------------");
         OutputUtils.printDoublyLinkedNode(flatten(node11));
     }
 
