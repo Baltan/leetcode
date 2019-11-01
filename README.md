@@ -98,6 +98,7 @@
 * [112. Path Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasPathSum.java)
 * [113. Path Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathSum1.java)
 * [114. Flatten Binary Tree to Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Flatten.java)
+* [115. Distinct Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumDistinct.java)
 * [116. Populating Next Right Pointers in Each Node](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Connect.java)
 * [117. Populating Next Right Pointers in Each Node II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Connect1.java)
 * [118. Pascal's Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Generate.java)
