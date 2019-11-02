@@ -483,6 +483,7 @@
 * [794. Valid Tic-Tac-Toe State](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidTicTacToe.java)
 * [796. Rotate String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateString.java)
 * [797. All Paths From Source to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AllPathsSourceTarget.java)
+* [802. Find Eventual Safe States](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EventualSafeNodes.java)
 * [804. Unique Morse Code Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueMorseRepresentations.java)
 * [806. Number of Lines To Write String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfLines.java)
 * [807. Max Increase to Keep City Skyline](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxIncreaseKeepingSkyline.java)
