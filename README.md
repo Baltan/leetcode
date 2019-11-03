@@ -726,5 +726,6 @@
 * [1237. Find Positive Integer Solution for a Given Equation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JobScheduling.java)
 * [1239. Maximum Length of a Concatenated String with Unique Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSolution.java)
 * [1243. Array Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TransformArray.java)
+* [1244. Design A Leaderboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Leaderboard.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
