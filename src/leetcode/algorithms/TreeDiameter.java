@@ -33,12 +33,13 @@ public class TreeDiameter {
         }
 
         for (int start : map.keySet()) {
+            Map<Integer, Set<Integer>> visited = new HashMap<>();
             int length = 0;
-            Queue<int[]> queue = new LinkedList<>();
+            Queue<Integer> queue = new LinkedList<>();
             List<Integer> nodeList = map.get(start);
 
             for (int node : nodeList) {
-                queue.offer(new int[]{start, node});
+                queue.offer(node);
             }
 
             while (!queue.isEmpty()) {
@@ -46,16 +47,19 @@ public class TreeDiameter {
                 int size = queue.size();
 
                 for (int i = 0; i < size; i++) {
-                    int[] edge = queue.poll();
-                    int from = edge[0];
-                    int to = edge[1];
-                    List<Integer> nextNodes = map.get(to);
+                    int currentNode = queue.poll();
+                    List<Integer> nextNodes = map.get(currentNode);
 
-                    for (int node : nextNodes) {
-                        if (node == from) {
+                    for (int nextNode : nextNodes) {
+                        int min = Math.min(currentNode, nextNode);
+                        int max = Math.max(currentNode, nextNode);
+
+                        if (visited.containsKey(min) && visited.get(min).contains(max)) {
                             continue;
                         }
-                        queue.offer(new int[]{to, node});
+                        queue.offer(nextNode);
+                        visited.putIfAbsent(min, new HashSet<>());
+                        visited.get(min).add(max);
                     }
                 }
             }
