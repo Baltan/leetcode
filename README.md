@@ -223,6 +223,7 @@
 * [299. Bulls and Cows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetHint.java)
 * [303. Range Sum Query - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray.java)
 * [304. Range Sum Query 2D - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMatrix.java)
+* [307. Range Sum Query - Mutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray1.java)
 * [313. Super Ugly Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthSuperUglyNumber.java)
 * [318. Maximum Product of Word Lengths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct1.java)
 * [319. Bulb Switcher](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BulbSwitch.java)
