@@ -466,6 +466,7 @@
 * [748. Shortest Completing Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestCompletingWord.java)
 * [752. Open the Lock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OpenLock.java)
 * [754. Reach a Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachNumber.java)
+* [756. Pyramid Transition Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PyramidTransition.java)
 * [760. Find Anagram Mappings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AnagramMappings.java)
 * [762. Prime Number of Set Bits in Binary Representation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPrimeSetBits.java)
 * [763. Partition Labels](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionLabels.java)
