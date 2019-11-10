@@ -733,5 +733,6 @@
 * [1247. Minimum Swaps to Make Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSwap.java)
 * [1248. Count Number of Nice Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubarrays.java)
 * [1250. Check If It Is a Good Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsGoodArray.java)
+* [1252. Cells with Odd Values in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OddCells.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
