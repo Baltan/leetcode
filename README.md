@@ -735,5 +735,6 @@
 * [1250. Check If It Is a Good Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsGoodArray.java)
 * [1252. Cells with Odd Values in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OddCells.java)
 * [1253. Reconstruct a 2-Row Binary Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReconstructMatrix.java)
+* [1254. Number of Closed Islands](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosedIsland.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
