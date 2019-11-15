@@ -19,6 +19,9 @@ public class ReconstructQueue {
     }
 
     public static int[][] reconstructQueue(int[][] people) {
+        /**
+         * 将所有人按照身高递减排序，如果身高相等，按照前面身高大于或等于该身高的人数递增排序
+         */
         Arrays.sort(people, (a, b) -> a[0] == b[0] ? a[1] - b[1] : b[0] - a[0]);
         int length = people.length;
         List<int[]> list = new ArrayList<>(length);
