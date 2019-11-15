@@ -733,6 +733,7 @@
 * [1245. Tree Diameter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TreeDiameter.java)
 * [1247. Minimum Swaps to Make Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSwap.java)
 * [1248. Count Number of Nice Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubarrays.java)
+* [1249. Minimum Remove to Make Valid Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinRemoveToMakeValid.java)
 * [1250. Check If It Is a Good Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsGoodArray.java)
 * [1252. Cells with Odd Values in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OddCells.java)
 * [1253. Reconstruct a 2-Row Binary Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReconstructMatrix.java)
