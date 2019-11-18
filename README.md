@@ -742,5 +742,6 @@
 * [1254. Number of Closed Islands](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosedIsland1.java)
 * [1255. Maximum Score Words Formed by Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScoreWords.java)
 * [1256. Encode Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Encode.java)
+* [1257. Smallest Common Region](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSmallestRegion.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
