@@ -744,5 +744,6 @@
 * [1256. Encode Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Encode.java)
 * [1257. Smallest Common Region](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSmallestRegion.java)
 * [1260. Shift 2D Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftGrid.java)
+* [1261. Find Elements in a Contaminated Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindElements.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
