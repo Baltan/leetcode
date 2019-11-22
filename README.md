@@ -552,6 +552,7 @@
 * [908. Smallest Range I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestRangeI.java)
 * [912. Sort an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArray.java)
 * [914. X of a Kind in a Deck of Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasGroupsSizeX.java)
+* [916. Word Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordSubsets.java)
 * [917. Reverse Only Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseOnlyLetters.java)
 * [918. Maximum Sum Circular Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarraySumCircular.java)
 * [921. Minimum Add to Make Parentheses Valid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAddToMakeValid.java)
