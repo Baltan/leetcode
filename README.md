@@ -404,6 +404,7 @@
 * [626. Exchange Seats](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ExchangeSeats.sql)
 * [627. Swap Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SwapSalary.java)
 * [628. Maximum Product of Three Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProduct.java)
+* [630. Course Schedule III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ScheduleCourse.java)
 * [633. Sum of Square Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JudgeSquareSum.java)
 * [637. Average of Levels in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageOfLevels.java)
 * [643. Maximum Average Subarray I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxAverage.java)
