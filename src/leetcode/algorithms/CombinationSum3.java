@@ -34,15 +34,22 @@ public class CombinationSum3 {
 
     public static void help(List<List<Integer>> result, List<Integer> list, List<Integer> nums, int n,
                             int k, int min) {
+        /**
+         * 如果n和k都为0，此时组合list已满足要求，将组合加入result
+         */
         if (k == 0 && n == 0) {
             result.add(new ArrayList<>(list));
             return;
         }
-
+        /**
+         * 如果组合以包含k个数，但k个数的和不为n，组合list无法满足要求
+         */
         if (k <= 0 && n != 0) {
             return;
         }
-
+        /**
+         * 如果组合不足k个数，但组合中数字的和已达到n，组合list无法满足要求
+         */
         if (n <= 0 && k != 0) {
             return;
         }
@@ -51,7 +58,9 @@ public class CombinationSum3 {
 
         for (int i = 0; i < length; i++) {
             int num = nums.get(i);
-
+            /**
+             * 将不小于当前组合可以添加的最小值的数字加入组合中
+             */
             if (num < min) {
                 continue;
             }
