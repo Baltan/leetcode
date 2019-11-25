@@ -25,8 +25,17 @@ public class MinTimeToVisitAllPoints {
         for (int i = 1; i < length; i++) {
             int[] p1 = points[i - 1];
             int[] p2 = points[i];
+            /**
+             * 前后两点在x轴方向上的距离
+             */
             int distanceX = Math.abs(p1[0] - p2[0]);
+            /**
+             * 前后两点在y轴方向上的距离
+             */
             int distanceY = Math.abs(p1[1] - p2[1]);
+            /**
+             * 前后两点的距离为x轴方向上和y轴方向上距离的较大值，因为较小的那段距离可以通过走对角线省略
+             */
             result += Math.max(distanceX, distanceY);
         }
         return result;
