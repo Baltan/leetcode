@@ -754,5 +754,6 @@
 * [1266. Minimum Time Visiting All Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTimeToVisitAllPoints.java)
 * [1267. Count Servers that Communicate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountServers.java)
 * [1268. Search Suggestions System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SuggestedProducts.java)
+* [1269. Number of Ways to Stay in the Same Place After Some Steps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
