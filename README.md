@@ -355,6 +355,7 @@
 * [521. Longest Uncommon Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLUSlength.java)
 * [523. Continuous Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckSubarraySum.java)
 * [523. Continuous Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckSubarraySum1.java)
+* [524. Longest Word in Dictionary through Deleting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLongestWord.java)
 * [525. Contiguous Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxLength.java)
 * [526. Beautiful Arrangement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountArrangement.java)
 * [528. Random Pick with Weight](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution6.java)
