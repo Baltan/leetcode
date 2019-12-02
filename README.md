@@ -760,5 +760,6 @@
 * [1269. Number of Ways to Stay in the Same Place After Some Steps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays.java)
 * [1271. Hexspeak](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ToHexspeak.java)
 * [1275. Find Winner on a Tic Tac Toe Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tictactoe.java)
+* [1276. Number of Burgers with No Waste of Ingredients](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfBurgers.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
