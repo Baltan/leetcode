@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-06-10 12:09
+ * @see CountSquares
  * <p>
  * 参考：
  * <a href="https://leetcode-cn.com/problems/maximal-square/solution/zui-da-zheng-fang-xing-by-leetcode/"></a>
