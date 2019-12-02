@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description:
+ * Description: 1277. Count Square Submatrices with All Ones
  *
  * @author Baltan
  * @date 2019-12-02 15:02
