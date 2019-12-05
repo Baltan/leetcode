@@ -568,6 +568,7 @@
 * [923. 3Sum With Multiplicity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThreeSumMulti1.java)
 * [925. Long Pressed Name](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsLongPressedName.java)
 * [926. Flip String to Monotone Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlipsMonoIncr.java)
+* [927. Three Equal Parts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThreeEqualParts.java)
 * [929. Unique Email Addresses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumUniqueEmails.java)
 * [930. Binary Subarrays With Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubarraysWithSum.java)
 * [931. Minimum Falling Path Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFallingPathSum.java)
