@@ -1,6 +1,6 @@
 package leetcode.algorithms;
 
-import java.util.*;
+import java.util.Arrays;
 
 /**
  * Description: 787. Cheapest Flights Within K Stops
@@ -57,7 +57,7 @@ public class FindCheapestPrice1 {
          */
         cheapestPerCity[src] = 0;
         /**
-         * 没中转一次，都更新到达每个城市的最低价格
+         * 每中转一次，都更新到达每个城市的最低价格
          */
         for (int i = 0; i <= K; i++) {
             updateCheapestPerCity(cheapestPerCity, flights);
