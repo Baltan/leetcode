@@ -768,5 +768,6 @@
 * [1275. Find Winner on a Tic Tac Toe Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tictactoe.java)
 * [1276. Number of Burgers with No Waste of Ingredients](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfBurgers.java)
 * [1277. Count Square Submatrices with All Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSquares.java)
+* [1281. Subtract the Product and Sum of Digits of an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubtractProductAndSum.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
