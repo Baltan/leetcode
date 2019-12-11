@@ -48,7 +48,8 @@ public class LongestValidParentheses {
                     result = Math.max(result, i - stack.peek());
                 } else {
                     /**
-                     * 当栈为空时加入的索引表示该索引为之前无效字符串的最后一个位置
+                     * 当栈为空时表示当前")"多余"("，将该")"的索引加入栈中表示该索引为之前无效字符串的
+                     * 最后一个位置
                      */
                     stack.push(i);
                 }
