@@ -31,6 +31,7 @@
 * [30. Substring with Concatenation of All Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSubstring.java)
 * [31. Next Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextPermutation.java)
 * [32. Longest Valid Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestValidParentheses.java)
+* [32. Longest Valid Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestValidParentheses1.java)
 * [33. Search in Rotated Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Search1.java)
 * [34. Find First and Last Position of Element in Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SearchRange.java)
 * [35. Search Insert Position](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SearchInsert.java)
