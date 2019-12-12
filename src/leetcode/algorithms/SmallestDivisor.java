@@ -108,24 +108,38 @@ public class SmallestDivisor {
 
     public static int smallestDivisor(int[] nums, int threshold) {
         long sum = 0L;
+        /**
+         * 除数可能的上限为数组中的最大值，当除数大于等于该值时，求和结果恒为数组长度length
+         */
+        int hi = 0;
 
         for (int num : nums) {
+            hi = Math.max(hi, num);
             sum += num;
         }
-
-        int floor = (int) Math.ceil(1.0 * sum / threshold);
-
-        while (true) {
+        /**
+         * 除数可能的下限，因为ceil((a1+a2+……+ai)/n)<=ceil(a1/n)+ceil(a1/n)+……+ceil(ai/n)<=threshold
+         */
+        int lo = (int) Math.ceil(1.0 * sum / threshold);
+        /**
+         * 二分查找满足要求的最小除数
+         */
+        while (lo <= hi) {
+            int mid = (lo + hi) / 2;
             int currentSum = 0;
 
             for (int num : nums) {
-                currentSum += Math.ceil(1.0 * num / floor);
+                currentSum += Math.ceil(1.0 * num / mid);
             }
-
-            if (currentSum <= threshold) {
-                return floor;
+            /**
+             * 如果当前求和结果大于阈值，说明除数不够大，否则说明除数可能还能更小
+             */
+            if (currentSum > threshold) {
+                lo = mid + 1;
+            } else {
+                hi = mid - 1;
             }
-            floor++;
         }
+        return lo;
     }
 }
