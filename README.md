@@ -773,5 +773,6 @@
 * [1277. Count Square Submatrices with All Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSquares.java)
 * [1281. Subtract the Product and Sum of Digits of an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubtractProductAndSum.java)
 * [1282. Group the People Given the Group Size They Belong To](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GroupThePeople.java)
+* [1283. Find the Smallest Divisor Given a Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestDivisor.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
