@@ -334,6 +334,7 @@
 * [476. Number Complement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindComplement.java)
 * [477. Total Hamming Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalHammingDistance.java)
 * [479. Largest Palindrome Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindrome.java)
+* [481. Magical String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MagicalString.java)
 * [482. License Key Formatting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LicenseKeyFormatting.java)
 * [485. Max Consecutive Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxConsecutiveOnes.java)
 * [486. Predict the Winner](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PredictTheWinner.java)
