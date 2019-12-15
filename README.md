@@ -776,6 +776,7 @@
 * [1281. Subtract the Product and Sum of Digits of an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubtractProductAndSum.java)
 * [1282. Group the People Given the Group Size They Belong To](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GroupThePeople.java)
 * [1283. Find the Smallest Divisor Given a Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestDivisor.java)
+* [1286. Iterator for Combination](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationIterator.java)
 * [1287. Element Appearing More Than 25% In Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSpecialInteger.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
