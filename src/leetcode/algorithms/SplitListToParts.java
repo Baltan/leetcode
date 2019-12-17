@@ -13,19 +13,19 @@ import leetcode.util.OutputUtils;
 public class SplitListToParts {
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3};
-        ListNode root1 = ListNodeUtils.arrayToBinaryTree(arr1);
+        ListNode root1 = ListNodeUtils.arrayToListNode(arr1);
         OutputUtils.print1DListNodeArray(splitListToParts(root1, 5));
 
         System.out.println("------------------------------------------------------------");
 
         int[] arr2 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        ListNode root2 = ListNodeUtils.arrayToBinaryTree(arr2);
+        ListNode root2 = ListNodeUtils.arrayToListNode(arr2);
         OutputUtils.print1DListNodeArray(splitListToParts(root2, 3));
 
         System.out.println("------------------------------------------------------------");
 
         int[] arr3 = {};
-        ListNode root3 = ListNodeUtils.arrayToBinaryTree(arr3);
+        ListNode root3 = ListNodeUtils.arrayToListNode(arr3);
         OutputUtils.print1DListNodeArray(splitListToParts(root3, 3));
     }
 
