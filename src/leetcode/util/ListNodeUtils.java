@@ -16,7 +16,7 @@ public class ListNodeUtils {
      * @param arr
      * @return
      */
-    public static ListNode arrayToBinaryTree(int[] arr) {
+    public static ListNode arrayToListNode(int[] arr) {
         if (arr == null || arr.length == 0) {
             return null;
         }
