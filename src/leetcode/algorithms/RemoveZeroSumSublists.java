@@ -15,16 +15,16 @@ import java.util.Map;
  */
 public class RemoveZeroSumSublists {
     public static void main(String[] args) {
-        ListNode head1 = ListNodeUtils.arrayToBinaryTree(new int[]{1, 2, -3, 3, 1});
+        ListNode head1 = ListNodeUtils.arrayToListNode(new int[]{1, 2, -3, 3, 1});
         OutputUtils.printListNode(removeZeroSumSublists(head1));
 
-        ListNode head2 = ListNodeUtils.arrayToBinaryTree(new int[]{1, 2, 3, -3, 4});
+        ListNode head2 = ListNodeUtils.arrayToListNode(new int[]{1, 2, 3, -3, 4});
         OutputUtils.printListNode(removeZeroSumSublists(head2));
 
-        ListNode head3 = ListNodeUtils.arrayToBinaryTree(new int[]{1, 2, 3, -3, -2});
+        ListNode head3 = ListNodeUtils.arrayToListNode(new int[]{1, 2, 3, -3, -2});
         OutputUtils.printListNode(removeZeroSumSublists(head3));
 
-        ListNode head4 = ListNodeUtils.arrayToBinaryTree(new int[]{0});
+        ListNode head4 = ListNodeUtils.arrayToListNode(new int[]{0});
         OutputUtils.printListNode(removeZeroSumSublists(head4));
     }
 
