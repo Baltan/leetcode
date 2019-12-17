@@ -23,15 +23,12 @@ public class ListNodeUtils {
 
         int length = arr.length;
         ListNode head = new ListNode(arr[0]);
-        ListNode tail = new ListNode(arr[length - 1]);
+        ListNode temp = head;
 
-        for (int i = length - 2; i > 0; i--) {
-            ListNode node = new ListNode(arr[i]);
-            node.next = tail;
-            tail = node;
+        for (int i = 1; i < length; i++) {
+            temp.next = new ListNode(arr[i]);
+            temp = temp.next;
         }
-
-        head.next = tail;
         return head;
     }
 }
