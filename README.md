@@ -781,5 +781,6 @@
 * [1288. Remove Covered Intervals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveCoveredIntervals.java)
 * [1289. Minimum Falling Path Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFallingPathSum1.java)
 * [1290. Convert Binary Number in a Linked List to Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDecimalValue.java)
+* [1291. Sequential Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SequentialDigits.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
