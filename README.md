@@ -782,5 +782,6 @@
 * [1289. Minimum Falling Path Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFallingPathSum1.java)
 * [1290. Convert Binary Number in a Linked List to Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDecimalValue.java)
 * [1291. Sequential Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SequentialDigits.java)
+* [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSideLength.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
