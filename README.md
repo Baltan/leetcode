@@ -372,6 +372,7 @@
 * [539. Minimum Time Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinDifference.java)
 * [540. Single Element in a Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SingleNonDuplicate.java)
 * [541. Reverse String II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseStr.java)
+* [542. 01 Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UpdateMatrix.java)
 * [543. Diameter of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiameterOfBinaryTree.java)
 * [547. Friend Circles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCircleNum.java)
 * [551. Student Attendance Record I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckRecord.java)
