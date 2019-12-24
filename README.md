@@ -787,5 +787,6 @@
 * [1291. Sequential Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SequentialDigits.java)
 * [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSideLength.java)
 * [1295. Find Numbers with Even Number of Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindNumbers.java)
+* [1296. Divide Array in Sets of K Consecutive Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossibleDivide.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
