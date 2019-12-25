@@ -8,6 +8,7 @@ import java.util.List;
  *
  * @author Baltan
  * @date 2019-06-13 10:39
+ * @see NthSuperUglyNumber
  */
 public class NthUglyNumber {
     public static void main(String[] args) {
@@ -57,7 +58,7 @@ public class NthUglyNumber {
             int num = Math.min(list.get(index1) * 2, Math.min(list.get(index2) * 3, list.get(index3) * 5));
             list.add(num);
             /**
-             * 将value加1，查找的下一个丑数必然不小于这个值
+             * 将value改为新找到的丑数加1，查找的下一个丑数必然不小于这个值
              */
             value = num + 1;
         }
