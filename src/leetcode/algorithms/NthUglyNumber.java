@@ -52,7 +52,7 @@ public class NthUglyNumber {
                 index3++;
             }
             /**
-             * 将以上三个不小于的value的丑数的最小值加入到丑数序列中
+             * 将以上三个不小于value的丑数的最小值加入到丑数序列中
              */
             int num = Math.min(list.get(index1) * 2, Math.min(list.get(index2) * 3, list.get(index3) * 5));
             list.add(num);
