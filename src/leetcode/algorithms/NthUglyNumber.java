@@ -30,21 +30,35 @@ public class NthUglyNumber {
         int index2 = 0;
         int index3 = 0;
         int value = 1;
-
         list.add(1);
 
         while (list.size() < n) {
+            /**
+             * 沿着丑数序列，将每个丑数乘以2，直到找到不小于value的丑数
+             */
             while (list.get(index1) * 2 < value) {
                 index1++;
             }
+            /**
+             * 沿着丑数序列，将每个丑数乘以3，直到找到不小于value的丑数
+             */
             while (list.get(index2) * 3 < value) {
                 index2++;
             }
+            /**
+             * 沿着丑数序列，将每个丑数乘以5，直到找到不小于value的丑数
+             */
             while (list.get(index3) * 5 < value) {
                 index3++;
             }
+            /**
+             * 将以上三个不小于的value的丑数的最小值加入到丑数序列中
+             */
             int num = Math.min(list.get(index1) * 2, Math.min(list.get(index2) * 3, list.get(index3) * 5));
             list.add(num);
+            /**
+             * 将value加1，查找的下一个丑数必然不小于这个值
+             */
             value = num + 1;
         }
         return list.get(n - 1);
