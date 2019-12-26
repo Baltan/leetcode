@@ -725,6 +725,7 @@
 * [1191. K-Concatenation Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KConcatenationMaxSum.java)
 * [1195. Fizz Buzz Multithreaded](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FizzBuzz1.java)
 * [1200. Minimum Absolute Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAbsDifference.java)
+* [1201. Ugly Number III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthUglyNumber2.java)
 * [1207. Unique Number of Occurrences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueOccurrences.java)
 * [1208. Get Equal Substrings Within Budget](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualSubstring.java)
 * [1208. Get Equal Substrings Within Budget](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualSubstring1.java)
