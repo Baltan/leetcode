@@ -790,6 +790,7 @@
 * [1295. Find Numbers with Even Number of Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindNumbers.java)
 * [1296. Divide Array in Sets of K Consecutive Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossibleDivide.java)
 * [1297. Maximum Number of Occurrences of a Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreq.java)
+* [1298. Maximum Candies You Can Get from Boxes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCandies.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
