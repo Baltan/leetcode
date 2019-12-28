@@ -28,15 +28,10 @@ public class RangeBitwiseAnd {
             result &= i;
             /**
              * 如果当前循环过的这些数字按位与的结果为0，则退出循环，因为0与后面的任何数字按位与的结果
-             * 仍旧为0
+             * 仍旧为0；如果当前循环到i为Integer.MAX_VALUE，则退出循环，因为i++之后，i会变为
+             * -2147483648，会继续进入循环，直到结果变为0才退出循环。
              */
-            if (result == 0) {
-                break;
-            }
-            /**
-             * 如果当前循环到i为Integer.MAX_VALUE，则退出循环，因为i++之后循环会出错
-             */
-            if (i == Integer.MAX_VALUE) {
+            if (result == 0 || i == Integer.MAX_VALUE) {
                 break;
             }
         }
