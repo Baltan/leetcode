@@ -795,6 +795,7 @@
 * [1298. Maximum Candies You Can Get from Boxes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCandies.java)
 * [1299. Replace Elements with Greatest Element on Right Side](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceElements.java)
 * [1300. Sum of Mutated Array Closest to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindBestValue.java)
+* [1301. Number of Paths with Max Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathsWithMaxScore.java)
 * [1302. Deepest Leaves Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeepestLeavesSum.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
