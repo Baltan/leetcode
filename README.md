@@ -61,6 +61,7 @@
 * [62. Unique Paths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniquePaths.java)
 * [63. Unique Paths II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniquePathsWithObstacles.java)
 * [64. Minimum Path Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPathSum.java)
+* [65. Valid Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsNumber.java)
 * [66. Plus One](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PlusOne.java)
 * [67. Add Binary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddBinary.java)
 * [68. Text Justification](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FullJustify.java)
