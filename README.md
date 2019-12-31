@@ -797,6 +797,7 @@
 * [1300. Sum of Mutated Array Closest to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindBestValue.java)
 * [1301. Number of Paths with Max Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathsWithMaxScore.java)
 * [1302. Deepest Leaves Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeepestLeavesSum.java)
+* [1304. Find N Unique Integers Sum up to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumZero.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
