@@ -49,6 +49,8 @@
 * [48. Rotate Image](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rotate1.java)
 * [49. Group Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GroupAnagrams.java)
 * [50. Pow(x, n)](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyPow.java)
+* [51. N-Queens](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SolveNQueens.java)
+* [52. N-Queens II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalNQueens.java)
 * [53. Maximum Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubArray.java)
 * [54. Spiral Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpiralOrder.java)
 * [55. Jump Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanJump.java)
