@@ -805,6 +805,7 @@
 * [1304. Find N Unique Integers Sum up to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumZero.java)
 * [1305. All Elements in Two Binary Search Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetAllElements.java)
 * [1306. Jump Game III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanReach.java)
+* [1309. Decrypt String from Alphabet to Integer Mapping](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FreqAlphabets.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
