@@ -466,6 +466,7 @@
 * [706. Design HashMap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyHashMap.java)
 * [707. Design Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyLinkedList.java)
 * [709. To Lower Case](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ToLowerCase.java)
+* [712. Minimum ASCII Delete Sum for Two Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDeleteSum.java)
 * [713. Subarray Product Less Than K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubarrayProductLessThanK.java)
 * [717. 1-bit and 2-bit Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsOneBitCharacter.java)
 * [720. Longest Word in Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestWord.java)
