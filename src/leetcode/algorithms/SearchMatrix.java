@@ -28,8 +28,12 @@ public class SearchMatrix {
         int start = 0;
         int end = length - 1;
         int position;
+        /**
+         * 二分查找target在哪一行中，最后的end即为target可能在的行数
+         */
         while (start <= end) {
             position = (start + end) / 2;
+
             if (matrix[position][0] == target) {
                 return true;
             } else if (matrix[position][0] > target) {
@@ -39,13 +43,21 @@ public class SearchMatrix {
             }
         }
         position = end;
+        /**
+         * 如果矩阵的第一个数都大于target，显然target不存在矩阵中
+         */
         if (position < 0) {
             return false;
         }
+
         start = 0;
         end = width - 1;
+        /**
+         * 二分查找在索引为position的行中是否存在target这个数
+         */
         while (start <= end) {
             int position1 = (start + end) / 2;
+
             if (matrix[position][position1] == target) {
                 return true;
             } else if (matrix[position][position1] > target) {
