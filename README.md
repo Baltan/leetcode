@@ -440,6 +440,7 @@
 * [662. Maximum Width of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WidthOfBinaryTree.java)
 * [665. Non-decreasing Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPossibility.java)
 * [667. Beautiful Arrangement II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructArray.java)
+* [668. Kth Smallest Number in Multiplication Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthNumber.java)
 * [669. Trim a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TrimBST.java)
 * [670. Maximum Swap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSwap.java)
 * [671. Second Minimum Node In a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSecondMinimumValue.java)
