@@ -523,6 +523,7 @@
 * [823. Binary Trees With Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumFactoredBinaryTrees.java)
 * [824. Goat Latin](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ToGoatLatin.java)
 * [825. Friends Of Appropriate Ages](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumFriendRequests.java)
+* [827. Making A Large Island](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestIsland.java)
 * [829. Consecutive Numbers Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConsecutiveNumbersSum.java)
 * [830. Positions of Large Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargeGroupPositions.java)
 * [831. Masking Personal Information](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaskPII.java)
