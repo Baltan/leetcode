@@ -42,8 +42,8 @@ public class SolveNQueens {
     public static void dfs(List<List<String>> result, int[][] board, Set<Point> queenCoordinates, int n,
                            int row) {
         /**
-         * 如果当前要放置索引为row行的皇后，说明棋盘上已经按要求放了row的皇后，已满足题目要求，将当前的
-         * 方法加入result
+         * 如果当前要放置索引为row行的皇后，说明棋盘上已经按要求放了row行的皇后，已满足题目要求，将当前
+         * 的放法加入result
          */
         if (row == n) {
             List<String> list = new LinkedList<>();
