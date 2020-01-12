@@ -54,8 +54,8 @@ public class TotalNQueens {
     public static void dfs(int[][] board, Set<Point> queenCoordinates, int n,
                            int row) {
         /**
-         * 如果当前要放置索引为row行的皇后，说明棋盘上已经按要求放了row的皇后，已满足题目要求，将result
-         * 加1
+         * 如果当前要放置索引为row行的皇后，说明棋盘上已经按要求放了row行的皇后，已满足题目要求，将
+         * result加1
          */
         if (row == n) {
             result++;
