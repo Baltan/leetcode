@@ -815,6 +815,8 @@
 * [1311. Get Watched Videos by Your Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WatchedVideosByFriends.java)
 * [1313. Decompress Run-Length Encoded List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecompressRLElist.java)
 * [1314. Matrix Block Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixBlockSum.java)
+* [1315. Sum of Nodes with Even-Valued Grandparent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumEvenGrandparent.java)
+* [1316. Distinct Echo Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctEchoSubstrings.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
