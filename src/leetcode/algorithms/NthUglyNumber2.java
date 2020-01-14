@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-12-25 18:32
+ * @see NthMagicalNumber
  */
 public class NthUglyNumber2 {
     public static void main(String[] args) {
