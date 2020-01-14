@@ -150,6 +150,7 @@
 * [174. Dungeon Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalculateMinimumHP.java)
 * [175. Combine Two Tables](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CombineTwoTables.sql)
 * [176. Second Highest Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SecondHighestSalary.sql)
+* [177. Nth Highest Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/GetNthHighestSalary.sql)
 * [178. Rank Scores](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RankScores.sql)
 * [179. Largest Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/largestNumber.java)
 * [180. Consecutive Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ConsecutiveNumbers.java)
