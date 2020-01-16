@@ -344,6 +344,7 @@
 * [479. Largest Palindrome Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindrome.java)
 * [481. Magical String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MagicalString.java)
 * [482. License Key Formatting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LicenseKeyFormatting.java)
+* [483. Smallest Good Base](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestGoodBase.java)
 * [485. Max Consecutive Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxConsecutiveOnes.java)
 * [486. Predict the Winner](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PredictTheWinner.java)
 * [486. Predict the Winner](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PredictTheWinner1.java)
