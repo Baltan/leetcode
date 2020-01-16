@@ -28,6 +28,10 @@ public class ShortestSubarray {
         }
 
         for (int firstIndex = 0; firstIndex < length; firstIndex++) {
+            if (A[firstIndex] <= 0) {
+                continue;
+            }
+
             for (int subarrayLength = 1; subarrayLength < result; subarrayLength++) {
                 int lastIndex = firstIndex + subarrayLength - 1;
 
