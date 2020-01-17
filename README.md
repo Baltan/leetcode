@@ -606,6 +606,7 @@
 * [935. Knight Dialer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KnightDialer.java)
 * [937. Reorder Log Files](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderLogFiles.java)
 * [938. Range Sum of BST](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeSumBST.java)
+* [939. Minimum Area Rectangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAreaRect.java)
 * [941. Valid Mountain Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidMountainArray.java)
 * [942. DI String Match](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiStringMatch.java)
 * [944. Delete Columns to Make Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletionSize.java)
