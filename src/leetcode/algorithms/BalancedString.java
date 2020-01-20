@@ -14,8 +14,8 @@ public class BalancedString {
         System.out.println(balancedString("QQQQ"));
         System.out.println(balancedString("WWEQERQWQWWRWWERQWEQ"));
 
-        StringBuilder builder = new StringBuilder(10000);
-        for (int i = 0; i < 10000; i++) {
+        StringBuilder builder = new StringBuilder(100000);
+        for (int i = 0; i < 100000; i++) {
             builder.append("Q");
         }
         System.out.println(balancedString(builder.toString()));
