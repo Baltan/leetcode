@@ -770,6 +770,7 @@
 * [1232. Check If It Is a Straight Line](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckStraightLine.java)
 * [1233. Remove Sub-Folders from the Filesystem](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveSubfolders.java)
 * [1233. Remove Sub-Folders from the Filesystem](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveSubfolders1.java)
+* [1234. Replace the Substring for Balanced String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BalancedString.java)
 * [1235. Maximum Profit in Job Scheduling](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JobScheduling.java)
 * [1237. Find Positive Integer Solution for a Given Equation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JobScheduling.java)
 * [1239. Maximum Length of a Concatenated String with Unique Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSolution.java)
