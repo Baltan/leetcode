@@ -43,6 +43,7 @@
 * [41. First Missing Positive](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstMissingPositive.java)
 * [42. Trapping Rain Water](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Trap.java)
 * [43. Multiply Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Multiply.java)
+* [44. Wildcard Matching](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsMatch.java)
 * [45. Jump Game II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Jump.java)
 * [46. Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Permute.java)
 * [47. Permutations II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PermuteUnique.java)
