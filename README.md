@@ -478,6 +478,7 @@
 * [713. Subarray Product Less Than K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubarrayProductLessThanK.java)
 * [717. 1-bit and 2-bit Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsOneBitCharacter.java)
 * [720. Longest Word in Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestWord.java)
+* [722. Remove Comments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveComments.java)
 * [724. Find Pivot Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotIndex.java)
 * [725. Split Linked List in Parts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitListToParts.java)
 * [728. Self Dividing Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SelfDividingNumbers.java)
