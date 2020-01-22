@@ -337,6 +337,7 @@
 * [461. Hamming Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HammingDistance.java)
 * [462. Minimum Moves to Equal Array Elements II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves2.java)
 * [463. Island Perimeter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IslandPerimeter.java)
+* [467. Unique Substrings in Wraparound String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSubstringInWraproundString.java)
 * [468. Validate IP Address](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidIPAddress.java)
 * [470. Implement Rand10() Using Rand7()](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution8.java)
 * [473. Matchsticks to Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Makesquare.java)
