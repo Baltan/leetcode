@@ -477,6 +477,7 @@
 * [712. Minimum ASCII Delete Sum for Two Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDeleteSum.java)
 * [713. Subarray Product Less Than K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubarrayProductLessThanK.java)
 * [717. 1-bit and 2-bit Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsOneBitCharacter.java)
+* [718. Maximum Length of Repeated Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLength.java)
 * [720. Longest Word in Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestWord.java)
 * [722. Remove Comments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveComments.java)
 * [724. Find Pivot Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotIndex.java)
