@@ -636,6 +636,7 @@
 * [974. Subarray Sums Divisible by K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarraysDivByK.java)
 * [976. Largest Perimeter Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPerimeter.java)
 * [977. Squares of a Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortedSquares.java)
+* [978. Longest Turbulent Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTurbulenceSize.java)
 * [979. Distribute Coins in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCoins.java)
 * [981. Time Based Key-Value Store](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TimeMap.java)
 * [982. Triples with Bitwise AND Equal To Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTriplets.java)
