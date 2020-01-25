@@ -40,7 +40,8 @@ public class ShortestSubarray {
          */
         long[] prefixSum = new long[length + 1];
         /**
-         * deque保存前缀和的索引，deque中的索引值单调递增并且索引对应的前缀和单调递增
+         * deque保存前缀和的索引，存入deque中的索引值单调递增i并且索引对应的前缀和prefixSum[i]单调递
+         * 减
          */
         Deque<Integer> deque = new LinkedList();
 
