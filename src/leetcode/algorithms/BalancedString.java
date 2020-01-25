@@ -81,7 +81,7 @@ public class BalancedString {
                     break;
                 }
                 /**
-                 * 因为接下去要左移左端点缩小窗口，所以窗口外的字母要加上当前左端点的字母
+                 * 因为接下去要右移左端点缩小窗口，所以窗口外的字母要加上当前左端点的字母
                  */
                 c = s.charAt(leftIndex);
 
