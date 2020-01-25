@@ -730,6 +730,7 @@
 * [1131. Maximum of Absolute Value Expression](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAbsValExpr.java)
 * [1137. N-th Tribonacci Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tribonacci.java)
 * [1138. Alphabet Board Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlphabetBoardPath.java)
+* [1139. Largest 1-Bordered Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Largest1BorderedSquare.java)
 * [1144. Decrease Elements To Make Array Zigzag](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MovesToMakeZigzag.java)
 * [1145. Binary Tree Coloring Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BtreeGameWinningMove.java)
 * [1147. Longest Chunked Palindrome Decomposition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestDecomposition.java)
