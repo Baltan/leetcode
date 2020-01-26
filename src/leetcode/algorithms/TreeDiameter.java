@@ -7,6 +7,7 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2019-11-04 09:07
+ * @see FindMinHeightTrees
  */
 public class TreeDiameter {
     public static void main(String[] args) {
@@ -356,7 +357,7 @@ public class TreeDiameter {
             degreeMap.put(edge[1], degreeMap.getOrDefault(edge[1], 0) + 1);
         }
         /**
-         * 将所有只有一个分支的节点加入队列中，这些节点看做是同一层节点
+         * 将所有只有一个分支的节点加入队列中，这些节点是最外层节点
          */
         for (int node : degreeMap.keySet()) {
             if (degreeMap.get(node) == 1) {
