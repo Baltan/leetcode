@@ -839,6 +839,7 @@
 * [1316. Distinct Echo Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctEchoSubstrings.java)
 * [1317. Convert Integer to the Sum of Two No-Zero Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetNoZeroIntegers.java)
 * [1318. Minimum Flips to Make a OR b Equal to c](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips.java)
+* [1331. Rank Transform of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayRankTransform.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
