@@ -369,7 +369,7 @@ public class TreeDiameter {
 
         while (!queue.isEmpty()) {
             /**
-             * 该层的节点树
+             * 该层的节点数量
              */
             size = queue.size();
             /**
