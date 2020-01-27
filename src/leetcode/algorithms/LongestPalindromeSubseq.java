@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-10-04 11:54
+ * @see MinInsertions
  */
 public class LongestPalindromeSubseq {
     public static void main(String[] args) {
