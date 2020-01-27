@@ -26,12 +26,21 @@ public class MakeConnected {
     }
 
     public static int makeConnected(int n, int[][] connections) {
+        /**
+         * 如果有n台计算机，至少需要n-1条线缆才可以将所有计算机连接成一个网络
+         */
         if (connections.length < n - 1) {
             return -1;
         }
-
+        /**
+         * 初始化连接下，计算机网络的个数，如果有k个计算机网络，那么就需要k-1条线缆，将这些独立的计
+         * 算机网络连成一个新的计算机网络，所以最后返回groupNum-1
+         */
         int groupNum = 0;
         boolean[] isVisited = new boolean[n];
+        /**
+         * directConnections[i]表示编号为i的计算机直接连接的所有其他计算机
+         */
         List<Integer>[] directConnections = new List[n];
 
         for (int i = 0; i < n; i++) {
@@ -46,18 +55,28 @@ public class MakeConnected {
         }
 
         for (int i = 0; i < n; i++) {
+            /**
+             * 如果编号为i的计算机不在当前已经确定的某个计算机网络中，就从这台计算机开始查找它所在
+             * 的计算机网络中的所有计算机编号
+             */
             if (!isVisited[i]) {
+                /**
+                 * 计算机网络的个数加1
+                 */
                 groupNum++;
                 Queue<Integer> queue = new LinkedList<>();
                 queue.offer(i);
-
+                isVisited[i] = true;
+                /**
+                 * 广度优先搜索
+                 */
                 while (!queue.isEmpty()) {
                     int computer = queue.poll();
-                    isVisited[computer] = true;
 
                     for (int connectedComputer : directConnections[computer]) {
                         if (!isVisited[connectedComputer]) {
                             queue.offer(connectedComputer);
+                            isVisited[connectedComputer] = true;
                         }
                     }
                 }
