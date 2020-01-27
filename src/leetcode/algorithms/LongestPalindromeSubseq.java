@@ -32,7 +32,7 @@ public class LongestPalindromeSubseq {
         }
         /**
          * 当i≠j时，如果s.chatAt(i)和s.charAt(j)相等，则dp[i][j]=dp[i+1][j-1]+2，如果
-         * s.chatAt(i)和s.charAt(j)不相等，则dp[i][j]=Math.max(dp[i+1][j],dp[i][j-1])+1
+         * s.chatAt(i)和s.charAt(j)不相等，则dp[i][j]=Math.max(dp[i+1][j],dp[i][j-1])
          * 例如：s="cbbd"
          * <pre>
          * 1  0  0  0    1  1  0  0    1  1  2  0    1  1  2  2
