@@ -833,6 +833,7 @@
 * [1309. Decrypt String from Alphabet to Integer Mapping](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FreqAlphabets.java)
 * [1310. XOR Queries of a Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorQueries.java)
 * [1311. Get Watched Videos by Your Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WatchedVideosByFriends.java)
+* [1312. Minimum Insertion Steps to Make a String Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinInsertions.java)
 * [1313. Decompress Run-Length Encoded List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecompressRLElist.java)
 * [1314. Matrix Block Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixBlockSum.java)
 * [1315. Sum of Nodes with Even-Valued Grandparent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumEvenGrandparent.java)
