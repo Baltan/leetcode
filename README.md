@@ -506,6 +506,7 @@
 * [769. Max Chunks To Make Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxChunksToSorted.java)
 * [771. Jewels and Stones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumJewelsInStones.java)
 * [777. Swap Adjacent in LR String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanTransform.java)
+* [779. K-th Symbol in Grammar](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthGrammar.java)
 * [780. Reaching Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachingPoints.java)
 * [781. Rabbits in Forest](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRabbits.java)
 * [783. Minimum Distance Between BST Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDiffInBST.java)
