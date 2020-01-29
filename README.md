@@ -423,6 +423,7 @@
 * [620. Not Boring Movies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/NotBoringMovies.sql)
 * [621. Task Scheduler](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/LeastInterval.sql)
 * [622. Design Circular Queue](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/MyCircularQueue.sql)
+* [623. Add One Row to Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/AddOneRow.sql)
 * [626. Exchange Seats](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ExchangeSeats.sql)
 * [627. Swap Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SwapSalary.java)
 * [628. Maximum Product of Three Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProduct.java)
