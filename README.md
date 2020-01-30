@@ -344,6 +344,7 @@
 * [468. Validate IP Address](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidIPAddress.java)
 * [470. Implement Rand10() Using Rand7()](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution8.java)
 * [473. Matchsticks to Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Makesquare.java)
+* [474. Ones and Zeroes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxForm.java)
 * [475. Heaters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRadius.java)
 * [476. Number Complement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindComplement.java)
 * [477. Total Hamming Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalHammingDistance.java)
