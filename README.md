@@ -85,6 +85,7 @@
 * [84. Largest Rectangle in Histogram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestRectangleArea1.java)
 * [86. Partition List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Partition.java)
 * [88. Merge Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Merge.java)
+* [89. Gray Code](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GrayCode.java)
 * [90. Subsets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubsetsWithDup.java)
 * [91. Decode Ways](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumDecodings.java)
 * [93. Restore IP Addresses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreIpAddresses.java)
