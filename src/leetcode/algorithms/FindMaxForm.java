@@ -1,7 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.Arrays;
-
 /**
  * Description: 474. Ones and Zeroes
  *
@@ -9,8 +7,6 @@ import java.util.Arrays;
  * @date 2020-01-30 13:10
  */
 public class FindMaxForm {
-    public static int result;
-
     public static void main(String[] args) {
         String[] strs1 = {"10", "0001", "111001", "1", "0"};
         System.out.println(findMaxForm(strs1, 5, 3));
@@ -31,44 +27,58 @@ public class FindMaxForm {
         System.out.println(findMaxForm(strs4, 90, 66));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/ones-and-zeroes/solution/dong-tai-gui-hua-zhuan-huan-wei-0-1-bei-bao-wen-ti/"></a>
+     *
+     * @param strs
+     * @param m
+     * @param n
+     * @return
+     */
     public static int findMaxForm(String[] strs, int m, int n) {
-        result = 0;
-        int count = 0;
         int length = strs.length;
-        int[][] counts = new int[length][2];
+        /**
+         * dp[i][j][k]表示用j个0和k个1可以在数组strs的前i个字符串中拼出的最大数量，所有的dp[0][j][k]
+         * 都初始化为0，因为没有可以拼的字符串
+         */
+        int[][][] dp = new int[length + 1][m + 1][n + 1];
 
-        for (int i = 0; i < length; i++) {
-            for (char c : strs[i].toCharArray()) {
+        for (int i = 1; i <= length; i++) {
+            /**
+             * 字符串strs[i-1]中0的个数
+             */
+            int count0 = 0;
+            /**
+             * 字符串strs[i-1]中1的个数
+             */
+            int count1 = 0;
+
+            for (char c : strs[i - 1].toCharArray()) {
                 if (c == '0') {
-                    counts[i][0]++;
+                    count0++;
                 } else {
-                    counts[i][1]++;
+                    count1++;
+                }
+            }
+
+            for (int j = 0; j <= m; j++) {
+                for (int k = 0; k <= n; k++) {
+                    /**
+                     * 如果不拼字符串strs[i-1]，dp[i][j][k]的值和dp[i-1][j][k]相等
+                     */
+                    dp[i][j][k] = dp[i - 1][j][k];
+                    /**
+                     * 如果可以拼字符串strs[i-1]，拼了字符串strs[i-1]后，还剩j-count0个0和
+                     * k-count1个1，dp[i][j][k]的值为1+dp[i-1][j-count0][k-count1]，在
+                     * dp[i-1][j][k]和1+dp[i-1][j-count0][k-count1]中取较大值
+                     */
+                    if (j >= count0 && k >= count1) {
+                        dp[i][j][k] = Math.max(dp[i - 1][j][k], dp[i - 1][j - count0][k - count1] + 1);
+                    }
                 }
             }
         }
-
-        Arrays.sort(counts, (c1, c2) -> {
-            if (c1[0] == c2[0]) {
-                return c1[1] - c2[1];
-            } else {
-                return c1[0] - c2[0];
-            }
-        });
-
-        dfs(counts, m, n, 0, count);
-        return result;
-    }
-
-    public static void dfs(int[][] counts, int m, int n, int start, int count) {
-        for (int i = start; i < counts.length; i++) {
-            if (counts[i][0] <= m && counts[i][1] <= n) {
-                count++;
-                result = Math.max(result, count);
-                dfs(counts, m - counts[i][0], n - counts[i][1], i + 1, count);
-                count--;
-            } else if (m < counts[i][0]) {
-                return;
-            }
-        }
+        return dp[length][m][n];
     }
 }
