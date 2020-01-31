@@ -10,6 +10,7 @@ import java.util.Arrays;
  *
  * @author Baltan
  * @date 2020-01-31 11:07
+ * @see BuildTree1
  */
 public class BuildTree {
     public static void main(String[] args) {
