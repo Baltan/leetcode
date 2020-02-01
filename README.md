@@ -238,6 +238,7 @@
 * [295. Find Median from Data Stream](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MedianFinder.java)
 * [297. Serialize and Deserialize Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Codec1.java)
 * [299. Bulls and Cows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetHint.java)
+* [300. Longest Increasing Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LengthOfLIS.java)
 * [303. Range Sum Query - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray.java)
 * [304. Range Sum Query 2D - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMatrix.java)
 * [307. Range Sum Query - Mutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray1.java)
