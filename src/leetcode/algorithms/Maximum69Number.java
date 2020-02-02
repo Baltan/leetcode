@@ -15,7 +15,9 @@ public class Maximum69Number {
     public static int maximum69Number(int num) {
         char[] charArray = String.valueOf(num).toCharArray();
         int length = charArray.length;
-
+        /**
+         * 从前向后找到第一个"6"，改为"9"即可
+         */
         for (int i = 0; i < length; i++) {
             if (charArray[i] == '6') {
                 charArray[i] = '9';
