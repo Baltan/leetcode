@@ -853,6 +853,7 @@
 * [1318. Minimum Flips to Make a OR b Equal to c](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips.java)
 * [1319. Number of Operations to Make Network Connected](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeConnected.java)
 * [1323. Maximum 69 Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Maximum69Number.java)
+* [1324. Print Words Vertically](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrintVertically.java)
 * [1328. Break a Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BreakPalindrome.java)
 * [1329. Sort the Matrix Diagonally](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalSort.java)
 * [1331. Rank Transform of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayRankTransform.java)
