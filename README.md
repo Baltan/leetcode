@@ -296,6 +296,7 @@
 * [385. Mini Parser](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution3.java)
 * [386. Lexicographical Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexicalOrder.java)
 * [387. First Unique Character in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstUniqChar.java)
+* [388. Longest Absolute File Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LengthLongestPath.java)
 * [389. Find the Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDifference.java)
 * [389. Find the Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDifference1.java)
 * [390. Elimination Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastRemaining.java)
