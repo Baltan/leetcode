@@ -241,6 +241,7 @@
 * [300. Longest Increasing Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LengthOfLIS.java)
 * [303. Range Sum Query - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray.java)
 * [304. Range Sum Query 2D - Immutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMatrix.java)
+* [306. Additive Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsAdditiveNumber.java)
 * [307. Range Sum Query - Mutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray1.java)
 * [310. Minimum Height Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinHeightTrees.java)
 * [313. Super Ugly Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthSuperUglyNumber.java)
