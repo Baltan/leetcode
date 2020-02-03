@@ -280,6 +280,7 @@
 * [367. Valid Perfect Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPerfectSquare.java)
 * [368. Largest Divisible Subset](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestDivisibleSubset.java)
 * [371. Sum of Two Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSum.java)
+* [372. Super Pow](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SuperPow.java)
 * [373. Find K Pairs with Smallest Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KSmallestPairs.java)
 * [373. Find K Pairs with Smallest Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KSmallestPairs1.java)
 * [374. Guess Number Higher or Lower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GuessNumber.java)
