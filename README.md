@@ -309,6 +309,7 @@
 * [397. Integer Replacement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IntegerReplacement.java)
 * [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution4.java)
 * [398. Random Pick Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution5.java)
+* [399. Evaluate Division](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalcEquation.java)
 * [400. Nth Digit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindNthDigit.java)
 * [401. Binary Watch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReadBinaryWatch.java)
 * [402. Remove K Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveKdigits.java)
