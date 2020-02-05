@@ -1,0 +1,6 @@
+1、隐藏加锁题目（适用于中文网站）
+控制台中执行：$('.question-status-column .lock__13du').parent().parent().parent().hide();
+引用：https://blog.csdn.net/u014657795/article/details/103781720
+
+2、隐藏加锁题目（适用于英文网站）
+控制台中执行：$('span[data-original-title="Subscribe to unlock"]').parent().parent().parent().parent().hide();
