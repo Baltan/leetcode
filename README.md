@@ -346,6 +346,7 @@
 * [453. Minimum Moves to Equal Array Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves.java)
 * [454. 4Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FourSumCount.java)
 * [455. Assign Cookies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindContentChildren.java)
+* [456. 132 Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Find132pattern.java)
 * [457. Circular Array Loop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularArrayLoop.java)
 * [458. Poor Pigs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PoorPigs.java)
 * [459. Repeated Substring Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedSubstringPattern.java)
