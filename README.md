@@ -330,6 +330,7 @@
 * [430. Flatten a Multilevel Doubly Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution9.java)
 * [433. Minimum Genetic Mutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMutation.java)
 * [434. Number of Segments in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSegments.java)
+* [436. Find Right Interval](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRightInterval.java)
 * [437. Path Sum III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathSum.java)
 * [438. Find All Anagrams in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindAnagrams.java)
 * [441. Arranging Coins](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrangeCoins.java)
