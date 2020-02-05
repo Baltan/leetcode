@@ -19,26 +19,28 @@ public class Solution10 {
         this.yCenter = y_center;
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/generate-random-point-in-a-circle/solution/zai-yuan-nei-sui-ji-sheng-cheng-dian-by-leetcode/"></a>
+     *
+     * @return
+     */
     public double[] randPoint() {
         /**
-         * 在[0,2π)中随机产生一个角度
+         * 用一个边长为2r的正方形正好覆盖圆，在正方形中随机产生点，如果产生的点到圆心的距离不大于r
+         * 即可，否则继续产生新的随机点
          */
-        double angle = Math.random() * 2 * Math.PI;
-        double distance;
-        /**
-         * 在[0,r]中随机产生一个距离，Math.random()产生在[0,1)中的随机数，Math.random()乘以一
-         * 个略大于r的数（比如：r+r/1000）后，可以得到[0,r+r/1000)的随机数，循环产生随机数直到产
-         * 生在[0,r]中的随机数为止
-         */
-        do {
-            distance = Math.random() * (radius + radius / 1000);
-        } while (distance > radius);
-        /**
-         * 将产生的点在x轴上平移xCenter距离，在y轴上平移yCenter距离即可
-         */
-        double x = distance * Math.cos(angle) + xCenter;
-        double y = distance * Math.sin(angle) + yCenter;
-        return new double[]{x, y};
+        double leftBottomX = xCenter - radius;
+        double leftBottomY = yCenter - radius;
+
+        while (true) {
+            double x = leftBottomX + Math.random() * 2 * radius;
+            double y = leftBottomY + Math.random() * 2 * radius;
+
+            if ((x - xCenter) * (x - xCenter) + (y - yCenter) * (y - yCenter) < radius * radius) {
+                return new double[]{x, y};
+            }
+        }
     }
 
     public static void main(String[] args) {
