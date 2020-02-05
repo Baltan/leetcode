@@ -361,6 +361,7 @@
 * [475. Heaters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRadius.java)
 * [476. Number Complement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindComplement.java)
 * [477. Total Hamming Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalHammingDistance.java)
+* [478. Generate Random Point in a Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution10.java)
 * [479. Largest Palindrome Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindrome.java)
 * [481. Magical String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MagicalString.java)
 * [482. License Key Formatting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LicenseKeyFormatting.java)
