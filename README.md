@@ -374,6 +374,7 @@
 * [494. Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTargetSumWays.java)
 * [495. Teemo Attacking](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPoisonedDuration.java)
 * [496. Next Greater Element I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextGreaterElement.java)
+* [497. Random Point in Non-overlapping Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution11.java)
 * [500. Keyboard Row](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindWords.java)
 * [501. Find Mode in Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMode.java)
 * [504. Base 7](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConvertToBase7.java)
