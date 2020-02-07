@@ -412,6 +412,7 @@
 * [551. Student Attendance Record I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckRecord.java)
 * [553. Optimal Division](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OptimalDivision.java)
 * [554. Brick Wall](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LeastBricks.java)
+* [556. Next Greater Element III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextGreaterElement1.java)
 * [557. Reverse Words in a String III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseWords.java)
 * [558. Quad Tree Intersection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Intersect1.java)
 * [559. Maximum Depth of N-ary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth1.java)
