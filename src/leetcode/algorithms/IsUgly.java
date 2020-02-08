@@ -20,15 +20,27 @@ public class IsUgly {
         if (num <= 0) {
             return false;
         }
+        /**
+         * 除去num的所有质因数2
+         */
         while (num % 2.0 == 0) {
             num /= 2.0;
         }
+        /**
+         * 除去num的所有质因数3
+         */
         while (num % 3.0 == 0) {
             num /= 3.0;
         }
+        /**
+         * 除去num的所有质因数5
+         */
         while (num % 5.0 == 0) {
             num /= 5.0;
         }
+        /**
+         * 如果num不为1，则num还有其他质因数，num不是丑数
+         */
         return num == 1;
     }
 }
