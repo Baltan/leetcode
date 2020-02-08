@@ -391,6 +391,7 @@
 * [519. Random Flip Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution9.java)
 * [520. Detect Capital](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DetectCapitalUse.java)
 * [521. Longest Uncommon Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLUSlength.java)
+* [522. Longest Uncommon Subsequence II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLUSlength1.java)
 * [523. Continuous Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckSubarraySum.java)
 * [523. Continuous Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckSubarraySum1.java)
 * [524. Longest Word in Dictionary through Deleting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLongestWord.java)
