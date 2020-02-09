@@ -875,6 +875,7 @@
 * [1331. Rank Transform of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayRankTransform.java)
 * [1332. Remove Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemovePalindromeSub.java)
 * [1342. Number of Steps to Reduce a Number to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSteps.java)
+* [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfSubarrays.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
