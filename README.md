@@ -455,6 +455,7 @@
 * [633. Sum of Square Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JudgeSquareSum.java)
 * [636. Exclusive Time of Functions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExclusiveTime.java)
 * [637. Average of Levels in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageOfLevels.java)
+* [638. Shopping Offers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShoppingOffers.java)
 * [640. Solve the Equation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SolveEquation.java)
 * [643. Maximum Average Subarray I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxAverage.java)
 * [645. Set Mismatch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindErrorNums.java)
