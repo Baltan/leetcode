@@ -460,6 +460,7 @@
 * [641. Design Circular Deque](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyCircularDeque.java)
 * [643. Maximum Average Subarray I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxAverage.java)
 * [645. Set Mismatch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindErrorNums.java)
+* [646. Maximum Length of Pair Chain](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLongestChain.java)
 * [647. Palindromic Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubstrings.java)
 * [648. Replace Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceWords.java)
 * [650. 2 Keys Keyboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps.java)
