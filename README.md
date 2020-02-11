@@ -463,6 +463,7 @@
 * [646. Maximum Length of Pair Chain](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLongestChain.java)
 * [647. Palindromic Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubstrings.java)
 * [648. Replace Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceWords.java)
+* [649. Dota2 Senate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PredictPartyVictory.java)
 * [650. 2 Keys Keyboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps.java)
 * [650. 2 Keys Keyboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps1.java)
 * [652. Find Duplicate Subtrees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDuplicateSubtrees.java)
