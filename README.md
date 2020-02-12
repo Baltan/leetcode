@@ -481,6 +481,7 @@
 * [669. Trim a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TrimBST.java)
 * [670. Maximum Swap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSwap.java)
 * [671. Second Minimum Node In a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSecondMinimumValue.java)
+* [672. Bulb Switcher II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FlipLights.java)
 * [674. Longest Continuous Increasing Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLengthOfLCIS.java)
 * [676. Implement Magic Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MagicDictionary.java)
 * [677. Map Sum Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MapSum.java)
