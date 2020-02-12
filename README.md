@@ -486,6 +486,7 @@
 * [674. Longest Continuous Increasing Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLengthOfLCIS.java)
 * [676. Implement Magic Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MagicDictionary.java)
 * [677. Map Sum Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MapSum.java)
+* [678. Valid Parenthesis String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckValidString.java)
 * [679. 24 Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JudgePoint24.java)
 * [680. Valid Palindrome II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPalindrome.java)
 * [682. Baseball Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalPoints.java)
