@@ -491,6 +491,7 @@
 * [680. Valid Palindrome II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPalindrome.java)
 * [682. Baseball Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalPoints.java)
 * [684. Redundant Connection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRedundantConnection.java)
+* [684. Redundant Connection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRedundantConnection1.java)
 * [686. Repeated String Match](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedStringMatch.java)
 * [688. Knight Probability in Chessboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KnightProbability.java)
 * [690. Employee Importance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetImportance.java)
