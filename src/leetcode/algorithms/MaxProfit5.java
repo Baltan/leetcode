@@ -60,7 +60,7 @@ public class MaxProfit5 {
              */
             buyMin[0] = Math.min(buyMin[0], price);
             /**
-             * 第0次卖出股票的最低成本就是当天股票价格减去第0次买入股票的最低成本
+             * 第0次卖出股票的最大收益就是当天股票价格减去第0次买入股票的最低成本
              */
             sellMax[0] = Math.max(sellMax[0], price - buyMin[0]);
 
@@ -69,6 +69,9 @@ public class MaxProfit5 {
                  * 第i次买入股票的成本需要减去第i-1次卖出股票后的最大收益
                  */
                 buyMin[i] = Math.min(buyMin[i], price - sellMax[i - 1]);
+                /**
+                 * 第i次卖出股票的最大收益就是当天股票价格减去第i-1次买入股票的最低成本
+                 */
                 sellMax[i] = Math.max(sellMax[i], price - buyMin[i]);
             }
         }
