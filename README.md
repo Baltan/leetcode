@@ -168,6 +168,7 @@
 * [184. Department Highest Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DepartmentHighestSalary.sql)
 * [185. Department Top Three Salaries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DepartmentTopThreeSalaries.sql)
 * [187. Repeated DNA Sequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRepeatedDnaSequences.java)
+* [188. Best Time to Buy and Sell Stock IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit5.java)
 * [189. Rotate Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rotate.java)
 * [191. Number of 1 Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HammingWeight.java)
 * [196. Delete Duplicate Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DeleteDuplicateEmails.sql)
