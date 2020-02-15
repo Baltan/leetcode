@@ -5,6 +5,11 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2020-02-14 12:23
+ * @see MaxProfit
+ * @see MaxProfit1
+ * @see MaxProfit3
+ * @see MaxProfit4
+ * @see MaxProfit5
  */
 public class MaxProfit2 {
     public static void main(String[] args) {
