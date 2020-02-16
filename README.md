@@ -545,6 +545,7 @@
 * [767. Reorganize String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorganizeString.java)
 * [769. Max Chunks To Make Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxChunksToSorted.java)
 * [771. Jewels and Stones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumJewelsInStones.java)
+* [775. Global and Local Inversions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsIdealPermutation.java)
 * [777. Swap Adjacent in LR String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanTransform.java)
 * [779. K-th Symbol in Grammar](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthGrammar.java)
 * [780. Reaching Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachingPoints.java)
