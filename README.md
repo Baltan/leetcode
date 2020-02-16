@@ -891,6 +891,7 @@
 * [1329. Sort the Matrix Diagonally](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalSort.java)
 * [1331. Rank Transform of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayRankTransform.java)
 * [1332. Remove Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemovePalindromeSub.java)
+* [1333. Filter Restaurants by Vegan-Friendly, Price and Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FilterRestaurants.java)
 * [1342. Number of Steps to Reduce a Number to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSteps.java)
 * [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfSubarrays.java)
 * [1344. Angle Between Hands of a Clock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AngleClock.java)
