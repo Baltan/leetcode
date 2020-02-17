@@ -23,7 +23,7 @@ public class NumSubarrayBoundedMax {
         /**
          * 遍历到当前索引为止，最后一个大于R的元素的索引
          */
-        int indexGreatThanR = -1;
+        int indexGreaterThanR = -1;
         /**
          * 遍历到当前索引位置，最后一个大于等于L并且小于等于R的元素的索引
          */
@@ -36,25 +36,25 @@ public class NumSubarrayBoundedMax {
              * 如果当前元素（即子数组的最后一个元素）大于R，则这种情况下的所有子数组都不符合要求
              */
             if (A[i] > R) {
-                indexGreatThanR = i;
+                indexGreaterThanR = i;
             } else if (A[i] >= L && A[i] <= R) {
                 /**
                  * 如果当前元素（即子数组的最后一个元素）大于等于L并且小于等于R，则这种情况下逐
                  * 一在子数组的左侧添加之前的元素构成不同的子数组，直到某个元素大于R为止，则以
-                 * (indexGreatThanR,i]这段区间内的元素作为第一个元素的子数组都是符合要求的，
-                 * 共有i-indexGreatThanR个子数组
+                 * (indexGreaterThanR,i]这段区间内的元素作为第一个元素的子数组都是符合要求的，
+                 * 共有i-indexGreaterThanR个子数组
                  */
                 indexBetweenLAndR = i;
-                result += (i - indexGreatThanR);
+                result += (i - indexGreaterThanR);
             } else {
                 /**
                  * 如果当前元素（即子数组的最后一个元素）小于L，则这种情况下如果最后一个大于R的
                  * 元素的索引小于最后一个大于等于L并且小于等于R的元素的索引，则以
-                 * (indexGreatThanR,indexBetweenLAndR]这段区间内的元素作为第一个元素的子数
-                 * 组都是符合要求的，共有indexBetweenLAndR-indexGreatThanR个子数组
+                 * (indexGreaterThanR,indexBetweenLAndR]这段区间内的元素作为第一个元素的子
+                 * 数组都是符合要求的，共有indexBetweenLAndR-indexGreaterThanR个子数组
                  */
-                if (indexBetweenLAndR > indexGreatThanR) {
-                    result += (indexBetweenLAndR - indexGreatThanR);
+                if (indexBetweenLAndR > indexGreaterThanR) {
+                    result += (indexBetweenLAndR - indexGreaterThanR);
                 }
             }
         }
