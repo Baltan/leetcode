@@ -497,6 +497,7 @@
 * [684. Redundant Connection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRedundantConnection.java)
 * [684. Redundant Connection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRedundantConnection1.java)
 * [686. Repeated String Match](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedStringMatch.java)
+* [687. Longest Univalue Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestUnivaluePath.java)
 * [688. Knight Probability in Chessboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KnightProbability.java)
 * [690. Employee Importance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetImportance.java)
 * [692. Top K Frequent Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TopKFrequent1.java)
