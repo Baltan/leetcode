@@ -35,8 +35,8 @@ public class LongestUnivaluePath {
 
     public static int[] help(TreeNode root) {
         /**
-         * result[0]为以根节点作为路径端点的最长路径的长度，result1]为不以根节点作为路径端点的
-         * 最长路径的长度
+         * result[0]为以根节点作为路径端点的最长路径的长度，result[1]为不以根节点作为路径端点
+         * 的最长路径的长度
          */
         int[] result = {0, 0};
 
@@ -77,8 +77,8 @@ public class LongestUnivaluePath {
             result[0] = Math.max(result[0], 1 + rightTreeLUPFromRoot);
         }
         /**
-         * 左子树中不以根节点作为路径端点的最长路径和右子树中不以根节点作为路径端点的最长路径也是
-         * root中不以根节点作为路径端点的路径，更新result[1]
+         * 左子树中不以根节点作为路径端点的最长路径和右子树中不以根节点作为路径端点的最长路径也
+         * 是root中不以根节点作为路径端点的路径，更新result[1]
          */
         result[1] = Math.max(leftTreeLUPNotFromRoot, rightTreeLUPNotFromRoot);
         /**
