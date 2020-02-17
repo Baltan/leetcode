@@ -557,6 +557,7 @@
 * [787. Cheapest Flights Within K Stops](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCheapestPrice1.java)
 * [788. Rotated Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotatedDigits.java)
 * [789. Escape The Ghosts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EscapeGhosts.java)
+* [790. Domino and Tromino Tiling](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTilings.java)
 * [791. Custom Sort String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CustomSortString.java)
 * [792. Number of Matching Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMatchingSubseq.java)
 * [793. Preimage Size of Factorial Zeroes Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PreimageSizeFZF.java)
