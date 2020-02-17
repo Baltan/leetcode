@@ -562,6 +562,7 @@
 * [792. Number of Matching Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMatchingSubseq.java)
 * [793. Preimage Size of Factorial Zeroes Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PreimageSizeFZF.java)
 * [794. Valid Tic-Tac-Toe State](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidTicTacToe.java)
+* [795. Number of Subarrays with Bounded Maximum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubarrayBoundedMax.java)
 * [796. Rotate String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateString.java)
 * [797. All Paths From Source to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AllPathsSourceTarget.java)
 * [802. Find Eventual Safe States](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EventualSafeNodes.java)
