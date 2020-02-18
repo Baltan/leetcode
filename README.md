@@ -572,6 +572,7 @@
 * [804. Unique Morse Code Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueMorseRepresentations.java)
 * [806. Number of Lines To Write String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfLines.java)
 * [807. Max Increase to Keep City Skyline](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxIncreaseKeepingSkyline.java)
+* [808. Soup Servings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SoupServings.java)
 * [809. Expressive Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExpressiveWords.java)
 * [811. Subdomain Visit Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubdomainVisits.java)
 * [812. Largest Triangle Area](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestTriangleArea.java)
