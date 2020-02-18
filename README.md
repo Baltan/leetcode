@@ -566,6 +566,7 @@
 * [795. Number of Subarrays with Bounded Maximum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubarrayBoundedMax.java)
 * [796. Rotate String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateString.java)
 * [797. All Paths From Source to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AllPathsSourceTarget.java)
+* [799. Champagne Tower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ChampagneTower.java)
 * [802. Find Eventual Safe States](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EventualSafeNodes.java)
 * [803. Bricks Falling When Hit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HitBricks.java)
 * [804. Unique Morse Code Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueMorseRepresentations.java)
