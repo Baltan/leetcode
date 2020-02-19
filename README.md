@@ -580,6 +580,7 @@
 * [816. Ambiguous Coordinates](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AmbiguousCoordinates.java)
 * [817. Linked List Components](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumComponents.java)
 * [819. Most Common Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostCommonWord.java)
+* [820. Short Encoding of Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLengthEncoding.java)
 * [821. Shortest Distance to a Character](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestToChar.java)
 * [822. Card Flipping Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Flipgame.java)
 * [823. Binary Trees With Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumFactoredBinaryTrees.java)
