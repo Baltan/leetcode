@@ -7,6 +7,7 @@ import java.util.Objects;
  *
  * @author Baltan
  * @date 2020-02-03 12:17
+ * @see SplitIntoFibonacci
  */
 public class IsAdditiveNumber {
     public static void main(String[] args) {
