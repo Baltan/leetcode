@@ -599,6 +599,7 @@
 * [838. Push Dominoes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PushDominoes.java)
 * [840. Magic Squares In Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMagicSquaresInside.java)
 * [841. Keys and Rooms](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanVisitAllRooms.java)
+* [842. Split Array into Fibonacci Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitIntoFibonacci.java)
 * [844. Backspace String Compare](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BackspaceCompare.java)
 * [845. Longest Mountain in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestMountain.java)
 * [846. Hand of Straights](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsNStraightHand.java)
