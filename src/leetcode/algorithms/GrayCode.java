@@ -8,6 +8,7 @@ import java.util.List;
  *
  * @author Baltan
  * @date 2020-01-30 11:49
+ * @see CircularPermutation
  */
 public class GrayCode {
     public static void main(String[] args) {
