@@ -9,6 +9,8 @@ import java.util.Arrays;
  *
  * @author Baltan
  * @date 2020-02-21 14:01
+ * @see BuildTree
+ * @see BuildTree1
  */
 public class ConstructFromPrePost {
     public static void main(String[] args) {
