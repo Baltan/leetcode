@@ -24,6 +24,12 @@ public class LowestCommonAncestor {
         if (root == null || p == null || q == null) {
             return null;
         }
+        /**
+         * 设k=(root.val-p.val)*(root.val-q.val)，如果k为0，则p和q中中至少有一个就是root节
+         * 点，另一个可能是root节点，也可能是root的子孙节点，不论什么情况，p和q的公共祖先都是
+         * root；如果k<0，则p和q位于root的左子树和右子树中，p和q的公共节点只有root；如果k>0,
+         * 则p和q同时在root的左子树中或同时在root的右子树中，在root的左子树或右子树中递归。
+         */
         if ((root.val - p.val) * (root.val - q.val) == 0) {
             return root;
         } else if ((root.val - p.val) * (root.val - q.val) < 0) {
