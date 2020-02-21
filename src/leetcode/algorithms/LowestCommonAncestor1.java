@@ -36,8 +36,13 @@ public class LowestCommonAncestor1 {
         if (root == null || root == p || root == q) {
             return root;
         }
-
+        /**
+         * 尝试在root的左子树中查找p和q的最近公共祖先
+         */
         TreeNode leftAncestor = lowestCommonAncestor(root.left, p, q);
+        /**
+         * 尝试在root的右子树中查找p和q的最近公共祖先
+         */
         TreeNode rightAncestor = lowestCommonAncestor(root.right, p, q);
 
         if (leftAncestor != null && rightAncestor != null) {
