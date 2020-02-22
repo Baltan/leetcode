@@ -839,6 +839,7 @@
 * [1235. Maximum Profit in Job Scheduling](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JobScheduling.java)
 * [1237. Find Positive Integer Solution for a Given Equation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JobScheduling.java)
 * [1238. Circular Permutation in Binary Representation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularPermutation.java)
+* [1238. Circular Permutation in Binary Representation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularPermutation1.java)
 * [1239. Maximum Length of a Concatenated String with Unique Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSolution.java)
 * [1243. Array Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TransformArray.java)
 * [1244. Design A Leaderboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Leaderboard.java)
