@@ -641,6 +641,7 @@
 * [895. Maximum Frequency Stack](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FreqStack.java)
 * [896. Monotonic Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsMonotonic.java)
 * [897. Increasing Order Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncreasingBST.java)
+* [900. RLE Iterator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RLEIterator.java)
 * [901. Online Stock Span](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StockSpanner.java)
 * [902. Numbers At Most N Given Digit Set](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AtMostNGivenDigitSet.java)
 * [904. Fruit Into Baskets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalFruit.java)
