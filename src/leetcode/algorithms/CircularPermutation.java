@@ -8,6 +8,7 @@ import java.util.*;
  * @author Baltan
  * @date 2020-02-21 17:32
  * @see GrayCode
+ * @see CircularPermutation1
  */
 public class CircularPermutation {
     public static void main(String[] args) {
