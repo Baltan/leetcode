@@ -628,6 +628,7 @@
 * [876. Middle of the Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MiddleNode.java)
 * [877. Stone Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGame.java)
 * [878. Nth Magical Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthMagicalNumber.java)
+* [880. Decoded String at Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeAtIndex.java)
 * [881. Boats to Save People](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRescueBoats.java)
 * [883. Projection Area of 3D Shapes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProjectionArea.java)
 * [884. Uncommon Words from Two Sentences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UncommonFromSentences.java)
