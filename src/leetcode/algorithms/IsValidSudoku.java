@@ -32,44 +32,52 @@ public class IsValidSudoku {
     }
 
     public static boolean isValidSudoku(char[][] board) {
-        int rows = board.length;
-        boolean[] array;
+        /**
+         * 数独的维度，即横竖都有9个格子
+         */
+        int dimension = 9;
+        /**
+         * rowFlags[i][j]表示第i行是否有j这个值
+         */
+        boolean[][] rowFlags = new boolean[dimension][dimension + 1];
+        /**
+         * colFlags[i][j]表示第i列是否有j这个值
+         */
+        boolean[][] colFlags = new boolean[dimension][dimension + 1];
+        /**
+         * blockFlags[i][j]表示第i个3×3宫格中是否有j这个值
+         */
+        boolean[][] blockFlags = new boolean[dimension][dimension + 1];
 
-        for (int i = 0; i < rows; i++) {
-            array = new boolean[9];
-            for (int j = 0; j < rows; j++) {
-                if (board[i][j] != '.' && array[board[i][j] - '1']) {
+        for (int rowIndex = 0; rowIndex < dimension; rowIndex++) {
+            for (int colIndex = 0; colIndex < dimension; colIndex++) {
+                if (board[rowIndex][colIndex] == '.') {
+                    continue;
+                }
+                /**
+                 * 第rowIndex行colIndex列的格子所在的3×3宫格的索引
+                 */
+                int blockIndex = rowIndex / 3 * 3 + colIndex / 3;
+                int value = board[rowIndex][colIndex] - '0';
+                /**
+                 * 如果第rowIndex行或第colIndex列或第blockIndex个3×3宫格已经存在value了，
+                 * 则这个数独就是无效的
+                 */
+                if (rowFlags[rowIndex][value] || colFlags[colIndex][value] || blockFlags[blockIndex][value]) {
                     return false;
                 }
-                if (board[i][j] != '.') {
-                    array[board[i][j] - '1'] = true;
-                }
-            }
-        }
-        for (int i = 0; i < rows; i++) {
-            array = new boolean[9];
-            for (int j = 0; j < rows; j++) {
-                if (board[j][i] != '.' && array[board[j][i] - '1']) {
-                    return false;
-                }
-                if (board[j][i] != '.') {
-                    array[board[j][i] - '1'] = true;
-                }
-            }
-        }
-        for (int i = 0; i < rows; i++) {
-            int rowIdxStart = i / 3 * 3;
-            int colIdxStart = i % 3 * 3;
-            array = new boolean[9];
-            for (int j = rowIdxStart; j < rowIdxStart + 3; j++) {
-                for (int k = colIdxStart; k < colIdxStart + 3; k++) {
-                    if (board[j][k] != '.' && array[board[j][k] - '1']) {
-                        return false;
-                    }
-                    if (board[j][k] != '.') {
-                        array[board[j][k] - '1'] = true;
-                    }
-                }
+                /**
+                 * 标记第rowIndex行已经有value这个值
+                 */
+                rowFlags[rowIndex][value] = true;
+                /**
+                 * 标记第colIndex列已经有value这个值
+                 */
+                colFlags[colIndex][value] = true;
+                /**
+                 * 标记第blockIndex个3×3宫格已经有value这个值
+                 */
+                blockFlags[blockIndex][value] = true;
             }
         }
         return true;
