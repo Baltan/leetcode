@@ -36,6 +36,7 @@
 * [34. Find First and Last Position of Element in Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SearchRange.java)
 * [35. Search Insert Position](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SearchInsert.java)
 * [36. Valid Sudoku](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidSudoku.java)
+* [37. Sudoku Solver](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SolveSudoku.java)
 * [38. Count and Say](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountAndSay.java)
 * [39. Combination Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum.java)
 * [39. Combination Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum1.java)
