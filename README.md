@@ -661,6 +661,7 @@
 * [916. Word Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordSubsets.java)
 * [917. Reverse Only Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseOnlyLetters.java)
 * [918. Maximum Sum Circular Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarraySumCircular.java)
+* [919. Complete Binary Tree Inserter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CBTInserter.java)
 * [921. Minimum Add to Make Parentheses Valid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAddToMakeValid.java)
 * [922. Sort Array By Parity II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArrayByParityII.java)
 * [923. 3Sum With Multiplicity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThreeSumMulti.java)
