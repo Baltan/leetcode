@@ -30,9 +30,7 @@ public class LowestCommonAncestor {
          * root；如果k<0，则p和q位于root的左子树和右子树中，p和q的公共节点只有root；如果k>0,
          * 则p和q同时在root的左子树中或同时在root的右子树中，在root的左子树或右子树中递归。
          */
-        if ((root.val - p.val) * (root.val - q.val) == 0) {
-            return root;
-        } else if ((root.val - p.val) * (root.val - q.val) < 0) {
+        if ((root.val - p.val) * (root.val - q.val) <= 0) {
             return root;
         } else {
             if (p.val < root.val) {
