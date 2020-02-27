@@ -675,6 +675,7 @@
 * [931. Minimum Falling Path Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFallingPathSum.java)
 * [932. Beautiful Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulArray.java)
 * [933. Number of Recent Calls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RecentCounter.java)
+* [934. Shortest Bridge](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestBridge.java)
 * [935. Knight Dialer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KnightDialer.java)
 * [937. Reorder Log Files](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderLogFiles.java)
 * [938. Range Sum of BST](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeSumBST.java)
