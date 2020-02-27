@@ -25,7 +25,13 @@ public class ShortestBridge {
         int result = 0;
         int rows = A.length;
         int cols = A[0].length;
+        /**
+         * 保存其中一座岛屿所有格子的坐标
+         */
         Queue<int[]> queue = new LinkedList<>();
+        /**
+         * 岛屿可以向上下左右四个方向扩张
+         */
         int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
         outer:
@@ -78,6 +84,14 @@ public class ShortestBridge {
         return -1;
     }
 
+    /**
+     * 将岛屿上格子的值都变为2，并将该岛屿格子的坐标都加入队列queue中
+     *
+     * @param A
+     * @param i
+     * @param j
+     * @param queue
+     */
     public static void dfs(int[][] A, int i, int j, Queue<int[]> queue) {
         int rows = A.length;
         int cols = A[0].length;
