@@ -685,6 +685,7 @@
 * [944. Delete Columns to Make Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletionSize.java)
 * [945. Minimum Increment to Make Array Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinIncrementForUnique.java)
 * [946. Validate Stack Sequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidateStackSequences.java)
+* [948. Bag of Tokens](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BagOfTokensScore.java)
 * [949. Largest Time for Given Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestTimeFromDigits.java)
 * [950. Reveal Cards In Increasing Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeckRevealedIncreasing.java)
 * [951. Flip Equivalent Binary Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FlipEquiv.java)
