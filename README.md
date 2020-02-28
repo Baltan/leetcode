@@ -690,6 +690,7 @@
 * [950. Reveal Cards In Increasing Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeckRevealedIncreasing.java)
 * [951. Flip Equivalent Binary Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FlipEquiv.java)
 * [953. Verifying an Alien Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsAlienSorted.java)
+* [954. Array of Doubled Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanReorderDoubled.java)
 * [955. Delete Columns to Make Sorted II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletionSize1.java)
 * [961. N-Repeated Element in Size 2N Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedNTimes.java)
 * [962. Maximum Width Ramp](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWidthRamp.java)
