@@ -700,6 +700,7 @@
 * [963. Minimum Area Rectangle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAreaFreeRect.java)
 * [963. Minimum Area Rectangle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAreaFreeRect1.java)
 * [965. Univalued Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsUnivalTree.java)
+* [966. Vowel Spellchecker](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Spellchecker.java)
 * [967. Numbers With Same Consecutive Differences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumsSameConsecDiff.java)
 * [969. Pancake Sorting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PancakeSort.java)
 * [970. Powerful Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PowerfulIntegers.java)
