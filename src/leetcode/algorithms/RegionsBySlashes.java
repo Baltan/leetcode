@@ -53,7 +53,9 @@ public class RegionsBySlashes {
                 }
             }
         }
-
+        /**
+         * 计算连通分量的数量
+         */
         for (int i = 0; i < boardLength; i++) {
             for (int j = 0; j < boardLength; j++) {
                 if (board[i][j] == 0) {
