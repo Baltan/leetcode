@@ -41,6 +41,14 @@ public class Spellchecker1 {
         OutputUtils.print1DStringArray(spellchecker(wordlist7, queries7));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/vowel-spellchecker/solution/yuan-yin-pin-xie-jian-cha-qi-by-leetcode/"></a>
+     *
+     * @param wordlist
+     * @param queries
+     * @return
+     */
     public static String[] spellchecker(String[] wordlist, String[] queries) {
         int length = queries.length;
         String[] result = new String[length];
