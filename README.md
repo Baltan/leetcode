@@ -705,6 +705,7 @@
 * [967. Numbers With Same Consecutive Differences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumsSameConsecDiff.java)
 * [969. Pancake Sorting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PancakeSort.java)
 * [970. Powerful Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PowerfulIntegers.java)
+* [971. Flip Binary Tree To Match Preorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FlipMatchVoyage.java)
 * [973. K Closest Points to Origin](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KClosest.java)
 * [974. Subarray Sums Divisible by K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarraysDivByK.java)
 * [976. Largest Perimeter Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPerimeter.java)
