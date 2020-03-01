@@ -10,53 +10,47 @@ import java.util.Queue;
  * @date 2018/1/7 10:34
  */
 public class MyStack {
-    Queue<Integer> queue = new LinkedList<>();
-    Queue<Integer> tempQueue = new LinkedList<>();
+    private Queue<Integer> queue;
 
     /**
      * Initialize your data structure here.
      */
     public MyStack() {
-
+        queue = new LinkedList<>();
     }
 
     /**
      * Push element x onto stack.
      */
     public void push(int x) {
-        queue.add(x);
+        queue.offer(x);
     }
 
     /**
      * Removes the element on top of the stack and returns that element.
      */
     public int pop() {
-        int num = 0;
-        while (!queue.isEmpty()) {
-            num = queue.poll();
-            if (!queue.isEmpty()) {
-                tempQueue.add(num);
-            }
+        int size = queue.size();
+
+        for (int i = 1; i < size; i++) {
+            queue.offer(queue.poll());
         }
-        while (!tempQueue.isEmpty()) {
-            queue.add(tempQueue.poll());
-        }
-        return num;
+        return queue.poll();
     }
 
     /**
      * Get the top element.
      */
     public int top() {
-        int num = 0;
-        while (!queue.isEmpty()) {
-            num = queue.poll();
-            tempQueue.add(num);
+        int size = queue.size();
+
+        for (int i = 1; i < size; i++) {
+            queue.offer(queue.poll());
         }
-        while (!tempQueue.isEmpty()) {
-            queue.add(tempQueue.poll());
-        }
-        return num;
+
+        int value = queue.poll();
+        queue.offer(value);
+        return value;
     }
 
     /**
