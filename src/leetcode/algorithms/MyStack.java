@@ -31,7 +31,9 @@ public class MyStack {
      */
     public int pop() {
         int size = queue.size();
-
+        /**
+         * 将队尾前的元素逐一移动到队尾，直到原来队尾的元素到达队首位置，此时将该元素出队即可
+         */
         for (int i = 1; i < size; i++) {
             queue.offer(queue.poll());
         }
@@ -43,7 +45,10 @@ public class MyStack {
      */
     public int top() {
         int size = queue.size();
-
+        /**
+         * 将队尾前的元素逐一移动到队尾，直到原来队尾的元素到达队首位置，此时将该元素就是所求
+         * 元素，并将该元素放回队尾
+         */
         for (int i = 1; i < size; i++) {
             queue.offer(queue.poll());
         }
