@@ -25,32 +25,31 @@ public class PrevPermOpt1 {
          */
         int min = A[length - 1];
         /**
-         * map保存数组A中某个数之后的所有数字的索引位置
+         * 数组A中某个数之后的数字 -> 数字出现的所有位置中的最小索引
          */
-        Map<Integer, Stack<Integer>> map = new HashMap<>();
-        map.putIfAbsent(min, new Stack<>());
-        map.get(min).push(length - 1);
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(min, length - 1);
 
         for (int i = length - 2; i >= 0; i--) {
             /**
-             * 如果在A[i+1]、A[i+2]……A[length-1]中存在比A[i]小的数，在这些数找到小于A[i]的
-             * 最大值，将最早出现的最大值和A[i]交换即可
+             * 如果在A[i+1]、A[i+2]……A[length-1]中存在比A[i]小的数，在这些数中找到小于A[i]
+             * 的最大值，将距离A[i]最近的（即索引最小的）最大值和A[i]交换即可
              */
             if (A[i] > min) {
                 /**
                  * A[i+1]、A[i+2]……A[length-1]中小于A[i]的最大值
                  */
-                int maxLessThanCurrentNum = Integer.MIN_VALUE;
+                int max = Integer.MIN_VALUE;
 
                 for (int num : map.keySet()) {
                     if (num < A[i]) {
-                        maxLessThanCurrentNum = Math.max(maxLessThanCurrentNum, num);
+                        max = Math.max(max, num);
                     }
                 }
                 /**
                  * A[i]之后最早出现的maxLessThanCurrentNum值的索引位置
                  */
-                int index = map.get(maxLessThanCurrentNum).pop();
+                int index = map.get(max);
                 /**
                  * 将A[i]和A[index]交换即可
                  */
@@ -60,8 +59,7 @@ public class PrevPermOpt1 {
                 return A;
             } else {
                 min = Math.min(min, A[i]);
-                map.putIfAbsent(min, new Stack<>());
-                map.get(min).push(i);
+                map.put(min, i);
             }
         }
         return A;
