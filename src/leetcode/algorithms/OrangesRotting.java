@@ -1,5 +1,8 @@
 package leetcode.algorithms;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Description: 994. Rotting Oranges
  *
@@ -19,54 +22,63 @@ public class OrangesRotting {
     }
 
     public static int orangesRotting(int[][] grid) {
-        int time = 0;
-        int length = grid.length;
-        int width = grid[0].length;
+        int result = 0;
+        int rows = grid.length;
+        int cols = grid[0].length;
+        /**
+         * 新鲜橘子的数量
+         */
+        int freshCount = 0;
+        /**
+         * 保存腐烂橘子的坐标
+         */
+        Queue<int[]> queue = new LinkedList<>();
+        int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
-        while (true) {
-            boolean turnRotten = false;
-
-            for (int i = 0; i < length; i++) {
-                for (int j = 0; j < width; j++) {
-                    if (grid[i][j] == 2) {
-                        if (i - 1 >= 0 && grid[i - 1][j] == 1) {
-                            grid[i - 1][j] = 3;
-                            turnRotten = true;
-                        }
-                        if (i + 1 < length && grid[i + 1][j] == 1) {
-                            grid[i + 1][j] = 3;
-                            turnRotten = true;
-                        }
-                        if (j - 1 >= 0 && grid[i][j - 1] == 1) {
-                            grid[i][j - 1] = 3;
-                            turnRotten = true;
-                        }
-                        if (j + 1 < width && grid[i][j + 1] == 1) {
-                            grid[i][j + 1] = 3;
-                            turnRotten = true;
-                        }
-                    }
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (grid[i][j] == 2) {
+                    queue.offer(new int[]{i, j});
+                } else if (grid[i][j] == 1) {
+                    freshCount++;
                 }
-            }
-            if (turnRotten) {
-                time++;
-                for (int i = 0; i < length; i++) {
-                    for (int j = 0; j < width; j++) {
-                        if (grid[i][j] == 3) {
-                            grid[i][j] = 2;
-                        }
-                    }
-                }
-            } else {
-                for (int i = 0; i < length; i++) {
-                    for (int j = 0; j < width; j++) {
-                        if (grid[i][j] == 1) {
-                            return -1;
-                        }
-                    }
-                }
-                return time;
             }
         }
+        /**
+         * 每一次循环将队列中的所有腐烂橘子相邻的橘子全部变成腐烂的，并加入队列
+         */
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            /**
+             * 这轮循环是否导致新鲜的橘子腐烂
+             */
+            boolean becomeRotten = false;
+
+            for (int i = 0; i < size; i++) {
+                int[] coordinate = queue.poll();
+
+                for (int[] direction : directions) {
+                    int x = coordinate[0] + direction[0];
+                    int y = coordinate[1] + direction[1];
+
+                    if (x >= 0 && x < rows && y >= 0 && y < cols && grid[x][y] == 1) {
+                        grid[x][y] = 2;
+                        freshCount--;
+                        queue.offer(new int[]{x, y});
+                        becomeRotten = true;
+                    }
+                }
+            }
+            /**
+             * 如果这轮循环导致了新鲜橘子的腐烂，才将分钟数加1
+             */
+            if (becomeRotten == true) {
+                result++;
+            }
+        }
+        /**
+         * 如果最后还剩新鲜的橘子，说明这些橘子不能被腐烂，返回-1
+         */
+        return freshCount == 0 ? result : -1;
     }
 }
