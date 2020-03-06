@@ -827,6 +827,7 @@
 * [1171. Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveZeroSumSublists.java)
 * [1175. Prime Arrangements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumPrimeArrangements.java)
 * [1176. Diet Plan Performance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DietPlanPerformance.java)
+* [1177. Can Make Palindrome from Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakePaliQueries.java)
 * [1179. Reformat Department Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ReformatDepartmentTable.sql)
 * [1184. Distance Between Bus Stops](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistanceBetweenBusStops.java)
 * [1185. Day of the Week](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DayOfTheWeek.java)
