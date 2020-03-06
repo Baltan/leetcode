@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-08-28 09:33
+ * @see FindContinuousSequence
  */
 public class ConsecutiveNumbersSum {
     public static void main(String[] args) {
