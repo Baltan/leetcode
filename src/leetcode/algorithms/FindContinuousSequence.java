@@ -9,6 +9,7 @@ import java.util.Stack;
  *
  * @author Baltan
  * @date 2020-03-06 11:56
+ * @see ConsecutiveNumbersSum
  */
 public class FindContinuousSequence {
     public static void main(String[] args) {
