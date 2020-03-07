@@ -171,6 +171,7 @@
 * [187. Repeated DNA Sequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRepeatedDnaSequences.java)
 * [188. Best Time to Buy and Sell Stock IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit5.java)
 * [189. Rotate Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rotate.java)
+* [190. Reverse Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseBits.java)
 * [191. Number of 1 Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HammingWeight.java)
 * [196. Delete Duplicate Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DeleteDuplicateEmails.sql)
 * [197. Rising Temperature](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RisingTemperature.sql)
