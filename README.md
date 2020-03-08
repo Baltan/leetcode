@@ -943,6 +943,7 @@
 * [1357. Apply Discount Every n Orders](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Cashier.java)
 * [1358. Number of Substrings Containing All Three Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings.java)
 * [1358. Number of Substrings Containing All Three Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings1.java)
+* [1370. Increasing Decreasing String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortString.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
