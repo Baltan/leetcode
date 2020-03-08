@@ -322,6 +322,7 @@
 * [401. Binary Watch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReadBinaryWatch.java)
 * [402. Remove K Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveKdigits.java)
 * [404. Sum of Left Leaves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfLeftLeaves.java)
+* [405. Convert a Number to Hexadecimal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ToHex.java)
 * [406. Queue Reconstruction by Height](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReconstructQueue.java)
 * [409. Longest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome.java)
 * [412. Fizz Buzz](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FizzBuzz.java)
