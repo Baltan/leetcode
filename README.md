@@ -939,6 +939,7 @@
 * [1342. Number of Steps to Reduce a Number to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSteps.java)
 * [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfSubarrays.java)
 * [1344. Angle Between Hands of a Clock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AngleClock.java)
+* [1346. Check If N and Its Double Exist](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfExist.java)
 * [1356. Sort Integers by The Number of 1 Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortByBits.java)
 * [1357. Apply Discount Every n Orders](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Cashier.java)
 * [1358. Number of Substrings Containing All Three Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings.java)
