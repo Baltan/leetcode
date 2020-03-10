@@ -28,13 +28,30 @@ public class DiameterOfBinaryTree {
         if (root == null) {
             return 0;
         }
+        /**
+         * 左子树的直径，即穿过根节点的左节点的最长路径的长度
+         */
         int diameterOfLeftTree = diameterOfBinaryTree(root.left);
+        /**
+         * 右子树的直径，即穿过根节点的右节点的最长路径的长度
+         */
         int diameterOfRigthTree = diameterOfBinaryTree(root.right);
+        /**
+         * 穿过根节点的最长路径的长度
+         */
         int depthOfLeftAndRight = binaryTreeDepth(root.left) + binaryTreeDepth(root.right);
-
+        /**
+         * 以上三种情况取最大值
+         */
         return Math.max(depthOfLeftAndRight, Math.max(diameterOfLeftTree, diameterOfRigthTree));
     }
 
+    /**
+     * 二叉树的最大深度
+     *
+     * @param root
+     * @return
+     */
     public static int binaryTreeDepth(TreeNode root) {
         if (root == null) {
             return 0;
