@@ -951,5 +951,6 @@
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
 * [面试题 01.01. 判定字符是否唯一](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsUnique.java)
+* [面试题 01.02. 判定是否互为字符重排](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPermutation.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxQueue.java)
