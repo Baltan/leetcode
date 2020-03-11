@@ -955,5 +955,6 @@
 * [面试题 01.02. 判定是否互为字符重排](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPermutation.java)
 * [面试题 01.03. URL化](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceSpaces.java)
 * [面试题 01.04. 回文排列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanPermutePalindrome.java)
+* [面试题 01.05. 一次编辑](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OneEditAway.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxQueue.java)
