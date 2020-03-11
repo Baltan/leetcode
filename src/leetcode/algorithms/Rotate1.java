@@ -27,9 +27,6 @@ public class Rotate1 {
         int length = matrix.length;
 
         for (int i = 0; i < length / 2; i++) {
-            /**
-             * 右旋后第
-             */
             for (int j = i; j < length - i - 1; j++) {
                 int temp = matrix[i][j];
                 matrix[i][j] = matrix[length - 1 - j][i];
