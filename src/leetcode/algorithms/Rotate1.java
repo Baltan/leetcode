@@ -25,7 +25,11 @@ public class Rotate1 {
 
     public static void rotate(int[][] matrix) {
         int length = matrix.length;
+
         for (int i = 0; i < length / 2; i++) {
+            /**
+             * 右旋后第
+             */
             for (int j = i; j < length - i - 1; j++) {
                 int temp = matrix[i][j];
                 matrix[i][j] = matrix[length - 1 - j][i];
@@ -34,7 +38,6 @@ public class Rotate1 {
                 matrix[j][length - 1 - i] = temp;
             }
         }
-
         OutputUtils.print2DIntegerArray(matrix);
     }
 }
