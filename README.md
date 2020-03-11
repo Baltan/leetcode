@@ -958,6 +958,7 @@
 * [面试题 01.05. 一次编辑](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OneEditAway.java)
 * [面试题 01.06. 字符串压缩](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CompressString.java)
 * [面试题 01.07. 旋转矩阵](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rotate1.java)
+* [面试题 01.08. 零矩阵](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SetZeroes.java)
 * [面试题 10.01. 合并排序的数组](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Merge.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxQueue.java)
