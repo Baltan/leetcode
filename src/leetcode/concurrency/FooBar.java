@@ -1,4 +1,4 @@
-package leetcode.algorithms;
+package leetcode.concurrency;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
