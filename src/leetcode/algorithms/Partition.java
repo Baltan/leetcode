@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.ListNode;
+import leetcode.util.ListNodeUtils;
 import leetcode.util.OutputUtils;
 
 /**
@@ -8,33 +9,34 @@ import leetcode.util.OutputUtils;
  *
  * @author Baltan
  * @date 2019-03-26 09:13
+ * @see Partition3
  */
 public class Partition {
     public static void main(String[] args) {
-        ListNode node1 = new ListNode(1);
-        ListNode node2 = new ListNode(4);
-        ListNode node3 = new ListNode(3);
-        ListNode node4 = new ListNode(2);
-        ListNode node5 = new ListNode(5);
-        ListNode node6 = new ListNode(2);
-
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-        node4.next = node5;
-        node5.next = node6;
-
-        OutputUtils.printListNode(partition(node1, 3));
+        ListNode head1 = ListNodeUtils.arrayToListNode(new int[]{1, 4, 3, 2, 5, 2});
+        OutputUtils.printListNode(partition(head1, 3));
     }
 
     public static ListNode partition(ListNode head, int x) {
         if (head == null) {
             return null;
         }
+        /**
+         * start后面接值不小于x的节点
+         */
         ListNode start = new ListNode(0);
         start.next = head;
+        /**
+         * 指向start这条链表的第一个节点
+         */
         ListNode startCopy = start;
+        /**
+         * temp后面接值小于x的节点
+         */
         ListNode temp = new ListNode(0);
+        /**
+         * 指向temp这条链表的第一个节点
+         */
         ListNode tempCopy = temp;
 
         while (start.next != null) {
@@ -47,6 +49,9 @@ public class Partition {
                 start = start.next;
             }
         }
+        /**
+         * 将start这条链表拼接到temp这条链表后面
+         */
         temp.next = startCopy.next;
         return tempCopy.next;
     }
