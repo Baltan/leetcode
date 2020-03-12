@@ -10,6 +10,8 @@ import leetcode.util.OutputUtils;
  * @author Baltan
  * @date 2019-03-26 09:13
  * @see Partition3
+ * @see leetcode.interview.Partition
+ * @see leetcode.interview.Partition1
  */
 public class Partition {
     public static void main(String[] args) {

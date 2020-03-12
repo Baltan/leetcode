@@ -13,6 +13,8 @@ import java.util.Queue;
  * @author Baltan
  * @date 2020-03-12 14:26
  * @see Partition
+ * @see leetcode.interview.Partition
+ * @see leetcode.interview.Partition1
  */
 public class Partition3 {
     public static void main(String[] args) {
