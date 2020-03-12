@@ -24,7 +24,7 @@ public class Partition3 {
 
     public static ListNode partition(ListNode head, int x) {
         if (head == null) {
-            return head;
+            return null;
         }
         /**
          * 保存所有值小于x的节点
