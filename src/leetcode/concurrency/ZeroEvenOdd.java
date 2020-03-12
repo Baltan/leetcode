@@ -1,4 +1,4 @@
-package leetcode.algorithms;
+package leetcode.concurrency;
 
 import java.util.concurrent.Semaphore;
 import java.util.function.IntConsumer;
