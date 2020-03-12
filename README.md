@@ -969,5 +969,6 @@
 * [面试题 02.02. 返回倒数第 k 个节点](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthToLast.java)
 * [面试题 02.03. 删除中间节点](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteNode.java)
 * [面试题 02.04. 分割链表](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Partition3.java)
+* [面试题 02.05. 链表求和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddTwoNumbers.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxQueue.java)
