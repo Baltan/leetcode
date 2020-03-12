@@ -1,5 +1,7 @@
 package leetcode.algorithms;
 
+import leetcode.interview.FindContinuousSequence;
+
 /**
  * Description: 829. Consecutive Numbers Sum
  *
