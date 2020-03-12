@@ -4,10 +4,11 @@ import leetcode.entity.ListNode;
 import leetcode.util.ListNodeUtils;
 import leetcode.util.OutputUtils;
 
-import java.util.Stack;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
- * Description: 面试题 02.04. 分割链表
+ * Description: 86. Partition List
  *
  * @author Baltan
  * @date 2020-03-12 14:26
@@ -29,11 +30,11 @@ public class Partition3 {
         /**
          * 保存所有值小于x的节点
          */
-        Stack<ListNode> stack1 = new Stack();
+        Queue<ListNode> queue1 = new LinkedList<>();
         /**
          * 保存所有值不小于x的节点
          */
-        Stack<ListNode> stack2 = new Stack();
+        Queue<ListNode> queue2 = new LinkedList();
         ListNode dummy = new ListNode(-1);
         ListNode newHead = dummy;
 
@@ -43,23 +44,23 @@ public class Partition3 {
             temp.next = null;
 
             if (temp.val < x) {
-                stack1.push(temp);
+                queue1.offer(temp);
             } else {
-                stack2.push(temp);
+                queue2.offer(temp);
             }
         }
         /**
          * 先拼接所有值小于x的节点
          */
-        while (!stack1.isEmpty()) {
-            dummy.next = stack1.pop();
+        while (!queue1.isEmpty()) {
+            dummy.next = queue1.poll();
             dummy = dummy.next;
         }
         /**
          * 再拼接所有值不小于x的节点
          */
-        while (!stack2.isEmpty()) {
-            dummy.next = stack2.pop();
+        while (!queue2.isEmpty()) {
+            dummy.next = queue2.poll();
             dummy = dummy.next;
         }
         return newHead.next;
