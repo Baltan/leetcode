@@ -1,4 +1,4 @@
-package leetcode.algorithms;
+package leetcode.interview;
 
 import java.util.Objects;
 
@@ -7,6 +7,7 @@ import java.util.Objects;
  *
  * @author Baltan
  * @date 2020-03-11 22:22
+ * @see IsFlipedString1
  */
 public class IsFlipedString {
     public static void main(String[] args) {
