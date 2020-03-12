@@ -1,4 +1,4 @@
-package leetcode.algorithms;
+package leetcode.interview;
 
 import java.util.HashMap;
 import java.util.Map;
