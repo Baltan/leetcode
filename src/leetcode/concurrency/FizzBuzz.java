@@ -1,4 +1,4 @@
-package leetcode.algorithms;
+package leetcode.concurrency;
 
 import java.util.concurrent.Semaphore;
 import java.util.function.IntConsumer;
@@ -9,7 +9,7 @@ import java.util.function.IntConsumer;
  * @author Baltan
  * @date 2019-09-19 09:58
  */
-public class FizzBuzz1 {
+public class FizzBuzz {
     private int n;
     private int currentValue;
     private Semaphore semaphore1;
@@ -21,7 +21,7 @@ public class FizzBuzz1 {
     private int fizzbuzzLast = 0;
     private int numberLast = 0;
 
-    public FizzBuzz1(int n) {
+    public FizzBuzz(int n) {
         this.n = n;
         /**
          * 记录当前值，相应的线程会执行输出
@@ -115,9 +115,9 @@ public class FizzBuzz1 {
     }
 
     private static class Thread1 extends Thread {
-        private FizzBuzz1 fizzBuzz;
+        private FizzBuzz fizzBuzz;
 
-        public Thread1(FizzBuzz1 fizzBuzz) {
+        public Thread1(FizzBuzz fizzBuzz) {
             this.fizzBuzz = fizzBuzz;
         }
 
@@ -132,9 +132,9 @@ public class FizzBuzz1 {
     }
 
     private static class Thread2 extends Thread {
-        private FizzBuzz1 fizzBuzz;
+        private FizzBuzz fizzBuzz;
 
-        public Thread2(FizzBuzz1 fizzBuzz) {
+        public Thread2(FizzBuzz fizzBuzz) {
             this.fizzBuzz = fizzBuzz;
         }
 
@@ -149,9 +149,9 @@ public class FizzBuzz1 {
     }
 
     private static class Thread3 extends Thread {
-        private FizzBuzz1 fizzBuzz;
+        private FizzBuzz fizzBuzz;
 
-        public Thread3(FizzBuzz1 fizzBuzz) {
+        public Thread3(FizzBuzz fizzBuzz) {
             this.fizzBuzz = fizzBuzz;
         }
 
@@ -166,9 +166,9 @@ public class FizzBuzz1 {
     }
 
     private static class Thread4 extends Thread {
-        private FizzBuzz1 fizzBuzz;
+        private FizzBuzz fizzBuzz;
 
-        public Thread4(FizzBuzz1 fizzBuzz) {
+        public Thread4(FizzBuzz fizzBuzz) {
             this.fizzBuzz = fizzBuzz;
         }
 
@@ -184,7 +184,7 @@ public class FizzBuzz1 {
     }
 
     public static void main(String[] args) {
-        FizzBuzz1 fizzBuzz = new FizzBuzz1(5);
+        FizzBuzz fizzBuzz = new FizzBuzz(5);
         Thread1 thread1 = new Thread1(fizzBuzz);
         Thread2 thread2 = new Thread2(fizzBuzz);
         Thread3 thread3 = new Thread3(fizzBuzz);
