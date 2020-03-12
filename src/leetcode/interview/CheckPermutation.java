@@ -1,4 +1,4 @@
-package leetcode.cracking_the_coding_interview;
+package leetcode.interview;
 
 /**
  * Description: 面试题 01.02. 判定是否互为字符重排
