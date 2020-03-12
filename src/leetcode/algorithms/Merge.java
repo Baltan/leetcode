@@ -7,6 +7,7 @@ import leetcode.util.OutputUtils;
  *
  * @author Baltan
  * @date 2017/11/11 19:30
+ * @see leetcode.interview.Merge
  */
 public class Merge {
     public static void main(String[] args) {
