@@ -1,4 +1,4 @@
-package leetcode.algorithms;
+package leetcode.interview;
 
 import leetcode.entity.ListNode;
 import leetcode.util.ListNodeUtils;
