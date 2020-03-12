@@ -975,5 +975,6 @@
 * [面试题 02.05. 链表求和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/AddTwoNumbers.java)
 * [面试题 02.06. 回文链表](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsPalindrome.java)
 * [面试题 02.06. 回文链表](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsPalindrome1.java)
+* [面试题 02.07. 链表相交](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetIntersectionNode.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
