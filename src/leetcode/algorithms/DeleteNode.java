@@ -7,6 +7,7 @@ import leetcode.entity.ListNode;
  *
  * @author Baltan
  * @date 2018/1/3 10:43
+ * @see leetcode.interview.DeleteNode
  */
 public class DeleteNode {
     public static void main(String[] args) {
