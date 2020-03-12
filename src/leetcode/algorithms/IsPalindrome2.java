@@ -12,6 +12,8 @@ import java.util.Objects;
  * @author Baltan
  * @date 2018/8/10 11:17
  * @see IsPalindrome3
+ * @see leetcode.interview.IsPalindrome
+ * @see leetcode.interview.IsPalindrome1
  */
 public class IsPalindrome2 {
     public static void main(String[] args) {

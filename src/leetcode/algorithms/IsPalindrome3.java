@@ -9,6 +9,8 @@ import leetcode.util.ListNodeUtils;
  * @author Baltan
  * @date 2020-03-12 15:51
  * @see IsPalindrome2
+ * @see leetcode.interview.IsPalindrome
+ * @see leetcode.interview.IsPalindrome1
  */
 public class IsPalindrome3 {
     public static void main(String[] args) {
