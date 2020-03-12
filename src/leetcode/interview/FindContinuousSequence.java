@@ -1,5 +1,6 @@
-package leetcode.algorithms;
+package leetcode.interview;
 
+import leetcode.algorithms.ConsecutiveNumbersSum;
 import leetcode.util.OutputUtils;
 
 import java.util.Stack;
