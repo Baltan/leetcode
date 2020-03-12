@@ -1,4 +1,4 @@
-package leetcode.algorithms;
+package leetcode.interview;
 
 /**
  * Description: 面试题 01.05. 一次编辑
