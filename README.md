@@ -966,5 +966,6 @@
 * [面试题 01.09. 字符串轮转](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsFlipedString1.java)
 * [面试题 10.01. 合并排序的数组](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Merge.java)
 * [面试题 02.01. 移除重复节点](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicateNodes.java)
+* [面试题 02.02. 返回倒数第 k 个节点](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthToLast.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxQueue.java)
