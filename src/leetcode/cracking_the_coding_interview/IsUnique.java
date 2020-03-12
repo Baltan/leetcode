@@ -1,4 +1,4 @@
-package leetcode.algorithms;
+package leetcode.cracking_the_coding_interview;
 
 /**
  * Description: 面试题 01.01. 判定字符是否唯一
