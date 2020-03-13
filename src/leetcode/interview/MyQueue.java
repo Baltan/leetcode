@@ -7,6 +7,7 @@ import java.util.Stack;
  *
  * @author Baltan
  * @date 2018/1/6 20:16
+ * @see leetcode.algorithms.MyQueue
  */
 public class MyQueue {
     /**
