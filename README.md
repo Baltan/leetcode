@@ -989,5 +989,6 @@
 * [面试题 04.01. 节点间通路](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindWhetherExistsPath.java)
 * [面试题 04.02. 最小高度树](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SortedArrayToBST.java)
 * [面试题 04.03. 特定深度节点链表](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ListOfDepth.java)
+* [面试题 04.04. 检查平衡性](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsBalanced.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
