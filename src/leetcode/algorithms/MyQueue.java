@@ -7,13 +7,21 @@ import java.util.Stack;
  *
  * @author Baltan
  * @date 2018/1/6 20:16
+ * @see leetcode.interview.MyQueue
  */
 public class MyQueue {
-    Stack<Integer> stack = new Stack<>();
-    Stack<Integer> tempStack = new Stack<>();
+    /**
+     * 保存所有队列中的元素，栈顶总是最后加入队列的元素
+     */
+    Stack<Integer> stack;
+    /**
+     * 将stack中所有元素逆序保存
+     */
+    Stack<Integer> otherStack;
 
     public MyQueue() {
-
+        stack = new Stack<>();
+        otherStack = new Stack<>();
     }
 
     /**
@@ -22,6 +30,12 @@ public class MyQueue {
      * @param x
      */
     public void push(int x) {
+        /**
+         * 将otherStack中所有元素还原到stack中后在栈顶加入新元素
+         */
+        while (!otherStack.isEmpty()) {
+            stack.push(otherStack.pop());
+        }
         stack.push(x);
     }
 
@@ -31,14 +45,13 @@ public class MyQueue {
      * @return
      */
     public int pop() {
+        /**
+         * 将stack中所有元素逆序保存到otherStack中后弹出otherStack栈顶元素
+         */
         while (!stack.isEmpty()) {
-            tempStack.push(stack.pop());
+            otherStack.push(stack.pop());
         }
-        int num = tempStack.pop();
-        while (!tempStack.isEmpty()) {
-            stack.push(tempStack.pop());
-        }
-        return num;
+        return otherStack.pop();
     }
 
     /**
@@ -47,14 +60,13 @@ public class MyQueue {
      * @return
      */
     public int peek() {
+        /**
+         * 将stack中所有元素逆序保存到otherStack中后返回otherStack栈顶元素
+         */
         while (!stack.isEmpty()) {
-            tempStack.push(stack.pop());
+            otherStack.push(stack.pop());
         }
-        int num = tempStack.peek();
-        while (!tempStack.isEmpty()) {
-            stack.push(tempStack.pop());
-        }
-        return num;
+        return otherStack.peek();
     }
 
     /**
@@ -63,7 +75,10 @@ public class MyQueue {
      * @return
      */
     public boolean empty() {
-        return stack.isEmpty();
+        /**
+         * 当两个栈中都没有元素时，说明队列中也没有元素
+         */
+        return stack.isEmpty() && otherStack.isEmpty();
     }
 
     public static void main(String[] args) {
@@ -73,11 +88,8 @@ public class MyQueue {
         obj.push(5);
         obj.push(7);
         obj.push(9);
-        int param_2 = obj.pop();
-        System.out.println(param_2);
-        int param_3 = obj.peek();
-        System.out.println(param_3);
-        boolean param_4 = obj.empty();
-        System.out.println(param_4);
+        System.out.println(obj.pop());
+        System.out.println(obj.peek());
+        System.out.println(obj.empty());
     }
 }
