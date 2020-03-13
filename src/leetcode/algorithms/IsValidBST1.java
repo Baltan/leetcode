@@ -3,19 +3,16 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 import leetcode.util.BinaryTreeUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Description: 98. Validate Binary Search Tree
  *
  * @author Baltan
  * @date 2019-05-23 09:40
  * @see leetcode.interview.IsValidBST
- * @see IsValidBST1
+ * @see IsValidBST
  * @see leetcode.interview.IsValidBST1
  */
-public class IsValidBST {
+public class IsValidBST1 {
     public static void main(String[] args) {
         TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{2, 1, 3}, 0);
         System.out.println(isValidBST(root1));
@@ -34,42 +31,40 @@ public class IsValidBST {
 
         TreeNode root6 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, null, 1}, 0);
         System.out.println(isValidBST(root6));
-    }
 
-    public static boolean isValidBST(TreeNode root) {
-        if (root == null) {
-            return true;
-        }
+        TreeNode root7 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{Integer.MAX_VALUE}, 0);
+        System.out.println(isValidBST(root7));
 
-        List<Integer> result = inOrder(root);
-        int size = result.size();
-        /**
-         * 二叉搜索树的中序遍历结果是严格递增的
-         */
-        for (int i = 1; i < size; i++) {
-            if (result.get(i) <= result.get(i - 1)) {
-                return false;
-            }
-        }
-        return true;
+        TreeNode root8 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{Integer.MIN_VALUE}, 0);
+        System.out.println(isValidBST(root8));
     }
 
     /**
-     * 中序遍历二叉树
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/validate-binary-search-tree/solution/yan-zheng-er-cha-sou-suo-shu-by-leetcode/"></a>
      *
      * @param root
      * @return
      */
-    public static List<Integer> inOrder(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
+    public static boolean isValidBST(TreeNode root) {
+        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
 
+    /**
+     * @param root
+     * @param min  二叉树root节点值的下限
+     * @param max  二叉树root节点值的上限
+     * @return
+     */
+    public static boolean isValidBST(TreeNode root, long min, long max) {
         if (root == null) {
-            return result;
+            return true;
         }
-
-        result.addAll(inOrder(root.left));
-        result.add(root.val);
-        result.addAll(inOrder(root.right));
-        return result;
+        /**
+         * 对于root的左子树，root根节点的值就是左子树所有节点值的上限；对于root的右子树，root根节点的值就
+         * 是右子树所有节点值的下限
+         */
+        return root.val > min && root.val < max && isValidBST(root.left, min, root.val) &&
+                isValidBST(root.right, root.val, max);
     }
 }
