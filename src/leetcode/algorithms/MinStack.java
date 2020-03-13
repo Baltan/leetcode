@@ -7,9 +7,16 @@ import java.util.Stack;
  *
  * @author Baltan
  * @date 2018/1/8 15:40
+ * @see leetcode.interview.MinStack
  */
 public class MinStack {
+    /**
+     * 保存加入栈中的所有元素
+     */
     private Stack<Integer> stack;
+    /**
+     * 单调栈，栈顶的元素总是栈中最小的
+     */
     private Stack<Integer> minStack;
 
     public MinStack() {
