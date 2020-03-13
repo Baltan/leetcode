@@ -987,5 +987,6 @@
 * [面试题 03.05. 栈排序](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SortedStack.java)
 * [面试题 03.06. 动物收容所](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/AnimalShelf.java)
 * [面试题 04.01. 节点间通路](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindWhetherExistsPath.java)
+* [面试题 04.02. 最小高度树](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SortedArrayToBST.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
