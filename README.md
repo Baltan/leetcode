@@ -982,5 +982,6 @@
 * [面试题 03.01. 三合一](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TripleInOne.java)
 * [面试题 03.02. 栈的最小值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MinStack.java)
 * [面试题 03.03. 堆盘子](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/StackOfPlates.java)
+* [面试题 03.04. 化栈为队](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MyQueue.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
