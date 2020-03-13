@@ -154,6 +154,7 @@
 * [167. Two Sum II - Input array is sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSum1.java)
 * [168. Excel Sheet Column Title](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConvertToTitle.java)
 * [169. Majority Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MajorityElement.java)
+* [169. Majority Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MajorityElement1.java)
 * [171. Excel Sheet Column Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TitleToNumber.java)
 * [172. Factorial Trailing Zeroes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TrailingZeroes.java)
 * [173. Binary Search Tree Iterator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BSTIterator.java)
