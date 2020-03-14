@@ -7,6 +7,8 @@ import leetcode.entity.TreeNode;
  *
  * @author Baltan
  * @date 2019-06-12 16:44
+ * @see LowestCommonAncestor
+ * @see leetcode.interview.LowestCommonAncestor
  */
 public class LowestCommonAncestor1 {
     public static void main(String[] args) {
