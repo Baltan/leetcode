@@ -996,6 +996,7 @@
 * [面试题 04.05. 合法二叉搜索树](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsValidBST1.java)
 * [面试题 04.06. 后继者](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/InorderSuccessor.java)
 * [面试题 04.08. 首个共同祖先](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/LowestCommonAncestor.java)
+* [面试题 04.09. 二叉搜索树序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/BSTSequences.java)
 * [面试题 04.10. 检查子树](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CheckSubTree.java)
 * [面试题 04.12. 求和路径](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PathSum.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
