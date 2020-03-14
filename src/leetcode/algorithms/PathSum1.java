@@ -1,8 +1,9 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -10,6 +11,8 @@ import java.util.List;
  *
  * @author Baltan
  * @date 2019-05-24 09:49
+ * @see PathSum
+ * @see leetcode.interview.PathSum
  */
 public class PathSum1 {
     public static void main(String[] args) {
@@ -24,26 +27,10 @@ public class PathSum1 {
          * 7    2  5   1
          * </pre>
          */
-        TreeNode treeNode11 = new TreeNode(5);
-        TreeNode treeNode12 = new TreeNode(4);
-        TreeNode treeNode13 = new TreeNode(8);
-        TreeNode treeNode14 = new TreeNode(11);
-        TreeNode treeNode15 = new TreeNode(13);
-        TreeNode treeNode16 = new TreeNode(4);
-        TreeNode treeNode17 = new TreeNode(7);
-        TreeNode treeNode18 = new TreeNode(2);
-        TreeNode treeNode19 = new TreeNode(5);
-        TreeNode treeNode110 = new TreeNode(1);
-        treeNode11.left = treeNode12;
-        treeNode11.right = treeNode13;
-        treeNode12.left = treeNode14;
-        treeNode13.left = treeNode15;
-        treeNode13.right = treeNode16;
-        treeNode14.left = treeNode17;
-        treeNode14.right = treeNode18;
-        treeNode16.left = treeNode19;
-        treeNode16.right = treeNode110;
-        System.out.println(pathSum(treeNode11, 22));
+        TreeNode root1 =
+                BinaryTreeUtils.arrayToBinaryTree(new Integer[]{5, 4, 8, 11, null, 13, 4, 7, 2, null, null,
+                        null, null, 5, 1}, 0);
+        System.out.println(pathSum(root1, 22));
 
         /**
          * <pre>
@@ -56,39 +43,16 @@ public class PathSum1 {
          * 3  -2   1
          * </pre>
          */
-        TreeNode treeNode21 = new TreeNode(10);
-        TreeNode treeNode22 = new TreeNode(5);
-        TreeNode treeNode23 = new TreeNode(-3);
-        TreeNode treeNode24 = new TreeNode(3);
-        TreeNode treeNode25 = new TreeNode(2);
-        TreeNode treeNode26 = new TreeNode(11);
-        TreeNode treeNode27 = new TreeNode(3);
-        TreeNode treeNode28 = new TreeNode(-2);
-        TreeNode treeNode29 = new TreeNode(1);
-        treeNode21.left = treeNode22;
-        treeNode21.right = treeNode23;
-        treeNode22.left = treeNode24;
-        treeNode22.right = treeNode25;
-        treeNode23.right = treeNode26;
-        treeNode24.left = treeNode27;
-        treeNode24.right = treeNode28;
-        treeNode25.right = treeNode29;
-        System.out.println(pathSum(treeNode21, 18));
+        TreeNode root2 = BinaryTreeUtils
+                .arrayToBinaryTree(new Integer[]{10, 5, -3, 3, 2, null, 11, 3, -2, null, 1}, 0);
+        System.out.println(pathSum(root2, 18));
 
-        TreeNode treeNode31 = new TreeNode(1);
-        TreeNode treeNode32 = new TreeNode(2);
-        TreeNode treeNode33 = new TreeNode(2);
-        treeNode31.left = treeNode32;
-        treeNode31.right = treeNode33;
-        System.out.println(pathSum(treeNode31, 3));
+        TreeNode root3 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2, 3}, 0);
+        System.out.println(pathSum(root3, 3));
     }
 
     public static List<List<Integer>> pathSum(TreeNode root, int sum) {
-        return help(root, sum);
-    }
-
-    public static List<List<Integer>> help(TreeNode root, int sum) {
-        List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> result = new LinkedList<>();
 
         if (root == null) {
             return result;
@@ -96,14 +60,22 @@ public class PathSum1 {
 
         if (root.left == null && root.right == null) {
             if (root.val == sum) {
-                List<Integer> list = new ArrayList<>();
+                List<Integer> list = new LinkedList<>();
                 list.add(root.val);
                 result.add(list);
             }
         } else {
-            List<List<Integer>> leftList = help(root.left, sum - root.val);
-            List<List<Integer>> rightList = help(root.right, sum - root.val);
-
+            /**
+             * root的左子树中查找从左子树根节点到叶节点路径和为sum-root.val的所有路径
+             */
+            List<List<Integer>> leftList = pathSum(root.left, sum - root.val);
+            /**
+             * root的右子树中查找从右子树根节点到叶节点路径和为sum-root.val的所有路径
+             */
+            List<List<Integer>> rightList = pathSum(root.right, sum - root.val);
+            /**
+             * 将leftList和rightList中的所有路径头上加上根节点，就是从根节点到叶节点路径和为sum的所有路径
+             */
             for (List<Integer> list : leftList) {
                 list.add(0, root.val);
                 result.add(list);
