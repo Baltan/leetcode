@@ -8,6 +8,8 @@ import leetcode.util.BinaryTreeUtils;
  *
  * @author Baltan
  * @date 2019-02-27 09:03
+ * @see LowestCommonAncestor1
+ * @see leetcode.interview.LowestCommonAncestor
  */
 public class LowestCommonAncestor {
     public static void main(String[] args) {
