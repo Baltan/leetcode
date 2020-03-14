@@ -1001,5 +1001,6 @@
 * [面试题 04.12. 求和路径](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PathSum.java)
 * [面试题 05.01. 插入](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/InsertBits.java)
 * [面试题 05.02. 二进制数转字符串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PrintBin.java)
+* [面试题 05.03. 翻转数位](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ReverseBits.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
