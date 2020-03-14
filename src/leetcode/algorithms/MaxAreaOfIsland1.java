@@ -7,6 +7,10 @@ package leetcode.algorithms;
  * @date 2018/8/7 15:11
  */
 public class MaxAreaOfIsland1 {
+    /**
+     * 记录当前岛屿的面积
+     */
+    public static int area;
 
     public static void main(String[] args) {
         int[][] grid1 = {{0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0,},
@@ -27,45 +31,54 @@ public class MaxAreaOfIsland1 {
     }
 
     public static int maxAreaOfIsland(int[][] grid) {
+        if (grid == null || grid.length == 0) {
+            return 0;
+        }
+
+        int result = 0;
         int rows = grid.length;
         int cols = grid[0].length;
-        int area;
-        int maxArea = 0;
-        int[][] book = new int[rows][cols];
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                if (grid[i][j] == 1 && book[i][j] == 0) {
-                    book[i][j] = 1;
-                    area = dfs(grid, i, j, 1, book);
-                    maxArea = area > maxArea ? area : maxArea;
+                if (grid[i][j] == 1) {
+                    area = 0;
+                    dfs(grid, i, j);
+                    /**
+                     * 更新最大岛屿的面积
+                     */
+                    result = Math.max(result, area);
                 }
             }
         }
-        return maxArea;
+        return result;
     }
 
-    public static int dfs(int[][] grid, int x, int y, int area, int[][] book) {
+    /**
+     * 深度优先搜索
+     *
+     * @param grid
+     * @param x
+     * @param y
+     */
+    public static void dfs(int[][] grid, int x, int y) {
         int rows = grid.length;
         int cols = grid[0].length;
-        int[][] nextStep = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-        int nextX;
-        int nextY;
 
-        for (int i = 0; i < nextStep.length; i++) {
-            nextX = x + nextStep[i][0];
-            nextY = y + nextStep[i][1];
-
-            if (nextX < 0 || nextX >= rows || nextY < 0 || nextY >= cols) {
-                continue;
-            }
-
-            if (grid[nextX][nextY] == 1 && book[nextX][nextY] == 0) {
-                area++;
-                book[nextX][nextY] = 1;
-                area = dfs(grid, nextX, nextY, area, book);
-            }
+        if (x < 0 || x >= rows || y < 0 || y >= cols || grid[x][y] == 0) {
+            return;
         }
-        return area;
+        area++;
+        /**
+         * 将当前位置土地改为水域，避免重复计算面积
+         */
+        grid[x][y] = 0;
+        /**
+         * 向上下左右四个方向扩张岛屿面积
+         */
+        dfs(grid, x + 1, y);
+        dfs(grid, x - 1, y);
+        dfs(grid, x, y + 1);
+        dfs(grid, x, y - 1);
     }
 }
