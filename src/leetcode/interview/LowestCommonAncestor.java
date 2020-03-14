@@ -1,0 +1,60 @@
+package leetcode.interview;
+
+import leetcode.entity.TreeNode;
+
+/**
+ * Description: 面试题 04.08. 首个共同祖先
+ *
+ * @author Baltan
+ * @date 2019-06-12 16:44
+ * @see leetcode.algorithms.LowestCommonAncestor1
+ * @see leetcode.algorithms.LowestCommonAncestor
+ */
+public class LowestCommonAncestor {
+    public static void main(String[] args) {
+        TreeNode treeNode10 = new TreeNode(0);
+        TreeNode treeNode11 = new TreeNode(1);
+        TreeNode treeNode12 = new TreeNode(2);
+        TreeNode treeNode13 = new TreeNode(3);
+        TreeNode treeNode14 = new TreeNode(4);
+        TreeNode treeNode15 = new TreeNode(5);
+        TreeNode treeNode16 = new TreeNode(6);
+        TreeNode treeNode17 = new TreeNode(7);
+        TreeNode treeNode18 = new TreeNode(8);
+        treeNode13.left = treeNode15;
+        treeNode13.right = treeNode11;
+        treeNode15.left = treeNode16;
+        treeNode15.right = treeNode12;
+        treeNode11.left = treeNode10;
+        treeNode11.right = treeNode18;
+        treeNode12.left = treeNode17;
+        treeNode12.right = treeNode14;
+        System.out.println(lowestCommonAncestor(treeNode13, treeNode15, treeNode11).val);
+        System.out.println(lowestCommonAncestor(treeNode13, treeNode15, treeNode14).val);
+        System.out.println(lowestCommonAncestor(treeNode13, treeNode15, null).val);
+    }
+
+    public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) {
+            return root;
+        }
+        /**
+         * 尝试在root的左子树中查找p和q的最近公共祖先
+         */
+        TreeNode leftAncestor = lowestCommonAncestor(root.left, p, q);
+        /**
+         * 尝试在root的右子树中查找p和q的最近公共祖先
+         */
+        TreeNode rightAncestor = lowestCommonAncestor(root.right, p, q);
+
+        if (leftAncestor != null && rightAncestor != null) {
+            return root;
+        } else if (leftAncestor != null) {
+            return leftAncestor;
+        } else if (rightAncestor != null) {
+            return rightAncestor;
+        } else {
+            return null;
+        }
+    }
+}
