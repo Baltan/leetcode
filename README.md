@@ -1012,5 +1012,6 @@
 * [面试题 08.03. 魔术索引](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindMagicIndex.java)
 * [面试题 08.04. 幂集](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Subsets.java)
 * [面试题 08.05. 递归乘法](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Multiply.java)
+* [面试题 08.06. 汉诺塔问题](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Hanota.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
