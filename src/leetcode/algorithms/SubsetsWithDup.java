@@ -1,12 +1,16 @@
 package leetcode.algorithms;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Description: 90. Subsets II
  *
  * @author Baltan
  * @date 2019-05-20 11:01
+ * @see Subsets
+ * @see leetcode.interview.Subsets
  */
 public class SubsetsWithDup {
     public static void main(String[] args) {
@@ -17,66 +21,36 @@ public class SubsetsWithDup {
     }
 
     public static List<List<Integer>> subsetsWithDup(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        result.add(new ArrayList<>());
-
-        if (nums == null || nums.length == 0) {
-            return result;
-        }
-
+        List<List<Integer>> result = new LinkedList<>();
         Arrays.sort(nums);
-        int length = nums.length;
-        List<Integer> numList = new ArrayList<>(length);
-
-        for (int num : nums) {
-            numList.add(num);
-        }
-
-        for (int i = 1; i <= length; i++) {
-            result.addAll(help(numList, i));
-        }
+        dfs(result, new LinkedList<>(), nums, 0);
         return result;
     }
 
-    public static List<List<Integer>> help(List<Integer> numList, int k) {
-        List<List<Integer>> result = new ArrayList<>();
-        int length = numList.size();
-
-        if (k == 1) {
-            for (int i = 0; i < length; i++) {
-                if (i == 0 || !Objects.equals(numList.get(i), numList.get(i - 1))) {
-                    List<Integer> list = new ArrayList<>();
-                    list.add(numList.get(i));
-                    result.add(list);
-                }
-            }
-        } else {
-            List<List<Integer>> list = help(numList, k - 1);
-
-            for (List<Integer> ele : list) {
-                List<Integer> copyNums = new ArrayList<>(length);
-
-                for (int num : numList) {
-                    copyNums.add(num);
-                }
-
-                for (int num : ele) {
-                    copyNums.remove(new Integer(num));
-                }
-
-                int copyNumLength = copyNums.size();
-                int lastNum = ele.get(ele.size() - 1);
-
-                for (int i = 0; i < copyNumLength; i++) {
-                    int num = copyNums.get(i);
-                    if ((i == 0 || !Objects.equals(num, copyNums.get(i - 1))) && num >= lastNum) {
-                        ArrayList<Integer> nums = new ArrayList<>(ele);
-                        nums.add(num);
-                        result.add(nums);
-                    }
-                }
-            }
+    public static void dfs(List<List<Integer>> result, LinkedList<Integer> temp, int[] nums, int start) {
+        result.add(new LinkedList<>(temp));
+        /**
+         * 此时没有更多的元素可以加入到temp中了，直接return
+         */
+        if (start == nums.length) {
+            return;
         }
-        return result;
+        /**
+         * 逐一在temp中加入新的元素然后递归
+         */
+        for (int i = start; i < nums.length; i++) {
+            /**
+             * 如果当前要加入temp的元素之前已经尝试过，则直接跳过
+             */
+            if (i > start && nums[i] == nums[i - 1]) {
+                continue;
+            }
+            temp.offerLast(nums[i]);
+            dfs(result, temp, nums, i + 1);
+            /**
+             * 将之前新加入temp中的元素移除，使temp还原到开始时的状态，尝试加入其他元素
+             */
+            temp.pollLast();
+        }
     }
 }
