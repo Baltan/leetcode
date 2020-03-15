@@ -1004,5 +1004,6 @@
 * [面试题 05.02. 二进制数转字符串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PrintBin.java)
 * [面试题 05.03. 翻转数位](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ReverseBits.java)
 * [面试题 05.04. 下一个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindClosedNumbers.java)
+* [面试题 05.06. 整数转换](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ConvertInteger.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
