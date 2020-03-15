@@ -5,6 +5,8 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2018/9/20 11:13
+ * @see UniquePathsWithObstacles
+ * @see leetcode.interview.PathWithObstacles
  */
 public class UniquePaths {
     public static void main(String[] args) {
