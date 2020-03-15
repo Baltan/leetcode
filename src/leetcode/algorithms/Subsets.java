@@ -1,7 +1,6 @@
 package leetcode.algorithms;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -9,6 +8,8 @@ import java.util.List;
  *
  * @author Baltan
  * @date 2019-03-25 13:48
+ * @see leetcode.interview.Subsets
+ * @see SubsetsWithDup
  */
 public class Subsets {
     public static void main(String[] args) {
@@ -17,44 +18,29 @@ public class Subsets {
     }
 
     public static List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        result.add(new ArrayList<>());
-
-        if (nums == null || nums.length == 0) {
-            return result;
-        }
-        int length = nums.length;
-
-        for (int i = 1; i <= length; i++) {
-            result.addAll(help(nums, i));
-        }
+        List<List<Integer>> result = new LinkedList<>();
+        dfs(result, new LinkedList<>(), nums, 0);
         return result;
     }
 
-    public static List<List<Integer>> help(int[] arr, int k) {
-        List<List<Integer>> result = new ArrayList<>();
-        int length = arr.length;
-
-        if (k == 1) {
-            for (int i = 0; i < length; i++) {
-                List<Integer> list = new ArrayList<>(1);
-                list.add(arr[i]);
-                result.add(list);
-            }
-        } else {
-            for (int i = 0; i <= length - k; i++) {
-                int[] arr1 = Arrays.copyOfRange(arr, i + 1, arr.length);
-
-                List<List<Integer>> list1 = help(arr1, k - 1);
-
-                for (List<Integer> ele : list1) {
-                    List<Integer> list = new ArrayList<>(k);
-                    list.add(arr[i]);
-                    list.addAll(ele);
-                    result.add(list);
-                }
-            }
+    public static void dfs(List<List<Integer>> result, LinkedList<Integer> temp, int[] nums, int start) {
+        result.add(new LinkedList<>(temp));
+        /**
+         * 此时没有更多的元素可以加入到temp中了，直接return
+         */
+        if (start == nums.length) {
+            return;
         }
-        return result;
+        /**
+         * 逐一在temp中加入新的元素然后递归
+         */
+        for (int i = start; i < nums.length; i++) {
+            temp.offerLast(nums[i]);
+            dfs(result, temp, nums, i + 1);
+            /**
+             * 将之前新加入temp中的元素移除，使temp还原到开始时的状态，尝试加入其他元素
+             */
+            temp.pollLast();
+        }
     }
 }
