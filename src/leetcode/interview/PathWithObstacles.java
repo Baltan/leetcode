@@ -9,6 +9,8 @@ import java.util.List;
  *
  * @author Baltan
  * @date 2020-03-15 17:18
+ * @see leetcode.algorithms.UniquePaths
+ * @see leetcode.algorithms.UniquePathsWithObstacles
  */
 public class PathWithObstacles {
     public static void main(String[] args) {
