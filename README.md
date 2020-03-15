@@ -1009,5 +1009,6 @@
 * [面试题 05.08. 绘制直线](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/DrawLine.java)
 * [面试题 08.01. 三步问题](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/WaysToStep.java)
 * [面试题 08.02. 迷路的机器人](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PathWithObstacles.java)
+* [面试题 08.03. 魔术索引](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindMagicIndex.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
