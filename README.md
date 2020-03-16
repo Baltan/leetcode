@@ -1014,5 +1014,7 @@
 * [面试题 08.04. 幂集](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Subsets.java)
 * [面试题 08.05. 递归乘法](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Multiply.java)
 * [面试题 08.06. 汉诺塔问题](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Hanota.java)
+* [面试题 08.07. 无重复字符串的排列组合](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Permutation.java)
+* [面试题 08.08. 有重复字符串的排列组合](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Permutation1.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
