@@ -18,10 +18,15 @@ public class ArrangeCoins {
     }
 
     public static int arrangeCoins(int n) {
-        double rowNum = 0;
-        while (n - (rowNum + 1) / 2 * rowNum >= rowNum + 1) {
-            rowNum++;
-        }
-        return (int) rowNum;
+        /**
+         * 因为
+         *  1+2+3+……+k
+         * =(1+k)×k/2
+         * ≤n
+         * 所以
+         * k^2+k-2n<=0
+         * 由求根公式解得k^2+k-2n=0的正数解向下取整即可
+         */
+        return (int) Math.floor((Math.sqrt(1 + 8L * n) - 1) / 2);
     }
 }
