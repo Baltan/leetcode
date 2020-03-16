@@ -47,6 +47,7 @@
 * [44. Wildcard Matching](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsMatch.java)
 * [45. Jump Game II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Jump.java)
 * [46. Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Permute.java)
+* [46. Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Permute1.java)
 * [47. Permutations II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PermuteUnique.java)
 * [48. Rotate Image](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rotate1.java)
 * [49. Group Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GroupAnagrams.java)
