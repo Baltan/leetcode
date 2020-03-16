@@ -39,11 +39,9 @@ public class ClosestDivisors {
         int threshold = (int) Math.ceil(Math.sqrt(num));
 
         for (int i = threshold; i >= 1; i--) {
-            double j = 1.0 * num / i;
-
-            if (j % 1 == 0) {
+            if (num % i == 0) {
                 result[0] = i;
-                result[1] = (int) j;
+                result[1] = num / i;
                 break;
             }
         }
