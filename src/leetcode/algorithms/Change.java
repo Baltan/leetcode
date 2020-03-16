@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-08-07 09:07
+ * @see leetcode.interview.WaysToChange
  */
 public class Change {
     public static void main(String[] args) {
