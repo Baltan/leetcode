@@ -1022,5 +1022,6 @@
 * [面试题 08.08. 有重复字符串的排列组合](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Permutation1.java)
 * [面试题 08.09. 括号](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GenerateParenthesis.java)
 * [面试题 08.10. 颜色填充](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FloodFill.java)
+* [面试题 08.11. 硬币](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/WaysToChange.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
