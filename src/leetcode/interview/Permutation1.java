@@ -10,7 +10,9 @@ import java.util.*;
  * @author Baltan
  * @date 2020-03-16 14:18
  * @see leetcode.algorithms.Permute
+ * @see leetcode.algorithms.Permute1
  * @see leetcode.algorithms.PermuteUnique
+ * @see leetcode.algorithms.PermuteUnique1
  * @see Permutation
  */
 public class Permutation1 {
