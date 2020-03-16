@@ -10,6 +10,8 @@ import java.util.Queue;
  *
  * @author Baltan
  * @date 2019-05-11 16:16
+ * @see FloodFill1
+ * @see leetcode.interview.FloodFill
  */
 public class FloodFill {
     public static void main(String[] args) {
@@ -22,9 +24,11 @@ public class FloodFill {
         int cols = image[0].length;
         int[][] newImage = new int[rows][cols];
         Queue<int[]> queue = new LinkedList<>();
+        /**
+         * book[i][j]表示第i行第j列的格点是否被修改为新颜色
+         */
         boolean[][] book = new boolean[rows][cols];
         int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-
         queue.offer(new int[]{sr, sc});
 
         while (!queue.isEmpty()) {
@@ -38,6 +42,7 @@ public class FloodFill {
                 int[] nextStep = directions[i];
                 int nextRow = row + nextStep[0];
                 int nextCol = col + nextStep[1];
+
                 if (nextRow >= 0 && nextRow < rows && nextCol >= 0 && nextCol < cols &&
                         !book[nextRow][nextCol] && image[nextRow][nextCol] == image[row][col]) {
                     queue.offer(new int[]{nextRow, nextCol});
@@ -47,6 +52,9 @@ public class FloodFill {
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
+                /**
+                 * 所有未被修改过颜色的格点用初始时的颜色填充
+                 */
                 if (!book[i][j]) {
                     newImage[i][j] = image[i][j];
                 }
