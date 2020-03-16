@@ -49,6 +49,7 @@
 * [46. Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Permute.java)
 * [46. Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Permute1.java)
 * [47. Permutations II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PermuteUnique.java)
+* [47. Permutations II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PermuteUnique1.java)
 * [48. Rotate Image](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rotate1.java)
 * [49. Group Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GroupAnagrams.java)
 * [50. Pow(x, n)](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyPow.java)
