@@ -10,6 +10,7 @@ import java.util.Set;
  * @author Baltan
  * @date 2020-01-03 13:31
  * @see SolveNQueens
+ * @see leetcode.interview.SolveNQueens
  */
 public class TotalNQueens {
     public static int result;
