@@ -12,6 +12,7 @@ import java.util.Set;
  * @author Baltan
  * @date 2020-01-03 11:54
  * @see TotalNQueens
+ * @see leetcode.interview.SolveNQueens
  */
 public class SolveNQueens {
     public static void main(String[] args) {
