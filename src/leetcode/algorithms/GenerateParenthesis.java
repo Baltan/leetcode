@@ -23,7 +23,9 @@ public class GenerateParenthesis {
         if (n <= 0) {
             return result;
         }
-
+        /**
+         * set用于去重
+         */
         Set<String> set = new HashSet<>();
         addParenthesis("", n, n, set);
         result.addAll(set);
