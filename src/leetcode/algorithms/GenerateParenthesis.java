@@ -7,6 +7,8 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2018/8/31 10:53
+ * @see GenerateParenthesis1
+ * @see leetcode.interview.GenerateParenthesis
  */
 public class GenerateParenthesis {
     public static void main(String[] args) {
@@ -16,41 +18,62 @@ public class GenerateParenthesis {
     }
 
     public static List<String> generateParenthesis(int n) {
-        List<String> res = new ArrayList<>();
+        List<String> result = new ArrayList<>();
+
         if (n <= 0) {
-            return res;
+            return result;
         }
+
         Set<String> set = new HashSet<>();
         addParenthesis("", n, n, set);
-        Iterator<String> it = set.iterator();
-        while (it.hasNext()) {
-            res.add(it.next());
-        }
-        return res;
+        result.addAll(set);
+        return result;
     }
 
-    public static void addParenthesis(String str, int restLeft, int restRight, Set<String> set) {
-        if (restLeft == 0 && restRight == 0) {
+    /**
+     * @param str
+     * @param leftCount  剩余的"("的数量
+     * @param rightCount 剩余的")"的数量
+     * @param set
+     */
+    public static void addParenthesis(String str, int leftCount, int rightCount, Set<String> set) {
+        if (leftCount == 0 && rightCount == 0) {
             set.add(str);
             return;
         }
-        addLeftParenthesis(str, restLeft, restRight, set);
-        addRightParenthesis(str, restLeft, restRight, set);
+        addLeftParenthesis(str, leftCount, rightCount, set);
+        addRightParenthesis(str, leftCount, rightCount, set);
     }
 
-    public static void addLeftParenthesis(String str, int restLeft, int restRight, Set<String> set) {
-        if (restLeft > 0) {
+    /**
+     * 在str最后先加入"("后可以得到的所有组合
+     *
+     * @param str
+     * @param leftCount  剩余的"("的数量
+     * @param rightCount 剩余的")"的数量
+     * @param set
+     */
+    public static void addLeftParenthesis(String str, int leftCount, int rightCount, Set<String> set) {
+        if (leftCount > 0) {
             str += "(";
-            restLeft--;
-            addParenthesis(str, restLeft, restRight, set);
+            leftCount--;
+            addParenthesis(str, leftCount, rightCount, set);
         }
     }
 
-    public static void addRightParenthesis(String str, int restLeft, int restRight, Set<String> set) {
-        if (restRight > restLeft) {
+    /**
+     * 在str最后先加入")"后可以得到的所有组合
+     *
+     * @param str
+     * @param leftCount  剩余的"("的数量
+     * @param rightCount 剩余的")"的数量
+     * @param set
+     */
+    public static void addRightParenthesis(String str, int leftCount, int rightCount, Set<String> set) {
+        if (rightCount > leftCount) {
             str += ")";
-            restRight--;
-            addParenthesis(str, restLeft, restRight, set);
+            rightCount--;
+            addParenthesis(str, leftCount, rightCount, set);
         }
     }
 }
