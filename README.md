@@ -961,6 +961,7 @@
 * [1358. Number of Substrings Containing All Three Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings1.java)
 * [1361. Validate Binary Tree Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidateBinaryTreeNodes.java)
 * [1362. Closest Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestDivisors.java)
+* [1366. Rank Teams by Votes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RankTeams.java)
 * [1370. Increasing Decreasing String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortString.java)
 * [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheLongestSubstring.java)
 * [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTargetCopy.java)
