@@ -7,6 +7,7 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2018/9/14 11:20
+ * @see leetcode.interview.GroupAnagrams
  */
 public class GroupAnagrams {
     public static void main(String[] args) {
@@ -14,26 +15,23 @@ public class GroupAnagrams {
     }
 
     public static List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> res = new ArrayList<>();
-        if (strs == null || strs.length == 0) {
-            return res;
-        }
+        List<List<String>> result = new LinkedList<>();
         Map<String, List<String>> map = new HashMap<>();
+
         for (String str : strs) {
-            char[] array = str.toCharArray();
-            Arrays.sort(array);
-            String newStr = new String(array);
-            if (map.containsKey(newStr)) {
-                map.get(newStr).add(str);
-            } else {
-                List<String> list = new ArrayList<>();
-                list.add(str);
-                map.put(newStr, list);
-            }
+            char[] charArray = str.toCharArray();
+            Arrays.sort(charArray);
+            /**
+             * 将字符串的所有字符升序排列后得到的新字符串
+             */
+            String sorted = new String(charArray);
+            map.putIfAbsent(sorted, new LinkedList<>());
+            map.get(sorted).add(str);
         }
-        for (List<String> list : map.values()) {
-            res.add(list);
+
+        for (List<String> value : map.values()) {
+            result.add(value);
         }
-        return res;
+        return result;
     }
 }
