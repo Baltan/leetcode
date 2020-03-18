@@ -15,10 +15,11 @@ public class IsRectangleOverlap {
     }
 
     public static boolean isRectangleOverlap(int[] rec1, int[] rec2) {
-        if (rec1[1] >= rec2[3] || rec2[1] >= rec1[3]) {
-            return false;
-        }
-        if (rec1[0] >= rec2[2] || rec2[0] >= rec1[2]) {
+        /**
+         * 依次为rec1整体位于rec2上方，rec1整体位于rec2下方，rec1整体位于rec2右方，rec1整体位于rec2左方，
+         * 这四种情况不会造成两个矩形重叠
+         */
+        if (rec1[1] >= rec2[3] || rec2[1] >= rec1[3] || rec1[0] >= rec2[2] || rec2[0] >= rec1[2]) {
             return false;
         }
         return true;
