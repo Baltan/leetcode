@@ -5,6 +5,9 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2018/8/11 00:48
+ * @see Search1
+ * @see Search2
+ * @see leetcode.interview.Search
  */
 public class Search {
     public static void main(String[] args) {
@@ -18,28 +21,20 @@ public class Search {
     }
 
     public static int search(int[] nums, int target) {
-        int head = 0;
-        int tail = nums.length - 1;
-        int mid = head + (tail - head) / 2;
+        int lo = 0;
+        int hi = nums.length - 1;
 
-        while (head < tail) {
-            if (target == nums[head]) {
-                return head;
-            }
-            if (target == nums[tail]) {
-                return tail;
-            }
-            if (target == nums[mid]) {
+        while (lo <= hi) {
+            int mid = (lo + hi) / 2;
+
+            if (nums[mid] == target) {
                 return mid;
-            }
-            if (target > nums[mid]) {
-                head = mid + 1;
-                mid = head + (tail - head) / 2;
-            } else if (target < nums[mid]) {
-                tail = mid - 1;
-                mid = head + (tail - head) / 2;
+            } else if (nums[mid] > target) {
+                hi = mid - 1;
+            } else {
+                lo = mid + 1;
             }
         }
-        return nums[head] == target ? head : -1;
+        return -1;
     }
 }
