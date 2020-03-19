@@ -1030,5 +1030,6 @@
 * [面试题 08.14. 布尔运算](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CountEval.java)
 * [面试题 10.02. 变位词组](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GroupAnagrams.java)
 * [面试题 10.03. 搜索旋转数组](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Search.java)
+* [面试题 10.05. 稀疏数组搜索](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindString.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
