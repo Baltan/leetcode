@@ -5,6 +5,8 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2018/9/25 17:07
+ * @see SearchMatrix1
+ * @see leetcode.interview.SearchMatrix
  */
 public class SearchMatrix {
     public static void main(String[] args) {
