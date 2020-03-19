@@ -1032,5 +1032,6 @@
 * [面试题 10.03. 搜索旋转数组](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Search.java)
 * [面试题 10.05. 稀疏数组搜索](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindString.java)
 * [面试题 10.09. 排序矩阵查找](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SearchMatrix.java)
+* [面试题 10.10. 数字流的秩](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/StreamRank.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
