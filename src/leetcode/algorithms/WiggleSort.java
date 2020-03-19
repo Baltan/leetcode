@@ -10,6 +10,8 @@ import java.util.Queue;
  *
  * @author Baltan
  * @date 2019-06-21 10:20
+ * @see leetcode.interview.WiggleSort
+ * @see leetcode.interview.WiggleSort1
  */
 public class WiggleSort {
     public static void main(String[] args) {
