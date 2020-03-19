@@ -8,6 +8,8 @@ import java.util.Set;
  *
  * @author Baltan
  * @date 2019-12-02 11:55
+ * @see leetcode.interview.Tictactoe
+ * @see ValidTicTacToe
  */
 public class Tictactoe {
     public static void main(String[] args) {
