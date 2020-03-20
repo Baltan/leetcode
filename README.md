@@ -966,6 +966,7 @@
 * [1370. Increasing Decreasing String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortString.java)
 * [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheLongestSubstring.java)
 * [1372. Longest ZigZag Path in a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestZigZag.java)
+* [1375. Bulb Switcher III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTimesAllBlue.java)
 * [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTargetCopy.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
