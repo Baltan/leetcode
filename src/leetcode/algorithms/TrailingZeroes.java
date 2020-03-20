@@ -1,10 +1,11 @@
 package leetcode.algorithms;
 
 /**
- * Description: 面试题 16.05. 阶乘尾数
+ * Description: 172. Factorial Trailing Zeroes
  *
  * @author Baltan
  * @date 2018/1/6 20:30
+ * @see leetcode.interview.TrailingZeroes
  */
 public class TrailingZeroes {
     public static void main(String[] args) {
