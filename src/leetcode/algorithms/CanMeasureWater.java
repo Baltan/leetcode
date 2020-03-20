@@ -17,6 +17,15 @@ public class CanMeasureWater {
         System.out.println(canMeasureWater(2, 0, 5));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/water-and-jug-problem/solution/shui-hu-wen-ti-by-leetcode-solution/"></a>
+     *
+     * @param x
+     * @param y
+     * @param z
+     * @return
+     */
     public static boolean canMeasureWater(int x, int y, int z) {
         if (z == 0) {
             return true;
@@ -37,10 +46,10 @@ public class CanMeasureWater {
         int max = Math.max(x, y);
         int min = Math.min(x, y);
 
-        while (max - min != 0) {
-            int diff = max - min;
-            max = Math.max(diff, min);
-            min = Math.min(diff, min);
+        while (max % min != 0) {
+            int remainder = max % min;
+            max = min;
+            min = remainder;
         }
         return z % min == 0;
     }
