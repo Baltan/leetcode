@@ -1040,6 +1040,7 @@
 * [面试题 16.02. 单词频率](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/WordsFrequency.java)
 * [面试题 16.03. 交点](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Intersection.java)
 * [面试题 16.04. 井字游戏](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Tictactoe.java)
+* [面试题 16.05. 阶乘尾数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TrailingZeroes.java)
 * [面试题40. 最小的k个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetLeastNumbers.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
