@@ -6,6 +6,9 @@ package leetcode.algorithms;
  * @author Baltan
  * @date 2017/12/29 20:10
  * @see SingleNumber
+ * @see SingleNumber1
+ * @see SingleNumber3
+ * @see SingleNumber4
  */
 public class SingleNumber2 {
     public static void main(String[] args) {
