@@ -7,6 +7,7 @@ import java.util.Arrays;
  *
  * @author Baltan
  * @date 2017/12/29 20:10
+ * @see SingleNumber2
  */
 public class SingleNumber {
     public static void main(String[] args) {
