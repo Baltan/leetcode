@@ -8,6 +8,9 @@ import leetcode.util.OutputUtils;
  * @author Baltan
  * @date 2018/8/13 09:59
  * @see SingleNumber1
+ * @see SingleNumber
+ * @see SingleNumber2
+ * @see SingleNumber4
  */
 public class SingleNumber3 {
     public static void main(String[] args) {
