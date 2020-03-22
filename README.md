@@ -147,6 +147,7 @@
 * [144. Binary Tree Preorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PreorderTraversal.java)
 * [146. LRU Cache](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LRUCache.java)
 * [147. Insertion Sort List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InsertionSortList.java)
+* [148. Sort List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortList.java)
 * [149. Max Points on a Line](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints.java)
 * [150. Evaluate Reverse Polish Notation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EvalRPN.java)
 * [151. Reverse Words in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseWords1.java)
