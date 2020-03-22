@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.ListNode;
+import leetcode.util.ListNodeUtils;
 import leetcode.util.OutputUtils;
 
 /**
@@ -14,46 +15,32 @@ public class MiddleNode {
         ListNode head1 = null;
         OutputUtils.printListNode(middleNode(head1));
 
-        ListNode head2 = new ListNode(1);
+        ListNode head2 = ListNodeUtils.arrayToListNode(new int[]{1});
         OutputUtils.printListNode(middleNode(head2));
 
-        ListNode head3 = new ListNode(1);
-        ListNode node32 = new ListNode(2);
-        ListNode node33 = new ListNode(3);
-        ListNode node34 = new ListNode(4);
-        head3.next = node32;
-        node32.next = node33;
-        node33.next = node34;
+        ListNode head3 = ListNodeUtils.arrayToListNode(new int[]{1, 2, 3, 4});
         OutputUtils.printListNode(middleNode(head3));
 
-        ListNode head4 = new ListNode(1);
-        ListNode node42 = new ListNode(2);
-        ListNode node43 = new ListNode(3);
-        ListNode node44 = new ListNode(4);
-        ListNode node45 = new ListNode(5);
-        head4.next = node42;
-        node42.next = node43;
-        node43.next = node44;
-        node44.next = node45;
+        ListNode head4 = ListNodeUtils.arrayToListNode(new int[]{1, 2, 3, 4, 5});
         OutputUtils.printListNode(middleNode(head4));
     }
 
     public static ListNode middleNode(ListNode head) {
-        if (head == null) {
-            return null;
+        /**
+         * 快指针从head开始，一次走两步
+         */
+        ListNode fast = head;
+        /**
+         * 慢指针从head开始，一次走一步
+         */
+        ListNode slow = head;
+        /**
+         * 当fast不能向前走两步的时候，慢指针指向的位置就是链表的中间节点
+         */
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
-        int length = 1;
-        ListNode headCopy = head;
-        while (headCopy.next != null) {
-            length++;
-            headCopy = headCopy.next;
-        }
-        int middleIndex = (int) Math.ceil((length + 1) / 2.0);
-        int currentIndex = 1;
-        while (currentIndex < middleIndex) {
-            head = head.next;
-            currentIndex++;
-        }
-        return head;
+        return slow;
     }
 }
