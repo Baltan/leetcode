@@ -218,6 +218,7 @@
 * [226. Invert Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InvertTree.java)
 * [227. Basic Calculator II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Calculate1.java)
 * [228. Summary Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SummaryRanges.java)
+* [229. Majority Element II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MajorityElement2.java)
 * [230. Kth Smallest Element in a BST](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthSmallest.java)
 * [231. Power of Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfTwo.java)
 * [231. Power of Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPowerOfTwo1.java)
