@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2017/11/7 16:10
+ * @see MajorityElement2
  */
 public class MajorityElement1 {
     public static void main(String[] args) {
