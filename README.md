@@ -973,6 +973,7 @@
 * [1376. Time Needed to Inform All Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfMinutes.java)
 * [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTargetCopy.java)
 * [1381. Design a Stack With Increment Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CustomStack.java)
+* [1390. Four Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumFourDivisors.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
