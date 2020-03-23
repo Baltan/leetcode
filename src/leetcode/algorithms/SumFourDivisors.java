@@ -11,6 +11,7 @@ import java.util.Arrays;
 public class SumFourDivisors {
     public static void main(String[] args) {
         System.out.println(sumFourDivisors(new int[]{21, 4, 7}));
+        System.out.println(sumFourDivisors(new int[]{21, 4, 7, 1073741824}));
     }
 
     public static int sumFourDivisors(int[] nums) {
@@ -57,6 +58,12 @@ public class SumFourDivisors {
                     } else {
                         divisorCount += 1;
                         divisorSum += j;
+                    }
+                    /**
+                     * 如果当前元素的因数个数已经超过4个了，就不需要继续计算了
+                     */
+                    if (divisorCount > 4) {
+                        break;
                     }
                 }
             }
