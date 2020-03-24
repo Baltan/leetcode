@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2018/8/9 16:15
+ * @see GetMoneyAmount
  */
 public class GuessNumber {
     public static void main(String[] args) {
