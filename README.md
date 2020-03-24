@@ -303,6 +303,7 @@
 * [373. Find K Pairs with Smallest Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KSmallestPairs.java)
 * [373. Find K Pairs with Smallest Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KSmallestPairs1.java)
 * [374. Guess Number Higher or Lower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GuessNumber.java)
+* [375. Guess Number Higher or Lower II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMoneyAmount.java)
 * [376. Wiggle Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WiggleMaxLength.java)
 * [377. Combination Sum IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationSum4.java)
 * [378. Kth Smallest Element in a Sorted Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthSmallest1.java)
