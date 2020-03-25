@@ -976,6 +976,7 @@
 * [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTargetCopy.java)
 * [1381. Design a Stack With Increment Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CustomStack.java)
 * [1386. Cinema Seat Allocation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumberOfFamilies.java)
+* [1387. Sort Integers by The Power Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetKth.java)
 * [1390. Four Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumFourDivisors.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
