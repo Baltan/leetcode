@@ -675,6 +675,7 @@
 * [911. Online Election](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TopVotedCandidate.java)
 * [912. Sort an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArray.java)
 * [914. X of a Kind in a Deck of Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasGroupsSizeX.java)
+* [914. X of a Kind in a Deck of Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasGroupsSizeX1.java)
 * [915. Partition Array into Disjoint Intervals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionDisjoint.java)
 * [916. Word Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordSubsets.java)
 * [917. Reverse Only Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseOnlyLetters.java)
