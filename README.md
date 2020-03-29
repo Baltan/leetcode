@@ -1057,6 +1057,7 @@
 * [面试题 16.03. 交点](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Intersection.java)
 * [面试题 16.04. 井字游戏](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Tictactoe.java)
 * [面试题 16.05. 阶乘尾数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TrailingZeroes.java)
+* [面试题 16.06. 最小差](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SmallestDifference.java)
 * [面试题 16.07. 最大数值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Maximum.java)
 * [面试题 17.16. 按摩师](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Massage.java)
 * [面试题40. 最小的k个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetLeastNumbers.java)
