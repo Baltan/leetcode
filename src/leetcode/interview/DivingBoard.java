@@ -26,7 +26,7 @@ public class DivingBoard {
 
         int[] result = new int[k + 1];
         /**
-         * 一次计算用i块长木板和k-i块短木板可以拼成的跳水板的长度
+         * 依次计算用i块长木板和k-i块短木板可以拼成的跳水板的长度
          */
         for (int i = 0; i <= k; i++) {
             result[i] = longer * i + shorter * (k - i);
