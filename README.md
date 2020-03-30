@@ -1060,6 +1060,7 @@
 * [面试题 16.05. 阶乘尾数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TrailingZeroes.java)
 * [面试题 16.06. 最小差](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SmallestDifference.java)
 * [面试题 16.07. 最大数值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Maximum.java)
+* [面试题 16.11. 跳水板](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/DivingBoard.java)
 * [面试题 17.16. 按摩师](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Massage.java)
 * [面试题40. 最小的k个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetLeastNumbers.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
