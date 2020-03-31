@@ -969,6 +969,7 @@
 * [1359. Count All Valid Pickup and Delivery Options](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOrders.java)
 * [1361. Validate Binary Tree Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidateBinaryTreeNodes.java)
 * [1362. Closest Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestDivisors.java)
+* [1365. How Many Numbers Are Smaller Than the Current Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallerNumbersThanCurrent.java)
 * [1366. Rank Teams by Votes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RankTeams.java)
 * [1367. Linked List in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSubPath.java)
 * [1370. Increasing Decreasing String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortString.java)
