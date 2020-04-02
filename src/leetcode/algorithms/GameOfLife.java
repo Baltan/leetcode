@@ -42,8 +42,15 @@ public class GameOfLife {
                             liveCount;
 
                     if (board[i][j] == 0 && liveCount == 3) {
+                        /**
+                         * 如果死细胞周围有3个活细胞，则死细胞会复活，将要复活的死细胞用2表示
+                         */
                         board[i][j] = 2;
                     } else if (board[i][j] == 1 && (liveCount < 2 || liveCount > 3)) {
+                        /**
+                         * 如果活细胞周围的活细胞不足2个或多于3个，则活细胞会死亡，将要死亡的活细胞
+                         * 用3表示
+                         */
                         board[i][j] = 3;
                     }
                 }
@@ -52,8 +59,14 @@ public class GameOfLife {
             for (int i = 0; i < rows; i++) {
                 for (int j = 0; j < cols; j++) {
                     if (board[i][j] == 2) {
+                        /**
+                         * 将复活的死细胞用1表示
+                         */
                         board[i][j] = 1;
                     } else if (board[i][j] == 3) {
+                        /**
+                         * 将死亡的活细胞用0表示
+                         */
                         board[i][j] = 0;
                     }
                 }
@@ -61,6 +74,14 @@ public class GameOfLife {
         }
     }
 
+    /**
+     * 判断某个格子的细胞开始时是否是活着的
+     *
+     * @param board
+     * @param i
+     * @param j
+     * @return
+     */
     public static boolean isLive(int[][] board, int i, int j) {
         int rows = board.length;
         int cols = board[0].length;
@@ -68,6 +89,9 @@ public class GameOfLife {
         if (i < 0 || i >= rows || j < 0 || j >= cols) {
             return false;
         }
+        /**
+         * 如果值为1，说明这个细胞仍活着；如果值为3，说明这个细胞开始时是活着的
+         */
         return board[i][j] == 1 || board[i][j] == 3;
     }
 }
