@@ -20,18 +20,36 @@ public class MyAtoi {
         if (str == null) {
             return 0;
         }
+        /**
+         * 取出str首尾的空格
+         */
         str = str.trim();
+
         if (str.length() == 0) {
             return 0;
         }
+
         char firstLetter = str.charAt(0);
+        /**
+         * 如果str第一个字符既不是数字也不是正负号，则str无法进行有效转换
+         */
         if (firstLetter != '-' && firstLetter != '+' && !(firstLetter >= '0' && firstLetter <= '9')) {
             return 0;
         }
-
+        /**
+         * str中当前判断的字符的索引位置
+         */
         int index = 0;
         int strLength = str.length();
+        /**
+         * 转换得到的有效整数的值
+         */
+        double value = 0;
+        /**
+         * 转换得到的有效整数的值的符号
+         */
         char flag = '+';
+
         if (firstLetter == '+') {
             flag = '+';
             index++;
@@ -39,17 +57,22 @@ public class MyAtoi {
             flag = '-';
             index++;
         }
-        double value = 0;
+        /**
+         * 如果str当前判断的字符是数字，则累加到value中，继续判断下一个字符
+         */
         while (index < strLength && str.charAt(index) >= '0' && str.charAt(index) <= '9') {
             value = value * 10 + str.charAt(index) - '0';
             index++;
         }
+
         if (flag == '-') {
             value = -value;
         }
+
         if (value < Integer.MIN_VALUE) {
             return Integer.MIN_VALUE;
         }
+
         if (value > Integer.MAX_VALUE) {
             return Integer.MAX_VALUE;
         }
