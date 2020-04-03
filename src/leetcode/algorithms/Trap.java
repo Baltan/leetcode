@@ -13,6 +13,13 @@ public class Trap {
         System.out.println(trap(new int[]{1, 3, 2}));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-leetcode/"></a>
+     *
+     * @param height
+     * @return
+     */
     public static int trap(int[] height) {
         int totalWater = 0;
         int maxIndex = -1;
