@@ -962,6 +962,7 @@
 * [1347. Minimum Number of Steps to Make Two Strings Anagram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps2.java)
 * [1352. Product of the Last K Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProductOfNumbers.java)
 * [1353. Maximum Number of Events That Can Be Attended](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEvents.java)
+* [1354. Construct Target Array With Multiple Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossible1.java)
 * [1356. Sort Integers by The Number of 1 Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortByBits.java)
 * [1357. Apply Discount Every n Orders](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Cashier.java)
 * [1358. Number of Substrings Containing All Three Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings.java)
