@@ -371,6 +371,7 @@
 * [457. Circular Array Loop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularArrayLoop.java)
 * [458. Poor Pigs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PoorPigs.java)
 * [459. Repeated Substring Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedSubstringPattern.java)
+* [460. LFU Cache](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LFUCache.java)
 * [461. Hamming Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HammingDistance.java)
 * [462. Minimum Moves to Equal Array Elements II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves2.java)
 * [463. Island Perimeter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IslandPerimeter.java)
