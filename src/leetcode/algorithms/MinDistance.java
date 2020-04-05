@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2020-02-10 12:00
+ * @see MinDistance1
  */
 public class MinDistance {
     public static void main(String[] args) {
@@ -39,7 +40,7 @@ public class MinDistance {
                 /**
                  * 如果两个子串的最后一个字母相同，则两个子串的最后一个字母都可以不被删除，只要使两
                  * 个子串除去最后一个字母外前面部分的子串相等即可，即dp[i][j]=dp[i-1][j-1]；否则
-                 * 两个子串中的至少有一个最后的字母将要被删除，如果word1最后的子母被删除，则需要使
+                 * 两个子串中的至少有一个最后的字母将要被删除，如果word1最后的字母被删除，则需要使
                  * word1除去最后一个字母外前面部分的子串和word2相等，即dp[i][j]=dp[i-1][j]+1，
                  * 如果word2最后的字母被删除，则需要使word2除去最后一个字母外前面部分的子串和word1
                  * 相等，即dp[i][j]=dp[i][j-1]+1，两种情况取操作步数少的即可
