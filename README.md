@@ -75,6 +75,7 @@
 * [69. Sqrt(x)](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MySqrt.java)
 * [70. Climbing Stairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClimbStairs.java)
 * [71. Simplify Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SimplifyPath.java)
+* [72. Edit Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDistance1.java)
 * [73. Set Matrix Zeroes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SetZeroes.java)
 * [74. Search a 2D Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SearchMatrix.java)
 * [75. Sort Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortColors.java)
