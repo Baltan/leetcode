@@ -992,6 +992,7 @@
 * [1394. Find Lucky Integer in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLucky.java)
 * [1395. Count Number of Teams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTeams.java)
 * [1396. Design Underground System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UndergroundSystem.java)
+* [1400. Construct K Palindrome Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConstruct1.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
