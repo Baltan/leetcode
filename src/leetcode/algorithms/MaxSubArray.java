@@ -2,9 +2,10 @@ package leetcode.algorithms;
 
 /**
  * Description: 53. Maximum Subarray
- * @author Baltan
  *
+ * @author Baltan
  * @date 2017/11/8 09:22
+ * @see leetcode.interview.MaxSubArray
  */
 public class MaxSubArray {
     public static void main(String[] args) {
@@ -16,8 +17,16 @@ public class MaxSubArray {
 
     public static int maxSubArray(int[] nums) {
         int max = nums[0];
+        /**
+         * 当前子序列中所有数字的和
+         */
         int temp = 0;
+
         for (int i = 0; i < nums.length; i++) {
+            /**
+             * 如果当前数字nums[i]加上它前面子序列中所有数字的和大于nums[i]，就继续扩展它前面的子序列，否则就
+             * 从当前数字开始重新尝试扩展子序列
+             */
             temp = nums[i] + temp >= nums[i] ? nums[i] + temp : nums[i];
             max = max > temp ? max : temp;
         }
