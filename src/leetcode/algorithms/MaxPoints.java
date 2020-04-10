@@ -7,6 +7,8 @@ import leetcode.entity.Point;
  *
  * @author Baltan
  * @date 2018/8/28 12:03
+ * @see leetcode.interview.BestLine
+ * @see MaxPoints1
  */
 public class MaxPoints {
     public static void main(String[] args) {
@@ -40,6 +42,9 @@ public class MaxPoints {
         Point[] points9 = {new Point(1, 1), new Point(1, 1), new Point(2, 2), new Point(2, 2), new Point(1,
                 3), new Point(1, 3), new Point(1, 3)};
         System.out.println(maxPoints(points9));
+
+        Point[] points10 = {new Point(0, 0), new Point(94911151, 94911150), new Point(94911152, 94911151)};
+        System.out.println(maxPoints(points10));
     }
 
     public static int maxPoints(Point[] points) {
