@@ -7,6 +7,7 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2020-04-11 18:00
+ * @see PairSums1
  */
 public class PairSums {
     public static void main(String[] args) {
