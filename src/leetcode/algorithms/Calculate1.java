@@ -5,6 +5,8 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-06-12 09:10
+ * @see leetcode.interview.Calculate
+ * @see Calculate
  */
 public class Calculate1 {
     public static void main(String[] args) {
@@ -69,7 +71,7 @@ public class Calculate1 {
                     value = 0;
                 } else {
                     /**
-                     * 如果遇到乘除符号，则从符号前的数字开始向后遍历知道遇到加减号前的数字为止，
+                     * 如果遇到乘除符号，则从符号前的数字开始向后遍历直到遇到加减号前的数字为止，
                      * 这部分表达式的结果需要优先计算
                      */
                     int j;
