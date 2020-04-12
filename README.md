@@ -1085,6 +1085,7 @@
 * [面试题 16.21. 交换和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindSwapValues.java)
 * [面试题 16.24. 数对和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PairSums.java)
 * [面试题 16.24. 数对和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PairSums1.java)
+* [面试题 16.26. 计算器](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Calculate.java)
 * [面试题 17.16. 按摩师](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Massage.java)
 * [面试题13. 机器人的运动范围](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MovingCount.java)
 * [面试题35. 复杂链表的复制](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CopyRandomList.java)
