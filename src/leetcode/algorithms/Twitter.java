@@ -9,7 +9,13 @@ import java.util.*;
  * @date 2019-06-27 09:29
  */
 public class Twitter {
+    /**
+     * 将最新发布的tweet加入到队首，队列中每个元素为[该条tweet的发布者的id，tweet id]
+     */
     private Deque<int[]> tweetDeque;
+    /**
+     * 用户id -> 该用户关注的所有用户的集合
+     */
     private Map<Integer, Set<Integer>> followMap;
 
     /**
@@ -24,6 +30,9 @@ public class Twitter {
      * Compose a new tweet.
      */
     public void postTweet(int userId, int tweetId) {
+        /**
+         * 将最新发布的tweet加入到队首
+         */
         tweetDeque.offerFirst(new int[]{userId, tweetId});
     }
 
@@ -34,14 +43,12 @@ public class Twitter {
      */
     public List<Integer> getNewsFeed(int userId) {
         List<Integer> tweetList = new LinkedList<>();
+        followMap.putIfAbsent(userId, new HashSet<>());
         Set<Integer> followSet = followMap.get(userId);
         int tweetNum = 0;
-
-        if (followSet == null) {
-            followSet = new HashSet<>();
-            followMap.put(userId, followSet);
-        }
-
+        /**
+         * 从队首开始遍历，取出前十条userId用户自己或其关注者发布的tweet
+         */
         for (int[] arr : tweetDeque) {
             if (arr[0] == userId || followSet.contains(arr[0])) {
                 tweetList.add(arr[1]);
@@ -59,13 +66,11 @@ public class Twitter {
      * Follower follows a followee. If the operation is invalid, it should be a no-op.
      */
     public void follow(int followerId, int followeeId) {
-        if (followMap.get(followerId) == null) {
-            Set<Integer> followSet = new HashSet<>();
-            followSet.add(followeeId);
-            followMap.put(followerId, followSet);
-        } else {
-            followMap.get(followerId).add(followeeId);
-        }
+        followMap.putIfAbsent(followerId, new HashSet<>());
+        /**
+         * 在关注者集合中加入followeeId用户
+         */
+        followMap.get(followerId).add(followeeId);
     }
 
     /**
@@ -73,6 +78,9 @@ public class Twitter {
      */
     public void unfollow(int followerId, int followeeId) {
         Set<Integer> followSet = followMap.get(followerId);
+        /**
+         * 从关注者集合followSet中移除followeeId用户
+         */
         if (followSet != null && followSet.contains(followeeId)) {
             followSet.remove(followeeId);
         }
