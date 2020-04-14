@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.ListNode;
+import leetcode.util.ListNodeUtils;
 import leetcode.util.OutputUtils;
 
 import java.util.Stack;
@@ -13,29 +14,13 @@ import java.util.Stack;
  */
 public class AddTwoNumbers1 {
     public static void main(String[] args) {
-        ListNode l11 = new ListNode(7);
-        ListNode l12 = new ListNode(2);
-        ListNode l13 = new ListNode(4);
-        ListNode l14 = new ListNode(3);
-        l11.next = l12;
-        l12.next = l13;
-        l13.next = l14;
-        ListNode l21 = new ListNode(5);
-        ListNode l22 = new ListNode(6);
-        ListNode l23 = new ListNode(4);
-        l21.next = l22;
-        l22.next = l23;
-        OutputUtils.printListNode(addTwoNumbers(l11, l21));
+        ListNode l11 = ListNodeUtils.arrayToListNode(new int[]{7, 2, 4, 3});
+        ListNode l12 = ListNodeUtils.arrayToListNode(new int[]{5, 6, 4});
+        OutputUtils.printListNode(addTwoNumbers(l11, l12));
 
-        ListNode l31 = new ListNode(9);
-        ListNode l32 = new ListNode(9);
-        ListNode l33 = new ListNode(9);
-        ListNode l34 = new ListNode(9);
-        l31.next = l32;
-        l32.next = l33;
-        l33.next = l34;
-        ListNode l41 = new ListNode(2);
-        OutputUtils.printListNode(addTwoNumbers(l31, l41));
+        ListNode l21 = ListNodeUtils.arrayToListNode(new int[]{9, 9, 9, 9});
+        ListNode l22 = ListNodeUtils.arrayToListNode(new int[]{2});
+        OutputUtils.printListNode(addTwoNumbers(l21, l22));
     }
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -45,18 +30,28 @@ public class AddTwoNumbers1 {
         Stack<Integer> s3 = new Stack<>();
         int num1;
         int num2;
+        /**
+         * 进位值
+         */
         int carry = 0;
-
+        /**
+         * 将l1的数字逐一入栈，最低位位于栈顶
+         */
         while (l1 != null) {
             s1.push(l1.val);
             l1 = l1.next;
         }
-
+        /**
+         * 将l2的数字逐一入栈，最低位位于栈顶
+         */
         while (l2 != null) {
             s2.push(l2.val);
             l2 = l2.next;
         }
-
+        /**
+         * 从低位开始将s1和s2的数字一起出栈进行求和，如果某一个栈中已经没有数字了，看做栈顶数字为0，将求
+         * 和结果再入栈
+         */
         while (!s1.isEmpty() || !s2.isEmpty()) {
             num1 = s1.isEmpty() ? 0 : s1.pop();
             num2 = s2.isEmpty() ? 0 : s2.pop();
@@ -69,11 +64,15 @@ public class AddTwoNumbers1 {
                 carry = 0;
             }
         }
-
+        /**
+         * 如果最高位求和完后还有进位，也要入栈
+         */
         if (carry == 1) {
             s3.push(carry);
         }
-
+        /**
+         * 将s3中的数字逐一出栈连成一个新的链表
+         */
         result = new ListNode(s3.pop());
         ListNode temp = result;
 
