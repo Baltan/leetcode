@@ -9,6 +9,7 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2018/9/18 09:42
+ * @see Merge2
  */
 public class Merge1 {
     public static void main(String[] args) {
