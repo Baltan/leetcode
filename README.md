@@ -1003,6 +1003,7 @@
 * [1408. String Matching in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StringMatching.java)
 * [1409. Queries on a Permutation With Key](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProcessQueries.java)
 * [1410. HTML Entity Parser](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EntityParser.java)
+* [1411. Number of Ways to Paint N × 3 Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfWays.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
