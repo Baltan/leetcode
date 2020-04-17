@@ -14,10 +14,16 @@ public class CanJump {
 
     public static boolean canJump(int[] nums) {
         int maxIndex = nums.length - 1;
+        /**
+         * 当前遍历过的位置中能到达的最远位置
+         */
         int currMaxIndex = 0;
+
         for (int i = 0; i < nums.length && currMaxIndex >= i; i++) {
-            int index = i + nums[i];
-            currMaxIndex = index > currMaxIndex ? index : currMaxIndex;
+            currMaxIndex = Math.max(currMaxIndex, i + nums[i]);
+            /**
+             * 如果能到达的最远位置大于最后一个索引位置了，说明可以到达最后一个位置
+             */
             if (currMaxIndex >= maxIndex) {
                 return true;
             }
