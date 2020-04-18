@@ -1093,6 +1093,7 @@
 * [面试题 16.26. 计算器](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Calculate.java)
 * [面试题 17.01. 不用加号的加法](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Add.java)
 * [面试题 17.16. 按摩师](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Massage.java)
+* [面试题 17.21. 直方图的水量](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Trap.java)
 * [面试题13. 机器人的运动范围](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MovingCount.java)
 * [面试题35. 复杂链表的复制](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CopyRandomList.java)
 * [面试题40. 最小的k个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetLeastNumbers.java)
