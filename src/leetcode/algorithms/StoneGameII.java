@@ -5,6 +5,9 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2020-03-05 12:52
+ * @see StoneGame
+ * @see PredictTheWinner1
+ * @see StoneGameIII
  */
 public class StoneGameII {
     public static void main(String[] args) {
