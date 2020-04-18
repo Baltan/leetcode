@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-09-29 09:08
+ * @see LargestRectangleArea
  */
 public class LargestRectangleArea1 {
     public static void main(String[] args) {

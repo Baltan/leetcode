@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-09-29 09:08
+ * @see LargestRectangleArea1
  */
 public class LargestRectangleArea {
     public static void main(String[] args) {
@@ -29,7 +30,10 @@ public class LargestRectangleArea {
              * 保存两个柱子间的最短的矩形高度
              */
             int minHeight = heights[i];
-
+            /**
+             * 固定矩形的左边为heights[i]后，逐一计算右边为heights[j]时，两边和x轴所能围成的最
+             * 大矩形的面积
+             */
             for (int j = i; j < count; j++) {
                 minHeight = Math.min(minHeight, heights[j]);
                 result = Math.max(result, (j - i + 1) * minHeight);
