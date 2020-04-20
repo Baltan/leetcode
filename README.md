@@ -189,6 +189,7 @@
 * [198. House Robber](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Rob.java)
 * [199. Binary Tree Right Side View](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RightSideView.java)
 * [200. Number of Islands](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumIslands.java)
+* [200. Number of Islands](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumIslands1.java)
 * [201. Bitwise AND of Numbers Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeBitwiseAnd.java)
 * [201. Bitwise AND of Numbers Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeBitwiseAnd1.java)
 * [202. Happy Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsHappy.java)
