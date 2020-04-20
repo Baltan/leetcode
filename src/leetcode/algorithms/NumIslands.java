@@ -8,6 +8,7 @@ import java.util.Queue;
  *
  * @author Baltan
  * @date 2019-06-06 09:56
+ * @see NumIslands1
  */
 public class NumIslands {
     public static void main(String[] args) {
