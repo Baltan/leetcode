@@ -1007,6 +1007,7 @@
 * [1409. Queries on a Permutation With Key](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProcessQueries.java)
 * [1410. HTML Entity Parser](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EntityParser.java)
 * [1411. Number of Ways to Paint N × 3 Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfWays.java)
+* [1413. Minimum Value to Get Positive Step by Step Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinStartValue.java)
 * [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinFibonacciNumbers.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
