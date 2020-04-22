@@ -1009,6 +1009,7 @@
 * [1411. Number of Ways to Paint N × 3 Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfWays.java)
 * [1413. Minimum Value to Get Positive Step by Step Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinStartValue.java)
 * [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinFibonacciNumbers.java)
+* [1417. Reformat The String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Reformat.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
