@@ -23,6 +23,7 @@
 * [22. Generate Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GenerateParenthesis.java)
 * [22. Generate Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GenerateParenthesis1.java)
 * [23. Merge k Sorted Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeKLists.java)
+* [23. Merge k Sorted Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeKLists1.java)
 * [24. Swap Nodes in Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SwapPairs.java)
 * [25. Reverse Nodes in k-Group](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseKGroup.java)
 * [26. Remove Duplicates from Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicates.java)
