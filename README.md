@@ -1015,6 +1015,7 @@
 * [1419. Minimum Number of Frogs Croaking](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinNumberOfFrogs.java)
 * [1422. Maximum Score After Splitting a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore.java)
 * [1423. Maximum Points You Can Obtain from Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore1.java)
+* [1424. Diagonal Traverse II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDiagonalOrder1.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
