@@ -30,9 +30,6 @@ public class FindDiagonalOrder1 {
 
         List<List<Integer>> nums4 = Arrays.asList(Arrays.asList(1, 2, 3, 4, 5, 6));
         OutputUtils.print1DIntegerArray(findDiagonalOrder(nums4));
-
-        List<List<Integer>> nums4 = Arrays.asList(Arrays.asList(1, 2, 3, 4, 5, 6));
-        OutputUtils.print1DIntegerArray(findDiagonalOrder(nums4));
     }
 
     public static int[] findDiagonalOrder(List<List<Integer>> nums) {
