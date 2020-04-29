@@ -7,6 +7,7 @@ import leetcode.util.OutputUtils;
  *
  * @author Baltan
  * @date 2020-02-06 14:54
+ * @see FindDiagonalOrder1
  */
 public class FindDiagonalOrder {
     public static void main(String[] args) {
