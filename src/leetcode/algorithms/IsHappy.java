@@ -12,18 +12,33 @@ import java.util.Set;
 public class IsHappy {
     public static void main(String[] args) {
         System.out.println(isHappy(19));
+        System.out.println(isHappy(7));
     }
 
     public static boolean isHappy(int n) {
         Set<Integer> set = new HashSet<>();
+
         while (n != 1 && !set.contains(n)) {
             set.add(n);
-            String nString = String.valueOf(n);
-            n = 0;
-            for (int i = 0; i < nString.length(); i++) {
-                n += (int) Math.pow(Integer.valueOf(nString.substring(i, i + 1)), 2);
-            }
+            n = getSum(n);
         }
         return n == 1;
+    }
+
+    /**
+     * 求n每一位上的数字的平方和
+     *
+     * @param n
+     * @return
+     */
+    public static int getSum(int n) {
+        int sum = 0;
+
+        while (n != 0) {
+            int remainder = n % 10;
+            sum += remainder * remainder;
+            n /= 10;
+        }
+        return sum;
     }
 }
