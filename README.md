@@ -1019,6 +1019,7 @@
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 3. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
+* [LCP 06. 拿硬币](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCount.java)
 * [面试题 01.01. 判定字符是否唯一](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsUnique.java)
 * [面试题 01.02. 判定是否互为字符重排](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CheckPermutation.java)
 * [面试题 01.03. URL化](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ReplaceSpaces.java)
