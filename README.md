@@ -1000,6 +1000,7 @@
 * [1399. Count Largest Group](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountLargestGroup.java)
 * [1400. Construct K Palindrome Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConstruct1.java)
 * [1401. Circle and Rectangle Overlapping](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckOverlap.java)
+* [1402. Reducing Dishes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSatisfaction.java)
 * [1403. Minimum Subsequence in Non-Increasing Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSubsequence.java)
 * [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSteps.java)
 * [1405. Longest Happy String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestDiverseString.java)
