@@ -19,14 +19,28 @@ public class Jump {
         if (nums.length == 1) {
             return 0;
         }
+
         int stepNum = 0;
-        int maxIndex = 0;
+        /**
+         * 之前可以到达的最远位置
+         */
+        int prevMaxIndex = 0;
+        /**
+         * 当前可以到达的最远位置
+         */
         int currMaxIndex = 0;
+
         for (int i = 0; i < nums.length; i++) {
-            if (i > maxIndex) {
+            /**
+             * 如果当前位置超出之前可以到达的最远位置，则肯定要多走一步
+             */
+            if (i > prevMaxIndex) {
                 stepNum++;
-                maxIndex = currMaxIndex;
+                prevMaxIndex = currMaxIndex;
             }
+            /**
+             * 更新当前可以到达的最远位置
+             */
             currMaxIndex = Math.max(currMaxIndex, i + nums[i]);
         }
         return stepNum;
