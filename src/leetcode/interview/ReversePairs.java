@@ -23,6 +23,13 @@ public class ReversePairs {
         return result;
     }
 
+    /**
+     * 对数组arr中所有元素进行归并排序
+     *
+     * @param arr
+     * @param lo
+     * @param hi
+     */
     public static void mergeSort(int[] arr, int lo, int hi) {
         /**
          * 递归条件：当开始索引小于结束索引时，否则说明两个索引重合，即只有一个数字无需再递归
@@ -38,6 +45,15 @@ public class ReversePairs {
         }
     }
 
+    /**
+     * 将arr.subarray(lo,mid+1)和arr.subarray(mid+1,hi+1)这两个已经完成排序的子数组合并为一个排序
+     * 的数组
+     *
+     * @param arr
+     * @param lo
+     * @param mid
+     * @param hi
+     */
     public static void merge(int[] arr, int lo, int mid, int hi) {
         /**
          * 将一个数组分成两段，可以看做是两个子数组。新建一个临时数组用于存放后续操作的数字。
