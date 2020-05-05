@@ -1013,6 +1013,7 @@
 * [1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinFibonacciNumbers.java)
 * [1415. The k-th Lexicographical String of All Happy Strings of Length n](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetHappyString.java)
 * [1417. Reformat The String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Reformat.java)
+* [1418. Display Table of Food Orders in a Restaurant](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DisplayTable.java)
 * [1419. Minimum Number of Frogs Croaking](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinNumberOfFrogs.java)
 * [1422. Maximum Score After Splitting a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore.java)
 * [1423. Maximum Points You Can Obtain from Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore1.java)
