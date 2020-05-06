@@ -740,6 +740,7 @@
 * [979. Distribute Coins in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCoins.java)
 * [981. Time Based Key-Value Store](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TimeMap.java)
 * [982. Triples with Bitwise AND Equal To Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTriplets.java)
+* [983. Minimum Cost For Tickets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MincostTickets.java)
 * [984. String Without AAA or BBB](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StrWithout3a3b.java)
 * [985. Sum of Even Numbers After Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumEvenAfterQueries.java)
 * [986. Interval List Intersections](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IntervalIntersection.java)
