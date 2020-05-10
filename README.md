@@ -1021,6 +1021,7 @@
 * [1423. Maximum Points You Can Obtain from Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore1.java)
 * [1424. Diagonal Traverse II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDiagonalOrder1.java)
 * [1425. Constrained Subsequence Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstrainedSubsetSum.java)
+* [1432. Max Difference You Can Get From Changing an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDiff.java)
 * [1433. Check If a String Can Break Another String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfCanBreak.java)
 * [LCP 1. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 2. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
