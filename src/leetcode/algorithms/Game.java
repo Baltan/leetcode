@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 /**
- * Description: LCP 1. 猜数字
+ * Description: LCP 01. 猜数字
  *
  * @author Baltan
  * @date 2019-09-27 09:31
