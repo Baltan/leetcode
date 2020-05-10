@@ -3,7 +3,7 @@ package leetcode.algorithms;
 import leetcode.util.OutputUtils;
 
 /**
- * Description: LCP 2. 分式化简
+ * Description: LCP 02. 分式化简
  *
  * @author Baltan
  * @date 2019-09-27 09:39
