@@ -18,25 +18,53 @@ public class MyPow {
         if (n == 0) {
             return 1;
         }
+
         if (n == 1) {
             return x;
         }
+
         if (n > 0) {
             if (n % 2 == 0) {
+                /**
+                 * x^2n
+                 * =(x^n)*(x^n)
+                 *
+                 * n>0
+                 */
                 int m = n / 2;
                 double value = myPow(x, m);
                 return value * value;
             } else {
+                /**
+                 * x^(2n+1)
+                 * =(x^n)*(x^n)*x
+                 *
+                 * n>0
+                 */
                 int m = n / 2;
                 double value = myPow(x, m);
                 return value * value * x;
             }
         } else {
+            /**
+             * x^2n
+             * =1/(x^2m)
+             * =1/[(x^m)*(x^m)]
+             *
+             * n<0且m=-n
+             */
             if (n % 2 == 0) {
                 int m = -(n / 2);
                 double value = myPow(x, m);
                 return 1 / (value * value);
             } else {
+                /**
+                 * x^(2n-1)
+                 * =1/[x^(2m+1)]
+                 * =1/[(x^m)*(x^m)*x]
+                 *
+                 * n<0且m=-n
+                 */
                 int m = -(n / 2);
                 double value = myPow(x, m);
                 return 1 / (value * value * x);
