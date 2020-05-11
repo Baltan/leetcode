@@ -31,7 +31,10 @@ public class MinStack {
      */
     public void push(int x) {
         stack.push(x);
-
+        /**
+         * 只有在单调栈minStack中没有元素或者当前元素不大于单调栈栈顶元素时，才将该元素存入单调栈中，因为当
+         * 栈stack中还有更大的元素时，检索栈中的最小元素永远得到的是当前单调栈栈顶的元素，直到该元素也出栈
+         */
         if (minStack.isEmpty() || x <= minStack.peek()) {
             minStack.push(x);
         }
@@ -42,7 +45,9 @@ public class MinStack {
      */
     public void pop() {
         int removeNum = stack.pop();
-
+        /**
+         * 如果栈stack出栈的元素就是单调栈minStack栈顶的元素，则单调栈栈顶元素出栈
+         */
         if (removeNum == minStack.peek()) {
             minStack.pop();
         }
