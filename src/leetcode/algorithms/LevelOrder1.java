@@ -64,22 +64,25 @@ public class LevelOrder1 {
         queue.offer(root);
 
         while (!queue.isEmpty()) {
+            /**
+             * 保存当前一层遍历的节点值
+             */
             List<Integer> list = new LinkedList<>();
             int size = queue.size();
 
             for (int i = 0; i < size; i++) {
                 TreeNode node = queue.poll();
                 list.add(node.val);
+
                 if (node.left != null) {
                     queue.offer(node.left);
                 }
+
                 if (node.right != null) {
                     queue.offer(node.right);
                 }
-                if (i == size - 1) {
-                    result.add(list);
-                }
             }
+            result.add(list);
         }
         return result;
     }
