@@ -18,9 +18,6 @@ public class LongestSubarray {
     }
 
     /**
-     * 参考：
-     * <a href="https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/solution/hua-dong-chuang-kou-shi-jian-0n-kong-jian-0n-by-ja/"></a>
-     *
      * @param nums
      * @param limit
      * @return
