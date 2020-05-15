@@ -1,8 +1,7 @@
 package leetcode.algorithms;
 
-import java.util.Collections;
+import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * Description: 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
@@ -18,38 +17,64 @@ public class LongestSubarray {
     }
 
     /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/solution/jue-dui-chai-bu-chao-guo-xian-zhi-de-zui-chang-lia/"></a>
+     *
      * @param nums
      * @param limit
      * @return
      */
     public static int longestSubarray(int[] nums, int limit) {
-        int result = 1;
-        Queue<Integer> queue = new LinkedList<>();
-        queue.offer(nums[0]);
-        int max = nums[0];
-        int min = nums[0];
+        int result = 0;
         int length = nums.length;
-
-        for (int i = 1; i < length; ) {
-            if (Math.abs(max - nums[i]) <= limit && Math.abs(min - nums[i]) <= limit) {
-                queue.offer(nums[i]);
-                max = Math.max(max, nums[i]);
-                min = Math.min(min, nums[i]);
-                result = Math.max(result, queue.size());
-                i++;
-            } else {
-                queue.poll();
-
-                if (queue.isEmpty()) {
-                    queue.offer(nums[i]);
-                    max = nums[i];
-                    min = nums[i];
-                    i++;
-                } else {
-                    max = Collections.max(queue);
-                    min = Collections.min(queue);
-                }
+        /**
+         * increasedQueue中保存nums中的索引，并且这些索引对应nums中的元素是单调递增的
+         */
+        Deque<Integer> increasedQueue = new LinkedList<>();
+        /**
+         * decreasedQueue中保存nums中的索引，并且这些索引对应nums中的元素是单调递减的
+         */
+        Deque<Integer> decreasedQueue = new LinkedList<>();
+        /**
+         * 窗口第一个元素的索引
+         */
+        int left = 0;
+        /**
+         * right为窗口最后一个元素的索引
+         */
+        for (int right = 0; right < length; right++) {
+            /**
+             * 维护最小值单调队列，队首始终为最小值的索引
+             */
+            while (!increasedQueue.isEmpty() && nums[increasedQueue.peekLast()] > nums[right]) {
+                increasedQueue.pollLast();
             }
+            increasedQueue.offerLast(right);
+            /**
+             * 维护最大值单调队列，队首始终为最大值的索引
+             */
+            while (!decreasedQueue.isEmpty() && nums[decreasedQueue.peekLast()] < nums[right]) {
+                decreasedQueue.pollLast();
+            }
+            decreasedQueue.offerLast(right);
+            /**
+             * 如果当前窗口中的最大值和最小值之差大于limit，就一直向右移动窗口第一个元素的索引
+             */
+            while (!decreasedQueue.isEmpty() && !increasedQueue.isEmpty() &&
+                    nums[decreasedQueue.peekFirst()] - nums[increasedQueue.peekFirst()] > limit) {
+                if (decreasedQueue.peekFirst() <= left) {
+                    decreasedQueue.pollFirst();
+                }
+
+                if (increasedQueue.peekFirst() <= left) {
+                    increasedQueue.pollFirst();
+                }
+                left++;
+            }
+            /**
+             * 更新窗口的大小
+             */
+            result = Math.max(result, right - left + 1);
         }
         return result;
     }
