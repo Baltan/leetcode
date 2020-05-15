@@ -1024,6 +1024,7 @@
 * [1432. Max Difference You Can Get From Changing an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDiff.java)
 * [1433. Check If a String Can Break Another String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfCanBreak.java)
 * [1437. Check If All 1's Are at Least Length K Places Away](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KLengthApart.java)
+* [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray.java)
 * [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTriplets1.java)
 * [1443. Minimum Time to Collect All Apples in a Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
