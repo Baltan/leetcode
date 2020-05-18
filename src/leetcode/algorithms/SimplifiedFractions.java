@@ -73,7 +73,9 @@ public class SimplifiedFractions {
     public static boolean isCoprime(int i, int j) {
         int max = Math.max(i, j);
         int min = Math.min(i, j);
-
+        /**
+         * 辗转相除法计算i和j的最大公因数，如果求得的最大公因数为1，则i和j就是互质的
+         */
         while (max % min != 0) {
             int remainder = max % min;
             max = min;
