@@ -23,51 +23,42 @@ public class ValidPalindrome {
     }
 
     public static boolean validPalindrome(String s) {
-        int start = 0;
-        int end = s.length() - 1;
-        int unmatchedNum = 0;
-        while (start < end) {
-            if (s.substring(start, start + 1).equals(s.substring(end, end + 1))) {
-                start++;
-                end--;
-            } else if (!s.substring(start, start + 1).equals(s.substring(end, end + 1))) {
-                if (s.substring(start, start + 1).equals(s.substring(end - 1, end)) &&
-                        !s.substring(start + 1, start + 2).equals(s.substring(end, end + 1))) {
-                    unmatchedNum++;
-                    if (unmatchedNum > 1) {
-                        return false;
-                    }
-                    end--;
-                } else if (!s.substring(start, start + 1).equals(s.substring(end - 1, end)) &&
-                        s.substring(start + 1, start + 2).equals(s.substring(end, end + 1))) {
-                    unmatchedNum++;
-                    if (unmatchedNum > 1) {
-                        return false;
-                    }
-                    start++;
-                } else if (s.substring(start, start + 1).equals(s.substring(end - 1, end)) &&
-                        s.substring(start + 1, start + 2).equals(s.substring(end, end + 1))) {
-                    unmatchedNum++;
-                    if (unmatchedNum > 1) {
-                        return false;
-                    }
-                    String s1 = s.substring(start + 1, end + 1);
-                    String s2 = s.substring(start, end);
-                    StringBuilder sb1 = new StringBuilder();
-                    StringBuilder sb2 = new StringBuilder();
-                    for (int i = s1.length() - 1; i >= 0; i--) {
-                        sb1.append(s1, i, i + 1);
-                        sb2.append(s2, i, i + 1);
-                    }
-                    if (s1.equals(sb1.toString()) || s2.equals(sb2.toString())) {
-                        return true;
-                    } else {
-                        return false;
-                    }
-                } else {
-                    return false;
-                }
+        char[] charArray = s.toCharArray();
+        int lo = 0;
+        int hi = charArray.length - 1;
+
+        while (lo < hi) {
+            /**
+             * 当charArray[lo]和charArray[hi]不相等时，删除其中一个，s剩下的部分为回文字符串就符合要求
+             */
+            if (charArray[lo] != charArray[hi]) {
+                String s1 = s.substring(0, lo) + s.substring(lo + 1, charArray.length);
+                String s2 = s.substring(0, hi) + s.substring(hi + 1, charArray.length);
+                return isPalindrome(s1) || isPalindrome(s2);
             }
+            lo++;
+            hi--;
+        }
+        return true;
+    }
+
+    /**
+     * 判断字符串s是否回文字符串
+     *
+     * @param s
+     * @return
+     */
+    public static boolean isPalindrome(String s) {
+        char[] charArray = s.toCharArray();
+        int lo = 0;
+        int hi = charArray.length - 1;
+
+        while (lo < hi) {
+            if (charArray[lo] != charArray[hi]) {
+                return false;
+            }
+            lo++;
+            hi--;
         }
         return true;
     }
