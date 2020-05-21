@@ -5,6 +5,8 @@ package leetcode.interview;
  *
  * @author Baltan
  * @date 2020-05-21 16:00
+ * @see MaxAliveYear1
+ * @see leetcode.algorithms.CarPooling
  */
 public class MaxAliveYear {
     public static void main(String[] args) {
