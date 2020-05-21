@@ -8,6 +8,7 @@ import java.util.Map;
  *
  * @author Baltan
  * @date 2019-06-24 10:16
+ * @see leetcode.interview.MaxAliveYear
  */
 public class CarPooling {
     public static void main(String[] args) {
@@ -28,12 +29,17 @@ public class CarPooling {
     }
 
     public static boolean carPooling(int[][] trips, int capacity) {
+        /**
+         * 地点 -> 该地点的最大乘客数
+         */
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int[] trip : trips) {
             for (int i = trip[1]; i < trip[2]; i++) {
                 map.put(i, map.getOrDefault(i, 0) + trip[0]);
-
+                /**
+                 * 如果某个地点的乘客数超过了最大载客量，则无法顺利完成接送任务
+                 */
                 if (map.get(i) > capacity) {
                     return false;
                 }
