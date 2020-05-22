@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2018/8/28 16:00
+ * @see leetcode.interview.StrToInt
  */
 public class MyAtoi {
     public static void main(String[] args) {
@@ -21,7 +22,7 @@ public class MyAtoi {
             return 0;
         }
         /**
-         * 取出str首尾的空格
+         * 去除str首尾的空格
          */
         str = str.trim();
 
