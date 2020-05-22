@@ -3,14 +3,13 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 import leetcode.util.BinaryTreeUtils;
 
-import java.util.Arrays;
-
 /**
  * Description: 105. Construct Binary Tree from Preorder and Inorder Traversal
  *
  * @author Baltan
  * @date 2020-01-31 11:07
  * @see BuildTree1
+ * @see BuildTree2
  * @see ConstructFromPrePost
  */
 public class BuildTree {
@@ -41,47 +40,48 @@ public class BuildTree {
     }
 
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
-        /**
-         * 如果前序遍历数组为空，则没有节点，即二叉树为null
-         */
-        if (preorder.length == 0) {
+        return buildTree(preorder, inorder, 0, preorder.length - 1, 0, inorder.length - 1);
+    }
+
+    public static TreeNode buildTree(int[] preorder, int[] inorder, int preorderStart, int preorderEnd,
+                                     int inorderStart, int inorderEnd) {
+        if (preorder.length == 0 || preorderStart > preorderEnd) {
             return null;
-        } else {
-            /**
-             * 如果二叉树的前序遍历数组不为空，那么第一个元素就是二叉树的根节点
-             */
-            int rootValue = preorder[0];
-            TreeNode root = new TreeNode(rootValue);
-            /**
-             * 二叉树左子树的节点数量
-             */
-            int leftSubtreeNodeCount = 0;
-            /**
-             * 在二叉树的中序遍历数组中找到根节点值的位置，则该值左边的所有值就是左子树的中序遍历数组，
-             * 该值右边的所有值就是右子树的中序遍历数组
-             */
-            for (int value : inorder) {
-                if (value == rootValue) {
-                    break;
-                } else {
-                    leftSubtreeNodeCount++;
-                }
-            }
-            /**
-             * 二叉树的前序遍历数组从第1（0-based）个元素开始的leftSubtreeNodeCount个数就是左子树
-             * 的前序遍历数组，最后那部分子数组就是右子树的前序遍历数组
-             */
-            int[] leftSubtreePreorder = Arrays.copyOfRange(preorder, 1, 1 + leftSubtreeNodeCount);
-            int[] rightSubtreePreorder =
-                    Arrays.copyOfRange(preorder, 1 + leftSubtreeNodeCount, preorder.length);
-            int[] leftSubtreeInorder = Arrays.copyOfRange(inorder, 0, leftSubtreeNodeCount);
-            int[] rightSubtreeInorder = Arrays.copyOfRange(inorder, leftSubtreeNodeCount + 1, inorder.length);
-            /**
-             * 递归构造左子树和右子树
-             */
-            root.left = buildTree(leftSubtreePreorder, leftSubtreeInorder);
-            root.right = buildTree(rightSubtreePreorder, rightSubtreeInorder);
-            return root;
         }
+        /**
+         * 如果二叉树的前序遍历数组不为空，那么第一个元素就是二叉树的根节点
+         */
+        int rootValue = preorder[preorderStart];
+        TreeNode root = new TreeNode(rootValue);
+        /**
+         * 二叉树的中序遍历数组中根节点值的位置
+         */
+        int rootValueInInorder = -1;
+        /**
+         * 在二叉树的中序遍历数组中找到根节点值的位置，则该值左边的所有值就是左子树的中序遍历数组，
+         * 该值右边的所有值就是右子树的中序遍历数组
+         */
+        for (int i = inorderStart; i <= inorderEnd; i++) {
+            if (inorder[i] == rootValue) {
+                rootValueInInorder = i;
+                break;
+            }
+        }
+        /**
+         * 二叉树左子树的节点数量
+         */
+        int leftNodeCount = rootValueInInorder - inorderStart;
+        /**
+         * 二叉树右子树的节点数量
+         */
+        int rightNodeCount = inorderEnd - rootValueInInorder;
+        /**
+         * 递归构造左子树和右子树
+         */
+        root.left = buildTree(preorder, inorder, preorderStart + 1, preorderStart + leftNodeCount,
+                inorderStart, rootValueInInorder - 1);
+        root.right = buildTree(preorder, inorder, preorderEnd - rightNodeCount + 1, preorderEnd,
+                rootValueInInorder + 1, inorderEnd);
+        return root;
     }
 }
