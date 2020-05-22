@@ -1138,3 +1138,4 @@
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
 * [面试题59 - II. 队列的最大值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxQueue.java)
 * [面试题62. 圆圈中最后剩下的数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/LastRemaining.java)
+* [面试题67. 把字符串转换成整数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/StrToInt.java)
