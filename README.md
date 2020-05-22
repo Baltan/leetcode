@@ -108,6 +108,7 @@
 * [103. Binary Tree Zigzag Level Order Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ZigzagLevelOrder.java)
 * [104. Maximum Depth of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth.java)
 * [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BuildTree.java)
+* [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BuildTree2.java)
 * [106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BuildTree1.java)
 * [107. Binary Tree Level Order Traversal II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LevelOrderBottom.java)
 * [108. Convert Sorted Array to Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortedArrayToBST.java)
