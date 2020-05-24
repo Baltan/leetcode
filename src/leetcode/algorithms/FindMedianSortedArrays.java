@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2018/1/12 09:53
+ * @see FindMedianSortedArrays1
  */
 public class FindMedianSortedArrays {
     public static void main(String[] args) {
@@ -32,6 +33,9 @@ public class FindMedianSortedArrays {
         int length2 = nums2.length;
         int index1 = 0;
         int index2 = 0;
+        /**
+         * 合并后数组的总长度
+         */
         int mergeLength = length1 + length2;
         /**
          * nums1和nums2合并后的数组，数组中的所有元素按照升序排列
