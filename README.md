@@ -4,6 +4,7 @@
 * [2. Add Two Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddTwoNumbers.java)
 * [3. Longest Substring Without Repeating Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LengthOfLongestSubstring.java)
 * [4. Median of Two Sorted Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMedianSortedArrays.java)
+* [4. Median of Two Sorted Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMedianSortedArrays1.java)
 * [5. Longest Palindromic Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome1.java)
 * [6. ZigZag Conversion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Convert.java)
 * [7. Reverse Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Reverse.java)
