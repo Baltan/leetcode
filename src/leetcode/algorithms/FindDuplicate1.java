@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-06-15 16:42
+ * @see FindDuplicate
  */
 public class FindDuplicate1 {
     public static void main(String[] args) {
@@ -18,6 +19,13 @@ public class FindDuplicate1 {
         System.out.println(findDuplicate(nums3));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/find-the-duplicate-number/solution/xun-zhao-zhong-fu-shu-by-leetcode-solution/"></a>
+     *
+     * @param nums
+     * @return
+     */
     public static int findDuplicate(int[] nums) {
         int slow = 0;
         int fast = 0;

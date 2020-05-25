@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-06-15 16:42
+ * @see FindDuplicate1
  */
 public class FindDuplicate {
     public static void main(String[] args) {
