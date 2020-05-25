@@ -13,19 +13,16 @@ public class LRUCache {
     private int capacity;
 
     public LRUCache(int capacity) {
+        /**
+         * LinkedHashMap第三个参数为true时，则所有的key按照访问顺序排序，即最后get()的key排在keySet集合的最后
+         */
         map = new LinkedHashMap<>((int) (capacity / 0.75), 0.75f, true);
         this.capacity = capacity;
     }
 
     public int get(int key) {
-        if (capacity == 0) {
-            return -1;
-        }
-
-        if (map.containsKey(key)) {
-            return map.get(key);
-        }
-        return -1;
+        Integer value = map.get(key);
+        return value == null ? -1 : value;
     }
 
     public void put(int key, int value) {
@@ -37,6 +34,9 @@ public class LRUCache {
             map.put(key, value);
         } else {
             if (!map.containsKey(key)) {
+                /**
+                 * 移除最久前访问过的元素
+                 */
                 map.remove(map.keySet().iterator().next());
             }
             map.put(key, value);
