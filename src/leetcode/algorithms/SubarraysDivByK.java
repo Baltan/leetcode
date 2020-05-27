@@ -34,19 +34,31 @@ public class SubarraysDivByK {
 
     public static int subarraysDivByK(int[] A, int K) {
         int length = A.length;
-        int[] array = new int[length + 1];
-        int[] remainderArray = new int[K];
+        /**
+         * 数组A的前缀和
+         */
+        int[] prefixSum = new int[length + 1];
+        /**
+         * remainders[i]表示除以K余数为i的前缀和的个数
+         */
+        int[] remainders = new int[K];
         int result = 0;
 
         for (int i = 1; i <= length; i++) {
-            array[i] = array[i - 1] + A[i - 1];
-            int remainder = (array[i] % K + K) % K;
-            remainderArray[remainder]++;
+            prefixSum[i] = prefixSum[i - 1] + A[i - 1];
+            /**
+             * A[0]-A[i-1]的所有元素的和除以K的余数，因为前缀和可能为负数，所以计算方式为(sum%K+K)%K
+             */
+            int remainder = (prefixSum[i] % K + K) % K;
+            remainders[remainder]++;
         }
 
         for (int i = 0; i < K; i++) {
-            result += (remainderArray[i] * (remainderArray[i] - 1) / 2);
+            /**
+             * 任意两个除以K余数相等的前缀和相减得到的子数组中所有元素的和即可被K整数
+             */
+            result += (remainders[i] * (remainders[i] - 1) / 2);
         }
-        return result + remainderArray[0];
+        return result + remainders[0];
     }
 }
