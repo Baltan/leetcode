@@ -964,6 +964,7 @@
 * [1332. Remove Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemovePalindromeSub.java)
 * [1333. Filter Restaurants by Vegan-Friendly, Price and Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FilterRestaurants.java)
 * [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheCity.java)
+* [1335. Minimum Difficulty of a Job Schedule](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDifficulty.java)
 * [1337. The K Weakest Rows in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KWeakestRows.java)
 * [1338. Reduce Array Size to The Half](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSetSize.java)
 * [1339. Maximum Product of Splitted Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct2.java)
