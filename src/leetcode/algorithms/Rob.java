@@ -17,17 +17,23 @@ public class Rob {
         if (nums.length == 0) {
             return 0;
         }
+
         if (nums.length == 1) {
             return nums[0];
         }
+        /**
+         * dp[i]表示到第i（0-based）间房屋为止可以获得的最高金额
+         */
+        int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
 
-        int[] numArray = new int[nums.length];
-
-        numArray[0] = nums[0];
-        numArray[1] = Math.max(nums[0], nums[1]);
-        for (int i = 2; i < numArray.length; i++) {
-            numArray[i] = Math.max(numArray[i - 2] + nums[i], numArray[i - 1]);
+        for (int i = 2; i < dp.length; i++) {
+            /**
+             * 如果要偷第i间房屋，则前面最多偷到第i-2间房屋
+             */
+            dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
         }
-        return numArray[numArray.length - 1];
+        return dp[dp.length - 1];
     }
 }
