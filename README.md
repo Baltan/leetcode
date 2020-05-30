@@ -797,6 +797,7 @@
 * [1038. Binary Search Tree to Greater Sum Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BstToGst.java)
 * [1041. Robot Bounded In Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsRobotBounded.java)
 * [1042. Flower Planting With No Adjacent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GardenNoAdj.java)
+* [1043. Partition Array for Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumAfterPartitioning.java)
 * [1046. Last Stone Weight](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastStoneWeight.java)
 * [1047. Remove All Adjacent Duplicates In String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicates2.java)
 * [1048. Longest String Chain](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestStrChain.java)
