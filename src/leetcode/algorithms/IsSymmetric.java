@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 /**
  * Description: 101. Symmetric Tree
@@ -10,30 +11,10 @@ import leetcode.entity.TreeNode;
  */
 public class IsSymmetric {
     public static void main(String[] args) {
-        TreeNode root1 = new TreeNode(1);
-        TreeNode node11 = new TreeNode(2);
-        TreeNode node12 = new TreeNode(2);
-        TreeNode node21 = new TreeNode(3);
-        TreeNode node22 = new TreeNode(4);
-        TreeNode node23 = new TreeNode(4);
-        TreeNode node24 = new TreeNode(3);
-        root1.left = node11;
-        root1.right = node12;
-        node11.left = node21;
-        node11.right = node22;
-        node12.left = node23;
-        node12.right = node24;
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2, 2, 3, 4, 4, 3}, 0);
         System.out.println(isSymmetric(root1));
 
-        TreeNode root2 = new TreeNode(1);
-        TreeNode node31 = new TreeNode(2);
-        TreeNode node32 = new TreeNode(2);
-        TreeNode node42 = new TreeNode(3);
-        TreeNode node44 = new TreeNode(3);
-        root2.left = node31;
-        root2.right = node32;
-        node31.right = node42;
-        node32.right = node44;
+        TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2, 2, null, 3, null, 3}, 0);
         System.out.println(isSymmetric(root2));
     }
 
@@ -41,30 +22,27 @@ public class IsSymmetric {
         if (root == null) {
             return true;
         }
-        if (root.left == null && root.right == null) {
-            return true;
-        } else if (root.left == null && root.right != null) {
-            return false;
-        } else if (root.left != null & root.right == null) {
-            return false;
-        } else {
-            return isSymmetricTree(root.left, root.right);
-        }
+        return isSymmetricTree(root.left, root.right);
     }
 
+    /**
+     * 判断left和right这两棵二叉树是否是镜像对称的
+     *
+     * @param left
+     * @param right
+     * @return
+     */
     public static boolean isSymmetricTree(TreeNode left, TreeNode right) {
         if (left == null && right == null) {
             return true;
-        } else if (left == null && right != null) {
-            return false;
-        } else if (left != null && right == null) {
+            /**
+             * 如果left和right其中一棵树为null，另一棵树不为null，或者两棵树都不为null但是两棵树的根节点值
+             * 不同，则两棵树不是镜像对称的
+             */
+        } else if (left == null || right == null || left.val != right.val) {
             return false;
         } else {
-            if (left.val != right.val) {
-                return false;
-            } else {
-                return isSymmetricTree(left.left, right.right) && isSymmetricTree(left.right, right.left);
-            }
+            return isSymmetricTree(left.left, right.right) && isSymmetricTree(left.right, right.left);
         }
     }
 }
