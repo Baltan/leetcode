@@ -7,7 +7,9 @@ import leetcode.entity.ListNode;
  *
  * @author Baltan
  * @date 2019-05-31 14:23
- * @see leetcode.interview.DetectCycle
+ * @see HasCycle
+ * @see FindDuplicate
+ * @see FindDuplicate1
  */
 public class DetectCycle {
     public static void main(String[] args) {
