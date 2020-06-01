@@ -65,30 +65,34 @@ public class HasCycle {
     }
 
     public static boolean hasCycle(ListNode head) {
-        if (head == null) {
+        if (head == null || head.next == null) {
             return false;
         }
-        ListNode node1 = null;
-        ListNode node2 = null;
-        if (head.next != null) {
-            node1 = head.next;
-        }
-        if (head.next != null && head.next.next != null) {
-            node2 = head.next.next;
-        }
-        while (node2 != null && node1 != null) {
-            if (node2 == node1) {
+        /**
+         * 慢指针一次走一步
+         */
+        ListNode slow = head;
+        /**
+         * 快指针一次走两步
+         */
+        ListNode fast = head;
+
+        while (slow != null && fast != null) {
+            slow = slow.next;
+            fast = fast.next;
+            /**
+             * 如果快指针先走到了头，则链表中没有环
+             */
+            if (fast == null) {
+                return false;
+            }
+
+            fast = fast.next;
+            /**
+             * 如果快慢指针相遇了，则链表中存在环
+             */
+            if (slow == fast) {
                 return true;
-            }
-            if (node1.next != null) {
-                node1 = node1.next;
-            } else {
-                return false;
-            }
-            if (node2.next != null && node2.next.next != null) {
-                node2 = node2.next.next;
-            } else {
-                return false;
             }
         }
         return false;
