@@ -7,6 +7,8 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2020-06-02 16:20
+ * @see CheckIfPrerequisite1
+ * @see FindTheCity
  */
 public class CheckIfPrerequisite {
     public static void main(String[] args) {
