@@ -5,6 +5,8 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2020-03-10 12:53
+ * @see CheckIfPrerequisite
+ * @see CheckIfPrerequisite1
  */
 public class FindTheCity {
     public static void main(String[] args) {
