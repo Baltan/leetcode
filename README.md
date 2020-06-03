@@ -1046,6 +1046,7 @@
 * [1456. Maximum Number of Vowels in a Substring of Given Length](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxVowels.java)
 * [1457. Pseudo-Palindromic Paths in a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PseudoPalindromicPaths.java)
 * [1461. Check If a String Contains All Binary Codes of Size K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasAllCodes.java)
+* [1462. Course Schedule IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfPrerequisite.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
