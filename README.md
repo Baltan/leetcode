@@ -1048,6 +1048,7 @@
 * [1461. Check If a String Contains All Binary Codes of Size K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasAllCodes.java)
 * [1462. Course Schedule IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfPrerequisite.java)
 * [1462. Course Schedule IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfPrerequisite1.java)
+* [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxArea1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
