@@ -15,22 +15,34 @@ public class ProductExceptSelf {
     }
 
     public static int[] productExceptSelf(int[] nums) {
-        int[] resArr = new int[nums.length];
-        int[] leftArr = new int[nums.length];
-        int[] rightArr = new int[nums.length];
-        int leftProduct = 1;
-        int rightProduct = 1;
-        for (int i = 1; i <= nums.length; i++) {
-            leftArr[i - 1] = leftProduct;
-            leftProduct *= nums[i - 1];
+        int length = nums.length;
+        int[] result = new int[length];
+        /**
+         * 数组nums的前缀积，prefixProduct[i]=nums[0]*nums[1]*…*nums[i-1]
+         */
+        int[] prefixProduct = new int[length + 1];
+        /**
+         * 数组nums的后缀积，suffixProduct[i]=nums[length-1]*nums[length-2]*…*nums[i]
+         */
+        int[] suffixProduct = new int[length + 1];
+        prefixProduct[0] = 1;
+        suffixProduct[length] = 1;
+
+        for (int i = 1; i <= length; i++) {
+            prefixProduct[i] = prefixProduct[i - 1] * nums[i - 1];
         }
-        for (int i = nums.length - 2; i >= -1; i--) {
-            rightArr[i + 1] = rightProduct;
-            rightProduct *= nums[i + 1];
+
+        for (int i = nums.length - 1; i >= 0; i--) {
+            suffixProduct[i] = suffixProduct[i + 1] * nums[i];
         }
-        for (int i = 0; i < resArr.length; i++) {
-            resArr[i] = leftArr[i] * rightArr[i];
+
+        for (int i = 0; i < result.length; i++) {
+            /**
+             * result[i]=(nums[0]*…*nums[i-1])*(nums[i+1]*…*nums[length-1])
+             *          =prefixProduct[i]*suffixProduct[i+1]
+             */
+            result[i] = prefixProduct[i] * suffixProduct[i + 1];
         }
-        return resArr;
+        return result;
     }
 }
