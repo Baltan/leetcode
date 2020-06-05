@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -8,6 +9,7 @@ import java.util.List;
  *
  * @author Baltan
  * @date 2018/9/14 11:34
+ * @see leetcode.interview.SpiralOrder
  */
 public class SpiralOrder {
     public static void main(String[] args) {
@@ -25,51 +27,66 @@ public class SpiralOrder {
     }
 
     public static List<Integer> spiralOrder(int[][] matrix) {
-        List<Integer> res = new ArrayList<>();
         if (matrix == null || matrix.length == 0) {
-            return res;
+            return Collections.emptyList();
         }
 
-        int length = matrix.length;
-        int width = matrix[0].length;
-        int size = length * width;
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int leftCount = rows * cols;
+        /**
+         * isVisited[i][j]标记matrix[i][j]是否到达过
+         */
+        boolean[][] isVisited = new boolean[rows][cols];
+        List<Integer> result = new ArrayList<>(rows * cols);
+        /**
+         * 四种方向依次为向右、向下、向左、向上，构成顺时针方向
+         */
+        int[][] directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        int directionIndex = 0;
+        /**
+         * 因为开始时方向是向右，第一个到达的位置是(0,0)，所以假设初始位置为(0,-1)
+         */
+        int currRow = 0;
+        int currCol = -1;
 
-        boolean[][] mark = new boolean[length][width];
-        int[][] nextStep = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-        int[] currCoordinate = {0, 0};
-        res.add(matrix[currCoordinate[0]][currCoordinate[1]]);
-        mark[currCoordinate[0]][currCoordinate[1]] = true;
-        int[] currDirection = {0, 1};
-        while (res.size() != size) {
-            if (currCoordinate[0] + currDirection[0] >= 0 && currCoordinate[0] + currDirection[0] < length &&
-                    currCoordinate[1] +
-                            currDirection[1] >= 0 && currCoordinate[1] +
-                    currDirection[1] < width &&
-                    !mark[currCoordinate[0] + currDirection[0]][currCoordinate[1] +
-                            currDirection[1]]) {
-                currCoordinate[0] = currCoordinate[0] + currDirection[0];
-                currCoordinate[1] = currCoordinate[1] + currDirection[1];
-                res.add(matrix[currCoordinate[0]][currCoordinate[1]]);
-                mark[currCoordinate[0]][currCoordinate[1]] = true;
+        while (leftCount > 0) {
+            if (!isUnavailable(rows, cols, currRow, currCol, directions[directionIndex], isVisited)) {
+                currRow += directions[directionIndex][0];
+                currCol += directions[directionIndex][1];
+                result.add(matrix[currRow][currCol]);
+                /**
+                 * 标记位置(currRow,currCol)已被到达过
+                 */
+                isVisited[currRow][currCol] = true;
+                leftCount--;
             } else {
-                for (int i = 0; i < nextStep.length; i++) {
-                    int[] move = nextStep[i];
-                    if (currCoordinate[0] + move[0] >= 0 && currCoordinate[0] + move[0] < length &&
-                            currCoordinate[1] +
-                                    move[1] >= 0 && currCoordinate[1] +
-                            move[1] < width && !mark[currCoordinate[0] + move[0]][currCoordinate[1] +
-                            move[1]]) {
-                        currCoordinate[0] = currCoordinate[0] + move[0];
-                        currCoordinate[1] = currCoordinate[1] + move[1];
-                        res.add(matrix[currCoordinate[0]][currCoordinate[1]]);
-                        mark[currCoordinate[0]][currCoordinate[1]] = true;
-                        currDirection[0] = move[0];
-                        currDirection[1] = move[1];
-                        break;
-                    }
-                }
+                /**
+                 * 顺时针方向变换方向
+                 */
+                directionIndex = (directionIndex + 1) % directions.length;
             }
         }
-        return res;
+        return result;
+    }
+
+    /**
+     * 判断从当前位置(currRow,currCol)沿着方向direction走一步到达的位置是否是可达的
+     *
+     * @param rows
+     * @param cols
+     * @param currRow
+     * @param currCol
+     * @param direction
+     * @param isVisited
+     * @return
+     */
+    public static boolean isUnavailable(int rows, int cols, int currRow, int currCol, int[] direction,
+                                        boolean[][] isVisited) {
+        /**
+         * 新到达的位置必须在matrix范围内并且该位置没有被到达过
+         */
+        return currRow + direction[0] < 0 || currRow + direction[0] == rows || currCol + direction[1] < 0 ||
+                currCol + direction[1] == cols || isVisited[currRow + direction[0]][currCol + direction[1]];
     }
 }
