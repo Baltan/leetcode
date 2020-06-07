@@ -651,6 +651,7 @@
 * [867. Transpose Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Transpose.java)
 * [868. Binary Gap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BinaryGap.java)
 * [869. Reordered Power of 2](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderedPowerOf2.java)
+* [870. Advantage Shuffle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AdvantageCount.java)
 * [872. Leaf-Similar Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LeafSimilar.java)
 * [873. Length of Longest Fibonacci Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LenLongestFibSubseq.java)
 * [874. Walking Robot Simulation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RobotSim.java)
