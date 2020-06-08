@@ -10,6 +10,7 @@ import java.util.Set;
  *
  * @author Baltan
  * @date 2019-07-21 10:18
+ * @see EquationsPossible1
  */
 public class EquationsPossible {
     public static void main(String[] args) {
@@ -33,6 +34,9 @@ public class EquationsPossible {
 
         String[] equations7 = {"a==b", "e==c", "b==c", "a!=e"};
         System.out.println(equationsPossible(equations7));
+
+        String[] equations8 = {"a!=b", "b!=c", "c!=a"};
+        System.out.println(equationsPossible(equations8));
     }
 
     public static boolean equationsPossible(String[] equations) {
