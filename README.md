@@ -1152,6 +1152,7 @@
 * [面试题29. 顺时针打印矩阵](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SpiralOrder.java)
 * [面试题35. 复杂链表的复制](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CopyRandomList.java)
 * [面试题40. 最小的k个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetLeastNumbers.java)
+* [面试题46. 把数字翻译成字符串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TranslateNum.java)
 * [面试题51. 数组中的逆序对](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ReversePairs.java)
 * [面试题56 - I. 数组中数字出现的次数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SingleNumbers.java)
 * [面试题57 - II. 和为s的连续正数序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindContinuousSequence.java)
