@@ -15,23 +15,20 @@ public class IsPalindrome1 {
     }
 
     public static boolean isPalindrome(int x) {
-        if (x < 0) {
+        if (x < 0 || (x != 0 && x % 10 == 0)) {
             return false;
         }
-        int y = x;
-        int n = 0;
-        while (y > 0) {
-            y /= 10;
-            n++;
-        }
-        int temp = 0;
-        while (temp < (n + 1) / 2) {
-            int tailNum = (int) (x % Math.pow(10, temp + 1) / Math.pow(10, temp));
-            int headNum = (int) (x % Math.pow(10, n - temp) / Math.pow(10, n - 1 - temp));
-            if (tailNum != headNum) {
+
+        char[] charArray = String.valueOf(x).toCharArray();
+        int lo = 0;
+        int hi = charArray.length - 1;
+        /**
+         * 将x转为字符串后判断是否是回文字符串
+         */
+        while (lo < hi) {
+            if (charArray[lo++] != charArray[hi--]) {
                 return false;
             }
-            temp++;
         }
         return true;
     }
