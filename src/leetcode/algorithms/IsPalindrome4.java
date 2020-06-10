@@ -4,10 +4,10 @@ package leetcode.algorithms;
  * Description: 9. Palindrome Number
  *
  * @author Baltan
- * @date 2018/1/6 21:50
- * @see IsPalindrome4
+ * @date 2020-06-10 08:08
+ * @see IsPalindrome1
  */
-public class IsPalindrome1 {
+public class IsPalindrome4 {
     public static void main(String[] args) {
         System.out.println(isPalindrome(12321));
         System.out.println(isPalindrome(12331));
@@ -19,18 +19,22 @@ public class IsPalindrome1 {
         if (x < 0 || (x != 0 && x % 10 == 0)) {
             return false;
         }
-
-        char[] charArray = String.valueOf(x).toCharArray();
-        int lo = 0;
-        int hi = charArray.length - 1;
         /**
-         * 将x转为字符串后判断是否是回文字符串
+         * 将x的原始值保存给y
          */
-        while (lo < hi) {
-            if (charArray[lo++] != charArray[hi--]) {
-                return false;
-            }
+        int y = x;
+        /**
+         * 将x翻转后得到的数字
+         */
+        int reverse = 0;
+        /**
+         * 计算x翻转后得到的数字
+         */
+        while (x > 0) {
+            int remainder = x % 10;
+            reverse = reverse * 10 + remainder;
+            x /= 10;
         }
-        return true;
+        return reverse == y;
     }
 }
