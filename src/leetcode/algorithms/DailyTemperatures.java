@@ -15,17 +15,30 @@ public class DailyTemperatures {
         OutputUtils.print1DIntegerArray(dailyTemperatures(new int[]{73, 74, 75, 71, 69, 72, 76, 73}));
     }
 
-    public static int[] dailyTemperatures(int[] temperatures) {
-        int[] array = new int[temperatures.length];
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/daily-temperatures/solution/mei-ri-wen-du-by-leetcode-solution/"></a>
+     *
+     * @param T
+     * @return
+     */
+    public static int[] dailyTemperatures(int[] T) {
+        int[] result = new int[T.length];
+        /**
+         * 保存索引的单调栈，栈顶的索引对应的温度始终为是最高的
+         */
         Stack<Integer> stack = new Stack<>();
 
-        for (int i = temperatures.length - 1; i >= 0; i--) {
-            while (!stack.isEmpty() && temperatures[i] >= temperatures[stack.peek()]) {
+        for (int i = T.length - 1; i >= 0; i--) {
+            /**
+             * 将栈顶低于当前索引对应的温度的索引都出栈
+             */
+            while (!stack.isEmpty() && T[i] >= T[stack.peek()]) {
                 stack.pop();
             }
-            array[i] = stack.isEmpty() ? 0 : stack.peek() - i;
+            result[i] = stack.isEmpty() ? 0 : stack.peek() - i;
             stack.push(i);
         }
-        return array;
+        return result;
     }
 }
