@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -17,41 +17,60 @@ public class ThreeSum {
     }
 
     public static List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
+        List<List<Integer>> result = new LinkedList<>();
+
         if (nums == null || nums.length < 3) {
-            return res;
+            return result;
         }
 
-        Arrays.sort(nums);
         int length = nums.length;
+        Arrays.sort(nums);
+        /**
+         * 如果数组排序后最小的三个数之和大于0或者最大的三个数之和小于0，则数组中一定不存在三个数的和为0
+         */
         if (nums[0] + nums[1] + nums[2] > 0 || nums[length - 1] + nums[length - 2] + nums[length - 3] < 0) {
-            return res;
+            return result;
         }
 
         for (int i = 0; i < length && nums[i] <= 0; i++) {
+            /**
+             * 先确定数组中的第一个数，并且第一个数不可重复
+             */
             if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
+            /**
+             * 剩下两数之和
+             */
             int sum = -nums[i];
-            int firstIndex = i + 1;
-            int lastIndex = length - 1;
-            while (firstIndex < lastIndex) {
-                if (nums[firstIndex] + nums[lastIndex] == sum) {
-                    List<Integer> list = Arrays.asList(nums[i], nums[firstIndex], nums[lastIndex]);
-                    res.add(list);
+            int lo = i + 1;
+            int hi = length - 1;
+            /**
+             * 双指针确定剩下两个数
+             */
+            while (lo < hi) {
+                if (nums[lo] + nums[hi] == sum) {
+                    List<Integer> list = Arrays.asList(nums[i], nums[lo], nums[hi]);
+                    result.add(list);
+                    /**
+                     * 第二个数不可重复
+                     */
                     do {
-                        firstIndex++;
-                    } while (nums[firstIndex] == nums[firstIndex - 1] && firstIndex < lastIndex);
+                        lo++;
+                    } while (nums[lo] == nums[lo - 1] && lo < hi);
+                    /**
+                     * 第三个数不可重复
+                     */
                     do {
-                        lastIndex--;
-                    } while (nums[lastIndex] == nums[lastIndex + 1] && firstIndex < lastIndex);
-                } else if (nums[firstIndex] + nums[lastIndex] < sum) {
-                    firstIndex++;
+                        hi--;
+                    } while (nums[hi] == nums[hi + 1] && lo < hi);
+                } else if (nums[lo] + nums[hi] < sum) {
+                    lo++;
                 } else {
-                    lastIndex--;
+                    hi--;
                 }
             }
         }
-        return res;
+        return result;
     }
 }
