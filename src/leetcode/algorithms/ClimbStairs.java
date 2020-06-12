@@ -12,15 +12,16 @@ public class ClimbStairs {
     }
 
     public static int climbStairs(int n) {
-        if (n == 0 || n == 1) {
-            return 1;
+        /**
+         * dp[i]表示爬到第i个台阶方法的种数
+         */
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+        dp[1] = 1;
+
+        for (int i = 2; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
         }
-        int[] steps = new int[n];
-        steps[0] = 1;
-        steps[1] = 2;
-        for (int i = 2; i <= n - 1; i++) {
-            steps[i] = steps[i - 1] + steps[i - 2];
-        }
-        return steps[n - 1];
+        return dp[n];
     }
 }
