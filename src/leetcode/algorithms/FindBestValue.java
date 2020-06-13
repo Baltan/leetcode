@@ -16,9 +16,27 @@ public class FindBestValue {
 
         int[] arr3 = {60864, 25176, 27249, 21296, 20204};
         System.out.println(findBestValue(arr3, 56803));
+
+        int[] arr4 = {2, 3, 5};
+        System.out.println(findBestValue(arr4, 11));
     }
 
     public static int findBestValue(int[] arr, int target) {
+        int sum = 0;
+        int max = Integer.MIN_VALUE;
+
+        for (int value : arr) {
+            sum += value;
+            max = Math.max(max, value);
+        }
+        /**
+         * 如果数组中的所有数字的和不大于target，则将任意数字变小后，都会导致数组中所有数字的和更加远离
+         * target，所以直接另value为数组中的最大值，此时不会令数组中任何值变小
+         */
+        if (sum <= target) {
+            return max;
+        }
+
         /**
          * 因为target大于等于1，所以value最小可能为0
          */
@@ -35,7 +53,7 @@ public class FindBestValue {
              * 假设当前的value就是mid
              */
             int mid = (lo + hi) / 2;
-            int sum = sum(arr, mid);
+            sum = sum(arr, mid);
             /**
              * 如果转换后的数组和小于target，则value的值应当大于mid；如果转换后的数组和不小于target，
              * 则value的值小于等于mid
