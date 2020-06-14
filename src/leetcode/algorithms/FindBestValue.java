@@ -22,29 +22,19 @@ public class FindBestValue {
     }
 
     public static int findBestValue(int[] arr, int target) {
-        int sum = 0;
         int max = Integer.MIN_VALUE;
 
         for (int value : arr) {
-            sum += value;
             max = Math.max(max, value);
         }
-        /**
-         * 如果数组中的所有数字的和不大于target，则将任意数字变小后，都会导致数组中所有数字的和更加远离
-         * target，所以直接另value为数组中的最大值，此时不会令数组中任何值变小
-         */
-        if (sum <= target) {
-            return max;
-        }
-
         /**
          * 因为target大于等于1，所以value最小可能为0
          */
         int lo = 0;
         /**
-         * 因为数组中的元素小于等于100000，所以value最大可能为100000
+         * value最大可能为max
          */
-        int hi = 100000;
+        int hi = max;
         /**
          * 二分查找使转换后的数组和不小于target的最小的value
          */
@@ -53,7 +43,7 @@ public class FindBestValue {
              * 假设当前的value就是mid
              */
             int mid = (lo + hi) / 2;
-            sum = sum(arr, mid);
+            int sum = sum(arr, mid);
             /**
              * 如果转换后的数组和小于target，则value的值应当大于mid；如果转换后的数组和不小于target，
              * 则value的值小于等于mid
