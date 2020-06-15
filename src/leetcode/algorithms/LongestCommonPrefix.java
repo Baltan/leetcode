@@ -1,8 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * Description: 14. Longest Common Prefix
  *
@@ -18,22 +15,36 @@ public class LongestCommonPrefix {
     }
 
     public static String longestCommonPrefix(String[] strs) {
-        if (strs.length == 0) {
+        if (strs == null || strs.length == 0) {
             return "";
         }
-        for (int i = 0; i < strs[0].length(); i++) {
-            Set<String> hs = new HashSet<>();
-            for (int j = 0; j < strs.length; j++) {
-                if (strs[j].length() > i) {
-                    hs.add(strs[j].substring(i, i + 1));
-                } else {
-                    return strs[0].substring(0, i);
+
+        StringBuilder builder = new StringBuilder();
+        int length = strs.length;
+        /**
+         * 将strs中的第一个单词作为比较的标准
+         */
+        String first = strs[0];
+        /**
+         * first中字母的索引位置
+         */
+        int index = 0;
+
+        while (index < first.length()) {
+            char c = first.charAt(index);
+
+            for (int i = 1; i < length; i++) {
+                /**
+                 * 如果当前单词的长度比first短，或者当前单词索引位置为index的字母和first索引位置为index
+                 * 的字母不一致，则可以结束公共前缀的查找
+                 */
+                if (strs[i].length() == index || strs[i].charAt(index) != c) {
+                    return builder.toString();
                 }
             }
-            if (hs.size() > 1) {
-                return strs[0].substring(0, i);
-            }
+            index++;
+            builder.append(c);
         }
-        return strs[0];
+        return builder.toString();
     }
 }
