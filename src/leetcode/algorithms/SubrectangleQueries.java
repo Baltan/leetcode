@@ -14,6 +14,9 @@ public class SubrectangleQueries {
     }
 
     public void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
+        /**
+         * 暴力修改
+         */
         for (int i = row1; i <= row2; i++) {
             for (int j = col1; j <= col2; j++) {
                 rectangle[i][j] = newValue;
