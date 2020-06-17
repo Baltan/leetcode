@@ -1061,6 +1061,7 @@
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
 * [LCP 06. 拿硬币](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCount.java)
+* [LCP 07. 传递信息](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays1.java)
 * [LCP 08. 剧情触发时间](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTriggerTime.java)
 * [LCP 12. 小张刷题计划](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime1.java)
 * [面试题 01.01. 判定字符是否唯一](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsUnique.java)
