@@ -44,7 +44,7 @@ public class MinScoreTriangulation {
                 int right = left + intervalLength - 1;
                 dp[left][right] = Integer.MAX_VALUE;
                 /**
-                 * mid为左顶点和右顶点中间的顶点
+                 * mid为左顶点和右顶点中间的顶点，mid左顶点、mid顶点和右顶点构成一个三角形
                  */
                 for (int mid = left + 1; mid < right; mid++) {
                     dp[left][right] = Math.min(dp[left][right],
