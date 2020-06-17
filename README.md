@@ -1056,6 +1056,7 @@
 * [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinReorder.java)
 * [1471. The k Strongest Values in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetStrongest.java)
 * [1472. Design Browser History](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BrowserHistory.java)
+* [1476. Subrectangle Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubrectangleQueries.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
