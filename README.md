@@ -11,6 +11,7 @@
 * [8. String to Integer (atoi)](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyAtoi.java)
 * [9. Palindrome Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPalindrome1.java)
 * [9. Palindrome Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPalindrome4.java)
+* [10. Regular Expression Matching](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsMatch1.java)
 * [11. Container With Most Water](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxArea.java)
 * [12. Integer to Roman](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IntToRoman.java)
 * [13. Roman to Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RomanToInt.java)
