@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2020-01-21 13:03
+ * @see IsMatch1
  */
 public class IsMatch {
     public static void main(String[] args) {
@@ -57,7 +58,7 @@ public class IsMatch {
                  * 符串s的前i-1个字符（dp[i][j]=dp[i-1][j-1]）
                  * 2、当字符模式p的第j个字符为"*"时，如果这个"*"匹配""，则字符模式p的前j个字符是否
                  * 匹配字符串s的前i个字符，取决于字符模式p的前j-1个字符是否匹配字符串s的前i个字符
-                 * （dp[i][j]=dp[i][j-1]）；如果这个"匹配"非""的任意字符串，则字符模式p的前j个字
+                 * （dp[i][j]=dp[i][j-1]）；如果这个"*"匹配非""的任意字符串，则字符模式p的前j个字
                  * 符是否匹配字符串s的前i个字符，取决于字符模式p的前j个字符是否匹配字符串s的前i-1个
                  * 字符（dp[i][j]=dp[i-1][j]）。两种情况任意一种匹配上，字符模式p的前j个字符就能
                  * 匹配字符串s的前i个字符
