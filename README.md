@@ -132,6 +132,7 @@
 * [122. Best Time to Buy and Sell Stock II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit1.java)
 * [123. Best Time to Buy and Sell Stock III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit4.java)
 * [124. Binary Tree Maximum Path Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPathSum.java)
+* [124. Binary Tree Maximum Path Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPathSum1.java)
 * [125. Valid Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPalindrome.java)
 * [126. Word Ladder II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLadders.java)
 * [127. Word Ladder](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LadderLength.java)
