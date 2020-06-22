@@ -10,47 +10,53 @@ public class AddBinary {
     public static void main(String[] args) {
         System.out.println(addBinary("11", "1"));
         System.out.println(addBinary("0", "0"));
+        System.out.println(addBinary("1010", "1011"));
     }
 
     public static String addBinary(String a, String b) {
-        int lengthA = a.length();
-        int lengthB = b.length();
-        int longLength = lengthA > lengthB ? lengthA : lengthB;
-        int[] sumArr = new int[longLength + 1];
-        int temp = 0;
-        while (lengthA >= 0 || lengthB >= 0) {
-            int sum = 0;
-            int addentA = 0;
-            int addentB = 0;
-            if (lengthA >= 1) {
-                addentA = Integer.valueOf(a.substring(lengthA - 1, lengthA));
+        StringBuilder builder = new StringBuilder();
+        char[] aChars = a.toCharArray();
+        char[] bChars = b.toCharArray();
+        int aLength = aChars.length;
+        int bLength = bChars.length;
+        int aIndex = aLength - 1;
+        int bIndex = bLength - 1;
+        /**
+         * 进位
+         */
+        int carry = 0;
+        /**
+         * 从a和b的低位开始向高位逐一计算
+         */
+        while (aIndex >= 0 || bIndex >= 0) {
+            int sum = carry;
+
+            if (aIndex >= 0) {
+                sum += aChars[aIndex] - '0';
             }
-            if (lengthB >= 1) {
-                addentB = Integer.valueOf(b.substring(lengthB - 1, lengthB));
+
+            if (bIndex >= 0) {
+                sum += bChars[bIndex] - '0';
             }
-            int tempSum = addentA + addentB + temp;
-            if (tempSum == 0) {
-                sum = 0;
-                temp = 0;
-            } else if (tempSum == 1) {
-                sum = 1;
-                temp = 0;
-            } else if (tempSum == 2) {
-                sum = 0;
-                temp = 1;
-            } else if (tempSum == 3) {
-                sum = 1;
-                temp = 1;
+            /**
+             * 因为是二进制求和，所以要逢二进一
+             */
+            if (sum >= 2) {
+                builder.insert(0, sum - 2);
+                carry = 1;
+            } else {
+                builder.insert(0, sum);
+                carry = 0;
             }
-            sumArr[longLength] = sum;
-            lengthA--;
-            lengthB--;
-            longLength--;
+            aIndex--;
+            bIndex--;
         }
-        StringBuilder sb = new StringBuilder();
-        for (int i : sumArr) {
-            sb = sb.append(i);
+        /**
+         * 如果a和b的最高位求和之后还有进位1
+         */
+        if (carry == 1) {
+            builder.insert(0, carry);
         }
-        return "0".equals(sb.toString().substring(0, 1)) ? sb.toString().substring(1) : sb.toString();
+        return builder.toString();
     }
 }
