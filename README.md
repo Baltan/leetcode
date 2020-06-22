@@ -1149,6 +1149,7 @@
 * [面试题 16.15. 珠玑妙算](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MasterMind.java)
 * [面试题 16.16. 部分排序](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SubSort.java)
 * [面试题 16.17. 连续数列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxSubArray.java)
+* [面试题 16.18. 模式匹配](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PatternMatching.java)
 * [面试题 16.19. 水域大小](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PondSizes.java)
 * [面试题 16.20. T9键盘](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetValidT9Words.java)
 * [面试题 16.21. 交换和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindSwapValues.java)
