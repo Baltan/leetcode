@@ -14,13 +14,13 @@ public class AddBinary {
     }
 
     public static String addBinary(String a, String b) {
-        StringBuilder builder = new StringBuilder();
         char[] aChars = a.toCharArray();
         char[] bChars = b.toCharArray();
         int aLength = aChars.length;
         int bLength = bChars.length;
         int aIndex = aLength - 1;
         int bIndex = bLength - 1;
+        StringBuilder builder = new StringBuilder(Math.max(aLength, bLength) + 1);
         /**
          * 进位
          */
