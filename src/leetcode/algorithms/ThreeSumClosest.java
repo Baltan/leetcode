@@ -17,27 +17,38 @@ public class ThreeSumClosest {
     public static int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int length = nums.length;
+        /**
+         * 三数之和与target的最小差值
+         */
         int minDiff = Integer.MAX_VALUE;
-        int closedSum = target;
+        int result = target;
+        /**
+         * 先固定第一个数nums[i]，双指针查找剩余的两个数，使得剩余两数的和尽可能接近target-nums[i]
+         */
         for (int i = 0; i < length - 2; i++) {
-            int firstIndex = i + 1;
-            int lastIndex = length - 1;
-            while (firstIndex < lastIndex) {
-                int sum = nums[i] + nums[firstIndex] + nums[lastIndex];
+            int lo = i + 1;
+            int hi = length - 1;
+            /**
+             * 双指针
+             */
+            while (lo < hi) {
+                int sum = nums[i] + nums[lo] + nums[hi];
                 int diff = Math.abs(sum - target);
+
                 if (diff < minDiff) {
                     minDiff = diff;
-                    closedSum = sum;
+                    result = sum;
                 }
+
                 if (sum < target) {
-                    firstIndex++;
+                    lo++;
                 } else if (sum > target) {
-                    lastIndex--;
+                    hi--;
                 } else {
-                    return closedSum;
+                    return result;
                 }
             }
         }
-        return closedSum;
+        return result;
     }
 }
