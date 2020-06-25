@@ -1064,6 +1064,7 @@
 * [1481. Least Number of Unique Integers after K Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLeastNumOfUniqueInts.java)
 * [1486. XOR Operation in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorOperation.java)
 * [1487. Making File Names Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetFolderNames.java)
+* [1488. Avoid Flood in The City](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AvoidFlood.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
