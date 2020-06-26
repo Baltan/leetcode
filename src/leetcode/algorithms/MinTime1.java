@@ -79,7 +79,7 @@ public class MinTime1 {
             }
         }
         /**
-         * 最后那部分题目也需要一天时间完成，所有costDays要加1
+         * 最后那部分题目也需要一天时间完成，所以costDays要加1
          */
         costDays++;
         return costDays <= m;
