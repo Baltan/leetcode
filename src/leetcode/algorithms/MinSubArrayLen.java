@@ -22,13 +22,28 @@ public class MinSubArrayLen {
         }
 
         int result = Integer.MAX_VALUE;
+        /**
+         * 子数组起始索引位置
+         */
         int lo = 0;
+        /**
+         * 子数组结束索引位置
+         */
         int hi = 0;
         int length = nums.length;
+        /**
+         * 子数组中所有元素的和
+         */
         int sum = nums[0];
-
+        /**
+         * 双指针滑动窗口
+         */
         while (hi <= length) {
             while (lo <= hi) {
+                /**
+                 * 如果当前子数组中所有元素的和不小于s，向右移动起始索引位置指针，缩小子数组的长度，减小子数组中所有元
+                 * 素的和
+                 */
                 if (sum >= s) {
                     result = Math.min(result, hi - lo + 1);
                     sum -= nums[lo];
@@ -37,7 +52,13 @@ public class MinSubArrayLen {
                     break;
                 }
             }
+            /**
+             * 向右移动结束索引位置指针，增大子数组的长度，增加子数组中所有元素的和
+             */
             hi++;
+            /**
+             * 结束索引没有超出数组的范围，才增加子数组中所有元素的和
+             */
             if (hi < length) {
                 sum += nums[hi];
             }
