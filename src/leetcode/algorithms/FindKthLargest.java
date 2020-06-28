@@ -1,5 +1,8 @@
 package leetcode.algorithms;
 
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 /**
  * Description: 215. Kth Largest Element in an Array
  *
@@ -19,15 +22,23 @@ public class FindKthLargest {
     }
 
     public static int findKthLargest(int[] nums, int k) {
-        int arrLength = nums.length;
-        for (int i = 1; i < arrLength; i++) {
-            int currNum = nums[i];
-            int j;
-            for (j = i - 1; j >= 0 && nums[j] > currNum; j--) {
-                nums[j + 1] = nums[j];
-            }
-            nums[j + 1] = currNum;
+        /**
+         * 降序保存nums中的所有元素
+         */
+        Queue<Integer> queue = new PriorityQueue<>((x, y) -> y - x);
+
+        for (int num : nums) {
+            queue.offer(num);
         }
-        return nums[arrLength - k];
+        /**
+         * 将queue中的前k-1个最大的元素出队
+         */
+        while (k-- > 1) {
+            queue.poll();
+        }
+        /**
+         * 当前对首的元素就是nums中第k个最大元素
+         */
+        return queue.poll();
     }
 }
