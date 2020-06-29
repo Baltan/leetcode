@@ -8,16 +8,17 @@ import java.util.Stack;
  * @author Baltan
  * @date 2018/1/6 20:16
  * @see leetcode.interview.MyQueue
+ * @see leetcode.interview.CQueue
  */
 public class MyQueue {
     /**
      * 保存所有队列中的元素，栈顶总是最后加入队列的元素
      */
-    Stack<Integer> stack;
+    private Stack<Integer> stack;
     /**
      * 将stack中所有元素逆序保存
      */
-    Stack<Integer> otherStack;
+    private Stack<Integer> otherStack;
 
     public MyQueue() {
         stack = new Stack<>();
