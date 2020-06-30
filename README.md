@@ -1066,6 +1066,7 @@
 * [1486. XOR Operation in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorOperation.java)
 * [1487. Making File Names Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetFolderNames.java)
 * [1488. Avoid Flood in The City](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AvoidFlood.java)
+* [1491. Average Salary Excluding the Minimum and Maximum Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Average.java)
 * [1492. The kth Factor of n](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthFactor.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
