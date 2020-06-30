@@ -15,8 +15,17 @@ public class Average {
     }
 
     public static double average(int[] salary) {
+        /**
+         * 工资总额
+         */
         int sum = 0;
+        /**
+         * 最低工资
+         */
         int min = Integer.MAX_VALUE;
+        /**
+         * 最高工资
+         */
         int max = Integer.MIN_VALUE;
 
         for (int value : salary) {
