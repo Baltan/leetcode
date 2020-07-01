@@ -1068,6 +1068,7 @@
 * [1488. Avoid Flood in The City](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AvoidFlood.java)
 * [1491. Average Salary Excluding the Minimum and Maximum Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Average.java)
 * [1492. The kth Factor of n](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthFactor.java)
+* [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
