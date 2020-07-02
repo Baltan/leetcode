@@ -16,6 +16,9 @@ public class KthSmallest1 {
     }
 
     public static int kthSmallest(int[][] matrix, int k) {
+        /**
+         * 降序保存matrix中的所有元素
+         */
         Queue<Integer> queue = new PriorityQueue<>((x, y) -> y - x);
         int rows = matrix.length;
         int cols = matrix[0].length;
@@ -23,12 +26,17 @@ public class KthSmallest1 {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 queue.offer(matrix[i][j]);
-
+                /**
+                 * 保持matrix中的元素不超过k个
+                 */
                 if (queue.size() > k) {
                     queue.poll();
                 }
             }
         }
+        /**
+         * 队首元素就是所有第k小的元素
+         */
         return queue.poll();
     }
 }
