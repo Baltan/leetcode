@@ -1070,6 +1070,7 @@
 * [1492. The kth Factor of n](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthFactor.java)
 * [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray1.java)
 * [1497. Check If Array Pairs Are Divisible by k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanArrange.java)
+* [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubseq.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
