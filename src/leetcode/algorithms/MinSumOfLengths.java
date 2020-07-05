@@ -1,5 +1,8 @@
 package leetcode.algorithms;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Description: 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
  *
@@ -28,78 +31,68 @@ public class MinSumOfLengths {
         int result = Integer.MAX_VALUE;
         int length = arr.length;
         /**
-         * dp1[i]表示子数组arr.subarray(0,i+1)中的和为target的最小子数组的长度
+         * dp1[i]表示子数组arr.subarray(0,i)中的和为target的最小子数组的长度
          */
-        int[] dp1 = new int[length];
+        int[] dp1 = new int[length + 1];
         /**
-         * dp2[i]表示子数组arr.subarray(i,length)中的和为target的最小子数组的长度
+         * dp2[i]表示子数组arr.subarray(i)中的和为target的最小子数组的长度
          */
-        int[] dp2 = new int[length];
-        dp1[0] = arr[0] == target ? 1 : Integer.MAX_VALUE;
-        dp2[length - 1] = arr[length - 1] == target ? 1 : Integer.MAX_VALUE;
+        int[] dp2 = new int[length + 1];
+        dp1[0] = Integer.MAX_VALUE;
+        dp2[length] = Integer.MAX_VALUE;
+        /**
+         * arr的前缀和
+         */
+        int prefixSum = 0;
+        /**
+         * 前缀和i -> 前缀和为i的元素的索引
+         */
+        Map<Integer, Integer> prefixSumMap = new HashMap<>();
+        prefixSumMap.put(0, -1);
+        /**
+         * arr的后缀和
+         */
+        int suffixSum = 0;
+        /**
+         * 后缀和i -> 后缀和为i的元素的索引
+         */
+        Map<Integer, Integer> suffixSumMap = new HashMap<>();
+        suffixSumMap.put(0, length);
 
-        for (int i = 1; i < length; i++) {
+        for (int i = 1; i <= length; i++) {
+            prefixSum += arr[i - 1];
+            prefixSumMap.put(prefixSum, i - 1);
             /**
-             * 最后一个元素为arr[i]的子数组的和
+             * 如果prefixSumMap包含值为prefixSum-target的key，说明存在最后一个元素为arr[i]且和为target的子数组，
+             * 更新dp1[i]
              */
-            int sum = 0;
-            /**
-             * 最后一个元素为arr[i]的子数组的长度
-             */
-            int l = 0;
-            int j = i;
-            /**
-             * 查找是否存在最后一个元素为arr[i]且和为target的子数组，即是否存在子数组arr[i-k]……arr[i-1]、arr[i]的和
-             * 为target
-             */
-            while (sum < target && j >= 0) {
-                sum += arr[j--];
-                l++;
-            }
-            /**
-             * 如果当前子数组的和为target，说明存在最后一个元素为arr[i]且和为target的子数组，更新dp1[i]
-             */
-            if (sum == target) {
-                dp1[i] = Math.min(dp1[i - 1], l);
+            if (prefixSumMap.containsKey(prefixSum - target)) {
+                dp1[i] = Math.min(dp1[i - 1], i - 1 - prefixSumMap.get(prefixSum - target));
             } else {
                 dp1[i] = dp1[i - 1];
             }
         }
 
-        for (int i = length - 2; i >= 0; i--) {
+        for (int i = length - 1; i >= 0; i--) {
+            suffixSum += arr[i];
+            suffixSumMap.put(suffixSum, i);
             /**
-             * 第一个元素为arr[i]的子数组的和
+             * 如果suffixSumMap包含值为suffixSum-target的key，说明存在第一个元素为arr[i]且和为target的子数组，
+             * 更新dp2[i]
              */
-            int sum = 0;
-            /**
-             * 第一个元素为arr[i]的子数组的长度
-             */
-            int l = 0;
-            int j = i;
-            /**
-             * 查找是否存在第一个元素为arr[i]且和为target的子数组，即是否存在子数组arr[i]、arr[i+1]……arr[length-2]、
-             * arr[length-1]的和为target
-             */
-            while (sum < target && j < length) {
-                sum += arr[j++];
-                l++;
-            }
-            /**
-             * 如果当前子数组的和为target，说明存在第一个元素为arr[i]且和为target的子数组，更新dp2[i]
-             */
-            if (sum == target) {
-                dp2[i] = Math.min(dp2[i + 1], l);
+            if (suffixSumMap.containsKey(suffixSum - target)) {
+                dp2[i] = Math.min(dp2[i + 1], suffixSumMap.get(suffixSum - target) - i);
             } else {
                 dp2[i] = dp2[i + 1];
             }
         }
         /**
-         * 将arr分成arr.subarray(0,i)和arr.subarray(i,length)两个子数组后如果能从两个子数组中各找到一个和为target
+         * 将arr分成arr.subarray(0,i)和arr.subarray(i)两个子数组后如果能从两个子数组中各找到一个和为target
          * 的子数组，则说明满足题目要求，更新result
          */
         for (int i = 1; i < length; i++) {
-            if (dp1[i - 1] != Integer.MAX_VALUE && dp2[i] != Integer.MAX_VALUE) {
-                result = Math.min(result, dp1[i - 1] + dp2[i]);
+            if (dp1[i] != Integer.MAX_VALUE && dp2[i] != Integer.MAX_VALUE) {
+                result = Math.min(result, dp1[i] + dp2[i]);
             }
         }
         return result == Integer.MAX_VALUE ? -1 : result;
