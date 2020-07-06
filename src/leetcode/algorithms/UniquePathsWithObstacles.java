@@ -24,27 +24,48 @@ public class UniquePathsWithObstacles {
     }
 
     public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
-        int n = obstacleGrid.length;
-        int m = obstacleGrid[0].length;
-        int[][] grid = new int[n][m + n - 1];
-        grid[0][0] = obstacleGrid[0][0] == 1 ? 0 : 1;
-        for (int i = 1; i <= m + n - 2; i++) {
-            for (int j = 0; j <= i && j < n; j++) {
-                int leftPathNum = 0;
-                int topPathNum = 0;
-                if (i - j - 1 >= 0) {
-                    leftPathNum = grid[j][i - j - 1];
-                }
-                if (j - 1 >= 0) {
-                    topPathNum = grid[j - 1][i - j];
-                }
-                if (j < n && i - j < m) {
-                    grid[j][i - j] = obstacleGrid[j][i - j] == 1 ? 0 : leftPathNum + topPathNum;
+        if (obstacleGrid == null || obstacleGrid.length == 0 || obstacleGrid[0].length == 0) {
+            return 0;
+        }
+
+        int height = obstacleGrid.length;
+        int width = obstacleGrid[0].length;
+        /**
+         * dp[i][j]表示走到obstacleGrid[i][j]有几条不同路径
+         */
+        int[][] dp = new int[height][width];
+        /**
+         * 如果起点obstacleGrid[0][0]或终点obstacleGrid[height-1][width-1]处有障碍物，则没有可行路径
+         */
+        if (obstacleGrid[0][0] == 1 || obstacleGrid[height - 1][width - 1] == 1) {
+            return 0;
+        }
+
+        dp[0][0] = 1;
+
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                /**
+                 * 如果当前网格处有障碍物，则没有可行路径
+                 */
+                if (obstacleGrid[i][j] == 1) {
+                    dp[i][j] = 0;
                 } else {
-                    grid[j][i - j] = leftPathNum + topPathNum;
+                    /**
+                     * 判断当前网格是否可以从上方网格到达
+                     */
+                    if (i > 0) {
+                        dp[i][j] += dp[i - 1][j];
+                    }
+                    /**
+                     * 判断当前网格是否可以从左方网格到达
+                     */
+                    if (j > 0) {
+                        dp[i][j] += dp[i][j - 1];
+                    }
                 }
             }
         }
-        return grid[n - 1][m - 1];
+        return dp[height - 1][width - 1];
     }
 }
