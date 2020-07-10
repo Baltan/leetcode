@@ -686,6 +686,7 @@
 * [904. Fruit Into Baskets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalFruit.java)
 * [905. Sort Array By Parity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArrayByParity.java)
 * [906. Super Palindromes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SuperpalindromesInRange.java)
+* [907. Sum of Subarray Minimums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumSubarrayMins.java)
 * [908. Smallest Range I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestRangeI.java)
 * [909. Snakes and Ladders](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SnakesAndLadders.java)
 * [909. Snakes and Ladders](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SnakesAndLadders1.java)
