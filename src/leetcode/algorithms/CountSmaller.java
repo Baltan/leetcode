@@ -1,7 +1,7 @@
 package leetcode.algorithms;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -19,40 +19,46 @@ public class CountSmaller {
                         32, 78, 28, 94, 13, 2, 97, 3, 76, 99, 51, 9, 21, 84, 66, 65, 36, 100, 41}));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/cong-you-wang-zuo-cha-ru-pai-xu-by-utopiahiker/"></a>
+     *
+     * @param nums
+     * @return
+     */
     public static List<Integer> countSmaller(int[] nums) {
+        if (nums.length == 0) {
+            return Collections.emptyList();
+        }
+
         int length = nums.length;
         List<Integer> result = new ArrayList<>(length);
-
-        for (int i = 0; i < length; i++) {
-            int[] copyArray = Arrays.copyOfRange(nums, i + 1, length);
-            result.add(binarySearch(nums[i], copyArray));
+        result.add(0);
+        /**
+         * 对nums从后向前进行降序的插入排序
+         */
+        for (int i = length - 2; i >= 0; i--) {
+            /**
+             * 当前要插入的数字
+             */
+            int currNum = nums[i];
+            int j;
+            /**
+             * 如果遍历到的数字不小于currNum，就将该数字向前移动一个位置
+             */
+            for (j = i + 1; j < length && nums[j] >= currNum; j++) {
+                nums[j - 1] = nums[j];
+            }
+            /**
+             * 因为nums[j]小于currNum，而nums[j-1]之前已经移动到nums[j-1]的位置上了，所以将curr放到currNum[j-1]
+             * 位置上
+             */
+            nums[j - 1] = currNum;
+            /**
+             * nums[j]-nums[length-1]这部分数字是小于currNum，共计length-j个数字
+             */
+            result.add(0, length - j);
         }
         return result;
-    }
-
-    public static int binarySearch(int value, int[] copyArray) {
-        Arrays.sort(copyArray);
-
-        if (copyArray.length == 0 || copyArray[0] >= value) {
-            return 0;
-        }
-
-        if (copyArray[copyArray.length - 1] < value) {
-            return copyArray.length;
-        }
-
-        int lo = 0;
-        int hi = copyArray.length - 1;
-
-        while (lo < hi) {
-            int mid = (lo + hi) / 2;
-
-            if (copyArray[mid] < value) {
-                lo = mid + 1;
-            } else {
-                hi = mid;
-            }
-        }
-        return lo;
     }
 }
