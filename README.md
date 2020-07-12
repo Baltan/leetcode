@@ -1077,6 +1077,7 @@
 * [1502. Can Make Arithmetic Progression From Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeArithmeticProgression.java)
 * [1503. Last Moment Before All Ants Fall Out of a Plank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetLastMoment.java)
 * [1504. Count Submatrices With All Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubmat.java)
+* [1508. Range Sum of Sorted Subarray Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeSum.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
