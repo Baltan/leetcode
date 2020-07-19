@@ -274,6 +274,7 @@
 * [307. Range Sum Query - Mutable](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumArray1.java)
 * [309. Best Time to Buy and Sell Stock with Cooldown](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit3.java)
 * [310. Minimum Height Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinHeightTrees.java)
+* [312. Burst Balloons](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCoins.java)
 * [313. Super Ugly Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthSuperUglyNumber.java)
 * [318. Maximum Product of Word Lengths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct1.java)
 * [319. Bulb Switcher](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BulbSwitch.java)
