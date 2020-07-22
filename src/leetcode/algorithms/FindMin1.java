@@ -30,10 +30,18 @@ public class FindMin1 {
         int length = nums.length;
         int lo = 0;
         int hi = length - 1;
-
+        /**
+         * 二分查找
+         */
         while (lo < hi) {
             int mid = (lo + hi) / 2;
-
+            /**
+             * 如果nums[mid]小于nums[hi]，则nums[mid]右侧的元素都大于它，数组最小值在nums[mid]及其左侧的元素中，
+             * 所以在mid左侧的子数组中（含nums[mid]）继续查找；如果nums[mid]大于nums[hi]，则nums[mid]一定在旋转
+             * 前数组的右半部分中，并且nums[mid]左侧的所有元素也都在旋转前数组的右半部分中，旋转后最小值在nums[mid]
+             * 的右侧，所以在mid右侧的子数组中（不含nums[mid]）继续查找；如果nums[mid]等于nums[hi]，排除nums[hi]
+             * 后在剩下的元素中继续查找
+             */
             if (nums[mid] < nums[hi]) {
                 hi = mid;
             } else if (nums[mid] > nums[hi]) {
