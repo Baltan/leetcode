@@ -32,14 +32,28 @@ public class FindMin {
         int length = nums.length;
         int lo = 0;
         int hi = length - 1;
-
+        /**
+         * 如果nums[lo]不大于nums[hi]，说明数组nums没有被旋转，或者说在nums[0]处进行了旋转，最小值就是nums[0]
+         */
         if (nums[lo] <= nums[hi]) {
             return nums[lo];
         }
 
+        /**
+         * 二分查找。在升序数组在中间某点旋转后大致呈现：
+         *     /
+         *   /
+         *         /
+         *       /
+         */
         while (lo <= hi) {
             int mid = (lo + hi) / 2;
-
+            /**
+             * 如果nums[mid]左右两侧的的数字都大于它，则nums[mid]就是旋转数组右半部分的左端点，也就是数组nums的最
+             * 小值；如果nums[mid]大于nums[hi]，则nums[mid]在数组左半部分中，而数组最小值在数组右半部分中，在mid
+             * 右侧的子数组中继续查找；如果nums[mid]小于nums[hi]，则nums[mid]在数组右半部分中，数组最小值为右半
+             * 部分左端点，在mid左侧的子数组中继续查找
+             */
             if (mid - 1 >= 0 && mid + 1 < length && nums[mid] < nums[mid - 1] && nums[mid] < nums[mid + 1]) {
                 return nums[mid];
             } else if (nums[mid] > nums[hi]) {
