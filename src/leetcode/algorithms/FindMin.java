@@ -5,6 +5,8 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-06-01 20:10
+ * @see FindMin1
+ * @see leetcode.interview.MinArray
  */
 public class FindMin {
     public static void main(String[] args) {
