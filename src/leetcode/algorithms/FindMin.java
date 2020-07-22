@@ -50,9 +50,9 @@ public class FindMin {
             int mid = (lo + hi) / 2;
             /**
              * 如果nums[mid]左右两侧的的数字都大于它，则nums[mid]就是旋转数组右半部分的左端点，也就是数组nums的最
-             * 小值；如果nums[mid]大于nums[hi]，则nums[mid]在数组左半部分中，而数组最小值在数组右半部分中，在mid
-             * 右侧的子数组中继续查找；如果nums[mid]小于nums[hi]，则nums[mid]在数组右半部分中，数组最小值为右半
-             * 部分左端点，在mid左侧的子数组中继续查找
+             * 小值；如果nums[mid]大于nums[hi]，则nums[mid]在数组左半部分中，而数组最小值在数组右半部分中，所以在
+             * mid右侧的子数组中继续查找；如果nums[mid]小于nums[hi]，则nums[mid]在数组右半部分中，而数组最小值为
+             * 右半部分左端点且不为nums[mid]，所以在mid左侧的子数组中继续查找
              */
             if (mid - 1 >= 0 && mid + 1 < length && nums[mid] < nums[mid - 1] && nums[mid] < nums[mid + 1]) {
                 return nums[mid];
