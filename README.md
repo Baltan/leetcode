@@ -1082,6 +1082,7 @@
 * [1504. Count Submatrices With All Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubmat.java)
 * [1508. Range Sum of Sorted Subarray Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeSum.java)
 * [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDifference.java)
+* [1512. Number of Good Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumIdenticalPairs.java)
 * [1513. Number of Substrings With Only 1s](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSub.java)
 * [1514. Path with Maximum Probability](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProbability.java)
 * [1518. Water Bottles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWaterBottles.java)
