@@ -26,21 +26,30 @@ public class MinPathSum {
             return 0;
         }
 
-        int n = grid.length;
-        int m = grid[0].length;
-        int[][] mark = new int[n][m];
-        mark[0][0] = grid[0][0];
-        for (int i = 1; i < m; i++) {
-            mark[0][i] = mark[0][i - 1] + grid[0][i];
+        int rows = grid.length;
+        int cols = grid[0].length;
+        /**
+         * dp[i][j]表示走到grid[i][j]路径上数字总和的最小值
+         */
+        int[][] dp = new int[rows][cols];
+        dp[0][0] = grid[0][0];
+
+        for (int i = 1; i < cols; i++) {
+            dp[0][i] = dp[0][i - 1] + grid[0][i];
         }
-        for (int i = 1; i < n; i++) {
-            mark[i][0] = mark[i - 1][0] + grid[i][0];
+
+        for (int i = 1; i < rows; i++) {
+            dp[i][0] = dp[i - 1][0] + grid[i][0];
         }
-        for (int i = 1; i < m; i++) {
-            for (int j = 1; j < n; j++) {
-                mark[j][i] = Math.min(mark[j][i - 1] + grid[j][i], mark[j - 1][i] + grid[j][i]);
+
+        for (int i = 1; i < cols; i++) {
+            for (int j = 1; j < rows; j++) {
+                /**
+                 * dp[j][i]可以通过左侧的单元格或者上方的单元格到达
+                 */
+                dp[j][i] = Math.min(dp[j][i - 1], dp[j - 1][i]) + grid[j][i];
             }
         }
-        return mark[n - 1][m - 1];
+        return dp[rows - 1][cols - 1];
     }
 }
