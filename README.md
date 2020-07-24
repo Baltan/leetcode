@@ -1080,6 +1080,7 @@
 * [1502. Can Make Arithmetic Progression From Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeArithmeticProgression.java)
 * [1503. Last Moment Before All Ants Fall Out of a Plank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetLastMoment.java)
 * [1504. Count Submatrices With All Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubmat.java)
+* [1507. Reformat Date](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReformatDate.java)
 * [1508. Range Sum of Sorted Subarray Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeSum.java)
 * [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDifference.java)
 * [1512. Number of Good Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumIdenticalPairs.java)
