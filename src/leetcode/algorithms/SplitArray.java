@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2020-07-25 11:23
+ * @see SplitArray1
  */
 public class SplitArray {
     public static void main(String[] args) {
