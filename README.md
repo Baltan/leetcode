@@ -352,6 +352,7 @@
 * [406. Queue Reconstruction by Height](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReconstructQueue.java)
 * [409. Longest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome.java)
 * [410. Split Array Largest Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitArray.java)
+* [410. Split Array Largest Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitArray1.java)
 * [412. Fizz Buzz](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FizzBuzz.java)
 * [413. Arithmetic Slices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfArithmeticSlices.java)
 * [414. Third Maximum Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThirdMax.java)
