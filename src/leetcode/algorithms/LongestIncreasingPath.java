@@ -32,10 +32,16 @@ public class LongestIncreasingPath {
         int result = 1;
         int rows = matrix.length;
         int cols = matrix[0].length;
+        /**
+         * 移动方向
+         */
         int[][] directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+        /**
+         * longestPathLength[i][j]表示单元格matrix[i][j]所在最长递增路径的长度
+         */
         int[][] longestPathLength = new int[rows][cols];
         /**
-         * 每个数组为[x-index,y-index,value]，按value降序排列
+         * 每个数组为[xIndex,yIndex,value]，按value降序排列
          */
         Queue<int[]> valueQueue = new PriorityQueue<>((arr1, arr2) -> arr2[2] - arr1[2]);
 
@@ -50,13 +56,21 @@ public class LongestIncreasingPath {
             int x = coordinate[0];
             int y = coordinate[1];
             int value = coordinate[2];
+            /**
+             * 初始化单元格matrix[x][y]所在最长递增路径的长度为1，即路径上只有当前一个元素
+             */
             longestPathLength[x][y] = 1;
-
+            /**
+             * 尝试向上下左右四个方向延伸递增路径
+             */
             for (int i = 0; i < 4; i++) {
                 int[] direction = directions[i];
                 int newX = x + direction[0];
                 int newY = y + direction[1];
-
+                /**
+                 * 如果坐标(newX,newY)没有越界，并且matrix[newX][newY]的值大于matrix[x][y]的值，说明可以延伸
+                 * 递增路径，更新单元格matrix[x][y]所在最长递增路径的长度
+                 */
                 if (newX >= 0 && newX < rows && newY >= 0 && newY < cols && matrix[newX][newY] > value) {
                     longestPathLength[x][y] = Math.max(longestPathLength[x][y],
                             1 + longestPathLength[newX][newY]);
