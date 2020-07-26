@@ -34,17 +34,24 @@ public class CountSubTrees {
     public static int[] countSubTrees(int n, int[][] edges, String labels) {
         int[] result = new int[n];
         char[] charArray = labels.toCharArray();
+        /**
+         * 某个节点的编号 -> 与该节点直接相连的节点的编号集合
+         */
         Map<Integer, Set<Integer>> pathMap = new HashMap<>();
         Queue<Integer> queue = new LinkedList<>();
         queue.offer(0);
 
-        for (int[] edge : edges) {
-            pathMap.putIfAbsent(edge[0], new HashSet<>());
-            pathMap.get(edge[0]).add(edge[1]);
-            pathMap.putIfAbsent(edge[1], new HashSet<>());
-            pathMap.get(edge[1]).add(edge[0]);
+        for (int i = 0; i < n; i++) {
+            pathMap.put(i, new HashSet<>());
         }
 
+        for (int[] edge : edges) {
+            pathMap.get(edge[0]).add(edge[1]);
+            pathMap.get(edge[1]).add(edge[0]);
+        }
+        /**
+         * 对于每个节点，将其父节点的值从与该节点直接相连的节点的编号集合中移除
+         */
         while (!queue.isEmpty()) {
             int value = queue.poll();
             Set<Integer> children = pathMap.get(value);
@@ -56,28 +63,63 @@ public class CountSubTrees {
                 }
             }
         }
+        /**
+         * counts[i]记录了值为i的节点的所有后代节点（包括它自己）中标签为a-z的节点各有多少个
+         */
+        int[][] counts = new int[n][26];
+        /**
+         * 记录值为i的节点是否已被计算过
+         */
+        boolean[] isVisited = new boolean[n];
+        dfs(charArray, pathMap, 0, counts, isVisited);
 
         for (int i = 0; i < n; i++) {
-            int count = 0;
-            char c = charArray[i];
-            Queue<Integer> queue1 = new LinkedList<>();
-            queue1.offer(i);
-
-            while (!queue1.isEmpty()) {
-                int num = queue1.poll();
-
-                if (charArray[num] == c) {
-                    count++;
-                }
-
-                if (pathMap.containsKey(num)) {
-                    for (int value : pathMap.get(num)) {
-                        queue1.offer(value);
-                    }
-                }
-            }
-            result[i] = count;
+            /**
+             * 获取值为i的节点的所有后代节点（包括它自己）中标签和它相同的节点的个数
+             */
+            result[i] = counts[i][charArray[i] - 'a'];
         }
         return result;
+    }
+
+    /**
+     * 深度优先搜索计算每个节点的所有后代节点（包括它自己）中标签为a-z的节点各有多少个
+     *
+     * @param charArray
+     * @param pathMap
+     * @param value
+     * @param counts
+     * @param isVisited
+     */
+    public static void dfs(char[] charArray, Map<Integer, Set<Integer>> pathMap, int value, int[][] counts,
+                           boolean[] isVisited) {
+        /**
+         * 对于叶子节点只需对它自身的标签计数即可
+         */
+        if (pathMap.get(value).isEmpty()) {
+            counts[value][charArray[value] - 'a'] = 1;
+            isVisited[value] = true;
+        } else {
+            /**
+             * 非叶子结点，先将节点自身的标签计数
+             */
+            counts[value][charArray[value] - 'a']++;
+            /**
+             * 将所有子节点的标签进行计数
+             */
+            for (int childValue : pathMap.get(value)) {
+                if (!isVisited[childValue]) {
+                    /**
+                     * 对子节点进行递归计算
+                     */
+                    dfs(charArray, pathMap, childValue, counts, isVisited);
+                    isVisited[childValue] = true;
+                }
+
+                for (int i = 0; i < 26; i++) {
+                    counts[value][i] += counts[childValue][i];
+                }
+            }
+        }
     }
 }
