@@ -10,6 +10,7 @@ import java.util.Objects;
  */
 public class IsSubsequence {
     public static void main(String[] args) {
+        System.out.println(isSubsequence("aaaaaa", "bbaaaa"));
         System.out.println(isSubsequence("", "abc"));
         System.out.println(isSubsequence("abc", ""));
         System.out.println(isSubsequence("", ""));
@@ -29,17 +30,38 @@ public class IsSubsequence {
         }
 
         int sLength = s.length();
-        int start = 0;
+        int tLength = t.length();
+        int sIndex = 0;
+        int tIndex = 0;
+        char[] sChars = s.toCharArray();
+        char[] tChars = t.toCharArray();
 
-        for (int i = 0; i < sLength; i++) {
-            String subStr = s.substring(i, i + 1);
-            int index = t.indexOf(subStr, start);
+        while (sIndex < sLength) {
+            /**
+             * 从tIndex开始遍历t，是否找到s[sIndex]
+             */
+            boolean find = false;
 
-            if (index == -1) {
-                return false;
+            while (tIndex < tLength) {
+                if (tChars[tIndex] != sChars[sIndex]) {
+                    tIndex++;
+                } else {
+                    /**
+                     * 找到了s[sIndex]，结束对s[sIndex]的查找
+                     */
+                    find = true;
+                    tIndex++;
+                    break;
+                }
             }
-
-            start = index + 1;
+            /**
+             * 如果s[sIndex]没有找到，则说明s不是t的子序列，否则就机选查找s的下一个字符是否在t中存在
+             */
+            if (!find) {
+                return false;
+            } else {
+                sIndex++;
+            }
         }
         return true;
     }
