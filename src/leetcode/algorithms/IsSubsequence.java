@@ -55,7 +55,7 @@ public class IsSubsequence {
                 }
             }
             /**
-             * 如果s[sIndex]没有找到，则说明s不是t的子序列，否则就机选查找s的下一个字符是否在t中存在
+             * 如果s[sIndex]没有找到，则说明s不是t的子序列，否则就继续查找s的下一个字符是否在t中存在
              */
             if (!find) {
                 return false;
