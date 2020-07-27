@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 /**
  * Description: 104. Maximum Depth of Binary Tree
@@ -10,31 +11,23 @@ import leetcode.entity.TreeNode;
  */
 public class MaxDepth {
     public static void main(String[] args) {
-        TreeNode node11 = new TreeNode(3);
-        TreeNode node21 = new TreeNode(9);
-        TreeNode node22 = new TreeNode(20);
-        TreeNode node33 = new TreeNode(15);
-        TreeNode node34 = new TreeNode(7);
-        node11.left = node21;
-        node11.right = node22;
-        node22.left = node33;
-        node22.right = node34;
-        System.out.println(maxDepth(node11));
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{3, 9, 20, null, null, 15, 7}, 0);
+        System.out.println(maxDepth(root1));
+
+        TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1}, 0);
+        System.out.println(maxDepth(root2));
+
+        TreeNode root3 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, null, 2}, 0);
+        System.out.println(maxDepth(root3));
     }
 
     public static int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
-        } else {
-            if (root.left == null && root.right == null) {
-                return 1;
-            } else if (root.left == null && root.right != null) {
-                return 1 + maxDepth(root.right);
-            } else if (root.left != null && root.right == null) {
-                return 1 + maxDepth(root.left);
-            } else {
-                return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
-            }
         }
+        /**
+         * 递归计算左子树和右子树的最大深度，取较大值加上根节点的深度1即可
+         */
+        return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 }
