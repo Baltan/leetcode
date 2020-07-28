@@ -1090,6 +1090,7 @@
 * [1514. Path with Maximum Probability](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProbability.java)
 * [1518. Water Bottles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWaterBottles.java)
 * [1519. Number of Nodes in the Sub-Tree With the Same Label](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubTrees.java)
+* [1525. Number of Good Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSplits.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
