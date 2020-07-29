@@ -8,6 +8,7 @@ import java.util.Map;
  *
  * @author Baltan
  * @date 2020-07-28 08:39
+ * @see NumSplits1
  */
 public class NumSplits {
     public static void main(String[] args) {
