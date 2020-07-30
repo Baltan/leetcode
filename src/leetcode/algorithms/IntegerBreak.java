@@ -19,24 +19,30 @@ public class IntegerBreak {
         System.out.println(integerBreak(10));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/integer-break/solution/zheng-shu-chai-fen-by-leetcode-solution/"></a>
+     *
+     * @param n
+     * @return
+     */
     public static int integerBreak(int n) {
-        if (n == 2) {
-            return 1 * 1;
-        } else if (n == 3) {
-            return 1 * 2;
-        } else if (n == 4) {
-            return 2 * 2;
-        } else if (n == 5) {
-            return 2 * 3;
+        if (n <= 3) {
+            return n - 1;
         }
 
+        int quotient = n / 3;
+        int remainder = n % 3;
 
-        int countOf3 = n / 3;
-        int countOf2 = (n - countOf3 * 3) / 2;
-
-        int product1 = (int) (Math.pow(3, countOf3) * Math.pow(2, countOf2));
-        int product2 = (int) (Math.pow(3, countOf3 - 1) * integerBreak(n - 3 * (countOf3 - 1)));
-
-        return Math.max(product1, product2);
+        if (remainder == 0) {
+            return (int) Math.pow(3, quotient);
+        } else if (remainder == 1) {
+            /**
+             * 将余数1和一个3合并成4，4 拆分成2*2>1*3
+             */
+            return (int) Math.pow(3, quotient - 1) * 4;
+        } else {
+            return (int) Math.pow(3, quotient) * 2;
+        }
     }
 }
