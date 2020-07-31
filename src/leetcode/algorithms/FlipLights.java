@@ -9,6 +9,10 @@ import java.util.Set;
  *
  * @author Baltan
  * @date 2020-02-12 11:45
+ * @see BulbSwitch
+ * @see BulbSwitch1
+ * @see NumTimesAllBlue
+ * @see MinFlips1
  */
 public class FlipLights {
     public static void main(String[] args) {
