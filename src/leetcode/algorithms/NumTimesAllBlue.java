@@ -5,6 +5,10 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2020-03-20 13:35
+ * @see BulbSwitch
+ * @see BulbSwitch1
+ * @see FlipLights
+ * @see MinFlips1
  */
 public class NumTimesAllBlue {
     public static void main(String[] args) {
