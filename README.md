@@ -492,6 +492,7 @@
 * [627. Swap Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SwapSalary.java)
 * [628. Maximum Product of Three Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProduct.java)
 * [630. Course Schedule III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ScheduleCourse.java)
+* [632. Smallest Range Covering Elements from K Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestRange.java)
 * [633. Sum of Square Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/JudgeSquareSum.java)
 * [636. Exclusive Time of Functions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExclusiveTime.java)
 * [637. Average of Levels in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageOfLevels.java)
