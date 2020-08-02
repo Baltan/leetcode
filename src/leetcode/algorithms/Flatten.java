@@ -20,83 +20,110 @@ public class Flatten {
          * 3   4   6
          * </pre>
          */
-        TreeNode treeNode11 = new TreeNode(1);
-        TreeNode treeNode12 = new TreeNode(2);
-        TreeNode treeNode13 = new TreeNode(5);
-        TreeNode treeNode14 = new TreeNode(3);
-        TreeNode treeNode15 = new TreeNode(4);
-        TreeNode treeNode16 = new TreeNode(6);
-        treeNode11.left = treeNode12;
-        treeNode11.right = treeNode13;
-        treeNode12.left = treeNode14;
-        treeNode12.right = treeNode15;
-        treeNode13.right = treeNode16;
-        flatten(treeNode11);
-        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode11));
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2, 5, 3, 4, null, 6}, 0);
+        flatten(root1);
+        System.out.println(root1);
 
-        TreeNode treeNode21 = new TreeNode(1);
-        TreeNode treeNode22 = new TreeNode(2);
-        treeNode21.left = treeNode22;
-        flatten(treeNode21);
-        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode21));
+        TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2}, 0);
+        flatten(root2);
+        System.out.println(root2);
 
-        TreeNode treeNode31 = new TreeNode(1);
-        flatten(treeNode31);
-        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode31));
 
-        TreeNode treeNode41 = null;
-        flatten(treeNode41);
-        System.out.println(BinaryTreeUtils.recursivelyInOrder(treeNode41));
+        TreeNode root3 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1}, 0);
+        flatten(root3);
+        System.out.println(root3);
+
+
+        TreeNode root4 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{}, 0);
+        flatten(root4);
+        System.out.println(root4);
+
     }
 
     public static void flatten(TreeNode root) {
-        if (root != null) {
-            TreeNode right = root.right;
-            TreeNode left = root.left;
-            TreeNode flattenLeft = help(left);
-            root.left = null;
-            root.right = null;
-
-            if (flattenLeft != null) {
-                root.right = flattenLeft;
-            }
-
-            TreeNode node = root;
-
-            while (node.right != null) {
-                node = node.right;
-            }
-
-            node.right = help(right);
+        if (root == null) {
+            return;
         }
+
+        TreeNode right = root.right;
+        TreeNode left = root.left;
+        /**
+         * 左子树展平得到的单链表
+         */
+        TreeNode flattenLeft = help(left);
+        TreeNode flattenRight = help(right);
+        /**
+         * 先将根节点的左右子树设为null，此时所求单链表只有一个头节点（即根节点）
+         */
+        root.left = null;
+        /**
+         * 右子树展平得到的单链表
+         */
+        root.right = null;
+        /**
+         * 将左子树展平得到的单链表追加到根节点右子树的位置
+         */
+        if (flattenLeft != null) {
+            root.right = flattenLeft;
+        }
+        /**
+         * 当前单链表最右边的节点
+         */
+        TreeNode rightmostNode = root;
+
+        while (rightmostNode.right != null) {
+            rightmostNode = rightmostNode.right;
+        }
+        /**
+         * 将右子树展平得到的单链表追加到最右边的节点的右子树位置
+         */
+        rightmostNode.right = flattenRight;
     }
 
+    /**
+     * 将二叉树展平成单链表
+     *
+     * @param root
+     * @return
+     */
     public static TreeNode help(TreeNode root) {
         if (root == null) {
             return null;
         }
 
-        if (root.left == null && root.right == null) {
-            return root;
-        }
-
         TreeNode right = root.right;
         TreeNode left = root.left;
+        /**
+         * 左子树展平得到的单链表
+         */
         TreeNode flattenLeft = help(left);
+        /**
+         * 右子树展平得到的单链表
+         */
+        TreeNode flattenRight = help(right);
+        /**
+         * 先将根节点的左右子树设为null，此时所求单链表只有一个头节点（即根节点）
+         */
         root.left = null;
         root.right = null;
-
+        /**
+         * 将左子树展平得到的单链表追加到根节点右子树的位置
+         */
         if (flattenLeft != null) {
             root.right = flattenLeft;
         }
+        /**
+         * 当前单链表最右边的节点
+         */
+        TreeNode rightmostNode = root;
 
-        TreeNode node = root;
-
-        while (node.right != null) {
-            node = node.right;
+        while (rightmostNode.right != null) {
+            rightmostNode = rightmostNode.right;
         }
-
-        node.right = help(right);
+        /**
+         * 将右子树展平得到的单链表追加到最右边的节点的右子树位置
+         */
+        rightmostNode.right = flattenRight;
         return root;
     }
 }
