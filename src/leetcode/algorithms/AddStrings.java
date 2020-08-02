@@ -8,47 +8,64 @@ package leetcode.algorithms;
  */
 public class AddStrings {
     public static void main(String[] args) {
+        System.out.println(addStrings("408", "5"));
         System.out.println(addStrings("999", "1"));
         System.out.println(addStrings("999", "111"));
         System.out.println(addStrings("0", "0"));
     }
 
     public static String addStrings(String num1, String num2) {
-        StringBuilder result = new StringBuilder();
-        int num1Length = num1.length();
-        int num2Length = num2.length();
-        if (num1Length > num2Length) {
-            int lengthDistance = num1Length - num2Length;
-            StringBuilder sb = new StringBuilder(num2);
-            for (int i = 0; i < lengthDistance; i++) {
-                sb.insert(0, "0");
+        int length1 = num1.length();
+        int length2 = num2.length();
+        /**
+         * num1和num2中的较大值决定了最终和的长度，因为最高位加完后可能还有一个进位1，所以初始化和的长度为
+         * Math.max(length1,length2) + 1
+         */
+        StringBuilder builder = new StringBuilder(Math.max(length1, length2) + 1);
+        /**
+         * 进位
+         */
+        int carry = 0;
+        /**
+         * 指向当前num1的第index1个数字（0-based）
+         */
+        int index1 = length1 - 1;
+        /**
+         * 指向当前num2的第index2个数字（0-based）
+         */
+        int index2 = length2 - 1;
+        char[] charArray1 = num1.toCharArray();
+        char[] charArray2 = num2.toCharArray();
+
+        while (index1 >= 0 || index2 >= 0) {
+            int sum = carry;
+
+            if (index1 >= 0) {
+                sum += charArray1[index1] - '0';
             }
-            num2 = sb.toString();
-        } else if (num2Length > num1Length) {
-            int lengthDistance = num2Length - num1Length;
-            StringBuilder sb = new StringBuilder(num1);
-            for (int i = 0; i < lengthDistance; i++) {
-                sb.insert(0, "0");
+
+            if (index2 >= 0) {
+                sum += charArray2[index2] - '0';
             }
-            num1 = sb.toString();
-        }
-        int length = num1.length();
-        int carryDigit = 0;
-        int sum = 0;
-        for (int i = length - 1; i >= 0; i--) {
-            int addend1 = num1.charAt(i) - 48;
-            int addend2 = num2.charAt(i) - 48;
-            if ((sum = addend1 + addend2 + carryDigit) < 10) {
-                result.insert(0, sum);
-                carryDigit = 0;
+            /**
+             * 判断当前位加完后是否有进位
+             */
+            if (sum >= 10) {
+                builder.append(sum - 10);
+                carry = 1;
             } else {
-                result.insert(0, sum - 10);
-                carryDigit = 1;
+                builder.append(sum);
+                carry = 0;
             }
+            index1--;
+            index2--;
         }
-        if (carryDigit == 1) {
-            result.insert(0, 1);
+        /**
+         * 如果最高位加完后还有一个进位1
+         */
+        if (carry == 1) {
+            builder.append(1);
         }
-        return result.toString();
+        return builder.reverse().toString();
     }
 }
