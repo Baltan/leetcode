@@ -7,6 +7,7 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2019-06-06 10:45
+ * @see CanFinish1
  */
 public class CanFinish {
     public static void main(String[] args) {
