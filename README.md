@@ -210,6 +210,7 @@
 * [206. Reverse Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseList1.java)
 * [206. Reverse Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseList2.java)
 * [207. Course Schedule](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanFinish.java)
+* [207. Course Schedule](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanFinish1.java)
 * [208. Implement Trie (Prefix Tree)](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Trie.java)
 * [208. Implement Trie (Prefix Tree)](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Trie1.java)
 * [209. Minimum Size Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSubArrayLen.java)
