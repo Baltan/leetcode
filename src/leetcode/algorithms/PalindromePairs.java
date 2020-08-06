@@ -140,13 +140,18 @@ public class PalindromePairs {
 
     public static List<List<Integer>> palindromePairs(String[] words) {
         List<List<Integer>> result = new ArrayList<>();
-
+        /**
+         * 如果words中的单词少于2个，则无法得到任何回文对
+         */
         if (words == null || words.length <= 1) {
             return result;
         }
 
         int length = words.length;
-        Map<String, Integer> map = new HashMap<>((int) (length / 0.75));
+        /**
+         * 单词i -> 单词i在数组words中的索引
+         */
+        Map<String, Integer> map = new HashMap<>((int) (length / 0.75) + 1);
 
         for (int i = 0; i < length; i++) {
             map.put(words[i], i);
@@ -160,20 +165,31 @@ public class PalindromePairs {
             if (Objects.equals(word, "")) {
                 continue;
             }
-
+            /**
+             * 如果word自身就是回文字符串并且words中包括空字符串，则word和空字符串可以按不同顺序构成两个回文对
+             * [word,""]和["",word]
+             */
             if (isPalindrome(word) && map.containsKey("")) {
                 result.add(Arrays.asList(i, map.get("")));
                 result.add(Arrays.asList(map.get(""), i));
             }
-
+            /**
+             * 如果word不是回文字符串，但是words中包含将word翻转后的单词reverse，则这两个单词可以构成一个回文对
+             * [word,reverse]
+             */
             if (!Objects.equals(word, reverse) && map.containsKey(reverse)) {
                 result.add(Arrays.asList(i, map.get(reverse)));
             }
-
+            /**
+             * 将word截取长度为[1,wordLength-1]的子串后，依次判断
+             */
             for (int j = 1; j < wordLength; j++) {
                 String left = word.substring(0, j);
                 String right = word.substring(j);
-
+                /**
+                 * 如果左子串left是个回文字符串并且words中包含右子串right翻转后的单词rightReverse，则
+                 * [rightReverse,word]构成一个回文对
+                 */
                 if (isPalindrome(left)) {
                     String rightReverse = new StringBuilder(right).reverse().toString();
 
@@ -181,7 +197,10 @@ public class PalindromePairs {
                         result.add(Arrays.asList(map.get(rightReverse), i));
                     }
                 }
-
+                /**
+                 * 如果右子串right是个回文字符串并且words中包含左子串left翻转后的单词leftReverse，则
+                 * [word,leftReverse]构成一个回文对
+                 */
                 if (isPalindrome(right)) {
                     String leftReverse = new StringBuilder(left).reverse().toString();
 
@@ -194,12 +213,18 @@ public class PalindromePairs {
         return result;
     }
 
-    public static boolean isPalindrome(String str) {
+    /**
+     * 判断单词word是否是回文字符串
+     *
+     * @param word
+     * @return
+     */
+    public static boolean isPalindrome(String word) {
         int lo = 0;
-        int hi = str.length() - 1;
+        int hi = word.length() - 1;
 
         while (lo <= hi) {
-            if (str.charAt(lo) != str.charAt(hi)) {
+            if (word.charAt(lo) != word.charAt(hi)) {
                 return false;
             }
             lo++;
