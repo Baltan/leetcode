@@ -2,6 +2,7 @@ package leetcode.algorithms;
 
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 /**
  * Description: 100. Same Tree
@@ -11,44 +12,25 @@ import leetcode.entity.TreeNode;
  */
 public class IsSameTree {
     public static void main(String[] args) {
-        TreeNode node1 = new TreeNode(1);
-        TreeNode node11 = new TreeNode(2);
-        TreeNode node12 = new TreeNode(3);
-        node1.left = node11;
-        node1.right = node12;
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2, 3}, 0);
+        TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2, 3}, 0);
+        System.out.println(isSameTree(root1, root2));
 
-        TreeNode node2 = new TreeNode(1);
-        TreeNode node21 = new TreeNode(2);
-        TreeNode node22 = new TreeNode(3);
-        node2.left = node21;
-        node2.right = node22;
-
-        System.out.println(isSameTree(node1, node2));
-
-        TreeNode node3 = new TreeNode(1);
-        TreeNode node31 = new TreeNode(2);
-        node3.left = node31;
-
-        TreeNode node4 = new TreeNode(1);
-        TreeNode node41 = new TreeNode(2);
-        node4.right = node41;
-
-        System.out.println(isSameTree(node3, node4));
+        TreeNode root3 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2}, 0);
+        TreeNode root4 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, null, 2}, 0);
+        System.out.println(isSameTree(root3, root4));
     }
 
     public static boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;
-        } else if (p == null && q != null) {
-            return false;
-        } else if (q == null && p != null) {
+        } else if (p == null || q == null) {
             return false;
         } else {
-            if (p.val != q.val) {
-                return false;
-            } else {
-                return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-            }
+            /**
+             * p和q的根节点值相等，并且p的左子树和q的左子树相同，p的右子树和q的右子树相同，p才和q相同
+             */
+            return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
         }
     }
 }
