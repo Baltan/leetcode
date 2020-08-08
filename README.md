@@ -107,6 +107,7 @@
 * [97. Interleaving String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsInterleave.java)
 * [98. Validate Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidBST.java)
 * [98. Validate Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidBST1.java)
+* [99. Recover Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RecoverTree.java)
 * [100. Same Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSameTree.java)
 * [101. Symmetric Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSymmetric.java)
 * [102. Binary Tree Level Order Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LevelOrder1.java)
