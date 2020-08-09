@@ -27,30 +27,43 @@ public class RestoreIpAddresses {
         return help(s, 4);
     }
 
+    /**
+     * 将字符串s分成parts段可以得到的所有分法
+     *
+     * @param s
+     * @param parts
+     * @return
+     */
     public static List<String> help(String s, int parts) {
         List<String> result = new ArrayList<>();
-
-        if (s == null || s.length() == 0 || s.length() > 3 * parts || parts < 1 || s.length() < parts) {
+        /**
+         * s无法分成parts段的情况
+         */
+        if (s == null || parts < 1 || s.length() > 3 * parts || s.length() < parts) {
             return result;
         }
 
         if (parts == 1) {
-            if (s.length() == 1) {
+            /**
+             * 如果只需将s分成一段，则s的长度为1或者s不大于255且不以"0"开头时，符合要求
+             */
+            if (s.length() == 1 || (!s.startsWith("0") && Integer.valueOf(s) <= 255)) {
                 result.add(s);
-            } else {
-                if (!s.startsWith("0") && Long.valueOf(s) <= 255) {
-                    result.add(s);
-                }
             }
             return result;
         }
+        /**
+         * parts段中的第一段可以截取的最大长度
+         */
+        int longestHead = Math.min(s.length(), 3);
 
-        int threshold = Math.min(s.length(), 3);
-
-        for (int i = 1; i <= threshold; i++) {
+        for (int i = 1; i <= longestHead; i++) {
             if (i == 1) {
                 String head = s.substring(0, 1);
                 String rest = s.substring(1);
+                /**
+                 * 递归将s的剩余部分分割成parts-1段
+                 */
                 List<String> tails = help(rest, parts - 1);
 
                 for (String tail : tails) {
@@ -59,8 +72,12 @@ public class RestoreIpAddresses {
             } else {
                 if (!s.startsWith("0")) {
                     String head = s.substring(0, i);
-                    if (Long.valueOf(head) <= 255) {
+
+                    if (Integer.valueOf(head) <= 255) {
                         String rest = s.substring(i);
+                        /**
+                         * 递归将s的剩余部分分割成parts-1段
+                         */
                         List<String> tails = help(rest, parts - 1);
 
                         for (String tail : tails) {
