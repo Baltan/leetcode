@@ -9,6 +9,7 @@ import java.util.Queue;
  *
  * @author Baltan
  * @date 2019-05-27 13:53
+ * @see Solve1
  */
 public class Solve {
     public static void main(String[] args) {
