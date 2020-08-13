@@ -18,35 +18,50 @@ public class IsValid {
     }
 
     public static boolean isValid(String s) {
-        Stack<String> sta = new Stack<>();
-        for (int i = 0; i < s.length(); i++) {
-            String currCharacter = s.substring(i, i + 1);
-            if ("(".equals(currCharacter) || "[".equals(currCharacter) || "{".equals(currCharacter)) {
-                sta.push(currCharacter);
+        Stack<Character> stack = new Stack<>();
+        char[] charArray = s.toCharArray();
+
+        for (int i = 0; i < charArray.length; i++) {
+            char c = charArray[i];
+
+            if (c == '(' || c == '[' || c == '{') {
+                stack.push(c);
             }
-            if (")".equals(currCharacter)) {
-                if (sta.isEmpty() || !"(".equals(sta.peek())) {
+            /**
+             * 判断是否有"("可匹配，如果没有则字符串为无效括号
+             */
+            if (c == ')') {
+                if (stack.isEmpty() || stack.peek() != '(') {
                     return false;
                 } else {
-                    sta.pop();
+                    stack.pop();
                 }
             }
-            if ("]".equals(currCharacter)) {
-                if (sta.isEmpty() || !"[".equals(sta.peek())) {
+            /**
+             * 判断是否有"["可匹配，如果没有则字符串为无效括号
+             */
+            if (c == ']') {
+                if (stack.isEmpty() || stack.peek() != '[') {
                     return false;
                 } else {
-                    sta.pop();
+                    stack.pop();
                 }
             }
-            if ("}".equals(currCharacter)) {
-                if (sta.isEmpty() || !"{".equals(sta.peek())) {
+            /**
+             * 判断是否有"{"可匹配，如果没有则字符串为无效括号
+             */
+            if (c == '}') {
+                if (stack.isEmpty() || stack.peek() != '{') {
                     return false;
                 } else {
-                    sta.pop();
+                    stack.pop();
                 }
             }
         }
-        if (!sta.isEmpty()) {
+        /**
+         * 如果最后又多余的左括号没被匹配上，则字符串为无效括号
+         */
+        if (!stack.isEmpty()) {
             return false;
         }
         return true;
