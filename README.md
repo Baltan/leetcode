@@ -1102,6 +1102,7 @@
 * [1529. Bulb Switcher IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips1.java)
 * [1535. Find the Winner of an Array Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetWinner.java)
 * [1536. Minimum Swaps to Arrange a Binary Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps.java)
+* [1540. Can Convert String in K Moves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConvertString.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
