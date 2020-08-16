@@ -451,6 +451,7 @@
 * [541. Reverse String II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseStr.java)
 * [542. 01 Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UpdateMatrix.java)
 * [543. Diameter of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiameterOfBinaryTree.java)
+* [546. Remove Boxes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveBoxes.java)
 * [547. Friend Circles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCircleNum.java)
 * [551. Student Attendance Record I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckRecord.java)
 * [553. Optimal Division](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OptimalDivision.java)
