@@ -7,6 +7,7 @@ import java.util.Stack;
  *
  * @author Baltan
  * @date 2019-03-19 14:10
+ * @see MinInsertions1
  */
 public class MinAddToMakeValid {
     public static void main(String[] args) {
