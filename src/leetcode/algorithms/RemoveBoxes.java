@@ -19,21 +19,40 @@ public class RemoveBoxes {
      * @return
      */
     public static int removeBoxes(int[] boxes) {
+        /**
+         * dp[i][j][k]表示从[i,j]中移除盒子，并且j右边有k个和boxes[j]颜色相同的盒子
+         */
         int[][][] dp = new int[105][105][105];
         int length = boxes.length;
-
+        /**
+         * len表示移除盒子区间[start,end]的长度
+         */
         for (int len = 1; len <= length; len++) {
-            for (int i = 0; i + len - 1 < length; i++) {
-                int j = i + len - 1;
+            /**
+             * start表示移除盒子区间的第一个盒子的索引
+             */
+            for (int start = 0; start + len - 1 < length; start++) {
+                /**
+                 * end表示移除盒子区间的最后一个盒子的索引
+                 */
+                int end = start + len - 1;
 
                 for (int k = 0; k < length; k++) {
-                    dp[i][j][k] =
-                            Math.max(dp[i][j][k], (j - 1 < i ? 0 : dp[i][j - 1][0]) + (k + 1) * (k + 1));
-
-                    for (int t = i; t <= j - 1; t++) {
-                        if (boxes[t] == boxes[j]) {
-                            dp[i][j][k] = Math.max(dp[i][j][k], (t + 1 > j - 1 ? 0 : dp[t + 1][j - 1][0]) +
-                                    dp[i][t][k + 1]);
+                    /**
+                     * 方案1：先移除右边的颜色相同的k+1个盒子得到(k+1)*(k+1)分, 再移除[start,end-1]中的盒子
+                     */
+                    dp[start][end][k] =
+                            Math.max(dp[start][end][k],
+                                    (end <= start ? 0 : dp[start][end - 1][0]) + (k + 1) * (k + 1));
+                    /**
+                     * 方案2：先移除[mid+1,end-1]中的盒子，再将剩下的[start,mid]和end及其右边k个颜色相同的盒
+                     * 子连到一起后移除，此时，最后k+1个盒子的颜色是相同的
+                     */
+                    for (int mid = start; mid < end; mid++) {
+                        if (boxes[mid] == boxes[end]) {
+                            dp[start][end][k] = Math.max(dp[start][end][k],
+                                    (end <= mid + 1 ? 0 : dp[mid + 1][end - 1][0]) +
+                                            dp[start][mid][k + 1]);
                         }
                     }
                 }
