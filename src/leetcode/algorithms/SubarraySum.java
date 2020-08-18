@@ -8,6 +8,7 @@ import java.util.Map;
  *
  * @author Baltan
  * @date 2019-09-13 14:14
+ * @see MaxNonOverlapping
  */
 public class SubarraySum {
     public static void main(String[] args) {
