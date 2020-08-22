@@ -1107,6 +1107,7 @@
 * [1545. Find Kth Bit in Nth Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthBit.java)
 * [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNonOverlapping.java)
 * [1551. Minimum Operations to Make Array Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations.java)
+* [1552. Magnetic Force Between Two Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
