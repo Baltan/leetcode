@@ -1109,6 +1109,7 @@
 * [1550. Three Consecutive Odds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThreeConsecutiveOdds.java)
 * [1551. Minimum Operations to Make Array Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations.java)
 * [1552. Magnetic Force Between Two Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance1.java)
+* [1557. Minimum Number of Vertices to Reach All Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSmallestSetOfVertices.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
