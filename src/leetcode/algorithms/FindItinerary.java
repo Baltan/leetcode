@@ -43,6 +43,9 @@ public class FindItinerary {
 
     public static List<String> findItinerary(List<List<String>> tickets) {
         List<String> result = new LinkedList<>();
+        /**
+         * 出发点i -> 出发点i可以到达的所有目的地的集合
+         */
         Map<String, List<String>> map = new HashMap<>();
         String start = "JFK";
         /**
@@ -60,7 +63,6 @@ public class FindItinerary {
         for (List<String> destinations : map.values()) {
             Collections.sort(destinations);
         }
-
         result.add(start);
         dfs(result, map, start);
         return result;
