@@ -1,9 +1,12 @@
 package leetcode.algorithms;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 /**
  * Description: 557. Reverse Words in a String III
- * @author Baltan
  *
+ * @author Baltan
  * @date 2017/11/17 14:26
  */
 public class ReverseWords {
@@ -13,15 +16,27 @@ public class ReverseWords {
     }
 
     public static String reverseWords(String s) {
-        String[] sArr = s.split("\\s");
-        StringBuilder str = new StringBuilder();
-        for (int i = 0; i < sArr.length; i++) {
-            StringBuilder sb = new StringBuilder();
-            for (int j = sArr[i].length() - 1; j >= 0; j--) {
-                sb.append(sArr[i], j, j + 1);
+        s = s + " ";
+        StringBuilder builder = new StringBuilder(s.length());
+        /**
+         * 将当前单词逐个字符入栈
+         */
+        Deque<Character> deque = new ArrayDeque<>();
+        char[] charArray = s.toCharArray();
+
+        for (char c : charArray) {
+            if (c != ' ') {
+                deque.offerLast(c);
+            } else {
+                /**
+                 * 将队列中的字符逐个出栈，可以实现将之前的单词颠倒
+                 */
+                while (!deque.isEmpty()) {
+                    builder.append(deque.pollLast());
+                }
+                builder.append(' ');
             }
-            str.append(sb + " ");
         }
-        return str.deleteCharAt(str.length() - 1).toString();
+        return builder.substring(0, builder.length() - 1);
     }
 }
