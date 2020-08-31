@@ -25,27 +25,40 @@ public class CanVisitAllRooms {
 
     public static boolean canVisitAllRooms(List<List<Integer>> rooms) {
         int roomNum = rooms.size();
-        boolean[] book = new boolean[roomNum];
+        /**
+         * 标记房间i是否被访问过
+         */
+        boolean[] isVisited = new boolean[roomNum];
+        /**
+         * 保存当前已拿到的房间的钥匙
+         */
         Queue<Integer> queue = new LinkedList<>();
-        int notVisitedRoomNum = roomNum - 1;
-
-        book[0] = true;
-        for (int value : rooms.get(0)) {
-            queue.offer(value);
-        }
+        /**
+         * 剩余还未被访问的房间的个数
+         */
+        int notVisitedRoomNum = roomNum;
+        isVisited[0] = true;
+        queue.offer(0);
 
         while (!queue.isEmpty()) {
+            /**
+             * 如果所有房间都已被访问了，直接返回true
+             */
             if (notVisitedRoomNum == 0) {
                 return true;
             }
 
             int num = queue.poll();
-            if (!book[num]) {
-                book[num] = true;
-                notVisitedRoomNum--;
-                List<Integer> keys = rooms.get(num);
-                for (int value : keys) {
+            notVisitedRoomNum--;
+            List<Integer> keys = rooms.get(num);
+
+            for (int value : keys) {
+                /**
+                 * 只有房间value未被访问过才保存该房间的钥匙，避免重复进入房间
+                 */
+                if (!isVisited[value]) {
                     queue.offer(value);
+                    isVisited[value] = true;
                 }
             }
         }
