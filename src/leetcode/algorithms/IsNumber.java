@@ -9,6 +9,7 @@ import java.util.Objects;
  *
  * @author Baltan
  * @date 2019-12-31 11:04
+ * @see leetcode.interview.IsNumber
  */
 public class IsNumber {
     public static void main(String[] args) {
