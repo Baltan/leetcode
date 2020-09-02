@@ -1215,6 +1215,7 @@
 * [面试题 17.26. 稀疏相似度](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ComputeSimilarities.java)
 * [剑指 Offer 09. 用两个栈实现队列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CQueue.java)
 * [剑指 Offer 11. 旋转数组的最小数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MinArray.java)
+* [剑指 Offer 20. 表示数值的字符串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsNumber.java)
 * [面试题13. 机器人的运动范围](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MovingCount.java)
 * [面试题29. 顺时针打印矩阵](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SpiralOrder.java)
 * [面试题35. 复杂链表的复制](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CopyRandomList.java)
