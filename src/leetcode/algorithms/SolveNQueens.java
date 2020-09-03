@@ -64,7 +64,9 @@ public class SolveNQueens {
             result.add(list);
             return;
         }
-
+        /**
+         * 逐列判断在(row,i)坐标是否可以放皇后
+         */
         for (int i = 0; i < n; i++) {
             if (canPlace(queenCoordinates, row, i)) {
                 /**
