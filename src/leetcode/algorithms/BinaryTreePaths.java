@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,54 +14,51 @@ import java.util.List;
  */
 public class BinaryTreePaths {
     public static void main(String[] args) {
-        TreeNode root1 = new TreeNode(1);
-        TreeNode node1 = new TreeNode(2);
-        TreeNode node2 = new TreeNode(3);
-        TreeNode node3 = new TreeNode(5);
-        root1.left = node1;
-        root1.right = node2;
-        node1.right = node3;
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2, 3, null, 5}, 0);
         System.out.println(binaryTreePaths(root1));
 
-        TreeNode root2 = null;
+        TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{}, 0);
         System.out.println(binaryTreePaths(root2));
 
-        TreeNode root3 = new TreeNode(1);
+        TreeNode root3 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1}, 0);
         System.out.println(binaryTreePaths(root3));
     }
 
     public static List<String> binaryTreePaths(TreeNode root) {
-        List<String> res = new ArrayList<>();
+        List<String> result = new ArrayList<>();
+        /**
+         * 如果root不包含任何节点，返回空数组
+         */
         if (root == null) {
-            return res;
+            return result;
         }
+        /**
+         * 如果root不包含左子树和右子树，则路径只包含根节点的值
+         */
         if (root.left == null && root.right == null) {
-            res.add(String.valueOf(root.val));
-            return res;
-        } else if (root.left == null && root.right != null) {
-            List<String> list = binaryTreePaths(root.right);
-            for (String str : list) {
-                StringBuilder sb = new StringBuilder().append(root.val).append("->").append(str);
-                res.add(sb.toString());
-            }
-        } else if (root.left != null && root.right == null) {
-            List<String> list = binaryTreePaths(root.left);
-            for (String str : list) {
-                StringBuilder sb = new StringBuilder().append(root.val).append("->").append(str);
-                res.add(sb.toString());
-            }
-        } else {
-            List<String> list1 = binaryTreePaths(root.left);
-            List<String> list2 = binaryTreePaths(root.right);
-            for (String str : list1) {
-                StringBuilder sb = new StringBuilder().append(root.val).append("->").append(str);
-                res.add(sb.toString());
-            }
-            for (String str : list2) {
-                StringBuilder sb = new StringBuilder().append(root.val).append("->").append(str);
-                res.add(sb.toString());
-            }
+            result.add(String.valueOf(root.val));
+            return result;
         }
-        return res;
+        /**
+         * 左子树中的所有路径
+         */
+        List<String> leftList = binaryTreePaths(root.left);
+        /**
+         * 右子树中的所有路径
+         */
+        List<String> rightList = binaryTreePaths(root.right);
+        /**
+         * 从根节点经过左子树到叶子节点的所有路径
+         */
+        for (String s : leftList) {
+            result.add(root.val + "->" + s);
+        }
+        /**
+         * 从根节点经过右子树到叶子节点的所有路径
+         */
+        for (String s : rightList) {
+            result.add(root.val + "->" + s);
+        }
+        return result;
     }
 }
