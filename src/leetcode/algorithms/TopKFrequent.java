@@ -1,5 +1,7 @@
 package leetcode.algorithms;
 
+import leetcode.util.OutputUtils;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -13,38 +15,61 @@ import java.util.Map;
  */
 public class TopKFrequent {
     public static void main(String[] args) {
-        System.out.println(topKFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2));
-        System.out.println(topKFrequent(new int[]{1, 1, 1, 2, 2, 3}, 3));
-        System.out.println(topKFrequent(new int[]{1, 1, 1, 2, 2, 2, 3}, 1));
-        System.out.println(topKFrequent(new int[]{1}, 1));
+        OutputUtils.print1DIntegerArray(topKFrequent(new int[]{1, 1, 1, 2, 2, 3}, 2));
+        OutputUtils.print1DIntegerArray(topKFrequent(new int[]{1, 1, 1, 2, 2, 3}, 3));
+        OutputUtils.print1DIntegerArray(topKFrequent(new int[]{1}, 1));
     }
 
-    public static List<Integer> topKFrequent(int[] nums, int k) {
-        List<Integer> res = new ArrayList<>();
-        List<Integer>[] bucket = new List[nums.length + 1];
-        Map<Integer, Integer> map = new HashMap();
+    public static int[] topKFrequent(int[] nums, int k) {
+        int[] result = new int[k];
+        int index = 0;
+        /**
+         * frequencyList[i]保存nums出现中出现i次所有数字
+         */
+        List<Integer>[] frequencyList = new List[nums.length + 1];
+        /**
+         * 数字i -> 数字i在nums中出现的次数
+         */
+        Map<Integer, Integer> frequencyMap = new HashMap();
+        /**
+         * 统计nums中各个数字出现的次数
+         */
         for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+            frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
         }
-        for (int key : map.keySet()) {
-            int val = map.get(key);
-            if (bucket[val] == null) {
-                bucket[val] = new ArrayList<>();
+
+        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
+            int num = entry.getKey();
+            int frequency = entry.getValue();
+
+            if (frequencyList[frequency] == null) {
+                frequencyList[frequency] = new ArrayList<>();
             }
-            bucket[val].add(key);
+            frequencyList[frequency].add(num);
         }
-        for (int i = bucket.length - 1; i > 0; i--) {
-            if (k > 0 && bucket[i] != null) {
-                List<Integer> list = bucket[i];
-                for (int j = 0; j < list.size(); j++) {
-                    res.add(list.get(j));
+
+
+        for (int i = frequencyList.length - 1; i > 0; i--) {
+            if (frequencyList[i] == null) {
+                continue;
+            }
+
+            if (k > 0) {
+                /**
+                 * 因为题意说明答案唯一，所以直接将frequencyList[i]中的所有数字加入result即可
+                 */
+                for (int value : frequencyList[i]) {
+                    result[index++] = value;
                     k--;
-                    if (k == 0) {
-                        return res;
-                    }
+                }
+                /**
+                 * 找到了出现次数最多的k个数字，直接返回result
+                 */
+                if (k == 0) {
+                    return result;
                 }
             }
         }
-        return res;
+        return result;
     }
 }
