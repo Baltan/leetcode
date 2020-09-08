@@ -1,9 +1,8 @@
 package leetcode.algorithms;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.IntStream;
 
 /**
  * Description: 77. Combinations
@@ -21,39 +20,46 @@ public class Combine {
 
     public static List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new ArrayList<>();
+        /**
+         * 可选的数字
+         */
+        List<Integer> nums = new ArrayList<>(n);
 
-        if (k > n || n < 1 || k < 1) {
-            return result;
+        for (int i = 1; i <= n; i++) {
+            nums.add(i);
         }
-
-        int[] arr = IntStream.rangeClosed(1, n).toArray();
-        return help(arr, k);
+        dfs(result, nums, new LinkedList<>(), k, 0);
+        return result;
     }
 
-    public static List<List<Integer>> help(int[] arr, int k) {
-        List<List<Integer>> result = new ArrayList<>();
-        int length = arr.length;
-
-        if (k == 1) {
-            for (int i = 0; i < length; i++) {
-                List<Integer> list = new ArrayList<>(1);
-                list.add(arr[i]);
-                result.add(list);
-            }
-        } else {
-            for (int i = 0; i <= length - k; i++) {
-                int[] arr1 = Arrays.copyOfRange(arr, i + 1, arr.length);
-
-                List<List<Integer>> list1 = help(arr1, k - 1);
-
-                for (List<Integer> ele : list1) {
-                    List<Integer> list = new ArrayList<>(k);
-                    list.add(arr[i]);
-                    list.addAll(ele);
-                    result.add(list);
-                }
-            }
+    /**
+     * @param result     结果集，保存所有满足要求的组合
+     * @param nums       可以加入到组合temp中的可选数字列表
+     * @param temp       当前正处理的组合
+     * @param k          temp中还缺k个数字，目标是在temp中加入k个数字
+     * @param startIndex 从该索引开始逐一将nums中的数字加入到temp中
+     */
+    public static void dfs(List<List<Integer>> result, List<Integer> nums, LinkedList<Integer> temp, int k,
+                           int startIndex) {
+        /**
+         * 如果k为0，说明temp中已经加入了k个数字，将temp加入到result中
+         */
+        if (k == 0) {
+            result.add(new ArrayList<>(temp));
         }
-        return result;
+
+        int size = nums.size();
+        /**
+         * 从startIndex开始将nums中剩余可选的数字逐一加入到temp中并递归
+         */
+        for (int i = startIndex; i < size; i++) {
+            /**
+             * 加入到组合temp中的数字
+             */
+            int insertedNum = nums.get(i);
+            temp.offerLast(insertedNum);
+            dfs(result, nums, temp, k - 1, i + 1);
+            temp.pollLast();
+        }
     }
 }
