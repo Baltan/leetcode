@@ -22,25 +22,46 @@ public class CombinationSum1 {
         if (candidates == null || candidates.length == 0) {
             return result;
         }
-
+        /**
+         * 将所有可选数字按照升序排列
+         */
         Arrays.sort(candidates);
         List<Integer> temp = new ArrayList<>();
 
-        dfs(result, temp, 0, candidates, target);
+        dfs(result, temp, 0, candidates, target, 0);
         return result;
     }
 
+    /**
+     * 深度优先搜索
+     *
+     * @param result
+     * @param temp
+     * @param sum        当前组合temp中的所有值的和
+     * @param candidates 可选数字列表
+     * @param target
+     * @param startIndex 从candidates的第startIndex索引开始尝试追加数字到temp中
+     */
     public static void dfs(List<List<Integer>> result, List<Integer> temp, int sum, int[] candidates,
-                           int target) {
+                           int target, int startIndex) {
         if (sum == target) {
             result.add(new ArrayList<>(temp));
             return;
         }
 
-        for (int num : candidates) {
-            if ((temp.isEmpty() || num >= temp.get(temp.size() - 1)) && sum + num <= target) {
+        int length = candidates.length;
+
+        for (int i = startIndex; i < length; i++) {
+            /**
+             * 当前准备追加到组合temp中的数字
+             */
+            int num = candidates[i];
+            /**
+             * 每次追加到temp中的数字都不小于当前temp中的最大数字，并且不能使temp中数字的和大于target
+             */
+            if (sum + num <= target) {
                 temp.add(num);
-                dfs(result, temp, sum + num, candidates, target);
+                dfs(result, temp, sum + num, candidates, target, i);
                 temp.remove(temp.size() - 1);
             }
         }
