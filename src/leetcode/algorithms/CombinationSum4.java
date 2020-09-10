@@ -8,7 +8,6 @@ package leetcode.algorithms;
  * @see CombinationSum1
  * @see CombinationSum2
  * @see CombinationSum3
- * @see CombinationSum4
  * @see Combine
  */
 public class CombinationSum4 {
