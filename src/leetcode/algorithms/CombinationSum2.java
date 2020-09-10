@@ -7,6 +7,10 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2018/9/4 13:08
+ * @see CombinationSum1
+ * @see CombinationSum3
+ * @see CombinationSum4
+ * @see Combine
  */
 public class CombinationSum2 {
     public static void main(String[] args) {
@@ -15,35 +19,63 @@ public class CombinationSum2 {
     }
 
     public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        List<List<Integer>> res = new ArrayList<>();
-        Arrays.sort(candidates);
-        if (candidates == null || candidates.length == 0 || candidates[0] > target) {
-            return res;
+        List<List<Integer>> result = new ArrayList<>();
+
+        if (candidates == null || candidates.length == 0) {
+            return result;
         }
-        if (candidates.length == 1 && target == candidates[0]) {
-            List<Integer> list = new ArrayList<>();
-            list.add(candidates[0]);
-            res.add(list);
-            return res;
-        } else if (candidates.length == 1 && target != candidates[0]) {
-            return res;
+        /**
+         * 将所有可选数字按照升序排列
+         */
+        Arrays.sort(candidates);
+        List<Integer> temp = new ArrayList<>();
+
+        dfs(result, temp, 0, candidates, target, 0);
+        return result;
+    }
+
+    /**
+     * 深度优先搜索
+     *
+     * @param result
+     * @param temp
+     * @param sum        当前组合temp中的所有值的和
+     * @param candidates 可选数字列表
+     * @param target
+     * @param startIndex 从candidates的第startIndex索引开始尝试追加数字到temp中
+     */
+    public static void dfs(List<List<Integer>> result, List<Integer> temp, int sum, int[] candidates,
+                           int target, int startIndex) {
+        if (sum == target) {
+            result.add(new ArrayList<>(temp));
+            return;
         }
 
-        Set<List<Integer>> set = new HashSet<>();
-        for (int i = candidates.length - 1; i >= 0; i--) {
-            int[] subArray = Arrays.copyOf(candidates, i);
-            List<List<Integer>> list = combinationSum2(subArray, target - candidates[i]);
-            for (int k = 0; k < list.size(); k++) {
-                list.get(k).add(candidates[i]);
+        int length = candidates.length;
+        /**
+         * 准备追加到组合temp中的数字
+         */
+        int num = 0;
+
+        for (int i = startIndex; i < length; i++) {
+            /**
+             * 如果当前准备追加到组合temp中的数字和上一轮追加的数字相同就跳过，避免出现重复的组合
+             */
+            if (num != 0 && candidates[i] == num) {
+                continue;
             }
-            if (target - candidates[i] == 0) {
-                List<Integer> list1 = new ArrayList<>();
-                list1.add(candidates[i]);
-                list.add(list1);
+            /**
+             * 当前追加到组合temp中的数字
+             */
+            num = candidates[i];
+            /**
+             * 每次追加到temp中的数字都不小于当前temp中的最大数字，并且不能使temp中数字的和大于target
+             */
+            if (sum + num <= target) {
+                temp.add(num);
+                dfs(result, temp, sum + num, candidates, target, i + 1);
+                temp.remove(temp.size() - 1);
             }
-            set.addAll(list);
         }
-        res = new ArrayList<>(set);
-        return res;
     }
 }
