@@ -1114,6 +1114,7 @@
 * [1557. Minimum Number of Vertices to Reach All Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSmallestSetOfVertices.java)
 * [1558. Minimum Numbers of Function Calls to Make Target Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations1.java)
 * [1561. Maximum Number of Coins You Can Get](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCoins1.java)
+* [1567. Maximum Length of Subarray With Positive Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaxLen.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
