@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,17 +12,20 @@ import java.util.Stack;
  *
  * @author Baltan
  * @date 2019-05-22 10:04
+ * @see InorderTraversal
  */
 public class InorderTraversal1 {
     public static void main(String[] args) {
-        TreeNode treeNode11 = new TreeNode(1);
-        TreeNode treeNode12 = new TreeNode(2);
-        TreeNode treeNode13 = new TreeNode(3);
-        treeNode11.right = treeNode12;
-        treeNode12.left = treeNode13;
-        System.out.println(inorderTraversal(treeNode11));
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, null, 2, null, null, 3}, 0);
+        System.out.println(inorderTraversal(root1));
     }
 
+    /**
+     * 迭代算法
+     *
+     * @param root
+     * @return
+     */
     public static List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
