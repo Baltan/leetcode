@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 /**
  * Description: 226. Invert Binary Tree
@@ -10,29 +11,25 @@ import leetcode.entity.TreeNode;
  */
 public class InvertTree {
     public static void main(String[] args) {
-
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{4, 2, 7, 1, 3, 6, 9}, 0);
+        System.out.println(invertTree(root1));
     }
 
     public static TreeNode invertTree(TreeNode root) {
         if (root == null) {
             return null;
         }
-        if (root.left != null & root.right == null) {
-            root.right = root.left;
-            invertTree(root.right);
-            root.left = null;
-        } else if (root.left == null && root.right != null) {
-            root.left = root.right;
-            invertTree(root.left);
-            root.right = null;
-        } else if (root.left != null && root.right != null) {
-            TreeNode tempNode = root.left;
-            root.left = root.right;
-            root.right = tempNode;
 
-            invertTree(root.left);
-            invertTree(root.right);
-        }
+        TreeNode leftTree = root.left;
+        TreeNode rightTree = root.right;
+        /**
+         * 将原来的右子树翻转后作为翻转后的二叉树的左子树
+         */
+        root.left = invertTree(rightTree);
+        /**
+         * 将原来的左子树翻转后作为翻转后的二叉树的右子树
+         */
+        root.right = invertTree(leftTree);
         return root;
     }
 }
