@@ -995,6 +995,7 @@
 * [1344. Angle Between Hands of a Clock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AngleClock.java)
 * [1346. Check If N and Its Double Exist](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfExist.java)
 * [1347. Minimum Number of Steps to Make Two Strings Anagram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps2.java)
+* [1351. Count Negative Numbers in a Sorted Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountNegatives.java)
 * [1352. Product of the Last K Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProductOfNumbers.java)
 * [1353. Maximum Number of Events That Can Be Attended](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEvents.java)
 * [1354. Construct Target Array With Multiple Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossible1.java)
