@@ -7,6 +7,7 @@ import leetcode.util.OutputUtils;
  *
  * @author Baltan
  * @date 2020-02-13 11:48
+ * @see FindRedundantConnection
  * @see FindRedundantDirectedConnection
  */
 public class FindRedundantConnection1 {
