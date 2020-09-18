@@ -1116,6 +1116,7 @@
 * [1558. Minimum Numbers of Function Calls to Make Target Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations1.java)
 * [1561. Maximum Number of Coins You Can Get](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCoins1.java)
 * [1567. Maximum Length of Subarray With Positive Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaxLen.java)
+* [1572. Matrix Diagonal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalSum.java)
 * [1573. Number of Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays2.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
