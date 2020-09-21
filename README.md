@@ -1120,6 +1120,7 @@
 * [1572. Matrix Diagonal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalSum.java)
 * [1573. Number of Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays2.java)
 * [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost.java)
+* [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
