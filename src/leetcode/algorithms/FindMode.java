@@ -30,9 +30,9 @@ public class FindMode {
         int maxFrequency = 0;
         int currentFrequency = 0;
         int currentNum = 0;
-        int listSize = list.size();
+        int size = list.size();
 
-        for (int i = 0; i < listSize; i++) {
+        for (int i = 0; i < size; i++) {
             if (i == 0) {
                 currentNum = list.get(0);
                 currentFrequency++;
@@ -54,27 +54,30 @@ public class FindMode {
             }
         }
 
-        int size = resultList.size();
-        int[] result = new int[size];
+        int resultSize = resultList.size();
+        int[] result = new int[resultSize];
 
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < resultSize; i++) {
             result[i] = resultList.get(i);
         }
-
         return result;
     }
 
+    /**
+     * 中序遍历二叉树
+     *
+     * @param root
+     * @return
+     */
     public static List<Integer> inOrder(TreeNode root) {
         List<Integer> list = new ArrayList<>();
 
         if (root == null) {
             return list;
         }
-
         list.addAll(inOrder(root.left));
         list.add(root.val);
         list.addAll(inOrder(root.right));
-
         return list;
     }
 }
