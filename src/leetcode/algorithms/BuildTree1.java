@@ -3,8 +3,6 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 import leetcode.util.BinaryTreeUtils;
 
-import java.util.Arrays;
-
 /**
  * Description: 106. Construct Binary Tree from Inorder and Postorder Traversal
  *
@@ -42,46 +40,47 @@ public class BuildTree1 {
     }
 
     public static TreeNode buildTree(int[] inorder, int[] postorder) {
+        return buildTree(inorder, 0, inorder.length, postorder, 0, postorder.length);
+    }
+
+    private static TreeNode buildTree(int[] inorder, int inorderStart, int inorderEnd, int[] postorder,
+                                      int postorderStart, int postorderEnd) {
         /**
          * 如果后序遍历数组为空，则没有节点，即二叉树为null
          */
-        if (postorder.length == 0) {
+        if (postorderStart == postorderEnd) {
             return null;
         } else {
             /**
              * 如果二叉树的后序遍历数组不为空，那么最后一个元素就是二叉树的根节点
              */
-            int rootValue = postorder[postorder.length - 1];
+            int rootValue = postorder[postorderEnd - 1];
             TreeNode root = new TreeNode(rootValue);
             /**
-             * 二叉树左子树的节点数量
+             * 二叉树根节点在中序遍历数组中的位置
              */
-            int leftSubtreeNodeCount = 0;
+            int rootIndexInInorder = 0;
             /**
              * 在二叉树的中序遍历数组中找到根节点值的位置，则该值左边的所有值就是左子树的中序遍历数组，
              * 该值右边的所有值就是右子树的中序遍历数组
              */
-            for (int value : inorder) {
-                if (value == rootValue) {
+            for (int i = inorderStart; i < inorderEnd; i++) {
+                if (inorder[i] == rootValue) {
+                    rootIndexInInorder = i;
                     break;
-                } else {
-                    leftSubtreeNodeCount++;
                 }
             }
             /**
-             * 二叉树的后序遍历数组的前leftSubtreeNodeCount个数就是左子树的后序遍历数组，接下去到倒
-             * 数第二个值为止的子数组就是右子树的后序遍历数组
+             * 二叉树的左子树中节点的数量
              */
-            int[] leftSubtreePostorder = Arrays.copyOfRange(postorder, 0, leftSubtreeNodeCount);
-            int[] rightSubtreePostorder =
-                    Arrays.copyOfRange(postorder, leftSubtreeNodeCount, postorder.length - 1);
-            int[] leftSubtreeInorder = Arrays.copyOfRange(inorder, 0, leftSubtreeNodeCount);
-            int[] rightSubtreeInorder = Arrays.copyOfRange(inorder, leftSubtreeNodeCount + 1, inorder.length);
+            int leftTreeNodeCount = rootIndexInInorder - inorderStart;
             /**
              * 递归构造左子树和右子树
              */
-            root.left = buildTree(leftSubtreeInorder, leftSubtreePostorder);
-            root.right = buildTree(rightSubtreeInorder, rightSubtreePostorder);
+            root.left = buildTree(inorder, inorderStart, inorderStart + leftTreeNodeCount, postorder,
+                    postorderStart, postorderStart + leftTreeNodeCount);
+            root.right = buildTree(inorder, inorderStart + leftTreeNodeCount + 1, inorderEnd, postorder,
+                    postorderStart + leftTreeNodeCount, postorderEnd - 1);
             return root;
         }
     }
