@@ -60,28 +60,37 @@ public class Connect1 {
         if (root == null) {
             return null;
         }
-
+        /**
+         * 逐行将二叉树中的节点加入queue中
+         */
         Queue<LinkedNode> queue = new LinkedList<>();
         queue.offer(root);
-        int count = 1;
 
         while (!queue.isEmpty()) {
-            int subCount = 0;
-            for (int i = 0; i < count; i++) {
+            /**
+             * 该行节点的个数
+             */
+            int size = queue.size();
+
+            for (int i = 0; i < size; i++) {
                 LinkedNode node = queue.poll();
-                if (i < count - 1) {
+                /**
+                 * 如果是这行最后一个节点，next指针指向null，否则指向该行的下一个节点
+                 */
+                if (i == size - 1) {
+                    node.next = null;
+                } else {
                     node.next = queue.peek();
                 }
+
                 if (node.left != null) {
                     queue.offer(node.left);
-                    subCount++;
                 }
+
                 if (node.right != null) {
                     queue.offer(node.right);
-                    subCount++;
                 }
             }
-            count = subCount;
         }
         return root;
     }
