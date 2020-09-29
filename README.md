@@ -158,6 +158,7 @@
 * [142. Linked List Cycle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DetectCycle.java)
 * [143. Reorder List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderList.java)
 * [144. Binary Tree Preorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PreorderTraversal.java)
+* [145. Binary Tree Postorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PostorderTraversal.java)
 * [146. LRU Cache](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LRUCache.java)
 * [147. Insertion Sort List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InsertionSortList.java)
 * [148. Sort List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortList.java)
