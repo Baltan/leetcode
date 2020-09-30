@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 /**
  * Description: 701. Insert into a Binary Search Tree
@@ -10,32 +11,22 @@ import leetcode.entity.TreeNode;
  */
 public class InsertIntoBST {
     public static void main(String[] args) {
-        TreeNode node1 = new TreeNode(4);
-        TreeNode node2 = new TreeNode(2);
-        TreeNode node3 = new TreeNode(7);
-        TreeNode node4 = new TreeNode(1);
-        TreeNode node5 = new TreeNode(3);
-
-        node1.left = node2;
-        node1.right = node3;
-        node2.left = node4;
-        node2.right = node5;
-
-        TreeNode root1 = insertIntoBST(node1, 5);
-        System.out.println(root1.right.left.val);
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{4, 2, 7, 1, 3}, 0);
+        TreeNode root11 = insertIntoBST(root1, 5);
+        System.out.println(root11);
     }
 
     public static TreeNode insertIntoBST(TreeNode root, int val) {
+        /**
+         * 如果二叉树不包含节点，则插入val后，包含了一个根节点
+         */
         if (root == null) {
             return new TreeNode(val);
         }
-        if (root.left == null && root.right == null) {
-            if (val < root.val) {
-                root.left = new TreeNode(val);
-            } else if (val > root.val) {
-                root.right = new TreeNode(val);
-            }
-        }
+        /**
+         * 如果val小于二叉树根节点的值，在二叉树左子树中插入节点val；如果val大于二叉树根节点的值，在二叉树右
+         * 子树中插入节点val
+         */
         if (val < root.val) {
             root.left = insertIntoBST(root.left, val);
         } else if (val > root.val) {
