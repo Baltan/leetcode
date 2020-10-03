@@ -1,47 +1,44 @@
 package leetcode.algorithms;
 
+import leetcode.util.OutputUtils;
+
+import java.awt.*;
 import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * Description: 1. Two Sum
- * @author Baltan
  *
+ * @author Baltan
  * @date 2017/11/7 11:29
  */
 
 public class TwoSum {
     public static void main(String[] args) {
+        OutputUtils.print1DIntegerArray(twoSum(new int[]{2, 7, 11, 15}, 9));
     }
 
-    public int[] twoSum(int[] nums, int target) {
-        int[] copyNums = Arrays.copyOf(nums, nums.length);
-        Arrays.sort(copyNums);
-        int index1 = 0;
-        int index2 = copyNums.length - 1;
-        while (copyNums[index1] + copyNums[index2] != target) {
-            if (copyNums[index1] + copyNums[index2] < target) {
-                index1++;
-            } else {
-                index2--;
+    public static int[] twoSum(int[] nums, int target) {
+        int length = nums.length;
+        Point[] points = new Point[length];
+
+        for (int i = 0; i < length; i++) {
+            points[i] = new Point(nums[i], i);
+        }
+
+        Arrays.sort(points, Comparator.comparingInt(p -> p.x));
+        int lo = 0;
+        int hi = length - 1;
+
+        while (lo < hi) {
+            if (points[lo].x + points[hi].x == target) {
+                return new int[]{points[lo].y, points[hi].y};
+            } else if (points[lo].x + points[hi].x < target) {
+                lo++;
+            } else if (points[lo].x + points[hi].x > target) {
+                hi--;
             }
         }
-        int num1 = copyNums[index1];
-        int num2 = copyNums[index2];
-        int firstIndex = 0;
-        int secondIndex = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == num1) {
-                firstIndex = i;
-                break;
-            }
-        }
-        for (int i = nums.length - 1; i >= 0; i--) {
-            if (nums[i] == num2) {
-                secondIndex = i;
-                break;
-            }
-        }
-        int[] resultIndex = {firstIndex, secondIndex};
-        return resultIndex;
+        return new int[]{};
     }
 }
