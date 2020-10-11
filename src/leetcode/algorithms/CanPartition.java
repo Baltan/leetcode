@@ -24,17 +24,33 @@ public class CanPartition {
         for (int num : nums) {
             sum += num;
         }
-
+        /**
+         * 如果所有元素的和为奇数，则无法完成分组
+         */
         if ((sum & 1) == 1) {
             return false;
         }
-
+        /**
+         * 每个分组中所有元素的和
+         */
         int target = sum >> 1;
+        /**
+         * dp[i]表示能否得到一个分组，使得所有元素的和为i
+         */
         boolean[] dp = new boolean[target + 1];
         dp[0] = true;
 
         for (int num : nums) {
-            for (int i = target; i >= num; i--) {
+            /**
+             * 如果已经存在和为target-num的分组，则这个分组加上num后就能使得所有元素的和为target，完成分组
+             */
+            if (target - num >= 0 && dp[target - num]) {
+                return true;
+            }
+            /**
+             * 依次判断加上num后能否得到和为[num,target-1]的分组
+             */
+            for (int i = target - 1; i >= num; i--) {
                 if (dp[i - num]) {
                     dp[i] = true;
                 }
