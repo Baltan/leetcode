@@ -18,22 +18,30 @@ public class CommonChars {
 
     public static List<String> commonChars(String[] A) {
         List<String> result = new ArrayList<>();
-        int[] arr = new int[26];
-        Arrays.fill(arr, Integer.MAX_VALUE);
+        /**
+         * 记录每个字母在各个单词中出现的最大次数
+         */
+        int[] maxCount = new int[26];
+        Arrays.fill(maxCount, Integer.MAX_VALUE);
 
-        for (String a : A) {
-            int[] book = new int[26];
-            int strLength = a.length();
+        for (String word : A) {
+            /**
+             * 记录每个字母在单词word中出现的次数
+             */
+            int[] count = new int[26];
+            int strLength = word.length();
+
             for (int i = 0; i < strLength; i++) {
-                book[a.charAt(i) - 'a']++;
+                count[word.charAt(i) - 'a']++;
             }
+
             for (int i = 0; i < 26; i++) {
-                arr[i] = arr[i] < book[i] ? arr[i] : book[i];
+                maxCount[i] = maxCount[i] < count[i] ? maxCount[i] : count[i];
             }
         }
 
         for (int i = 0; i < 26; i++) {
-            for (int j = 0; j < arr[i]; j++) {
+            for (int j = 0; j < maxCount[i]; j++) {
                 result.add(String.valueOf((char) (i + 'a')));
             }
         }
