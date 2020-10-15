@@ -64,8 +64,17 @@ public class Connect {
 
     public static LinkedNode connect(LinkedNode root) {
         if (root != null) {
+            /**
+             * 递归为左子树中的所有节点填充右侧节点指针
+             */
             root.left = connect(root.left);
+            /**
+             * 递归为右子树中的所有节点填充右侧节点指针
+             */
             root.right = connect(root.right);
+            /**
+             * 为根节点的左子节点填充右侧节点指针
+             */
             connect(root.left, root.right);
         }
         return root;
@@ -73,8 +82,15 @@ public class Connect {
 
     public static void connect(LinkedNode left, LinkedNode right) {
         if (left != null) {
+            /**
+             * 连接同一个父节点下的两个子节点，即为父节点的左子节点填充右侧节点指针
+             */
             left.next = right;
+
             if (left.right != null) {
+                /**
+                 * 连接第一个父节点的右子节点和下一个父节点的左子节点，即为父节点的右子节点填充右侧节点指针
+                 */
                 connect(left.right, right.left);
             }
         }
