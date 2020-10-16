@@ -2,8 +2,6 @@ package leetcode.algorithms;
 
 import leetcode.util.OutputUtils;
 
-import java.util.Arrays;
-
 /**
  * Description: 977. Squares of a Sorted Array
  *
@@ -21,19 +19,19 @@ public class SortedSquares {
     public static int[] sortedSquares(int[] A) {
         int length = A.length;
         int[] result = new int[length];
-
+        /**
+         * 如果A中所有数字都不小于0，则A中的数字顺序平方后即可；如果A中所有数字都不大于0，则A中的数字倒序平
+         * 方后即可；如果A中的数字有正有负，则找到A中第一个为0的位置，或者A中正负交界的位置，此时维护两个指
+         * 针，分别向两端移动，将两个指针指向的值的平方较小的结果加入result即可
+         */
         if (A[0] >= 0) {
-            int[] array = Arrays.stream(A).map(v -> v * v).toArray();
             for (int i = 0; i < length; i++) {
-                result[i] = array[i];
+                result[i] = A[i] * A[i];
             }
-            return result;
         } else if (A[length - 1] <= 0) {
-            int[] array = Arrays.stream(A).map(v -> v * v).toArray();
             for (int i = 0; i < length; i++) {
-                result[i] = array[length - 1 - i];
+                result[i] = A[length - 1 - i] * A[length - 1 - i];
             }
-            return result;
         } else {
             int lo = 0;
             int hi = length - 1;
@@ -46,28 +44,26 @@ public class SortedSquares {
                     break;
                 }
             }
-            while (lo >= 0 && hi < length) {
-                int num1 = A[lo];
-                int num2 = A[hi];
 
-                if (num1 * num1 <= num2 * num2) {
-                    result[index] = num1 * num1;
-                    lo--;
-                } else {
-                    result[index] = num2 * num2;
-                    hi++;
-                }
-                index++;
-            }
-            if (lo < 0) {
-                for (int i = hi; i < length; i++) {
-                    result[index] = A[i] * A[i];
-                    index++;
-                }
-            } else {
-                for (int i = lo; i >= 0; i--) {
-                    result[index] = A[i] * A[i];
-                    index++;
+            while (lo >= 0 || hi < length) {
+                if (lo >= 0 && hi < length) {
+                    if (A[lo] * A[lo] <= A[hi] * A[hi]) {
+                        result[index++] = A[lo] * A[lo];
+                        lo--;
+                    } else {
+                        result[index++] = A[hi] * A[hi];
+                        hi++;
+                    }
+                } else if (lo >= 0) {
+                    while (lo >= 0) {
+                        result[index++] = A[lo] * A[lo];
+                        lo--;
+                    }
+                } else if (hi < length) {
+                    while (hi < length) {
+                        result[index++] = A[hi] * A[hi];
+                        hi++;
+                    }
                 }
             }
         }
