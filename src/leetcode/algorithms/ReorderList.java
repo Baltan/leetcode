@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.ListNode;
+import leetcode.util.ListNodeUtils;
 import leetcode.util.OutputUtils;
 
 import java.util.ArrayDeque;
@@ -14,37 +15,21 @@ import java.util.Deque;
  */
 public class ReorderList {
     public static void main(String[] args) {
-        ListNode listNode11 = new ListNode(1);
-        ListNode listNode12 = new ListNode(2);
-        ListNode listNode13 = new ListNode(3);
-        ListNode listNode14 = new ListNode(4);
-        listNode11.next = listNode12;
-        listNode12.next = listNode13;
-        listNode13.next = listNode14;
-        reorderList(listNode11);
-        OutputUtils.printListNode(listNode11);
+        ListNode head1 = ListNodeUtils.arrayToListNode(new int[]{1, 2, 3, 4});
+        reorderList(head1);
+        OutputUtils.printListNode(head1);
 
-        ListNode listNode21 = new ListNode(1);
-        ListNode listNode22 = new ListNode(2);
-        ListNode listNode23 = new ListNode(3);
-        ListNode listNode24 = new ListNode(4);
-        ListNode listNode25 = new ListNode(5);
-        listNode21.next = listNode22;
-        listNode22.next = listNode23;
-        listNode23.next = listNode24;
-        listNode24.next = listNode25;
-        reorderList(listNode21);
-        OutputUtils.printListNode(listNode21);
+        ListNode head2 = ListNodeUtils.arrayToListNode(new int[]{1, 2, 3, 4, 5});
+        reorderList(head2);
+        OutputUtils.printListNode(head2);
 
-        ListNode listNode31 = new ListNode(1);
-        ListNode listNode32 = new ListNode(2);
-        listNode31.next = listNode32;
-        reorderList(listNode31);
-        OutputUtils.printListNode(listNode31);
+        ListNode head3 = ListNodeUtils.arrayToListNode(new int[]{1, 2});
+        reorderList(head3);
+        OutputUtils.printListNode(head3);
 
-        ListNode listNode41 = new ListNode(1);
-        reorderList(listNode41);
-        OutputUtils.printListNode(listNode41);
+        ListNode head4 = ListNodeUtils.arrayToListNode(new int[]{1});
+        reorderList(head4);
+        OutputUtils.printListNode(head4);
     }
 
     public static void reorderList(ListNode head) {
@@ -53,25 +38,34 @@ public class ReorderList {
         }
 
         Deque<ListNode> queue = new ArrayDeque<>();
-
+        /**
+         * 将链表head中的节点逐一入队
+         */
         while (head != null) {
             queue.offer(head);
             head = head.next;
         }
-
-        boolean flag = false;
-        ListNode newHead = queue.pollFirst();
-        ListNode currentNode = newHead;
+        /**
+         * 是否从queue队首取出节点拼接到新链表上
+         */
+        boolean fromHead = true;
+        ListNode currentNode = new ListNode(-1);
 
         while (!queue.isEmpty()) {
-            if (flag) {
+            if (fromHead) {
+                /**
+                 * 将队首的节点拼接到新链表上
+                 */
                 currentNode.next = queue.pollFirst();
                 currentNode = currentNode.next;
-                flag = false;
+                fromHead = false;
             } else {
+                /**
+                 * 将队尾的节点拼接到新链表上
+                 */
                 currentNode.next = queue.pollLast();
                 currentNode = currentNode.next;
-                flag = true;
+                fromHead = true;
             }
         }
         currentNode.next = null;
