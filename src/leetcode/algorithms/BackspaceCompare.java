@@ -1,6 +1,6 @@
 package leetcode.algorithms;
 
-import java.util.Stack;
+import java.util.Objects;
 
 /**
  * Description: 844. Backspace String Compare
@@ -10,6 +10,7 @@ import java.util.Stack;
  */
 public class BackspaceCompare {
     public static void main(String[] args) {
+        System.out.println(backspaceCompare("y#fo##f", "y#f#o##f"));
         System.out.println(backspaceCompare("ab#c", "ad#c"));
         System.out.println(backspaceCompare("ab##", "c#d#"));
         System.out.println(backspaceCompare("a##c", "#a#c"));
@@ -17,28 +18,36 @@ public class BackspaceCompare {
     }
 
     public static boolean backspaceCompare(String S, String T) {
-        Stack<Character> stackS = new Stack<>();
-        Stack<Character> stackT = new Stack<>();
+        char[] charArrayS = new char[S.length()];
+        char[] charArrayT = new char[T.length()];
+        int indexS = 0;
+        int indexT = 0;
 
         for (char c : S.toCharArray()) {
-            if (c != '#') {
-                stackS.push(c);
-            } else {
-                if (stackS.size() != 0) {
-                    stackS.pop();
+            if (c == '#') {
+                /**
+                 * 如果还有字母可删，就删除
+                 */
+                if (indexS > 0) {
+                    indexS--;
                 }
+            } else {
+                charArrayS[indexS++] = c;
             }
         }
 
         for (char c : T.toCharArray()) {
-            if (c != '#') {
-                stackT.push(c);
-            } else {
-                if (stackT.size() != 0) {
-                    stackT.pop();
+            if (c == '#') {
+                /**
+                 * 如果还有字母可删，就删除
+                 */
+                if (indexT > 0) {
+                    indexT--;
                 }
+            } else {
+                charArrayT[indexT++] = c;
             }
         }
-        return stackS.equals(stackT);
+        return Objects.equals(new String(charArrayS, 0, indexS), new String(charArrayT, 0, indexT));
     }
 }
