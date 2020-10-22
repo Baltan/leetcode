@@ -17,36 +17,52 @@ public class PartitionLabels {
         System.out.println(partitionLabels("a"));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/partition-labels/solution/hua-fen-zi-mu-qu-jian-by-leetcode-solution/"></a>
+     *
+     * @param S
+     * @return
+     */
     public static List<Integer> partitionLabels(String S) {
-        List<Integer> list = new ArrayList<>();
-        int length = S.length();
-        int startIndex = 0;
-
-        while (startIndex < length) {
-            int[] array = getSubstringIndex(S, startIndex);
-            list.add(array[1] - array[0] + 1);
-            startIndex = array[1] + 1;
+        List<Integer> result = new ArrayList<>();
+        /**
+         * 记录每个字母最后一次出现的位置
+         */
+        int[] lastIndexes = new int[26];
+        char[] charArray = S.toCharArray();
+        int length = charArray.length;
+        /**
+         * 每个片段的起始索引位置
+         */
+        int start = 0;
+        /**
+         * 每个片段的结束索引位置
+         */
+        int end = 0;
+        /**
+         * 获取每个字母最后一次出现的位置
+         */
+        for (int i = 0; i < length; i++) {
+            char c = charArray[i];
+            lastIndexes[c - 'a'] = i;
         }
-        return list;
-    }
 
-    public static int[] getSubstringIndex(String S, int startIndex) {
-        int[] array = new int[2];
-        array[0] = startIndex;
-        char[] sArray = S.toCharArray();
-        int endIndex = S.lastIndexOf(sArray[startIndex]);
-        if (startIndex == endIndex) {
-            array[1] = endIndex;
-            return array;
-        }
-        while (startIndex != endIndex) {
-            startIndex++;
-            int currentLetterEnd = S.lastIndexOf(sArray[startIndex]);
-            if (currentLetterEnd > endIndex) {
-                endIndex = currentLetterEnd;
+        for (int i = 0; i < length; i++) {
+            char c = charArray[i];
+            /**
+             * 当前片段的结束索引位置不会小于lastIndexes[c-'a']
+             */
+            end = Math.max(end, lastIndexes[c - 'a']);
+            /**
+             * 如果当前遍历到的位置就是当前片段的结束索引位置，则已经得到一个符合要求的片段，将片段长度
+             * 加入result即可，继续查找下一个片段
+             */
+            if (i == end) {
+                result.add(end - start + 1);
+                start = end + 1;
             }
         }
-        array[1] = endIndex;
-        return array;
+        return result;
     }
 }
