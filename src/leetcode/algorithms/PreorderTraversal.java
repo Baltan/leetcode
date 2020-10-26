@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,18 +15,14 @@ import java.util.Stack;
  */
 public class PreorderTraversal {
     public static void main(String[] args) {
-        TreeNode treeNode11 = new TreeNode(1);
-        TreeNode treeNode12 = new TreeNode(2);
-        TreeNode treeNode13 = new TreeNode(3);
-        treeNode11.right = treeNode12;
-        treeNode12.left = treeNode13;
-        System.out.println(preorderTraversal(treeNode11));
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, null, 2, null, null, 3}, 0);
+        System.out.println(preorderTraversal(root1));
 
-        TreeNode treeNode21 = new TreeNode(1);
-        System.out.println(preorderTraversal(treeNode21));
+        TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1}, 0);
+        System.out.println(preorderTraversal(root2));
 
-        TreeNode treeNode31 = null;
-        System.out.println(preorderTraversal(treeNode31));
+        TreeNode root3 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{}, 0);
+        System.out.println(preorderTraversal(root3));
     }
 
     public static List<Integer> preorderTraversal(TreeNode root) {
