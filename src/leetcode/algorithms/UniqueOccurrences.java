@@ -1,10 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-
 /**
  * Description: 1207. Unique Number of Occurrences
  *
@@ -24,20 +19,30 @@ public class UniqueOccurrences {
     }
 
     public static boolean uniqueOccurrences(int[] arr) {
-        Map<Integer, Integer> count = new HashMap<>();
-        Set<Integer> occurrences = new HashSet<>();
+        /**
+         * count[i]表示i-1000出现的次数，因为arr中的元素在[-1000,1000]范围内
+         */
+        int[] count = new int[2001];
+        /**
+         * frequencyCount[i]表示arr中出现i次的数字的个数
+         */
+        int[] frequencyCount = new int[1001];
         /**
          * 统计每个数字出现的频数
          */
         for (int num : arr) {
-            count.put(num, count.getOrDefault(num, 0) + 1);
+            count[num + 1000]++;
         }
-        /**
-         * 将所有数字的出现的频数加入到一个Set中
-         */
-        for (int value : count.values()) {
-            occurrences.add(value);
+
+        for (int frequency : count) {
+            /**
+             * 如果已经有数字出现frequency（frequency不为0）次了，则说明不是每个数出现的次数都不同，直接返回false
+             */
+            if (frequency != 0 && frequencyCount[frequency] == 1) {
+                return false;
+            }
+            frequencyCount[frequency] = 1;
         }
-        return count.size() == occurrences.size();
+        return true;
     }
 }
