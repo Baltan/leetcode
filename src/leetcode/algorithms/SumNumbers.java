@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import leetcode.entity.TreeNode;
+import leetcode.util.BinaryTreeUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,31 +14,17 @@ import java.util.List;
  */
 public class SumNumbers {
     public static void main(String[] args) {
-        TreeNode treeNode11 = new TreeNode(1);
-        TreeNode treeNode12 = new TreeNode(2);
-        TreeNode treeNode13 = new TreeNode(3);
-        treeNode11.left = treeNode12;
-        treeNode11.right = treeNode13;
-        System.out.println(sumNumbers(treeNode11));
+        TreeNode root1 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{1, 2, 3}, 0);
+        System.out.println(sumNumbers(root1));
 
-        TreeNode treeNode21 = new TreeNode(4);
-        TreeNode treeNode22 = new TreeNode(9);
-        TreeNode treeNode23 = new TreeNode(0);
-        TreeNode treeNode24 = new TreeNode(5);
-        TreeNode treeNode25 = new TreeNode(1);
-        treeNode21.left = treeNode22;
-        treeNode21.right = treeNode23;
-        treeNode22.left = treeNode24;
-        treeNode22.right = treeNode25;
-        System.out.println(sumNumbers(treeNode21));
+        TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{4, 9, 0, 5, 1}, 0);
+        System.out.println(sumNumbers(root2));
 
-        TreeNode treeNode31 = new TreeNode(9);
-        System.out.println(sumNumbers(treeNode31));
+        TreeNode treeNode3 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{9}, 0);
+        System.out.println(sumNumbers(treeNode3));
 
-        TreeNode treeNode41 = new TreeNode(0);
-        TreeNode treeNode42 = new TreeNode(1);
-        treeNode41.left = treeNode42;
-        System.out.println(sumNumbers(treeNode41));
+        TreeNode treeNode4 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{0, 1}, 0);
+        System.out.println(sumNumbers(treeNode4));
     }
 
     public static int sumNumbers(TreeNode root) {
@@ -46,6 +33,9 @@ public class SumNumbers {
         }
 
         int result = 0;
+        /**
+         * 根节点到叶子节点的所有路径表示的数字
+         */
         List<String> list = help(root);
 
         for (String s : list) {
@@ -54,6 +44,12 @@ public class SumNumbers {
         return result;
     }
 
+    /**
+     * 获取从根节点到叶子节点的所有路径表示的数字
+     *
+     * @param root
+     * @return
+     */
     public static List<String> help(TreeNode root) {
         List<String> result = new ArrayList<>();
 
@@ -63,7 +59,9 @@ public class SumNumbers {
         }
 
         String head = String.valueOf(root.val);
-
+        /**
+         * 根节点通过左子节点到叶子节点的所有路径表示的数字
+         */
         if (root.left != null) {
             List<String> left = help(root.left);
 
@@ -71,7 +69,9 @@ public class SumNumbers {
                 result.add(head + s);
             }
         }
-
+        /**
+         * 根节点通过左子节点到叶子节点的所有路径表示的数字
+         */
         if (root.right != null) {
             List<String> right = help(root.right);
 
