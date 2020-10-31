@@ -27,15 +27,9 @@ public class RandomizedCollection {
      * specified element.
      */
     public boolean insert(int val) {
-        if (map.containsKey(val)) {
-            map.put(val, map.get(val) + 1);
-            list.add(val);
-            return false;
-        } else {
-            map.put(val, 1);
-            list.add(val);
-            return true;
-        }
+        list.add(val);
+        map.put(val, map.getOrDefault(val, 0) + 1);
+        return map.get(val) == 1;
     }
 
     /**
