@@ -31,21 +31,34 @@ public class WordBreak1 {
     }
 
     public static List<String> wordBreak(String s, List<String> wordDict) {
+        /**
+         * 字符串 -> 该字符串可以得到的所有句子
+         */
         Map<String, List<String>> map = new HashMap<>();
         return dfs(s, wordDict, map);
     }
 
     public static List<String> dfs(String s, List<String> wordDict, Map<String, List<String>> map) {
+        /**
+         * 已经对字符串s做过分隔，避免重复操作
+         */
         if (map.containsKey(s)) {
             return map.get(s);
         }
 
         List<String> result = new ArrayList<>();
+        /**
+         * 依次判断字典wordDict中的单词是不是字符串s头部的字符串
+         */
         for (String word : wordDict) {
             if (Objects.equals(s, word)) {
                 result.add(s);
             } else if (s.startsWith(word)) {
+                /**
+                 * 除去头部的单词后，对后面的子字符串进行递归，获得子字符串可以得到的所有句子
+                 */
                 List<String> list = dfs(s.substring(word.length()), wordDict, map);
+
                 for (String str : list) {
                     result.add(word + " " + str);
                 }
