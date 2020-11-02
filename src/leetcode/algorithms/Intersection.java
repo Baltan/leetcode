@@ -2,9 +2,7 @@ package leetcode.algorithms;
 
 import leetcode.util.OutputUtils;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 /**
@@ -19,21 +17,34 @@ public class Intersection {
     }
 
     public static int[] intersection(int[] nums1, int[] nums2) {
-        List<Integer> intersectionList = new ArrayList<>();
+        /**
+         * 保存nums1和nums2的交集的元素
+         */
+        Set<Integer> intersectionSet = new HashSet<>();
+        /**
+         * 保存nums1中的所有元素
+         */
         Set<Integer> set = new HashSet<>();
-        for (int i = 0; i < nums1.length; i++) {
-            set.add(nums1[i]);
+
+        for (int value : nums1) {
+            set.add(value);
         }
-        for (int i = 0; i < nums2.length; i++) {
-            if (set.contains(nums2[i])) {
-                intersectionList.add(nums2[i]);
-                set.remove(nums2[i]);
+
+        for (int value : nums2) {
+            /**
+             * 如果value在nums1中也存在，并且还没有被加入到intersectionSet中，才将value加入到intersectionSet中
+             */
+            if (set.contains(value) && !intersectionSet.contains(value)) {
+                intersectionSet.add(value);
             }
         }
-        int[] intersectionArray = new int[intersectionList.size()];
-        for (int i = 0; i < intersectionList.size(); i++) {
-            intersectionArray[i] = intersectionList.get(i);
+
+        int[] result = new int[intersectionSet.size()];
+        int index = 0;
+
+        for (int value : intersectionSet) {
+            result[index++] = value;
         }
-        return intersectionArray;
+        return result;
     }
 }
