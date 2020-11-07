@@ -22,8 +22,13 @@ public class CountRangeSum {
 
         int result = 0;
         int length = nums.length;
-
+        /**
+         * 逐一判断每个区间是否符合要求
+         */
         for (int i = 0; i < length; i++) {
+            /**
+             * 区间中所有元素的和
+             */
             long sum = nums[i];
 
             if (sum >= lower && sum <= upper) {
