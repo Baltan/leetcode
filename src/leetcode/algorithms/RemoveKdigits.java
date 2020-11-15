@@ -24,7 +24,9 @@ public class RemoveKdigits {
         int length = num.length();
         int restLength = length - k;
         int startIndex = 0;
-
+        /**
+         * i表示要确定的剩下的从左至右的第i（0-based）个数字
+         */
         for (int i = 0; i < restLength; i++) {
             char min = num.charAt(startIndex);
             int minIndex = startIndex;
@@ -34,9 +36,10 @@ public class RemoveKdigits {
              * 例如：原数字：1432219，删除3个数字，新数字长度为4
              * 新数字第一个数字：1、4、3、2中选择1，索引位置是0
              * 新数字第二个数字：4、3、2、2中选择2，索引位置是3
-             * 新数字第三个数字：2、1中选择1，索引位置是5
+             * 新数字第三个数字：2、1、9中选择1，索引位置是5
              * 新数字第四个数字：9中选择9，索引位置是6
              *
+             * 第i个数字在原数字中的索引位置可能是[startIndex,k+i]
              */
             for (int j = startIndex; j <= k + i; j++) {
                 if (num.charAt(j) < min) {
@@ -44,11 +47,9 @@ public class RemoveKdigits {
                     minIndex = j;
                 }
             }
-
             builder.append(min);
             startIndex = minIndex + 1;
         }
-
         /**
          * 删除新数字的前导0，找到新数字中第一个不为0的数字的索引，如果没找到，返回"0"
          */
