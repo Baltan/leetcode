@@ -17,29 +17,35 @@ public class RelativeSortArray {
 
     public static int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] result = new int[arr1.length];
-        int[] arr = new int[1001];
+        int max = 1000;
+        /**
+         * arr[i]表示arr1中数字i出现的次数
+         */
+        int[] arr = new int[max + 1];
         int index = 0;
 
         for (int num : arr1) {
             arr[num]++;
         }
-
+        /**
+         * 先把在arr2中出现过的数字按顺序填到arr1中
+         */
         for (int num : arr2) {
             int count = arr[num];
 
             for (int i = 0; i < count; i++) {
-                result[index] = num;
-                index++;
+                result[index++] = num;
             }
             arr[num] = 0;
         }
-
-        for (int i = 0; i < 1001; i++) {
+        /**
+         * 再把未在arr2中出现过的数字按升序填到arr1中
+         */
+        for (int i = 0; i <= max; i++) {
             int count = arr[i];
 
             for (int j = 0; j < count; j++) {
-                result[index] = i;
-                index++;
+                result[index++] = i;
             }
         }
         return result;
