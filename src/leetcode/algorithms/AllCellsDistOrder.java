@@ -22,27 +22,39 @@ public class AllCellsDistOrder {
 
     public static int[][] allCellsDistOrder(int R, int C, int r0, int c0) {
         int[][] result = new int[R * C][2];
-        boolean[][] book = new boolean[R][C];
+        /**
+         * isVisited[i][j]标记原矩阵中的数matrix[i][j]是否已经被处理过
+         */
+        boolean[][] isVisited = new boolean[R][C];
+        /**
+         * 当前已经被处理过的数的个数
+         */
         int count = 0;
         Queue<int[]> queue = new LinkedList<>();
         queue.offer(new int[]{r0, c0});
 
         while (count < R * C) {
             int[] coordinate = queue.poll();
+            int x = coordinate[0];
+            int y = coordinate[1];
+
             if (coordinate[0] < R && coordinate[0] >= 0 && coordinate[1] < C && coordinate[1] >= 0 &&
-                    !book[coordinate[0]][coordinate[1]]) {
+                    !isVisited[x][y]) {
                 result[count++] = coordinate;
-                book[coordinate[0]][coordinate[1]] = true;
+                isVisited[x][y] = true;
 
                 if (coordinate[0] - 1 >= 0) {
                     queue.offer(new int[]{coordinate[0] - 1, coordinate[1]});
                 }
+
                 if (coordinate[0] + 1 < R) {
                     queue.offer(new int[]{coordinate[0] + 1, coordinate[1]});
                 }
+
                 if (coordinate[1] - 1 >= 0) {
                     queue.offer(new int[]{coordinate[0], coordinate[1] - 1});
                 }
+
                 if (coordinate[1] + 1 < C) {
                     queue.offer(new int[]{coordinate[0], coordinate[1] + 1});
                 }
