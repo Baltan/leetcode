@@ -1,7 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.Arrays;
-
 /**
  * Description: 242. Valid Anagram
  *
@@ -18,12 +16,31 @@ public class IsAnagram {
         if (s.length() != t.length()) {
             return false;
         }
-        char[] sArray = s.toCharArray();
-        char[] tArray = t.toCharArray();
-        Arrays.sort(sArray);
-        Arrays.sort(tArray);
-        for (int i = 0; i < sArray.length; i++) {
-            if (sArray[i] != tArray[i]) {
+
+        int length = s.length();
+        /**
+         * 记录s和t中每个小写字母的个数
+         */
+        int[] count = new int[26];
+        char[] sChars = s.toCharArray();
+        char[] tChars = t.toCharArray();
+
+        for (int i = 0; i < length; i++) {
+            /**
+             * 当s中出现某个小写字母时，就在count中增加一个
+             */
+            count[sChars[i] - 'a']++;
+            /**
+             * 当t中出现某个小写字母时，就在count中消去一个
+             */
+            count[tChars[i] - 'a']--;
+        }
+
+        for (int i = 0; i < 26; i++) {
+            /**
+             * 如果s和t中的某个小写字母的个数不同直接返回false
+             */
+            if (count[i] != 0) {
                 return false;
             }
         }
