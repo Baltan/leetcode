@@ -18,7 +18,8 @@ public class SortString {
     public static String sortString(String s) {
         int length = s.length();
         StringBuilder builder = new StringBuilder(length);
-        int[] counts = new int[26];
+        int[] count = new int[26];
+        char[] charArray = s.toCharArray();
         /**
          * flag为true表示升序排列字符串（步骤1-3），false表示降序排列字符串（步骤4-6）
          */
@@ -27,23 +28,23 @@ public class SortString {
          * 对s中每个字符出现的次数计数
          */
         for (int i = 0; i < length; i++) {
-            counts[s.charAt(i) - 'a']++;
+            count[charArray[i] - 'a']++;
         }
 
         while (length > 0) {
             if (flag) {
                 for (int i = 0; i < 26; i++) {
-                    if (counts[i] > 0) {
+                    if (count[i] > 0) {
                         builder.append((char) ('a' + i));
-                        counts[i]--;
+                        count[i]--;
                         length--;
                     }
                 }
             } else {
                 for (int i = 25; i >= 0; i--) {
-                    if (counts[i] > 0) {
+                    if (count[i] > 0) {
                         builder.append((char) ('a' + i));
-                        counts[i]--;
+                        count[i]--;
                         length--;
                     }
                 }
