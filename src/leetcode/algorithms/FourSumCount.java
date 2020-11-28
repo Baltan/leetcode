@@ -19,6 +19,9 @@ public class FourSumCount {
     }
 
     public static int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
+        /**
+         * A和B中歌曲一个数得到的和i -> 可以凑得和为i的情况数
+         */
         Map<Integer, Integer> sumMap = new HashMap<>();
         int result = 0;
 
@@ -30,6 +33,9 @@ public class FourSumCount {
 
         for (int c : C) {
             for (int d : D) {
+                /**
+                 * 查找sumMap中key值为-c-d的情况数，使得key+c+d=0
+                 */
                 result += sumMap.getOrDefault(-c - d, 0);
             }
         }
