@@ -56,6 +56,15 @@ public class SearchRange {
         return result;
     }
 
+    /**
+     * 查找左端点
+     *
+     * @param nums
+     * @param start
+     * @param end
+     * @param target
+     * @return
+     */
     public static int findLeft(int[] nums, int start, int end, int target) {
         int result = -1;
         int lo = start;
@@ -76,6 +85,15 @@ public class SearchRange {
         return result;
     }
 
+    /**
+     * 查找右端点
+     *
+     * @param nums
+     * @param start
+     * @param end
+     * @param target
+     * @return
+     */
     public static int findRight(int[] nums, int start, int end, int target) {
         int result = -1;
         int lo = start;
