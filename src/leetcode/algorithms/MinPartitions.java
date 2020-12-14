@@ -16,7 +16,9 @@ public class MinPartitions {
     public static int minPartitions(String n) {
         int result = 0;
         char[] charArray = n.toCharArray();
-
+        /**
+         * 查找n的每位数字上的最大值
+         */
         for (char c : charArray) {
             result = Math.max(result, c - '0');
         }
