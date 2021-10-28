@@ -3,13 +3,13 @@ package leetcode.algorithms;
 import java.util.*;
 
 /**
- * Description: 126. Word Ladder II
+ * Description:
  *
  * @author Baltan
- * @date 2019-12-21 12:51
- * @see FindLadders1
+ * @date 2021/10/28 16:26
+ * @see FindLadders
  */
-public class FindLadders {
+public class FindLadders1 {
     public static void main(String[] args) {
         List<String> wordList1 = Arrays.asList("hot", "dot", "dog", "lot", "log", "cog");
         System.out.println(findLadders("hit", "cog", wordList1));
@@ -72,8 +72,7 @@ public class FindLadders {
         System.out.println(findLadders("cet", "ism", wordList3));
     }
 
-    public static List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
-        List<List<String>> result = new LinkedList<>();
+    public static List<String> findLadders(String beginWord, String endWord, List<String> wordList) {
         /**
          * 单词字典所有单词的集合
          */
@@ -82,7 +81,7 @@ public class FindLadders {
          * 如果单词字典集合中不包含endWord，显然无法完成单词接龙
          */
         if (!wordSet.contains(endWord)) {
-            return result;
+            return Collections.emptyList();
         }
         /**
          * 每个单词可以接的下一个单词的集合
@@ -93,10 +92,6 @@ public class FindLadders {
          */
         String[] alphabet = new String[26];
         Queue<List<String>> queue = new LinkedList<>();
-        /**
-         * 是否找到了单词接龙转换序列
-         */
-        boolean findShortest = false;
         /**
          * 当前已经使用过的单词的集合，每一轮循环都不使用前面循环已经接过的单词，否则到该单词为止，这轮
          * 循环过后的单词序列的长度一定大于前面循环的单词序列的长度，必然不满足最短转换序列的要求
@@ -152,56 +147,36 @@ public class FindLadders {
                  */
                 Set<String> transformedWords = transformMap.get(last);
                 /**
-                 * 如果在这轮循环中前面已经有某个单词序列找到了单词接龙转换序列，如果当前单词序列后面
-                 * 不能接endWord，则当前单词序列的长度就不会是最短的，不需要再讨论这个单词序列
-                 */
-                if (findShortest && !transformedWords.contains(endWord)) {
-                    continue;
-                }
-                /**
-                 * 如果最后一个单词可以接endWord，则直接接endWord，这可以保证是一个最短单词接龙转换
-                 * 序列
+                 * 如果最后一个单词能接endWord，则已经找到了一个符合条件的转换序列
                  */
                 if (transformedWords.contains(endWord)) {
                     list.add(endWord);
-                    result.add(list);
-                    /**
-                     * 标记已经找到了一个最短单词接龙转换序列，这样该轮循环之后再添加单词的单词序列
-                     * 长度一定超过这个最短单词接龙转换序列的长度，所以不需要再继续添加单词讨论了
-                     */
-                    findShortest = true;
-                } else {
-                    /**
-                     * 如果最后一个单词不能接endWord，尝试在还没有使用过单词字典集合找一个单词接上，
-                     * 将新的单词序列加入队列中
-                     */
-                    for (String transformedWord : transformedWords) {
-                        if (isUsed.contains(transformedWord)) {
-                            continue;
-                        }
-
-                        List<String> list1 = new ArrayList<>(list);
-                        list1.add(transformedWord);
-                        queue.offer(list1);
-                        /**
-                         * 将接上的单词加入这轮循环接的所有单词的集合
-                         */
-                        usedWords.add(transformedWord);
+                    return list;
+                }
+                /**
+                 * 如果最后一个单词不能接endWord，尝试在还没有使用过单词字典集合找一个单词接上，
+                 * 将新的单词序列加入队列中
+                 */
+                for (String transformedWord : transformedWords) {
+                    if (isUsed.contains(transformedWord)) {
+                        continue;
                     }
+
+                    List<String> list1 = new ArrayList<>(list);
+                    list1.add(transformedWord);
+                    queue.offer(list1);
+                    /**
+                     * 将接上的单词加入这轮循环接的所有单词的集合
+                     */
+                    usedWords.add(transformedWord);
                 }
             }
             /**
              * 将这轮循环接的所有单词的集合加入到当前已经使用过的单词的集合中
              */
             isUsed.addAll(usedWords);
-            /**
-             * 如果这轮循环已经找到过最短转换序列，则直接返回结果
-             */
-            if (findShortest) {
-                return result;
-            }
         }
-        return result;
+        return Collections.emptyList();
     }
 
     /**
