@@ -1133,6 +1133,7 @@
 * [2027. Minimum Moves to Convert String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves1.java)
 * [2028. Find Missing Observations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingRolls.java)
 * [2047. Number of Valid Words in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidWords.java)
+* [2075. Decode the Slanted Ciphertext](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeCiphertext.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
