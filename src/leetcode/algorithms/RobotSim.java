@@ -10,6 +10,7 @@ import java.util.Map;
  *
  * @author Baltan
  * @date 2019-03-18 11:06
+ * @see Robot1
  */
 public class RobotSim {
     public static void main(String[] args) {
