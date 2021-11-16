@@ -1133,6 +1133,7 @@
 * [2027. Minimum Moves to Convert String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves1.java)
 * [2028. Find Missing Observations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingRolls.java)
 * [2047. Number of Valid Words in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidWords.java)
+* [2070. Most Beautiful Item for Each Query](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumBeauty.java)
 * [2073. Time Needed to Buy Tickets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TimeRequiredToBuy.java)
 * [2074. Reverse Nodes in Even Length Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseEvenLengthGroups.java)
 * [2075. Decode the Slanted Ciphertext](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeCiphertext.java)
