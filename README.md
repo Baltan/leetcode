@@ -1133,6 +1133,7 @@
 * [2027. Minimum Moves to Convert String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves1.java)
 * [2028. Find Missing Observations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingRolls.java)
 * [2047. Number of Valid Words in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidWords.java)
+* [2057. Smallest Index With Equal Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestEqual.java)
 * [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NodesBetweenCriticalPoints.java)
 * [2059. Minimum Operations to Convert Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations.java)
 * [2062. Count Vowel Substrings of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountVowelSubstrings.java)
