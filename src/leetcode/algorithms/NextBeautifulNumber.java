@@ -1,8 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Description: 2048. Next Greater Numerically Balanced Number
  *
@@ -19,20 +16,14 @@ public class NextBeautifulNumber {
     }
 
     public static int nextBeautifulNumber(int n) {
-        List<Integer> beautifulNumberList = new ArrayList<>();
-
-        for (int i = 1; ; i++) {
+        /**
+         * 从n+1开始逐一尝试，直到找到第一个数值平衡数
+         */
+        for (int i = n + 1; ; i++) {
             if (isBeautifulNumber(i)) {
-                beautifulNumberList.add(i);
-                /**
-                 * 因为题意说明n范围为[0,1000000]，所以找到第一个大于1000000的数值平衡数为止即可
-                 */
-                if (i > 1000000) {
-                    break;
-                }
+                return i;
             }
         }
-        return binarySearch(n, beautifulNumberList);
     }
 
     /**
@@ -62,28 +53,5 @@ public class NextBeautifulNumber {
             }
         }
         return true;
-    }
-
-    /**
-     * 在beautifulNumberList中二分查找严格大于n的第一个数字
-     *
-     * @param n
-     * @param beautifulNumberList
-     * @return
-     */
-    public static int binarySearch(int n, List<Integer> beautifulNumberList) {
-        int lo = 0;
-        int hi = beautifulNumberList.size();
-
-        while (lo < hi) {
-            int mid = (lo + hi) / 2;
-
-            if (beautifulNumberList.get(mid) <= n) {
-                lo = mid + 1;
-            } else {
-                hi = mid;
-            }
-        }
-        return beautifulNumberList.get(lo);
     }
 }
