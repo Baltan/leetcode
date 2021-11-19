@@ -1132,6 +1132,7 @@
 * [2023. Number of Pairs of Strings With Concatenation Equal to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfPairs.java)
 * [2027. Minimum Moves to Convert String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves1.java)
 * [2028. Find Missing Observations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingRolls.java)
+* [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WinnerOfGame.java)
 * [2042. Check if Numbers Are Ascending in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreNumbersAscending.java)
 * [2043. Simple Bank System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Bank.java)
 * [2047. Number of Valid Words in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidWords.java)
