@@ -1153,6 +1153,7 @@
 * [2074. Reverse Nodes in Even Length Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseEvenLengthGroups.java)
 * [2075. Decode the Slanted Ciphertext](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeCiphertext.java)
 * [2079. Watering Plants](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WateringPlants.java)
+* [2080. Range Frequency Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeFreqQuery.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
