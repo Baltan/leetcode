@@ -1152,6 +1152,7 @@
 * [2073. Time Needed to Buy Tickets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TimeRequiredToBuy.java)
 * [2074. Reverse Nodes in Even Length Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseEvenLengthGroups.java)
 * [2075. Decode the Slanted Ciphertext](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeCiphertext.java)
+* [2078. Two Furthest Houses With Different Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance2.java)
 * [2079. Watering Plants](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WateringPlants.java)
 * [2080. Range Frequency Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeFreqQuery.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
