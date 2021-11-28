@@ -1159,6 +1159,7 @@
 * [2078. Two Furthest Houses With Different Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance2.java)
 * [2079. Watering Plants](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WateringPlants.java)
 * [2080. Range Frequency Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeFreqQuery.java)
+* [2091. Removing Minimum and Maximum From Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDeletions.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
