@@ -1159,6 +1159,7 @@
 * [2078. Two Furthest Houses With Different Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance2.java)
 * [2079. Watering Plants](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WateringPlants.java)
 * [2080. Range Frequency Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeFreqQuery.java)
+* [2086. Minimum Number of Buckets Required to Collect Rainwater from Houses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumBuckets.java)
 * [2087. Minimum Cost Homecoming of a Robot in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost1.java)
 * [2089. Find Target Indices After Sorting Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TargetIndices.java)
 * [2090. K Radius Subarray Averages](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetAverages.java)
