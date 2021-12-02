@@ -1128,6 +1128,7 @@
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [2016. Maximum Difference Between Increasing Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumDifference.java)
 * [2017. Grid Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PlaceWordInCrossword.java)
 * [2018. Check if Word Can Be Placed In Crossword](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GridGame.java)
 * [2022. Convert 1D Array Into 2D Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Construct2DArray.java)
