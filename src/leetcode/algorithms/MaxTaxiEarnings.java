@@ -20,19 +20,39 @@ public class MaxTaxiEarnings {
         System.out.println(maxTaxiEarnings(n2, rides2));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/maximum-earnings-from-taxi/solution/java-dong-tai-gui-hua-by-rational-irrati-86xz/"></a>
+     *
+     * @param n
+     * @param rides
+     * @return
+     */
     public static long maxTaxiEarnings(int n, int[][] rides) {
+        /**
+         * dp[i]表示到达i地点为止的最大盈利
+         */
         long[] dp = new long[n + 1];
-        Arrays.sort(rides, Comparator.comparingInt(x -> x[0]));
+        /**
+         * 将所有乘客信息按照终点升序排列
+         */
+        Arrays.sort(rides, Comparator.comparingInt(x -> x[1]));
+        int index = 0;
 
-        for (int[] ride : rides) {
-            int start = ride[0];
-            int end = ride[1];
-            int tip = ride[2];
-
-            dp[end] = Math.max(dp[end], dp[start] + (end - start + tip));
-
-            for (int i = end + 1; i <= n; i++) {
-                dp[i] = Math.max(dp[i], dp[end]);
+        for (int i = 1; i <= n; i++) {
+            /**
+             * 如果没有乘客到达地点i，则到达地点i的盈利和地点i-1相同
+             */
+            dp[i] = dp[i - 1];
+            /**
+             * 判断所有到达地点i的乘客信息能否使到达i地点为止的盈利更大
+             */
+            while (index < rides.length && rides[index][1] == i) {
+                int start = rides[index][0];
+                int end = rides[index][1];
+                int tip = rides[index][2];
+                dp[i] = Math.max(dp[i], dp[start] + (end - start + tip));
+                index++;
             }
         }
         return dp[n];
