@@ -1173,6 +1173,7 @@
 * [2089. Find Target Indices After Sorting Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TargetIndices.java)
 * [2090. K Radius Subarray Averages](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetAverages.java)
 * [2091. Removing Minimum and Maximum From Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDeletions.java)
+* [2095. Delete the Middle Node of a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteMiddle.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
