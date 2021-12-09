@@ -1129,6 +1129,7 @@
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [2006. Count Number of Pairs With Absolute Difference K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountKDifference.java)
+* [2007. Find Original Array From Doubled Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindOriginalArray.java)
 * [2008. Maximum Earnings From Taxi](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTaxiEarnings.java)
 * [2011. Final Value of Variable After Performing Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FinalValueAfterOperations.java)
 * [2012. Sum of Beauty in the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfBeauties.java)
