@@ -1128,6 +1128,7 @@
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [2000. Reverse Prefix of Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReversePrefix.java)
 * [2001. Number of Pairs of Interchangeable Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InterchangeableRectangles.java)
 * [2006. Count Number of Pairs With Absolute Difference K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountKDifference.java)
 * [2007. Find Original Array From Doubled Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindOriginalArray.java)
