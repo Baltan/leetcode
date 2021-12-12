@@ -1178,6 +1178,7 @@
 * [2091. Removing Minimum and Maximum From Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDeletions.java)
 * [2094. Finding 3-Digit Even Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindEvenNumbers.java)
 * [2095. Delete the Middle Node of a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteMiddle.java)
+* [2104. Sum of Subarray Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubArrayRanges.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
