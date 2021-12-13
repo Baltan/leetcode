@@ -1059,6 +1059,7 @@
 * [1441. Build an Array With Stack Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BuildArray.java)
 * [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTriplets1.java)
 * [1443. Minimum Time to Collect All Apples in a Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime.java)
+* [1446. Consecutive Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPower.java)
 * [1447. Simplified Fractions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SimplifiedFractions.java)
 * [1448. Count Good Nodes in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GoodNodes.java)
 * [1449. Form Largest Integer With Digits That Add up to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestNumber1.java)
