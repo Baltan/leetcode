@@ -60,8 +60,21 @@ public class MaximumDetonation {
     public static int maximumDetonation(int[][] bombs) {
         int result = 0;
         int length = bombs.length;
+        /**
+         * i -> [j -> distance] 表示bombs[i]和bombs[j]根据勾股定理计算的距离
+         */
         Map<Integer, Map<Integer, Double>> distanceMap = new HashMap<>();
-
+        /**
+         * 将bombs按照爆炸半径从大到小排序，因为爆炸半径大的可能比爆炸半径小的能引爆更多的炸弹，所以优先判断
+         */
+        Arrays.sort(bombs, (x, y) -> y[2] - x[2]);
+        /**
+         * isVisited[i]表示bombs[i]是否被引爆过，避免重复计算
+         */
+        boolean[] isVisited = new boolean[length];
+        /**
+         * 计算任意两个炸弹之间的距离
+         */
         for (int i = 0; i < length; i++) {
             for (int j = i + 1; j < length; j++) {
                 double distance =
@@ -75,8 +88,14 @@ public class MaximumDetonation {
         }
 
         for (int i = 0; i < length; i++) {
+            if (isVisited[i]) {
+                continue;
+            }
+            /**
+             * 开始引爆bombs[i]，isDetonated[x]表示bombs[x]最终被引爆
+             */
             boolean[] isDetonated = new boolean[length];
-            detonateBombs(isDetonated, distanceMap, bombs, Arrays.asList(i));
+            detonateBombs(isVisited, isDetonated, distanceMap, bombs, Arrays.asList(i));
             int count = 0;
 
             for (boolean bool : isDetonated) {
@@ -90,20 +109,28 @@ public class MaximumDetonation {
     }
 
     /**
-     * 引爆bombs中索引位置的炸弹
+     * 递归计算bombs中索引位置的炸弹被引爆后，可以继续引爆的所有炸弹
      *
+     * @param isVisited
      * @param isDetonated
      * @param distanceMap
      * @param bombs
      * @param startBombs
      * @return
      */
-    public static void detonateBombs(boolean[] isDetonated, Map<Integer, Map<Integer, Double>> distanceMap,
-                                     int[][] bombs, List<Integer> startBombs) {
+    public static void detonateBombs(boolean[] isVisited, boolean[] isDetonated,
+                                     Map<Integer, Map<Integer, Double>> distanceMap, int[][] bombs,
+                                     List<Integer> startBombs) {
         for (int startBomb : startBombs) {
+            /**
+             * 保存bombs[startBomb]爆炸后，可以直接引爆的炸弹的索引
+             */
             List<Integer> nextBombs = new ArrayList<>();
             isDetonated[startBomb] = true;
-
+            isVisited[startBomb] = true;
+            /**
+             * 当只有一个炸弹时可能会存在这种情况
+             */
             if (!distanceMap.containsKey(startBomb)) {
                 continue;
             }
@@ -111,12 +138,17 @@ public class MaximumDetonation {
             for (Map.Entry<Integer, Double> entry : distanceMap.get(startBomb).entrySet()) {
                 int otherBomb = entry.getKey();
                 double distance = entry.getValue();
-
+                /**
+                 * 当另一个炸弹和当前炸弹圆心的距离不大于当前炸弹的爆炸半径时，另一个炸弹会被引爆
+                 */
                 if (!isDetonated[otherBomb] && distance <= bombs[startBomb][2]) {
                     nextBombs.add(otherBomb);
                 }
             }
-            detonateBombs(isDetonated, distanceMap, bombs, nextBombs);
+            /**
+             * 递归计算
+             */
+            detonateBombs(isVisited, isDetonated, distanceMap, bombs, nextBombs);
         }
     }
 }
