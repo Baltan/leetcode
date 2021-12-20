@@ -1185,6 +1185,7 @@
 * [2103. Rings and Rods](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPoints.java)
 * [2104. Sum of Subarray Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubArrayRanges.java)
 * [2105. Watering Plants II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRefill.java)
+* [2110. Number of Smooth Descent Periods of a Stock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDescentPeriods.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
