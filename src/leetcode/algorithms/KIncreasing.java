@@ -8,6 +8,7 @@ package leetcode.algorithms;
  */
 public class KIncreasing {
     public static void main(String[] args) {
+        System.out.println(kIncreasing(new int[]{2, 2, 2, 2, 2, 1, 1, 4, 4, 3, 3, 3, 3, 3}, 1));
         System.out.println(kIncreasing(new int[]{4, 1, 5, 2, 6, 2}, 2));
         System.out.println(kIncreasing(new int[]{5, 4, 3, 2, 1}, 1));
         System.out.println(kIncreasing(new int[]{4, 1, 5, 2, 6, 2}, 3));
@@ -44,7 +45,7 @@ public class KIncreasing {
                 startIndex += k;
             }
             /**
-             * 子数组的长度减去最长非严格递增子数组的长度即为当前子数组需要修改数字的操作次数
+             * 子数组的长度减去最长非严格递增子数组的长度即为当前子数组需要修改数字的最小操作次数
              */
             result += length - lengthOfLIS(subArr);
         }
@@ -53,6 +54,8 @@ public class KIncreasing {
 
     /**
      * 查询数组nums的最长非严格递增子数组
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-by-leetcode-soluti/"></a>
      *
      * @param nums
      * @return
@@ -61,30 +64,55 @@ public class KIncreasing {
     public static int lengthOfLIS(int[] nums) {
         int length = nums.length;
         /**
-         * dp[i]表示子数组nums.subarray(0,i+1)的最长上升子序列的长度
+         * d[i]表示长度为i的非严格递增子数组的最后一个元素的大小
          */
-        int[] dp = new int[length];
-        dp[0] = 1;
-        int result = 1;
+        int[] d = new int[length + 1];
+        /**
+         * 非严格递增子数组的长度
+         */
+        int lengthOfLIS = 1;
+        /**
+         * 数组nums的第一个元素构成一个长度为1的非严格递增子数组
+         */
+        d[1] = nums[0];
 
         for (int i = 1; i < length; i++) {
             /**
-             * 子数组nums.subarray(0,i+1)的最长上升子序列的长度至少为1，即nums[i]小于前面所有值
+             * 如果nums[i]大于等于非严格递增子数组d中的最后一个元素，则可以使非严格递增子数组的长度增加1，否则通过二分查找得到
+             * 非严格递增子数组中第一个大于nums[i]的数字，用nums[i]替换这个数字，使得非严格递增子数组中的数字尽可能小，从而后
+             * 面拼接得到更长非严格递增子数组的概率更大
              */
-            dp[i] = 1;
-
-            for (int j = i - 1; j >= 0; j--) {
-                /**
-                 * 如果nums[i]大于前面的某个值nums[j]，则nums[i]可以跟在以nums[j]结尾的最长上升子
-                 * 序列的后面，构成一个长度为dp[j]+1的最长上升子序列，如果这个最长上升子序列的长度大
-                 * 于当前的dp[i]，就更新dp[i]
-                 */
-                if (nums[i] >= nums[j]) {
-                    dp[i] = Math.max(dp[i], dp[j] + 1);
-                    result = Math.max(result, dp[i]);
-                }
+            if (nums[i] >= d[lengthOfLIS]) {
+                lengthOfLIS++;
+                d[lengthOfLIS] = nums[i];
+            } else {
+                int index = binarySearch(d, lengthOfLIS, nums[i]);
+                d[index] = nums[i];
             }
         }
-        return result;
+        return lengthOfLIS;
+    }
+
+    /**
+     * 在数组d中找到第一个比target大的数，返回索引位置
+     *
+     * @param d
+     * @param hi
+     * @param target
+     * @return
+     */
+    public static int binarySearch(int[] d, int hi, int target) {
+        int lo = 1;
+
+        while (lo < hi) {
+            int mid = (lo + hi) / 2;
+
+            if (d[mid] <= target) {
+                lo = mid + 1;
+            } else {
+                hi = mid;
+            }
+        }
+        return lo;
     }
 }
