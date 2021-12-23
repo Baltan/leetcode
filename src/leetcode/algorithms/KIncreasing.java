@@ -60,6 +60,7 @@ public class KIncreasing {
      * @param nums
      * @return
      * @see LengthOfLIS
+     * @see LengthOfLIS1
      */
     public static int lengthOfLIS(int[] nums) {
         int length = nums.length;
