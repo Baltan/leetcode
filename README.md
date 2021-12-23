@@ -1,5 +1,7 @@
 # 我的leetcode习题集
+
 ## 目录
+
 * [1. Two Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSum.java)
 * [2. Add Two Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddTwoNumbers.java)
 * [3. Longest Substring Without Repeating Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LengthOfLongestSubstring.java)
@@ -1188,6 +1190,7 @@
 * [2108. Find First Palindromic String in the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstPalindrome.java)
 * [2109. Adding Spaces to a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddSpaces.java)
 * [2110. Number of Smooth Descent Periods of a Stock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDescentPeriods.java)
+* [2111. Minimum Operations to Make the Array K-Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KIncreasing.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
