@@ -5,6 +5,8 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2020-02-01 13:10
+ * @see LengthOfLIS1
+ * @see KIncreasing
  */
 public class LengthOfLIS {
     public static void main(String[] args) {
