@@ -1133,6 +1133,7 @@
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [2000. Reverse Prefix of Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReversePrefix.java)
 * [2001. Number of Pairs of Interchangeable Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InterchangeableRectangles.java)
+* [2002. Maximum Product of the Length of Two Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct3.java)
 * [2006. Count Number of Pairs With Absolute Difference K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountKDifference.java)
 * [2007. Find Original Array From Doubled Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindOriginalArray.java)
 * [2008. Maximum Earnings From Taxi](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTaxiEarnings.java)
