@@ -1196,6 +1196,7 @@
 * [2115. Find All Possible Recipes from Given Supplies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindAllRecipes.java)
 * [2116. Check if a Parentheses String Can Be Valid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeValid.java)
 * [2120. Execution of All Suffix Instructions Staying in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExecuteInstructions.java)
+* [2121. Intervals Between Identical Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDistances.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
