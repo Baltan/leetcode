@@ -1195,6 +1195,7 @@
 * [2114. Maximum Number of Words Found in Sentences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostWordsFound.java)
 * [2115. Find All Possible Recipes from Given Supplies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindAllRecipes.java)
 * [2116. Check if a Parentheses String Can Be Valid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeValid.java)
+* [2119. A Number After a Double Reversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSameAfterReversals.java)
 * [2120. Execution of All Suffix Instructions Staying in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExecuteInstructions.java)
 * [2121. Intervals Between Identical Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDistances.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
