@@ -23,6 +23,13 @@ public class FindSquare {
         OutputUtils.print1DIntegerArray(findSquare(matrix4));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/max-black-square-lcci/solution/a-fei-suan-fa-mian-shi-ti-1723-zui-da-he-lap0/"></a>
+     *
+     * @param matrix
+     * @return
+     */
     public static int[] findSquare(int[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return new int[]{};
