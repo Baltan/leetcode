@@ -7,6 +7,7 @@ import java.util.Arrays;
  *
  * @author Baltan
  * @date 2022/1/5 09:11
+ * @see AsteroidsDestroyed1
  */
 public class AsteroidsDestroyed {
     public static void main(String[] args) {
