@@ -1200,6 +1200,7 @@
 * [2121. Intervals Between Identical Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDistances.java)
 * [2122. Recover the Original Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RecoverArray.java)
 * [2125. Number of Laser Beams in a Bank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfBeams.java)
+* [2126. Destroying Asteroids](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AsteroidsDestroyed.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
