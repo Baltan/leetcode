@@ -1302,6 +1302,7 @@
 * [面试题 17.16. 按摩师](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Massage.java)
 * [面试题 17.21. 直方图的水量](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Trap.java)
 * [面试题 17.22. 单词转换](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindLadders1.java)
+* [面试题 17.23. 最大黑方阵](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindSquare.java)
 * [面试题 17.26. 稀疏相似度](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ComputeSimilarities.java)
 * [剑指 Offer 09. 用两个栈实现队列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CQueue.java)
 * [剑指 Offer 11. 旋转数组的最小数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MinArray.java)
