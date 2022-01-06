@@ -1301,6 +1301,7 @@
 * [面试题 17.01. 不用加号的加法](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Add.java)
 * [面试题 17.13. 恢复空格](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Respace.java)
 * [面试题 17.16. 按摩师](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Massage.java)
+* [面试题 17.17. 多次搜索](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MultiSearch.java)
 * [面试题 17.18. 最短超串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ShortestSeq.java)
 * [面试题 17.21. 直方图的水量](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Trap.java)
 * [面试题 17.22. 单词转换](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindLadders1.java)
