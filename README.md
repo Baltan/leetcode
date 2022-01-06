@@ -1199,6 +1199,7 @@
 * [2120. Execution of All Suffix Instructions Staying in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExecuteInstructions.java)
 * [2121. Intervals Between Identical Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDistances.java)
 * [2122. Recover the Original Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RecoverArray.java)
+* [2124. Check if All A's Appears Before All B's](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckString.java)
 * [2125. Number of Laser Beams in a Bank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfBeams.java)
 * [2126. Destroying Asteroids](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AsteroidsDestroyed.java)
 * [2126. Destroying Asteroids](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AsteroidsDestroyed1.java)
