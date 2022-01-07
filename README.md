@@ -1137,6 +1137,7 @@
 * [2006. Count Number of Pairs With Absolute Difference K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountKDifference.java)
 * [2007. Find Original Array From Doubled Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindOriginalArray.java)
 * [2008. Maximum Earnings From Taxi](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTaxiEarnings.java)
+* [2009. Minimum Number of Operations to Make Array Continuous](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations3.java)
 * [2011. Final Value of Variable After Performing Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FinalValueAfterOperations.java)
 * [2012. Sum of Beauty in the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfBeauties.java)
 * [2013. Detect Squares](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DetectSquares.java)
