@@ -1217,6 +1217,7 @@
 * [LCP 08. 剧情触发时间](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTriggerTime.java)
 * [LCP 11. 期望个数统计](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExpectNumber.java)
 * [LCP 12. 小张刷题计划](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime1.java)
+* [LCS 03. 主题空间](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestArea.java)
 * [面试题 01.01. 判定字符是否唯一](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsUnique.java)
 * [面试题 01.02. 判定是否互为字符重排](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CheckPermutation.java)
 * [面试题 01.03. URL化](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ReplaceSpaces.java)
