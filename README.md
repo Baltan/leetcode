@@ -1218,6 +1218,7 @@
 * [LCP 08. 剧情触发时间](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTriggerTime.java)
 * [LCP 11. 期望个数统计](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExpectNumber.java)
 * [LCP 12. 小张刷题计划](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime1.java)
+* [LCP 17. 速算机器人](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Calculate2.java)
 * [LCS 01. 下载插件](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LeastMinutes.java)
 * [LCS 02. 完成一半题目](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HalfQuestions.java)
 * [LCS 03. 主题空间](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestArea.java)
