@@ -1204,6 +1204,7 @@
 * [2125. Number of Laser Beams in a Bank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfBeams.java)
 * [2126. Destroying Asteroids](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AsteroidsDestroyed.java)
 * [2126. Destroying Asteroids](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AsteroidsDestroyed1.java)
+* [2129. Capitalize the Title](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CapitalizeTitle.java)
 * [2130. Maximum Twin Sum of a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PairSum.java)
 * [2131. Longest Palindrome by Concatenating Two Letter Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome2.java)
 * [2133. Check if Every Row and Column Contains All Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckValid.java)
