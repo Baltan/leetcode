@@ -1131,6 +1131,7 @@
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1995. Count Special Quadruplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountQuadruplets.java)
 * [1996. The Number of Weak Characters in the Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWeakCharacters.java)
 * [2000. Reverse Prefix of Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReversePrefix.java)
 * [2001. Number of Pairs of Interchangeable Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InterchangeableRectangles.java)
