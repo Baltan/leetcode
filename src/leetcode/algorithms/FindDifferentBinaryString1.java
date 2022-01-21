@@ -25,6 +25,7 @@ public class FindDifferentBinaryString1 {
         int length = nums.length;
         char[] charArray = new char[length];
         /**
+         * 康托尔对角线
          * charArray的第i个字符总是和nums中的第i个字符串的第i个字符不同，从而保证charArray和nums中的所有二进制字符串都不同
          */
         for (int i = 0; i < length; i++) {
