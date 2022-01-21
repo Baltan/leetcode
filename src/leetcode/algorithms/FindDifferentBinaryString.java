@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
  *
  * @author Baltan
  * @date 2022/1/21 10:19
+ * @see FindDifferentBinaryString1
  */
 public class FindDifferentBinaryString {
     public static void main(String[] args) {
