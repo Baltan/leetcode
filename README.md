@@ -1131,6 +1131,7 @@
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1980. Find Unique Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDifferentBinaryString.java)
 * [1984. Minimum Difference Between Highest and Lowest of K Scores](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDifference.java)
 * [1985. Find the Kth Largest Integer in the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthLargestNumber.java)
 * [1991. Find the Middle Index in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMiddleIndex.java)
