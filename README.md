@@ -1225,6 +1225,7 @@
 * [2138. Divide a String Into Groups of Size k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DivideString.java)
 * [2139. Minimum Moves to Reach Target Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves1.java)
 * [2140. Solving Questions With Brainpower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostPoints.java)
+* [2144. Minimum Cost of Buying Candies With Discount](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost.java)
 * [2145. Count the Hidden Sequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfArrays.java)
 * [2146. K Highest Ranked Items Within a Price Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HighestRankedKItems.java)
 * [2148. Count Elements With Strictly Smaller and Greater Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountElements.java)
