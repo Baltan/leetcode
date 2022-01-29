@@ -1131,6 +1131,7 @@
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1967. Number of Strings That Appear as Substrings in Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfStrings.java)
 * [1968. Array With Elements Not Equal to Average of Neighbors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeArray1.java)
 * [1969. Minimum Non-Zero Product of the Array Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinNonZeroProduct.java)
 * [1971. Find if Path Exists in Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPath.java)
