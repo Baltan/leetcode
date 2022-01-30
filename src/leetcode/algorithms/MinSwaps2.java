@@ -13,6 +13,13 @@ public class MinSwaps2 {
         System.out.println(minSwaps("[]"));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode-cn.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/solution/go-tan-xin-by-endlesscheng-7h9n/"></a>
+     *
+     * @param s
+     * @return
+     */
     public static int minSwaps(String s) {
         int result = 0;
         /**
