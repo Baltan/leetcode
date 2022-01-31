@@ -1130,6 +1130,7 @@
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
+* [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1963. Minimum Number of Swaps to Make the String Balanced](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps2.java)
 * [1967. Number of Strings That Appear as Substrings in Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfStrings.java)
