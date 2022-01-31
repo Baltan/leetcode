@@ -1236,6 +1236,7 @@
 * [2148. Count Elements With Strictly Smaller and Greater Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountElements.java)
 * [2149. Rearrange Array Elements by Sign](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeArray.java)
 * [2150. Find All Lonely Numbers in the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLonely.java)
+* [2155. All Divisions With the Highest Score of a Binary Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScoreIndices.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
