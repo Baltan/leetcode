@@ -1132,6 +1132,7 @@
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1958. Check if Move is Legal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckMove.java)
 * [1962. Remove Stones to Minimize the Total](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinStoneSum.java)
 * [1963. Minimum Number of Swaps to Make the String Balanced](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps2.java)
 * [1967. Number of Strings That Appear as Substrings in Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfStrings.java)
