@@ -1132,6 +1132,7 @@
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1953. Maximum Number of Weeks for Which You Can Work](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWeeks.java)
 * [1954. Minimum Garden Perimeter to Collect Enough Apples](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPerimeter.java)
 * [1957. Delete Characters to Make Fancy String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeFancyString.java)
 * [1958. Check if Move is Legal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckMove.java)
