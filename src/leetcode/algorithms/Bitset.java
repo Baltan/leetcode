@@ -9,17 +9,36 @@ import java.util.Arrays;
  * @date 2022/2/9 17:24
  */
 public class Bitset {
+    /**
+     * 保存每一位的值
+     */
     private char[] value;
+    /**
+     * 保存每一位翻转后的值
+     */
+    private char[] reversedValue;
+    /**
+     * 用于交换value和reversedValue
+     */
+    private char[] tempValue;
+    /**
+     * value中值为0的位数
+     */
     private int zeroCount;
+    /**
+     * value中值为1的位数
+     */
     private int oneCount;
     private static final char ZERO_BIT = '0';
     private static final char ONE_BIT = '1';
 
     public Bitset(int size) {
         value = new char[size];
+        reversedValue = new char[size];
         zeroCount = size;
         oneCount = 0;
         Arrays.fill(value, ZERO_BIT);
+        Arrays.fill(reversedValue, ONE_BIT);
     }
 
     /**
@@ -30,6 +49,7 @@ public class Bitset {
     public void fix(int idx) {
         if (value[idx] != ONE_BIT) {
             value[idx] = ONE_BIT;
+            reversedValue[idx] = ZERO_BIT;
             oneCount++;
             zeroCount--;
         }
@@ -43,6 +63,7 @@ public class Bitset {
     public void unfix(int idx) {
         if (value[idx] != ZERO_BIT) {
             value[idx] = ZERO_BIT;
+            reversedValue[idx] = ONE_BIT;
             oneCount--;
             zeroCount++;
         }
@@ -52,13 +73,18 @@ public class Bitset {
      * 如果某位为0，则设置为1；如果某位为1，则设置为0
      */
     public void flip() {
+        /**
+         * 交换值为0的位数和值为1的位数
+         */
         int temp = oneCount;
         oneCount = zeroCount;
         zeroCount = temp;
-
-        for (int i = 0; i < value.length; i++) {
-            value[i] = value[i] == ONE_BIT ? ZERO_BIT : ONE_BIT;
-        }
+        /**
+         * 交换value和reversedValue，相当于把value中的每一位翻转
+         */
+        tempValue = value;
+        value = reversedValue;
+        reversedValue = tempValue;
     }
 
     /**
