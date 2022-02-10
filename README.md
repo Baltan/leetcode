@@ -1135,6 +1135,7 @@
 * [1952. Three Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsThree.java)
 * [1953. Maximum Number of Weeks for Which You Can Work](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWeeks.java)
 * [1954. Minimum Garden Perimeter to Collect Enough Apples](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPerimeter.java)
+* [1955. Count Number of Special Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSpecialSubsequences.java)
 * [1957. Delete Characters to Make Fancy String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeFancyString.java)
 * [1958. Check if Move is Legal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckMove.java)
 * [1959. Minimum Total Space Wasted With K Resizing Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSpaceWastedKResizing.java)
