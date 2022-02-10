@@ -1249,6 +1249,7 @@
 * [2154. Keep Multiplying Found Values by Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindFinalValue.java)
 * [2155. All Divisions With the Highest Score of a Binary Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScoreIndices.java)
 * [2156. Find Substring With Given Hash Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubStrHash.java)
+* [2164. Sort Even and Odd Indices Independently](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortEvenOdd.java)
 * [2166. Design Bitset](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Bitset.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
