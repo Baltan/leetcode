@@ -1,4 +1,4 @@
-# 我的leetcode习题集
+# 我的leetcode题解
 
 ## 目录
 
@@ -1252,6 +1252,7 @@
 * [2164. Sort Even and Odd Indices Independently](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortEvenOdd.java)
 * [2165. Smallest Value of the Rearranged Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestNumber.java)
 * [2166. Design Bitset](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Bitset.java)
+* [2167. Minimum Time to Remove All Cars Containing Illegal Goods](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTime.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
