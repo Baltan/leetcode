@@ -1249,6 +1249,7 @@
 * [2154. Keep Multiplying Found Values by Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindFinalValue.java)
 * [2155. All Divisions With the Highest Score of a Binary Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScoreIndices.java)
 * [2156. Find Substring With Given Hash Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubStrHash.java)
+* [2161. Partition Array According to Given Pivot](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotArray.java)
 * [2164. Sort Even and Odd Indices Independently](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortEvenOdd.java)
 * [2165. Smallest Value of the Rearranged Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestNumber.java)
 * [2166. Design Bitset](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Bitset.java)
