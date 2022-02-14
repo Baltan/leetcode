@@ -1251,6 +1251,7 @@
 * [2156. Find Substring With Given Hash Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubStrHash.java)
 * [2161. Partition Array According to Given Pivot](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotArray.java)
 * [2162. Minimum Cost to Set Cooking Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCostSetTime.java)
+* [2163. Minimum Difference in Sums After Removal of Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDifference1.java)
 * [2164. Sort Even and Odd Indices Independently](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortEvenOdd.java)
 * [2165. Smallest Value of the Rearranged Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestNumber.java)
 * [2166. Design Bitset](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Bitset.java)
