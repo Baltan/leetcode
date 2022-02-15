@@ -1249,6 +1249,7 @@
 * [2154. Keep Multiplying Found Values by Two](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindFinalValue.java)
 * [2155. All Divisions With the Highest Score of a Binary Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScoreIndices.java)
 * [2156. Find Substring With Given Hash Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubStrHash.java)
+* [2160. Minimum Sum of Four Digit Number After Splitting Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSum.java)
 * [2161. Partition Array According to Given Pivot](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotArray.java)
 * [2162. Minimum Cost to Set Cooking Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCostSetTime.java)
 * [2163. Minimum Difference in Sums After Removal of Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDifference1.java)
