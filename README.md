@@ -1132,6 +1132,7 @@
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1944. Number of Visible People in a Queue](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanSeePersonsCount.java)
 * [1946. Largest Number After Mutating Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumNumber.java)
 * [1952. Three Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsThree.java)
 * [1953. Maximum Number of Weeks for Which You Can Work](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWeeks.java)
