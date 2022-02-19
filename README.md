@@ -1134,6 +1134,7 @@
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1942. The Number of the Smallest Unoccupied Chair](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestChair.java)
 * [1944. Number of Visible People in a Queue](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanSeePersonsCount.java)
+* [1945. Sum of Digits of String After Convert](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetLucky.java)
 * [1946. Largest Number After Mutating Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumNumber.java)
 * [1952. Three Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsThree.java)
 * [1953. Maximum Number of Weeks for Which You Can Work](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWeeks.java)
