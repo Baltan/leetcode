@@ -1133,6 +1133,7 @@
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1937. Maximum Number of Points with Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints2.java)
+* [1941. Check if All Characters Have Equal Number of Occurrences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreOccurrencesEqual.java)
 * [1942. The Number of the Smallest Unoccupied Chair](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestChair.java)
 * [1944. Number of Visible People in a Queue](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanSeePersonsCount.java)
 * [1945. Sum of Digits of String After Convert](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetLucky.java)
