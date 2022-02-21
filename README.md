@@ -1266,6 +1266,7 @@
 * [2169. Count Operations to Obtain Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOperations.java)
 * [2170. Minimum Operations to Make the Array Alternating](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRemoval1.java)
 * [2171. Removing Minimum Number of Magic Beans](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRemoval.java)
+* [2181. Merge Nodes in Between Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeNodes.java)
 * [2182. Construct String With Repeat Limit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatLimitedString.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
