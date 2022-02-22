@@ -1372,6 +1372,7 @@
 * [面试题 16.24. 数对和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PairSums1.java)
 * [面试题 16.26. 计算器](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Calculate.java)
 * [面试题 17.01. 不用加号的加法](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Add.java)
+* [面试题 17.09. 第 k 个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetKthMagicNumber.java)
 * [面试题 17.13. 恢复空格](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Respace.java)
 * [面试题 17.16. 按摩师](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Massage.java)
 * [面试题 17.17. 多次搜索](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MultiSearch.java)
