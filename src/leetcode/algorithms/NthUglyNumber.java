@@ -9,6 +9,7 @@ import java.util.List;
  * @author Baltan
  * @date 2019-06-13 10:39
  * @see NthSuperUglyNumber
+ * @see leetcode.interview.GetKthMagicNumber
  */
 public class NthUglyNumber {
     public static void main(String[] args) {
