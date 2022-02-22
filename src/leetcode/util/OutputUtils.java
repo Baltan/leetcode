@@ -27,6 +27,18 @@ public class OutputUtils {
     }
 
     /**
+     * 打印一维长整型数组
+     *
+     * @param arr
+     */
+    public static void print1DLongArray(long[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + "\t");
+        }
+        System.out.println();
+    }
+
+    /**
      * 打印一维double类型数组
      *
      * @param arr
