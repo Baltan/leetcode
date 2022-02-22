@@ -19,12 +19,6 @@ public class MaximumEvenSplit {
     }
 
     /**
-     * 2+4+6+……+2n
-     * =2*(1+2+3+……+n)
-     * =2*(1+n)*n/2
-     * =n*(1+n)
-     * >n^2
-     *
      * @param finalSum
      * @return
      */
