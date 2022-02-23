@@ -7,6 +7,7 @@ import java.util.LinkedHashMap;
  *
  * @author Baltan
  * @date 2019-05-31 17:05
+ * @see leetcode.interview.LRUCache
  */
 public class LRUCache {
     private LinkedHashMap<Integer, Integer> map;
