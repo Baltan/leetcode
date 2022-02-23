@@ -1379,6 +1379,7 @@
 * [面试题 17.09. 第 k 个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetKthMagicNumber.java)
 * [面试题 17.12. BiNode](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ConvertBiNode.java)
 * [面试题 17.13. 恢复空格](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Respace.java)
+* [面试题 17.14. 最小K个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SmallestK.java)
 * [面试题 17.16. 按摩师](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Massage.java)
 * [面试题 17.17. 多次搜索](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MultiSearch.java)
 * [面试题 17.18. 最短超串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ShortestSeq.java)
