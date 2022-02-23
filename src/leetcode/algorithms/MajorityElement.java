@@ -8,6 +8,8 @@ import java.util.Map;
  *
  * @author Baltan
  * @date 2017/11/7 16:10
+ * @see MajorityElement1
+ * @see leetcode.interview.MajorityElement
  */
 public class MajorityElement {
     public static void main(String[] args) {
