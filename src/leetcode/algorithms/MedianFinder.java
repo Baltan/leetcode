@@ -8,6 +8,7 @@ import java.util.List;
  *
  * @author Baltan
  * @date 2019-08-07 11:01
+ * @see leetcode.interview.MedianFinder
  */
 public class MedianFinder {
     private List<Integer> list;
