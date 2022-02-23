@@ -1371,6 +1371,7 @@
 * [面试题 16.21. 交换和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/FindSwapValues.java)
 * [面试题 16.24. 数对和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PairSums.java)
 * [面试题 16.24. 数对和](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/PairSums1.java)
+* [面试题 16.25. LRU 缓存](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/LRUCache.java)
 * [面试题 16.26. 计算器](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Calculate.java)
 * [面试题 17.01. 不用加号的加法](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Add.java)
 * [面试题 17.07. 婴儿名字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TrulyMostPopular.java)
