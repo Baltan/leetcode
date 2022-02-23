@@ -2,9 +2,10 @@ package leetcode.algorithms;
 
 /**
  * Description: 268. Missing Number
- * @author Baltan
  *
+ * @author Baltan
  * @date 2017/11/7 19:41
+ * @see leetcode.interview.MissingNumber
  */
 public class MissingNumber {
     public static void main(String[] args) {
