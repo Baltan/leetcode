@@ -1268,6 +1268,7 @@
 * [2171. Removing Minimum Number of Magic Beans](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRemoval.java)
 * [2177. Find Three Consecutive Integers That Sum to a Given Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfThree.java)
 * [2178. Maximum Split of Positive Even Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumEvenSplit.java)
+* [2180. Count Integers With Even Digit Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountEven.java)
 * [2181. Merge Nodes in Between Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeNodes.java)
 * [2182. Construct String With Repeat Limit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatLimitedString.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
