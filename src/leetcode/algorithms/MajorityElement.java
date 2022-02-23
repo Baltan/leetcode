@@ -10,6 +10,7 @@ import java.util.Map;
  * @date 2017/11/7 16:10
  * @see MajorityElement1
  * @see leetcode.interview.MajorityElement
+ * @see MajorityElement2
  */
 public class MajorityElement {
     public static void main(String[] args) {

@@ -5,6 +5,8 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2017/11/7 16:10
+ * @see MajorityElement
+ * @see leetcode.interview.MajorityElement
  * @see MajorityElement2
  */
 public class MajorityElement1 {
