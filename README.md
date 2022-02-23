@@ -1377,6 +1377,7 @@
 * [面试题 17.04. 消失的数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MissingNumber.java)
 * [面试题 17.07. 婴儿名字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TrulyMostPopular.java)
 * [面试题 17.09. 第 k 个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetKthMagicNumber.java)
+* [面试题 17.10. 主要元素](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MajorityElement.java)
 * [面试题 17.12. BiNode](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/ConvertBiNode.java)
 * [面试题 17.13. 恢复空格](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Respace.java)
 * [面试题 17.14. 最小K个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SmallestK.java)
