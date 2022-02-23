@@ -7,6 +7,7 @@ package leetcode.interview;
  * @date 2022/2/23 18:02
  * @see leetcode.algorithms.MajorityElement
  * @see leetcode.algorithms.MajorityElement1
+ * @see leetcode.algorithms.MajorityElement2
  */
 public class MajorityElement {
     public static void main(String[] args) {
