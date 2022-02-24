@@ -1396,6 +1396,7 @@
 * [剑指 Offer 09. 用两个栈实现队列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CQueue.java)
 * [剑指 Offer 11. 旋转数组的最小数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MinArray.java)
 * [剑指 Offer 20. 表示数值的字符串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsNumber.java)
+* [剑指 Offer II 119. 最长连续序列](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/LongestConsecutive.java)
 * [面试题13. 机器人的运动范围](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MovingCount.java)
 * [面试题29. 顺时针打印矩阵](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SpiralOrder.java)
 * [面试题32 - I. 从上到下打印二叉树](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/LevelOrder.java)
