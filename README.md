@@ -1398,6 +1398,7 @@
 * [剑指 Offer 20. 表示数值的字符串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/IsNumber.java)
 * [面试题13. 机器人的运动范围](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MovingCount.java)
 * [面试题29. 顺时针打印矩阵](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SpiralOrder.java)
+* [面试题32 - I. 从上到下打印二叉树](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/LevelOrder.java)
 * [面试题35. 复杂链表的复制](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/CopyRandomList.java)
 * [面试题40. 最小的k个数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/GetLeastNumbers.java)
 * [面试题46. 把数字翻译成字符串](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TranslateNum.java)
