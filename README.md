@@ -1267,6 +1267,7 @@
 * [2169. Count Operations to Obtain Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOperations.java)
 * [2170. Minimum Operations to Make the Array Alternating](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRemoval1.java)
 * [2171. Removing Minimum Number of Magic Beans](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRemoval.java)
+* [2176. Count Equal and Divisible Pairs in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs.java)
 * [2177. Find Three Consecutive Integers That Sum to a Given Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfThree.java)
 * [2178. Maximum Split of Positive Even Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumEvenSplit.java)
 * [2180. Count Integers With Even Digit Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountEven.java)
