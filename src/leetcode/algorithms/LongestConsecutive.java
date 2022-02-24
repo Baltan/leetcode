@@ -8,6 +8,7 @@ import java.util.Set;
  *
  * @author Baltan
  * @date 2019-05-28 08:52
+ * @see leetcode.interview.LongestConsecutive
  */
 public class LongestConsecutive {
     public static void main(String[] args) {
