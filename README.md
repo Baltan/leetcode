@@ -257,6 +257,7 @@
 * [258. Add Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddDigits.java)
 * [260. Single Number III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SingleNumber1.java)
 * [260. Single Number III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SingleNumber3.java)
+* [262. Trips and Users](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/TripsAndUsers.sql)
 * [263. Ugly Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsUgly.java)
 * [264. Ugly Number II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthUglyNumber.java)
 * [264. Ugly Number II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthUglyNumber1.java)
