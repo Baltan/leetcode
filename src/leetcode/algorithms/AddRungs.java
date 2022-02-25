@@ -16,6 +16,9 @@ public class AddRungs {
 
     public static int addRungs(int[] rungs, int dist) {
         int result = 0;
+        /**
+         * 当前所在的位置
+         */
         int currRung = 0;
 
         for (int i = 0; i < rungs.length; ) {
@@ -27,6 +30,9 @@ public class AddRungs {
             } else {
                 int diff = rung - currRung;
                 currRung = rung;
+                /**
+                 * 当前所在位置和目标位置差距在[(k-1)*dist+1,k*dist]时，需要增加k个横档
+                 */
                 result += (diff - 1) / dist;
             }
         }
