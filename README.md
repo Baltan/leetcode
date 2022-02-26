@@ -1133,6 +1133,7 @@
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1930. Unique Length-3 Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPalindromicSubsequence.java)
 * [1935. Maximum Number of Words You Can Type](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeTypedWords.java)
 * [1936. Add Minimum Number of Rungs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddRungs.java)
 * [1937. Maximum Number of Points with Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints2.java)
