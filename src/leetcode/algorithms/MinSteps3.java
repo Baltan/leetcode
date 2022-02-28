@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2022/2/27 22:34
+ * @see MinSteps2
  */
 public class MinSteps3 {
     public static void main(String[] args) {
