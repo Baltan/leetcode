@@ -1290,6 +1290,7 @@
 * [LCP 17. 速算机器人](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Calculate2.java)
 * [LCP 18. 早餐组合](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BreakfastNumber.java)
 * [LCP 18. 早餐组合](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BreakfastNumber1.java)
+* [LCP 44. 开幕式焰火](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumColor.java)
 * [LCS 01. 下载插件](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LeastMinutes.java)
 * [LCS 02. 完成一半题目](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HalfQuestions.java)
 * [LCS 03. 主题空间](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestArea.java)
