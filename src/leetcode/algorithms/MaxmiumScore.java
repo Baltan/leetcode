@@ -1,4 +1,4 @@
-package leetcode.interview;
+package leetcode.algorithms;
 
 import java.util.ArrayList;
 import java.util.Collections;
