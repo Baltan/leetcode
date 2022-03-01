@@ -1294,6 +1294,7 @@
 * [LCP 18. 早餐组合](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BreakfastNumber1.java)
 * [LCP 40. 心算挑战](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxmiumScore.java)
 * [LCP 44. 开幕式焰火](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumColor.java)
+* [LCP 45. 自行车炫技赛场](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BicycleYard.java)
 * [LCP 46. 志愿者调配](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/VolunteerDeployment.java)
 * [LCS 01. 下载插件](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LeastMinutes.java)
 * [LCS 02. 完成一半题目](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HalfQuestions.java)
