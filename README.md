@@ -1294,6 +1294,7 @@
 * [LCP 17. 速算机器人](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Calculate2.java)
 * [LCP 18. 早餐组合](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BreakfastNumber.java)
 * [LCP 18. 早餐组合](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BreakfastNumber1.java)
+* [LCP 33. 蓄水](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoreWater.java)
 * [LCP 39. 无人机方阵](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSwitchingTimes.java)
 * [LCP 40. 心算挑战](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxmiumScore.java)
 * [LCP 44. 开幕式焰火](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumColor.java)
