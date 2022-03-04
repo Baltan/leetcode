@@ -100,7 +100,7 @@ public class OutputUtils {
             for (int i = 0; i < arr.length; i++) {
                 ele = arr[i];
                 for (int j = 0; j < ele.length; j++) {
-                    System.out.print(ele[j] + "\t");
+                    System.out.print(String.format("% 10d", ele[j]) + "\t");
                 }
                 System.out.println();
             }
