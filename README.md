@@ -1291,6 +1291,7 @@
 * [2185. Counting Words With a Given Prefix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrefixCount.java)
 * [2186. Minimum Number of Steps to Make Two Strings Anagram II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps3.java)
 * [2187. Minimum Time to Complete Trips](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTime1.java)
+* [2192. All Ancestors of a Node in a Directed Acyclic Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetAncestors.java)
 * [2194. Cells in a Range on an Excel Sheet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CellsInRange.java)
 * [2195. Append K Integers With Minimal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimalKSum.java)
 * [2196. Create Binary Tree From Descriptions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CreateBinaryTree.java)
