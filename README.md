@@ -1133,6 +1133,7 @@
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1904. The Number of Full Rounds You Have Played](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfRounds.java)
 * [1905. Count Sub Islands](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubIslands.java)
 * [1906. Minimum Absolute Difference Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDifference1.java)
 * [1909. Remove One Element to Make the Array Strictly Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeIncreasing.java)
