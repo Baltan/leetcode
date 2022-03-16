@@ -1300,6 +1300,7 @@
 * [2194. Cells in a Range on an Excel Sheet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CellsInRange.java)
 * [2195. Append K Integers With Minimal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimalKSum.java)
 * [2196. Create Binary Tree From Descriptions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CreateBinaryTree.java)
+* [2200. Find All K-Distant Indices in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKDistantIndices.java)
 * [2201. Count Artifacts That Can Be Extracted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DigArtifacts.java)
 * [2202. Maximize the Topmost Element After K Moves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTop.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
