@@ -1133,6 +1133,7 @@
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1897. Redistribute Characters to Make All Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeEqual.java)
 * [1899. Merge Triplets to Form Target Triplet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeTriplets.java)
 * [1903. Largest Odd Number in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestOddNumber.java)
 * [1904. The Number of Full Rounds You Have Played](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfRounds.java)
