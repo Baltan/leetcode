@@ -7,6 +7,7 @@ import java.util.Objects;
  *
  * @author Baltan
  * @date 2019-07-04 09:59
+ * @see MaximumRemovals
  */
 public class IsSubsequence {
     public static void main(String[] args) {
