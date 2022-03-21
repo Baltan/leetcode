@@ -1182,6 +1182,7 @@
 * [1979. Find Greatest Common Divisor of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindGCD.java)
 * [1980. Find Unique Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDifferentBinaryString.java)
 * [1980. Find Unique Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDifferentBinaryString1.java)
+* [1893. Check if All the Integers in a Range Are Covered](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCovered.java)
 * [1984. Minimum Difference Between Highest and Lowest of K Scores](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDifference.java)
 * [1985. Find the Kth Largest Integer in the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthLargestNumber.java)
 * [1991. Find the Middle Index in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMiddleIndex.java)
