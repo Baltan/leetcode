@@ -1310,6 +1310,7 @@
 * [2200. Find All K-Distant Indices in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKDistantIndices.java)
 * [2201. Count Artifacts That Can Be Extracted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DigArtifacts.java)
 * [2202. Maximize the Topmost Element After K Moves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTop.java)
+* [2210. Count Hills and Valleys in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHillValley.java)
 * [2212. Maximum Points in an Archery Competition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumBobPoints.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
