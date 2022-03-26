@@ -1310,6 +1310,7 @@
 * [2200. Find All K-Distant Indices in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKDistantIndices.java)
 * [2201. Count Artifacts That Can Be Extracted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DigArtifacts.java)
 * [2202. Maximize the Topmost Element After K Moves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTop.java)
+* [2207. Maximize Number of Subsequences in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSubsequenceCount.java)
 * [2208. Minimum Operations to Halve Array Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HalveArray.java)
 * [2210. Count Hills and Valleys in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHillValley.java)
 * [2211. Count Collisions on a Road](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCollisions.java)
