@@ -873,6 +873,7 @@
 * [1138. Alphabet Board Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlphabetBoardPath.java)
 * [1139. Largest 1-Bordered Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Largest1BorderedSquare.java)
 * [1140. Stone Game II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGameII.java)
+* [1141. User Activity for the Past 30 Days I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/UserActivityForThePast30DaysI.sql)
 * [1143. Longest Common Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestCommonSubsequence.java)
 * [1144. Decrease Elements To Make Array Zigzag](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MovesToMakeZigzag.java)
 * [1145. Binary Tree Coloring Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BtreeGameWinningMove.java)
