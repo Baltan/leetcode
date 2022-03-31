@@ -879,6 +879,7 @@
 * [1145. Binary Tree Coloring Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BtreeGameWinningMove.java)
 * [1146. Snapshot Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SnapshotArray.java)
 * [1147. Longest Chunked Palindrome Decomposition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestDecomposition.java)
+* [1148. Article Views I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ArticleViewsI.sql)
 * [1154. Day of the Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DayOfYear.java)
 * [1155. Number of Dice Rolls With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRollsToTarget.java)
 * [1156. Swap For Longest Repeated Character Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRepOpt1.java)
