@@ -831,6 +831,7 @@
 * [1047. Remove All Adjacent Duplicates In String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicates2.java)
 * [1048. Longest String Chain](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestStrChain.java)
 * [1049. Last Stone Weight II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastStoneWeightII.java)
+* [1050. Actors and Directors Who Cooperated At Least Three Times](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ActorsAndDirectorsWhoCooperatedAtLeastThreeTimes.sql)
 * [1051. Height Checker](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HeightChecker.java)
 * [1052. Grumpy Bookstore Owner](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSatisfied.java)
 * [1053. Previous Permutation With One Swap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrevPermOpt1.java)
