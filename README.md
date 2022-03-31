@@ -1319,6 +1319,7 @@
 * [2215. Find the Difference of Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDifference.java)
 * [2216. Minimum Deletions to Make Array Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletion.java)
 * [2217. Find Palindrome With Fixed Length](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthPalindrome.java)
+* [2218. Maximum Value of K Coins From Piles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValueOfCoins.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
