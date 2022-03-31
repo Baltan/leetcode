@@ -843,6 +843,7 @@
 * [1078. Occurrences After Bigram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindOcurrences.java)
 * [1079. Letter Tile Possibilities](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTilePossibilities.java)
 * [1080. Insufficient Nodes in Root to Leaf Paths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SufficientSubset.java)
+* [1084. Sales Analysis III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SalesAnalysisIII.sql)
 * [1089. Duplicate Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DuplicateZeros.java)
 * [1090. Largest Values From Labels](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestValsFromLabels.java)
 * [1091. Shortest Path in Binary Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestPathBinaryMatrix.java)
