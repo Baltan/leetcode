@@ -1051,6 +1051,7 @@
 * [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSteps.java)
 * [1405. Longest Happy String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestDiverseString.java)
 * [1406. Stone Game III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGameIII.java)
+* [1407. Top Travellers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/TopTravellers.sql)
 * [1408. String Matching in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StringMatching.java)
 * [1409. Queries on a Permutation With Key](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProcessQueries.java)
 * [1410. HTML Entity Parser](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EntityParser.java)
