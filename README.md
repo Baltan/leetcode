@@ -1096,6 +1096,7 @@
 * [1480. Running Sum of 1d Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RunningSum.java)
 * [1481. Least Number of Unique Integers after K Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLeastNumOfUniqueInts.java)
 * [1482. Minimum Number of Days to Make m Bouquets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDays.java)
+* [1484. Group Sold Products By The Date](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/GroupSoldProductsByTheDate.sql)
 * [1486. XOR Operation in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorOperation.java)
 * [1487. Making File Names Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetFolderNames.java)
 * [1488. Avoid Flood in The City](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AvoidFlood.java)
