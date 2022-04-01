@@ -1039,6 +1039,7 @@
 * [1389. Create Target Array in the Given Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CreateTargetArray.java)
 * [1390. Four Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumFourDivisors.java)
 * [1391. Check if There is a Valid Path in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasValidPath.java)
+* [1393. Capital Gain/Loss](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CapitalGainLoss.sql)
 * [1394. Find Lucky Integer in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLucky.java)
 * [1395. Count Number of Teams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTeams.java)
 * [1396. Design Underground System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UndergroundSystem.java)
