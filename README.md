@@ -1150,6 +1150,7 @@
 * [1667. Fix Names in a Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FixNamesInATable.sql)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
+* [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
 * [1893. Check if All the Integers in a Range Are Covered](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCovered.java)
 * [1894. Find the Student that Will Replace the Chalk](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ChalkReplacer.java)
 * [1895. Largest Magic Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestMagicSquare.java)
