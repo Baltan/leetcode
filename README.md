@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1873. Calculate Special Bonus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CalculateSpecialBonus.sql)
 * [1893. Check if All the Integers in a Range Are Covered](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCovered.java)
 * [1894. Find the Student that Will Replace the Chalk](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ChalkReplacer.java)
 * [1895. Largest Magic Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestMagicSquare.java)
