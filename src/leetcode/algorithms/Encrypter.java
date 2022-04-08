@@ -7,7 +7,7 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2022/4/7 19:34
- * @see
+ * 参考：
  * <a href="https://leetcode-cn.com/problems/encrypt-and-decrypt-strings/solution/by-endlesscheng-sm8h/"></a>
  */
 public class Encrypter {
