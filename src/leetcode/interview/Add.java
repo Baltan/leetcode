@@ -6,6 +6,7 @@ package leetcode.interview;
  * @author Baltan
  * @date 2020-04-13 14:02
  * @see leetcode.algorithms.GetSum
+ * @see leetcode.algorithms.Sum
  */
 public class Add {
     public static void main(String[] args) {
