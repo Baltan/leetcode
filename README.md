@@ -1345,6 +1345,7 @@
 * [2216. Minimum Deletions to Make Array Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletion.java)
 * [2217. Find Palindrome With Fixed Length](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthPalindrome.java)
 * [2218. Maximum Value of K Coins From Piles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValueOfCoins.java)
+* [2220. Minimum Bit Flips to Convert Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinBitFlips.java)
 * [2221. Find Triangular Sum of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TriangularSum.java)
 * [2222. Number of Ways to Select Buildings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWays.java)
 * [2224. Minimum Number of Operations to Convert Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConvertTime.java)
