@@ -1352,6 +1352,7 @@
 * [2225. Find Players With Zero or One Losses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindWinners.java)
 * [2226. Maximum Candies Allocated to K Children](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumCandies.java)
 * [2227. Encrypt and Decrypt Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Encrypter.java)
+* [2232. Minimize Result by Adding Parentheses to Expression](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeResult.java)
 * [2235. Add Two Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Sum.java)
 * [2236. Root Equals Sum of Children](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckTree.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
