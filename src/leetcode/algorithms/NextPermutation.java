@@ -7,6 +7,7 @@ import leetcode.util.OutputUtils;
  *
  * @author Baltan
  * @date 2018/9/3 10:05
+ * @see MaxCompatibilitySum
  */
 public class NextPermutation {
     public static void main(String[] args) {
