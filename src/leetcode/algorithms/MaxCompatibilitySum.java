@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2022/4/17 18:35
+ * @see NextPermutation
  */
 public class MaxCompatibilitySum {
     public static void main(String[] args) {
@@ -24,7 +25,6 @@ public class MaxCompatibilitySum {
      * @param students
      * @param mentors
      * @return
-     * @see NextPermutation
      */
     public static int maxCompatibilitySum(int[][] students, int[][] mentors) {
         int result = Integer.MIN_VALUE;
