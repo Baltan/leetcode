@@ -1358,6 +1358,7 @@
 * [2233. Maximum Product After K Increments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProduct1.java)
 * [2235. Add Two Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Sum.java)
 * [2236. Root Equals Sum of Children](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckTree.java)
+* [2240. Number of Ways to Buy Pens and Pencils](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToBuyPensPencils.java)
 * [2241. Design an ATM Machine](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ATM.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
