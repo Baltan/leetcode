@@ -1361,6 +1361,7 @@
 * [2239. Find Closest Number to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindClosestNumber.java)
 * [2240. Number of Ways to Buy Pens and Pencils](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToBuyPensPencils.java)
 * [2241. Design an ATM Machine](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ATM.java)
+* [2244. Minimum Rounds to Complete All Tasks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRounds.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
