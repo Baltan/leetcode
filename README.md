@@ -1156,6 +1156,7 @@
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1873. Calculate Special Bonus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CalculateSpecialBonus.sql)
+* [1877. Minimize Maximum Pair Sum in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPairSum.java)
 * [1881. Maximum Value after Insertion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValue.java)
 * [1884. Egg Drop With 2 Eggs and N Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoEggDrop.java)
 * [1886. Determine Whether Matrix Can Be Obtained By Rotation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRotation.java)
