@@ -1161,6 +1161,7 @@
 * [1884. Egg Drop With 2 Eggs and N Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoEggDrop.java)
 * [1886. Determine Whether Matrix Can Be Obtained By Rotation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRotation.java)
 * [1887. Reduction Operations to Make the Array Elements Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReductionOperations.java)
+* [1888. Minimum Number of Flips to Make the Binary String Alternating](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips2.java)
 * [1890. The Latest Login in 2020](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/TheLatestLoginIn2020.sql)
 * [1893. Check if All the Integers in a Range Are Covered](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCovered.java)
 * [1894. Find the Student that Will Replace the Chalk](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ChalkReplacer.java)
