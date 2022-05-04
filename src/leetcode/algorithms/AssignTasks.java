@@ -51,29 +51,54 @@ public class AssignTasks {
         int[] result = new int[tasks.length];
         int currentTime = 0;
         /**
-         * [服务器权重，索引，空闲时间]
+         * 队列存储所有空闲的服务器，其中每个元素为数组[服务器权重，服务器索引，服务器下次空闲时间]，优先按照服务器权重升序排列，
+         * 服务器权重相同时，按照服务器索引升序排列
          */
         Queue<int[]> freeServers =
                 new PriorityQueue<>(servers.length, (x, y) -> x[0] == y[0] ? x[1] - y[1] : x[0] - y[0]);
+        /**
+         * 队列存储所有正在处理任务的服务器，其中每个元素为数组[服务器权重，服务器索引，服务器下次空闲时间]，按照服务器下次空闲时
+         * 间升序排列
+         */
         Queue<int[]> busyServers = new PriorityQueue<>(Comparator.comparingInt(x -> x[2]));
-
+        /**
+         * 初始时，所有服务器都处于空闲状态，即所有服务器的下次空闲时间都为0，将它们加入队列freeServers
+         */
         for (int i = 0; i < servers.length; i++) {
             freeServers.offer(new int[]{servers[i], i, 0});
         }
-
+        /**
+         * 逐一按顺序处理每个任务
+         */
         for (int i = 0; i < tasks.length; ) {
+            /**
+             * 当前时刻刚好处理完任务的所有服务器重新加入队列freeServers
+             */
             while (!busyServers.isEmpty() && busyServers.peek()[2] == currentTime) {
                 freeServers.offer(busyServers.poll());
             }
-
+            /**
+             * 所以任务开始时间在currentTime之前，还没被处理的任务，都应被当前空闲的服务器处理
+             */
             while (currentTime >= i && i < tasks.length && !freeServers.isEmpty()) {
                 int[] server = freeServers.poll();
+                /**
+                 * server处理当前任务后，下次空闲的时间为currentTime+tasks[i]
+                 */
                 server[2] = currentTime + tasks[i];
                 busyServers.offer(server);
                 result[i] = server[1];
                 i++;
             }
-            currentTime++;
+            /**
+             * 如果当前已经没有空闲的服务器了，之间将时间跳转到所有处理任务的服务器中最早结束的时刻，避免逐一增加时间导致测试用例
+             * 超时
+             */
+            if (freeServers.isEmpty()) {
+                currentTime = busyServers.peek()[2];
+            } else {
+                currentTime++;
+            }
         }
         return result;
     }
