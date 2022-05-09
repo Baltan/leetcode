@@ -1377,6 +1377,7 @@
 * [2249. Count Lattice Points Inside a Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountLatticePoints.java)
 * [2250. Count Number of Rectangles Containing Each Point](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountRectangles.java)
 * [2257. Count Unguarded Cells in the Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountUnguarded.java)
+* [2260. Minimum Consecutive Cards to Pick Up](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCardPickup.java)
 * [2261. K Divisible Elements Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinct.java)
 * [2262. Total Appeal of A String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AppealSum.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
