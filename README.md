@@ -1382,6 +1382,7 @@
 * [2261. K Divisible Elements Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinct.java)
 * [2262. Total Appeal of A String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AppealSum.java)
 * [2265. Count Nodes Equal to Average of Subtree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageOfSubtree.java)
+* [2266. Count Number of Texts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTexts.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
