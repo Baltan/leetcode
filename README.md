@@ -1381,6 +1381,7 @@
 * [2260. Minimum Consecutive Cards to Pick Up](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCardPickup.java)
 * [2261. K Divisible Elements Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinct.java)
 * [2262. Total Appeal of A String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AppealSum.java)
+* [2264. Largest 3-Same-Digit Number in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestGoodInteger.java)
 * [2265. Count Nodes Equal to Average of Subtree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageOfSubtree.java)
 * [2266. Count Number of Texts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTexts.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
