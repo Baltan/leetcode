@@ -1158,6 +1158,7 @@
 * [1873. Calculate Special Bonus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CalculateSpecialBonus.sql)
 * [1877. Minimize Maximum Pair Sum in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPairSum.java)
 * [1878. Get Biggest Three Rhombus Sums in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetBiggestThree.java)
+* [1880. Check if Word Equals Summation of Two Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSumEqual.java)
 * [1881. Maximum Value after Insertion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValue.java)
 * [1882. Process Tasks Using Servers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AssignTasks.java)
 * [1884. Egg Drop With 2 Eggs and N Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoEggDrop.java)
