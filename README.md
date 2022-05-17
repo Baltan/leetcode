@@ -1156,6 +1156,7 @@
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1873. Calculate Special Bonus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CalculateSpecialBonus.sql)
+* [1876. Substrings of Size Three with Distinct Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodSubstrings.java)
 * [1877. Minimize Maximum Pair Sum in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPairSum.java)
 * [1878. Get Biggest Three Rhombus Sums in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetBiggestThree.java)
 * [1880. Check if Word Equals Summation of Two Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSumEqual.java)
