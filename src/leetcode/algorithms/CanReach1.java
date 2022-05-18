@@ -1,9 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * Description: 1871. Jump Game VII
  *
@@ -12,74 +8,60 @@ import java.util.List;
  */
 public class CanReach1 {
     public static void main(String[] args) {
+        System.out.println(canReach("0000000000", 8, 8));
         System.out.println(canReach("00111010", 3, 5));
         System.out.println(canReach("011010", 2, 3));
         System.out.println(canReach("01101110", 2, 3));
     }
 
+    /**
+     * 参考：
+     * <a href="https://leetcode.cn/problems/jump-game-vii/solution/hua-chuang-si-xiang-dp-bu-xu-yao-qian-zh-j865/"></a>
+     *
+     * @param s
+     * @param minJump
+     * @param maxJump
+     * @return
+     */
     public static boolean canReach(String s, int minJump, int maxJump) {
-        if (s.charAt(s.length() - 1) == '1') {
-            return false;
-        }
-
         int length = s.length();
-        List<Integer> indexList = new ArrayList<>();
-
-        for (int i = 0; i < length; i++) {
-            if (s.charAt(i) == '0') {
-                indexList.add(i);
+        /**
+         * dp[i]表示s[i]是否可达
+         */
+        boolean[] dp = new boolean[length];
+        char[] charArray = s.toCharArray();
+        /**
+         * 初始时在s[0]，标记s[0]可达
+         */
+        dp[0] = true;
+        /**
+         * 如果s[i]可达，则[j-maxJump,j-minJump]中存在一个可达的坐标。定义一个长度为maxJump−minJump+1的窗口，count记录窗
+         * 口里可达的坐标数量，初始时s[0]是可达的，将窗口里可达的坐标数量记为1
+         */
+        int count = 1;
+        /**
+         * 第一步至少到坐标minJump，所以[1,minJump-1]都是不可达的，直接跳过判断
+         */
+        for (int i = minJump; i < length; i++) {
+            /**
+             * 判断当前坐标是否可达
+             */
+            if (charArray[i] == '0' && count > 0) {
+                dp[i] = true;
+            }
+            /**
+             * 如果窗口右移一位前最左边的坐标可达，右移一位后窗口里可达的坐标数量需要将这一个坐标减去
+             */
+            if (i >= maxJump && dp[i - maxJump]) {
+                count--;
+            }
+            /**
+             * 如果窗口右移一位后最右边的坐标可达，右移一位后窗口里可达的坐标数量需要将这一个坐标加上
+             */
+            if (dp[i - minJump + 1]) {
+                count++;
             }
         }
-
-        int[] window = {0, 0};
-
-        while (window[0] < length) {
-            if (window[0] + minJump > indexList.get(indexList.size() - 1)) {
-                return false;
-            }
-
-            int[] nextWindow = nextWindow(indexList, window[0] + minJump, window[1] + maxJump);
-
-            if (Arrays.equals(window, nextWindow)) {
-                return false;
-            }
-
-            if (nextWindow[0] <= length - 1 && nextWindow[1] >= length - 1) {
-                return true;
-            }
-            window = nextWindow;
-        }
-        return false;
-    }
-
-    public static int[] nextWindow(List<Integer> indexList, int start, int end) {
-        int[] nextWindow = new int[2];
-        int lo = 0;
-        int hi = indexList.size() - 1;
-
-        while (lo < hi) {
-            int mid = (lo + hi) / 2;
-
-            if (indexList.get(mid) < start) {
-                lo++;
-            } else {
-                hi = mid;
-            }
-        }
-        nextWindow[0] = indexList.get(lo);
-        lo = 0;
-        hi = indexList.size() - 1;
-
-        while (lo < hi) {
-            int mid = (int) Math.ceil((lo + hi) / 2.0);
-
-            if (indexList.get(mid) > end) {
-                hi--;
-            } else {
-                lo = mid;
-            }
-        }
-        nextWindow[1] = indexList.get(lo);
-        return nextWindow;
+        return dp[length - 1];
     }
 }
