@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1871. Jump Game VII](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanReach1.java)
 * [1873. Calculate Special Bonus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CalculateSpecialBonus.sql)
 * [1876. Substrings of Size Three with Distinct Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodSubstrings.java)
 * [1877. Minimize Maximum Pair Sum in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPairSum.java)
