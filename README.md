@@ -1390,6 +1390,7 @@
 * [2265. Count Nodes Equal to Average of Subtree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageOfSubtree.java)
 * [2266. Count Number of Texts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTexts.java)
 * [2270. Number of Ways to Split Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToSplitArray.java)
+* [2271. Maximum White Tiles Covered by a Carpet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWhiteTiles.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
