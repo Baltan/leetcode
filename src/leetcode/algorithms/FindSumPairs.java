@@ -10,26 +10,17 @@ import java.util.Map;
  * @date 2022/5/24 09:13
  */
 public class FindSumPairs {
+    private int[] nums1;
     private int[] nums2;
-    /**
-     * nums1中的元素i -> 元素i在nums1中出现的次数
-     */
-    private Map<Integer, Integer> countMap1;
     /**
      * nums2中的元素i -> 元素i在nums2中出现的次数
      */
     private Map<Integer, Integer> countMap2;
 
     public FindSumPairs(int[] nums1, int[] nums2) {
+        this.nums1 = nums1;
         this.nums2 = nums2;
-        countMap1 = new HashMap<>();
         countMap2 = new HashMap<>();
-        /**
-         * 统计各个元素在nums1中出现的次数
-         */
-        for (int num : nums1) {
-            countMap1.put(num, countMap1.getOrDefault(num, 0) + 1);
-        }
         /**
          * 统计各个元素在nums2中出现的次数
          */
@@ -56,20 +47,10 @@ public class FindSumPairs {
 
     public int count(int tot) {
         int result = 0;
-        /**
-         * 以长度较小的map作为基准，在另一个map中查找tot-entry.getKey()的个数
-         */
-        if (countMap1.size() < countMap2.size()) {
-            for (Map.Entry<Integer, Integer> entry : countMap1.entrySet()) {
-                if (countMap2.containsKey(tot - entry.getKey())) {
-                    result += entry.getValue() * countMap2.get(tot - entry.getKey());
-                }
-            }
-        } else {
-            for (Map.Entry<Integer, Integer> entry : countMap2.entrySet()) {
-                if (countMap1.containsKey(tot - entry.getKey())) {
-                    result += entry.getValue() * countMap1.get(tot - entry.getKey());
-                }
+
+        for (int num : nums1) {
+            if (countMap2.containsKey(tot - num)) {
+                result += countMap2.get(tot - num);
             }
         }
         return result;
