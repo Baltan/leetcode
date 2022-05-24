@@ -66,7 +66,5 @@ public class FindSumPairs {
         findSumPairs1.add(0, 1);
         findSumPairs1.add(1, 1);
         System.out.println(findSumPairs1.count(7));
-
-        System.out.println("----------------------------");
     }
 }
