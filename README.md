@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1864. Minimum Number of Swaps to Make the Binary String Alternating](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps3.java)
 * [1865. Finding Pairs With a Certain Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSumPairs.java)
 * [1869. Longer Contiguous Segments of Ones than Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckZeroOnes.java)
 * [1870. Minimum Speed to Arrive on Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSpeedOnTime.java)
