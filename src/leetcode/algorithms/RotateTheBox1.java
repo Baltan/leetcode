@@ -7,9 +7,9 @@ import leetcode.util.OutputUtils;
  *
  * @author Baltan
  * @date 2022/5/29 12:49
- * @see RotateTheBox1
+ * @see RotateTheBox
  */
-public class RotateTheBox {
+public class RotateTheBox1 {
     public static void main(String[] args) {
         char[][] box1 = {{'#', '.', '#'}};
         OutputUtils.print2DCharacterArray(rotateTheBox(box1));
@@ -32,25 +32,32 @@ public class RotateTheBox {
         char[][] result = new char[cols][rows];
 
         for (int i = 0; i < rows; i++) {
+            /**
+             * 石块可以移动到的最右侧的空位，-1表示右侧没有空位
+             */
+            int emptyCol = -1;
+
             for (int j = cols - 1; j >= 0; j--) {
                 if (box[i][j] == '#') {
                     /**
-                     * 当前石块向右移动最终停留的列
+                     * 如果当前石块右侧有空位，则当前石块移动到最右侧的空位，当前位置变成空位，此时最右侧的空位为
+                     * box[i][emptyCol-1]
                      */
-                    int finalCol = j;
-                    /**
-                     * 查找当前石块遇到障碍物或其他石块或盒子右边缘前的最右边的空位
-                     */
-                    while (finalCol + 1 < cols && box[i][finalCol + 1] == '.') {
-                        finalCol++;
-                    }
-                    /**
-                     * 当前石块最终移动到box[i][finalCol]位置，当前位置被空出
-                     */
-                    if (j != finalCol) {
-                        box[i][finalCol] = '#';
+                    if (emptyCol != -1) {
+                        box[i][emptyCol] = '#';
                         box[i][j] = '.';
+                        emptyCol--;
                     }
+                } else if (box[i][j] == '*') {
+                    /**
+                     * 遇到障碍物时，障碍物右侧的所有空位都无法到达
+                     */
+                    emptyCol = -1;
+                } else {
+                    /**
+                     * 如果右侧还有空位，则最右侧的空位仍为box[i][emptyCol-1]，否则为box[i][j]
+                     */
+                    emptyCol = emptyCol == -1 ? j : emptyCol;
                 }
             }
         }
