@@ -144,6 +144,24 @@ public class OutputUtils {
     }
 
     /**
+     * 打印二维字符数组
+     *
+     * @param arr
+     */
+    public static void print2DCharacterArray(char[][] arr) {
+        if (arr != null) {
+            char[] ele;
+            for (int i = 0; i < arr.length; i++) {
+                ele = arr[i];
+                for (int j = 0; j < ele.length; j++) {
+                    System.out.print(ele[j] + "\t");
+                }
+                System.out.println();
+            }
+        }
+    }
+
+    /**
      * 打印ListNode（链表节点）
      *
      * @param listNode
