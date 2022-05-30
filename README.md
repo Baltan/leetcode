@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1859. Sorting the Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortSentence.java)
 * [1861. Rotating the Box](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateTheBox.java)
 * [1861. Rotating the Box](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateTheBox1.java)
 * [1864. Minimum Number of Swaps to Make the Binary String Alternating](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps3.java)
