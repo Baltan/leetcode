@@ -1156,6 +1156,7 @@
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1854. Maximum Population Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPopulation.java)
+* [1854. Maximum Population Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPopulation1.java)
 * [1859. Sorting the Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortSentence.java)
 * [1860. Incremental Memory Leak](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MemLeak.java)
 * [1861. Rotating the Box](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateTheBox.java)
