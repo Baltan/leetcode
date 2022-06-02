@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1848. Minimum Distance to the Target Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMinDistance.java)
 * [1854. Maximum Population Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPopulation.java)
 * [1854. Maximum Population Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPopulation1.java)
 * [1859. Sorting the Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortSentence.java)
