@@ -1164,6 +1164,7 @@
 * [1860. Incremental Memory Leak](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MemLeak.java)
 * [1861. Rotating the Box](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateTheBox.java)
 * [1861. Rotating the Box](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateTheBox1.java)
+* [1863. Sum of All Subset XOR Totals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubsetXORSum.java)
 * [1864. Minimum Number of Swaps to Make the Binary String Alternating](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps3.java)
 * [1865. Finding Pairs With a Certain Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSumPairs.java)
 * [1869. Longer Contiguous Segments of Ones than Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckZeroOnes.java)
