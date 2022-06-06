@@ -1158,6 +1158,7 @@
 * [1845. Seat Reservation Manager](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SeatManager.java)
 * [1848. Minimum Distance to the Target Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMinDistance.java)
 * [1849. Splitting a String Into Descending Consecutive Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitString.java)
+* [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMinSwaps.java)
 * [1854. Maximum Population Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPopulation.java)
 * [1854. Maximum Population Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPopulation1.java)
 * [1859. Sorting the Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortSentence.java)
