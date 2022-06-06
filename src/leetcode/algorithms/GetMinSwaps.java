@@ -1,5 +1,7 @@
 package leetcode.algorithms;
 
+import java.util.Arrays;
+
 /**
  * Description: 1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number
  *
@@ -69,43 +71,48 @@ public class GetMinSwaps {
      * permutation的下一个排列
      *
      * @param permutation
+     * @see
+     * <a href="https://leetcode.cn/problems/next-permutation/solution/xia-yi-ge-pai-lie-by-leetcode-solution/"></a>
      */
     public static void nextPermutation(char[] permutation) {
+        int length = permutation.length;
         int index = -1;
         /**
          * 找到索引最大的相邻两数顺序排列的一对数字
          */
-        for (int i = permutation.length - 2; i >= 0; i--) {
+        for (int i = length - 2; i >= 0; i--) {
             if (permutation[i] < permutation[i + 1]) {
                 index = i;
                 break;
             }
         }
 
-        if (index != -1) {
-            /**
-             * 冒泡排序将nums中索引index之后部分的数字按照升序排列
-             */
-            for (int i = permutation.length - 2; i > index; i--) {
-                for (int j = index + 1; j <= i; j++) {
-                    if (permutation[j] > permutation[j + 1]) {
-                        char temp = permutation[j];
-                        permutation[j] = permutation[j + 1];
-                        permutation[j + 1] = temp;
-                    }
-                }
+        int swapIndex = -1;
+        /**
+         * 找到permutation[index]右边的索引最大的大于permutation[index]的数
+         */
+        for (int i = length - 1; i > index; i--) {
+            if (permutation[i] > permutation[index]) {
+                swapIndex = i;
+                break;
             }
-            /**
-             * 找到nums中索引index之后部分的第一个大于nums[index]的数字nums[i]，交换两数
-             */
-            for (int i = index + 1; i < permutation.length; i++) {
-                if (permutation[i] > permutation[index]) {
-                    char temp = permutation[i];
-                    permutation[i] = permutation[index];
-                    permutation[index] = temp;
-                    break;
-                }
-            }
+        }
+        /**
+         * 交换permutation[index]和permutation[swapIndex]
+         */
+        char temp = permutation[index];
+        permutation[index] = permutation[swapIndex];
+        permutation[swapIndex] = temp;
+        /**
+         * 将permutation[index+1]……permutation[length-1]这部分数字升序排列
+         */
+        char[] subarray = new char[length - index - 1];
+        System.arraycopy(permutation, index + 1, subarray, 0, length - index - 1);
+        Arrays.sort(subarray);
+        int j = 0;
+
+        for (int i = index + 1; i < length; i++) {
+            permutation[i] = subarray[j++];
         }
     }
 }
