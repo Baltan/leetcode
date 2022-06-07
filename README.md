@@ -1407,6 +1407,7 @@
 * [2269. Find the K-Beauty of a Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DivisorSubstrings.java)
 * [2270. Number of Ways to Split Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToSplitArray.java)
 * [2271. Maximum White Tiles Covered by a Carpet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWhiteTiles.java)
+* [2273. Find Resultant Array After Removing Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAnagrams.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
