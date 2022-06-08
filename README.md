@@ -1506,6 +1506,7 @@
 * [面试题 16.05. 阶乘尾数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/TrailingZeroes.java)
 * [面试题 16.06. 最小差](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/SmallestDifference.java)
 * [面试题 16.07. 最大数值](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Maximum.java)
+* [面试题 16.09. 运算](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/Operations.java)
 * [面试题 16.10. 生存人数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxAliveYear.java)
 * [面试题 16.10. 生存人数](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/MaxAliveYear1.java)
 * [面试题 16.11. 跳水板](https://github.com/Baltan/leetcode/blob/master/src/leetcode/interview/DivingBoard.java)
