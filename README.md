@@ -1156,6 +1156,7 @@
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1845. Seat Reservation Manager](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SeatManager.java)
+* [1846. Maximum Element After Decreasing and Rearranging](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumElementAfterDecrementingAndRearranging.java)
 * [1848. Minimum Distance to the Target Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMinDistance.java)
 * [1849. Splitting a String Into Descending Consecutive Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitString.java)
 * [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMinSwaps.java)
