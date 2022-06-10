@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1844. Replace All Digits with Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceDigits.java)
 * [1845. Seat Reservation Manager](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SeatManager.java)
 * [1846. Maximum Element After Decreasing and Rearranging](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumElementAfterDecrementingAndRearranging.java)
 * [1848. Minimum Distance to the Target Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMinDistance.java)
