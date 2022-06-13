@@ -1156,6 +1156,7 @@
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1837. Sum of Digits in Base K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumBase.java)
+* [1838. Frequency of the Most Frequent Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFrequency.java)
 * [1839. Longest Substring Of All Vowels in Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestBeautifulSubstring.java)
 * [1844. Replace All Digits with Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceDigits.java)
 * [1845. Seat Reservation Manager](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SeatManager.java)
