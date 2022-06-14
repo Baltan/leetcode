@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1833. Maximum Ice Cream Bars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxIceCream.java)
 * [1837. Sum of Digits in Base K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumBase.java)
 * [1838. Frequency of the Most Frequent Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFrequency.java)
 * [1839. Longest Substring Of All Vowels in Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestBeautifulSubstring.java)
