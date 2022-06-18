@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1822. Sign of the Product of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArraySign.java)
 * [1827. Minimum Operations to Make the Array Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations4.java)
 * [1828. Queries on Number of Points Inside a Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPoints1.java)
 * [1832. Check if the Sentence Is Pangram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfPangram.java)
