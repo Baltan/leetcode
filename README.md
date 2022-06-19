@@ -1160,6 +1160,7 @@
 * [1828. Queries on Number of Points Inside a Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPoints1.java)
 * [1832. Check if the Sentence Is Pangram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfPangram.java)
 * [1833. Maximum Ice Cream Bars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxIceCream.java)
+* [1834. Single-Threaded CPU](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetOrder.java)
 * [1837. Sum of Digits in Base K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumBase.java)
 * [1838. Frequency of the Most Frequent Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFrequency.java)
 * [1839. Longest Substring Of All Vowels in Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestBeautifulSubstring.java)
