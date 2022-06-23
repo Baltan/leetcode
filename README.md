@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1817. Finding the Users Active Minutes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindingUsersActiveMinutes.java)
 * [1818. Minimum Absolute Sum Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAbsoluteSumDiff.java)
 * [1822. Sign of the Product of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArraySign.java)
 * [1823. Find the Winner of the Circular Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheWinner.java)
