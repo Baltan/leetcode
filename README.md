@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
+* [1807. Evaluate the Bracket Pairs of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Evaluate.java)
 * [1812. Determine Color of a Chessboard Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SquareIsWhite.java)
 * [1813. Sentence Similarity III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreSentencesSimilar.java)
 * [1814. Count Nice Pairs in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountNicePairs.java)
