@@ -10,6 +10,7 @@ import java.util.*;
  * @author Baltan
  * @date 2020-02-13 11:48
  * @see FindRedundantConnection1
+ * @see leetcode.interview.FindRedundantConnection
  * @see FindRedundantDirectedConnection
  */
 public class FindRedundantConnection {
