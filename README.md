@@ -1157,6 +1157,7 @@
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1801. Number of Orders in the Backlog](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetNumberOfBacklogOrders.java)
 * [1802. Maximum Value at a Given Index in a Bounded Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValue1.java)
+* [1806. Minimum Number of Operations to Reinitialize a Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReinitializePermutation.java)
 * [1807. Evaluate the Bracket Pairs of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Evaluate.java)
 * [1812. Determine Color of a Chessboard Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SquareIsWhite.java)
 * [1813. Sentence Similarity III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreSentencesSimilar.java)
