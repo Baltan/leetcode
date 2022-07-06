@@ -1157,6 +1157,7 @@
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1796. Second Largest Digit in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SecondHighest.java)
 * [1797. Design Authentication Manager](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AuthenticationManager.java)
+* [1798. Maximum Number of Consecutive Values You Can Make](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaximumConsecutive.java)
 * [1800. Maximum Ascending Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAscendingSum.java)
 * [1801. Number of Orders in the Backlog](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetNumberOfBacklogOrders.java)
 * [1802. Maximum Value at a Given Index in a Bounded Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValue1.java)
