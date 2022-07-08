@@ -1154,6 +1154,7 @@
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
+* [1785. Minimum Elements to Add to Form a Given Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinElements.java)
 * [1791. Find Center of Star Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCenter.java)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1796. Second Largest Digit in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SecondHighest.java)
