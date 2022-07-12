@@ -1155,6 +1155,7 @@
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
 * [1775. Equal Sum Arrays With Minimum Number of Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations5.java)
+* [1780. Check if Number is a Sum of Powers of Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPowersOfThree.java)
 * [1781. Sum of Beauty of All Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautySum.java)
 * [1785. Minimum Elements to Add to Form a Given Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinElements.java)
 * [1791. Find Center of Star Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCenter.java)
