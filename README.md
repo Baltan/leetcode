@@ -1158,6 +1158,7 @@
 * [1780. Check if Number is a Sum of Powers of Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPowersOfThree.java)
 * [1781. Sum of Beauty of All Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautySum.java)
 * [1785. Minimum Elements to Add to Form a Given Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinElements.java)
+* [1790. Check if One String Swap Can Make Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreAlmostEqual.java)
 * [1791. Find Center of Star Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCenter.java)
 * [1792. Maximum Average Pass Ratio](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAverageRatio.java)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
