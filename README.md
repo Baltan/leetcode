@@ -1154,6 +1154,7 @@
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
+* [1770. Maximum Score from Performing Multiplication Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore.java)
 * [1774. Closest Dessert Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestCost.java)
 * [1775. Equal Sum Arrays With Minimum Number of Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations5.java)
 * [1779. Find Nearest Point That Has the Same X or Y Coordinate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NearestValidPoint.java)
