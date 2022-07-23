@@ -1154,6 +1154,8 @@
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
+* [1763. Longest Nice Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestNiceSubstring.java)
+* [1763. Longest Nice Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestNiceSubstring1.java)
 * [1764. Form Array by Concatenating Subarrays of Another Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanChoose.java)
 * [1765. Map of Highest Peak](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HighestPeak.java)
 * [1765. Map of Highest Peak](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HighestPeak1.java)
