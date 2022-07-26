@@ -1154,6 +1154,7 @@
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
+* [1758. Minimum Changes To Make Alternating Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations7.java)
 * [1759. Count Number of Homogenous Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHomogenous.java)
 * [1760. Minimum Limit of Balls in a Bag](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSize.java)
 * [1760. Minimum Limit of Balls in a Bag](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSize1.java)
