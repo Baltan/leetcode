@@ -1154,6 +1154,7 @@
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1743. Restore the Array From Adjacent Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreArray.java)
+* [1752. Check if Array Is Sorted and Rotated](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Check.java)
 * [1753. Maximum Score From Removing Stones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore1.java)
 * [1754. Largest Merge Of Two Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestMerge.java)
 * [1757. Recyclable and Low Fat Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RecyclableAndLowFatProducts.sql)
