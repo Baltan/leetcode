@@ -1154,6 +1154,7 @@
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1743. Restore the Array From Adjacent Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreArray.java)
+* [1749. Maximum Absolute Sum of Any Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAbsoluteSum.java)
 * [1750. Minimum Length of String After Deleting Similar Ends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLength.java)
 * [1750. Minimum Length of String After Deleting Similar Ends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLength1.java)
 * [1752. Check if Array Is Sorted and Rotated](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Check.java)
