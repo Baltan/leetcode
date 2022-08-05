@@ -1152,6 +1152,7 @@
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
+* [1733. Minimum Number of People to Teach](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTeachings.java)
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1742. Maximum Number of Balls in a Box](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBalls.java)
 * [1743. Restore the Array From Adjacent Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreArray.java)
