@@ -1154,6 +1154,7 @@
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
 * [1733. Minimum Number of People to Teach](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTeachings.java)
 * [1736. Latest Time by Replacing Hidden Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTime.java)
+* [1738. Find Kth Largest XOR Coordinate Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthLargestValue.java)
 * [1741. Find Total Time Spent by Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindTotalTimeSpentByEachEmployee.sql)
 * [1742. Maximum Number of Balls in a Box](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBalls.java)
 * [1743. Restore the Array From Adjacent Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreArray.java)
