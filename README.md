@@ -1152,6 +1152,7 @@
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
+* [1732. Find the Highest Altitude](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestAltitude.java)
 * [1733. Minimum Number of People to Teach](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTeachings.java)
 * [1734. Decode XORed Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Decode.java)
 * [1736. Latest Time by Replacing Hidden Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTime.java)
