@@ -1151,6 +1151,7 @@
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
+* [1718. Construct the Lexicographically Largest Valid Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructDistancedSequence.java)
 * [1726. Tuple with Same Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TupleSameProduct.java)
 * [1727. Largest Submatrix With Rearrangements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSubmatrix.java)
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
