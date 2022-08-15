@@ -1153,6 +1153,7 @@
 * [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
 * [1717. Maximum Score From Removing Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumGain.java)
 * [1718. Construct the Lexicographically Largest Valid Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructDistancedSequence.java)
+* [1725. Number Of Rectangles That Can Form The Largest Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodRectangles.java)
 * [1726. Tuple with Same Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TupleSameProduct.java)
 * [1727. Largest Submatrix With Rearrangements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSubmatrix.java)
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
