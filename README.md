@@ -1153,6 +1153,7 @@
 * [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
 * [1717. Maximum Score From Removing Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumGain.java)
 * [1718. Construct the Lexicographically Largest Valid Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructDistancedSequence.java)
+* [1720. Decode XORed Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Decode1.java)
 * [1721. Swapping Nodes in a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SwapNodes.java)
 * [1725. Number Of Rectangles That Can Form The Largest Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodRectangles.java)
 * [1726. Tuple with Same Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TupleSameProduct.java)
