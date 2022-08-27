@@ -1151,6 +1151,7 @@
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
+* [1701. Average Waiting Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageWaitingTime.java)
 * [1702. Maximum Binary String After Change](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumBinaryString.java)
 * [1704. Determine if String Halves Are Alike](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HalvesAreAlike.java)
 * [1705. Maximum Number of Eaten Apples](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EatenApples.java)
