@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2021/11/30 22:00
+ * @see PredictTheWinner
  * @see PredictTheWinner1
  * @see StoneGame
  * @see StoneGameII
