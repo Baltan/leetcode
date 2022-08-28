@@ -10,6 +10,7 @@ package leetcode.algorithms;
  * @see StoneGameII
  * @see StoneGameIII
  * @see StoneGameIX
+ * @see StoneGameVI
  * @see StoneGameVII
  */
 public class StoneGame {
