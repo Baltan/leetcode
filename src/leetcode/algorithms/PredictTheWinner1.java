@@ -8,6 +8,8 @@ package leetcode.algorithms;
  * @see StoneGame
  * @see StoneGameII
  * @see StoneGameIII
+ * @see StoneGameIX
+ * @see StoneGameVII
  */
 public class PredictTheWinner1 {
     public static void main(String[] args) {
