@@ -1150,6 +1150,7 @@
 * [1667. Fix Names in a Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FixNamesInATable.sql)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1686. Stone Game VI](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGameVI.java)
+* [1688. Count of Matches in Tournament](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfMatches.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1690. Stone Game VII](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGameVII.java)
 * [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
