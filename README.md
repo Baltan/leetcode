@@ -1149,6 +1149,8 @@
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1667. Fix Names in a Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FixNamesInATable.sql)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
+* [1679. Max Number of K-Sum Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations.java)
+* [1679. Max Number of K-Sum Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations1.java)
 * [1680. Concatenation of Consecutive Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConcatenatedBinary.java)
 * [1684. Count the Number of Consistent Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountConsistentStrings.java)
 * [1684. Count the Number of Consistent Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountConsistentStrings1.java)
