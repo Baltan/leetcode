@@ -1150,6 +1150,7 @@
 * [1667. Fix Names in a Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FixNamesInATable.sql)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1673. Find the Most Competitive Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostCompetitive.java)
+* [1674. Minimum Moves to Make Array Complementary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves3.java)
 * [1678. Goal Parser Interpretation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Interpret.java)
 * [1679. Max Number of K-Sum Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations.java)
 * [1679. Max Number of K-Sum Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations1.java)
