@@ -2,6 +2,8 @@ package leetcode.algorithms;
 
 import leetcode.util.OutputUtils;
 
+import java.util.Stack;
+
 /**
  * Description: 1673. Find the Most Competitive Subsequence
  *
@@ -63,43 +65,39 @@ public class MostCompetitive {
                         770, 771, 772, 773, 774, 775, 776, 777}, 500));
     }
 
-    public static int[] mostCompetitive(int[] nums, int k) {
-        int[] result = new int[k];
-        int start = 0;
-
-        for (int i = 0; i < k; i++) {
-            /**
-             * 为了保证找到第x个元素后，nums剩余至少还有k-x个元素，当前查找范围不能超过nums[end]
-             */
-            int end = nums.length - (k - i);
-            /**
-             * 在允许的子数组范围内，查找值最小的，并且值相等时位置最靠前的元素
-             */
-            int index = search(nums, start, end);
-            result[i] = nums[index];
-            start = index + 1;
-        }
-        return result;
-    }
-
     /**
-     * 在nums[start]到nums[end]这段区间中（含两个端点）找到最小元素所在的索引，如果有多个最小元素取索引值最小的
+     * 参考：
+     * <a href="https://leetcode.cn/problems/find-the-most-competitive-subsequence/solution/java-dan-diao-zhan-by-thedesalizes/"></a>
      *
      * @param nums
-     * @param start
-     * @param end
+     * @param k
      * @return
      */
-    public static int search(int[] nums, int start, int end) {
-        int index = -1;
-        int min = Integer.MAX_VALUE;
+    public static int[] mostCompetitive(int[] nums, int k) {
+        int[] result = new int[k];
+        /**
+         * 通过单调栈查找满足要求的k个数字
+         */
+        Stack<Integer> stack = new Stack<>();
+        int length = nums.length;
 
-        for (int i = start; i <= end; i++) {
-            if (nums[i] < min) {
-                min = nums[i];
-                index = i;
+        for (int i = 0; i < length; i++) {
+            /**
+             * 如果当前元素比栈顶的元素更小，并且如果栈顶的元素出栈的话，数组nums中后面还有足够的数字来填满栈中的k个元素，就将栈
+             * 顶的元素都出栈
+             */
+            while (!stack.isEmpty() && nums[i] < stack.peek() && k - stack.size() + 1 <= length - i) {
+                stack.pop();
+            }
+
+            if (stack.size() < k) {
+                stack.add(nums[i]);
             }
         }
-        return index;
+
+        for (int i = k - 1; i >= 0; i--) {
+            result[i] = stack.pop();
+        }
+        return result;
     }
 }
