@@ -1148,6 +1148,7 @@
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1658. Minimum Operations to Reduce X to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations8.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
+* [1664. Ways to Make a Fair Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToMakeFair.java)
 * [1667. Fix Names in a Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FixNamesInATable.sql)
 * [1668. Maximum Repeating Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRepeating.java)
 * [1669. Merge In Between Linked Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeInBetween.java)
