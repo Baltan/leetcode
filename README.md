@@ -1146,6 +1146,7 @@
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
+* [1648. Sell Diminishing-Valued Colored Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit6.java)
 * [1658. Minimum Operations to Reduce X to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations8.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1664. Ways to Make a Fair Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToMakeFair.java)
