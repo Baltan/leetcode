@@ -1147,6 +1147,7 @@
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1648. Sell Diminishing-Valued Colored Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit6.java)
+* [1654. Minimum Jumps to Reach Home](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumJumps.java)
 * [1657. Determine if Two Strings Are Close](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CloseStrings.java)
 * [1658. Minimum Operations to Reduce X to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations8.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
