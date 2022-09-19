@@ -1150,6 +1150,8 @@
 * [1654. Minimum Jumps to Reach Home](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumJumps.java)
 * [1657. Determine if Two Strings Are Close](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CloseStrings.java)
 * [1658. Minimum Operations to Reduce X to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations8.java)
+* [1662. Check If Two String Arrays are Equivalent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayStringsAreEqual.java)
+* [1662. Check If Two String Arrays are Equivalent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayStringsAreEqual1.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1664. Ways to Make a Fair Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToMakeFair.java)
 * [1667. Fix Names in a Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FixNamesInATable.sql)
