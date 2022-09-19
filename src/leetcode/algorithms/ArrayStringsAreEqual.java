@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2022/9/11 13:17
+ * @see ArrayStringsAreEqual1
  */
 public class ArrayStringsAreEqual {
     public static void main(String[] args) {

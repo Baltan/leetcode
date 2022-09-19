@@ -9,6 +9,7 @@ import java.util.stream.Collectors;
  *
  * @author Baltan
  * @date 2022/9/11 13:17
+ * @see ArrayStringsAreEqual
  */
 public class ArrayStringsAreEqual1 {
     public static void main(String[] args) {
