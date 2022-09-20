@@ -1148,6 +1148,7 @@
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1648. Sell Diminishing-Valued Colored Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit6.java)
 * [1654. Minimum Jumps to Reach Home](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumJumps.java)
+* [1656. Design an Ordered Stream](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OrderedStream.java)
 * [1657. Determine if Two Strings Are Close](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CloseStrings.java)
 * [1658. Minimum Operations to Reduce X to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations8.java)
 * [1662. Check If Two String Arrays are Equivalent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayStringsAreEqual.java)
