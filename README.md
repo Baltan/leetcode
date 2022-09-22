@@ -1147,6 +1147,7 @@
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1648. Sell Diminishing-Valued Colored Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit6.java)
+* [1652. Defuse the Bomb](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Decrypt.java)
 * [1653. Minimum Deletions to Make String Balanced](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDeletions1.java)
 * [1654. Minimum Jumps to Reach Home](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumJumps.java)
 * [1656. Design an Ordered Stream](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OrderedStream.java)
