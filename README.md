@@ -1145,6 +1145,7 @@
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
+* [1646. Get Maximum in Generated Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaximumGenerated.java)
 * [1647. Minimum Deletions to Make Character Frequencies Unique](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletions.java)
 * [1648. Sell Diminishing-Valued Colored Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit6.java)
 * [1652. Defuse the Bomb](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Decrypt.java)
