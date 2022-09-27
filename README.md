@@ -1145,6 +1145,7 @@
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
+* [1638. Count Substrings That Differ by One Character](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubstrings1.java)
 * [1640. Check Array Formation Through Concatenation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanFormArray.java)
 * [1641. Count Sorted Vowel Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountVowelStrings.java)
 * [1642. Furthest Building You Can Reach](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FurthestBuilding.java)
