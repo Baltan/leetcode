@@ -1145,6 +1145,7 @@
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
+* [1631. Path With Minimum Effort](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumEffortPath.java)
 * [1636. Sort Array by Increasing Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FrequencySort1.java)
 * [1637. Widest Vertical Area Between Two Points Containing No Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWidthOfVerticalArea.java)
 * [1638. Count Substrings That Differ by One Character](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubstrings1.java)
