@@ -1146,6 +1146,7 @@
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
 * [1625. Lexicographically Smallest String After Applying Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLexSmallestString.java)
+* [1626. Best Team With No Conflicts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestTeamScore.java)
 * [1630. Arithmetic Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckArithmeticSubarrays.java)
 * [1631. Path With Minimum Effort](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumEffortPath.java)
 * [1636. Sort Array by Increasing Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FrequencySort1.java)
