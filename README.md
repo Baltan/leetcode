@@ -1151,6 +1151,7 @@
 * [1621. Number of Sets of K Non-Overlapping Line Segments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSets.java)
 * [1621. Number of Sets of K Non-Overlapping Line Segments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSets1.java)
 * [1621. Number of Sets of K Non-Overlapping Line Segments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSets2.java)
+* [1624. Largest Substring Between Two Equal Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxLengthBetweenEqualCharacters.java)
 * [1625. Lexicographically Smallest String After Applying Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLexSmallestString.java)
 * [1626. Best Team With No Conflicts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestTeamScore.java)
 * [1629. Slowest Key](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SlowestKey.java)
