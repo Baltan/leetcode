@@ -1145,6 +1145,7 @@
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
+* [1614. Maximum Nesting Depth of the Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth2.java)
 * [1615. Maximal Network Rank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalNetworkRank.java)
 * [1616. Split Two Strings to Make Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPalindromeFormation.java)
 * [1619. Mean of Array After Removing Some Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TrimMean.java)
