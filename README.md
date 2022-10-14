@@ -1146,6 +1146,7 @@
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1600. Throne Inheritance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThroneInheritance.java)
 * [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlertNames.java)
+* [1608. Special Array With X Elements Greater Than or Equal X](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialArray.java)
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
 * [1614. Maximum Nesting Depth of the Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth2.java)
 * [1615. Maximal Network Rank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalNetworkRank.java)
