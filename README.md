@@ -1145,6 +1145,7 @@
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1600. Throne Inheritance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThroneInheritance.java)
+* [1603. Design Parking System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ParkingSystem.java)
 * [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlertNames.java)
 * [1605. Find Valid Matrix Given Row and Column Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreMatrix.java)
 * [1608. Special Array With X Elements Greater Than or Equal X](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialArray.java)
