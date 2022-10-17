@@ -1144,6 +1144,7 @@
 * [1587. Bank Account Summary II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/BankAccountSummaryII.sql)
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
+* [1599. Maximum Profit of Operating a Centennial Wheel](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperationsMaxProfit.java)
 * [1600. Throne Inheritance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThroneInheritance.java)
 * [1603. Design Parking System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ParkingSystem.java)
 * [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlertNames.java)
