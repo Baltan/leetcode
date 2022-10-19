@@ -1141,6 +1141,8 @@
 * [1573. Number of Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays2.java)
 * [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost.java)
 * [1581. Customer Who Visited but Did Not Make Any Transactions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)
+* [1583. Count Unhappy Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UnhappyFriends.java)
+* [1583. Count Unhappy Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UnhappyFriends1.java)
 * [1587. Bank Account Summary II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/BankAccountSummaryII.sql)
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
