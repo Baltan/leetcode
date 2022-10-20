@@ -1145,6 +1145,7 @@
 * [1583. Count Unhappy Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UnhappyFriends1.java)
 * [1587. Bank Account Summary II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/BankAccountSummaryII.sql)
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
+* [1593. Split a String Into the Max Number of Unique Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxUniqueSplit.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
 * [1598. Crawler Log Folder](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations9.java)
 * [1599. Maximum Profit of Operating a Centennial Wheel](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperationsMaxProfit.java)
