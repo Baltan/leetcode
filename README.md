@@ -1144,6 +1144,7 @@
 * [1583. Count Unhappy Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UnhappyFriends.java)
 * [1583. Count Unhappy Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UnhappyFriends1.java)
 * [1587. Bank Account Summary II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/BankAccountSummaryII.sql)
+* [1590. Make Sum Divisible by P](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSubarray.java)
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1593. Split a String Into the Max Number of Unique Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxUniqueSplit.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
