@@ -1,6 +1,8 @@
 package leetcode.algorithms;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
 
 /**
  * Description: 1590. Make Sum Divisible by P
@@ -221,11 +223,10 @@ public class MinSubarray {
         long prefixSum = 0L;
         int length = nums.length;
         /**
-         * remainderIndexes[i]表示遍历过程中前缀和模p余数为i的最后一个数的索引位置
+         * 余数i -> 遍历过程中前缀和模p余数为i的最后一个数的索引位置
          */
-        int[] remainderIndexes = new int[p];
-        Arrays.fill(remainderIndexes, length);
-        remainderIndexes[0] = -1;
+        Map<Integer, Integer> remainderMap = new HashMap<>();
+        remainderMap.put(0, -1);
 
         for (int i = 0; i < length; i++) {
             sum += nums[i];
@@ -256,10 +257,11 @@ public class MinSubarray {
             /**
              * 判断遍历过程中是否已经得到过符合以上条件的子数组[nums[0],nums[1],……,nums[k-1]]
              */
-            if (remainderIndexes[prevRemainder] != length) {
-                result = Math.min(result, i - remainderIndexes[prevRemainder]);
+            if (remainderMap.containsKey(prevRemainder) &&
+                    !Objects.equals(remainderMap.get(prevRemainder), length)) {
+                result = Math.min(result, i - remainderMap.get(prevRemainder));
             }
-            remainderIndexes[currRemainder] = i;
+            remainderMap.put(currRemainder, i);
         }
         return result == Integer.MAX_VALUE || result == length ? -1 : result;
     }
