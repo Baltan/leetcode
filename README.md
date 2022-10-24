@@ -1139,6 +1139,7 @@
 * [1567. Maximum Length of Subarray With Positive Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaxLen.java)
 * [1572. Matrix Diagonal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalSum.java)
 * [1573. Number of Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays2.java)
+* [1574. Shortest Subarray to be Removed to Make Array Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLengthOfShortestSubarray.java)
 * [1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTriplets.java)
 * [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost.java)
 * [1581. Customer Who Visited but Did Not Make Any Transactions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)
