@@ -38,8 +38,8 @@ public class ContainsCycle {
          */
         boolean[][] isVisited = new boolean[rows][cols];
 
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
                 /**
                  * 假设初始时是从左边进入grid[i][j]这个格子的
                  */
