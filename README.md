@@ -1125,6 +1125,8 @@
 * [1529. Bulb Switcher IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips1.java)
 * [1535. Find the Winner of an Array Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetWinner.java)
 * [1536. Minimum Swaps to Arrange a Binary Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps.java)
+* [1539. Kth Missing Positive Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthPositive.java)
+* [1539. Kth Missing Positive Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthPositive1.java)
 * [1540. Can Convert String in K Moves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConvertString.java)
 * [1541. Minimum Insertions to Balance a Parentheses String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinInsertions1.java)
 * [1545. Find Kth Bit in Nth Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthBit.java)
