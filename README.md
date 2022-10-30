@@ -1148,6 +1148,7 @@
 * [1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTriplets.java)
 * [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost.java)
 * [1581. Customer Who Visited but Did Not Make Any Transactions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CustomerWhoVisitedButDidNotMakeAnyTransactions.sql)
+* [1582. Special Positions in a Binary Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSpecial.java)
 * [1583. Count Unhappy Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UnhappyFriends.java)
 * [1583. Count Unhappy Friends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UnhappyFriends1.java)
 * [1584. Min Cost to Connect All Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCostConnectPoints.java)
