@@ -1154,6 +1154,7 @@
 * [1584. Min Cost to Connect All Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCostConnectPoints.java)
 * [1587. Bank Account Summary II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/BankAccountSummaryII.sql)
 * [1588. Sum of All Odd Length Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOddLengthSubarrays.java)
+* [1589. Maximum Sum Obtained of Any Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumRangeQuery.java)
 * [1590. Make Sum Divisible by P](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSubarray.java)
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1593. Split a String Into the Max Number of Unique Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxUniqueSplit.java)
