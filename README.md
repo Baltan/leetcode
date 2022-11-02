@@ -1138,6 +1138,7 @@
 * [1557. Minimum Number of Vertices to Reach All Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSmallestSetOfVertices.java)
 * [1558. Minimum Numbers of Function Calls to Make Target Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations1.java)
 * [1559. Detect Cycles in 2D Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsCycle.java)
+* [1560. Most Visited Sector in a Circular Track](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostVisited.java)
 * [1561. Maximum Number of Coins You Can Get](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCoins1.java)
 * [1562. Find Latest Group of Size M](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLatestStep.java)
 * [1566. Detect Pattern of Length M Repeated K or More Times](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsPattern.java)
