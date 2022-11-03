@@ -1129,6 +1129,7 @@
 * [1539. Kth Missing Positive Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthPositive1.java)
 * [1540. Can Convert String in K Moves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanConvertString.java)
 * [1541. Minimum Insertions to Balance a Parentheses String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinInsertions1.java)
+* [1544. Make The String Great](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeGood.java)
 * [1545. Find Kth Bit in Nth Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthBit.java)
 * [1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNonOverlapping.java)
 * [1550. Three Consecutive Odds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThreeConsecutiveOdds.java)
