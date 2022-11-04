@@ -1103,6 +1103,7 @@
 * [1491. Average Salary Excluding the Minimum and Maximum Salary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Average.java)
 * [1492. The kth Factor of n](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthFactor.java)
 * [1493. Longest Subarray of 1's After Deleting One Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray1.java)
+* [1496. Path Crossing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPathCrossing.java)
 * [1497. Check If Array Pairs Are Divisible by k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanArrange.java)
 * [1498. Number of Subsequences That Satisfy the Given Sum Condition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSubseq.java)
 * [1499. Max Value of Equation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxValueOfEquation.java)
