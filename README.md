@@ -286,6 +286,7 @@
 * [310. Minimum Height Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinHeightTrees.java)
 * [312. Burst Balloons](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCoins.java)
 * [313. Super Ugly Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthSuperUglyNumber.java)
+* [316. Remove Duplicate Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicateLetters.java)
 * [318. Maximum Product of Word Lengths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct1.java)
 * [319. Bulb Switcher](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BulbSwitch.java)
 * [319. Bulb Switcher](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BulbSwitch1.java)
