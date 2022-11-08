@@ -1127,6 +1127,7 @@
 * [1528. Shuffle String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreString.java)
 * [1529. Bulb Switcher IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips1.java)
 * [1530. Number of Good Leaf Nodes Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs2.java)
+* [1534. Count Good Triplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodTriplets.java)
 * [1535. Find the Winner of an Array Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetWinner.java)
 * [1536. Minimum Swaps to Arrange a Binary Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps.java)
 * [1539. Kth Missing Positive Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthPositive.java)
