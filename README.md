@@ -871,6 +871,7 @@
 * [1124. Longest Well-Performing Interval](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestWPI.java)
 * [1128. Number of Equivalent Domino Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumEquivDominoPairs.java)
 * [1129. Shortest Path with Alternating Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestAlternatingPaths.java)
+* [1130. Minimum Cost Tree From Leaf Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MctFromLeafValues.java)
 * [1131. Maximum of Absolute Value Expression](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAbsValExpr.java)
 * [1137. N-th Tribonacci Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tribonacci.java)
 * [1138. Alphabet Board Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlphabetBoardPath.java)
