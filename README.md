@@ -1092,6 +1092,7 @@
 * [1462. Course Schedule IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfPrerequisite1.java)
 * [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxArea1.java)
 * [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinReorder.java)
+* [1470. Shuffle the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Shuffle.java)
 * [1471. The k Strongest Values in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetStrongest.java)
 * [1472. Design Browser History](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BrowserHistory.java)
 * [1476. Subrectangle Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubrectangleQueries.java)
