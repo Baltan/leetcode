@@ -9,6 +9,7 @@ import java.util.Arrays;
  *
  * @author Baltan
  * @date 2019-04-29 21:55
+ * @see NumMovesStonesII
  */
 public class NumMovesStones {
     public static void main(String[] args) {
