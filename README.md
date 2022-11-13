@@ -826,6 +826,7 @@
 * [1037. Valid Boomerang](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsBoomerang.java)
 * [1038. Binary Search Tree to Greater Sum Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BstToGst.java)
 * [1039. Minimum Score Triangulation of Polygon](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinScoreTriangulation.java)
+* [1040. Moving Stones Until Consecutive II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMovesStonesII.java)
 * [1041. Robot Bounded In Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsRobotBounded.java)
 * [1042. Flower Planting With No Adjacent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GardenNoAdj.java)
 * [1043. Partition Array for Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumAfterPartitioning.java)
