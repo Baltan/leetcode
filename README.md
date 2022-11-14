@@ -630,6 +630,7 @@
 * [809. Expressive Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExpressiveWords.java)
 * [811. Subdomain Visit Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubdomainVisits.java)
 * [812. Largest Triangle Area](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestTriangleArea.java)
+* [813. Largest Sum of Averages](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSumOfAverages.java)
 * [814. Binary Tree Pruning](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PruneTree.java)
 * [816. Ambiguous Coordinates](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AmbiguousCoordinates.java)
 * [817. Linked List Components](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumComponents.java)
