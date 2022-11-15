@@ -608,6 +608,8 @@
 * [783. Minimum Distance Between BST Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDiffInBST.java)
 * [784. Letter Case Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LetterCasePermutation.java)
 * [785. Is Graph Bipartite?](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsBipartite.java)
+* [786. K-th Smallest Prime Fraction](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthSmallestPrimeFraction.java)
+* [786. K-th Smallest Prime Fraction](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthSmallestPrimeFraction1.java)
 * [787. Cheapest Flights Within K Stops](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCheapestPrice.java)
 * [787. Cheapest Flights Within K Stops](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCheapestPrice1.java)
 * [788. Rotated Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotatedDigits.java)
