@@ -573,6 +573,7 @@
 * [717. 1-bit and 2-bit Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsOneBitCharacter.java)
 * [718. Maximum Length of Repeated Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLength.java)
 * [720. Longest Word in Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestWord.java)
+* [721. Accounts Merge](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AccountsMerge.java)
 * [722. Remove Comments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveComments.java)
 * [724. Find Pivot Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotIndex.java)
 * [725. Split Linked List in Parts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitListToParts.java)
