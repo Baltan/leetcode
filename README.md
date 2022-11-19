@@ -1104,6 +1104,7 @@
 * [1470. Shuffle the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Shuffle.java)
 * [1471. The k Strongest Values in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetStrongest.java)
 * [1472. Design Browser History](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BrowserHistory.java)
+* [1475. Final Prices With a Special Discount in a Shop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FinalPrices.java)
 * [1476. Subrectangle Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubrectangleQueries.java)
 * [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSumOfLengths.java)
 * [1480. Running Sum of 1d Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RunningSum.java)
