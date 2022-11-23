@@ -22,76 +22,83 @@ public class ClosestNodes {
         TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{4, null, 9}, 0);
         List<Integer> queries2 = Arrays.asList(3);
         System.out.println(closestNodes(root2, queries2));
-
-        TreeNode root3 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{4, null, 9}, 0);
-        List<Integer> queries3 = Arrays.asList(3);
-        System.out.println(closestNodes(root3, queries3));
     }
 
     public static List<List<Integer>> closestNodes(TreeNode root, List<Integer> queries) {
         List<List<Integer>> result = new ArrayList<>(queries.size());
+        List<Integer> inOrder = new ArrayList<>();
+        inOrder(root, inOrder);
 
         for (int query : queries) {
-            result.add(Arrays.asList(getSmaller(root, query), getGreater(root, query)));
+            result.add(Arrays.asList(getSmaller(inOrder, query), getGreater(inOrder, query)));
         }
         return result;
     }
 
     /**
-     * 在二叉搜索树中查找小于等于query的最大节点值
+     * 中序遍历二叉搜索树
      *
-     * @param node
-     * @param query
-     * @return
+     * @param root
+     * @param inOrder
      */
-    public static int getSmaller(TreeNode node, int query) {
-        if (node == null) {
-            return -1;
+    public static void inOrder(TreeNode root, List<Integer> inOrder) {
+        if (root == null) {
+            return;
         }
-
-        if (node.val == query) {
-            return query;
-        } else if (node.val < query) {
-            /**
-             * 在右子树中查找是否有大于node.val，并且小于等于query的节点值
-             */
-            int right = getSmaller(node.right, query);
-            return right == -1 ? node.val : right;
-        } else {
-            /**
-             * 在左子树中查找是否有小于等于query的节点值
-             */
-            int left = getSmaller(node.left, query);
-            return left == -1 ? -1 : left;
-        }
+        inOrder(root.left, inOrder);
+        inOrder.add(root.val);
+        inOrder(root.right, inOrder);
     }
 
     /**
-     * 在二叉搜索树中查找大于等于query的最小节点值
+     * 在升序数组inOrder中二分查找小于等于query的最大值
      *
-     * @param node
+     * @param inOrder
      * @param query
      * @return
      */
-    public static int getGreater(TreeNode node, int query) {
-        if (node == null) {
+    public static int getSmaller(List<Integer> inOrder, int query) {
+        if (inOrder.get(0) > query) {
             return -1;
         }
+        int lo = 0;
+        int hi = inOrder.size() - 1;
 
-        if (node.val == query) {
-            return query;
-        } else if (node.val < query) {
-            /**
-             * 在右子树中查找是否有大于等于query的节点值
-             */
-            int right = getGreater(node.right, query);
-            return right == -1 ? -1 : right;
-        } else {
-            /**
-             * 在左子树中查找是否有小于node.val，并且大于等于query的节点值
-             */
-            int left = getGreater(node.left, query);
-            return left == -1 ? node.val : left;
+        while (lo < hi) {
+            int mid = (lo + hi + 1) / 2;
+
+            if (inOrder.get(mid) > query) {
+                hi = mid - 1;
+            } else {
+                lo = mid;
+            }
         }
+        return inOrder.get(lo);
+    }
+
+    /**
+     * 在升序数组inOrder中二分查找大于等于query的最小值
+     *
+     * @param inOrder
+     * @param query
+     * @return
+     */
+    public static int getGreater(List<Integer> inOrder, int query) {
+        if (inOrder.get(inOrder.size() - 1) < query) {
+            return -1;
+        }
+        int lo = 0;
+        int hi = inOrder.size() - 1;
+
+        while (lo < hi) {
+            int mid = (lo + hi) / 2;
+
+            if (inOrder.get(mid) < query) {
+                lo = mid + 1;
+            } else {
+                hi = mid;
+            }
+        }
+        return inOrder.get(lo);
     }
 }
