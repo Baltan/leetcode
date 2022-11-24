@@ -1586,6 +1586,7 @@
 * [2273. Find Resultant Array After Removing Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAnagrams.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
+* [2467. Most Profitable Path in a Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostProfitablePath.java)
 * [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations1.java)
 * [2476. Closest Nodes Queries in a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestNodes.java)
 * [2477. Minimum Fuel Cost to Report to the Capital](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumFuelCost.java)
