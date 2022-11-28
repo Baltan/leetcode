@@ -1587,6 +1587,7 @@
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
 * [2457. Minimum Addition to Make Integer Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeIntegerBeautiful.java)
+* [2461. Maximum Sum of Distinct Subarrays With Length K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSubarraySum.java)
 * [2462. Total Cost to Hire K Workers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalCost.java)
 * [2466. Count Ways To Build Good Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodStrings.java)
 * [2467. Most Profitable Path in a Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostProfitablePath.java)
