@@ -1594,6 +1594,7 @@
 * [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations1.java)
 * [2476. Closest Nodes Queries in a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestNodes.java)
 * [2477. Minimum Fuel Cost to Report to the Capital](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumFuelCost.java)
+* [2483. Minimum Penalty for a Shop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestClosingTime.java)
 * [2486. Append Characters to String to Make Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AppendCharacters.java)
 * [2487. Remove Nodes From Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveNodes.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
