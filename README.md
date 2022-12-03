@@ -1591,6 +1591,7 @@
 * [2462. Total Cost to Hire K Workers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalCost.java)
 * [2466. Count Ways To Build Good Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodStrings.java)
 * [2467. Most Profitable Path in a Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostProfitablePath.java)
+* [2470. Number of Subarrays With LCM Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarrayLCM.java)
 * [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations1.java)
 * [2476. Closest Nodes Queries in a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestNodes.java)
 * [2477. Minimum Fuel Cost to Report to the Capital](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumFuelCost.java)
