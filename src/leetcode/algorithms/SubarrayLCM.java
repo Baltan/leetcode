@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2022/11/30 09:31
+ * @see SubarrayGCD
  */
 public class SubarrayLCM {
     public static void main(String[] args) {
