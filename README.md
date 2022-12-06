@@ -1601,6 +1601,7 @@
 * [2483. Minimum Penalty for a Shop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestClosingTime.java)
 * [2486. Append Characters to String to Make Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AppendCharacters.java)
 * [2487. Remove Nodes From Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveNodes.java)
+* [2492. Minimum Score of a Path Between Two Cities](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinScore.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
