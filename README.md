@@ -1586,6 +1586,7 @@
 * [2273. Find Resultant Array After Removing Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAnagrams.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
+* [2447. Number of Subarrays With GCD Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarrayGCD.java)
 * [2452. Words Within Two Edits of Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoEditWords.java)
 * [2453. Destroy Sequential Targets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DestroyTargets.java)
 * [2456. Most Popular Video Creator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostPopularCreator.java)
