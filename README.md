@@ -1587,6 +1587,7 @@
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
 * [2439. Minimize Maximum of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeArrayValue.java)
+* [2442. Count Number of Distinct Integers After Reverse Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinctIntegers.java)
 * [2443. Sum of Number and Its Reverse](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfNumberAndReverse.java)
 * [2447. Number of Subarrays With GCD Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarrayGCD.java)
 * [2452. Words Within Two Edits of Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoEditWords.java)
