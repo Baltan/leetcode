@@ -1586,6 +1586,7 @@
 * [2273. Find Resultant Array After Removing Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAnagrams.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
+* [2434. Using a Robot to Print the Lexicographically Smallest String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RobotWithString.java)
 * [2438. Range Product Queries of Powers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProductQueries.java)
 * [2439. Minimize Maximum of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeArrayValue.java)
 * [2442. Count Number of Distinct Integers After Reverse Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinctIntegers.java)
