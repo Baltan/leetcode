@@ -1611,6 +1611,7 @@
 * [2487. Remove Nodes From Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveNodes.java)
 * [2491. Divide Players Into Teams of Equal Skill](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DividePlayers.java)
 * [2492. Minimum Score of a Path Between Two Cities](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinScore.java)
+* [2497. Maximum Star Sum of a Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxStarSum.java)
 * [2501. Longest Square Streak in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSquareStreak.java)
 * [2502. Design Memory Allocator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Allocator.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
