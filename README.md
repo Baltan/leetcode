@@ -1586,6 +1586,7 @@
 * [2273. Find Resultant Array After Removing Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAnagrams.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
+* [2424. Longest Uploaded Prefix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LUPrefix.java)
 * [2425. Bitwise XOR of All Pairings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorAllNums.java)
 * [2428. Maximum Sum of an Hourglass](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum.java)
 * [2429. Minimize XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeXor.java)
