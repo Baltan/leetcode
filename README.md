@@ -1622,6 +1622,7 @@
 * [2501. Longest Square Streak in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSquareStreak.java)
 * [2502. Design Memory Allocator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Allocator.java)
 * [2507. Smallest Value After Replacing With Sum of Prime Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestValue.java)
+* [2516. Take K of Each Character From Left and Right](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TakeCharacters.java)
 * [2517. Maximum Tastiness of Candy Basket](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTastiness.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
