@@ -1620,6 +1620,7 @@
 * [2491. Divide Players Into Teams of Equal Skill](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DividePlayers.java)
 * [2492. Minimum Score of a Path Between Two Cities](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinScore.java)
 * [2497. Maximum Star Sum of a Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxStarSum.java)
+* [2498. Frog Jump II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxJump.java)
 * [2501. Longest Square Streak in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSquareStreak.java)
 * [2502. Design Memory Allocator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Allocator.java)
 * [2507. Smallest Value After Replacing With Sum of Prime Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestValue.java)
