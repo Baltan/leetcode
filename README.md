@@ -1629,6 +1629,7 @@
 * [2513. Minimize the Maximum of Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeSet.java)
 * [2516. Take K of Each Character From Left and Right](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TakeCharacters.java)
 * [2517. Maximum Tastiness of Candy Basket](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTastiness.java)
+* [2521. Distinct Prime Factors of Product of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctPrimeFactors.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
