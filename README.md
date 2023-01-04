@@ -1586,6 +1586,7 @@
 * [2273. Find Resultant Array After Removing Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAnagrams.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
+* [2380. Time Needed to Rearrange a Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SecondsToRemoveOccurrences.java)
 * [2381. Shifting Letters II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftingLetters1.java)
 * [2384. Largest Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindromic.java)
 * [2400. Number of Ways to Reach a Position After Exactly k Steps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWays1.java)
