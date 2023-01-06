@@ -1590,6 +1590,7 @@
 * [2381. Shifting Letters II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftingLetters1.java)
 * [2384. Largest Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindromic.java)
 * [2400. Number of Ways to Reach a Position After Exactly k Steps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWays1.java)
+* [2406. Divide Intervals Into Minimum Number of Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinGroups.java)
 * [2410. Maximum Matching of Players With Trainers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatchPlayersAndTrainers.java)
 * [2411. Smallest Subarrays With Maximum Bitwise OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestSubarrays.java)
 * [2414. Length of the Longest Alphabetical Continuous Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestContinuousSubstring.java)
