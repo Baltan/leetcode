@@ -1640,6 +1640,7 @@
 * [2521. Distinct Prime Factors of Product of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctPrimeFactors.java)
 * [2522. Partition String Into Substrings With Values at Most K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPartition.java)
 * [2523. Closest Prime Numbers in Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestPrimes.java)
+* [2527. Find Xor-Beauty of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorBeauty.java)
 * [2530. Maximal Score After Applying K Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxKelements.java)
 * [2531. Make Number of Distinct Characters Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsItPossible.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
