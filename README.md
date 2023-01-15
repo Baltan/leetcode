@@ -1589,6 +1589,7 @@
 * [2369. Check if There is a Valid Partition For The Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPartition.java)
 * [2370. Longest Ideal Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIdealString.java)
 * [2370. Longest Ideal Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIdealString1.java)
+* [2375. Construct Smallest Number From DI String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestNumber1.java)
 * [2380. Time Needed to Rearrange a Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SecondsToRemoveOccurrences.java)
 * [2381. Shifting Letters II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftingLetters1.java)
 * [2384. Largest Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindromic.java)
