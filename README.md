@@ -1592,6 +1592,7 @@
 * [2380. Time Needed to Rearrange a Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SecondsToRemoveOccurrences.java)
 * [2381. Shifting Letters II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftingLetters1.java)
 * [2384. Largest Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindromic.java)
+* [2390. Removing Stars From a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveStars.java)
 * [2391. Minimum Amount of Time to Collect Garbage](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GarbageCollection.java)
 * [2396. Strictly Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsStrictlyPalindromic.java)
 * [2397. Maximum Rows Covered by Columns](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumRows.java)
