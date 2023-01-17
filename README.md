@@ -1586,6 +1586,7 @@
 * [2273. Find Resultant Array After Removing Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAnagrams.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
+* [2368. Reachable Nodes With Restrictions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachableNodes.java)
 * [2369. Check if There is a Valid Partition For The Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPartition.java)
 * [2370. Longest Ideal Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIdealString.java)
 * [2370. Longest Ideal Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIdealString1.java)
