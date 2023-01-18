@@ -1589,6 +1589,7 @@
 * [2336. Smallest Number in Infinite Set](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestInfiniteSet.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers1.java)
+* [2349. Design a Number Container System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberContainers.java)
 * [2365. Task Scheduler II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TaskSchedulerII.java)
 * [2368. Reachable Nodes With Restrictions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachableNodes.java)
 * [2369. Check if There is a Valid Partition For The Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPartition.java)
