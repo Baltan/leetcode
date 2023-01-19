@@ -1587,6 +1587,7 @@
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
 * [2327. Number of People Aware of a Secret](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeopleAwareOfSecret.java)
+* [2332. The Latest Time to Catch a Bus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LatestTimeCatchTheBus.java)
 * [2333. Minimum Sum of Squared Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSumSquareDiff.java)
 * [2336. Smallest Number in Infinite Set](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestInfiniteSet.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers.java)
