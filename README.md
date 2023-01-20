@@ -1595,6 +1595,7 @@
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers1.java)
 * [2349. Design a Number Container System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberContainers.java)
+* [2359. Find Closest Node to Given Two Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestMeetingNode.java)
 * [2364. Count Number of Bad Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBadPairs.java)
 * [2365. Task Scheduler II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TaskSchedulerII.java)
 * [2368. Reachable Nodes With Restrictions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachableNodes.java)
