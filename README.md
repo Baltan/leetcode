@@ -1586,6 +1586,8 @@
 * [2273. Find Resultant Array After Removing Anagrams](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAnagrams.java)
 * [2274. Maximum Consecutive Floors Without Special Floors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutive.java)
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
+* [2311. Longest Binary Subsequence Less Than or Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubsequence1.java)
+* [2311. Longest Binary Subsequence Less Than or Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubsequence2.java)
 * [2327. Number of People Aware of a Secret](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeopleAwareOfSecret.java)
 * [2332. The Latest Time to Catch a Bus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LatestTimeCatchTheBus.java)
 * [2333. Minimum Sum of Squared Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSumSquareDiff.java)
