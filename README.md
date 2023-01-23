@@ -1601,6 +1601,7 @@
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers1.java)
 * [2349. Design a Number Container System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberContainers.java)
+* [2352. Equal Row and Column Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualPairs.java)
 * [2353. Design a Food Rating System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FoodRatings.java)
 * [2358. Maximum Number of Groups Entering a Competition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumGroups.java)
 * [2359. Find Closest Node to Given Two Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestMeetingNode.java)
