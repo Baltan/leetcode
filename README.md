@@ -1680,6 +1680,7 @@
 * [2531. Make Number of Distinct Characters Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsItPossible.java)
 * [2536. Increment Submatrices by One](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeAddQueries.java)
 * [2537. Count the Number of Good Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGood.java)
+* [2545. Sort the Students by Their Kth Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortTheStudents.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
