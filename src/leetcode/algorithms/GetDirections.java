@@ -3,10 +3,7 @@ package leetcode.algorithms;
 import leetcode.entity.TreeNode;
 import leetcode.util.BinaryTreeUtils;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * Description: 2096. Step-By-Step Directions From a Binary Tree Node to Another
@@ -21,67 +18,71 @@ public class GetDirections {
 
         TreeNode root2 = BinaryTreeUtils.arrayToBinaryTree(new Integer[]{2, 1}, 0);
         System.out.println(getDirections(root2, 2, 1));
+
+        TreeNode root3 = BinaryTreeUtils.linkedListToBinaryTree(new int[]{479, 70, 433, 790, 330, 847, 531, 316, 268, 615, 256, 417, 708, 545, 979, 673, 147, 681, 15, 501, 666, 92, 924, 38, 911, 109, 107, 13, 370, 118, 966, 994, 248, 689, 445, 869, 634, 625, 960, 729, 398, 83, 543, 702, 993, 185, 898, 841, 663, 693, 388, 177, 498, 741, 603, 872, 473, 750, 757, 368, 846, 767, 352, 161, 627, 220, 399, 972, 253, 141, 802, 551, 769, 961, 929, 807, 607, 539, 715, 488, 14, 978, 296, 534, 835, 46, 145, 386, 239, 214, 644, 116, 895, 493, 840, 560, 384, 269, 941, 642, 285, 293, 419, 919, 670, 939, 771, 193, 98, 448, 350, 735, 261, 469, 821, 999, 67, 113, 286, 882, 74, 313, 559, 922, 732, 764, 156, 320, 243, 376, 427, 592, 247, 233, 336, 420, 513, 226, 40, 832, 251, 434, 881, 56, 155, 902, 48, 948, 705, 659, 781, 819, 309, 849, 913, 468, 667, 443, 815, 699, 830, 529, 64, 989, 810, 680, 413, 209, 938, 566, 43, 12, 610, 768, 683, 621, 252, 183, 206, 114, 571, 365, 215, 562, 426, 828, 238, 451, 219, 691, 175, 500, 540, 401, 824, 425, 34, 606, 265, 8, 652, 695, 523, 812, 186, 535, 151, 10, 390, 497, 520, 371, 9, 242, 981, 982, 533, 669, 829, 35, 33, 26, 432, 839, 3, 664, 267, 706, 415, 354, 655, 747, 166, 630, 900, 623, 332, 490, 431, 374, 325, 142, 314, 394, 216, 720, 678, 800, 302, 671, 657, 440, 397, 679, 275, 277, 852, 408, 295, 744, 505, 171, 697, 263, 190, 128, 383, 646, 315, 834, 653, 971, 165, 360, 327, 730, 478, 393, 195, 754, 369, 42, 349, 921, 463, 189, 402, 579, 16, 461, 21, 148, 44, 134, 877, 618, 123, 597, 519, 78, 645, 317, 688, 213, 456, 77, 753, 485, 816, 833, 600, 5, 90, 459, 943, 934, 661, 973, 580, 278, 50, 686, 400, 958, 297, 677, 482, 987, 230, 582, 570, 304, 711, 373, 967, 857, 567, 853, 158, 537, 245, 763, 477, 868, 614, 321, 475, 638, 392, 170, 867, 396, 935, 704, 692, 510, 455, 806, 909, 813, 104, 955, 465, 68, 951, 899, 54, 950, 687, 870, 467, 907, 696, 804, 557, 120, 818, 893, 761, 780, 617, 442, 875, 892, 24, 584, 470, 133, 339, 1001, 770, 119, 798, 163, 703, 126, 51, 80, 620, 508, 298, 62, 200, 436, 196, 737, 489, 29, 723, 112, 82, 574, 859, 604, 187, 619, 639, 84, 925, 411, 73, 111, 945, 72, 140, 901, 942, 204, 356, 342, 363, 122, 406, 217, 132, 79, 746, 181, 139, 281, 995, 586, 801, 124, 675, 282, 503, 738, 55, 954, 542, 221, 487, 518, 817, 335, 307, 831, 602, 871, 752, 585, 514, 60, 271, 389, 873, 749, 554, 227, 357, 224, 563, 665, 222, 210, 17, 599, 787, 218, 836, 157, 130, 502, 441, 305, 576, 69, 928, 682, 866, 182, 956, 176, 990, 616, 858, 916, 27, 409, 59, 547, 495, 452, 923, 262, 940, 988, 159, 822, 660, 20, 235, 745, 910, 975, 622, 918, 977, 684, 264, 561, 472, 932, 453, 125, 28, 568, 348, 532, 289, 197, 466, 986, 880, 32, 710, 650, 838, 558, 626, 344, 731, 306, 343, 236, 526, 41, 707, 97, 416, 649, 144, 550, 760, 583, 167, 257, 381, 138, 429, 1000, 546, 172, 908, 106, 507, 577, 569, 789, 724, 143, 544, 965, 809, 862, 127, 674, 58, 658, 572, 4, 207, 446, 347, 333, 428, 110, 743, 712, 772, 279, 791, 180, 250, 255, 460, 287, 75, 668, 903, 861, 905, 71, 827, 198, 474, 797, 117, 854, 444, 766, 775, 860, 736, 115, 359, 776, 976, 888, 229, 191, 564, 656, 734, 361, 258, 121, 826, 842, 86, 886, 284, 450, 404, 636, 968, 391, 525, 11, 713, 231, 211, 249, 528, 896, 310, 99, 651, 372, 294, 927, 848, 346, 403, 865, 103, 65, 823, 280, 395, 851, 628, 876, 931, 435, 270, 629, 894, 631, 323, 223, 311, 515, 581, 947, 52, 850, 808, 228, 709, 174, 457, 108, 353, 260, 273, 716, 31, 777, 334, 593, 527, 87, 212, 740, 612, 492, 266, 76, 225, 377, 135, 997, 991, 274, 596, 362, 756, 590, 963, 201, 856, 698, 782, 150, 694, 324, 378, 308, 476, 759, 742, 552, 259, 471, 184, 837, 234, 792, 884, 722, 946, 926, 100, 153, 719, 18, 291, 303, 491, 81, 783, 864, 194, 811, 240, 338, 421, 506, 662, 641, 714, 509, 22, 548, 88, 758, 36, 494, 237, 300, 188, 844, 920, 521, 39, 2, 331, 843, 169, 91, 136, 272, 340, 375, 863, 486, 66, 246, 25, 796, 733, 129, 410, 633, 820, 755, 587, 47, 591, 454, 318, 337, 94, 556, 326, 241, 778, 162, 379, 385, 883, 575, 980, 996, 701, 589, 30, 685, 937, 146, 530, 168, 595, 541, 57, 930, 936, 974, 345, 748, 290, 874, 887, 538, 640, 605, 985, 93, 203, 53, 7, 793, 283, 407, 288, 917, 23, 37, 915, 276, 244, 779, 164, 588, 202, 355, 366, 891, 643, 137, 624, 727, 524, 131, 565, 301, 481, 380, 914, 412, 648, 814, 594, 6, 292, 95, 721, 464, 573, 765, 609, 160, 762, 611, 364, 672, 601, 803, 889, 647, 192, 178, 553, 784, 462, 105, 49, 725, 149, 773, 726, 912, 414, 424, 61, 85, 517, 795, 312, 179, 825, 897, 387, 351, 885, 728, 328, 717, 152, 101, 367, 154, 499, 751, 1, 96, 102, 957, 654, 516, 879, 799, 944, 992, 511, 969, 536, 805, 953, 949, 739, 983, 788, 785, 718, 382, 676, 998, 962, 700, 199, 45, 637, 405, 794, 173, 845, 786, 504, 964, 632, 423, 358, 484, 208, 449, 299, 690, 458, 933, 447, 635, 906, 254, 322, 439, 549, 512, 19, 329, 430, 438, 984, 480, 774, 437, 608, 496, 613, 890, 970, 319, 89, 878, 578, 483, 598, 904, 205, 959, 232, 952, 522, 63, 341, 418, 855, 555, 422});
+        System.out.println(getDirections(root3, 433, 855));
     }
 
+    private static TreeNode startNode;
+
     public static String getDirections(TreeNode root, int startValue, int destValue) {
+        startNode = null;
         int max = 100001;
-        List<Integer>[] paths = new List[max];
-        List<Character>[] directions = new List[max];
+        TreeNode[] parents = new TreeNode[max];
         boolean[] isVisited = new boolean[max];
-        Queue<Integer> valueQueue = new LinkedList<>();
+        Queue<TreeNode> valueQueue = new LinkedList<>();
         Queue<StringBuilder> directionQueue = new LinkedList<>();
-        valueQueue.offer(startValue);
+        getParents(root, parents, startValue);
+        valueQueue.offer(startNode);
         directionQueue.offer(new StringBuilder());
         isVisited[startValue] = true;
 
-        for (int i = 0; i < max; i++) {
-            paths[i] = new ArrayList<>();
-            directions[i] = new ArrayList<>();
-        }
-        getPaths(root, paths, directions);
-
         while (!valueQueue.isEmpty()) {
-            int currValue = valueQueue.poll();
+            TreeNode currNode = valueQueue.poll();
             StringBuilder direction = directionQueue.poll();
 
-            if (currValue == destValue) {
+            if (currNode.val == destValue) {
                 return direction.toString();
             }
 
-            for (int i = 0; i < paths[currValue].size(); i++) {
-                int nextValue = paths[currValue].get(i);
+            if (currNode.left != null && !isVisited[currNode.left.val]) {
+                valueQueue.offer(currNode.left);
+                directionQueue.offer(new StringBuilder(direction).append('L'));
+                isVisited[currNode.left.val] = true;
+            }
 
-                if (!isVisited[nextValue]) {
-                    valueQueue.offer(nextValue);
-                    directionQueue.offer(new StringBuilder(direction).append(directions[currValue].get(i)));
-                    isVisited[nextValue] = true;
-                }
+            if (currNode.right != null && !isVisited[currNode.right.val]) {
+                valueQueue.offer(currNode.right);
+                directionQueue.offer(new StringBuilder(direction).append('R'));
+                isVisited[currNode.right.val] = true;
+            }
+
+            if (parents[currNode.val] != null && !isVisited[parents[currNode.val].val]) {
+                valueQueue.offer(parents[currNode.val]);
+                directionQueue.offer(new StringBuilder(direction).append('U'));
+                isVisited[parents[currNode.val].val] = true;
             }
         }
         return null;
     }
 
-    public static void getPaths(TreeNode root, List<Integer>[] paths, List<Character>[] directions) {
+    public static void getParents(TreeNode root, TreeNode[] parents, int startValue) {
         if (root == null) {
             return;
         }
 
-        if (root.left != null) {
-            paths[root.val].add(root.left.val);
-            directions[root.val].add('L');
+        if (root.val == startValue) {
+            startNode = root;
+        }
 
-            paths[root.left.val].add(root.val);
-            directions[root.left.val].add('U');
-            getPaths(root.left, paths, directions);
+        if (root.left != null) {
+            parents[root.left.val] = root;
+            getParents(root.left, parents, startValue);
         }
 
         if (root.right != null) {
-            paths[root.val].add(root.right.val);
-            directions[root.val].add('R');
-
-            paths[root.right.val].add(root.val);
-            directions[root.right.val].add('U');
-            getPaths(root.right, paths, directions);
+            parents[root.right.val] = root;
+            getParents(root.right, parents, startValue);
         }
     }
 }
