@@ -1588,6 +1588,7 @@
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
 * [2280. Minimum Lines to Represent a Line Chart](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLines.java)
 * [2284. Sender With Largest Word Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestWordCount.java)
+* [2288. Apply Discount to Prices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiscountPrices.java)
 * [2289. Steps to Make Array Non-decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalSteps.java)
 * [2304. Minimum Path Cost in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPathCost.java)
 * [2305. Fair Distribution of Cookies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCookies.java)
