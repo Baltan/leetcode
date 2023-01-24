@@ -44,6 +44,27 @@ public class BinaryTreeUtils {
     }
 
     /**
+     * 把链表转化成二叉树（只有左子树上有节点）
+     *
+     * @param linkedList
+     * @return
+     */
+    public static TreeNode linkedListToBinaryTree(int[] linkedList) {
+        if (linkedList.length == 0) {
+            return null;
+        }
+        TreeNode root = new TreeNode(linkedList[0]);
+        TreeNode curr = root;
+
+        for (int i = 1; i < linkedList.length; i++) {
+            TreeNode node = new TreeNode(linkedList[i]);
+            curr.left = node;
+            curr = curr.left;
+        }
+        return root;
+    }
+
+    /**
      * 中序遍历二叉树（递归）
      *
      * @param treeNode
