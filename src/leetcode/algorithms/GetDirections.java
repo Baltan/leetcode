@@ -23,65 +23,102 @@ public class GetDirections {
         System.out.println(getDirections(root3, 433, 855));
     }
 
+    /**
+     * 起点节点
+     */
     private static TreeNode startNode;
 
     public static String getDirections(TreeNode root, int startValue, int destValue) {
         startNode = null;
+        /**
+         * 根据题意，二叉树中节点数量∈[2,100000]
+         */
         int max = 100001;
+        /**
+         * parents[i]表示节点值为i的节点的父节点
+         */
         TreeNode[] parents = new TreeNode[max];
+        /**
+         * isVisited[i]表示节点值为i的节点是否到达过
+         */
         boolean[] isVisited = new boolean[max];
         Queue<TreeNode> valueQueue = new LinkedList<>();
-        Queue<StringBuilder> directionQueue = new LinkedList<>();
+        Queue<String> directionQueue = new LinkedList<>();
         getParents(root, parents, startValue);
         valueQueue.offer(startNode);
-        directionQueue.offer(new StringBuilder());
+        directionQueue.offer("");
         isVisited[startValue] = true;
-
+        /**
+         * 从起点节点开始广度优先搜索直到到达了节点值为destValue的终点节点
+         */
         while (!valueQueue.isEmpty()) {
             TreeNode currNode = valueQueue.poll();
-            StringBuilder direction = directionQueue.poll();
-
+            String direction = directionQueue.poll();
+            /**
+             * 找到了终点节点
+             */
             if (currNode.val == destValue) {
-                return direction.toString();
+                return direction;
             }
-
+            /**
+             * 向左子节点方向查找
+             */
             if (currNode.left != null && !isVisited[currNode.left.val]) {
                 valueQueue.offer(currNode.left);
-                directionQueue.offer(new StringBuilder(direction).append('L'));
+                directionQueue.offer(direction + 'L');
                 isVisited[currNode.left.val] = true;
             }
-
+            /**
+             * 向右子节点方向查找
+             */
             if (currNode.right != null && !isVisited[currNode.right.val]) {
                 valueQueue.offer(currNode.right);
-                directionQueue.offer(new StringBuilder(direction).append('R'));
+                directionQueue.offer(direction + 'R');
                 isVisited[currNode.right.val] = true;
             }
-
+            /**
+             * 向父节点方向查找
+             */
             if (parents[currNode.val] != null && !isVisited[parents[currNode.val].val]) {
                 valueQueue.offer(parents[currNode.val]);
-                directionQueue.offer(new StringBuilder(direction).append('U'));
+                directionQueue.offer(direction + 'U');
                 isVisited[parents[currNode.val].val] = true;
             }
         }
         return null;
     }
 
+    /**
+     * 查询每一个节点的父节点，同时获得起点节点
+     *
+     * @param root
+     * @param parents
+     * @param startValue
+     */
     public static void getParents(TreeNode root, TreeNode[] parents, int startValue) {
         if (root == null) {
             return;
         }
-
+        /**
+         * 找到了起点节点
+         */
         if (root.val == startValue) {
             startNode = root;
         }
 
         if (root.left != null) {
             parents[root.left.val] = root;
+            /**
+             * 向左子树递归
+             */
             getParents(root.left, parents, startValue);
         }
 
         if (root.right != null) {
             parents[root.right.val] = root;
+            /**
+             * 向右子树递归
+             */
             getParents(root.right, parents, startValue);
         }
     }
