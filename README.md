@@ -1685,6 +1685,7 @@
 * [2536. Increment Submatrices by One](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeAddQueries.java)
 * [2537. Count the Number of Good Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGood.java)
 * [2541. Minimum Operations to Make Array Equal II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations10.java)
+* [2542. Maximum Subsequence Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore2.java)
 * [2545. Sort the Students by Their Kth Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortTheStudents.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
