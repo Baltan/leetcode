@@ -1447,6 +1447,7 @@
 * [2047. Number of Valid Words in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidWords.java)
 * [2048. Next Greater Numerically Balanced Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextBeautifulNumber.java)
 * [2053. Kth Distinct String in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthDistinct.java)
+* [2054. Two Best Non-Overlapping Events](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTwoEvents.java)
 * [2055. Plates Between Candles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PlatesBetweenCandles.java)
 * [2057. Smallest Index With Equal Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestEqual.java)
 * [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NodesBetweenCriticalPoints.java)
