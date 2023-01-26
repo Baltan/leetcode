@@ -1687,6 +1687,7 @@
 * [2541. Minimum Operations to Make Array Equal II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations10.java)
 * [2542. Maximum Subsequence Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore2.java)
 * [2545. Sort the Students by Their Kth Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortTheStudents.java)
+* [2546. Apply Bitwise Operations to Make Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeStringsEqual.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
