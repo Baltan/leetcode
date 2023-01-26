@@ -1446,6 +1446,7 @@
 * [2043. Simple Bank System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Bank.java)
 * [2047. Number of Valid Words in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidWords.java)
 * [2048. Next Greater Numerically Balanced Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextBeautifulNumber.java)
+* [2049. Count Nodes With the Highest Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHighestScoreNodes.java)
 * [2053. Kth Distinct String in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthDistinct.java)
 * [2054. Two Best Non-Overlapping Events](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTwoEvents.java)
 * [2055. Plates Between Candles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PlatesBetweenCandles.java)
