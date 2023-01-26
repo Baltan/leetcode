@@ -1444,6 +1444,7 @@
 * [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WinnerOfGame.java)
 * [2042. Check if Numbers Are Ascending in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreNumbersAscending.java)
 * [2043. Simple Bank System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Bank.java)
+* [2044. Count Number of Maximum Bitwise-OR Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMaxOrSubsets.java)
 * [2047. Number of Valid Words in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidWords.java)
 * [2048. Next Greater Numerically Balanced Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextBeautifulNumber.java)
 * [2049. Count Nodes With the Highest Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHighestScoreNodes.java)
