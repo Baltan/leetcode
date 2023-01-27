@@ -1436,6 +1436,7 @@
 * [2018. Check if Word Can Be Placed In Crossword](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GridGame.java)
 * [2022. Convert 1D Array Into 2D Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Construct2DArray.java)
 * [2023. Number of Pairs of Strings With Concatenation Equal to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfPairs.java)
+* [2024. Maximize the Confusion of an Exam](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxConsecutiveAnswers.java)
 * [2027. Minimum Moves to Convert String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves1.java)
 * [2028. Find Missing Observations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingRolls.java)
 * [2029. Stone Game IX](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGameIX.java)
