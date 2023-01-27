@@ -1420,6 +1420,7 @@
 * [1993. Operations on Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LockingTree.java)
 * [1995. Count Special Quadruplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountQuadruplets.java)
 * [1996. The Number of Weak Characters in the Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWeakCharacters.java)
+* [1997. First Day Where You Have Been in All the Rooms](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstDayBeenInAllRooms.java)
 * [2000. Reverse Prefix of Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReversePrefix.java)
 * [2001. Number of Pairs of Interchangeable Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InterchangeableRectangles.java)
 * [2002. Maximum Product of the Length of Two Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct3.java)
