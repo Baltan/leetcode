@@ -1414,6 +1414,7 @@
 * [1980. Find Unique Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDifferentBinaryString1.java)
 * [1984. Minimum Difference Between Highest and Lowest of K Scores](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDifference.java)
 * [1985. Find the Kth Largest Integer in the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthLargestNumber.java)
+* [1986. Minimum Number of Work Sessions to Finish the Tasks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSessions.java)
 * [1991. Find the Middle Index in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMiddleIndex.java)
 * [1992. Find All Groups of Farmland](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindFarmland.java)
 * [1993. Operations on Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LockingTree.java)
