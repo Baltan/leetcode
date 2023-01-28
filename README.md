@@ -1380,6 +1380,7 @@
 * [1922. Count Good Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodNumbers.java)
 * [1925. Count Square Sum Triples](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTriples.java)
 * [1926. Nearest Exit from Entrance in Maze](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NearestExit.java)
+* [1927. Sum Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumGame.java)
 * [1929. Concatenation of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetConcatenation.java)
 * [1930. Unique Length-3 Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPalindromicSubsequence.java)
 * [1930. Unique Length-3 Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPalindromicSubsequence1.java)
