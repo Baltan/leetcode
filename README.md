@@ -1448,6 +1448,7 @@
 * [2034. Stock Price Fluctuation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StockPrice.java)
 * [2037. Minimum Number of Moves to Seat Everyone](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMovesToSeat.java)
 * [2038. Remove Colored Pieces if Both Neighbors are the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WinnerOfGame.java)
+* [2039. The Time When the Network Becomes Idle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NetworkBecomesIdle.java)
 * [2042. Check if Numbers Are Ascending in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreNumbersAscending.java)
 * [2043. Simple Bank System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Bank.java)
 * [2044. Count Number of Maximum Bitwise-OR Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMaxOrSubsets.java)
