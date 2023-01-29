@@ -1375,6 +1375,7 @@
 * [1911. Maximum Alternating Subsequence Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAlternatingSum.java)
 * [1913. Maximum Product Difference Between Two Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductDifference.java)
 * [1914. Cyclically Rotating a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateGrid.java)
+* [1915. Number of Wonderful Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WonderfulSubstrings.java)
 * [1920. Build Array from Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BuildArray1.java)
 * [1921. Eliminate Maximum Number of Monsters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EliminateMaximum.java)
 * [1922. Count Good Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodNumbers.java)
