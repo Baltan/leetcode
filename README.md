@@ -1298,6 +1298,7 @@
 * [1781. Sum of Beauty of All Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautySum.java)
 * [1784. Check if Binary String Has at Most One Segment of Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckOnesSegment.java)
 * [1785. Minimum Elements to Add to Form a Given Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinElements.java)
+* [1786. Number of Restricted Paths From First to Last Node](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountRestrictedPaths.java)
 * [1790. Check if One String Swap Can Make Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreAlmostEqual.java)
 * [1791. Find Center of Star Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCenter.java)
 * [1792. Maximum Average Pass Ratio](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAverageRatio.java)
