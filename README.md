@@ -1414,6 +1414,7 @@
 * [1971. Find if Path Exists in Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPath.java)
 * [1974. Minimum Time to Type Word Using Special Typewriter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTimeToType.java)
 * [1975. Maximum Matrix Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxMatrixSum.java)
+* [1976. Number of Ways to Arrive at Destination](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPaths.java)
 * [1979. Find Greatest Common Divisor of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindGCD.java)
 * [1980. Find Unique Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDifferentBinaryString.java)
 * [1980. Find Unique Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDifferentBinaryString1.java)
