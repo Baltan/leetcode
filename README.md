@@ -1338,6 +1338,7 @@
 * [1854. Maximum Population Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPopulation.java)
 * [1854. Maximum Population Year](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPopulation1.java)
 * [1855. Maximum Distance Between a Pair of Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance3.java)
+* [1856. Maximum Subarray Min-Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumMinProduct.java)
 * [1859. Sorting the Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortSentence.java)
 * [1860. Incremental Memory Leak](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MemLeak.java)
 * [1861. Rotating the Box](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RotateTheBox.java)
