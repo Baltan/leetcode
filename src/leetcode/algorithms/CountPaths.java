@@ -31,7 +31,11 @@ public class CountPaths {
         /**
          * 保存到达的每个路口
          */
-        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue = new PriorityQueue<>();
+        /**
+         * isVisited[i]表示从路口0到路口i的最小用时已计算过
+         */
+        boolean[] isVisited = new boolean[n + 1];
         Arrays.fill(times, Long.MAX_VALUE);
         /**
          * 从路口0到达路口0用时为0
@@ -55,6 +59,11 @@ public class CountPaths {
 
         while (!queue.isEmpty()) {
             int start = queue.poll();
+
+            if (isVisited[start]) {
+                continue;
+            }
+            isVisited[start] = true;
             /**
              * 遍历从start出发的所有道路，判断是否能缩短从路口0到达下一路口的总用时
              */
