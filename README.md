@@ -812,6 +812,8 @@
 * [1014. Best Sightseeing Pair](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScoreSightseeingPair.java)
 * [1015. Smallest Integer Divisible by K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestRepunitDivByK.java)
 * [1016. Binary String With Substrings Representing 1 To N](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/QueryString.java)
+* [1017. Convert to Base -2](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BaseNeg2.java)
+* [1017. Convert to Base -2](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BaseNeg21.java)
 * [1018. Binary Prefix Divisible By 5](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrefixesDivBy5.java)
 * [1019. Next Greater Node In Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextLargerNodes.java)
 * [1020. Number of Enclaves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumEnclaves.java)
