@@ -1259,6 +1259,7 @@
 * [1718. Construct the Lexicographically Largest Valid Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructDistancedSequence.java)
 * [1720. Decode XORed Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Decode1.java)
 * [1721. Swapping Nodes in a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SwapNodes.java)
+* [1722. Minimize Hamming Distance After Swap Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumHammingDistance.java)
 * [1725. Number Of Rectangles That Can Form The Largest Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodRectangles.java)
 * [1726. Tuple with Same Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TupleSameProduct.java)
 * [1727. Largest Submatrix With Rearrangements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSubmatrix.java)
