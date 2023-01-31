@@ -848,6 +848,7 @@
 * [1052. Grumpy Bookstore Owner](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSatisfied.java)
 * [1053. Previous Permutation With One Swap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrevPermOpt1.java)
 * [1054. Distant Barcodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeBarcodes.java)
+* [1061. Lexicographically Smallest Equivalent String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestEquivalentString.java)
 * [1071. Greatest Common Divisor of Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GcdOfStrings.java)
 * [1071. Greatest Common Divisor of Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GcdOfStrings1.java)
 * [1072. Flip Columns For Maximum Number of Equal Rows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEqualRowsAfterFlips.java)
