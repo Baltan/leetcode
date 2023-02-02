@@ -562,6 +562,7 @@
 * [695. Max Area of Island](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAreaOfIsland1.java)
 * [696. Count Binary Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBinarySubstrings.java)
 * [697. Degree of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindShortestSubArray.java)
+* [698. Partition to K Equal Sum Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanPartitionKSubsets.java)
 * [700. Search in a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SearchBST.java)
 * [701. Insert into a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InsertIntoBST.java)
 * [703. Kth Largest Element in a Stream](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthLargest.java)
