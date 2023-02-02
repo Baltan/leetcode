@@ -1331,6 +1331,7 @@
 * [1824. Minimum Sideway Jumps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSideJumps.java)
 * [1827. Minimum Operations to Make the Array Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations4.java)
 * [1828. Queries on Number of Points Inside a Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPoints1.java)
+* [1829. Maximum XOR for Each Query](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaximumXor.java)
 * [1832. Check if the Sentence Is Pangram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfPangram.java)
 * [1833. Maximum Ice Cream Bars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxIceCream.java)
 * [1834. Single-Threaded CPU](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetOrder.java)
