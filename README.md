@@ -1616,6 +1616,7 @@
 * [2285. Maximum Total Importance of Roads](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumImportance.java)
 * [2288. Apply Discount to Prices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiscountPrices.java)
 * [2289. Steps to Make Array Non-decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalSteps.java)
+* [2295. Replace Elements in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayChange.java)
 * [2300. Successful Pairs of Spells and Potions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SuccessfulPairs.java)
 * [2304. Minimum Path Cost in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPathCost.java)
 * [2305. Fair Distribution of Cookies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCookies.java)
