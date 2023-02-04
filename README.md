@@ -1632,6 +1632,7 @@
 * [2342. Max Sum of a Pair With Equal Sum of Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSum1.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers1.java)
+* [2348. Number of Zero-Filled Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ZeroFilledSubarray.java)
 * [2349. Design a Number Container System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberContainers.java)
 * [2352. Equal Row and Column Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualPairs.java)
 * [2353. Design a Food Rating System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FoodRatings.java)
