@@ -1721,6 +1721,7 @@
 * [2546. Apply Bitwise Operations to Make Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeStringsEqual.java)
 * [2550. Count Collisions of Monkeys on a Polygon](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MonkeyMove.java)
 * [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCount1.java)
+* [2555. Maximize Win From Two Segments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeWin.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
