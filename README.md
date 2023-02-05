@@ -1632,6 +1632,7 @@
 * [2332. The Latest Time to Catch a Bus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LatestTimeCatchTheBus.java)
 * [2333. Minimum Sum of Squared Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSumSquareDiff.java)
 * [2336. Smallest Number in Infinite Set](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestInfiniteSet.java)
+* [2337. Move Pieces to Obtain a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanChange.java)
 * [2342. Max Sum of a Pair With Equal Sum of Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSum1.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers.java)
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers1.java)
