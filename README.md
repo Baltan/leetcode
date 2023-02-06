@@ -1722,6 +1722,7 @@
 * [2550. Count Collisions of Monkeys on a Polygon](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MonkeyMove.java)
 * [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCount1.java)
 * [2555. Maximize Win From Two Segments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeWin.java)
+* [2556. Disconnect Path in a Binary Matrix by at Most One Flip](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossibleToCutPath.java)
 * [2559. Count Vowel Strings in Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/VowelStrings.java)
 * [2560. House Robber IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCapability.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
