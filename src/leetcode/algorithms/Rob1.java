@@ -7,6 +7,7 @@ package leetcode.algorithms;
  * @date 2019-06-08 09:23
  * @see Rob
  * @see Rob2
+ * @see MinCapability
  */
 public class Rob1 {
     public static void main(String[] args) {
