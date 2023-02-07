@@ -1713,6 +1713,7 @@
 * [2527. Find Xor-Beauty of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorBeauty.java)
 * [2530. Maximal Score After Applying K Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxKelements.java)
 * [2531. Make Number of Distinct Characters Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsItPossible.java)
+* [2535. Difference Between Element Sum and Digit Sum of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DifferenceOfSum.java)
 * [2536. Increment Submatrices by One](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeAddQueries.java)
 * [2537. Count the Number of Good Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGood.java)
 * [2540. Minimum Common Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetCommon.java)
