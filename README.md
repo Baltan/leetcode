@@ -1715,6 +1715,7 @@
 * [2531. Make Number of Distinct Characters Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsItPossible.java)
 * [2536. Increment Submatrices by One](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeAddQueries.java)
 * [2537. Count the Number of Good Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGood.java)
+* [2540. Minimum Common Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetCommon.java)
 * [2541. Minimum Operations to Make Array Equal II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations10.java)
 * [2542. Maximum Subsequence Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore2.java)
 * [2544. Alternating Digit Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlternateDigitSum.java)
