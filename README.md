@@ -1709,6 +1709,7 @@
 * [2521. Distinct Prime Factors of Product of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctPrimeFactors.java)
 * [2522. Partition String Into Substrings With Values at Most K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPartition.java)
 * [2523. Closest Prime Numbers in Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestPrimes.java)
+* [2525. Categorize Box According to Criteria](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CategorizeBox.java)
 * [2526. Find Consecutive Integers from a Data Stream](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DataStream.java)
 * [2527. Find Xor-Beauty of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorBeauty.java)
 * [2529. Maximum Count of Positive Integer and Negative Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumCount.java)
