@@ -1706,6 +1706,7 @@
 * [2513. Minimize the Maximum of Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeSet.java)
 * [2516. Take K of Each Character From Left and Right](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TakeCharacters.java)
 * [2517. Maximum Tastiness of Candy Basket](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTastiness.java)
+* [2520. Count the Digits That Divide a Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDigits.java)
 * [2521. Distinct Prime Factors of Product of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctPrimeFactors.java)
 * [2522. Partition String Into Substrings With Values at Most K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPartition.java)
 * [2523. Closest Prime Numbers in Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestPrimes.java)
