@@ -1725,6 +1725,7 @@
 * [2546. Apply Bitwise Operations to Make Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeStringsEqual.java)
 * [2549. Count Distinct Numbers on Board](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctIntegers.java)
 * [2550. Count Collisions of Monkeys on a Polygon](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MonkeyMove.java)
+* [2553. Separate the Digits in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SeparateDigits.java)
 * [2554. Maximum Number of Integers to Choose From a Range I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCount1.java)
 * [2555. Maximize Win From Two Segments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeWin.java)
 * [2556. Disconnect Path in a Binary Matrix by at Most One Flip](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossibleToCutPath.java)
