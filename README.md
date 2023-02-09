@@ -1701,6 +1701,7 @@
 * [2498. Frog Jump II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxJump.java)
 * [2501. Longest Square Streak in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSquareStreak.java)
 * [2502. Design Memory Allocator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Allocator.java)
+* [2506. Count Pairs Of Similar Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SimilarPairs.java)
 * [2507. Smallest Value After Replacing With Sum of Prime Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestValue.java)
 * [2511. Maximum Enemy Forts That Can Be Captured](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CaptureForts.java)
 * [2512. Reward Top K Students](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TopStudents.java)
