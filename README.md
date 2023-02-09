@@ -1699,6 +1699,7 @@
 * [2492. Minimum Score of a Path Between Two Cities](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinScore.java)
 * [2497. Maximum Star Sum of a Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxStarSum.java)
 * [2498. Frog Jump II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxJump.java)
+* [2500. Delete Greatest Value in Each Row](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteGreatestValue.java)
 * [2501. Longest Square Streak in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSquareStreak.java)
 * [2502. Design Memory Allocator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Allocator.java)
 * [2506. Count Pairs Of Similar Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SimilarPairs.java)
