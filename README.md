@@ -1704,6 +1704,7 @@
 * [2507. Smallest Value After Replacing With Sum of Prime Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestValue.java)
 * [2512. Reward Top K Students](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TopStudents.java)
 * [2513. Minimize the Maximum of Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeSet.java)
+* [2515. Shortest Distance to Target String in a Circular Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosetTarget.java)
 * [2516. Take K of Each Character From Left and Right](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TakeCharacters.java)
 * [2517. Maximum Tastiness of Candy Basket](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTastiness.java)
 * [2520. Count the Digits That Divide a Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDigits.java)
