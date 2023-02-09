@@ -1702,6 +1702,7 @@
 * [2501. Longest Square Streak in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSquareStreak.java)
 * [2502. Design Memory Allocator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Allocator.java)
 * [2507. Smallest Value After Replacing With Sum of Prime Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestValue.java)
+* [2511. Maximum Enemy Forts That Can Be Captured](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CaptureForts.java)
 * [2512. Reward Top K Students](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TopStudents.java)
 * [2513. Minimize the Maximum of Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeSet.java)
 * [2515. Shortest Distance to Target String in a Circular Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosetTarget.java)
