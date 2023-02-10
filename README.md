@@ -1695,6 +1695,7 @@
 * [2483. Minimum Penalty for a Shop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestClosingTime.java)
 * [2486. Append Characters to String to Make Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AppendCharacters.java)
 * [2487. Remove Nodes From Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveNodes.java)
+* [2490. Circular Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCircularSentence.java)
 * [2491. Divide Players Into Teams of Equal Skill](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DividePlayers.java)
 * [2492. Minimum Score of a Path Between Two Cities](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinScore.java)
 * [2496. Maximum Value of a String in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumValue.java)
