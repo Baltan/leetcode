@@ -1693,6 +1693,7 @@
 * [2477. Minimum Fuel Cost to Report to the Capital](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumFuelCost.java)
 * [2482. Difference Between Ones and Zeros in Row and Column](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OnesMinusZeros.java)
 * [2483. Minimum Penalty for a Shop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestClosingTime.java)
+* [2485. Find the Pivot Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotInteger.java)
 * [2486. Append Characters to String to Make Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AppendCharacters.java)
 * [2487. Remove Nodes From Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveNodes.java)
 * [2490. Circular Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCircularSentence.java)
