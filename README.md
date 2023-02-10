@@ -1691,6 +1691,7 @@
 * [2471. Minimum Number of Operations to Sort a Binary Tree by Level](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations1.java)
 * [2476. Closest Nodes Queries in a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestNodes.java)
 * [2477. Minimum Fuel Cost to Report to the Capital](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumFuelCost.java)
+* [2481. Minimum Cuts to Divide a Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfCuts.java)
 * [2482. Difference Between Ones and Zeros in Row and Column](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OnesMinusZeros.java)
 * [2483. Minimum Penalty for a Shop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestClosingTime.java)
 * [2485. Find the Pivot Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotInteger.java)
