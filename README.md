@@ -1663,6 +1663,7 @@
 * [2401. Longest Nice Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestNiceSubarray.java)
 * [2405. Optimal Partition of String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionString.java)
 * [2406. Divide Intervals Into Minimum Number of Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinGroups.java)
+* [2409. Count Days Spent Together](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDaysTogether.java)
 * [2410. Maximum Matching of Players With Trainers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatchPlayersAndTrainers.java)
 * [2411. Smallest Subarrays With Maximum Bitwise OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestSubarrays.java)
 * [2414. Length of the Longest Alphabetical Continuous Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestContinuousSubstring.java)
