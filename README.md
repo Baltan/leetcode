@@ -1661,6 +1661,7 @@
 * [2397. Maximum Rows Covered by Columns](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumRows.java)
 * [2400. Number of Ways to Reach a Position After Exactly k Steps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWays1.java)
 * [2401. Longest Nice Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestNiceSubarray.java)
+* [2404. Most Frequent Even Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostFrequentEven.java)
 * [2405. Optimal Partition of String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionString.java)
 * [2406. Divide Intervals Into Minimum Number of Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinGroups.java)
 * [2409. Count Days Spent Together](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDaysTogether.java)
