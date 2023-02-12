@@ -1748,6 +1748,7 @@
 * [2558. Take Gifts From the Richest Pile](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PickGifts.java)
 * [2559. Count Vowel Strings in Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/VowelStrings.java)
 * [2560. House Robber IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCapability.java)
+* [2562. Find the Array Concatenation Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheArrayConcVal.java)
 * [2563. Count the Number of Fair Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountFairPairs.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
