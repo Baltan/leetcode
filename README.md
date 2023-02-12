@@ -1750,6 +1750,7 @@
 * [2560. House Robber IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCapability.java)
 * [2562. Find the Array Concatenation Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheArrayConcVal.java)
 * [2563. Count the Number of Fair Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountFairPairs.java)
+* [2564. Substring XOR Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubstringXorQueries.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
