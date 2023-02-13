@@ -1684,6 +1684,7 @@
 * [2447. Number of Subarrays With GCD Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarrayGCD.java)
 * [2452. Words Within Two Edits of Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoEditWords.java)
 * [2453. Destroy Sequential Targets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DestroyTargets.java)
+* [2455. Average Value of Even Numbers That Are Divisible by Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageValue.java)
 * [2456. Most Popular Video Creator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostPopularCreator.java)
 * [2457. Minimum Addition to Make Integer Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeIntegerBeautiful.java)
 * [2460. Apply Operations to an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ApplyOperations.java)
