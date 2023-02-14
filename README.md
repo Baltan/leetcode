@@ -1675,6 +1675,7 @@
 * [2425. Bitwise XOR of All Pairings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorAllNums.java)
 * [2428. Maximum Sum of an Hourglass](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum.java)
 * [2429. Minimize XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeXor.java)
+* [2432. The Employee That Worked on the Longest Task](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HardestWorker.java)
 * [2433. Find The Original Array of Prefix Xor](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindArray.java)
 * [2434. Using a Robot to Print the Lexicographically Smallest String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RobotWithString.java)
 * [2437. Number of Valid Clock Times](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTime.java)
