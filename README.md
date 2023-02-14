@@ -1673,6 +1673,7 @@
 * [2420. Find All Good Indices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GoodIndices.java)
 * [2424. Longest Uploaded Prefix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LUPrefix.java)
 * [2425. Bitwise XOR of All Pairings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorAllNums.java)
+* [2427. Number of Common Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CommonFactors.java)
 * [2428. Maximum Sum of an Hourglass](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum.java)
 * [2429. Minimize XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeXor.java)
 * [2432. The Employee That Worked on the Longest Task](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HardestWorker.java)
