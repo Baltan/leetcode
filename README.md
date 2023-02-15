@@ -1669,6 +1669,7 @@
 * [2411. Smallest Subarrays With Maximum Bitwise OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestSubarrays.java)
 * [2414. Length of the Longest Alphabetical Continuous Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestContinuousSubstring.java)
 * [2415. Reverse Odd Levels of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseOddLevels.java)
+* [2418. Sort the People](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortPeople.java)
 * [2419. Longest Subarray With Maximum Bitwise AND](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray2.java)
 * [2420. Find All Good Indices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GoodIndices.java)
 * [2423. Remove Letter To Equalize Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualFrequency.java)
