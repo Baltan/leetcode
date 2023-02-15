@@ -1671,6 +1671,7 @@
 * [2415. Reverse Odd Levels of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseOddLevels.java)
 * [2419. Longest Subarray With Maximum Bitwise AND](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray2.java)
 * [2420. Find All Good Indices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GoodIndices.java)
+* [2423. Remove Letter To Equalize Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualFrequency.java)
 * [2424. Longest Uploaded Prefix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LUPrefix.java)
 * [2425. Bitwise XOR of All Pairings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorAllNums.java)
 * [2427. Number of Common Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CommonFactors.java)
