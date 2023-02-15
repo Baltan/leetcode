@@ -1659,6 +1659,7 @@
 * [2391. Minimum Amount of Time to Collect Garbage](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GarbageCollection.java)
 * [2396. Strictly Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsStrictlyPalindromic.java)
 * [2397. Maximum Rows Covered by Columns](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumRows.java)
+* [2399. Check Distances Between Same Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckDistances.java)
 * [2400. Number of Ways to Reach a Position After Exactly k Steps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWays1.java)
 * [2401. Longest Nice Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestNiceSubarray.java)
 * [2404. Most Frequent Even Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostFrequentEven.java)
