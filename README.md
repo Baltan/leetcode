@@ -1667,6 +1667,7 @@
 * [2409. Count Days Spent Together](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDaysTogether.java)
 * [2410. Maximum Matching of Players With Trainers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatchPlayersAndTrainers.java)
 * [2411. Smallest Subarrays With Maximum Bitwise OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestSubarrays.java)
+* [2413. Smallest Even Multiple](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestEvenMultiple.java)
 * [2414. Length of the Longest Alphabetical Continuous Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestContinuousSubstring.java)
 * [2415. Reverse Odd Levels of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseOddLevels.java)
 * [2418. Sort the People](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortPeople.java)
