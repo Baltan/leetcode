@@ -1655,6 +1655,7 @@
 * [2381. Shifting Letters II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftingLetters1.java)
 * [2384. Largest Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindromic.java)
 * [2385. Amount of Time for Binary Tree to Be Infected](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AmountOfTime.java)
+* [2389. Longest Subsequence With Limited Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AnswerQueries.java)
 * [2390. Removing Stars From a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveStars.java)
 * [2391. Minimum Amount of Time to Collect Garbage](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GarbageCollection.java)
 * [2395. Find Subarrays With Equal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSubarrays.java)
