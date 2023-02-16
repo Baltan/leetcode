@@ -1651,6 +1651,7 @@
 * [2370. Longest Ideal Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIdealString1.java)
 * [2374. Node With Highest Edge Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EdgeScore.java)
 * [2375. Construct Smallest Number From DI String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestNumber1.java)
+* [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRecolors.java)
 * [2380. Time Needed to Rearrange a Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SecondsToRemoveOccurrences.java)
 * [2381. Shifting Letters II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftingLetters1.java)
 * [2383. Minimum Hours of Training to Win a Competition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinNumberOfHours.java)
