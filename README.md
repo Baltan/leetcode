@@ -1657,6 +1657,7 @@
 * [2385. Amount of Time for Binary Tree to Be Infected](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AmountOfTime.java)
 * [2390. Removing Stars From a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveStars.java)
 * [2391. Minimum Amount of Time to Collect Garbage](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GarbageCollection.java)
+* [2395. Find Subarrays With Equal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSubarrays.java)
 * [2396. Strictly Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsStrictlyPalindromic.java)
 * [2397. Maximum Rows Covered by Columns](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumRows.java)
 * [2399. Check Distances Between Same Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckDistances.java)
