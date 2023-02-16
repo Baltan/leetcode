@@ -1653,6 +1653,7 @@
 * [2375. Construct Smallest Number From DI String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestNumber1.java)
 * [2380. Time Needed to Rearrange a Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SecondsToRemoveOccurrences.java)
 * [2381. Shifting Letters II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftingLetters1.java)
+* [2383. Minimum Hours of Training to Win a Competition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinNumberOfHours.java)
 * [2384. Largest Palindromic Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPalindromic.java)
 * [2385. Amount of Time for Binary Tree to Be Infected](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AmountOfTime.java)
 * [2389. Longest Subsequence With Limited Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AnswerQueries.java)
