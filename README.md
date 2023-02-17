@@ -1649,6 +1649,7 @@
 * [2369. Check if There is a Valid Partition For The Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPartition.java)
 * [2370. Longest Ideal Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIdealString.java)
 * [2370. Longest Ideal Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIdealString1.java)
+* [2373. Largest Local Values in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestLocal.java)
 * [2374. Node With Highest Edge Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EdgeScore.java)
 * [2375. Construct Smallest Number From DI String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestNumber1.java)
 * [2379. Minimum Recolors to Get K Consecutive Black Blocks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRecolors.java)
