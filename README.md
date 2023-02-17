@@ -1645,6 +1645,7 @@
 * [2359. Find Closest Node to Given Two Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestMeetingNode.java)
 * [2364. Count Number of Bad Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBadPairs.java)
 * [2365. Task Scheduler II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TaskSchedulerII.java)
+* [2367. Number of Arithmetic Triplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArithmeticTriplets.java)
 * [2368. Reachable Nodes With Restrictions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachableNodes.java)
 * [2369. Check if There is a Valid Partition For The Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPartition.java)
 * [2370. Longest Ideal Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIdealString.java)
