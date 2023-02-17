@@ -1641,6 +1641,7 @@
 * [2349. Design a Number Container System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberContainers.java)
 * [2352. Equal Row and Column Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualPairs.java)
 * [2353. Design a Food Rating System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FoodRatings.java)
+* [2357. Make Array Zero by Subtracting Equal Amounts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations2.java)
 * [2358. Maximum Number of Groups Entering a Competition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumGroups.java)
 * [2359. Find Closest Node to Given Two Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestMeetingNode.java)
 * [2363. Merge Similar Items](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeSimilarItems.java)
