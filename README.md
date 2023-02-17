@@ -1643,6 +1643,7 @@
 * [2353. Design a Food Rating System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FoodRatings.java)
 * [2358. Maximum Number of Groups Entering a Competition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumGroups.java)
 * [2359. Find Closest Node to Given Two Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestMeetingNode.java)
+* [2363. Merge Similar Items](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeSimilarItems.java)
 * [2364. Count Number of Bad Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBadPairs.java)
 * [2365. Task Scheduler II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TaskSchedulerII.java)
 * [2367. Number of Arithmetic Triplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArithmeticTriplets.java)
