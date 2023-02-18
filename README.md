@@ -1632,6 +1632,7 @@
 * [2327. Number of People Aware of a Secret](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeopleAwareOfSecret.java)
 * [2332. The Latest Time to Catch a Bus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LatestTimeCatchTheBus.java)
 * [2333. Minimum Sum of Squared Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSumSquareDiff.java)
+* [2335. Minimum Amount of Time to Fill Cups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FillCups.java)
 * [2336. Smallest Number in Infinite Set](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestInfiniteSet.java)
 * [2337. Move Pieces to Obtain a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanChange.java)
 * [2341. Maximum Number of Pairs in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs.java)
