@@ -1639,6 +1639,7 @@
 * [2343. Query Kth Smallest Trimmed Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestTrimmedNumbers1.java)
 * [2348. Number of Zero-Filled Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ZeroFilledSubarray.java)
 * [2349. Design a Number Container System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberContainers.java)
+* [2351. First Letter to Appear Twice](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedCharacter.java)
 * [2352. Equal Row and Column Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualPairs.java)
 * [2353. Design a Food Rating System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FoodRatings.java)
 * [2357. Make Array Zero by Subtracting Equal Amounts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations2.java)
