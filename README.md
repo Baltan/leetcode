@@ -1775,6 +1775,7 @@
 * [2562. Find the Array Concatenation Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheArrayConcVal.java)
 * [2563. Count the Number of Fair Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountFairPairs.java)
 * [2564. Substring XOR Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubstringXorQueries.java)
+* [2566. Maximum Difference by Remapping a Digit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMaxDifference.java)
 * [2567. Minimum Score by Changing Two Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeSum.java)
 * [2568. Minimum Impossible OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinImpossibleOR.java)
 * [2570. Merge Two 2D Arrays by Summing Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeArrays.java)
