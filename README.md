@@ -1777,6 +1777,7 @@
 * [2564. Substring XOR Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubstringXorQueries.java)
 * [2567. Minimum Score by Changing Two Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeSum.java)
 * [2568. Minimum Impossible OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinImpossibleOR.java)
+* [2570. Merge Two 2D Arrays by Summing Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeArrays.java)
 * [2571. Minimum Operations to Reduce an Integer to 0](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations11.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
