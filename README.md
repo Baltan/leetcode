@@ -1630,6 +1630,7 @@
 * [2320. Count Number of Ways to Place Houses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHousePlacements.java)
 * [2326. Spiral Matrix IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpiralMatrix.java)
 * [2327. Number of People Aware of a Secret](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeopleAwareOfSecret.java)
+* [2331. Evaluate Boolean Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EvaluateTree.java)
 * [2332. The Latest Time to Catch a Bus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LatestTimeCatchTheBus.java)
 * [2333. Minimum Sum of Squared Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSumSquareDiff.java)
 * [2335. Minimum Amount of Time to Fill Cups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FillCups.java)
