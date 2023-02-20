@@ -1628,6 +1628,7 @@
 * [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs3.java)
 * [2317. Maximum XOR After Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumXOR.java)
 * [2320. Count Number of Ways to Place Houses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHousePlacements.java)
+* [2325. Decode the Message](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeMessage.java)
 * [2326. Spiral Matrix IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpiralMatrix.java)
 * [2327. Number of People Aware of a Secret](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeopleAwareOfSecret.java)
 * [2331. Evaluate Boolean Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EvaluateTree.java)
