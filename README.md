@@ -1625,6 +1625,7 @@
 * [2310. Sum of Numbers With Units Digit K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumNumbers.java)
 * [2311. Longest Binary Subsequence Less Than or Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubsequence1.java)
 * [2311. Longest Binary Subsequence Less Than or Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubsequence2.java)
+* [2315. Count Asterisks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountAsterisks.java)
 * [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs3.java)
 * [2317. Maximum XOR After Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumXOR.java)
 * [2319. Check if Matrix Is X-Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckXMatrix.java)
