@@ -1619,6 +1619,7 @@
 * [2294. Partition Array Such That Maximum Difference Is K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionArray.java)
 * [2295. Replace Elements in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayChange.java)
 * [2300. Successful Pairs of Spells and Potions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SuccessfulPairs.java)
+* [2303. Calculate Amount Paid in Taxes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalculateTax.java)
 * [2304. Minimum Path Cost in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPathCost.java)
 * [2305. Fair Distribution of Cookies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCookies.java)
 * [2306. Naming a Company](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctNames.java)
