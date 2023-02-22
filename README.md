@@ -1616,6 +1616,7 @@
 * [2285. Maximum Total Importance of Roads](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumImportance.java)
 * [2288. Apply Discount to Prices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiscountPrices.java)
 * [2289. Steps to Make Array Non-decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalSteps.java)
+* [2293. Min Max Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMaxGame.java)
 * [2294. Partition Array Such That Maximum Difference Is K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionArray.java)
 * [2295. Replace Elements in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayChange.java)
 * [2299. Strong Password Checker II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StrongPasswordCheckerII.java)
