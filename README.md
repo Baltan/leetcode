@@ -1618,6 +1618,7 @@
 * [2289. Steps to Make Array Non-decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalSteps.java)
 * [2294. Partition Array Such That Maximum Difference Is K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionArray.java)
 * [2295. Replace Elements in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayChange.java)
+* [2299. Strong Password Checker II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StrongPasswordCheckerII.java)
 * [2300. Successful Pairs of Spells and Potions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SuccessfulPairs.java)
 * [2303. Calculate Amount Paid in Taxes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalculateTax.java)
 * [2304. Minimum Path Cost in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPathCost.java)
