@@ -1612,6 +1612,7 @@
 * [2275. Largest Combination With Bitwise AND Greater Than Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestCombination.java)
 * [2279. Maximum Bags With Full Capacity of Rocks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumBags.java)
 * [2280. Minimum Lines to Represent a Line Chart](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLines.java)
+* [2283. Check if Number Has Equal Digit Count and Digit Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DigitCount.java)
 * [2284. Sender With Largest Word Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestWordCount.java)
 * [2285. Maximum Total Importance of Roads](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumImportance.java)
 * [2287. Rearrange Characters to Make Target String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeCharacters.java)
