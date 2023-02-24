@@ -8,6 +8,7 @@ import java.util.Map;
  *
  * @author Baltan
  * @date 2023/2/20 11:41
+ * @see NumberOfGoodSubsets
  */
 public class SquareFreeSubsets {
     public static void main(String[] args) {
