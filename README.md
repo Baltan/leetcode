@@ -1437,6 +1437,7 @@
 * [1991. Find the Middle Index in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMiddleIndex.java)
 * [1992. Find All Groups of Farmland](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindFarmland.java)
 * [1993. Operations on Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LockingTree.java)
+* [1994. The Number of Good Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfGoodSubsets.java)
 * [1995. Count Special Quadruplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountQuadruplets.java)
 * [1996. The Number of Weak Characters in the Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWeakCharacters.java)
 * [1997. First Day Where You Have Been in All the Rooms](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstDayBeenInAllRooms.java)
