@@ -1798,6 +1798,7 @@
 * [2570. Merge Two 2D Arrays by Summing Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeArrays.java)
 * [2571. Minimum Operations to Reduce an Integer to 0](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations11.java)
 * [2572. Count the Number of Square-Free Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SquareFreeSubsets.java)
+* [2575. Find the Divisibility Array of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DivisibilityArray.java)
 * [2576. Find the Maximum Number of Marked Indices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumOfMarkedIndices.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
