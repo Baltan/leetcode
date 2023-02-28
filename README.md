@@ -1040,6 +1040,7 @@
 * [1358. Number of Substrings Containing All Three Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings.java)
 * [1358. Number of Substrings Containing All Three Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings1.java)
 * [1359. Count All Valid Pickup and Delivery Options](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOrders.java)
+* [1360. Number of Days Between Two Dates](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DaysBetweenDates.java)
 * [1361. Validate Binary Tree Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidateBinaryTreeNodes.java)
 * [1362. Closest Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestDivisors.java)
 * [1363. Largest Multiple of Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestMultipleOfThree.java)
