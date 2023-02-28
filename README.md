@@ -1053,6 +1053,7 @@
 * [1375. Bulb Switcher III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTimesAllBlue.java)
 * [1376. Time Needed to Inform All Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfMinutes.java)
 * [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTargetCopy.java)
+* [1380. Lucky Numbers in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LuckyNumbers.java)
 * [1381. Design a Stack With Increment Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CustomStack.java)
 * [1382. Balance a Binary Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BalanceBST.java)
 * [1385. Find the Distance Value Between Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDistanceValue.java)
