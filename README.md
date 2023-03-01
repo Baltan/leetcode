@@ -1533,6 +1533,7 @@
 * [2133. Check if Every Row and Column Contains All Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckValid.java)
 * [2134. Minimum Swaps to Group All 1's Together II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps1.java)
 * [2135. Count Words Obtained After Adding a Letter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WordCount.java)
+* [2136. Earliest Possible Day of Full Bloom](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestFullBloom.java)
 * [2138. Divide a String Into Groups of Size k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DivideString.java)
 * [2139. Minimum Moves to Reach Target Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves1.java)
 * [2140. Solving Questions With Brainpower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostPoints.java)
