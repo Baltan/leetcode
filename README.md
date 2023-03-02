@@ -1153,6 +1153,7 @@
 * [1524. Number of Sub-arrays With Odd Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfSubarrays1.java)
 * [1525. Number of Good Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSplits.java)
 * [1525. Number of Good Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSplits1.java)
+* [1526. Minimum Number of Increments on Subarrays to Form a Target Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinNumberOperations.java)
 * [1527. Patients With a Condition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/PatientsWithACondition.sql)
 * [1528. Shuffle String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreString.java)
 * [1529. Bulb Switcher IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips1.java)
