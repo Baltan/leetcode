@@ -983,6 +983,7 @@
 * [1281. Subtract the Product and Sum of Digits of an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubtractProductAndSum.java)
 * [1282. Group the People Given the Group Size They Belong To](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GroupThePeople.java)
 * [1283. Find the Smallest Divisor Given a Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestDivisor.java)
+* [1284. Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips3.java)
 * [1286. Iterator for Combination](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CombinationIterator.java)
 * [1287. Element Appearing More Than 25% In Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSpecialInteger.java)
 * [1288. Remove Covered Intervals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveCoveredIntervals.java)
