@@ -713,6 +713,7 @@
 * [896. Monotonic Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsMonotonic.java)
 * [897. Increasing Order Search Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncreasingBST.java)
 * [898. Bitwise ORs of Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeAtIndex.java)
+* [899. Orderly Queue](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OrderlyQueue.java)
 * [900. RLE Iterator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RLEIterator.java)
 * [901. Online Stock Span](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StockSpanner.java)
 * [902. Numbers At Most N Given Digit Set](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AtMostNGivenDigitSet.java)
