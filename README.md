@@ -1811,6 +1811,7 @@
 * [2574. Left and Right Sum Differences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LeftRightDifference.java)
 * [2575. Find the Divisibility Array of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DivisibilityArray.java)
 * [2576. Find the Maximum Number of Marked Indices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumOfMarkedIndices.java)
+* [2578. Split With Minimum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitNum.java)
 * [2579. Count Total Number of Colored Cells](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ColoredCells.java)
 * [2580. Count Ways to Group Overlapping Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountWays.java)
 * [2582. Pass the Pillow](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PassThePillow.java)
