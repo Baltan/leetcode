@@ -1669,6 +1669,7 @@
 * [2347. Best Poker Hand](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestHand.java)
 * [2348. Number of Zero-Filled Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ZeroFilledSubarray.java)
 * [2349. Design a Number Container System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberContainers.java)
+* [2350. Shortest Impossible Sequence of Rolls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestSequence.java)
 * [2351. First Letter to Appear Twice](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedCharacter.java)
 * [2352. Equal Row and Column Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualPairs.java)
 * [2353. Design a Food Rating System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FoodRatings.java)
