@@ -1506,6 +1506,7 @@
 * [2085. Count Common Words With One Occurrence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountWords.java)
 * [2086. Minimum Number of Buckets Required to Collect Rainwater from Houses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumBuckets.java)
 * [2087. Minimum Cost Homecoming of a Robot in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost1.java)
+* [2088. Count Fertile Pyramids in a Land](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPyramids.java)
 * [2089. Find Target Indices After Sorting Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TargetIndices.java)
 * [2090. K Radius Subarray Averages](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetAverages.java)
 * [2091. Removing Minimum and Maximum From Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDeletions.java)
