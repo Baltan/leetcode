@@ -1821,6 +1821,7 @@
 * [2582. Pass the Pillow](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PassThePillow.java)
 * [2583. Kth Largest Sum in a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthLargestLevelSum.java)
 * [2584. Split the Array to Make Coprime Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindValidSplit.java)
+* [2586. Count the Number of Vowel Strings in Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/VowelStrings1.java)
 * [2587. Rearrange Array to Maximize Prefix Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore3.java)
 * [2588. Count the Number of Beautiful Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSubarrays.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
