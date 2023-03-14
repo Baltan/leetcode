@@ -872,6 +872,7 @@
 * [1093. Statistics from a Large Sample](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SampleStats.java)
 * [1094. Car Pooling](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CarPooling.java)
 * [1095. Find in Mountain Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution7.java)
+* [1096. Brace Expansion II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BraceExpansionII.java)
 * [1103. Distribute Candies to People](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCandies1.java)
 * [1104. Path In Zigzag Labelled Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PathInZigZagTree.java)
 * [1105. Filling Bookcase Shelves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinHeightShelves.java)
