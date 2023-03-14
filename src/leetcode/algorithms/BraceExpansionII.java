@@ -127,14 +127,14 @@ public class BraceExpansionII {
      * @return
      */
     public static List<String> split(String expression) {
-        List<String> intersections = new ArrayList<>();
+        List<String> splits = new ArrayList<>();
         StringBuilder builder = new StringBuilder();
         int count = 0;
 
         for (char c : expression.toCharArray()) {
             if (c == '{') {
                 if (count == 0 && builder.length() > 0) {
-                    intersections.add(builder.toString());
+                    splits.add(builder.toString());
                     builder = new StringBuilder();
                 }
                 builder.append(c);
@@ -144,7 +144,7 @@ public class BraceExpansionII {
                 count--;
 
                 if (count == 0) {
-                    intersections.add(builder.toString());
+                    splits.add(builder.toString());
                     builder = new StringBuilder();
                 }
             } else {
@@ -155,8 +155,8 @@ public class BraceExpansionII {
          * 表达式后缀剩余部分字符串
          */
         if (builder.length() > 0) {
-            intersections.add(builder.toString());
+            splits.add(builder.toString());
         }
-        return intersections;
+        return splits;
     }
 }
