@@ -8,6 +8,7 @@ package leetcode.algorithms;
  */
 public class MinimumOneBitOperations {
     public static void main(String[] args) {
+        System.out.println(minimumOneBitOperations(2));
         System.out.println(minimumOneBitOperations(3));
         System.out.println(minimumOneBitOperations(6));
         System.out.println(minimumOneBitOperations(10000));
@@ -15,46 +16,47 @@ public class MinimumOneBitOperations {
         System.out.println(minimumOneBitOperations(1000000000));
     }
 
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/solutions/1388111/zhao-gui-lu-di-gui-by-a-zhu-8o-zndz/"></a>
+     *
+     * @param n
+     * @return
+     */
     public static int minimumOneBitOperations(int n) {
-        int result = 0;
-        boolean flag = true;
-        int x = n;
-        int y = n;
-
-        while (true) {
-            if (x == 0 || y == 0) {
-                return result;
-            }
-
-            if (x != -1) {
-                x = flag ? operationOne(x) : operationTwo(x);
-            }
-
-            if (y != -1) {
-                y = flag ? operationTwo(y) : operationOne(y);
-            }
-            flag = !flag;
-            result++;
+        if (n == 1) {
+            return 1;
         }
-    }
-
-    public static int operationTwo(int num) {
         int offset = 0;
-        int copy = num;
-
-        while (num > 0 && (num & 1) == 0) {
-            num >>= 1;
+        /**
+         * 查找大于n的最小的2的幂
+         */
+        while (1 << offset <= n) {
             offset++;
         }
-
-        if (num != 0) {
-            num >>= 1;
-            return (num & 1) == 1 ? copy - (1 << (offset + 1)) : copy + (1 << (offset + 1));
-        }
-        return -1;
-    }
-
-    public static int operationOne(int num) {
-        return (num & 1) == 1 ? num - 1 : num + 1;
+        /**
+         * 找规律：
+         * n        n的二进制值      最小操作次数      n是否为2的幂
+         * ---------------------------------------
+         * 1        1               1               √
+         * 3        11              2
+         * 2        10              3               √
+         * 6        110             4
+         * 7        111             5
+         * 5        101             6
+         * 4        100             7               √
+         * 12       1100            8
+         * 13       1101            9
+         * 15       1111            10
+         * 14       1110            11
+         * 10       1010            12
+         * 11       1011            13
+         * 9        1001            14
+         * 8        1000            15              √
+         * ---------------------------------------
+         * 假设大于n的最小的2的幂为x=1<<offset，当n的值为2的幂时，最小操作次数为x-1；当n的值不为2的幂时，最小操作次数为
+         * minimumOneBitOperations(x>>1)-minimumOneBitOperations(n-(x>>1))=x-1-minimumOneBitOperations(n-(x>>1))
+         */
+        int x = 1 << offset;
+        return n == x >> 1 ? x - 1 : x - 1 - minimumOneBitOperations(n - (x >> 1));
     }
 }
