@@ -1210,6 +1210,7 @@
 * [1605. Find Valid Matrix Given Row and Column Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreMatrix.java)
 * [1608. Special Array With X Elements Greater Than or Equal X](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialArray.java)
 * [1609. Even Odd Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsEvenOddTree.java)
+* [1611. Minimum One Bit Operations to Make Integers Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOneBitOperations.java)
 * [1614. Maximum Nesting Depth of the Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDepth2.java)
 * [1615. Maximal Network Rank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalNetworkRank.java)
 * [1616. Split Two Strings to Make Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPalindromeFormation.java)
