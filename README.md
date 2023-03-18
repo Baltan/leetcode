@@ -1030,6 +1030,7 @@
 * [1337. The K Weakest Rows in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KWeakestRows.java)
 * [1338. Reduce Array Size to The Half](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSetSize.java)
 * [1339. Maximum Product of Splitted Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct2.java)
+* [1340. Jump Game V](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxJumps.java)
 * [1342. Number of Steps to Reduce a Number to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSteps.java)
 * [1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfSubarrays.java)
 * [1344. Angle Between Hands of a Clock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AngleClock.java)
