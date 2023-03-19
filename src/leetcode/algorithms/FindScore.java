@@ -18,17 +18,31 @@ public class FindScore {
     public static long findScore(int[] nums) {
         long result = 0L;
         int length = nums.length;
+        /**
+         * isMarked[i]表示元素nums[i]是否被标记过
+         */
         boolean[] isMarked = new boolean[length];
+        /**
+         * 索引数组[0,1,2,……,length-1]
+         */
         Integer[] indexes = IntStream.range(0, length).boxed().toArray(Integer[]::new);
+        /**
+         * 将索引数组indexes按照索引对应数组nums中的元素升序排列，如果对应元素相等则按照索引大小升序排列
+         */
         Arrays.sort(indexes, (x, y) -> nums[x] == nums[y] ? x - y : nums[x] - nums[y]);
 
         for (int index : indexes) {
             if (isMarked[index]) {
                 continue;
             }
+            /**
+             * 剩余索引中第一个未被标记的
+             */
             result += nums[index];
             isMarked[index] = true;
-
+            /**
+             * 标记相邻索引
+             */
             if (index - 1 >= 0) {
                 isMarked[index - 1] = true;
             }
