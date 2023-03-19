@@ -1829,6 +1829,7 @@
 * [2586. Count the Number of Vowel Strings in Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/VowelStrings1.java)
 * [2587. Rearrange Array to Maximize Prefix Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore3.java)
 * [2588. Count the Number of Beautiful Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSubarrays.java)
+* [2591. Distribute Money to Maximum Children](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistMoney.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
