@@ -1832,6 +1832,7 @@
 * [2591. Distribute Money to Maximum Children](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistMoney.java)
 * [2592. Maximize Greatness of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeGreatness.java)
 * [2593. Find Score of an Array After Marking All Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindScore.java)
+* [2597. The Number of Beautiful Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSubsets.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
