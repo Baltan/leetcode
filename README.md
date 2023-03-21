@@ -1833,6 +1833,7 @@
 * [2592. Maximize Greatness of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeGreatness.java)
 * [2593. Find Score of an Array After Marking All Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindScore.java)
 * [2594. Minimum Time to Repair Cars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepairCars.java)
+* [2595. Number of Even and Odd Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EvenOddBit.java)
 * [2597. The Number of Beautiful Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSubsets.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
