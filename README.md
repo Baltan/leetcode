@@ -1835,6 +1835,7 @@
 * [2594. Minimum Time to Repair Cars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepairCars.java)
 * [2595. Number of Even and Odd Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EvenOddBit.java)
 * [2597. The Number of Beautiful Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSubsets.java)
+* [2598. Smallest Missing Non-negative Integer After Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSmallestInteger.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
