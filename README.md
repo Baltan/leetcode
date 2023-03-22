@@ -1737,6 +1737,7 @@
 * [2441. Largest Positive Integer That Exists With Its Negative](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxK.java)
 * [2442. Count Number of Distinct Integers After Reverse Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinctIntegers.java)
 * [2443. Sum of Number and Its Reverse](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfNumberAndReverse.java)
+* [2444. Count Subarrays With Fixed Bounds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubarrays.java)
 * [2446. Determine if Two Events Have Conflict](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HaveConflict.java)
 * [2447. Number of Subarrays With GCD Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarrayGCD.java)
 * [2451. Odd String Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OddString.java)
