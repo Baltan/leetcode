@@ -1740,6 +1740,7 @@
 * [2444. Count Subarrays With Fixed Bounds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubarrays.java)
 * [2446. Determine if Two Events Have Conflict](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HaveConflict.java)
 * [2447. Number of Subarrays With GCD Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarrayGCD.java)
+* [2449. Minimum Number of Operations to Make Arrays Similar](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeSimilar.java)
 * [2451. Odd String Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OddString.java)
 * [2452. Words Within Two Edits of Dictionary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoEditWords.java)
 * [2453. Destroy Sequential Targets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DestroyTargets.java)
