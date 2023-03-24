@@ -1092,6 +1092,7 @@
 * [1417. Reformat The String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Reformat.java)
 * [1418. Display Table of Food Orders in a Restaurant](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DisplayTable.java)
 * [1419. Minimum Number of Frogs Croaking](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinNumberOfFrogs.java)
+* [1420. Build Array Where You Can Find The Maximum Exactly K Comparisons](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfArrays.java)
 * [1422. Maximum Score After Splitting a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore.java)
 * [1423. Maximum Points You Can Obtain from Cards](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore1.java)
 * [1424. Diagonal Traverse II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDiagonalOrder1.java)
