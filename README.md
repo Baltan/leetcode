@@ -1053,6 +1053,7 @@
 * [1365. How Many Numbers Are Smaller Than the Current Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallerNumbersThanCurrent.java)
 * [1366. Rank Teams by Votes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RankTeams.java)
 * [1367. Linked List in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSubPath.java)
+* [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost2.java)
 * [1370. Increasing Decreasing String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortString.java)
 * [1371. Find the Longest Substring Containing Vowels in Even Counts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheLongestSubstring.java)
 * [1372. Longest ZigZag Path in a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestZigZag.java)
