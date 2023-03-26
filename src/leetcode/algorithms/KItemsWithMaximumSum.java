@@ -26,7 +26,7 @@ public class KItemsWithMaximumSum {
             return numOnes;
         } else {
             /**
-             * 取numOnes个1、numOnes个0和k-numOnes-numZeros个负1
+             * 取numOnes个1、numZeros个0和k-numOnes-numZeros个负1
              */
             return numOnes - (k - numOnes - numZeros);
         }
