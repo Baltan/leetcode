@@ -1104,6 +1104,7 @@
 * [1436. Destination City](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DestCity.java)
 * [1437. Check If All 1's Are at Least Length K Places Away](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KLengthApart.java)
 * [1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray.java)
+* [1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthSmallest2.java)
 * [1441. Build an Array With Stack Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BuildArray.java)
 * [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTriplets1.java)
 * [1443. Minimum Time to Collect All Apples in a Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime.java)
