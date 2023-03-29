@@ -41,6 +41,10 @@ public class KthSmallest2 {
             hi += mat[i][cols - 1];
         }
         /**
+         * 初始化数组和为可能的最小值
+         */
+        int sum = lo;
+        /**
          * 二分查找第k个最小数组和
          */
         while (lo < hi) {
@@ -48,7 +52,7 @@ public class KthSmallest2 {
             /**
              * 小于mid的数组和的个数
              */
-            int count = dfs(mat, rows, cols, mid, 0, 0, k);
+            int count = dfs(mat, rows, cols, mid, sum, 0, k);
 
             if (count >= k) {
                 hi = mid - 1;
@@ -84,10 +88,10 @@ public class KthSmallest2 {
             /**
              * mat[rowIndex][i]之后的元素不小于mat[rowIndex][i]，加上sum后肯定也是大于等于mid，不用继续计算
              */
-            if (sum + mat[rowIndex][i] >= mid) {
+            if (sum - mat[rowIndex][0] + mat[rowIndex][i] >= mid) {
                 break;
             }
-            count += dfs(mat, rows, cols, mid, sum + mat[rowIndex][i], rowIndex + 1, k);
+            count += dfs(mat, rows, cols, mid, sum - mat[rowIndex][0] + mat[rowIndex][i], rowIndex + 1, k);
             /**
              * 已经得到不少于k个数组和小于mid，而题目所求为第k个最小数组和，不用继续计算
              */
