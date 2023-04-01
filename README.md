@@ -1128,6 +1128,7 @@
 * [1464. Maximum Product of Two Elements in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct4.java)
 * [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxArea1.java)
 * [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinReorder.java)
+* [1467. Probability of a Two Boxes Having The Same Number of Distinct Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetProbability.java)
 * [1470. Shuffle the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Shuffle.java)
 * [1471. The k Strongest Values in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetStrongest.java)
 * [1472. Design Browser History](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BrowserHistory.java)
