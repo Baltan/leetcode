@@ -1849,6 +1849,7 @@
 * [2600. K Items With the Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KItemsWithMaximumSum.java)
 * [2601. Prime Subtraction Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrimeSubOperation.java)
 * [2602. Minimum Operations to Make All Array Elements Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations12.java)
+* [2610. Convert an Array Into a 2D Array With Conditions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMatrix.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
