@@ -1850,6 +1850,7 @@
 * [2601. Prime Subtraction Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrimeSubOperation.java)
 * [2602. Minimum Operations to Make All Array Elements Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations12.java)
 * [2607. Make K-Subarray Sums Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeSubKSumEqual.java)
+* [2609. Find the Longest Balanced Substring of a Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheLongestBalancedSubstring.java)
 * [2610. Convert an Array Into a 2D Array With Conditions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMatrix.java)
 * [2611. Mice and Cheese](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MiceAndCheese.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
