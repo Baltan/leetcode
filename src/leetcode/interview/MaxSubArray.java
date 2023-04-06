@@ -6,6 +6,7 @@ package leetcode.interview;
  * @author Baltan
  * @date 2020-04-08 21:40
  * @see leetcode.algorithms.MaxSubArray
+ * @see leetcode.algorithms.MaximumCostSubstring
  */
 public class MaxSubArray {
     public static void main(String[] args) {
