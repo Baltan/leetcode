@@ -1849,6 +1849,7 @@
 * [2600. K Items With the Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KItemsWithMaximumSum.java)
 * [2601. Prime Subtraction Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrimeSubOperation.java)
 * [2602. Minimum Operations to Make All Array Elements Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations12.java)
+* [2606. Find the Substring With Maximum Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumCostSubstring.java)
 * [2607. Make K-Subarray Sums Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeSubKSumEqual.java)
 * [2609. Find the Longest Balanced Substring of a Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheLongestBalancedSubstring.java)
 * [2610. Convert an Array Into a 2D Array With Conditions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMatrix.java)
