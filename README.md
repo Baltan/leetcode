@@ -480,6 +480,7 @@
 * [565. Array Nesting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayNesting.java)
 * [566. Reshape the Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixReshape.java)
 * [567. Permutation in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckInclusion.java)
+* [570. Managers with at Least 5 Direct Reports](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ManagersWithAtLeast5DirectReports.sql)
 * [572. Subtree of Another Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSubtree.java)
 * [572. Subtree of Another Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsSubtree1.java)
 * [575. Distribute Candies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCandies.java)
