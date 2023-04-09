@@ -1861,6 +1861,7 @@
 * [2609. Find the Longest Balanced Substring of a Binary String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheLongestBalancedSubstring.java)
 * [2610. Convert an Array Into a 2D Array With Conditions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMatrix.java)
 * [2611. Mice and Cheese](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MiceAndCheese.java)
+* [2615. Sum of Distances](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Distance.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
