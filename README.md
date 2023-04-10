@@ -954,6 +954,7 @@
 * [1222. Queens That Can Attack the King](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/QueensAttacktheKing.java)
 * [1223. Dice Roll Simulation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DieSimulator.java)
 * [1224. Maximum Equal Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEqualFreq.java)
+* [1226. The Dining Philosophers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/concurrency/DiningPhilosophers.java)
 * [1227. Airplane Seat Assignment Probability](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthPersonGetsNthSeat.java)
 * [1228. Missing Number In Arithmetic Progression](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingNumber1.java)
 * [1232. Check If It Is a Straight Line](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckStraightLine.java)
