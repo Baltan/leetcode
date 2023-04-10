@@ -23,9 +23,15 @@ public class DiningPhilosophers {
                            Runnable eat,
                            Runnable putLeftFork,
                            Runnable putRightFork) {
+        /**
+         * 当五位哲学家同时拿到自己左侧的叉子或者右侧的叉子时就会造成死锁，通过对每一位哲学家用餐的过程加锁，避免出现死锁
+         */
         lock.lock();
 
         try {
+            /**
+             * 哲学家用餐的完整过程
+             */
             pickLeftFork.run();
             pickRightFork.run();
             eat.run();
