@@ -1168,6 +1168,7 @@
 * [1512. Number of Good Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumIdenticalPairs.java)
 * [1513. Number of Substrings With Only 1s](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSub.java)
 * [1514. Path with Maximum Probability](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProbability.java)
+* [1517. Find Users With Valid E-Mails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindUsersWithValidEMails.sql)
 * [1518. Water Bottles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWaterBottles.java)
 * [1519. Number of Nodes in the Sub-Tree With the Same Label](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubTrees.java)
 * [1523. Count Odd Numbers in an Interval Range](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOdds.java)
