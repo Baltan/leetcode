@@ -920,6 +920,7 @@
 * [1161. Maximum Level Sum of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxLevelSum.java)
 * [1162. As Far from Land as Possible](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance.java)
 * [1163. Last Substring in Lexicographical Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastSubstring.java)
+* [1164. Product Price at a Given Date](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ProductPriceAtAGivenDate.sql)
 * [1169. Invalid Transactions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InvalidTransactions.java)
 * [1170. Compare Strings by Frequency of the Smallest Character](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumSmallerByFrequency.java)
 * [1171. Remove Zero Sum Consecutive Nodes from Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveZeroSumSublists.java)
