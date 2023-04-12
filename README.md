@@ -935,6 +935,7 @@
 * [1189. Maximum Number of Balloons](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumberOfBalloons.java)
 * [1190. Reverse Substrings Between Each Pair of Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseParentheses.java)
 * [1191. K-Concatenation Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KConcatenationMaxSum.java)
+* [1193. Monthly Transactions I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/MonthlyTransactionsI.sql)
 * [1195. Fizz Buzz Multithreaded](https://github.com/Baltan/leetcode/blob/master/src/leetcode/concurrency/FizzBuzz.java)
 * [1200. Minimum Absolute Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAbsDifference.java)
 * [1201. Ugly Number III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthUglyNumber2.java)
