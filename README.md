@@ -1873,6 +1873,7 @@
 * [2616. Minimize the Maximum Difference of Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeMax.java)
 * [2619. Array Prototype Last](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayPrototypeLast.js)
 * [2620. Counter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Counter.js)
+* [2622. Cache With Time Limit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CacheWithTimeLimit.js)
 * [2626. Array Reduce Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayReduceTransformation.js)
 * [2628. JSON Deep Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/JSONDeepEqual.js)
 * [2629. Function Composition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FunctionComposition.js)
