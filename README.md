@@ -1875,6 +1875,7 @@
 * [2620. Counter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Counter.js)
 * [2626. Array Reduce Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayReduceTransformation.js)
 * [2628. JSON Deep Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/JSONDeepEqual.js)
+* [2629. Function Composition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FunctionComposition.js)
 * [2631. Group By](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/GroupBy.js)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
