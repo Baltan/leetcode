@@ -1871,6 +1871,7 @@
 * [2614. Prime In Diagonal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalPrime.java)
 * [2615. Sum of Distances](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Distance.java)
 * [2616. Minimize the Maximum Difference of Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeMax.java)
+* [2619. Array Prototype Last](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayPrototypeLast.js)
 * [2628. JSON Deep Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/JSONDeepEqual.js)
 * [2631. Group By](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/GroupBy.js)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
