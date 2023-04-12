@@ -940,6 +940,7 @@
 * [1200. Minimum Absolute Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAbsDifference.java)
 * [1201. Ugly Number III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NthUglyNumber2.java)
 * [1202. Smallest String With Swaps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestStringWithSwaps.java)
+* [1204. Last Person to Fit in the Bus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/LastPersonToFitInTheBus.sql)
 * [1207. Unique Number of Occurrences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueOccurrences.java)
 * [1208. Get Equal Substrings Within Budget](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualSubstring.java)
 * [1208. Get Equal Substrings Within Budget](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualSubstring1.java)
