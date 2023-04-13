@@ -1873,6 +1873,7 @@
 * [2614. Prime In Diagonal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalPrime.java)
 * [2615. Sum of Distances](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Distance.java)
 * [2616. Minimize the Maximum Difference of Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeMax.java)
+* [2618. Check if Object Instance of Class](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CheckIfObjectInstanceOfClass.js)
 * [2619. Array Prototype Last](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayPrototypeLast.js)
 * [2620. Counter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Counter.js)
 * [2622. Cache With Time Limit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CacheWithTimeLimit.js)
