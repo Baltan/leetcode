@@ -507,6 +507,7 @@
 * [607. Sales Person](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SalesPerson.sql)
 * [608. Tree Node](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/TreeNode.sql)
 * [609. Find Duplicate File in System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDuplicate2.java)
+* [610. Triangle Judgement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/TriangleJudgement.sql)
 * [611. Valid Triangle Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TriangleNumber.java)
 * [617. Merge Two Binary Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeTrees.java)
 * [620. Not Boring Movies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/NotBoringMovies.sql)
