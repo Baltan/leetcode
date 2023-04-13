@@ -1880,6 +1880,7 @@
 * [2624. Snail Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/SnailTraversal.js)
 * [2625. Flatten Deeply Nested Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FlattenDeeplyNestedArray.js)
 * [2626. Array Reduce Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayReduceTransformation.js)
+* [2627. Debounce](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Debounce.js)
 * [2628. JSON Deep Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/JSONDeepEqual.js)
 * [2629. Function Composition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FunctionComposition.js)
 * [2631. Group By](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/GroupBy.js)
