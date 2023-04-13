@@ -1878,6 +1878,7 @@
 * [2622. Cache With Time Limit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CacheWithTimeLimit.js)
 * [2623. Memoize](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Memoize.js)
 * [2624. Snail Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/SnailTraversal.js)
+* [2625. Flatten Deeply Nested Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FlattenDeeplyNestedArray.js)
 * [2626. Array Reduce Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayReduceTransformation.js)
 * [2628. JSON Deep Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/JSONDeepEqual.js)
 * [2629. Function Composition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FunctionComposition.js)
