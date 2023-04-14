@@ -510,6 +510,7 @@
 * [610. Triangle Judgement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/TriangleJudgement.sql)
 * [611. Valid Triangle Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TriangleNumber.java)
 * [617. Merge Two Binary Trees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeTrees.java)
+* [619. Biggest Single Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/BiggestSingleNumber.sql)
 * [620. Not Boring Movies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/NotBoringMovies.sql)
 * [621. Task Scheduler](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/LeastInterval.sql)
 * [622. Design Circular Queue](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/MyCircularQueue.sql)
