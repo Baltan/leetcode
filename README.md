@@ -868,6 +868,7 @@
 * [1054. Distant Barcodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeBarcodes.java)
 * [1070. Product Sales Analysis III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ProductSalesAnalysisIII.sql)
 * [1061. Lexicographically Smallest Equivalent String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestEquivalentString.java)
+* [1068. Product Sales Analysis I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ProductSalesAnalysisI.sql)
 * [1071. Greatest Common Divisor of Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GcdOfStrings.java)
 * [1071. Greatest Common Divisor of Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GcdOfStrings1.java)
 * [1072. Flip Columns For Maximum Number of Equal Rows](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEqualRowsAfterFlips.java)
