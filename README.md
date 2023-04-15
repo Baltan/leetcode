@@ -1033,6 +1033,7 @@
 * [1317. Convert Integer to the Sum of Two No-Zero Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetNoZeroIntegers.java)
 * [1318. Minimum Flips to Make a OR b Equal to c](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips.java)
 * [1319. Number of Operations to Make Network Connected](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeConnected.java)
+* [1321. Restaurant Growth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RestaurantGrowth.sql)
 * [1323. Maximum 69 Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Maximum69Number.java)
 * [1324. Print Words Vertically](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrintVertically.java)
 * [1325. Delete Leaves With a Given Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveLeafNodes.java)
