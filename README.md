@@ -1427,6 +1427,7 @@
 * [1904. The Number of Full Rounds You Have Played](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfRounds.java)
 * [1905. Count Sub Islands](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubIslands.java)
 * [1906. Minimum Absolute Difference Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDifference1.java)
+* [1907. Count Salary Categories](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CountSalaryCategories.sql)
 * [1909. Remove One Element to Make the Array Strictly Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeIncreasing.java)
 * [1910. Remove All Occurrences of a Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveOccurrences.java)
 * [1911. Maximum Alternating Subsequence Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAlternatingSum.java)
