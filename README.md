@@ -1892,6 +1892,7 @@
 * [2629. Function Composition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FunctionComposition.js)
 * [2630. Memoize II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/MemoizeII.js)
 * [2631. Group By](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/GroupBy.js)
+* [2632. Curry](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Curry.js)
 * [2633. Convert Object to JSON String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ConvertObjectToJSONString.js)
 * [2634. Filter Elements from Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FilterElementsFromArray.js)
 * [2635. Apply Transform Over Each Element in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ApplyTransformOverEachElementInArray.js)
