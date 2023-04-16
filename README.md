@@ -1443,6 +1443,7 @@
 * [1929. Concatenation of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetConcatenation.java)
 * [1930. Unique Length-3 Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPalindromicSubsequence.java)
 * [1930. Unique Length-3 Palindromic Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPalindromicSubsequence1.java)
+* [1934. Confirmation Rate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ConfirmationRate.sql)
 * [1935. Maximum Number of Words You Can Type](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeTypedWords.java)
 * [1936. Add Minimum Number of Rungs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddRungs.java)
 * [1937. Maximum Number of Points with Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints2.java)
