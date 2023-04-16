@@ -1895,6 +1895,7 @@
 * [2633. Convert Object to JSON String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ConvertObjectToJSONString.js)
 * [2634. Filter Elements from Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/FilterElementsFromArray.js)
 * [2635. Apply Transform Over Each Element in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ApplyTransformOverEachElementInArray.js)
+* [2639. Find the Width of Columns of a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindColumnWidth.java)
 * [2640. Find the Score of All Prefixes of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPrefixScore.java)
 * [2641. Cousins in Binary Tree II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceValueInTree.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
