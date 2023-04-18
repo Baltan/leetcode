@@ -1899,6 +1899,7 @@
 * [2639. Find the Width of Columns of a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindColumnWidth.java)
 * [2640. Find the Score of All Prefixes of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPrefixScore.java)
 * [2641. Cousins in Binary Tree II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceValueInTree.java)
+* [2643. Row With Maximum Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RowAndMaximumOnes.java)
 * [2644. Find the Maximum Divisibility Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDivScore.java)
 * [2645. Minimum Additions to Make Valid String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddMinimum.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
