@@ -1270,6 +1270,7 @@
 * [1656. Design an Ordered Stream](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OrderedStream.java)
 * [1657. Determine if Two Strings Are Close](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CloseStrings.java)
 * [1658. Minimum Operations to Reduce X to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations8.java)
+* [1661. Average Time of Process per Machine](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/AverageTimeOfProcessPerMachine.sql)
 * [1662. Check If Two String Arrays are Equivalent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayStringsAreEqual.java)
 * [1662. Check If Two String Arrays are Equivalent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayStringsAreEqual1.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
