@@ -1286,6 +1286,7 @@
 * [1679. Max Number of K-Sum Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations.java)
 * [1679. Max Number of K-Sum Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations1.java)
 * [1680. Concatenation of Consecutive Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConcatenatedBinary.java)
+* [1683. Invalid Tweets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/InvalidTweets.sql)
 * [1684. Count the Number of Consistent Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountConsistentStrings.java)
 * [1684. Count the Number of Consistent Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountConsistentStrings1.java)
 * [1685. Sum of Absolute Differences in a Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSumAbsoluteDifferences.java)
