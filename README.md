@@ -1715,6 +1715,7 @@
 * [2351. First Letter to Appear Twice](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedCharacter.java)
 * [2352. Equal Row and Column Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualPairs.java)
 * [2353. Design a Food Rating System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FoodRatings.java)
+* [2356. Number of Unique Subjects Taught by Each Teacher](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/NumberOfUniqueSubjectsTaughtByEachTeacher.sql)
 * [2357. Make Array Zero by Subtracting Equal Amounts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations2.java)
 * [2358. Maximum Number of Groups Entering a Competition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumGroups.java)
 * [2359. Find Closest Node to Given Two Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestMeetingNode.java)
