@@ -1909,6 +1909,7 @@
 * [2643. Row With Maximum Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RowAndMaximumOnes.java)
 * [2644. Find the Maximum Divisibility Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDivScore.java)
 * [2645. Minimum Additions to Make Valid String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddMinimum.java)
+* [2648. Generate Fibonacci Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/GenerateFibonacciSequence.js)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
