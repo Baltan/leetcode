@@ -1890,6 +1890,7 @@
 * [2618. Check if Object Instance of Class](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CheckIfObjectInstanceOfClass.js)
 * [2619. Array Prototype Last](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayPrototypeLast.js)
 * [2620. Counter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Counter.js)
+* [2621. Sleep](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Sleep.js)
 * [2622. Cache With Time Limit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CacheWithTimeLimit.js)
 * [2623. Memoize](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Memoize.js)
 * [2624. Snail Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/SnailTraversal.js)
