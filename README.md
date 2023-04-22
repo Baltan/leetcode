@@ -1256,6 +1256,7 @@
 * [1629. Slowest Key](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SlowestKey.java)
 * [1630. Arithmetic Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckArithmeticSubarrays.java)
 * [1631. Path With Minimum Effort](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumEffortPath.java)
+* [1633. Percentage of Users Attended a Contest](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/PercentageOfUsersAttendedAContest.sql)
 * [1636. Sort Array by Increasing Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FrequencySort1.java)
 * [1637. Widest Vertical Area Between Two Points Containing No Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWidthOfVerticalArea.java)
 * [1638. Count Substrings That Differ by One Character](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubstrings1.java)
