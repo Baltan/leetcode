@@ -4,9 +4,7 @@
  */
 async function sleep(millis) {
     // resolve就是then()调用的函数，reject就是catch()调用的函数
-    await new Promise((resolve) => setTimeout(() => {
-        resolve()
-    }, millis));
+    await new Promise(resolve => setTimeout(resolve, millis));
 }
 
 var t = Date.now();
