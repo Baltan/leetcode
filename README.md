@@ -1914,6 +1914,7 @@
 * [2645. Minimum Additions to Make Valid String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddMinimum.java)
 * [2648. Generate Fibonacci Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/GenerateFibonacciSequence.js)
 * [2649. Nested Array Generator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/NestedArrayGenerator.js)
+* [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations13.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
