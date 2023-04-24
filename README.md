@@ -951,6 +951,7 @@
 * [1208. Get Equal Substrings Within Budget](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EqualSubstring1.java)
 * [1209. Remove All Adjacent Duplicates in String II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveDuplicates3.java)
 * [1210. Minimum Moves to Reach Target with Rotations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves.java)
+* [1211. Queries Quality and Percentage](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/QueriesQualityAndPercentage.sql)
 * [1213. Intersection of Three Sorted Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArraysIntersection.java)
 * [1214. Two Sum BSTs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSumBSTs.java)
 * [1214. Two Sum BSTs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoSumBSTs1.java)
