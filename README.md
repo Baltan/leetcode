@@ -1916,6 +1916,7 @@
 * [2648. Generate Fibonacci Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/GenerateFibonacciSequence.js)
 * [2649. Nested Array Generator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/NestedArrayGenerator.js)
 * [2651. Calculate Delayed Arrival Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindDelayedArrivalTime.java)
+* [2652. Sum Multiples](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfMultiples.java)
 * [2653. Sliding Subarray Beauty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSubarrayBeauty.java)
 * [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations13.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
