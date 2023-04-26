@@ -1082,6 +1082,7 @@
 * [1374. Generate a String With Characters That Have Odd Counts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GenerateTheString.java)
 * [1375. Bulb Switcher III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTimesAllBlue.java)
 * [1376. Time Needed to Inform All Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfMinutes.java)
+* [1378. Replace Employee ID With The Unique Identifier](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/ReplaceEmployeeIDWithTheUniqueIdentifier.sql)
 * [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetTargetCopy.java)
 * [1380. Lucky Numbers in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LuckyNumbers.java)
 * [1381. Design a Stack With Increment Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CustomStack.java)
