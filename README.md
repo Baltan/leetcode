@@ -1003,6 +1003,7 @@
 * [1275. Find Winner on a Tic Tac Toe Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Tictactoe.java)
 * [1276. Number of Burgers with No Waste of Ingredients](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfBurgers.java)
 * [1277. Count Square Submatrices with All Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSquares.java)
+* [1280. Students and Examinations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/StudentsAndExaminations.sql)
 * [1281. Subtract the Product and Sum of Digits of an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubtractProductAndSum.java)
 * [1282. Group the People Given the Group Size They Belong To](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GroupThePeople.java)
 * [1283. Find the Smallest Divisor Given a Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestDivisor.java)
