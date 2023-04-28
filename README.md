@@ -1322,6 +1322,7 @@
 * [1726. Tuple with Same Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TupleSameProduct.java)
 * [1727. Largest Submatrix With Rearrangements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSubmatrix.java)
 * [1729. Find Followers Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindFollowersCount.sql)
+* [1731. The Number of Employees Which Report to Each Employee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/TheNumberOfEmployeesWhichReportToEachEmployee.sql)
 * [1732. Find the Highest Altitude](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestAltitude.java)
 * [1733. Minimum Number of People to Teach](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTeachings.java)
 * [1734. Decode XORed Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Decode.java)
