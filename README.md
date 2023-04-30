@@ -1923,6 +1923,7 @@
 * [2652. Sum Multiples](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfMultiples.java)
 * [2653. Sliding Subarray Beauty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSubarrayBeauty.java)
 * [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations13.java)
+* [2657. Find the Prefix Common Array of Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindThePrefixCommonArray.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
