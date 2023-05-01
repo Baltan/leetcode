@@ -63,9 +63,9 @@ public class ClosedIsland {
                     int rightmost = 0;
 
                     while (!landQueue.isEmpty()) {
-                        int[] coordination = landQueue.poll();
-                        int row = coordination[0];
-                        int col = coordination[1];
+                        int[] coordinate = landQueue.poll();
+                        int row = coordinate[0];
+                        int col = coordinate[1];
                         /**
                          * 将当前陆地标记为已访问过
                          */
