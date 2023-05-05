@@ -2,12 +2,12 @@
 /**
  * @return {Function}
  */
-var createHelloWorld = function () {
+var createHelloWorldFunction = function () {
     return function (...args) {
         return "Hello World";
     }
 };
 
-var f = createHelloWorld();
+var f = createHelloWorldFunction();
 console.log(f());
 console.log(f({}, null, 42));
