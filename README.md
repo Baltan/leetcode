@@ -1929,7 +1929,7 @@
 * [2659. Make Array Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOperationsToEmptyArray.java)
 * [2661. First Completely Painted Row or Column](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstCompleteIndex.java)
 * [2662. Minimum Cost of a Path With Special Roads](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost1.java)
-* [2667. Create Hello World Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CreateHelloWorld.js)
+* [2667. Create Hello World Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CreateHelloWorldFunction.js)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
