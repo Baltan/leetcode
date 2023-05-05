@@ -1927,6 +1927,7 @@
 * [2657. Find the Prefix Common Array of Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindThePrefixCommonArray.java)
 * [2658. Maximum Number of Fish in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxFish.java)
 * [2659. Make Array Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOperationsToEmptyArray.java)
+* [2661. First Completely Painted Row or Column](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstCompleteIndex.java)
 * [2662. Minimum Cost of a Path With Special Roads](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
