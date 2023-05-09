@@ -1933,6 +1933,7 @@
 * [2665. Counter II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CounterII.js)
 * [2666. Allow One Function Call](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/AllowOneFunctionCall.js)
 * [2667. Create Hello World Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CreateHelloWorldFunction.js)
+* [2670. Find the Distinct Difference Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctDifferenceArray.java)
 * [2672. Number of Adjacent Elements With the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ColorTheArray.java)
 * [2673. Make Costs of Paths Equal in a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinIncrements.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
