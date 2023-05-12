@@ -618,6 +618,7 @@
 * [773. Sliding Puzzle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SlidingPuzzle.java)
 * [775. Global and Local Inversions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsIdealPermutation.java)
 * [777. Swap Adjacent in LR String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanTransform.java)
+* [778. Swim in Rising Water](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SwimInWater.java)
 * [779. K-th Symbol in Grammar](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthGrammar.java)
 * [780. Reaching Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachingPoints.java)
 * [781. Rabbits in Forest](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumRabbits.java)
