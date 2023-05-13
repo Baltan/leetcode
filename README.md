@@ -1940,6 +1940,7 @@
 * [2671. Frequency Tracker](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FrequencyTracker.java)
 * [2672. Number of Adjacent Elements With the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ColorTheArray.java)
 * [2673. Make Costs of Paths Equal in a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinIncrements.java)
+* [2677. Chunk Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ChunkArray.js)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
