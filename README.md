@@ -1932,6 +1932,7 @@
 * [2660. Determine the Winner of a Bowling Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsWinner.java)
 * [2661. First Completely Painted Row or Column](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FirstCompleteIndex.java)
 * [2662. Minimum Cost of a Path With Special Roads](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost1.java)
+* [2663. Lexicographically Smallest Beautiful String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestBeautifulString.java)
 * [2665. Counter II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CounterII.js)
 * [2666. Allow One Function Call](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/AllowOneFunctionCall.js)
 * [2667. Create Hello World Function](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CreateHelloWorldFunction.js)
