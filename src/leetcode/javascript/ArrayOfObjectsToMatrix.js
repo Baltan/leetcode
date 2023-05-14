@@ -48,29 +48,29 @@ var jsonToMatrix = function (arr) {
     return result;
 }
 
-// console.log(jsonToMatrix([
-//     {"b": 1, "a": 2},
-//     {"b": 3, "a": 4}
-// ]));
-// console.log(jsonToMatrix([
-//     {"a": 1, "b": 2},
-//     {"c": 3, "d": 4},
-//     {}
-// ]));
-// console.log(jsonToMatrix([
-//     {"a": {"b": 1, "c": 2}},
-//     {"a": {"b": 3, "d": 4}}
-// ]));
-// console.log(jsonToMatrix([
-//     [{"a": null}],
-//     [{"b": true}],
-//     [{"c": "x"}]
-// ]));
-// console.log(jsonToMatrix([
-//     {},
-//     {},
-//     {},
-// ]));
+console.log(jsonToMatrix([
+    {"b": 1, "a": 2},
+    {"b": 3, "a": 4}
+]));
+console.log(jsonToMatrix([
+    {"a": 1, "b": 2},
+    {"c": 3, "d": 4},
+    {}
+]));
+console.log(jsonToMatrix([
+    {"a": {"b": 1, "c": 2}},
+    {"a": {"b": 3, "d": 4}}
+]));
+console.log(jsonToMatrix([
+    [{"a": null}],
+    [{"b": true}],
+    [{"c": "x"}]
+]));
+console.log(jsonToMatrix([
+    {},
+    {},
+    {},
+]));
 console.log(jsonToMatrix([
     {
         "_id": "64265e18f4596ed5b53673c1",
