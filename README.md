@@ -1943,6 +1943,7 @@
 * [2675. Array of Objects to Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayOfObjectsToMatrix.js)
 * [2676. Throttle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Throttle.js)
 * [2677. Chunk Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ChunkArray.js)
+* [2683. Neighboring Bitwise XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DoesValidArrayExist.java)
 * [2684. Maximum Number of Moves in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxMoves.java)
 * [2685. Count the Number of Complete Components](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCompleteComponents.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
