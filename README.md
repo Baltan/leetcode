@@ -1944,6 +1944,7 @@
 * [2676. Throttle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Throttle.js)
 * [2677. Chunk Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ChunkArray.js)
 * [2679. Sum in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixSum.java)
+* [2680. Maximum OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumOr.java)
 * [2682. Find the Losers of the Circular Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularGameLosers.java)
 * [2683. Neighboring Bitwise XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DoesValidArrayExist.java)
 * [2684. Maximum Number of Moves in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxMoves.java)
