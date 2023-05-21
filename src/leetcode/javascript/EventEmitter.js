@@ -5,16 +5,13 @@ class EventEmitter {
     }
 
     subscribe(event, cb) {
-        var id = Symbol();
-
         if (!this.events.has(event)) {
-            this.events.set(event, []);
+            this.events.set(event, new Set());
         }
-        this.events.get(event).push([id, cb]);
+        this.events.get(event).add(cb);
         return {
             unsubscribe: () => {
-                var array = this.events.get(event);
-                this.events.set(event, array.filter(item => item[0] !== id));
+                this.events.get(event).delete(cb);
             }
         };
     }
@@ -23,8 +20,7 @@ class EventEmitter {
         var results = [];
 
         if (this.events.has(event)) {
-            var array = this.events.get(event);
-            array.forEach(item => results.push(item[1](...args)));
+            this.events.get(event).forEach(cb => results.push(cb(...args)));
         }
         return results;
     }
