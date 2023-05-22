@@ -1943,6 +1943,7 @@
 * [2675. Array of Objects to Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayOfObjectsToMatrix.js)
 * [2676. Throttle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/Throttle.js)
 * [2677. Chunk Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ChunkArray.js)
+* [2678. Number of Senior Citizens](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSeniors.java)
 * [2679. Sum in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixSum.java)
 * [2680. Maximum OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumOr.java)
 * [2682. Find the Losers of the Circular Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularGameLosers.java)
