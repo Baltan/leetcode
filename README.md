@@ -1953,6 +1953,7 @@
 * [2693. Call Function with Custom Context](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CallFunctionWithCustomContext.js)
 * [2694. Event Emitter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/EventEmitter.js)
 * [2695. Array Wrapper](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ArrayWrapper.js)
+* [2697. Lexicographically Smallest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeSmallestPalindrome.java)
 * [2698. Find the Punishment Number of an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PunishmentNumber.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
