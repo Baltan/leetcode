@@ -1958,6 +1958,7 @@
 * [2698. Find the Punishment Number of an Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PunishmentNumber.java)
 * [2700. Differences Between Two Objects](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/DifferencesBetweenTwoObjects.js)
 * [2703. Return Length of Arguments Passed](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ReturnLengthOfArgumentsPassed.js)
+* [2704. To Be Or Not To Be](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ToBeOrNotToBe.js)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
