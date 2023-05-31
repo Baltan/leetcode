@@ -1960,6 +1960,7 @@
 * [2703. Return Length of Arguments Passed](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ReturnLengthOfArgumentsPassed.js)
 * [2704. To Be Or Not To Be](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ToBeOrNotToBe.js)
 * [2705. Compact Object](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CompactObject.js)
+* [2706. Buy Two Chocolates](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BuyChoco.java)
 * [2707. Extra Characters in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinExtraChar.java)
 * [2708. Maximum Strength of a Group](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxStrength.java)
 * [2711. Difference of Number of Distinct Values on Diagonals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DifferenceOfDistinctValues.java)
