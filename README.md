@@ -1967,6 +1967,7 @@
 * [2711. Difference of Number of Distinct Values on Diagonals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DifferenceOfDistinctValues.java)
 * [2712. Minimum Cost to Make All Characters Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost2.java)
 * [2715. Execute Cancellable Function With Delay](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ExecuteCancellableFunctionWithDelay.js)
+* [2718. Sum of Matrix After Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixSumQueries.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
