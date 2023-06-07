@@ -1946,6 +1946,7 @@
 * [2678. Number of Senior Citizens](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSeniors.java)
 * [2679. Sum in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixSum.java)
 * [2680. Maximum OR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumOr.java)
+* [2681. Power of Heroes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfPower.java)
 * [2682. Find the Losers of the Circular Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularGameLosers.java)
 * [2683. Neighboring Bitwise XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DoesValidArrayExist.java)
 * [2684. Maximum Number of Moves in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxMoves.java)
