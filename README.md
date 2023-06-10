@@ -1972,6 +1972,7 @@
 * [2717. Semi-Ordered Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SemiOrderedPermutation.java)
 * [2718. Sum of Matrix After Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixSumQueries.java)
 * [2725. Interval Cancellation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/IntervalCancellation.js)
+* [2726. Calculator with Method Chaining](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CalculatorWithMethodChaining.js)
 * [2727. Is Object Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/IsObjectEmpty.js)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
