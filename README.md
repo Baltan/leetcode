@@ -1975,6 +1975,7 @@
 * [2725. Interval Cancellation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/IntervalCancellation.js)
 * [2726. Calculator with Method Chaining](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CalculatorWithMethodChaining.js)
 * [2727. Is Object Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/IsObjectEmpty.js)
+* [2731. Movement of Robots](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumDistance.java)
 * [2734. Lexicographically Smallest String After Substring Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestString.java)
 * [2735. Collecting Chocolates](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost4.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
