@@ -1973,6 +1973,7 @@
 * [2718. Sum of Matrix After Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixSumQueries.java)
 * [2722. Join Two Arrays by ID](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/JoinTwoArraysByID.js)
 * [2723. Add Two Promises](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/AddTwoPromises.js)
+* [2724. Sort By](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/SortBy.js)
 * [2725. Interval Cancellation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/IntervalCancellation.js)
 * [2726. Calculator with Method Chaining](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CalculatorWithMethodChaining.js)
 * [2727. Is Object Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/IsObjectEmpty.js)
