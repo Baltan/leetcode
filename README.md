@@ -1977,6 +1977,7 @@
 * [2725. Interval Cancellation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/IntervalCancellation.js)
 * [2726. Calculator with Method Chaining](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/CalculatorWithMethodChaining.js)
 * [2727. Is Object Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/IsObjectEmpty.js)
+* [2729. Check if The Number is Fascinating](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsFascinating.java)
 * [2730. Find the Longest Semi-Repetitive Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSemiRepetitiveSubstring.java)
 * [2731. Movement of Robots](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumDistance.java)
 * [2734. Lexicographically Smallest String After Substring Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestString.java)
