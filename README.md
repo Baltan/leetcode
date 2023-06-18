@@ -1980,6 +1980,7 @@
 * [2729. Check if The Number is Fascinating](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsFascinating.java)
 * [2730. Find the Longest Semi-Repetitive Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSemiRepetitiveSubstring.java)
 * [2731. Movement of Robots](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumDistance.java)
+* [2733. Neither Minimum nor Maximum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindNonMinOrMax.java)
 * [2734. Lexicographically Smallest String After Substring Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestString.java)
 * [2735. Collecting Chocolates](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost4.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
