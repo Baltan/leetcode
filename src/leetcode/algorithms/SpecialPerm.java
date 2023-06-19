@@ -75,13 +75,11 @@ public class SpecialPerm {
                     for (int l = 0; l <= status; l++) {
                         /**
                          * l>>j&1可以判断状态l的二进制值从低位到高位第j位是否为1，因为特殊排列中第i个数字为nums[j]，所以必须为0
-                         */
-                        if ((l >> j & 1) == 1) {
-                            continue;
-                        }
-                        /**
                          * l|(1<<j)表示将状态l的二进制值从低位到高位第j位变为1，由此得到特殊排列子i-1个数字后的状态
                          */
+                        if (dp[i - 1][k][l | (1 << j)] == 0 || (l >> j & 1) == 1) {
+                            continue;
+                        }
                         dp[i][j][l] = (dp[i][j][l] + dp[i - 1][k][l | (1 << j)]) % mod;
                     }
                 }
