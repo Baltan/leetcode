@@ -1983,6 +1983,7 @@
 * [2733. Neither Minimum nor Maximum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindNonMinOrMax.java)
 * [2734. Lexicographically Smallest String After Substring Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestString.java)
 * [2735. Collecting Chocolates](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost4.java)
+* [2740. Find the Value of the Partition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindValueOfPartition.java)
 * [2741. Special Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialPerm.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
