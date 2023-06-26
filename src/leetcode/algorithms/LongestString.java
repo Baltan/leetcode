@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2023/6/25 23:27
+ * @see LongestString1
  */
 public class LongestString {
     public static void main(String[] args) {
@@ -17,9 +18,9 @@ public class LongestString {
         int result = 0;
         int total = x + y + z;
         /**
-         * dp[i][j][k][0]表示由i个字符串"AA"、j个字符串"BB"、k个字符串"AB"拼接在一起，且以"AA"结尾的新字符串个数
-         * dp[i][j][k][1]表示由i个字符串"AA"、j个字符串"BB"、k个字符串"AB"拼接在一起，且以"BB"结尾的新字符串个数
-         * dp[i][j][k][2]表示由i个字符串"AA"、j个字符串"BB"、k个字符串"AB"拼接在一起，且以"AB"结尾的新字符串个数
+         * dp[i][j][k][0]表示能否构成由i个字符串"AA"、j个字符串"BB"、k个字符串"AB"拼接在一起，且以"AA"结尾的新字符串
+         * dp[i][j][k][1]表示能否构成由i个字符串"AA"、j个字符串"BB"、k个字符串"AB"拼接在一起，且以"BB"结尾的新字符串
+         * dp[i][j][k][2]表示能否构成由i个字符串"AA"、j个字符串"BB"、k个字符串"AB"拼接在一起，且以"AB"结尾的新字符串
          */
         boolean[][][][] dp = new boolean[x + 1][y + 1][z + 1][3];
         /**
@@ -47,12 +48,17 @@ public class LongestString {
                  */
                 for (int j = 0; j <= y; j++) {
                     /**
-                     * k表示新字符串中字符串"AB"的个数，且k∈[0,z]
+                     * k表示新字符串中字符串"AB"的个数
                      */
                     int k = count - i - j;
 
                     if (k >= 0 && k <= z) {
                         if (i > 0) {
+                            /**
+                             * 当前新字符串可以由以下两种情况得到：
+                             * 1、由i-1个字符串"AA"、j个字符串"BB"、k个字符串"AB"构成，且以"BB"结尾的新字符串再追加字符串"AA"
+                             * 2、由i-1个字符串"AA"、j个字符串"BB"、k个字符串"AB"构成，且以"AB"结尾的新字符串再追加字符串"AA"
+                             */
                             dp[i][j][k][0] = dp[i - 1][j][k][1] | dp[i - 1][j][k][2];
 
                             if (dp[i][j][k][0]) {
@@ -61,6 +67,10 @@ public class LongestString {
                         }
 
                         if (j > 0) {
+                            /**
+                             * 当前新字符串可以由以下一种情况得到：
+                             * 1、由i个字符串"AA"、j-1个字符串"BB"、k个字符串"AB"构成，且以"AA"结尾的新字符串再追加字符串"BB"
+                             */
                             dp[i][j][k][1] = dp[i][j - 1][k][0];
 
                             if (dp[i][j][k][1]) {
@@ -69,6 +79,11 @@ public class LongestString {
                         }
 
                         if (k > 0) {
+                            /**
+                             * 当前新字符串可以由以下两种情况得到：
+                             * 1、由i个字符串"AA"、j个字符串"BB"、k-1个字符串"AB"构成，且以"BB"结尾的新字符串再追加字符串"AB"
+                             * 2、由i个字符串"AA"、j个字符串"BB"、k-1个字符串"AB"构成，且以"AB"结尾的新字符串再追加字符串"AB"
+                             */
                             dp[i][j][k][2] = dp[i][j][k - 1][1] | dp[i][j][k - 1][2];
 
                             if (dp[i][j][k][2]) {
