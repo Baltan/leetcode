@@ -1990,6 +1990,8 @@
 * [2740. Find the Value of the Partition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindValueOfPartition.java)
 * [2741. Special Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialPerm.java)
 * [2744. Find Maximum Number of String Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumNumberOfStringPairs.java)
+* [2745. Construct the Longest New String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestString.java)
+* [2745. Construct the Longest New String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestString1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
