@@ -1973,6 +1973,7 @@
 * [2716. Minimize String Length](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizedStringLength.java)
 * [2717. Semi-Ordered Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SemiOrderedPermutation.java)
 * [2718. Sum of Matrix After Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixSumQueries.java)
+* [2719. Count of Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Count.java)
 * [2721. Execute Asynchronous Functions in Parallel](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/ExecuteAsynchronousFunctionsInParallel.js)
 * [2722. Join Two Arrays by ID](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/JoinTwoArraysByID.js)
 * [2723. Add Two Promises](https://github.com/Baltan/leetcode/blob/master/src/leetcode/javascript/AddTwoPromises.js)
