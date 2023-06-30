@@ -1994,6 +1994,7 @@
 * [2745. Construct the Longest New String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestString.java)
 * [2745. Construct the Longest New String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestString1.java)
 * [2746. Decremental String Concatenation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeConcatenatedLength.java)
+* [2747. Count Zero Request Servers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountServers1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
