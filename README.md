@@ -1995,6 +1995,7 @@
 * [2745. Construct the Longest New String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestString1.java)
 * [2746. Decremental String Concatenation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeConcatenatedLength.java)
 * [2747. Count Zero Request Servers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountServers1.java)
+* [2748. Number of Beautiful Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBeautifulPairs.java)
 * [2749. Minimum Operations to Make the Integer Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeTheIntegerZero.java)
 * [2750. Ways to Split Array Into Good Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfGoodSubarraySplits.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
