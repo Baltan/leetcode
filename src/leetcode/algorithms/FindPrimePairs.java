@@ -21,7 +21,9 @@ public class FindPrimePairs {
 
     public static List<List<Integer>> findPrimePairs(int n) {
         List<List<Integer>> result = new ArrayList<>();
-
+        /**
+         * 如果n为奇数，如果n能被分成两个质数的和，则只可能为2和另一个奇数
+         */
         if (n % 2 == 1) {
             if (isPrime(n - 2)) {
                 result.add(Arrays.asList(2, n - 2));
