@@ -1224,6 +1224,7 @@
 * [1572. Matrix Diagonal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalSum.java)
 * [1573. Number of Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays2.java)
 * [1574. Shortest Subarray to be Removed to Make Array Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLengthOfShortestSubarray.java)
+* [1575. Count All Possible Routes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountRoutes.java)
 * [1576. Replace All ?'s to Avoid Consecutive Repeating Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ModifyString.java)
 * [1577. Number of Ways Where Square of Number Is Equal to Product of Two Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumTriplets.java)
 * [1578. Minimum Deletion Cost to Avoid Repeating Letters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost.java)
