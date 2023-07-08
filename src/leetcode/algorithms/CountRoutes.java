@@ -14,11 +14,26 @@ public class CountRoutes {
         System.out.println(countRoutes(new int[]{5, 2, 1}, 0, 2, 3));
     }
 
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/count-all-possible-routes/solutions/665208/dong-tai-gui-hua-lu-jing-wen-ti-ru-he-hu-hg5d/"></a>
+     *
+     * @param locations
+     * @param start
+     * @param finish
+     * @param fuel
+     * @return
+     */
     public static int countRoutes(int[] locations, int start, int finish, int fuel) {
-        long result = 0L;
         int mod = 1000000007;
         int length = locations.length;
+        /**
+         * costs[i][j]表示从城市i到城市j的耗油量
+         */
         int[][] costs = new int[length][length];
+        /**
+         * dp[i][j]表示从城市i出发，剩余油量为j时，到达目的地城市finish的路径数
+         */
+        long[][] dp = new long[length][fuel + 1];
 
         for (int i = 0; i < length; i++) {
             for (int j = i + 1; j < length; j++) {
@@ -28,39 +43,25 @@ public class CountRoutes {
             }
         }
         /**
-         * dp[i][j][k]表示从城市start出发移动i次到达城市j且耗油量为k的路径数量
+         * 从城市finish出发，不管剩余油量有多少都有一种路径
          */
-        long[][][] dp = new long[fuel + 1][length][fuel + 1];
-        dp[0][start][0] = 1;
-
-        for (int i = 1; i <= fuel; i++) {
-            boolean end = true;
-
-            for (int j = 0; j < length; j++) {
-                for (int k = 1; k <= fuel; k++) {
-                    for (int l = 0; l < length; l++) {
-                        if (j == l) {
-                            continue;
-                        }
-
-                        if (k - costs[l][j] >= 0 && dp[i - 1][l][k - costs[l][j]] > 0) {
-                            dp[i][j][k] = (dp[i][j][k] + dp[i - 1][l][k - costs[l][j]]) % mod;
-                            end = false;
-                        }
-                    }
-                }
-            }
-
-            if (end) {
-                break;
-            }
+        for (int i = 0; i <= fuel; i++) {
+            dp[finish][i] = 1L;
         }
 
         for (int i = 0; i <= fuel; i++) {
-            for (int j = 0; j <= fuel; j++) {
-                result = (result + dp[i][finish][j]) % mod;
+            for (int j = 0; j < length; j++) {
+                for (int k = 0; k < length; k++) {
+                    if (j != k && i >= costs[j][k]) {
+                        /**
+                         * 先从城市j到达城市k，再从城市k到达目的地城市finish。因为从城市j出发时的剩余油量为i，从城市j到达城市k需要耗油
+                         * costs[j][k]，所以只要是从城市k出发，到达目的地城市finish耗油量不大于i-costs[j][k]的路径都是可行的
+                         */
+                        dp[j][i] = (dp[j][i] + dp[k][i - costs[j][k]]) % mod;
+                    }
+                }
             }
         }
-        return (int) result;
+        return (int) dp[start][fuel];
     }
 }
