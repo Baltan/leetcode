@@ -2003,6 +2003,7 @@
 * [2760. Longest Even Odd Subarray With Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestAlternatingSubarray.java)
 * [2761. Prime Pairs With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPrimePairs.java)
 * [2762. Continuous Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContinuousSubarrays.java)
+* [2765. Longest Alternating Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlternatingSubarray.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
