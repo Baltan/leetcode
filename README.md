@@ -2004,6 +2004,7 @@
 * [2761. Prime Pairs With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPrimePairs.java)
 * [2762. Continuous Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContinuousSubarrays.java)
 * [2765. Longest Alternating Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlternatingSubarray.java)
+* [2766. Relocate Marbles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RelocateMarbles.java)
 * [2768. Number of Black Blocks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBlackBlocks.java)
 * [2768. Number of Black Blocks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBlackBlocks1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
