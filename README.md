@@ -2005,6 +2005,7 @@
 * [2762. Continuous Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContinuousSubarrays.java)
 * [2765. Longest Alternating Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlternatingSubarray.java)
 * [2766. Relocate Marbles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RelocateMarbles.java)
+* [2767. Partition String Into Minimum Beautiful Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumBeautifulSubstrings.java)
 * [2768. Number of Black Blocks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBlackBlocks.java)
 * [2768. Number of Black Blocks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBlackBlocks1.java)
 * [2771. Longest Non-decreasing Subarray From Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNonDecreasingLength.java)
