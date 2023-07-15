@@ -2010,6 +2010,7 @@
 * [2768. Number of Black Blocks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBlackBlocks1.java)
 * [2770. Maximum Number of Jumps to Reach the Last Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumJumps.java)
 * [2771. Longest Non-decreasing Subarray From Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNonDecreasingLength.java)
+* [2772. Apply Operations to Make All Array Elements Equal to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckArray.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
