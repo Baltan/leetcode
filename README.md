@@ -2013,6 +2013,7 @@
 * [2770. Maximum Number of Jumps to Reach the Last Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumJumps.java)
 * [2771. Longest Non-decreasing Subarray From Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNonDecreasingLength.java)
 * [2772. Apply Operations to Make All Array Elements Equal to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckArray.java)
+* [2778. Sum of Squares of Special Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfSquares.java)
 * [2779. Maximum Beauty of an Array After Applying Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumBeauty1.java)
 * [2780. Minimum Index of a Valid Split](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumIndex.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
