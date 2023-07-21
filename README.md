@@ -2004,6 +2004,7 @@
 * [2760. Longest Even Odd Subarray With Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestAlternatingSubarray.java)
 * [2761. Prime Pairs With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPrimePairs.java)
 * [2762. Continuous Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContinuousSubarrays.java)
+* [2763. Sum of Imbalance Numbers of All Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumImbalanceNumbers.java)
 * [2765. Longest Alternating Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlternatingSubarray.java)
 * [2766. Relocate Marbles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RelocateMarbles.java)
 * [2767. Partition String Into Minimum Beautiful Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumBeautifulSubstrings.java)
