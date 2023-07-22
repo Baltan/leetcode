@@ -1243,6 +1243,7 @@
 * [1598. Crawler Log Folder](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations9.java)
 * [1599. Maximum Profit of Operating a Centennial Wheel](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperationsMaxProfit.java)
 * [1600. Throne Inheritance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ThroneInheritance.java)
+* [1601. Maximum Number of Achievable Transfer Requests](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumRequests.java)
 * [1603. Design Parking System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ParkingSystem.java)
 * [1604. Alert Using Same Key-Card Three or More Times in a One Hour Period](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AlertNames.java)
 * [1605. Find Valid Matrix Given Row and Column Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RestoreMatrix.java)
