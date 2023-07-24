@@ -2019,6 +2019,7 @@
 * [2778. Sum of Squares of Special Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfSquares.java)
 * [2779. Maximum Beauty of an Array After Applying Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumBeauty1.java)
 * [2780. Minimum Index of a Valid Split](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumIndex.java)
+* [2785. Sort Vowels in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortVowels.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
