@@ -2025,6 +2025,7 @@
 * [2786. Visit Array Positions to Maximize Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore4.java)
 * [2787. Ways to Express an Integer as Sum of Powers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWays2.java)
 * [2788. Split Strings by Separator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitWordsBySeparator.java)
+* [2789. Largest Element in an Array after Merge Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxArrayValue.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
