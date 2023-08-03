@@ -1483,6 +1483,7 @@
 * [1961. Check If String Is a Prefix of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPrefixString.java)
 * [1962. Remove Stones to Minimize the Total](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinStoneSum.java)
 * [1963. Minimum Number of Swaps to Make the String Balanced](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps2.java)
+* [1964. Find the Longest Valid Obstacle Course at Each Position](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestObstacleCourseAtEachPosition.java)
 * [1965. Employees With Missing Information](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/EmployeesWithMissingInformation.sql)
 * [1967. Number of Strings That Appear as Substrings in Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfStrings.java)
 * [1968. Array With Elements Not Equal to Average of Neighbors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeArray1.java)
