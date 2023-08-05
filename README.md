@@ -1345,6 +1345,7 @@
 * [1749. Maximum Absolute Sum of Any Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAbsoluteSum.java)
 * [1750. Minimum Length of String After Deleting Similar Ends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLength.java)
 * [1750. Minimum Length of String After Deleting Similar Ends](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLength1.java)
+* [1751. Maximum Number of Events That Can Be Attended II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValue2.java)
 * [1752. Check if Array Is Sorted and Rotated](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Check.java)
 * [1752. Check if Array Is Sorted and Rotated](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Check.java)
 * [1753. Maximum Score From Removing Stones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore1.java)
