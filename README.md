@@ -1560,6 +1560,7 @@
 * [2078. Two Furthest Houses With Different Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance2.java)
 * [2079. Watering Plants](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WateringPlants.java)
 * [2080. Range Frequency Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RangeFreqQuery.java)
+* [2082. The Number of Rich Customers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/TheNumberOfRichCustomers.sql)
 * [2085. Count Common Words With One Occurrence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountWords.java)
 * [2086. Minimum Number of Buckets Required to Collect Rainwater from Houses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumBuckets.java)
 * [2087. Minimum Cost Homecoming of a Robot in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost1.java)
