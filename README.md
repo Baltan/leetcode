@@ -2035,6 +2035,7 @@
 * [2798. Number of Employees Who Met the Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfEmployeesWhoMetTarget.java)
 * [2799. Count Complete Subarrays in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCompleteSubarrays.java)
 * [2800. Shortest String That Contains Three Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumString.java)
+* [2806. Account Balance After Rounded Purchase](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AccountBalanceAfterPurchase.java)
 * [2807. Insert Greatest Common Divisors in Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InsertGreatestCommonDivisors.java)
 * [2808. Minimum Seconds to Equalize a Circular Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSeconds.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
