@@ -2038,6 +2038,7 @@
 * [2806. Account Balance After Rounded Purchase](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AccountBalanceAfterPurchase.java)
 * [2807. Insert Greatest Common Divisors in Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/InsertGreatestCommonDivisors.java)
 * [2808. Minimum Seconds to Equalize a Circular Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSeconds.java)
+* [2811. Check if it is Possible to Split Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanSplitArray.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
