@@ -2040,6 +2040,7 @@
 * [2808. Minimum Seconds to Equalize a Circular Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSeconds.java)
 * [2810. Faulty Keyboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FinalString.java)
 * [2811. Check if it is Possible to Split Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanSplitArray.java)
+* [2812. Find the Safest Path in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSafenessFactor.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
