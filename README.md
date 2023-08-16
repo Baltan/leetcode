@@ -2041,6 +2041,7 @@
 * [2810. Faulty Keyboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FinalString.java)
 * [2811. Check if it is Possible to Split Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanSplitArray.java)
 * [2812. Find the Safest Path in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSafenessFactor.java)
+* [2815. Max Pair Sum in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum1.java)
 * [2816. Double a Number Represented as a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DoubleIt.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
