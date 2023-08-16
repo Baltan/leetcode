@@ -20,7 +20,7 @@ public class MaxSum1 {
     public static int maxSum(int[] nums) {
         int result = -1;
         /**
-         * queues[i]保存
+         * queues[i]保存数组nums中数位上最大值为i的数字，队列中的所有数字按降序排列
          */
         Queue<Integer>[] queues = new Queue[10];
 
@@ -29,7 +29,13 @@ public class MaxSum1 {
         }
 
         for (int num : nums) {
+            /**
+             * 备份当前的数字
+             */
             int copy = num;
+            /**
+             * 数字nums各数位上的最大值
+             */
             int maxDigit = 0;
 
             while (num > 0) {
@@ -41,6 +47,9 @@ public class MaxSum1 {
 
         for (Queue<Integer> queue : queues) {
             if (queue.size() >= 2) {
+                /**
+                 * 将队列中最大的两个数字出队求和
+                 */
                 result = Math.max(result, queue.poll() + queue.poll());
             }
         }
