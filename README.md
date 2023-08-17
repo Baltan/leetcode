@@ -2043,6 +2043,7 @@
 * [2812. Find the Safest Path in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSafenessFactor.java)
 * [2815. Max Pair Sum in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum1.java)
 * [2816. Double a Number Represented as a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DoubleIt.java)
+* [2817. Minimum Absolute Difference Between Elements With Constraint](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAbsoluteDifference.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
