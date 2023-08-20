@@ -6,6 +6,7 @@ package leetcode.algorithms;
  * @author Baltan
  * @date 2023/1/30 15:22
  * @see BaseNeg21
+ * @see AddNegabinary
  */
 public class BaseNeg2 {
     public static void main(String[] args) {
