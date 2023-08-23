@@ -2047,6 +2047,7 @@
 * [2817. Minimum Absolute Difference Between Elements With Constraint](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAbsoluteDifference.java)
 * [2825. Make String a Subsequence Using Cyclic Increments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeSubsequence.java)
 * [2826. Sorting Three Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations3.java)
+* [2829. Determine the Minimum Sum of a k-avoiding Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSum1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
