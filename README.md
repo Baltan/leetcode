@@ -2045,6 +2045,7 @@
 * [2815. Max Pair Sum in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum1.java)
 * [2816. Double a Number Represented as a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DoubleIt.java)
 * [2817. Minimum Absolute Difference Between Elements With Constraint](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAbsoluteDifference.java)
+* [2824. Count Pairs Whose Sum is Less than Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs4.java)
 * [2825. Make String a Subsequence Using Cyclic Increments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeSubsequence.java)
 * [2826. Sorting Three Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations3.java)
 * [2829. Determine the Minimum Sum of a k-avoiding Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSum1.java)
