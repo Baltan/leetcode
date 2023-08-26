@@ -2050,6 +2050,7 @@
 * [2826. Sorting Three Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations3.java)
 * [2829. Determine the Minimum Sum of a k-avoiding Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSum1.java)
 * [2830. Maximize the Profit as the Salesman](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeTheProfit.java)
+* [2831. Find the Longest Equal Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestEqualSubarray.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
