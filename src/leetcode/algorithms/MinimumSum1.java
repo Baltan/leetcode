@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author baltan
  * @date 2023/8/23 11:08
+ * @see 2834. Find the Minimum Possible Sum of a Beautiful Array
  */
 public class MinimumSum1 {
     public static void main(String[] args) {
