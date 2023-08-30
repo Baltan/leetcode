@@ -1315,6 +1315,7 @@
 * [1694. Reformat Phone Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReformatNumber.java)
 * [1695. Maximum Erasure Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumUniqueSubarray.java)
 * [1696. Jump Game VI](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxResult.java)
+* [1697. Checking Existence of Edge Length Limited Paths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistanceLimitedPathsExist.java)
 * [1700. Number of Students Unable to Eat Lunch](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountStudents.java)
 * [1701. Average Waiting Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageWaitingTime.java)
 * [1702. Maximum Binary String After Change](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumBinaryString.java)
