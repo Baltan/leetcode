@@ -1494,6 +1494,7 @@
 * [1967. Number of Strings That Appear as Substrings in Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfStrings.java)
 * [1968. Array With Elements Not Equal to Average of Neighbors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeArray1.java)
 * [1969. Minimum Non-Zero Product of the Array Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinNonZeroProduct.java)
+* [1970. Last Day Where You Can Still Cross](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LatestDayToCross.java)
 * [1971. Find if Path Exists in Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidPath.java)
 * [1974. Minimum Time to Type Word Using Special Typewriter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTimeToType.java)
 * [1975. Maximum Matrix Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxMatrixSum.java)
