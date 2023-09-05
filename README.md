@@ -2059,6 +2059,7 @@
 * [2834. Find the Minimum Possible Sum of a Beautiful Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPossibleSum.java)
 * [2840. Check if Strings Can be Made Equal With Operations II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckStrings.java)
 * [2841. Maximum Sum of Almost Unique Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum9.java)
+* [2844. Minimum Operations to Make a Special Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations4.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
