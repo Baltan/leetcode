@@ -2057,6 +2057,7 @@
 * [2831. Find the Longest Equal Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestEqualSubarray.java)
 * [2833. Furthest Point From Origin](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FurthestDistanceFromOrigin.java)
 * [2834. Find the Minimum Possible Sum of a Beautiful Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPossibleSum.java)
+* [2839. Check if Strings Can be Made Equal With Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeEqual1.java)
 * [2840. Check if Strings Can be Made Equal With Operations II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckStrings.java)
 * [2841. Maximum Sum of Almost Unique Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum9.java)
 * [2844. Minimum Operations to Make a Special Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations4.java)
