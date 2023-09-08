@@ -2060,6 +2060,7 @@
 * [2839. Check if Strings Can be Made Equal With Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeEqual1.java)
 * [2840. Check if Strings Can be Made Equal With Operations II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckStrings.java)
 * [2841. Maximum Sum of Almost Unique Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum9.java)
+* [2843. Count Symmetric Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSymmetricIntegers.java)
 * [2844. Minimum Operations to Make a Special Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations4.java)
 * [2845. Count of Interesting Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountInterestingSubarrays.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
