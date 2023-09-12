@@ -2064,6 +2064,7 @@
 * [2843. Count Symmetric Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSymmetricIntegers.java)
 * [2844. Minimum Operations to Make a Special Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations4.java)
 * [2845. Count of Interesting Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountInterestingSubarrays.java)
+* [2848. Points That Intersect With Cars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPoints.java)
 * [2849. Determine if a Cell Is Reachable at a Given Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsReachableAtTime.java)
 * [2850. Minimum Moves to Spread Stones Over Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves2.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
