@@ -671,6 +671,7 @@
 * [831. Masking Personal Information](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaskPII.java)
 * [832. Flipping an Image](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FlipAndInvertImage.java)
 * [833. Find And Replace in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindReplaceString.java)
+* [834. Sum of Distances in Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfDistancesInTree.java)
 * [835. Image Overlap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestOverlap.java)
 * [836. Rectangle Overlap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsRectangleOverlap.java)
 * [837. New 21 Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/New21Game.java)
