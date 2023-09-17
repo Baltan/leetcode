@@ -2070,6 +2070,7 @@
 * [2848. Points That Intersect With Cars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPoints.java)
 * [2849. Determine if a Cell Is Reachable at a Given Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsReachableAtTime.java)
 * [2850. Minimum Moves to Spread Stones Over Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMoves2.java)
+* [2856. Minimum Array Length After Pair Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinLengthAfterRemovals.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
