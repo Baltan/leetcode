@@ -2073,6 +2073,7 @@
 * [2856. Minimum Array Length After Pair Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinLengthAfterRemovals.java)
 * [2857. Count Pairs of Points With Distance k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs5.java)
 * [2860. Happy Students](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountWays1.java)
+* [2861. Maximum Number of Alloys](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumberOfAlloys.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
