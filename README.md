@@ -2073,6 +2073,7 @@
 * [2855. Minimum Right Shifts to Sort the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRightShifts.java)
 * [2856. Minimum Array Length After Pair Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinLengthAfterRemovals.java)
 * [2857. Count Pairs of Points With Distance k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs5.java)
+* [2859. Sum of Values at Indices With K Set Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumIndicesWithKSetBits.java)
 * [2860. Happy Students](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountWays1.java)
 * [2861. Maximum Number of Alloys](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumberOfAlloys.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
