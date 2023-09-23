@@ -944,6 +944,7 @@
 * [1184. Distance Between Bus Stops](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistanceBetweenBusStops.java)
 * [1185. Day of the Week](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DayOfTheWeek.java)
 * [1186. Maximum Subarray Sum with One Deletion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSum.java)
+* [1187. Make Array Strictly Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeArrayIncreasing.java)
 * [1189. Maximum Number of Balloons](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumberOfBalloons.java)
 * [1190. Reverse Substrings Between Each Pair of Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseParentheses.java)
 * [1191. K-Concatenation Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KConcatenationMaxSum.java)
