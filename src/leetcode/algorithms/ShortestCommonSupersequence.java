@@ -1,7 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.Objects;
-
 /**
  * Description: 1092. Shortest Common Supersequence
  *
@@ -16,28 +14,29 @@ public class ShortestCommonSupersequence {
     }
 
     public static String shortestCommonSupersequence(String str1, String str2) {
-        if (Objects.equals(str1, str2)) {
-            return str1;
+        int length1 = str1.length();
+        int length2 = str2.length();
+        String[][] dp = new String[length1 + 1][length2 + 1];
+
+        for (int i = 0; i <= length1; i++) {
+            dp[i][0] = str1.substring(0, i);
         }
 
-        if (str1.isEmpty()) {
-            return str2;
+        for (int j = 0; j <= length2; j++) {
+            dp[0][j] = str2.substring(0, j);
         }
 
-        if (str2.isEmpty()) {
-            return str1;
+        for (int i = 1; i <= length1; i++) {
+            for (int j = 1; j <= length2; j++) {
+                if (str1.charAt(i - 1) == str2.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + str1.charAt(i - 1);
+                } else {
+                    String sequence1 = dp[i - 1][j] + str1.charAt(i - 1);
+                    String sequence2 = dp[i][j - 1] + str2.charAt(j - 1);
+                    dp[i][j] = sequence1.length() < sequence2.length() ? sequence1 : sequence2;
+                }
+            }
         }
-        char suffix1 = str1.charAt(str1.length() - 1);
-        char suffix2 = str2.charAt(str2.length() - 1);
-        String prefix1 = str1.substring(0, str1.length() - 1);
-        String prefix2 = str2.substring(0, str2.length() - 1);
-
-        if (suffix1 == suffix2) {
-            return shortestCommonSupersequence(prefix1, prefix2) + suffix1;
-        } else {
-            String supersequence1 = shortestCommonSupersequence(str1, prefix2) + suffix2;
-            String supersequence2 = shortestCommonSupersequence(str2, prefix1) + suffix1;
-            return supersequence1.length() < supersequence2.length() ? supersequence1 : supersequence2;
-        }
+        return dp[length1][length2];
     }
 }
