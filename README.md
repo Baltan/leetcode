@@ -888,6 +888,7 @@
 * [1089. Duplicate Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DuplicateZeros.java)
 * [1090. Largest Values From Labels](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestValsFromLabels.java)
 * [1091. Shortest Path in Binary Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestPathBinaryMatrix.java)
+* [1092. Shortest Common Supersequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestCommonSupersequence.java)
 * [1093. Statistics from a Large Sample](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SampleStats.java)
 * [1094. Car Pooling](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CarPooling.java)
 * [1095. Find in Mountain Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Solution7.java)
