@@ -2079,6 +2079,7 @@
 * [2859. Sum of Values at Indices With K Set Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumIndicesWithKSetBits.java)
 * [2860. Happy Students](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountWays1.java)
 * [2861. Maximum Number of Alloys](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumberOfAlloys.java)
+* [2865. Beautiful Towers I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSumOfHeights.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
