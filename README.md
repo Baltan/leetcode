@@ -2082,6 +2082,7 @@
 * [2864. Maximum Odd Binary Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumOddBinaryNumber.java)
 * [2865. Beautiful Towers I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSumOfHeights.java)
 * [2866. Beautiful Towers II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSumOfHeights1.java)
+* [2869. Minimum Operations to Collect Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations14.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
