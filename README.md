@@ -2086,6 +2086,7 @@
 * [2870. Minimum Number of Operations to Make Array Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations15.java)
 * [2871. Split Array Into Maximum Number of Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarrays.java)
 * [2873. Maximum Value of an Ordered Triplet I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTripletValue.java)
+* [2874. Maximum Value of an Ordered Triplet II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTripletValue1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
