@@ -2088,6 +2088,7 @@
 * [2873. Maximum Value of an Ordered Triplet I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTripletValue.java)
 * [2874. Maximum Value of an Ordered Triplet II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTripletValue1.java)
 * [2875. Minimum Size Subarray in Infinite Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSizeSubarray.java)
+* [2895. Minimum Processing Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinProcessingTime.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
