@@ -2085,6 +2085,7 @@
 * [2869. Minimum Operations to Collect Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations14.java)
 * [2870. Minimum Number of Operations to Make Array Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations15.java)
 * [2871. Split Array Into Maximum Number of Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarrays.java)
+* [2872. Maximum Number of K-Divisible Components](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxKDivisibleComponents.java)
 * [2873. Maximum Value of an Ordered Triplet I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTripletValue.java)
 * [2874. Maximum Value of an Ordered Triplet II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTripletValue1.java)
 * [2875. Minimum Size Subarray in Infinite Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSizeSubarray.java)
