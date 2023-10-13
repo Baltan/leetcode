@@ -1157,6 +1157,7 @@
 * [1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPrefixOfWord.java)
 * [1456. Maximum Number of Vowels in a Substring of Given Length](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxVowels.java)
 * [1457. Pseudo-Palindromic Paths in a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PseudoPalindromicPaths.java)
+* [1458. Max Dot Product of Two Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDotProduct.java)
 * [1460. Make Two Arrays Equal by Reversing Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanBeEqual.java)
 * [1461. Check If a String Contains All Binary Codes of Size K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasAllCodes.java)
 * [1462. Course Schedule IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfPrerequisite.java)
