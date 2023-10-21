@@ -2097,6 +2097,7 @@
 * [2899. Last Visited Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastVisitedIntegers.java)
 * [2900. Longest Unequal Adjacent Groups Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetWordsInLongestSubsequence.java)
 * [2901. Longest Unequal Adjacent Groups Subsequence II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetWordsInLongestSubsequence1.java)
+* [2903. Find Indices With Index and Value Difference I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindIndices1.java)
 * [2904. Shortest and Lexicographically Smallest Beautiful String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestBeautifulSubstring.java)
 * [2905. Find Indices With Index and Value Difference II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindIndices.java)
 * [2906. Construct Product Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructProductMatrix.java)
