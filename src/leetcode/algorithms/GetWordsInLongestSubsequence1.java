@@ -10,6 +10,7 @@ import java.util.List;
  *
  * @author baltan
  * @date 2023/10/16 10:08
+ * @see GetWordsInLongestSubsequence
  */
 public class GetWordsInLongestSubsequence1 {
     public static void main(String[] args) {
