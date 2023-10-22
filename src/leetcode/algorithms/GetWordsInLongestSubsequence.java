@@ -8,6 +8,7 @@ import java.util.List;
  *
  * @author Baltan
  * @date 2023/10/15 23:02
+ * @see GetWordsInLongestSubsequence1
  */
 public class GetWordsInLongestSubsequence {
     public static void main(String[] args) {
