@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2023/10/22 16:39
+ * @see MinimumSum3
  */
 public class MinimumSum2 {
     public static void main(String[] args) {
