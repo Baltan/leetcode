@@ -7,6 +7,7 @@ import leetcode.util.OutputUtils;
  *
  * @author Baltan
  * @date 2023/10/18 23:57
+ * @see FindIndices1
  */
 public class FindIndices {
     public static void main(String[] args) {
