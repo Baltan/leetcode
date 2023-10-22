@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2023/10/5 22:52
+ * @see MaximumTripletValue1
  */
 public class MaximumTripletValue {
     public static void main(String[] args) {
