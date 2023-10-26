@@ -1388,6 +1388,7 @@
 * [1790. Check if One String Swap Can Make Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreAlmostEqual.java)
 * [1791. Find Center of Star Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCenter.java)
 * [1792. Maximum Average Pass Ratio](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAverageRatio.java)
+* [1793. Maximum Score of a Good Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore2.java)
 * [1795. Rearrange Products Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/RearrangeProductsTable.sql)
 * [1796. Second Largest Digit in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SecondHighest.java)
 * [1797. Design Authentication Manager](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AuthenticationManager.java)
