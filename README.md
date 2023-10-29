@@ -649,6 +649,7 @@
 * [807. Max Increase to Keep City Skyline](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxIncreaseKeepingSkyline.java)
 * [808. Soup Servings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SoupServings.java)
 * [809. Expressive Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExpressiveWords.java)
+* [810. Chalkboard XOR Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorGame.java)
 * [811. Subdomain Visit Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubdomainVisits.java)
 * [812. Largest Triangle Area](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestTriangleArea.java)
 * [813. Largest Sum of Averages](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSumOfAverages.java)
