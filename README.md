@@ -2107,6 +2107,7 @@
 * [2908. Minimum Sum of Mountain Triplets I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSum3.java)
 * [2909. Minimum Sum of Mountain Triplets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSum2.java)
 * [2910. Minimum Number of Groups to Create a Valid Assignment](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinGroupsForValidAssignment.java)
+* [2914. Minimum Number of Changes to Make Binary String Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinChanges.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
