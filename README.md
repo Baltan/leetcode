@@ -2110,6 +2110,7 @@
 * [2913. Subarrays Distinct Element Sum of Squares I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumCounts.java)
 * [2914. Minimum Number of Changes to Make Binary String Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinChanges.java)
 * [2915. Length of the Longest Subsequence That Sums to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LengthOfLongestSubsequence.java)
+* [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSum.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
