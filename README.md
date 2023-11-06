@@ -2113,6 +2113,7 @@
 * [2917. Find the K-or of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKOr.java)
 * [2918. Minimum Equal Sum of Two Arrays After Replacing Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSum.java)
 * [2919. Minimum Increment Operations to Make Array Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinIncrementOperations.java)
+* [2923. Find Champion I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindChampion.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
