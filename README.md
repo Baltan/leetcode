@@ -2115,6 +2115,7 @@
 * [2919. Minimum Increment Operations to Make Array Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinIncrementOperations.java)
 * [2923. Find Champion I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindChampion.java)
 * [2924. Find Champion II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindChampion1.java)
+* [2925. Maximum Score After Applying Operations on a Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScoreAfterOperations.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
