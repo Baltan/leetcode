@@ -731,6 +731,7 @@
 * [900. RLE Iterator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RLEIterator.java)
 * [901. Online Stock Span](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StockSpanner.java)
 * [902. Numbers At Most N Given Digit Set](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AtMostNGivenDigitSet.java)
+* [903. Valid Permutations for DI Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumPermsDISequence.java)
 * [904. Fruit Into Baskets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalFruit.java)
 * [905. Sort Array By Parity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortArrayByParity.java)
 * [906. Super Palindromes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SuperpalindromesInRange.java)
