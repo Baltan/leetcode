@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2023/11/13 23:43
+ * @see DistributeCandies3
  */
 public class DistributeCandies2 {
     public static void main(String[] args) {
