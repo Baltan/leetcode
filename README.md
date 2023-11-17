@@ -2120,6 +2120,7 @@
 * [2928. Distribute Candies Among Children I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCandies2.java)
 * [2929. Distribute Candies Among Children II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCandies3.java)
 * [2930. Number of Strings Which Can Be Rearranged to Contain Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StringCount.java)
+* [2934. Minimum Operations to Maximize Last Elements in Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations17.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
