@@ -2120,6 +2120,7 @@
 * [2928. Distribute Candies Among Children I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCandies2.java)
 * [2929. Distribute Candies Among Children II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistributeCandies3.java)
 * [2930. Number of Strings Which Can Be Rearranged to Contain Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StringCount.java)
+* [2932. Maximum Strong Pair XOR I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumStrongPairXor.java)
 * [2933. High-Access Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindHighAccessEmployees.java)
 * [2934. Minimum Operations to Maximize Last Elements in Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations17.java)
 * [2937. Make Three Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinimumOperations.java)
