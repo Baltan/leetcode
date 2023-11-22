@@ -2122,6 +2122,7 @@
 * [2930. Number of Strings Which Can Be Rearranged to Contain Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StringCount.java)
 * [2933. High-Access Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindHighAccessEmployees.java)
 * [2934. Minimum Operations to Maximize Last Elements in Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations17.java)
+* [2937. Make Three Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinimumOperations.java)
 * [2938. Separate Black and White Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSteps.java)
 * [2939. Maximum Xor Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumXorProduct.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
