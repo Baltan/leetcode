@@ -8,6 +8,8 @@ import java.util.Set;
  *
  * @author Baltan
  * @date 2023/1/31 15:56
+ * @see MaximumStrongPairXor
+ * @see MaximumStrongPairXor1
  */
 public class FindMaximumXOR {
     public static void main(String[] args) {
