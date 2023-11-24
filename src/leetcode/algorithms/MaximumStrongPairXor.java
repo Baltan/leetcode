@@ -5,6 +5,8 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2023/11/21 21:54
+ * @see MaximumStrongPairXor1
+ * @see FindMaximumXOR
  */
 public class MaximumStrongPairXor {
     public static void main(String[] args) {
