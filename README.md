@@ -2123,6 +2123,7 @@
 * [2932. Maximum Strong Pair XOR I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumStrongPairXor.java)
 * [2933. High-Access Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindHighAccessEmployees.java)
 * [2934. Minimum Operations to Maximize Last Elements in Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations17.java)
+* [2935. Maximum Strong Pair XOR II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumStrongPairXor1.java)
 * [2937. Make Three Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinimumOperations.java)
 * [2938. Separate Black and White Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSteps.java)
 * [2939. Maximum Xor Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumXorProduct.java)
