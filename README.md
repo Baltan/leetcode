@@ -2128,6 +2128,7 @@
 * [2938. Separate Black and White Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSteps.java)
 * [2939. Maximum Xor Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumXorProduct.java)
 * [2943. Maximize Area of Square Hole in Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeSquareHoleArea.java)
+* [2947. Count Beautiful Substrings I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSubstrings.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
