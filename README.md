@@ -784,6 +784,7 @@
 * [957. Prison Cells After N Days](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrisonAfterNDays.java)
 * [958. Check Completeness of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCompleteTree.java)
 * [959. Regions Cut By Slashes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RegionsBySlashes.java)
+* [960. Delete Columns to Make Sorted III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletionSize2.java)
 * [961. N-Repeated Element in Size 2N Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedNTimes.java)
 * [962. Maximum Width Ramp](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWidthRamp.java)
 * [963. Minimum Area Rectangle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAreaFreeRect.java)
