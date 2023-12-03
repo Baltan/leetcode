@@ -7,6 +7,7 @@ import java.util.Arrays;
  *
  * @author Baltan
  * @date 2022/6/30 16:41
+ * @see MinimumAddedCoins
  */
 public class GetMaximumConsecutive {
     public static void main(String[] args) {
