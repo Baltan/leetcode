@@ -2134,6 +2134,7 @@
 * [2946. Matrix Similarity After Cyclic Shifts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreSimilar.java)
 * [2947. Count Beautiful Substrings I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSubstrings.java)
 * [2948. Make Lexicographically Smallest Array by Swapping Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexicographicallySmallestArray.java)
+* [2951. Find the Peaks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPeaks.java)
 * [2952. Minimum Number of Coins to be Added](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAddedCoins.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
