@@ -2136,6 +2136,7 @@
 * [2948. Make Lexicographically Smallest Array by Swapping Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexicographicallySmallestArray.java)
 * [2951. Find the Peaks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPeaks.java)
 * [2952. Minimum Number of Coins to be Added](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAddedCoins.java)
+* [2953. Count Complete Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCompleteSubstrings.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
