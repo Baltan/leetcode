@@ -1568,6 +1568,7 @@
 * [2062. Count Vowel Substrings of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountVowelSubstrings.java)
 * [2063. Vowels of All Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountVowels.java)
 * [2064. Minimized Maximum of Products Distributed to Any Store](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizedMaximum.java)
+* [2065. Maximum Path Quality of a Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalPathQuality.java)
 * [2068. Check Whether Two Strings are Almost Equivalent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckAlmostEquivalent.java)
 * [2069. Walking Robot Simulation II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot1.java)
 * [2070. Most Beautiful Item for Each Query](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumBeauty.java)
