@@ -8,7 +8,7 @@ import java.util.*;
  * @author Baltan
  * @date 2023/9/3 14:45
  */
-public class MaxSum9 {
+public class MaxSum2 {
     public static void main(String[] args) {
         System.out.println(maxSum(Arrays.asList(1, 1, 1, 2), 2, 4));
         System.out.println(maxSum(Arrays.asList(2, 6, 7, 3, 1, 7), 3, 4));
