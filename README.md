@@ -2139,6 +2139,7 @@
 * [2952. Minimum Number of Coins to be Added](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAddedCoins.java)
 * [2953. Count Complete Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCompleteSubstrings.java)
 * [2957. Remove Adjacent Almost-Equal Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAlmostEqualCharacters.java)
+* [2958. Length of Longest Subarray With at Most K Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarrayLength.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
