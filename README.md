@@ -2138,6 +2138,7 @@
 * [2951. Find the Peaks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPeaks.java)
 * [2952. Minimum Number of Coins to be Added](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAddedCoins.java)
 * [2953. Count Complete Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCompleteSubstrings.java)
+* [2956. Find Common Elements Between Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindIntersectionValues.java)
 * [2957. Remove Adjacent Almost-Equal Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAlmostEqualCharacters.java)
 * [2958. Length of Longest Subarray With at Most K Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarrayLength.java)
 * [2960. Count Tested Devices After Test Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTestedDevices.java)
