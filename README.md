@@ -2141,6 +2141,7 @@
 * [2956. Find Common Elements Between Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindIntersectionValues.java)
 * [2957. Remove Adjacent Almost-Equal Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveAlmostEqualCharacters.java)
 * [2958. Length of Longest Subarray With at Most K Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarrayLength.java)
+* [2959. Number of Possible Sets of Closing Branches](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSets3.java)
 * [2960. Count Tested Devices After Test Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTestedDevices.java)
 * [2961. Double Modular Exponentiation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetGoodIndices.java)
 * [2962. Count Subarrays Where Max Element Appears at Least K Times](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubarrays1.java)
