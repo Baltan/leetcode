@@ -7,6 +7,8 @@ import java.util.Arrays;
  *
  * @author Baltan
  * @date 2023/12/17 13:45
+ * @see NearestPalindromic
+ * @see NearestPalindromic1
  */
 public class MinimumCost3 {
     public static void main(String[] args) {
@@ -254,7 +256,7 @@ public class MinimumCost3 {
                  */
                 int min = lo - latterHalf + reversedFormerHalf;
                 /**
-                 * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于hi，必然也大于lo
+                 * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于min，必然也大于lo
                  */
                 return min <= hi ? min : -1;
             } else {
@@ -274,7 +276,7 @@ public class MinimumCost3 {
                      */
                     int min = pow(bitLength - 1) + 1;
                     /**
-                     * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于hi，必然也大于lo
+                     * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于min，必然也大于lo
                      */
                     return min <= hi ? min : -1;
                 } else {
@@ -286,7 +288,7 @@ public class MinimumCost3 {
                     int formerHalf1 = formerHalf + 1;
                     int min = formerHalf1 * pow(formerHalfLength1) + reverseNum(formerHalf1);
                     /**
-                     * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于hi，必然也大于lo
+                     * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于min，必然也大于lo
                      */
                     return min <= hi ? min : -1;
                 }
@@ -312,7 +314,7 @@ public class MinimumCost3 {
                  */
                 int min = lo - latterHalf + reversedFormerHalf;
                 /**
-                 * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于hi，必然也大于lo
+                 * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于min，必然也大于lo
                  */
                 return min <= hi ? min : -1;
             } else {
@@ -324,7 +326,7 @@ public class MinimumCost3 {
                 int formerHalf1 = lo / pow(bitLength / 2) + 1;
                 int min = formerHalf1 * pow(bitLength / 2) + reverseNum(formerHalf1 / 10);
                 /**
-                 * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于hi，必然也大于lo
+                 * 如果min<=hi，则min是[lo,hi]范围内最小的回文数字；反之，[lo,hi]范围内的其余回文数字大于min，必然也大于lo
                  */
                 return min <= hi ? min : -1;
             }
