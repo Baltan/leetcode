@@ -478,6 +478,7 @@
 * [561. Array Partition I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayPairSum.java)
 * [563. Binary Tree Tilt](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTilt.java)
 * [564. Find the Closest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NearestPalindromic.java)
+* [564. Find the Closest Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NearestPalindromic1.java)
 * [565. Array Nesting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayNesting.java)
 * [566. Reshape the Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixReshape.java)
 * [567. Permutation in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckInclusion.java)
