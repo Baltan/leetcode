@@ -5,11 +5,11 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-03-22 11:27
+ * @see NearestPalindromic1
+ * @see MinimumCost3
  */
 public class NearestPalindromic {
     public static void main(String[] args) {
-        System.out.println(nearestPalindromic(""));
-        System.out.println(nearestPalindromic("0"));
         System.out.println(nearestPalindromic("9"));
         System.out.println(nearestPalindromic("10"));
         System.out.println(nearestPalindromic("15"));
@@ -29,18 +29,17 @@ public class NearestPalindromic {
         if (n == null) {
             return null;
         }
-        if (n.length() == 0) {
+        if (n.isEmpty()) {
             return "";
         }
         if (n.length() == 1) {
-            int nInt = Integer.valueOf(n);
+            int nInt = Integer.parseInt(n);
             if (nInt > 0) {
                 return String.valueOf(nInt - 1);
             } else {
                 return "1";
             }
         }
-
         StringBuilder builder1 = new StringBuilder();
         StringBuilder builder2 = new StringBuilder();
         StringBuilder builder3 = new StringBuilder();
@@ -62,74 +61,64 @@ public class NearestPalindromic {
 
         if ((length & 1) == 1) {
             int firstHalfInt = Integer.parseInt(firstHalfStr);
-            int firstHaflLessInt = firstHalfInt - 1;
-            String firstHaflLessStr = String.valueOf(firstHaflLessInt);
-            int firstHaflLessStrLength = firstHaflLessStr.length();
+            int firstHalfLessInt = firstHalfInt - 1;
+            String firstHalfLessStr = String.valueOf(firstHalfLessInt);
+            int firstHalfLessStrLength = firstHalfLessStr.length();
 
-            if (firstHalfStr.length() > firstHaflLessStrLength) {
-                for (int i = 0; i < length - 1; i++) {
-                    builder2.append("9");
-                }
+            if (firstHalfStr.length() > firstHalfLessStrLength) {
+                builder2.append("9".repeat(length - 1));
             } else {
-                builder2.append(firstHaflLessInt).append(reverse(firstHaflLessStr.substring(0,
-                        firstHaflLessStrLength - 1)));
+                builder2.append(firstHalfLessInt).append(reverse(firstHalfLessStr.substring(0, firstHalfLessStrLength - 1)));
             }
         } else {
             int firstHalfInt = Integer.parseInt(firstHalfStr);
-            int firstHaflLessInt = firstHalfInt - 1;
-            if (firstHaflLessInt == 0) {
+            int firstHalfLessInt = firstHalfInt - 1;
+            if (firstHalfLessInt == 0) {
                 builder2.append("9");
             } else {
-                String firstHaflLessStr = String.valueOf(firstHaflLessInt);
-                int firstHaflLessStrLength = firstHaflLessStr.length();
+                String firstHalfLessStr = String.valueOf(firstHalfLessInt);
+                int firstHalfLessStrLength = firstHalfLessStr.length();
 
-                if (firstHalfStr.length() > firstHaflLessStrLength) {
-                    for (int i = 0; i < length - 1; i++) {
-                        builder2.append("9");
-                    }
+                if (firstHalfStr.length() > firstHalfLessStrLength) {
+                    builder2.append("9".repeat(length - 1));
                 } else {
-                    builder2.append(firstHaflLessStr).append(reverse(firstHaflLessStr));
+                    builder2.append(firstHalfLessStr).append(reverse(firstHalfLessStr));
                 }
             }
         }
 
         if ((length & 1) == 1) {
             int firstHalfInt = Integer.parseInt(firstHalfStr);
-            int firstHaflMoreInt = firstHalfInt + 1;
-            String firstHaflMoreStr = String.valueOf(firstHaflMoreInt);
-            int firstHaflMoreStrLength = firstHaflMoreStr.length();
+            int firstHalfMoreInt = firstHalfInt + 1;
+            String firstHalfMoreStr = String.valueOf(firstHalfMoreInt);
+            int firstHalfMoreStrLength = firstHalfMoreStr.length();
 
-            if (firstHalfStr.length() < firstHaflMoreStrLength) {
+            if (firstHalfStr.length() < firstHalfMoreStrLength) {
                 builder3.append("1");
-                for (int i = 0; i < length - 1; i++) {
-                    builder3.append("0");
-                }
+                builder3.append("0".repeat(length - 1));
                 builder3.append("1");
             } else {
-                builder3.append(firstHaflMoreStr).append(reverse(firstHaflMoreStr.substring(0,
-                        firstHaflMoreStrLength - 1)));
+                builder3.append(firstHalfMoreStr).append(reverse(firstHalfMoreStr.substring(0,
+                        firstHalfMoreStrLength - 1)));
             }
         } else {
             int firstHalfInt = Integer.parseInt(firstHalfStr);
-            int firstHaflMoreInt = firstHalfInt + 1;
-            String firstHaflMoreStr = String.valueOf(firstHaflMoreInt);
-            int firstHaflMoreStrLength = firstHaflMoreStr.length();
+            int firstHalfMoreInt = firstHalfInt + 1;
+            String firstHalfMoreStr = String.valueOf(firstHalfMoreInt);
+            int firstHalfMoreStrLength = firstHalfMoreStr.length();
 
-            if (firstHalfStr.length() < firstHaflMoreStrLength) {
+            if (firstHalfStr.length() < firstHalfMoreStrLength) {
                 builder3.append("1");
-                for (int i = 0; i < length - 1; i++) {
-                    builder3.append("0");
-                }
+                builder3.append("0".repeat(length - 1));
                 builder3.append("1");
             } else {
-                builder3.append(firstHaflMoreStr).append(reverse(firstHaflMoreStr));
+                builder3.append(firstHalfMoreStr).append(reverse(firstHalfMoreStr));
             }
         }
-
-        long num = Long.valueOf(n);
-        long num1 = Long.valueOf(builder1.toString());
-        long num2 = Long.valueOf(builder2.toString());
-        long num3 = Long.valueOf(builder3.toString());
+        long num = Long.parseLong(n);
+        long num1 = Long.parseLong(builder1.toString());
+        long num2 = Long.parseLong(builder2.toString());
+        long num3 = Long.parseLong(builder3.toString());
 
         if (num1 != num) {
             if (Math.abs(num - num1) < Math.abs(num - num2)) {
