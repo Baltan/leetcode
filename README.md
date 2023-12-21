@@ -2147,6 +2147,7 @@
 * [2961. Double Modular Exponentiation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetGoodIndices.java)
 * [2962. Count Subarrays Where Max Element Appears at Least K Times](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubarrays1.java)
 * [2963. Count the Number of Good Partitions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfGoodPartitions.java)
+* [2965. Find Missing and Repeated Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMissingAndRepeatedValues.java)
 * [2966. Divide Array Into Arrays With Max Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DivideArray1.java)
 * [2967. Minimum Cost to Maie Array Equalindromic](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost3.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
