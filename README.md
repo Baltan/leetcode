@@ -1951,6 +1951,7 @@
 * [2640. Find the Score of All Prefixes of an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPrefixScore.java)
 * [2641. Cousins in Binary Tree II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReplaceValueInTree.java)
 * [2642. Design Graph With Shortest Path Calculator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Graph.java)
+* [2642. Design Graph With Shortest Path Calculator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Graph1.java)
 * [2643. Row With Maximum Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RowAndMaximumOnes.java)
 * [2644. Find the Maximum Divisibility Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDivScore.java)
 * [2645. Minimum Additions to Make Valid String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddMinimum.java)
