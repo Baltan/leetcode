@@ -7,17 +7,21 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2023/12/21 22:21
- * @see Graph1
+ * @see Graph
  */
-public class Graph {
+public class Graph1 {
     /**
      * 防止计算路径总代价时溢出
      */
     private static final Integer MAX = Integer.MAX_VALUE / 2;
     /**
-     * toTimesList[i]表示从节点i直接可以到达的下一节点j的用时情况，其中每个元素都为一个长度为2的数组[j,time]
+     * 节点个数
      */
-    private List<int[]>[] toTimesList;
+    private int n;
+    /**
+     * toTimeMatrix[i][j]表示从节点i到达节点j的用时情况
+     */
+    private int[][] toTimeMatrix;
     /**
      * 堆优化Dijkstra，minTimes[i]表示从某一个指定节点到节点i的最小花费时间
      *
@@ -29,19 +33,24 @@ public class Graph {
      */
     private boolean[] isVisited;
 
-    public Graph(int n, int[][] edges) {
+    public Graph1(int n, int[][] edges) {
+        this.n = n;
         minTimes = new int[n + 1];
         isVisited = new boolean[n + 1];
-        toTimesList = new List[n];
-        Arrays.setAll(toTimesList, x -> new ArrayList<>());
+        toTimeMatrix = new int[n][n];
+        Arrays.setAll(toTimeMatrix, x -> new int[n]);
+
+        for (int[] toTimes : toTimeMatrix) {
+            Arrays.fill(toTimes, MAX);
+        }
 
         for (int[] edge : edges) {
-            toTimesList[edge[0]].add(new int[]{edge[1], edge[2]});
+            toTimeMatrix[edge[0]][edge[1]] = edge[2];
         }
     }
 
     public void addEdge(int[] edge) {
-        toTimesList[edge[0]].add(new int[]{edge[1], edge[2]});
+        toTimeMatrix[edge[0]][edge[1]] = edge[2];
     }
 
     public int shortestPath(int node1, int node2) {
@@ -66,25 +75,18 @@ public class Graph {
                 continue;
             }
             isVisited[i] = true;
-            /**
-             * 从节点i直接可以到达的下一节点的用时情况
-             */
-            List<int[]> toTimes = toTimesList[i];
 
-            for (int[] toTime : toTimes) {
-                int j = toTime[0];
-                int time = toTime[1];
-                /**
-                 * 从节点node1经过节点i再到达节点j可能比不经过节点i直接到达节点j的路径用时更少
-                 */
-                if (minTimes[i] + time <= minTimes[j]) {
-                    minTimes[j] = minTimes[i] + time;
-                    /**
-                     * 因为得到了从节点node1到达节点j的更小代价的路径，所以从节点j出发的情况要重新计算
-                     */
-                    isVisited[j] = false;
+            for (int j = 0; j < n; j++) {
+                if (toTimeMatrix[i][j] == MAX) {
+                    continue;
                 }
-                minTimes[j] = Math.min(minTimes[j], minTimes[i] + time);
+                /**
+                 * 从节点node1经过节点i再到达节点j可能比不经过节点i到达节点j的路径用时更少
+                 */
+                if (minTimes[i] + toTimeMatrix[i][j] < minTimes[j]) {
+                    minTimes[j] = minTimes[i] + toTimeMatrix[i][j];
+                    toTimeMatrix[node1][j] = minTimes[j];
+                }
                 queue.offer(j);
             }
         }
@@ -92,7 +94,7 @@ public class Graph {
     }
 
     public static void main(String[] args) {
-        Graph graph1 = new Graph(4, new int[][]{{0, 2, 5}, {0, 1, 2}, {1, 2, 1}, {3, 0, 3}});
+        Graph1 graph1 = new Graph1(4, new int[][]{{0, 2, 5}, {0, 1, 2}, {1, 2, 1}, {3, 0, 3}});
         System.out.println(graph1.shortestPath(3, 2));
         System.out.println(graph1.shortestPath(0, 3));
         graph1.addEdge(new int[]{1, 3, 4});
@@ -100,7 +102,7 @@ public class Graph {
 
         System.out.println("----------------------------------------");
 
-        Graph graph2 = new Graph(13, new int[][]{{7, 2, 131570}, {9, 4, 622890}, {9, 1, 812365}, {1, 3, 399349}, {10, 2, 407736}, {6, 7, 880509}, {1, 4, 289656}, {8, 0, 802664}, {6, 4, 826732}, {10, 3, 567982}, {5, 6, 434340}, {4, 7, 833968}, {12, 1, 578047}, {8, 5, 739814}, {10, 9, 648073}, {1, 6, 679167}, {3, 6, 933017}, {0, 10, 399226}, {1, 11, 915959}, {0, 12, 393037}, {11, 5, 811057}, {6, 2, 100832}, {5, 1, 731872}, {3, 8, 741455}, {2, 9, 835397}, {7, 0, 516610}, {11, 8, 680504}, {3, 11, 455056}, {1, 0, 252721}});
+        Graph1 graph2 = new Graph1(13, new int[][]{{7, 2, 131570}, {9, 4, 622890}, {9, 1, 812365}, {1, 3, 399349}, {10, 2, 407736}, {6, 7, 880509}, {1, 4, 289656}, {8, 0, 802664}, {6, 4, 826732}, {10, 3, 567982}, {5, 6, 434340}, {4, 7, 833968}, {12, 1, 578047}, {8, 5, 739814}, {10, 9, 648073}, {1, 6, 679167}, {3, 6, 933017}, {0, 10, 399226}, {1, 11, 915959}, {0, 12, 393037}, {11, 5, 811057}, {6, 2, 100832}, {5, 1, 731872}, {3, 8, 741455}, {2, 9, 835397}, {7, 0, 516610}, {11, 8, 680504}, {3, 11, 455056}, {1, 0, 252721}});
         System.out.println(graph2.shortestPath(9, 3));
         graph2.addEdge(new int[]{11, 1, 873094});
         System.out.println(graph2.shortestPath(3, 10));
@@ -122,7 +124,7 @@ public class Graph {
 
         System.out.println("----------------------------------------");
 
-        Graph graph3 = new Graph(13, new int[][]{{6, 12, 315086}, {4, 6, 434499}, {8, 4, 753794}, {4, 8, 25425}, {12, 7, 790970}, {1, 12, 617809}, {12, 3, 162762}, {6, 10, 831419}, {1, 3, 161356}, {2, 9, 78885}, {9, 6, 377317}, {9, 2, 21891}, {0, 4, 8226}, {7, 12, 182349}, {5, 10, 113773}, {4, 10, 538290}, {1, 0, 733504}, {11, 2, 105677}, {8, 11, 716157}, {0, 8, 598757}, {12, 6, 390446}, {6, 7, 231085}, {0, 11, 306911}, {1, 11, 201790}, {9, 8, 632445}, {4, 2, 11198}, {10, 4, 480988}, {12, 0, 855344}, {11, 1, 951787}, {1, 9, 847441}, {12, 5, 265162}, {3, 4, 836015}, {3, 6, 10355}, {6, 4, 986910}, {7, 1, 789806}, {4, 11, 601682}, {11, 12, 373853}, {7, 9, 975447}, {2, 11, 408606}, {6, 1, 177887}, {11, 5, 245495}, {10, 0, 107270}});
+        Graph1 graph3 = new Graph1(13, new int[][]{{6, 12, 315086}, {4, 6, 434499}, {8, 4, 753794}, {4, 8, 25425}, {12, 7, 790970}, {1, 12, 617809}, {12, 3, 162762}, {6, 10, 831419}, {1, 3, 161356}, {2, 9, 78885}, {9, 6, 377317}, {9, 2, 21891}, {0, 4, 8226}, {7, 12, 182349}, {5, 10, 113773}, {4, 10, 538290}, {1, 0, 733504}, {11, 2, 105677}, {8, 11, 716157}, {0, 8, 598757}, {12, 6, 390446}, {6, 7, 231085}, {0, 11, 306911}, {1, 11, 201790}, {9, 8, 632445}, {4, 2, 11198}, {10, 4, 480988}, {12, 0, 855344}, {11, 1, 951787}, {1, 9, 847441}, {12, 5, 265162}, {3, 4, 836015}, {3, 6, 10355}, {6, 4, 986910}, {7, 1, 789806}, {4, 11, 601682}, {11, 12, 373853}, {7, 9, 975447}, {2, 11, 408606}, {6, 1, 177887}, {11, 5, 245495}, {10, 0, 107270}});
         graph3.addEdge(new int[]{6, 5, 962787});
         graph3.addEdge(new int[]{3, 10, 6961});
         System.out.println(graph3.shortestPath(12, 6));
