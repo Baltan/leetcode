@@ -1,8 +1,7 @@
 package leetcode.algorithms;
 
-import java.util.Collections;
-import java.util.Objects;
-import java.util.TreeSet;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Description: 2975. Maximum Square Area by Removing Fences From a Field
@@ -18,10 +17,19 @@ public class MaximizeSquareArea {
     }
 
     public static int maximizeSquareArea(int m, int n, int[] hFences, int[] vFences) {
+        long result = -1;
         int mod = 1000000007;
-        TreeSet<Integer> hSet = new TreeSet<>(Collections.reverseOrder());
-        TreeSet<Integer> vSet = new TreeSet<>(Collections.reverseOrder());
+        /**
+         * 保存任意两个不同的水平栅栏之间的距离
+         */
+        Set<Integer> hSet = new HashSet<>();
+        /**
+         * 所有水平栅栏的坐标（包括上下两个水平栅栏）
+         */
         int[] hFences1 = new int[hFences.length + 2];
+        /**
+         * 所有垂直栅栏的坐标（包括左右两个垂直栅栏）
+         */
         int[] vFences1 = new int[vFences.length + 2];
         hFences1[0] = 1;
         hFences1[hFences1.length - 1] = m;
@@ -29,28 +37,26 @@ public class MaximizeSquareArea {
         vFences1[vFences1.length - 1] = n;
         System.arraycopy(hFences, 0, hFences1, 1, hFences.length);
         System.arraycopy(vFences, 0, vFences1, 1, vFences.length);
-
+        /**
+         * 计算水平栅栏hFences1[i]和hFences1[j]之间的距离
+         */
         for (int i = 0; i < hFences1.length; i++) {
             for (int j = i + 1; j < hFences1.length; j++) {
                 hSet.add(Math.abs(hFences1[i] - hFences1[j]));
             }
         }
-
+        /**
+         * 对于所有水平栅栏可能的间距，判断是否存在两个垂直栅栏的间距与其相等
+         */
         for (int i = 0; i < vFences1.length; i++) {
             for (int j = i + 1; j < vFences1.length; j++) {
-                vSet.add(Math.abs(vFences1[i] - vFences1[j]));
-            }
-        }
+                int length = Math.abs(vFences1[i] - vFences1[j]);
 
-        while (!hSet.isEmpty() && !vSet.isEmpty()) {
-            if (Objects.equals(hSet.first(), vSet.first())) {
-                return (int) ((long) hSet.first() * vSet.first() % mod);
-            } else if (hSet.first() > vSet.first()) {
-                hSet.pollFirst();
-            } else {
-                vSet.pollFirst();
+                if (hSet.contains(length)) {
+                    result = Math.max(result, (long) length * length);
+                }
             }
         }
-        return -1;
+        return (int) (result % mod);
     }
 }
