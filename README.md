@@ -2153,6 +2153,7 @@
 * [2966. Divide Array Into Arrays With Max Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DivideArray1.java)
 * [2967. Minimum Cost to Maie Array Equalindromic](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost3.java)
 * [2971. Find Polygon With the Largest Perimeter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPerimeter11.java)
+* [2975. Maximum Square Area by Removing Fences From a Field](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeSquareArea.java)
 * [2976. Minimum Cost to Convert String I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost4.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
