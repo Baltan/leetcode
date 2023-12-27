@@ -2152,6 +2152,7 @@
 * [2965. Find Missing and Repeated Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMissingAndRepeatedValues.java)
 * [2966. Divide Array Into Arrays With Max Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DivideArray1.java)
 * [2967. Minimum Cost to Maie Array Equalindromic](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost3.java)
+* [2970. Count the Number of Incremovable Subarrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncremovableSubarrayCount.java)
 * [2971. Find Polygon With the Largest Perimeter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPerimeter11.java)
 * [2975. Maximum Square Area by Removing Fences From a Field](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeSquareArea.java)
 * [2976. Minimum Cost to Convert String I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost4.java)
