@@ -33,7 +33,7 @@ public class IncremovableSubarrayCount {
          */
         boolean[][] help = new boolean[length][length];
         /**
-         * 判断子数组[nums[0],……,nums[i]]是否是严格递增数组
+         * 判断子数组[nums[0],……,nums[i]]是否是严格递增数组（不包括[nums[0],……,nums[length-1]]的情况）
          */
         for (int i = 0; i < length - 1; i++) {
             if (nums[i] <= prev) {
@@ -44,7 +44,7 @@ public class IncremovableSubarrayCount {
             prev = nums[i];
         }
         /**
-         * 判断子数组[nums[i],……,nums[length-1]]是否是严格递增数组
+         * 判断子数组[nums[i],……,nums[length-1]]是否是严格递增数组（不包括[nums[0],……,nums[length-1]]的情况）
          */
         for (int i = length - 1; i > 0; i--) {
             if (nums[i] >= next) {
