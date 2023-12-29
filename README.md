@@ -2155,6 +2155,7 @@
 * [2970. Count the Number of Incremovable Subarrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncremovableSubarrayCount.java)
 * [2971. Find Polygon With the Largest Perimeter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPerimeter11.java)
 * [2972. Count the Number of Incremovable Subarrays II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncremovableSubarrayCount1.java)
+* [2974. Minimum Number Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberGame.java)
 * [2975. Maximum Square Area by Removing Fences From a Field](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeSquareArea.java)
 * [2976. Minimum Cost to Convert String I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost4.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
