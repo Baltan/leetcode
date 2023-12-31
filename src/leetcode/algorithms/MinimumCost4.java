@@ -7,6 +7,7 @@ import java.util.Arrays;
  *
  * @author baltan
  * @date 2023/12/25 10:35
+ * @see MinimumCost5
  */
 public class MinimumCost4 {
     public static void main(String[] args) {
