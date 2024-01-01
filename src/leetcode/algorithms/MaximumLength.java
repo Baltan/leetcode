@@ -37,7 +37,7 @@ public class MaximumLength {
             }
         }
         /**
-         * 遍历所有特殊字串出现的次数，找到出现至少3次的最长特殊字串
+         * 遍历所有特殊子串出现的次数，找到出现至少3次的最长特殊子串
          */
         for (Map.Entry<String, Integer> entry : countMap.entrySet()) {
             if (entry.getValue() >= 3) {
