@@ -2160,6 +2160,7 @@
 * [2975. Maximum Square Area by Removing Fences From a Field](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeSquareArea.java)
 * [2976. Minimum Cost to Convert String I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost4.java)
 * [2981. Find Longest Special Substring That Occurs Thrice I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength.java)
+* [2982. Find Longest Special Substring That Occurs Thrice II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
