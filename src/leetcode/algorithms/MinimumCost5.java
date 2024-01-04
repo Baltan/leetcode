@@ -45,125 +45,147 @@ public class MinimumCost5 {
         String[] changed7 = {"vvmi", "rv", "vm", "ir", "vv", "mirv", "vm", "irvv", "mi", "rv", "vm", "ir", "vv", "mi", "rvvm", "irv", "vm", "irv", "vm", "irv", "vmir", "vv", "mir", "vv", "mir", "vv", "mi", "rv", "vmir", "vvm", "irv", "vmi", "rv", "vmi", "rv", "vm", "irv", "vmi", "rv", "vmi", "rv", "vm", "irv", "vm", "irv", "vm", "irvv", "mir", "vvm", "ir", "vv", "mi", "rv", "vmi", "rv", "vm", "ir", "vv", "mir", "vv", "mir", "vvm", "ir", "vv", "mi", "rvvm", "irv", "vm", "irv", "vmir", "vvm", "ir", "vv", "mirv", "vmi", "rv", "vm", "ir", "vv", "mi", "rv", "vm", "ir", "vv", "mi", "rv", "vmi", "rv", "vm", "ir", "vv", "mi", "rv", "vmi", "rvv", "mi", "rv", "vmi", "rvv", "vvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmir"};
         int[] cost7 = {377, 377, 506, 708, 362, 416, 386, 309, 990, 891, 227, 922, 694, 418, 234, 875, 584, 924, 558, 172, 999, 243, 733, 522, 1000, 840, 265, 920, 846, 216, 877, 777, 306, 625, 325, 854, 790, 418, 931, 207, 430, 934, 629, 155, 445, 522, 429, 410, 913, 863, 425, 262, 156, 41, 596, 785, 557, 705, 780, 178, 170, 516, 581, 637, 485, 113, 882, 157, 373, 720, 439, 904, 205, 404, 864, 440, 638, 834, 499, 644, 670, 715, 201, 676, 981, 513, 337, 549, 195, 966, 5, 482, 693, 687, 187, 140, 446, 708, 83, 28836};
         System.out.println(minimumCost("mifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifghmifgh", "vvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmirvvmir", original7, changed7, cost7));
+
+        String[] original8 = {"mmuh", "zm", "muhz", "mmu", "hz", "mm", "uh", "zmm", "uhz", "mmu", "hz", "mmu", "hz", "mm", "uhz", "mm", "uhzm", "muh", "zm", "mu", "hzmm", "uh", "zm", "mu", "hzm", "muh", "zm", "mu", "hz", "mm", "uhz", "mm", "uhz", "mm", "uh", "zmmu", "hz", "mm", "uh", "zmm", "uh", "zm", "mu", "hzm", "mu", "hz", "mm", "uhzm", "muh", "zm", "muhz", "mm", "uh", "zm", "mu", "hz", "mm", "uh", "zm", "muh", "zm", "mu", "hzmm", "uh", "zm", "muh", "zmm", "uh", "zm", "mu", "hz", "mmu", "hzmm", "uhz", "mmuh", "zm", "mu", "hz", "mmu", "hz", "mm", "uhz", "mmu", "hzm", "mu", "hzm", "mu", "hz", "mm", "uh", "zmmu", "hzm", "mu", "hz", "mm", "uh", "zm", "mu", "hz", "mmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhz"};
+        String[] changed8 = {"vugr", "kv", "ugrk", "vug", "rk", "vu", "gr", "kvu", "grk", "vug", "rk", "vug", "rk", "vu", "grk", "vu", "grkv", "ugr", "kv", "ug", "rkvu", "gr", "kv", "ug", "rkv", "ugr", "kv", "ug", "rk", "vu", "grk", "vu", "grk", "vu", "gr", "kvug", "rk", "vu", "gr", "kvu", "gr", "kv", "ug", "rkv", "ug", "rk", "vu", "grkv", "ugr", "kv", "ugrk", "vu", "gr", "kv", "ug", "rk", "vu", "gr", "kv", "ugr", "kv", "ug", "rkvu", "gr", "kv", "ugr", "kvu", "gr", "kv", "ug", "rk", "vug", "rkvu", "grk", "vugr", "kv", "ug", "rk", "vug", "rk", "vu", "grk", "vug", "rkv", "ug", "rkv", "ug", "rk", "vu", "gr", "kvug", "rkv", "ug", "rk", "vu", "gr", "kv", "ug", "rk", "vugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrk"};
+        int[] cost8 = {632, 317, 883, 156, 532, 929, 987, 318, 856, 616, 49, 288, 747, 909, 975, 91, 702, 647, 681, 122, 126, 343, 623, 349, 942, 105, 197, 5, 87, 384, 981, 964, 252, 363, 631, 691, 346, 894, 489, 867, 346, 905, 957, 986, 852, 264, 157, 282, 272, 146, 535, 423, 277, 241, 28, 345, 753, 956, 641, 847, 617, 595, 146, 812, 932, 853, 520, 52, 691, 756, 361, 25, 893, 962, 197, 300, 13, 495, 950, 581, 559, 709, 889, 27, 338, 651, 872, 728, 302, 321, 729, 178, 831, 338, 859, 870, 950, 878, 32, 8154};
+        System.out.println(minimumCost("mmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhzmmuhz", "vugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrkvugrk", original8, changed8, cost8));
     }
 
+    private static int id;
+
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/minimum-cost-to-convert-string-ii/solutions/2577877/zi-dian-shu-floyddp-by-endlesscheng-oi2r/"></a>
+     *
+     * @param source
+     * @param target
+     * @param original
+     * @param changed
+     * @param cost
+     * @return
+     */
     public static long minimumCost(String source, String target, String[] original, String[] changed, int[] cost) {
-        /**
-         * 数组original和changed中的字符串 -> 字符串对应的唯一id
-         */
-        Map<String, Integer> idMap = new HashMap<>();
-        int id = 0;
-
-        for (String word : original) {
-            if (!idMap.containsKey(word)) {
-                idMap.put(word, id++);
-            }
-        }
-
-        for (String word : changed) {
-            if (!idMap.containsKey(word)) {
-                idMap.put(word, id++);
-            }
-        }
+        id = 0;
+        Node root = new Node();
         /**
          * minCosts[i][j]表示将id为i的字符串变为id为j的字符串的最小代价
          */
-        long[][] minCosts = new long[id][id];
+        long[][] minCosts = new long[cost.length * 2][cost.length * 2];
         /**
-         * dp[i]表示将source.substring(0,i)变为target.substring(0,i)的最小代价
+         * dp[i]表示从source[i]开始的后缀子串被修改为从target[i]开始的后缀子串需要的最小代价
          */
         long[] dp = new long[source.length() + 1];
-        Arrays.fill(dp, Long.MAX_VALUE);
-        dp[0] = 0L;
 
+        for (int i = 0; i < minCosts.length; i++) {
+            /**
+             * 假设id为i的字符串无法变成其他所有字符串
+             */
+            Arrays.fill(minCosts[i], Long.MAX_VALUE);
+            /**
+             * 字符串变为自身不需要花费代价
+             */
+            minCosts[i][i] = 0;
+        }
+
+        /**
+         * 将数组original和changed中的字符串都构建到字典树中
+         */
+        for (int i = 0; i < cost.length; i++) {
+            int x = build(root, original[i]);
+            int y = build(root, changed[i]);
+            /**
+             * 更新id为x的字符串变为id为y的字符串的最小代价
+             */
+            minCosts[x][y] = Math.min(minCosts[x][y], cost[i]);
+        }
+        /**
+         * Floyd算法更新id为j的字符串变为id为k的字符串的最小代价，判断将id为j的字符串先变为id为i的字符串，再将id为i的字符串变为id为k的字
+         * 符串，是否可以减小id为j的字符串变为id为k的字符串的最小代价
+         */
         for (int i = 0; i < id; i++) {
             for (int j = 0; j < id; j++) {
-                /**
-                 * 假设id为i的字符串无法变为id为j的字符串
-                 */
-                minCosts[i][j] = Long.MAX_VALUE;
-            }
-            minCosts[i][i] = 0L;
-        }
-        /**
-         * 初始化字符串original[i]变为字符串changed[i]的最小代价
-         */
-        for (int i = 0; i < original.length; i++) {
-            int originalId = idMap.get(original[i]);
-            int changedId = idMap.get(changed[i]);
-            minCosts[originalId][changedId] = Math.min(minCosts[originalId][changedId], cost[i]);
-        }
-        /**
-         * Floyd算法更新字符串original[j]变为字符串changed[k]的最小代价，判断将字符串original[j]先变为字符串changed[i]，再将字符串
-         * changed[i]变为字符串changed[k]，是否可以减小字符串original[j]变为字符串changed[k]的最小代价
-         */
-        for (int i = 0; i < changed.length; i++) {
-            int iId = idMap.get(changed[i]);
-
-            for (int j = 0; j < original.length; j++) {
-                int jId = idMap.get(original[j]);
-
-                if (minCosts[jId][iId] == Long.MAX_VALUE) {
+                if (minCosts[j][i] == Long.MAX_VALUE) {
                     continue;
                 }
 
-                for (int k = 0; k < changed.length; k++) {
-                    int kId = idMap.get(changed[k]);
-
-                    if (minCosts[iId][kId] != Long.MAX_VALUE) {
-                        minCosts[jId][kId] = Math.min(minCosts[jId][kId], minCosts[jId][iId] + minCosts[iId][kId]);
+                for (int k = 0; k < id; k++) {
+                    if (minCosts[i][k] != Long.MAX_VALUE) {
+                        minCosts[j][k] = Math.min(minCosts[j][k], minCosts[j][i] + minCosts[i][k]);
                     }
                 }
             }
         }
 
-        for (int i = 0; i < source.length(); i++) {
+        for (int i = source.length() - 1; i >= 0; i--) {
             /**
-             * 如果字符source[i]不被操作
+             * 如果字符source[i]不被操作，且source[i]和target[i]相同，则子串source.substring(i)变为target.substring(i)的最小代价
+             * 和source.substring(i+1)变为target.substring(i+1)的最小代价相同
              */
-            if (Objects.equals(source.charAt(i), target.charAt(i)) && dp[i] != Long.MAX_VALUE) {
-                dp[i + 1] = Math.min(dp[i + 1], dp[i]);
-            }
+            dp[i] = source.charAt(i) == target.charAt(i) ? dp[i + 1] : Long.MAX_VALUE;
+            Node sourceNode = root;
+            Node targetNode = root;
             /**
              * 如果字符source[i]会被操作
              */
-            for (int j = 0; j < original.length; j++) {
-                int jId = idMap.get(original[j]);
-
-                if (!isMatched(source, i, original[j]) || dp[i + 1 - original[j].length()] == Long.MAX_VALUE) {
+            for (int j = i; j < source.length(); j++) {
+                sourceNode = sourceNode.children[source.charAt(j) - 'a'];
+                targetNode = targetNode.children[target.charAt(j) - 'a'];
+                /**
+                 * 字典树中没有以子串source.substring(i,j+1)或target.substring(i,j+1)作为前缀的字符串，则其余以source[i]和
+                 * target[i]开头的长度更大的子串都不可能存在
+                 */
+                if (sourceNode == null || targetNode == null) {
+                    break;
+                }
+                /**
+                 * 字典树中不存在字符串source.substring(i,j+1)或target.substring(i,j+1)，则不可能将子串source.substring(i)变为
+                 * target.substring(i)
+                 */
+                if (sourceNode.id < 0 || targetNode.id < 0) {
                     continue;
                 }
-
-                for (int k = 0; k < changed.length; k++) {
-                    int kId = idMap.get(changed[k]);
-
-                    if (minCosts[jId][kId] != Long.MAX_VALUE && isMatched(target, i, changed[k])) {
-                        dp[i + 1] = Math.min(dp[i + 1], dp[i + 1 - original[j].length()] + minCosts[jId][kId]);
-                    }
+                /**
+                 * 子串source.substring(i,j+1)变为target.substring(i,j+1)的最小代价为minCosts[sourceNode.id][targetNode.id]，
+                 * 子串source.substring(j+1)变为target.substring(j+1)的最小代价为dp[j+1]，所以子串source.substring(i)变为
+                 * target.substring(i)的最小代价为minCosts[sourceNode.id][targetNode.id]+dp[j+1]
+                 */
+                if (minCosts[sourceNode.id][targetNode.id] != Long.MAX_VALUE && dp[j + 1] != Long.MAX_VALUE) {
+                    dp[i] = Math.min(dp[i], minCosts[sourceNode.id][targetNode.id] + dp[j + 1]);
                 }
             }
         }
-        return dp[source.length()] == Long.MAX_VALUE ? -1 : dp[source.length()];
+        return dp[0] != Long.MAX_VALUE ? dp[0] : -1;
     }
 
     /**
-     * 判断字符串from以from[index]为结尾的前缀子串的后缀是否为字符串to
+     * 将字符串word构建到字典树中
      *
-     * @param from
-     * @param index
-     * @param to
+     * @param root
+     * @param word
      * @return
      */
-    public static boolean isMatched(String from, int index, String to) {
-        if (index + 1 < to.length()) {
-            return false;
-        }
+    public static int build(Node root, String word) {
+        Node node = root;
 
-        for (int i = 0; i < to.length(); i++) {
-            if (from.charAt(index + 1 - to.length() + i) != to.charAt(i)) {
-                return false;
+        for (char c : word.toCharArray()) {
+            int offset = c - 'a';
+
+            if (node.children[offset] == null) {
+                node.children[offset] = new Node();
             }
+            node = node.children[offset];
         }
-        return true;
+        /**
+         * 字符串word的最后一个字符在字典树中对应的节点，节点的id为-1，说明word是一个新出现的字符串，为其定义一个唯一id
+         */
+        if (node.id == -1) {
+            node.id = id++;
+        }
+        return node.id;
+    }
+
+    public static class Node {
+        private int id = -1;
+        private final Node[] children = new Node[26];
     }
 }
