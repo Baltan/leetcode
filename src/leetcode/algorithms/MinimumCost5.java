@@ -93,12 +93,17 @@ public class MinimumCost5 {
          */
         for (int i = 0; i < changed.length; i++) {
             for (int j = 0; j < original.length; j++) {
+                int iId = idMap.get(changed[i]);
+                int jId = idMap.get(original[j]);
+
+                if (minCosts[jId][iId] == Long.MAX_VALUE) {
+                    continue;
+                }
+
                 for (int k = 0; k < changed.length; k++) {
-                    int iId = idMap.get(changed[i]);
-                    int jId = idMap.get(original[j]);
                     int kId = idMap.get(changed[k]);
 
-                    if (minCosts[jId][iId] != Long.MAX_VALUE && minCosts[iId][kId] != Long.MAX_VALUE) {
+                    if (minCosts[iId][kId] != Long.MAX_VALUE) {
                         minCosts[jId][kId] = Math.min(minCosts[jId][kId], minCosts[jId][iId] + minCosts[iId][kId]);
                     }
                 }
@@ -116,15 +121,16 @@ public class MinimumCost5 {
              * 如果字符source[i]会被操作
              */
             for (int j = 0; j < original.length; j++) {
-                if (!isMatched(source, i, original[j])) {
+                int jId = idMap.get(original[j]);
+
+                if (!isMatched(source, i, original[j]) || dp[i + 1 - original[j].length()] == Long.MAX_VALUE) {
                     continue;
                 }
 
                 for (int k = 0; k < changed.length; k++) {
-                    int jId = idMap.get(original[j]);
                     int kId = idMap.get(changed[k]);
 
-                    if (minCosts[jId][kId] != Long.MAX_VALUE && dp[i + 1 - original[j].length()] != Long.MAX_VALUE && isMatched(target, i, changed[k])) {
+                    if (minCosts[jId][kId] != Long.MAX_VALUE && isMatched(target, i, changed[k])) {
                         dp[i + 1] = Math.min(dp[i + 1], dp[i + 1 - original[j].length()] + minCosts[jId][kId]);
                     }
                 }
