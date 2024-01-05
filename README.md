@@ -1255,6 +1255,7 @@
 * [1588. Sum of All Odd Length Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOddLengthSubarrays.java)
 * [1589. Maximum Sum Obtained of Any Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumRangeQuery.java)
 * [1590. Make Sum Divisible by P](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSubarray.java)
+* [1591. Strange Printer II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPrintable.java)
 * [1592. Rearrange Spaces Between Words](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorderSpaces.java)
 * [1593. Split a String Into the Max Number of Unique Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxUniqueSplit.java)
 * [1594. Maximum Non Negative Product in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProductPath.java)
