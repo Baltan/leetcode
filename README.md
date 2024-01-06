@@ -1078,6 +1078,7 @@
 * [1346. Check If N and Its Double Exist](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckIfExist.java)
 * [1347. Minimum Number of Steps to Make Two Strings Anagram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSteps2.java)
 * [1348. Tweet Counts Per Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TweetCounts.java)
+* [1349. Maximum Students Taking Exam](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxStudents.java)
 * [1351. Count Negative Numbers in a Sorted Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountNegatives.java)
 * [1352. Product of the Last K Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProductOfNumbers.java)
 * [1353. Maximum Number of Events That Can Be Attended](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEvents.java)
