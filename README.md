@@ -2165,6 +2165,7 @@
 * [2980. Check if Bitwise OR Has Trailing Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasTrailingZeros.java)
 * [2981. Find Longest Special Substring That Occurs Thrice I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength.java)
 * [2982. Find Longest Special Substring That Occurs Thrice II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength1.java)
+* [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations18.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
