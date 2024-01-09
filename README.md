@@ -2167,6 +2167,7 @@
 * [2982. Find Longest Special Substring That Occurs Thrice II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength1.java)
 * [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations18.java)
 * [2998. Minimum Number of Operations to Make X and Y Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperationsToMakeEqual.java)
+* [3001. Minimum Moves to Capture The Queen](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMovesToCaptureTheQueen.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
