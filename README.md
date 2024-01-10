@@ -2165,6 +2165,7 @@
 * [2980. Check if Bitwise OR Has Trailing Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasTrailingZeros.java)
 * [2981. Find Longest Special Substring That Occurs Thrice I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength.java)
 * [2982. Find Longest Special Substring That Occurs Thrice II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength1.java)
+* [2996. Smallest Missing Integer Greater Than Sequential Prefix Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MissingInteger.java)
 * [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations18.java)
 * [2998. Minimum Number of Operations to Make X and Y Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperationsToMakeEqual.java)
 * [3001. Minimum Moves to Capture The Queen](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMovesToCaptureTheQueen.java)
