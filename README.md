@@ -1306,6 +1306,7 @@
 * [1662. Check If Two String Arrays are Equivalent](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayStringsAreEqual1.java)
 * [1663. Smallest String With A Given Numeric Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString.java)
 * [1664. Ways to Make a Fair Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToMakeFair.java)
+* [1665. Minimum Initial Energy to Finish Tasks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumEffort.java)
 * [1667. Fix Names in a Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FixNamesInATable.sql)
 * [1668. Maximum Repeating Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRepeating.java)
 * [1669. Merge In Between Linked Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeInBetween.java)
