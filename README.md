@@ -2173,6 +2173,7 @@
 * [3000. Maximum Area of Longest Diagonal Rectangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperationsToMakeEqual.java)
 * [3001. Minimum Moves to Capture The Queen](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AreaOfMaxDiagonal.java)
 * [3002. Maximum Size of a Set After Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSetSize.java)
+* [3006. Find Beautiful Indices in the Given Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulIndices.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
