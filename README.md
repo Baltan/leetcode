@@ -1696,6 +1696,7 @@
 * [2248. Intersection of Multiple Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Intersection1.java)
 * [2249. Count Lattice Points Inside a Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountLatticePoints.java)
 * [2250. Count Number of Rectangles Containing Each Point](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountRectangles.java)
+* [2251. Number of Flowers in Full Bloom](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FullBloomFlowers.java)
 * [2255. Count Prefixes of a Given String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPrefixes.java)
 * [2256. Minimum Average Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAverageDifference.java)
 * [2257. Count Unguarded Cells in the Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountUnguarded.java)
