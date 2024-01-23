@@ -9,6 +9,7 @@ import java.util.Queue;
  *
  * @author baltan
  * @date 2024/1/23 09:14
+ * @see MinimumPushes1
  */
 public class MinimumPushes {
     public static void main(String[] args) {
