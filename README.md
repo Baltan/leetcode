@@ -2180,6 +2180,7 @@
 * [3006. Find Beautiful Indices in the Given Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulIndices.java)
 * [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaximumNumber.java)
 * [3011. Find if Array Can Be Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanSortArray.java)
+* [3012. Minimize Length of Array Using Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumArrayLength.java)
 * [3014. Minimum Number of Pushes to Type Word I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPushes.java)
 * [3015. Count the Number of Houses at a Certain Distance I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOfPairs.java)
 * [3016. Minimum Number of Pushes to Type Word II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPushes1.java)
