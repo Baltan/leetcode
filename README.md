@@ -1739,6 +1739,7 @@
 * [2315. Count Asterisks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountAsterisks.java)
 * [2316. Count Unreachable Pairs of Nodes in an Undirected Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs3.java)
 * [2317. Maximum XOR After Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumXOR.java)
+* [2318. Number of Distinct Roll Sequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctSequences.java)
 * [2319. Check if Matrix Is X-Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckXMatrix.java)
 * [2320. Count Number of Ways to Place Houses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHousePlacements.java)
 * [2325. Decode the Message](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeMessage.java)
