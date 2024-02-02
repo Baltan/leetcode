@@ -607,6 +607,7 @@
 * [747. Largest Number At Least Twice of Others](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DominantIndex.java)
 * [748. Shortest Completing Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestCompletingWord.java)
 * [752. Open the Lock](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OpenLock.java)
+* [753. Cracking the Safe](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CrackSafe.java)
 * [754. Reach a Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReachNumber.java)
 * [756. Pyramid Transition Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PyramidTransition.java)
 * [760. Find Anagram Mappings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AnagramMappings.java)
