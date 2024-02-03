@@ -1328,6 +1328,7 @@
 * [1688. Count of Matches in Tournament](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfMatches.java)
 * [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPartitions.java)
 * [1690. Stone Game VII](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGameVII.java)
+* [1691. Maximum Height by Stacking Cuboids](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxHeight.java)
 * [1693. Daily Leads and Partners](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DailyLeadsAndPartners.sql)
 * [1694. Reformat Phone Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReformatNumber.java)
 * [1695. Maximum Erasure Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumUniqueSubarray.java)
