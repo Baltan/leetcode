@@ -2192,6 +2192,7 @@
 * [3019. Number of Changing Keys](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountKeyChanges.java)
 * [3020. Find the Maximum Number of Elements in Subset](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength2.java)
 * [3021. Alice and Bob Playing Flower Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FlowerGame.java)
+* [3028. Ant on the Boundary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReturnToBoundaryCount.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
