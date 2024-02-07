@@ -2192,6 +2192,7 @@
 * [3019. Number of Changing Keys](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountKeyChanges.java)
 * [3020. Find the Maximum Number of Elements in Subset](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength2.java)
 * [3021. Alice and Bob Playing Flower Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FlowerGame.java)
+* [3024. Type of Triangle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TriangleType.java)
 * [3025. Find the Number of Ways to Place People I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs1.java)
 * [3026. Maximum Good Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSubarraySum1.java)
 * [3028. Ant on the Boundary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReturnToBoundaryCount.java)
