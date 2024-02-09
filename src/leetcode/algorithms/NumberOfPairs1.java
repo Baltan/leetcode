@@ -7,6 +7,7 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2024/2/4 21:53
+ * @see NumberOfPairs2
  */
 public class NumberOfPairs1 {
     public static void main(String[] args) {
@@ -41,23 +42,23 @@ public class NumberOfPairs1 {
             List<Integer> xList = entry.getValue();
             int rightmostX;
             /**
-             * 当前Chisato所在位置为(xList[i],entry.getKey())
+             * 当前Alice所在位置为(xList[i],entry.getKey())
              */
             for (int i = 0; i < xList.size(); i++) {
                 if (i + 1 == xList.size()) {
                     rightmostX = Integer.MAX_VALUE;
                 } else {
                     /**
-                     * 在(xList[i],entry.getKey())的右侧还有其他点，Takina可以安排在Chisato正右方的这个点上
+                     * 在(xList[i],entry.getKey())的右侧还有其他点，Bob可以安排在Alice正右方的这个点上
                      */
                     result++;
                     /**
-                     * Takina安排在y坐标小于entry.getKey()的点上时，x坐标不能大于rightmostX
+                     * Bob安排在y坐标小于entry.getKey()的点上时，x坐标不能大于rightmostX
                      */
                     rightmostX = xList.get(i + 1) - 1;
                 }
                 /**
-                 * 判断能否将Takina安排在y坐标为y的水平线上
+                 * 判断能否将Bob安排在y坐标为y的水平线上
                  */
                 int y = entry.getKey() - 1;
 
@@ -78,12 +79,12 @@ public class NumberOfPairs1 {
                     if (index != -1 && level.get(index) <= rightmostX) {
                         result++;
                         /**
-                         * Takina安排在y坐标小于ceilingEntry.getKey()的点上时，x坐标不能大于rightmostX
+                         * Bob安排在y坐标小于ceilingEntry.getKey()的点上时，x坐标不能大于rightmostX
                          */
                         rightmostX = level.get(index) - 1;
                     }
                     /**
-                     * 继续在y坐标更小的点集中查找能安排Takina的点
+                     * 继续在y坐标更小的点集中查找能安排Bob的点
                      */
                     y = ceilingEntry.getKey() - 1;
                 }
