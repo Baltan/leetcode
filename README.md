@@ -2195,6 +2195,7 @@
 * [3024. Type of Triangle II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TriangleType.java)
 * [3025. Find the Number of Ways to Place People I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs1.java)
 * [3026. Maximum Good Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSubarraySum1.java)
+* [3027. Find the Number of Ways to Place People II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs2.java)
 * [3028. Ant on the Boundary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReturnToBoundaryCount.java)
 * [3030. Find the Grid of Region Average](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultGrid.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
