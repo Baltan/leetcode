@@ -2197,6 +2197,7 @@
 * [3026. Maximum Good Subarray Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSubarraySum1.java)
 * [3027. Find the Number of Ways to Place People II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs2.java)
 * [3028. Ant on the Boundary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReturnToBoundaryCount.java)
+* [3029. Minimum Time to Revert Word to Initial State I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTimeToInitialState.java)
 * [3030. Find the Grid of Region Average](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultGrid.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
