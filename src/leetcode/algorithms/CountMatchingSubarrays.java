@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author baltan
  * @date 2024/2/19 09:37
+ * @see CountMatchingSubarrays1
  */
 public class CountMatchingSubarrays {
     public static void main(String[] args) {
