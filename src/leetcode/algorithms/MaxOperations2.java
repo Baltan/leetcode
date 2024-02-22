@@ -1,5 +1,7 @@
 package leetcode.algorithms;
 
+import java.util.Arrays;
+
 /**
  * Description: 3040. Maximum Number of Operations With the Same Score II
  *
@@ -15,31 +17,107 @@ public class MaxOperations2 {
         System.out.println(maxOperations(new int[]{3, 2, 6, 1, 4}));
     }
 
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/maximum-number-of-operations-with-the-same-score-ii/solutions/2643756/qu-jian-dp-de-tao-lu-pythonjavacgo-by-en-nynz/"></a>
+     *
+     * @param nums
+     * @return
+     */
     public static int maxOperations(int[] nums) {
         int result = 0;
         int length = nums.length;
-        result = Math.max(result, dfs(nums, 0, length - 1, nums[0] + nums[1]));
-        result = Math.max(result, dfs(nums, 0, length - 1, nums[length - 2] + nums[length - 1]));
-        result = Math.max(result, dfs(nums, 0, length - 1, nums[0] + nums[length - 1]));
+        /**
+         * memo[i][j]表示每次操作的分数都为指定的sum时，子数组nums[i……j]的最大操作次数
+         */
+        int[][] memo = initMemo(length);
+        /**
+         * 第一次操作删除数组nums最前面两个元素，则每次操作的分数为nums[0]+nums[1]
+         */
+        result = Math.max(result, dfs(nums, 0, length - 1, nums[0] + nums[1], memo));
+        /**
+         * memo[i][j]表示每次操作的分数都为指定的sum时，子数组nums[i……j]的最大操作次数
+         */
+        memo = initMemo(length);
+        /**
+         * 第一次操作删除数组nums最后面两个元素，则每次操作的分数为nums[length-2]+nums[length-1]
+         */
+        result = Math.max(result, dfs(nums, 0, length - 1, nums[length - 2] + nums[length - 1], memo));
+        /**
+         * memo[i][j]表示每次操作的分数都为指定的sum时，子数组nums[i……j]的最大操作次数
+         */
+        memo = initMemo(length);
+        /**
+         * 第一次操作删除数组nums第一个和最后一个元素，则每次操作的分数为nums[0]+nums[length-1]
+         */
+        result = Math.max(result, dfs(nums, 0, length - 1, nums[0] + nums[length - 1], memo));
         return result;
     }
 
-    public static int dfs(int[] nums, int start, int end, int sum) {
+    /**
+     * 初始化记忆化备忘录
+     *
+     * @param length
+     * @return
+     */
+    public static int[][] initMemo(int length) {
+        int[][] memo = new int[length][length];
+
+        for (int[] row : memo) {
+            Arrays.fill(row, -1);
+        }
+        return memo;
+    }
+
+    /**
+     * 递归计算每次操作的分数为sum时，子数组nums[start……end]的最大操作次数
+     *
+     * @param nums
+     * @param start
+     * @param end
+     * @param sum
+     * @param memo
+     * @return
+     */
+    public static int dfs(int[] nums, int start, int end, int sum, int[][] memo) {
+        /**
+         * 子数组中剩余的元素个数不足2个，不能继续执行删除操作
+         */
         if (start >= end) {
             return 0;
         }
+        /**
+         * 子数组中剩余的元素个数正好为2个，通过计算这两个元素的和来判断是否可以执行这次删除操作
+         */
+        if (end - start == 1) {
+            return nums[start] + nums[end] == sum ? 1 : 0;
+        }
         int result = 0;
-
+        /**
+         * 删除子数组nums[start……end]最前面两个元素
+         */
         if (nums[start] + nums[start + 1] == sum) {
-            result = Math.max(result, 1 + dfs(nums, start + 2, end, sum));
+            if (memo[start + 2][end] == -1) {
+                memo[start + 2][end] = dfs(nums, start + 2, end, sum, memo);
+            }
+            result = Math.max(result, 1 + memo[start + 2][end]);
         }
-
+        /**
+         * 删除子数组nums[start……end]最后面两个元素
+         */
         if (nums[end - 1] + nums[end] == sum) {
-            result = Math.max(result, 1 + dfs(nums, start, end - 2, sum));
+            if (memo[start][end - 2] == -1) {
+                memo[start][end - 2] = dfs(nums, start, end - 2, sum, memo);
+            }
+            result = Math.max(result, 1 + memo[start][end - 2]);
         }
-
+        /**
+         * 删除子数组nums[start……end]第一个和最后一个元素
+         */
         if (nums[start] + nums[end] == sum) {
-            result = Math.max(result, 1 + dfs(nums, start + 1, end - 1, sum));
+            if (memo[start + 1][end - 1] == -1) {
+                memo[start + 1][end - 1] = dfs(nums, start + 1, end - 1, sum, memo);
+            }
+            result = Math.max(result, 1 + memo[start + 1][end - 1]);
         }
         return result;
     }
