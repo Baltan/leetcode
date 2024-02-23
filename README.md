@@ -2199,6 +2199,7 @@
 * [3028. Ant on the Boundary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReturnToBoundaryCount.java)
 * [3029. Minimum Time to Revert Word to Initial State I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTimeToInitialState.java)
 * [3030. Find the Grid of Region Average](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultGrid.java)
+* [3033. Modify the Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ModifiedMatrix.java)
 * [3034. Number of Subarrays That Match a Pattern I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMatchingSubarrays.java)
 * [3035. Maximum Palindromes After Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPalindromesAfterOperations.java)
 * [3039. Apply Operations to Make String Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastNonEmptyString.java)
