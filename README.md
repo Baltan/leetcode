@@ -2202,6 +2202,7 @@
 * [3033. Modify the Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ModifiedMatrix.java)
 * [3034. Number of Subarrays That Match a Pattern I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMatchingSubarrays.java)
 * [3035. Maximum Palindromes After Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPalindromesAfterOperations.java)
+* [3038. Maximum Number of Operations With the Same Score I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations3.java)
 * [3039. Apply Operations to Make String Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastNonEmptyString.java)
 * [3040. Maximum Number of Operations With the Same Score II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations2.java)
 * [3043. Find the Length of the Longest Common Prefix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestCommonPrefix1.java)
