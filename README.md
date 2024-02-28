@@ -2205,6 +2205,7 @@
 * [3038. Maximum Number of Operations With the Same Score I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations3.java)
 * [3039. Apply Operations to Make String Empty](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LastNonEmptyString.java)
 * [3040. Maximum Number of Operations With the Same Score II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations2.java)
+* [3042. Count Prefix and Suffix Pairs I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPrefixSuffixPairs.java)
 * [3043. Find the Length of the Longest Common Prefix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestCommonPrefix1.java)
 * [3044. Most Frequent Prime](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostFrequentPrime.java)
 * [3047. Find the Largest Area of Square Inside Two Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSquareArea.java)
