@@ -9,6 +9,7 @@ import java.util.LinkedList;
  *
  * @author baltan
  * @date 2024/2/28 10:34
+ * @see EarliestSecondToMarkIndices1
  */
 public class EarliestSecondToMarkIndices {
     public static void main(String[] args) {
@@ -31,14 +32,13 @@ public class EarliestSecondToMarkIndices {
          */
         boolean[] mark = new boolean[nums.length];
         /**
-         * 通过逆序操作的思路，二分判断mid秒内，能否将数组nums中所有下标都标记，即对mid内的所有操作逆序执行，先标记下标，再对已标记下标的元
-         * 素进行减1操作
+         * 通过逆序操作的思路，二分判断mid秒内，能否将数组nums中所有元素都通过减1操作变为0后，再标记下标
          */
         outer:
         while (lo <= hi) {
             int mid = (lo + hi) / 2;
             /**
-             * 保存数组nums中需要被执行减1操作的元素的索引
+             * 保存数组nums中最终会被标记下标的元素的索引
              */
             Deque<Integer> marked = new LinkedList<>();
             Arrays.fill(decrement, 0);
@@ -53,7 +53,7 @@ public class EarliestSecondToMarkIndices {
                 if (!mark[changeIndex]) {
                     mark[changeIndex] = true;
                     /**
-                     * 元素nums[changeIndex]被标记下标后，后续还需要进行nums[changeIndex]次减1操作
+                     * 元素nums[changeIndex]被标记下标前，需要先进行减1操作
                      */
                     if (nums[changeIndex] > 0) {
                         marked.offerLast(changeIndex);
@@ -62,11 +62,11 @@ public class EarliestSecondToMarkIndices {
                     /**
                      * 对数组nums中的元素nums[recentIndex]进行减1操作，直到不需要再进行操作后，从队列中删除
                      */
-                    int recentIndex = marked.peekFirst();
+                    int recentIndex = marked.peekLast();
                     decrement[recentIndex]++;
 
                     if (decrement[recentIndex] == nums[recentIndex]) {
-                        marked.pollFirst();
+                        marked.pollLast();
                     }
                 }
             }
