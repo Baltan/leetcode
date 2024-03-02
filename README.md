@@ -2208,6 +2208,7 @@
 * [3042. Count Prefix and Suffix Pairs I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPrefixSuffixPairs.java)
 * [3043. Find the Length of the Longest Common Prefix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestCommonPrefix1.java)
 * [3044. Most Frequent Prime](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostFrequentPrime.java)
+* [3046. Split the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossibleToSplit.java)
 * [3047. Find the Largest Area of Square Inside Two Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSquareArea.java)
 * [3048. Earliest Second to Mark Indices I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestSecondToMarkIndices.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
