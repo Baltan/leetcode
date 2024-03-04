@@ -2211,6 +2211,7 @@
 * [3046. Split the Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossibleToSplit.java)
 * [3047. Find the Largest Area of Square Inside Two Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSquareArea.java)
 * [3048. Earliest Second to Mark Indices I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestSecondToMarkIndices.java)
+* [3049. Earliest Second to Mark Indices II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestSecondToMarkIndices1.java)
 * [3071. Minimum Operations to Write the Letter Y on a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperationsToWriteY.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
