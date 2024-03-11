@@ -31,54 +31,101 @@ public class EarliestSecondToMarkIndices1 {
      * @return
      */
     public static int earliestSecondToMarkIndices(int[] nums, int[] changeIndices) {
+        /**
+         * 如果只有一次操作机会，当且仅当数组nums为[0]时，可以标记数组nums中的所有下标
+         */
         if (changeIndices.length == 1) {
             return nums.length == 1 && nums[0] == 0 ? 1 : -1;
         }
         int result = Integer.MAX_VALUE;
         int lo = 1;
         int hi = changeIndices.length;
+        /**
+         * 标记数组nums中的所有下标需要的最大用时，即对每个非零元素都只执行减1操作，最后再执行标记操作
+         */
         long max = 0L;
+        /**
+         * firstIndex[i]表示数组changeIndices中第一次出现nums中的下标i+1的索引
+         */
         int[] firstIndex = new int[nums.length];
         Arrays.fill(firstIndex, -1);
 
         for (int i = changeIndices.length - 1; i >= 0; i--) {
+            /**
+             * 更新数组changeIndices中第一次出现nums中的下标changeIndices[i]的索引为i
+             */
             firstIndex[changeIndices[i] - 1] = i;
         }
 
         for (int num : nums) {
+            /**
+             * 对元素num执行num次减1操作，最后再执行一次标记操作
+             */
             max += (num + 1);
         }
-
+        /**
+         * 二分计算标记数组nums中的所有下标的最小用时
+         */
         while (lo <= hi) {
             int mid = (lo + hi) / 2;
+            /**
+             * 升序保存数组nums中被执行过设置成0操作的元素
+             */
             Queue<Integer> pq = new PriorityQueue<>();
+            /**
+             * 可用的操作次数
+             */
             int count = 0;
+            /**
+             * 还需要执行的操作次数
+             */
             long total = max;
 
             for (int i = mid - 1; i >= 0; i--) {
-                int numIndex = changeIndices[i] - 1;
                 /**
-                 * 第i秒的changeIndices[i]执行操作暂定
+                 * 如果需要，本次操作可以将nums[numIndex]设置成0
                  */
+                int numIndex = changeIndices[i] - 1;
+
                 if (nums[numIndex] <= 1 || i != firstIndex[numIndex]) {
+                    /**
+                     * 当前changeIndices[i]执行操作类型根据之前的操作暂定，将changeIndices[i]执行操作累计到后续可用的操作次数中
+                     */
                     count++;
                 } else if (count == 0) {
                     if (!pq.isEmpty() && pq.peek() < nums[numIndex]) {
+                        /**
+                         * 之前已被执行一次设置成0操作和标记下标操作的堆顶元素后续被修改为执行pq.poll()次减1操作和一次标记下标操作
+                         */
                         total += pq.poll() + 1;
                         count += 2;
+                        /**
+                         * 当前操作将元素nums[numIndex]变成0，再使用一次操作将其标记下标，并加入到优先队列中
+                         */
                         count--;
                         total -= nums[numIndex] + 1;
                         pq.offer(nums[numIndex]);
                     } else {
+                        /**
+                         * 当前changeIndices[i]执行操作类型根据之前的操作暂定，将changeIndices[i]执行操作累计到后续可用的操作次数中
+                         */
                         count++;
                     }
                 } else {
+                    /**
+                     * 当前操作将元素nums[numIndex]变成0，再使用一次操作将其标记下标
+                     */
                     count--;
+                    /**
+                     * 元素nums[numIndex]已被标记，后续不需要再执行nums[numIndex]次减1操作和一次标记下标操作，并加入到优先队列中
+                     */
                     total -= nums[numIndex] + 1;
                     pq.offer(nums[numIndex]);
                 }
             }
-
+            /**
+             * 如果可用操作次数不小于还需要执行的操作次数，则说明可以在mid秒内标记数组nums中的所有下标
+             */
             if (count >= total) {
                 result = mid;
                 hi = mid - 1;
