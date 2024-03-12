@@ -2212,6 +2212,7 @@
 * [3047. Find the Largest Area of Square Inside Two Rectangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestSquareArea.java)
 * [3048. Earliest Second to Mark Indices I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestSecondToMarkIndices.java)
 * [3049. Earliest Second to Mark Indices II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestSecondToMarkIndices1.java)
+* [3065. Minimum Operations to Exceed Threshold Value I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations20.java)
 * [3066. Minimum Operations to Exceed Threshold Value II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations19.java)
 * [3067. Count Pairs of Connectable Servers in a Weighted Tree Network](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairsOfConnectableServers.java)
 * [3069. Distribute Elements Into Two Arrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultArray.java)
