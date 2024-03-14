@@ -2218,6 +2218,7 @@
 * [3069. Distribute Elements Into Two Arrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultArray.java)
 * [3070. Count Submatrices with Top-Left Element and Sum Less Than k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubmatrices.java)
 * [3071. Minimum Operations to Write the Letter Y on a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperationsToWriteY.java)
+* [3075. Maximize Happiness of Selected Children](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumHappinessSum.java)
 * [3076. Shortest Uncommon Substring in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestSubstrings.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
