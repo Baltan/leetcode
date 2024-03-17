@@ -2221,6 +2221,7 @@
 * [3074. Apple Redistribution into Boxes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumBoxes.java)
 * [3075. Maximize Happiness of Selected Children](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumHappinessSum.java)
 * [3076. Shortest Uncommon Substring in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestSubstrings.java)
+* [3080. Mark Elements on Array by Performing Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UnmarkedSumArray.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
