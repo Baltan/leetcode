@@ -820,6 +820,7 @@
 * [990. Satisfiability of Equality Equations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EquationsPossible.java)
 * [990. Satisfiability of Equality Equations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EquationsPossible1.java)
 * [991. Broken Calculator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BrokenCalc.java)
+* [992. Subarrays with K Different Integers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarraysWithKDistinct.java)
 * [993. Cousins in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsCousins.java)
 * [994. Rotting Oranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OrangesRotting.java)
 * [995. Minimum Number of K Consecutive Bit Flips](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinKBitFlips.java)
