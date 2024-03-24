@@ -1745,6 +1745,7 @@
 * [2318. Number of Distinct Roll Sequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctSequences.java)
 * [2319. Check if Matrix Is X-Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckXMatrix.java)
 * [2320. Count Number of Ways to Place Houses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountHousePlacements.java)
+* [2321. Maximum Score Of Spliced Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumsSplicedArray.java)
 * [2325. Decode the Message](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DecodeMessage.java)
 * [2326. Spiral Matrix IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpiralMatrix.java)
 * [2327. Number of People Aware of a Secret](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PeopleAwareOfSecret.java)
