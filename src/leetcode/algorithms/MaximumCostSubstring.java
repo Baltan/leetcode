@@ -7,6 +7,7 @@ package leetcode.algorithms;
  * @date 2023/4/2 21:12
  * @see MaxSubArray
  * @see leetcode.interview.MaxSubArray
+ * @see MaximumsSplicedArray
  */
 public class MaximumCostSubstring {
     public static void main(String[] args) {
