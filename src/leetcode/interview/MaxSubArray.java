@@ -1,5 +1,7 @@
 package leetcode.interview;
 
+import leetcode.algorithms.MaximumsSplicedArray;
+
 /**
  * Description: 面试题 16.17. 连续数列
  *
@@ -7,6 +9,7 @@ package leetcode.interview;
  * @date 2020-04-08 21:40
  * @see leetcode.algorithms.MaxSubArray
  * @see leetcode.algorithms.MaximumCostSubstring
+ * @see MaximumsSplicedArray
  */
 public class MaxSubArray {
     public static void main(String[] args) {
