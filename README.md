@@ -2231,6 +2231,7 @@
 * [3085. Minimum Deletions to Make String K-Special](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDeletions2.java)
 * [3090. Maximum Length Substring With Two Occurrences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLengthSubstring.java)
 * [3091. Apply Operations to Make Sum of Array Greater Than or Equal to k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations21.java)
+* [3092. Most Frequent IDs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostFrequentIDs.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
