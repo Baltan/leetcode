@@ -2235,6 +2235,7 @@
 * [3095. Shortest Subarray With OR at Least K I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSubarrayLength1.java)
 * [3096. Minimum Levels to Gain More Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLevels.java)
 * [3097. Shortest Subarray With OR at Least K II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSubarrayLength.java)
+* [3100. Water Bottles II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxBottlesDrunk.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
