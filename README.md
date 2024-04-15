@@ -2242,6 +2242,7 @@
 * [3105. Longest Strictly Increasing or Strictly Decreasing Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestMonotonicSubarray.java)
 * [3106. Lexicographically Smallest String After Operations With Constraint](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString1.java)
 * [3107. Minimum Operations to Make Median of Array Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperationsToMakeMedianK.java)
+* [3111. Minimum Rectangles to Cover Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinRectanglesToCoverPoints.java)
 * [3112. Minimum Time to Visit Disappearing Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTime3.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
