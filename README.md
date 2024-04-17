@@ -2245,6 +2245,7 @@
 * [3110. Score of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ScoreOfString.java)
 * [3111. Minimum Rectangles to Cover Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinRectanglesToCoverPoints.java)
 * [3112. Minimum Time to Visit Disappearing Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTime3.java)
+* [3115. Maximum Prime Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPrimeDifference.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
