@@ -2247,6 +2247,7 @@
 * [3112. Minimum Time to Visit Disappearing Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTime3.java)
 * [3114. Latest Time You Can Obtain After Replacing Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLatestTime.java)
 * [3115. Maximum Prime Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPrimeDifference.java)
+* [3122. Minimum Number of Operations to Satisfy Conditions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations5.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
