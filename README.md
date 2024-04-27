@@ -1502,6 +1502,7 @@
 * [1945. Sum of Digits of String After Convert](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetLucky.java)
 * [1946. Largest Number After Mutating Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumNumber.java)
 * [1947. Maximum Compatibility Score Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxCompatibilitySum.java)
+* [1948. Delete Duplicate Folders in System](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteDuplicateFolder.java)
 * [1952. Three Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsThree.java)
 * [1953. Maximum Number of Weeks for Which You Can Work](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfWeeks.java)
 * [1954. Minimum Garden Perimeter to Collect Enough Apples](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPerimeter.java)
