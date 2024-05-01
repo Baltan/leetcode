@@ -2253,6 +2253,7 @@
 * [3122. Minimum Number of Operations to Satisfy Conditions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations5.java)
 * [3127. Make a Square with the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeSquare.java)
 * [3128. Right Triangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfRightTriangles.java)
+* [3129. Find All Possible Stable Binary Arrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfStableArrays.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
