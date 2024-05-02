@@ -7,6 +7,7 @@ import java.math.BigInteger;
  *
  * @author Baltan
  * @date 2024/4/29 22:16
+ * @see NumberOfStableArrays1
  */
 public class NumberOfStableArrays {
     public static void main(String[] args) {
