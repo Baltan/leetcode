@@ -2255,6 +2255,7 @@
 * [3128. Right Triangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfRightTriangles.java)
 * [3129. Find All Possible Stable Binary Arrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfStableArrays.java)
 * [3130. Find All Possible Stable Binary Arrays II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfStableArrays1.java)
+* [3131. Find the Integer Added to Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddedInteger.java)
 * [3133. Minimum Array End](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinEnd.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
