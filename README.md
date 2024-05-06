@@ -2258,6 +2258,7 @@
 * [3131. Find the Integer Added to Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AddedInteger.java)
 * [3132. Find the Integer Added to Array II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAddedInteger.java)
 * [3133. Minimum Array End](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinEnd.java)
+* [3137. Minimum Number of Operations to Make Word K-Periodic](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperationsToMakeKPeriodic.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
