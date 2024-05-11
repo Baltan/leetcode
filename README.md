@@ -1867,6 +1867,7 @@
 * [2502. Design Memory Allocator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Allocator.java)
 * [2506. Count Pairs Of Similar Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SimilarPairs.java)
 * [2507. Smallest Value After Replacing With Sum of Prime Factors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestValue.java)
+* [2509. Cycle Length Queries in a Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CycleLengthQueries.java)
 * [2511. Maximum Enemy Forts That Can Be Captured](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CaptureForts.java)
 * [2512. Reward Top K Students](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TopStudents.java)
 * [2513. Minimize the Maximum of Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeSet.java)
