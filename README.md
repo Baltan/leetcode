@@ -919,6 +919,7 @@
 * [1122. Relative Sort Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RelativeSortArray.java)
 * [1123. Lowest Common Ancestor of Deepest Leaves](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LcaDeepestLeaves.java)
 * [1124. Longest Well-Performing Interval](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestWPI.java)
+* [1125. Smallest Sufficient Team](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestSufficientTeam.java)
 * [1128. Number of Equivalent Domino Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumEquivDominoPairs.java)
 * [1129. Shortest Path with Alternating Colors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestAlternatingPaths.java)
 * [1130. Minimum Cost Tree From Leaf Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MctFromLeafValues.java)
