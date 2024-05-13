@@ -2265,6 +2265,8 @@
 * [3136. Valid Word](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValid2.java)
 * [3137. Minimum Number of Operations to Make Word K-Periodic](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperationsToMakeKPeriodic.java)
 * [3138. Minimum Length of Anagram Concatenation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAnagramLength.java)
+* [3143. Maximum Points Inside the Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPointsInsideSquare.java)
+* [3143. Maximum Points Inside the Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPointsInsideSquare1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
