@@ -2269,6 +2269,7 @@
 * [3143. Maximum Points Inside the Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPointsInsideSquare.java)
 * [3143. Maximum Points Inside the Square](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPointsInsideSquare1.java)
 * [3144. Minimum Substring Partition of Equal Character Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSubstringsInPartition.java)
+* [3147. Taking Maximum Energy From the Mystic Dungeon](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumEnergy.java)
 * [3148. Maximum Difference Score in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore6.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
