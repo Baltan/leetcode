@@ -2272,6 +2272,7 @@
 * [3146. Permutation Difference between Two Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPermutationDifference.java)
 * [3147. Taking Maximum Energy From the Mystic Dungeon](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumEnergy.java)
 * [3148. Maximum Difference Score in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore6.java)
+* [3151. Special Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsArraySpecial.java)
 * [3153. Sum of Digit Differences of All Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumDigitDifferences.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
