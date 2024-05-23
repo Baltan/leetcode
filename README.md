@@ -695,6 +695,7 @@
 * [853. Car Fleet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CarFleet.java)
 * [855. Exam Room](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExamRoom.java)
 * [856. Score of Parentheses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ScoreOfParentheses.java)
+* [857. Minimum Cost to Hire K Workers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MincostToHireWorkers.java)
 * [858. Mirror Reflection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MirrorReflection.java)
 * [859. Buddy Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BuddyStrings.java)
 * [860. Lemonade Change](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LemonadeChange.java)
