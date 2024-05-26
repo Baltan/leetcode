@@ -2224,6 +2224,7 @@
 * [3065. Minimum Operations to Exceed Threshold Value I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations20.java)
 * [3066. Minimum Operations to Exceed Threshold Value II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations19.java)
 * [3067. Count Pairs of Connectable Servers in a Weighted Tree Network](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairsOfConnectableServers.java)
+* [3068. Find the Maximum Sum of Node Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumValueSum.java)
 * [3069. Distribute Elements Into Two Arrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultArray.java)
 * [3070. Count Submatrices with Top-Left Element and Sum Less Than k](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubmatrices.java)
 * [3071. Minimum Operations to Write the Letter Y on a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperationsToWriteY.java)
