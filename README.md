@@ -2277,6 +2277,7 @@
 * [3151. Special Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsArraySpecial.java)
 * [3152. Special Array II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsArraySpecial1.java)
 * [3153. Sum of Digit Differences of All Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumDigitDifferences.java)
+* [3158. Find the XOR of Numbers Which Appear Twice](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DuplicateNumbersXOR.java)
 * [3159. Find Occurrences of an Element in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OccurrencesOfElement.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
