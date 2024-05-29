@@ -20,21 +20,34 @@ public class QueryResults {
 
     public static int[] queryResults(int limit, int[][] queries) {
         int[] result = new int[queries.length];
-        Map<Integer, Integer> ballMap = new HashMap<>((int) (limit / 0.75 + 1));
-        Map<Integer, Integer> colorMap = new HashMap<>((int) (limit / 0.75 + 1));
+        /**
+         * 球的编号 -> 球的颜色
+         */
+        Map<Integer, Integer> ballMap = new HashMap<>((int) (queries.length/ 0.75 + 1));
+        /**
+         * 颜色i -> 本轮涂色后颜色为i的球的个数
+         */
+        Map<Integer, Integer> colorMap = new HashMap<>((int) (queries.length / 0.75 + 1));
 
         for (int i = 0; i < queries.length; i++) {
             int ball = queries[i][0];
             int color = queries[i][1];
 
             if (ballMap.containsKey(ball)) {
+                /**
+                 * 本轮涂色前球的颜色
+                 */
                 int oldColor = ballMap.get(ball);
-
+                /**
+                 * 如果本轮涂色和球之前的颜色不同，则会发生变化
+                 */
                 if (color != oldColor) {
                     int oldColorCount = colorMap.get(oldColor);
                     ballMap.put(ball, color);
                     colorMap.put(color, colorMap.getOrDefault(color, 0) + 1);
-
+                    /**
+                     * 更新颜色为oldColor的球的个数
+                     */
                     if (oldColorCount == 1) {
                         colorMap.remove(oldColor);
                     } else {
