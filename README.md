@@ -2280,6 +2280,7 @@
 * [3158. Find the XOR of Numbers Which Appear Twice](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DuplicateNumbersXOR.java)
 * [3159. Find Occurrences of an Element in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OccurrencesOfElement.java)
 * [3160. Find the Number of Distinct Colors Among the Balls](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/QueryResults.java)
+* [3162. Find the Number of Good Pairs I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs3.java)
 * [3163. String Compression III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CompressedString.java)
 * [3164. Find the Number of Good Pairs II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs4.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
