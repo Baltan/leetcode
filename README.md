@@ -2283,6 +2283,7 @@
 * [3162. Find the Number of Good Pairs I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs3.java)
 * [3163. String Compression III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CompressedString.java)
 * [3164. Find the Number of Good Pairs II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfPairs4.java)
+* [3168. Minimum Number of Chairs in a Waiting Room](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumChairs.java)
 * [3169. Count Days Without Meetings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDays.java)
 * [3170. Lexicographically Minimum String After Removing Stars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClearStars.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
