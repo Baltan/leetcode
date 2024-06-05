@@ -2257,6 +2257,7 @@
 * [3120. Count the Number of Special Characters I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSpecialChars.java)
 * [3121. Count the Number of Special Characters II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSpecialChars1.java)
 * [3122. Minimum Number of Operations to Satisfy Conditions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations5.java)
+* [3123. Find Edges in Shortest Paths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindAnswer.java)
 * [3127. Make a Square with the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeSquare.java)
 * [3128. Right Triangles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfRightTriangles.java)
 * [3129. Find All Possible Stable Binary Arrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfStableArrays.java)
