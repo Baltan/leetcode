@@ -1186,6 +1186,7 @@
 * [1475. Final Prices With a Special Discount in a Shop](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FinalPrices.java)
 * [1476. Subrectangle Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubrectangleQueries.java)
 * [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSumOfLengths.java)
+* [1478. Allocate Mailboxes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDistance2.java)
 * [1480. Running Sum of 1d Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RunningSum.java)
 * [1481. Least Number of Unique Integers after K Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLeastNumOfUniqueInts.java)
 * [1482. Minimum Number of Days to Make m Bouquets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDays.java)
