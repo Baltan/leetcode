@@ -23,37 +23,46 @@ public class GetCollisionTimes {
 
     public static double[] getCollisionTimes(int[][] cars) {
         double[] result = new double[cars.length];
-        List<double[]> speeds = new ArrayList<>();
-        speeds.add(new double[]{0, cars[cars.length - 1][1]});
+        List<Double> times = new ArrayList<>();
+        List<Integer> speeds = new ArrayList<>();
+        times.add(0d);
+        speeds.add(cars[cars.length - 1][1]);
         result[cars.length - 1] = -1;
         outer:
         for (int i = cars.length - 2; i >= 0; i--) {
             double diff = cars[i + 1][0] - cars[i][0];
-            List<double[]> currSpeeds = new ArrayList<>();
-            currSpeeds.add(new double[]{0, cars[i][1]});
+            List<Double> currTimes = new ArrayList<>();
+            List<Integer> currSpeeds = new ArrayList<>();
+            currTimes.add(0d);
+            currSpeeds.add(cars[i][1]);
 
             for (int j = 0; j < speeds.size(); j++) {
                 if (j + 1 == speeds.size()) {
-                    if (cars[i][1] <= speeds.get(j)[1]) {
+                    if (cars[i][1] <= speeds.get(j)) {
                         result[i] = -1;
                     } else {
-                        result[i] = speeds.get(j)[0] + diff / (cars[i][1] - speeds.get(j)[1]);
-                        currSpeeds.add(new double[]{result[i], speeds.get(j)[1]});
+                        result[i] = times.get(j) + diff / (cars[i][1] - speeds.get(j));
+                        currTimes.add(result[i]);
+                        currSpeeds.add(speeds.get(j));
                     }
+                    times = currTimes;
                     speeds = currSpeeds;
                     continue outer;
                 } else {
-                    if ((cars[i][1] - speeds.get(j)[1]) * (speeds.get(j + 1)[0] - speeds.get(j)[0]) >= diff) {
-                        result[i] = speeds.get(j)[0] + diff / (cars[i][1] - speeds.get(j)[1]);
-                        currSpeeds.add(new double[]{result[i], speeds.get(j)[1]});
+                    if ((cars[i][1] - speeds.get(j)) * (times.get(j + 1) - times.get(j)) >= diff) {
+                        result[i] = times.get(j) + diff / (cars[i][1] - speeds.get(j));
+                        currTimes.add(result[i]);
+                        currSpeeds.add(speeds.get(j));
 
                         for (int k = j + 1; k < speeds.size(); k++) {
+                            currTimes.add(times.get(k));
                             currSpeeds.add(speeds.get(k));
                         }
+                        times = currTimes;
                         speeds = currSpeeds;
                         continue outer;
                     } else {
-                        diff = diff + (speeds.get(j)[1] - cars[i][1]) * (speeds.get(j + 1)[0] - speeds.get(j)[0]);
+                        diff = diff + (speeds.get(j) - cars[i][1]) * (times.get(j + 1) - times.get(j));
                     }
                 }
             }
