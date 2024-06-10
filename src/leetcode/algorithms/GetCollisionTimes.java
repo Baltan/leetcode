@@ -23,25 +23,57 @@ public class GetCollisionTimes {
 
     public static double[] getCollisionTimes(int[][] cars) {
         double[] result = new double[cars.length];
+        /**
+         * times[i]和speeds[i]一一对应，依次表示某一辆车右边的车在times[i]时刻开始以速度speeds[i]行驶
+         */
         List<Double> times = new ArrayList<>();
         List<Integer> speeds = new ArrayList<>();
+        /**
+         * 开始时刻，最右边的车的初始速度
+         */
         times.add(0d);
         speeds.add(cars[cars.length - 1][1]);
         result[cars.length - 1] = -1;
+        /**
+         * 从最右侧倒数第二辆车开始计算，依次判断这辆车能否追上更右边相邻的那辆车
+         */
         outer:
         for (int i = cars.length - 2; i >= 0; i--) {
+            /**
+             * cars[i]和更右边相邻的cars[i+1]的初始距离
+             */
             double diff = cars[i + 1][0] - cars[i][0];
+            /**
+             * currTimes[x]和currTimes[x]一一对应，依次表示cars[i]在currTimes[x]时刻开始以速度currTimes[x]行驶
+             */
             List<Double> currTimes = new ArrayList<>();
             List<Integer> currSpeeds = new ArrayList<>();
+            /**
+             * 开始时刻，cars[i]的初始速度
+             */
             currTimes.add(0d);
             currSpeeds.add(cars[i][1]);
 
             for (int j = 0; j < speeds.size(); j++) {
+                /**
+                 * 右车cars[i+1]最终的车速
+                 */
                 if (j + 1 == speeds.size()) {
                     if (cars[i][1] <= speeds.get(j)) {
+                        /**
+                         * 如果cars[i]当前速度不大于右车cars[i+1]最终的车速，则永远不可能追上
+                         */
                         result[i] = -1;
                     } else {
+                        /**
+                         * cars[i]追上cars[i+1]需要消耗的时间为diff/(cars[i][1]-speeds[j])，并且这是从cars[i+1]在times[i]时刻开
+                         * 始以最终车速speeds[j]行驶开始算起，所以cars[i]追上cars[i+1]的总耗时为diff/(cars[i][1]-speeds[j])+
+                         * times[i]
+                         */
                         result[i] = times.get(j) + diff / (cars[i][1] - speeds.get(j));
+                        /**
+                         * cars[i]追上cars[i+1]后同样开始以速度speeds[j]行驶
+                         */
                         currTimes.add(result[i]);
                         currSpeeds.add(speeds.get(j));
                     }
@@ -49,11 +81,23 @@ public class GetCollisionTimes {
                     speeds = currSpeeds;
                     continue outer;
                 } else {
+                    /**
+                     * cars[i+1]从时刻times[j]开始以速度speeds[j]行驶，直到时刻times[j+1]切换为另一个速度。在这段时间内，cars[i]可
+                     * 以比cars[i+1]多行驶的距离为(cars[i][1]-speeds[j])*(times[j+1]-times[j])。如果这段距离不小于diff，则说明
+                     * cars[i]可以在这段时间内追上cars[i+1]，追上的耗时为diff/(cars[i][1]-speeds[j])，并且这是从cars[i+1]在
+                     * times[i]时刻开始以最终车速speeds[j]行驶开始算起，所以cars[i]追上cars[i+1]的总耗时为
+                     * diff/(cars[i][1]-speeds[j])+times[i]
+                     */
                     if ((cars[i][1] - speeds.get(j)) * (times.get(j + 1) - times.get(j)) >= diff) {
                         result[i] = times.get(j) + diff / (cars[i][1] - speeds.get(j));
+                        /**
+                         * cars[i]追上cars[i+1]后同样开始以速度speeds[j]行驶
+                         */
                         currTimes.add(result[i]);
                         currSpeeds.add(speeds.get(j));
-
+                        /**
+                         * cars[i]追上cars[i+1]后的行驶速度情况和cars[i+1]的行驶速度完全一致
+                         */
                         for (int k = j + 1; k < speeds.size(); k++) {
                             currTimes.add(times.get(k));
                             currSpeeds.add(speeds.get(k));
@@ -62,6 +106,10 @@ public class GetCollisionTimes {
                         speeds = currSpeeds;
                         continue outer;
                     } else {
+                        /**
+                         * 在times[j+1]-times[j]这段时间内，cars[i]无法追上cars[i+1]，但是可以将距离缩短(cars[i][1]-speeds[j])*
+                         * (times[j+1]-times[j])
+                         */
                         diff = diff + (speeds.get(j) - cars[i][1]) * (times.get(j + 1) - times.get(j));
                     }
                 }
