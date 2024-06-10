@@ -1393,6 +1393,7 @@
 * [1773. Count Items Matching a Rule](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMatches.java)
 * [1774. Closest Dessert Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClosestCost.java)
 * [1775. Equal Sum Arrays With Minimum Number of Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations5.java)
+* [1776. Car Fleet II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetCollisionTimes.java)
 * [1779. Find Nearest Point That Has the Same X or Y Coordinate](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NearestValidPoint.java)
 * [1780. Check if Number is a Sum of Powers of Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPowersOfThree.java)
 * [1781. Sum of Beauty of All Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautySum.java)
