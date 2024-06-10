@@ -2,8 +2,8 @@ package leetcode.algorithms;
 
 import leetcode.util.OutputUtils;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 /**
  * Description: 1776. Car Fleet II
@@ -21,99 +21,54 @@ public class GetCollisionTimes {
         OutputUtils.print1DDouleArray(getCollisionTimes(new int[][]{{3, 4}, {5, 4}, {6, 3}, {9, 1}}));
     }
 
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/car-fleet-ii/solutions/625661/che-dui-ii-si-lu-tui-dao-zhan-de-ying-yo-jqym/"></a>
+     *
+     * @param cars
+     * @return
+     */
     public static double[] getCollisionTimes(int[][] cars) {
         double[] result = new double[cars.length];
         /**
-         * times[i]和speeds[i]一一对应，依次表示某一辆车右边的车在times[i]时刻开始以速度speeds[i]行驶
+         * deque保存某一辆车右边被追上的车队中限制速度的那辆车（即车队中最右边的车）的索引值
          */
-        List<Double> times = new ArrayList<>();
-        List<Integer> speeds = new ArrayList<>();
-        /**
-         * 开始时刻，最右边的车的初始速度
-         */
-        times.add(0d);
-        speeds.add(cars[cars.length - 1][1]);
+        Deque<Integer> deque = new ArrayDeque<>();
+        deque.offerLast(cars.length - 1);
         result[cars.length - 1] = -1;
-        /**
-         * 从最右侧倒数第二辆车开始计算，依次判断这辆车能否追上更右边相邻的那辆车
-         */
-        outer:
-        for (int i = cars.length - 2; i >= 0; i--) {
-            /**
-             * cars[i]和更右边相邻的cars[i+1]的初始距离
-             */
-            double diff = cars[i + 1][0] - cars[i][0];
-            /**
-             * currTimes[x]和currTimes[x]一一对应，依次表示cars[i]在currTimes[x]时刻开始以速度currTimes[x]行驶
-             */
-            List<Double> currTimes = new ArrayList<>();
-            List<Integer> currSpeeds = new ArrayList<>();
-            /**
-             * 开始时刻，cars[i]的初始速度
-             */
-            currTimes.add(0d);
-            currSpeeds.add(cars[i][1]);
 
-            for (int j = 0; j < speeds.size(); j++) {
+        for (int i = cars.length - 2; i >= 0; i--) {
+            while (!deque.isEmpty()) {
                 /**
-                 * 右车cars[i+1]最终的车速
+                 * 当前车cars[i]的速度cars[i][1]不大于右边第一个车队的速度cars[deque.peekLast()][1]，则cars[i]无法追上右边的车队，
+                 * 同样，这些车队也不可能被cars[i]左边的车追上，直接将车队出栈
                  */
-                if (j + 1 == speeds.size()) {
-                    if (cars[i][1] <= speeds.get(j)) {
+                if (cars[i][1] <= cars[deque.peekLast()][1] ||
                         /**
-                         * 如果cars[i]当前速度不大于右车cars[i+1]最终的车速，则永远不可能追上
+                         * 当前车cars[i]追上右边第一个车队的耗时为(cars[deque.peekLast()][0]-cars[i][0])/
+                         * (cars[i][1]-cars[deque.peekLast()][1])，而右边第一个车队在这段时间内，已经先追上了更右边的车队。所以当前
+                         * 车cars[i]实际追上的可以视作是更右边的车队
                          */
-                        result[i] = -1;
-                    } else {
-                        /**
-                         * cars[i]追上cars[i+1]需要消耗的时间为diff/(cars[i][1]-speeds[j])，并且这是从cars[i+1]在times[i]时刻开
-                         * 始以最终车速speeds[j]行驶开始算起，所以cars[i]追上cars[i+1]的总耗时为diff/(cars[i][1]-speeds[j])+
-                         * times[i]
-                         */
-                        result[i] = times.get(j) + diff / (cars[i][1] - speeds.get(j));
-                        /**
-                         * cars[i]追上cars[i+1]后同样开始以速度speeds[j]行驶
-                         */
-                        currTimes.add(result[i]);
-                        currSpeeds.add(speeds.get(j));
-                    }
-                    times = currTimes;
-                    speeds = currSpeeds;
-                    continue outer;
+                        (result[deque.peekLast()] != -1 && (double) (cars[deque.peekLast()][0] - cars[i][0]) / (cars[i][1] - cars[deque.peekLast()][1]) > result[deque.peekLast()])) {
+                    deque.pollLast();
                 } else {
                     /**
-                     * cars[i+1]从时刻times[j]开始以速度speeds[j]行驶，直到时刻times[j+1]切换为另一个速度。在这段时间内，cars[i]可
-                     * 以比cars[i+1]多行驶的距离为(cars[i][1]-speeds[j])*(times[j+1]-times[j])。如果这段距离不小于diff，则说明
-                     * cars[i]可以在这段时间内追上cars[i+1]，追上的耗时为diff/(cars[i][1]-speeds[j])，并且这是从cars[i+1]在
-                     * times[i]时刻开始以最终车速speeds[j]行驶开始算起，所以cars[i]追上cars[i+1]的总耗时为
-                     * diff/(cars[i][1]-speeds[j])+times[i]
+                     * 当前车cars[i]追上右边第一个车队后，车队速度可能继续影响更左边的车，所以在单调栈中保留车队
                      */
-                    if ((cars[i][1] - speeds.get(j)) * (times.get(j + 1) - times.get(j)) >= diff) {
-                        result[i] = times.get(j) + diff / (cars[i][1] - speeds.get(j));
-                        /**
-                         * cars[i]追上cars[i+1]后同样开始以速度speeds[j]行驶
-                         */
-                        currTimes.add(result[i]);
-                        currSpeeds.add(speeds.get(j));
-                        /**
-                         * cars[i]追上cars[i+1]后的行驶速度情况和cars[i+1]的行驶速度完全一致
-                         */
-                        for (int k = j + 1; k < speeds.size(); k++) {
-                            currTimes.add(times.get(k));
-                            currSpeeds.add(speeds.get(k));
-                        }
-                        times = currTimes;
-                        speeds = currSpeeds;
-                        continue outer;
-                    } else {
-                        /**
-                         * 在times[j+1]-times[j]这段时间内，cars[i]无法追上cars[i+1]，但是可以将距离缩短(cars[i][1]-speeds[j])*
-                         * (times[j+1]-times[j])
-                         */
-                        diff = diff + (speeds.get(j) - cars[i][1]) * (times.get(j + 1) - times.get(j));
-                    }
+                    break;
                 }
             }
+            /**
+             * 计算当前车cars[i]追上右边第一个车队的耗时
+             */
+            if (!deque.isEmpty()) {
+                result[i] = (double) (cars[deque.peekLast()][0] - cars[i][0]) / (cars[i][1] - cars[deque.peekLast()][1]);
+            } else {
+                result[i] = -1;
+            }
+            /**
+             * 当前车cars[i]可能会在追上右边第一个车队前先被更左边的车追上，从而影响更左边的车的速度，所以要将当前车入栈
+             */
+            deque.offerLast(i);
         }
         return result;
     }
