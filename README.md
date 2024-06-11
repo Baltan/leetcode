@@ -2289,6 +2289,7 @@
 * [3168. Minimum Number of Chairs in a Waiting Room](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumChairs.java)
 * [3169. Count Days Without Meetings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDays.java)
 * [3170. Lexicographically Minimum String After Removing Stars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClearStars.java)
+* [3174. Clear Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClearDigits.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
