@@ -2294,6 +2294,7 @@
 * [3176. Find the Maximum Length of a Good Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength3.java)
 * [3178. Find the Child Who Has the Ball After K Seconds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfChild.java)
 * [3179. Find the N-th Value After K Seconds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValueAfterKSeconds.java)
+* [3180. Maximum Total Reward Using Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTotalReward.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
