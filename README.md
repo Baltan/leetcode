@@ -2292,6 +2292,7 @@
 * [3174. Clear Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClearDigits.java)
 * [3175. Find The First Player to win K Games in a Row](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindWinningPlayer.java)
 * [3176. Find the Maximum Length of a Good Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength3.java)
+* [3177. Find the Maximum Length of a Good Subsequence II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength4.java)
 * [3178. Find the Child Who Has the Ball After K Seconds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfChild.java)
 * [3179. Find the N-th Value After K Seconds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValueAfterKSeconds.java)
 * [3180. Maximum Total Reward Using Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTotalReward.java)
