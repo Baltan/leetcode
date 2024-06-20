@@ -1,6 +1,8 @@
 package leetcode.algorithms;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Description: 3177. Find the Maximum Length of a Good Subsequence II
@@ -18,61 +20,79 @@ public class MaximumLength4 {
         System.out.println(maximumLength(new int[]{1, 2, 3, 4, 5, 1}, 0));
     }
 
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/find-the-maximum-length-of-a-good-subsequence-ii/solutions/2805263/dong-tai-gui-hua-you-hua-pythonjavacgo-b-jqn2/"></a>
+     *
+     * @param nums
+     * @param k
+     * @return
+     */
     public static int maximumLength(int[] nums, int k) {
-        int result = 1;
         /**
-         * dp[i][j]表示以nums[i-1]结尾，并且存在j对不同相邻元素的好序列的最大长度
+         * 数组nums中的数字num -> 以数字num结尾，包含[0,k]对不同相邻数字的子序列的最大长度
          */
-        int[][] dp = new int[nums.length + 1][k + 1];
-        /**
-         * 初始化假设所有情况下的子序列都不存在
-         */
-        for (int i = 0; i <= nums.length; i++) {
-            Arrays.fill(dp[i], -1);
-        }
-        /**
-         * 一个空序列中，有0对不同相邻元素，是一个好序列
-         */
-        dp[0][0] = 0;
+        Map<Integer, int[]> map = new HashMap<>();
+        SubsequenceCondition[] subsequenceConditions = new SubsequenceCondition[k + 1];
+        Arrays.setAll(subsequenceConditions, i -> new SubsequenceCondition());
 
-        for (int i = 1; i <= nums.length; i++) {
+        for (int num : nums) {
+            int[] subsequenceLengths = map.computeIfAbsent(num, i -> new int[k + 1]);
             /**
-             * 元素nums[i-1]自身作为一个长度为1的序列，有0对不同相邻元素，是一个好序列
+             * 如果选择数字num作为子序列的最后一个数字，则对于原来的以数字num结尾，包含i对不同相邻数字且长度为x的子序列而言，会相对应地变为
+             * 以数字num结尾，包含i对不同相邻数字且长度为x+1的子序列
              */
-            dp[i][0] = 1;
+            for (int i = k; i >= 0; i--) {
+                subsequenceLengths[i]++;
 
-            for (int j = 1; j < i; j++) {
-                /**
-                 * 如果nums[i-1]和nums[j-1]相等，并且存在以nums[j-1]结尾的有0对不同相邻元素的好序列，则以nums[i-1]结尾的有0对不同相
-                 * 邻元素的好序列的最大长度是前者的最大长度加1
-                 */
-                if (nums[i - 1] == nums[j - 1] && dp[j][0] != -1) {
-                    dp[i][0] = dp[j][0] + 1;
-                    result = Math.max(result, dp[i][0]);
+                if (i > 0) {
+                    int maxLength = subsequenceConditions[i - 1].maxSubsequenceLength;
+                    int secondMaxLength = subsequenceConditions[i - 1].secondMaxSubsequenceLength;
+                    int maxLengthNum = subsequenceConditions[i - 1].longestSubsequenceLastNum;
+                    subsequenceLengths[i] = Math.max(subsequenceLengths[i], (num != maxLengthNum ? maxLength : secondMaxLength) + 1);
                 }
                 /**
-                 * 计算以nums[i-1]结尾的有l对不同相邻元素的好序列的情况
+                 * 以数字num结尾，包含i对不同相邻数字的子序列的最大长度
                  */
-                for (int l = 1; l <= k; l++) {
-                    /**
-                     * 如果nums[i-1]和nums[j-1]相等，并且存在以nums[j-1]结尾的有l对不同相邻元素的好序列，则以nums[i-1]结尾的有l对不
-                     * 同相邻元素的好序列的最大长度是前者的最大长度加1
-                     */
-                    if (nums[i - 1] == nums[j - 1] && dp[j][l] != -1) {
-                        dp[i][l] = Math.max(dp[i][l], dp[j][l] + 1);
-                        result = Math.max(result, dp[i][l]);
+                int subsequenceLength = subsequenceLengths[i];
+                /**
+                 * 包含i对不同相邻数字的子序列的各种情况参数
+                 */
+                SubsequenceCondition subsequenceCondition = subsequenceConditions[i];
+                /**
+                 * 当前得到的以数字num结尾，包含i对不同相邻数字的子序列的最大长度大于此前已有的包含i对不同相邻数字的子序列的最大长度
+                 */
+                if (subsequenceLength > subsequenceCondition.maxSubsequenceLength) {
+                    if (num != subsequenceCondition.longestSubsequenceLastNum) {
+                        subsequenceCondition.longestSubsequenceLastNum = num;
+                        subsequenceCondition.secondMaxSubsequenceLength = subsequenceCondition.maxSubsequenceLength;
                     }
+                    subsequenceCondition.maxSubsequenceLength = subsequenceLength;
                     /**
-                     * 如果nums[i-1]和nums[j-1]不相等，并且存在以nums[j-1]结尾的有l-1对不同相邻元素的好序列，则以nums[i-1]结尾的有l
-                     * 对不同相邻元素的好序列的最大长度是前者的最大长度加1
+                     * 当前得到的以数字num结尾，包含i对不同相邻数字的子序列的最大长度大于此前已有的包含i对不同相邻数字的子序列的第二大长度
                      */
-                    if (nums[i - 1] != nums[j - 1] && dp[j][l - 1] != -1) {
-                        dp[i][l] = Math.max(dp[i][l], dp[j][l - 1] + 1);
-                        result = Math.max(result, dp[i][l]);
-                    }
+                } else if (num != subsequenceCondition.longestSubsequenceLastNum && subsequenceLength > subsequenceCondition.secondMaxSubsequenceLength) {
+                    subsequenceCondition.secondMaxSubsequenceLength = subsequenceLength;
                 }
             }
         }
-        return result;
+        return subsequenceConditions[k].maxSubsequenceLength;
+    }
+
+    /**
+     * 包含指定数量不同相邻数字的子序列的各种情况参数
+     */
+    public static class SubsequenceCondition {
+        /**
+         * 可能的最大长度的子序列的最后一个数字
+         */
+        private int longestSubsequenceLastNum;
+        /**
+         * 可能的子序列的最大长度
+         */
+        private int maxSubsequenceLength;
+        /**
+         * 可能的子序列的第二大长度
+         */
+        private int secondMaxSubsequenceLength;
     }
 }
