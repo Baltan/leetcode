@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2024/6/16 14:14
+ * @see MaxTotalReward1
  */
 public class MaxTotalReward {
     public static void main(String[] args) {
