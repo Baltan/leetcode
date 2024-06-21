@@ -2289,6 +2289,7 @@
 * [3168. Minimum Number of Chairs in a Waiting Room](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumChairs.java)
 * [3169. Count Days Without Meetings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDays.java)
 * [3170. Lexicographically Minimum String After Removing Stars](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClearStars.java)
+* [3171. Find Subarray With Bitwise OR Closest to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDifference2.java)
 * [3174. Clear Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClearDigits.java)
 * [3175. Find The First Player to win K Games in a Row](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindWinningPlayer.java)
 * [3176. Find the Maximum Length of a Good Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength3.java)
