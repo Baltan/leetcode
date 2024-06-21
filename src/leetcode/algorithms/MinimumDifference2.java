@@ -8,12 +8,16 @@ package leetcode.algorithms;
  */
 public class MinimumDifference2 {
     public static void main(String[] args) {
+        System.out.println(minimumDifference(new int[]{6}, 2));
         System.out.println(minimumDifference(new int[]{1, 3, 1, 3}, 2));
         System.out.println(minimumDifference(new int[]{1, 2, 4, 5}, 3));
         System.out.println(minimumDifference(new int[]{1}, 10));
     }
 
     public static int minimumDifference(int[] nums, int k) {
+        /**
+         * 子数组中只有数字nums[0]，并且|k-nums[0]|为0，不可能令|k-or|得到更小的结果
+         */
         if (nums[0] == k) {
             return 0;
         }
@@ -42,11 +46,11 @@ public class MinimumDifference2 {
             bitIndex++;
         }
         /**
-         * 通过滑动窗口调整子数组中的数字，如果子数组中所有数字按位或的值or小于k，则扩展子数组；如果子数组中所有数字按位或的值or大于k，则缩小
-         * 子数组（因为或运算总是使得结果非减）
+         * 通过滑动窗口调整子数组中的数字，如果子数组为空数组或者子数组中所有数字按位或的值or小于k，则扩展子数组；如果子数组中所有数字按位或
+         * 的值or大于k，则缩小子数组（因为或运算总是使得结果非减）
          */
         while (hi < nums.length) {
-            if (or < k) {
+            if (or < k || lo == hi) {
                 if (hi + 1 < nums.length) {
                     /**
                      * 子数组中增加数字nums[hi+1]
