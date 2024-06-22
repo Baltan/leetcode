@@ -2297,6 +2297,7 @@
 * [3178. Find the Child Who Has the Ball After K Seconds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfChild.java)
 * [3179. Find the N-th Value After K Seconds](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValueAfterKSeconds.java)
 * [3180. Maximum Total Reward Using Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTotalReward.java)
+* [3181. Maximum Total Reward Using Operations II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTotalReward1.java)
 * [3184. Count Pairs That Form a Complete Day I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCompleteDayPairs.java)
 * [3185. Count Pairs That Form a Complete Day II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCompleteDayPairs1.java)
 * [3186. Maximum Total Damage With Spell Casting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTotalDamage.java)
