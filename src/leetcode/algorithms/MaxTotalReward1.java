@@ -70,10 +70,17 @@ public class MaxTotalReward1 {
          * 二进制值的第0位置为1，即初始化conditions为1
          */
         BigInteger conditions = BigInteger.ONE;
-
+        /**
+         * 对于当前数字value，如果不选，则之前可能得到的总奖励仍然可以得到，即仍能得到conditions的情况；如果选择，则可以在之前[0,value-1]
+         * 的总奖励的基础上加上value，即将conditions二进制值的最低value位左移value位。两种情况进行按位或运算合并后即数字value之后可能得
+         * 到的所有总奖励的情况
+         */
         for (int value : values) {
             conditions = conditions.or(conditions.subtract(conditions.shiftRight(value).shiftLeft(value)).shiftLeft(value));
         }
+        /**
+         * conditions的二进制值最高位的1所在的索引即为最大总奖励
+         */
         return conditions.bitLength() - 1;
     }
 }
