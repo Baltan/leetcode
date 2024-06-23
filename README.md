@@ -98,6 +98,7 @@
 * [84. Largest Rectangle in Histogram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestRectangleArea1.java)
 * [86. Partition List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Partition.java)
 * [86. Partition List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Partition3.java)
+* [87. Scramble String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsScramble.java)
 * [88. Merge Sorted Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Merge.java)
 * [89. Gray Code](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GrayCode.java)
 * [90. Subsets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubsetsWithDup.java)
