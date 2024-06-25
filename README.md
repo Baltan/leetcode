@@ -2303,6 +2303,7 @@
 * [3185. Count Pairs That Form a Complete Day II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCompleteDayPairs1.java)
 * [3186. Maximum Total Damage With Spell Casting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTotalDamage.java)
 * [3190. Find Minimum Operations to Make All Elements Divisible by Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations6.java)
+* [3191. Minimum Operations to Make Binary Array Elements Equal to One I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations23.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
