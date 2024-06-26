@@ -470,6 +470,7 @@
 * [547. Friend Circles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCircleNum.java)
 * [550. Game Play Analysis IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/GamePlayAnalysisIV.sql)
 * [551. Student Attendance Record I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckRecord.java)
+* [552. Student Attendance Record II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckRecord1.java)
 * [553. Optimal Division](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OptimalDivision.java)
 * [554. Brick Wall](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LeastBricks.java)
 * [556. Next Greater Element III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NextGreaterElement1.java)
