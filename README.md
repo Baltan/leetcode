@@ -2307,6 +2307,7 @@
 * [3190. Find Minimum Operations to Make All Elements Divisible by Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations6.java)
 * [3191. Minimum Operations to Make Binary Array Elements Equal to One I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations23.java)
 * [3192. Minimum Operations to Make Binary Array Elements Equal to One II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations24.java)
+* [3194. Minimum Average of Smallest and Largest Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAverage.java)
 * [3195. Find the Minimum Area to Cover All Ones I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumArea.java)
 * [3196. Maximize Total Cost of Alternating Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTotalCost.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
