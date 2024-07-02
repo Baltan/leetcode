@@ -2310,6 +2310,7 @@
 * [3194. Minimum Average of Smallest and Largest Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumAverage.java)
 * [3195. Find the Minimum Area to Cover All Ones I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumArea.java)
 * [3196. Maximize Total Cost of Alternating Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTotalCost.java)
+* [3201. Find the Maximum Length of Valid Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength5.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
