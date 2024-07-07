@@ -548,6 +548,7 @@
 * [659. Split Array into Consecutive Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossible.java)
 * [661. Image Smoother](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ImageSmoother.java)
 * [662. Maximum Width of Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WidthOfBinaryTree.java)
+* [664. Strange Printer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StrangePrinter.java)
 * [665. Non-decreasing Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPossibility.java)
 * [667. Beautiful Arrangement II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConstructArray.java)
 * [668. Kth Smallest Number in Multiplication Table](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindKthNumber.java)
