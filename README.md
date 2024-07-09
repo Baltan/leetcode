@@ -2314,6 +2314,7 @@
 * [3200. Maximum Height of a Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxHeightOfTriangle.java)
 * [3201. Find the Maximum Length of Valid Subsequence I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength5.java)
 * [3202. Find the Maximum Length of Valid Subsequence II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumLength6.java)
+* [3206. Alternating Groups I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfAlternatingGroups.java)
 * [3207. Maximum Points After Enemy Battles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPoints.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
