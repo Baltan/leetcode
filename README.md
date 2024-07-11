@@ -2317,6 +2317,7 @@
 * [3206. Alternating Groups I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfAlternatingGroups.java)
 * [3207. Maximum Points After Enemy Battles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPoints.java)
 * [3208. Alternating Groups II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfAlternatingGroups1.java)
+* [3210. Find the Encrypted String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetEncryptedString.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
