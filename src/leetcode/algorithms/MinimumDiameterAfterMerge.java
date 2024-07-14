@@ -43,14 +43,17 @@ public class MinimumDiameterAfterMerge {
      *
      * @param edges
      * @return
-     * @see TreeDiameter
      */
     public static int getDiameter(int[][] edges) {
         /**
          * 多叉树edges的邻接图，graph[i]表示与节点i相邻的所有节点
          */
         List<Integer>[] graph = new List[edges.length + 1];
-        Queue<int[]> queue = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<>();
+        /**
+         * degrees[i]表示节点i的度
+         */
+        int[] degrees = new int[edges.length + 1];
         /**
          * 正在遍历多叉树edges的由外向内的第level层节点
          */
@@ -64,11 +67,14 @@ public class MinimumDiameterAfterMerge {
             graph[edge[1]].add(edge[0]);
         }
         /**
-         * 只和其他一个节点相邻的节点就是多叉树edges中最外层的节点
+         * 计算每个节点的度，并将度为1的节点，即多叉树edges中最外层的节点加入队列
          */
         for (int i = 0; i < graph.length; i++) {
-            if (graph[i].size() == 1) {
-                queue.offer(new int[]{-1, i});
+            degrees[i] = graph[i].size();
+
+            if (degrees[i] == 1) {
+                degrees[i]--;
+                queue.offer(i);
             }
         }
         /**
@@ -78,17 +84,35 @@ public class MinimumDiameterAfterMerge {
             int size = queue.size();
 
             for (int i = 0; i < size; i++) {
-                int[] currNode = queue.poll();
-
-                for (int node : graph[currNode[1]]) {
-                    if (node != currNode[0]) {
-                        queue.offer(new int[]{currNode[1], node});
+                for (int node : graph[queue.poll()]) {
+                    degrees[node]--;
+                    /**
+                     * 只有剩余出度为1的节点才被加入队列
+                     */
+                    if (degrees[node] == 1) {
+                        queue.offer(node);
                     }
                 }
             }
 
             if (queue.isEmpty()) {
-                return level;
+                /**
+                 * @see TreeDiameter
+                 *
+                 * 根据最内层节点的数量来计算层数，例如：
+                 * <pre>
+                 *     0  5
+                 *     |  |
+                 *     1  4     最内层节点数为2，最内层数为2，最大距离为5
+                 *     |  |
+                 *     2——3
+                 *
+                 *     0  3  5
+                 *     |  |  |     最内层节点数为1，最内层数为2，最大距离为4
+                 *     1——2——4
+                 * </pre>
+                 */
+                return size == 1 ? level * 2 : level * 2 + 1;
             }
             level++;
         }
