@@ -2322,6 +2322,7 @@
 * [3211. Generate Binary Strings Without Adjacent Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidStrings.java)
 * [3212. Count Submatrices With Equal Frequency of X and Y](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubmatrices.java)
 * [3217. Delete Nodes From Linked List Present in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ModifiedList.java)
+* [3218. Minimum Cost for Cutting Cake I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost7.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
