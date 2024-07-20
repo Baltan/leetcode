@@ -595,6 +595,7 @@
 * [722. Remove Comments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveComments.java)
 * [724. Find Pivot Index](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PivotIndex.java)
 * [725. Split Linked List in Parts](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitListToParts.java)
+* [726. Number of Atoms](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOfAtoms.java)
 * [728. Self Dividing Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SelfDividingNumbers.java)
 * [729. My Calendar I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyCalendar.java)
 * [731. My Calendar II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MyCalendarTwo.java)
