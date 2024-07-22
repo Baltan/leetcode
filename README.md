@@ -2323,6 +2323,7 @@
 * [3210. Find the Encrypted String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetEncryptedString.java)
 * [3211. Generate Binary Strings Without Adjacent Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidStrings.java)
 * [3212. Count Submatrices With Equal Frequency of X and Y](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubmatrices.java)
+* [3216. Lexicographically Smallest String After a Swap](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSmallestString2.java)
 * [3217. Delete Nodes From Linked List Present in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ModifiedList.java)
 * [3218. Minimum Cost for Cutting Cake I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost7.java)
 * [3219. Minimum Cost for Cutting Cake II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost8.java)
