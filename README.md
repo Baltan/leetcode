@@ -2059,6 +2059,7 @@
 * [2748. Number of Beautiful Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountBeautifulPairs.java)
 * [2749. Minimum Operations to Make the Integer Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeTheIntegerZero.java)
 * [2750. Ways to Split Array Into Good Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfGoodSubarraySplits.java)
+* [2751. Robot Collisions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SurvivedRobotsHealths.java)
 * [2760. Longest Even Odd Subarray With Threshold](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestAlternatingSubarray.java)
 * [2761. Prime Pairs With Target Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindPrimePairs.java)
 * [2762. Continuous Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContinuousSubarrays.java)
