@@ -2332,6 +2332,7 @@
 * [3222. Find the Winning Player in Coin Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LosingPlayer.java)
 * [3223. Minimum Length of String After Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumLength2.java)
 * [3224. Minimum Array Changes to Make Differences Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinChanges1.java)
+* [3227. Vowels Game in a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DoesAliceWin.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
