@@ -16,16 +16,26 @@ public class NonSpecialCount {
     }
 
     public static int nonSpecialCount(int l, int r) {
+        /**
+         * 假设[l,r]范围的内的所有正整数都不是特殊数字
+         */
         int result = r - l + 1;
+        /**
+         * 因为特殊数字除了自身以外的因数个数为2个，再排除因数1，还剩1个因数，说明i必定是一个平方数，判断[4,r]中的所有平方数是否为特殊数字
+         */
         outer:
         for (int i = 2; i * i <= r; i++) {
             if (i * i < l) {
                 continue;
             }
-            int num = i * i;
-
-            for (int j = 2; j * j < num; j++) {
-                if (num % j == 0) {
+            /**
+             * 判断平方根i是否是质数
+             */
+            for (int j = 2; j * j <= i; j++) {
+                /**
+                 * 如果j能整除i，则也能整除i*i，说明数字i*i不是特殊数字
+                 */
+                if (i % j == 0) {
                     continue outer;
                 }
             }
