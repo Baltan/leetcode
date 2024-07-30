@@ -566,6 +566,7 @@
 * [682. Baseball Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalPoints.java)
 * [684. Redundant Connection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRedundantConnection.java)
 * [684. Redundant Connection](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRedundantConnection1.java)
+* [685. Redundant Connection II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindRedundantDirectedConnection.java)
 * [686. Repeated String Match](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RepeatedStringMatch.java)
 * [687. Longest Univalue Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestUnivaluePath.java)
 * [688. Knight Probability in Chessboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KnightProbability.java)
