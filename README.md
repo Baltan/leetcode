@@ -1739,6 +1739,7 @@
 * [2287. Rearrange Characters to Make Target String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RearrangeCharacters.java)
 * [2288. Apply Discount to Prices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiscountPrices.java)
 * [2289. Steps to Make Array Non-decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalSteps.java)
+* [2290. Minimum Obstacle Removal to Reach Corner](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumObstacles.java)
 * [2293. Min Max Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMaxGame.java)
 * [2294. Partition Array Such That Maximum Difference Is K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionArray.java)
 * [2295. Replace Elements in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ArrayChange.java)
