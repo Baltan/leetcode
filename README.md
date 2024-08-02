@@ -1710,6 +1710,7 @@
 * [2243. Calculate Digit Sum of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DigitSum.java)
 * [2244. Minimum Rounds to Complete All Tasks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumRounds.java)
 * [2245. Maximum Trailing Zeros in a Cornered Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTrailingZeros.java)
+* [2246. Longest Path With Different Adjacent Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPath.java)
 * [2248. Intersection of Multiple Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Intersection1.java)
 * [2249. Count Lattice Points Inside a Circle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountLatticePoints.java)
 * [2250. Count Number of Rectangles Containing Each Point](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountRectangles.java)
