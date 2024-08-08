@@ -1004,6 +1004,7 @@
 * [1238. Circular Permutation in Binary Representation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularPermutation.java)
 * [1238. Circular Permutation in Binary Representation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CircularPermutation1.java)
 * [1239. Maximum Length of a Concatenated String with Unique Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSolution.java)
+* [1240. Tiling a Rectangle with the Fewest Squares](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TilingRectangle.java)
 * [1243. Array Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TransformArray.java)
 * [1244. Design A Leaderboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Leaderboard.java)
 * [1245. Tree Diameter](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TreeDiameter.java)
