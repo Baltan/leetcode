@@ -2347,6 +2347,7 @@
 * [3233. Find the Count of Numbers Which Are Not Special](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NonSpecialCount.java)
 * [3239. Minimum Number of Flips to Make Binary Grid Palindromic I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips4.java)
 * [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips5.java)
+* [3243. Shortest Distance After Road Addition Queries I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestDistanceAfterQueries.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
