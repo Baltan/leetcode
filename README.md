@@ -2350,6 +2350,7 @@
 * [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips5.java)
 * [3243. Shortest Distance After Road Addition Queries I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestDistanceAfterQueries.java)
 * [3244. Shortest Distance After Road Addition Queries II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestDistanceAfterQueries1.java)
+* [3248. Snake in Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FinalPositionOfSnake.java)
 * [3249. Count the Number of Good Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodNodes.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
