@@ -2345,6 +2345,7 @@
 * [3228. Maximum Number of Operations to Move Ones to the End](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxOperations4.java)
 * [3232. Find if Digit Game Can Be Won](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanAliceWin.java)
 * [3233. Find the Count of Numbers Which Are Not Special](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NonSpecialCount.java)
+* [3234. Count the Number of Substrings With Dominant Ones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings2.java)
 * [3238. Find the Number of Winning Players](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WinningPlayerCount.java)
 * [3239. Minimum Number of Flips to Make Binary Grid Palindromic I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips4.java)
 * [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips5.java)
