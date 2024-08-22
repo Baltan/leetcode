@@ -2356,6 +2356,7 @@
 * [3250. Find the Count of Monotonic Pairs I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOfPairs1.java)
 * [3251. Find the Count of Monotonic Pairs II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOfPairs2.java)
 * [3254. Find the Power of K-Size Subarrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultsArray.java)
+* [3255. Find the Power of K-Size Subarrays II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultsArray1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
