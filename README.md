@@ -2349,6 +2349,7 @@
 * [3238. Find the Number of Winning Players](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WinningPlayerCount.java)
 * [3239. Minimum Number of Flips to Make Binary Grid Palindromic I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips4.java)
 * [3240. Minimum Number of Flips to Make Binary Grid Palindromic II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinFlips5.java)
+* [3242. Design Neighbor Sum Service](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NeighborSum.java)
 * [3243. Shortest Distance After Road Addition Queries I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestDistanceAfterQueries.java)
 * [3244. Shortest Distance After Road Addition Queries II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestDistanceAfterQueries1.java)
 * [3248. Snake in Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FinalPositionOfSnake.java)
