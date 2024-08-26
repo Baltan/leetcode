@@ -2360,6 +2360,7 @@
 * [3255. Find the Power of K-Size Subarrays II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultsArray1.java)
 * [3258. Count Substrings That Satisfy K-Constraint I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountKConstraintSubstrings.java)
 * [3259. Maximum Energy Boost From Two Drinks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxEnergyBoost.java)
+* [3261. Count Substrings That Satisfy K-Constraint II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountKConstraintSubstrings1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
