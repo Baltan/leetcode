@@ -23,9 +23,12 @@ public class MinimumDeviation {
      */
     public static int minimumDeviation(int[] nums) {
         int result = Integer.MAX_VALUE;
+        /**
+         * 升序去重保存数组nums中的所有数字
+         */
         TreeSet<Integer> set = new TreeSet<>();
         /**
-         * 将数组nums中所有数字都映射为可能的最大值，即偶数不变，奇数乘以2
+         * 将数组nums中所有数字都映射为可能的最大值（即偶数不变，奇数乘以2）
          */
         for (int num : nums) {
             set.add(num % 2 == 0 ? num : num * 2);
@@ -37,7 +40,9 @@ public class MinimumDeviation {
             return 0;
         }
         /**
-         * 每次都对数组中的最大值执行除以2操作，判断是否得到更小的偏移量，直到数组中所有数字都变成奇数
+         * 因为奇数可以先乘以2变成偶数后，再除以2还原，但是偶数未必可以先除以2变成奇数后，再乘以2还原，所以将数组nums中所有数字都映射为可能
+         * 的最大值（即偶数不变，奇数乘以2）后，再逐次将所有数字中的最大值执行除以2操作，判断是否得到更小的偏移量，直到数组中所有数字都变成奇
+         * 数为止
          */
         while (set.last() - set.first() > 0 && set.last() % 2 == 0) {
             int max = set.removeLast();
