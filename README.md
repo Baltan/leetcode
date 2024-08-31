@@ -1256,6 +1256,7 @@
 * [1566. Detect Pattern of Length M Repeated K or More Times](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ContainsPattern.java)
 * [1567. Maximum Length of Subarray With Positive Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetMaxLen.java)
 * [1568. Minimum Number of Days to Disconnect Island](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDays1.java)
+* [1569. Number of Ways to Reorder Array to Get Same BST](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfWays1.java)
 * [1572. Matrix Diagonal Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DiagonalSum.java)
 * [1573. Number of Ways to Split a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumWays2.java)
 * [1574. Shortest Subarray to be Removed to Make Array Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindLengthOfShortestSubarray.java)
