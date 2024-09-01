@@ -710,6 +710,7 @@
 * [861. Score After Flipping Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MatrixScore.java)
 * [862. Shortest Subarray with Sum at Least K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestSubarray.java)
 * [863. All Nodes Distance K in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistanceK.java)
+* [864. Shortest Path to Get All Keys](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShortestPathAllKeys.java)
 * [865. Smallest Subtree with all the Deepest Nodes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubtreeWithAllDeepest.java)
 * [866. Prime Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrimePalindrome.java)
 * [867. Transpose Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Transpose.java)
