@@ -625,6 +625,7 @@
 * [765. Couples Holding Hands](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwapsCouples.java)
 * [766. Toeplitz Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsToeplitzMatrix.java)
 * [767. Reorganize String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReorganizeString.java)
+* [768. Max Chunks To Make Sorted II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxChunksToSorted1.java)
 * [769. Max Chunks To Make Sorted](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxChunksToSorted.java)
 * [771. Jewels and Stones](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumJewelsInStones.java)
 * [773. Sliding Puzzle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SlidingPuzzle.java)
