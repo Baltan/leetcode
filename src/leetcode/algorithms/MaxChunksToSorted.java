@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-08-21 11:09
+ * @see MaxChunksToSorted1
  */
 public class MaxChunksToSorted {
     public static void main(String[] args) {
