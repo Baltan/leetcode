@@ -1470,6 +1470,7 @@
 * [1869. Longer Contiguous Segments of Ones than Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckZeroOnes.java)
 * [1870. Minimum Speed to Arrive on Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSpeedOnTime.java)
 * [1871. Jump Game VII](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanReach1.java)
+* [1872. Stone Game VIII](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StoneGameVIII.java)
 * [1873. Calculate Special Bonus](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CalculateSpecialBonus.sql)
 * [1876. Substrings of Size Three with Distinct Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountGoodSubstrings.java)
 * [1877. Minimize Maximum Pair Sum in Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPairSum.java)
