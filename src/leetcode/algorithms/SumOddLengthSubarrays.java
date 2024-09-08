@@ -17,7 +17,7 @@ public class SumOddLengthSubarrays {
         int result = 0;
         int length = arr.length;
         /**
-         * 数组数组nums的前缀和的前缀和
+         * 数组nums的前缀和数组
          */
         int[] prefixSums = new int[length + 1];
 
