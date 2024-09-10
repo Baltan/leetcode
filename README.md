@@ -2375,6 +2375,7 @@
 * [3274. Check if Two Chessboard Squares Have the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckTwoChessboards.java)
 * [3275. K-th Nearest Obstacle Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultsArray2.java)
 * [3281. Maximize Score of Numbers in Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPossibleScore.java)
+* [3282. Reach End of Array With Max Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaximumScore.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
