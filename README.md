@@ -2374,6 +2374,7 @@
 * [3271. Hash Divided String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StringHash.java)
 * [3274. Check if Two Chessboard Squares Have the Same Color](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckTwoChessboards.java)
 * [3275. K-th Nearest Obstacle Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultsArray2.java)
+* [3280. Convert Date to Binary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConvertDateToBinary.java)
 * [3281. Maximize Score of Numbers in Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPossibleScore.java)
 * [3282. Reach End of Array With Max Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaximumScore.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
