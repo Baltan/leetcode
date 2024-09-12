@@ -299,6 +299,7 @@
 * [327. Count of Range Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountRangeSum.java)
 * [328. Odd Even Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OddEvenList.java)
 * [329. Longest Increasing Path in a Matrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestIncreasingPath.java)
+* [330. Patching Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinPatches.java)
 * [331. Verify Preorder Serialization of a Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsValidSerialization.java)
 * [332. Reconstruct Itinerary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindItinerary.java)
 * [334. Increasing Triplet Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IncreasingTriplet.java)
