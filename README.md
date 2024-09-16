@@ -2379,6 +2379,7 @@
 * [3281. Maximize Score of Numbers in Ranges](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPossibleScore.java)
 * [3282. Reach End of Array With Max Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaximumScore.java)
 * [3285. Find Indices of Stable Mountains](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StableMountains.java)
+* [3286. Find a Safe Walk Through a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSafeWalk.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
