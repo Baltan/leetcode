@@ -2382,6 +2382,7 @@
 * [3285. Find Indices of Stable Mountains](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StableMountains.java)
 * [3286. Find a Safe Walk Through a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSafeWalk.java)
 * [3289. The Two Sneaky Numbers of Digitville](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetSneakyNumbers.java)
+* [3290. Maximum Multiplication Score](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore7.java)
 * [3291. Minimum Number of Valid Strings to Form Target I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinValidStrings.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
