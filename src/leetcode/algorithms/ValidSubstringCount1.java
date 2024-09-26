@@ -14,56 +14,78 @@ public class ValidSubstringCount1 {
         System.out.println(validSubstringCount("abcabc", "aaabc"));
     }
 
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/count-substrings-that-can-be-rearranged-to-contain-a-string-ii/solutions/2925828/on-hua-dong-chuang-kou-qiu-ge-shu-python-0x7a/"></a>
+     *
+     * @param word1
+     * @param word2
+     * @return
+     */
     public static long validSubstringCount(String word1, String word2) {
         long result = 0L;
+        int left = 0;
         /**
-         * prefixCounts[i][0]-prefixCounts[i][25]依次表示字符串word1的前缀子串word1.substring(0,i)中字母a-z的个数
+         * diffs[0]-diffs[25]依次表示字符a-z在word1的子串中比word2少的个数
          */
-        int[][] prefixCounts = new int[word1.length() + 1][26];
+        int[] diffs = new int[26];
         /**
-         * counts[0]-counts[25]依次表示字符串word2中字母a-z的个数
+         * word1的子串中比word2少的不同字符的个数
          */
-        int[] counts = new int[26];
-
-        for (int i = 0; i < word1.length(); i++) {
-            prefixCounts[i + 1] = prefixCounts[i].clone();
-            prefixCounts[i + 1][word1.charAt(i) - 'a']++;
+        int less = 0;
+        /**
+         * 初始时，word1的子串为空串，子串中某个字符比word2少的个数即为word2中该字符的个数
+         */
+        for (char c : word2.toCharArray()) {
+            diffs[c - 'a']++;
         }
 
-        for (int i = 0; i < word2.length(); i++) {
-            counts[word2.charAt(i) - 'a']++;
+        for (int diff : diffs) {
+            if (diff > 0) {
+                less++;
+            }
         }
-        loop1:
-        for (int i = 0; i < word1.length(); i++) {
-            int lo = i;
-            int hi = word1.length();
+        /**
+         * 用一个滑动窗口维护子串中的字符，外层循环移动窗口的上界，将word1中的字符逐一加入到窗口中，内层循环移动窗口的下界，将word1中的字符
+         * 逐一从窗口移出
+         */
+        for (char c : word1.toCharArray()) {
             /**
-             * 二分计算字符串word1中，以word1[i]作为第一个字符的子串中，每个小写字母的数量都不少于word2的最短子串
+             * 窗口中加入字符c后，word1的子串中字符c比word2中少的个数减少一个
              */
-            loop2:
-            while (lo < hi) {
-                int mid = (lo + hi) / 2;
-
-                for (int j = 0; j < 26; j++) {
-                    /**
-                     * 子串word1.substring(i,mid)中当前字母的数量小于word2，必须增长子串
-                     */
-                    if (prefixCounts[mid][j] - prefixCounts[i][j] < counts[j]) {
-                        lo = mid + 1;
-                        continue loop2;
-                    }
-                }
-                hi = mid;
+            diffs[c - 'a']--;
+            /**
+             * 因为此时字符c在word1的子串中和word2中的个数相等，所以word1的子串中比word2少的不同字符的个数减少一个
+             */
+            if (diffs[c - 'a'] == 0) {
+                less--;
             }
             /**
-             * 判断子串word1.substring(i,lo)中，是否每个小写字母的数量都不少于word2
+             * 右移窗口的下界，直到存在某个字符在word2中的个数比word1的子串中多，换言之，只要当前窗口中word1的子串是合法的，就一直右移窗口
+             * 的下界，将word1的子串头部的字符逐一移除
              */
-            for (int j = 0; j < 26; j++) {
-                if (prefixCounts[lo][j] - prefixCounts[i][j] < counts[j]) {
-                    continue loop1;
+            while (less == 0) {
+                /**
+                 * word1的子串头部的移除的字符
+                 */
+                char removal = word1.charAt(left);
+                left++;
+                /**
+                 * 因为原本窗口中word1的子串中字符removal的个数和word2中的相同，现在移除removal后，就使得word1的子串中比word2少的不同
+                 * 字符增加了removal
+                 */
+                if (diffs[removal - 'a'] == 0) {
+                    less++;
                 }
+                /**
+                 * 同时，word1的子串中字符removal比word2中少的个数增加一个
+                 */
+                diffs[removal - 'a']++;
             }
-            result += word1.length() - lo + 1;
+            /**
+             * 当前窗口中word1的子串虽然不合法，但是子串头部逐一加上之前移除的字符后，都是合法的，即当窗口下界为[0,left-1]时的子串都是合法
+             * 的，共计有left个合法子串
+             */
+            result += left;
         }
         return result;
     }
