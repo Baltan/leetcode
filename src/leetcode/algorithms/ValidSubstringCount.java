@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author baltan
  * @date 2024/9/25 18:34
+ * @see ValidSubstringCount
  */
 public class ValidSubstringCount {
     public static void main(String[] args) {
