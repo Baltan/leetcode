@@ -2390,6 +2390,7 @@
 * [3297. Count Substrings That Can Be Rearranged to Contain a String I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidSubstringCount.java)
 * [3298. Count Substrings That Can Be Rearranged to Contain a String II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidSubstringCount1.java)
 * [3300. Minimum Element After Replacement With Digit Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinElement.java)
+* [3301. Maximize the Total Height of Unique Towers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTotalSum.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
