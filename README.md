@@ -2392,6 +2392,7 @@
 * [3300. Minimum Element After Replacement With Digit Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinElement.java)
 * [3301. Maximize the Total Height of Unique Towers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTotalSum.java)
 * [3304. Find the K-th Character in String Game I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthCharacter.java)
+* [3305. Count of Substrings Containing Every Vowel and K Consonants I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOfSubstrings.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
