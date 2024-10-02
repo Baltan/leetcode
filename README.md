@@ -2391,6 +2391,7 @@
 * [3298. Count Substrings That Can Be Rearranged to Contain a String II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidSubstringCount1.java)
 * [3300. Minimum Element After Replacement With Digit Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinElement.java)
 * [3301. Maximize the Total Height of Unique Towers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTotalSum.java)
+* [3302. Find the Lexicographically Smallest Valid Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidSequence.java)
 * [3304. Find the K-th Character in String Game I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthCharacter.java)
 * [3305. Count of Substrings Containing Every Vowel and K Consonants I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOfSubstrings.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
