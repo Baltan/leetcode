@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2024/10/2 14:57
+ * @see CountOfSubstrings1
  */
 public class CountOfSubstrings {
     public static void main(String[] args) {
