@@ -1128,6 +1128,7 @@
 * [1385. Find the Distance Value Between Two Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindTheDistanceValue.java)
 * [1386. Cinema Seat Allocation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxNumberOfFamilies.java)
 * [1387. Sort Integers by The Power Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetKth.java)
+* [1388. Pizza With 3n Slices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSizeSlices.java)
 * [1389. Create Target Array in the Given Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CreateTargetArray.java)
 * [1390. Four Divisors](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumFourDivisors.java)
 * [1391. Check if There is a Valid Path in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasValidPath.java)
