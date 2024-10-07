@@ -1854,6 +1854,7 @@
 * [2437. Number of Valid Clock Times](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTime.java)
 * [2438. Range Product Queries of Powers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProductQueries.java)
 * [2439. Minimize Maximum of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimizeArrayValue.java)
+* [2440. Create Components With Same Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ComponentValue.java)
 * [2441. Largest Positive Integer That Exists With Its Negative](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxK.java)
 * [2442. Count Number of Distinct Integers After Reverse Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinctIntegers.java)
 * [2443. Sum of Number and Its Reverse](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfNumberAndReverse.java)
