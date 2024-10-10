@@ -870,6 +870,7 @@
 * [1029. Two City Scheduling](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TwoCitySchedCost.java)
 * [1030. Matrix Cells in Distance Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AllCellsDistOrder.java)
 * [1031. Maximum Sum of Two Non-Overlapping Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumTwoNoOverlap.java)
+* [1032. Stream of Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StreamChecker.java)
 * [1033. Moving Stones Until Consecutive](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumMovesStones.java)
 * [1034. Coloring A Border](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ColorBorder.java)
 * [1035. Uncrossed Lines](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxUncrossedLines.java)
