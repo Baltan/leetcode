@@ -1363,6 +1363,7 @@
 * [1704. Determine if String Halves Are Alike](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HalvesAreAlike.java)
 * [1705. Maximum Number of Eaten Apples](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EatenApples.java)
 * [1706. Where Will the Ball Fall](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindBall.java)
+* [1707. Maximum XOR With an Element From Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximizeXor.java)
 * [1710. Maximum Units on a Truck](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumUnits.java)
 * [1711. Count Good Meals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPairs1.java)
 * [1712. Ways to Split Array Into Three Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToSplit.java)
