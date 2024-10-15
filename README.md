@@ -2401,6 +2401,7 @@
 * [3306. Count of Substrings Containing Every Vowel and K Consonants II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountOfSubstrings1.java)
 * [3309. Maximum Possible Number by Binary Concatenation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxGoodNumber.java)
 * [3310. Remove Methods From Project](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemainingMethods.java)
+* [3314. Construct the Minimum Bitwise Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinBitwiseArray.java)
 * [3315. Construct the Minimum Bitwise Array II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinBitwiseArray1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
