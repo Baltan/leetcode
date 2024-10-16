@@ -1599,6 +1599,7 @@
 * [2053. Kth Distinct String in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthDistinct.java)
 * [2054. Two Best Non-Overlapping Events](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTwoEvents.java)
 * [2055. Plates Between Candles](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PlatesBetweenCandles.java)
+* [2056. Number of Valid Move Combinations On Chessboard](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountCombinations.java)
 * [2057. Smallest Index With Equal Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestEqual.java)
 * [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NodesBetweenCriticalPoints.java)
 * [2059. Minimum Operations to Convert Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations.java)
