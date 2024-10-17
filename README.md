@@ -2404,6 +2404,7 @@
 * [3310. Remove Methods From Project](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemainingMethods.java)
 * [3314. Construct the Minimum Bitwise Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinBitwiseArray.java)
 * [3315. Construct the Minimum Bitwise Array II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinBitwiseArray1.java)
+* [3318. Find X-Sum of All K-Long Subarrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindXSum.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
