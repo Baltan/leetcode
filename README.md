@@ -2407,6 +2407,7 @@
 * [3316. Find Maximum Removals From Source String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRemovals.java)
 * [3318. Find X-Sum of All K-Long Subarrays I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindXSum.java)
 * [3319. K-th Largest Perfect Subtree Size in Binary Tree](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthLargestPerfectSubtree.java)
+* [3325. Count Substrings With K-Frequency Characters I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings3.java)
 * [3326. Minimum Division Operations to Make Array Non Decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations25.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
