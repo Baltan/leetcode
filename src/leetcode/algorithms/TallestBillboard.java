@@ -11,13 +11,13 @@ import java.util.List;
  */
 public class TallestBillboard {
     public static void main(String[] args) {
+        System.out.println(tallestBillboard(new int[]{102, 101, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100}));
         System.out.println(tallestBillboard(new int[]{1, 2, 3, 6}));
         System.out.println(tallestBillboard(new int[]{1, 2, 3, 4, 5, 6}));
         System.out.println(tallestBillboard(new int[]{1, 2}));
     }
 
     public static int tallestBillboard(int[] rods) {
-        int result = 0;
         int length = rods.length;
         int sum = 0;
         int maxStatus = (1 << length) - 1;
@@ -45,23 +45,27 @@ public class TallestBillboard {
                 index++;
             }
 
-            if (height <= result) {
-                continue;
-            }
-
-            if (conditions[height] != null) {
-                for (int status : conditions[height]) {
-                    if (bitCounts[status] + bitCount == Integer.bitCount(status | i)) {
-                        result = Math.max(result, height);
-                        break;
-                    }
-                }
-            } else {
+            if (conditions[height] == null) {
                 conditions[height] = new ArrayList<>();
             }
             bitCounts[i] = bitCount;
             conditions[height].add(i);
         }
-        return result;
+
+        for (int i = sum; i > 0; i--) {
+            if (conditions[i] != null && conditions[i].size() > 1) {
+                for (int j = 0; j < conditions[i].size(); j++) {
+                    for (int k = j + 1; k < conditions[i].size(); k++) {
+                        int conditionJ = conditions[i].get(j);
+                        int conditionK = conditions[i].get(k);
+
+                        if (bitCounts[conditionJ] + bitCounts[conditionK] == Integer.bitCount(conditionJ | conditionK)) {
+                            return i;
+                        }
+                    }
+                }
+            }
+        }
+        return 0;
     }
 }
