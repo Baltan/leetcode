@@ -2413,6 +2413,7 @@
 * [3325. Count Substrings With K-Frequency Characters I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings3.java)
 * [3326. Minimum Division Operations to Make Array Non Decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations25.java)
 * [3331. Find Subtree Sizes After Changes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSubtreeSizes.java)
+* [3332. Maximum Points Tourist Can Earn](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore8.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
