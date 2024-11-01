@@ -2412,6 +2412,7 @@
 * [3324. Find the Sequence of Strings Appeared on the Screen](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/StringSequence.java)
 * [3325. Count Substrings With K-Frequency Characters I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubstrings3.java)
 * [3326. Minimum Division Operations to Make Array Non Decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations25.java)
+* [3330. Find the Original Typed String I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PossibleStringCount.java)
 * [3331. Find Subtree Sizes After Changes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindSubtreeSizes.java)
 * [3332. Maximum Points Tourist Can Earn](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore8.java)
 * [3334. Find the Maximum Factor Score of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore9.java)
