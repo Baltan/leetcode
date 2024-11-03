@@ -2417,6 +2417,7 @@
 * [3332. Maximum Points Tourist Can Earn](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore8.java)
 * [3334. Find the Maximum Factor Score of Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxScore9.java)
 * [3335. Total Characters in String After Transformations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LengthAfterTransformations.java)
+* [3341. Find Minimum Time to Reach Last Room I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTimeToReach.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
