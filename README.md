@@ -1336,6 +1336,7 @@
 * [1668. Maximum Repeating Substring](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRepeating.java)
 * [1669. Merge In Between Linked Lists](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MergeInBetween.java)
 * [1670. Design Front Middle Back Queue](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FrontMiddleBackQueue.java)
+* [1671. Minimum Number of Removals to Make Mountain Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumMountainRemovals.java)
 * [1672. Richest Customer Wealth](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumWealth.java)
 * [1673. Find the Most Competitive Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostCompetitive.java)
 * [1674. Minimum Moves to Make Array Complementary](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves3.java)
