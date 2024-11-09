@@ -1874,6 +1874,7 @@
 * [2455. Average Value of Even Numbers That Are Divisible by Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AverageValue.java)
 * [2456. Most Popular Video Creator](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MostPopularCreator.java)
 * [2457. Minimum Addition to Make Integer Beautiful](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MakeIntegerBeautiful.java)
+* [2458. Height of Binary Tree After Subtree Removal Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TreeQueries.java)
 * [2460. Apply Operations to an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ApplyOperations.java)
 * [2461. Maximum Sum of Distinct Subarrays With Length K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSubarraySum.java)
 * [2462. Total Cost to Hire K Workers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalCost.java)
