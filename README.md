@@ -2422,6 +2422,7 @@
 * [3340. Check Balanced String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsBalanced1.java)
 * [3341. Find Minimum Time to Reach Last Room I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTimeToReach.java)
 * [3342. Find Minimum Time to Reach Last Room II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTimeToReach1.java)
+* [3346. Maximum Frequency of an Element After Performing Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFrequency1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
