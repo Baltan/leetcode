@@ -1383,6 +1383,7 @@
 * [1732. Find the Highest Altitude](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestAltitude.java)
 * [1733. Minimum Number of People to Teach](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTeachings.java)
 * [1734. Decode XORed Permutation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Decode.java)
+* [1735. Count Ways to Make Array With Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/WaysToFillArray.java)
 * [1736. Latest Time by Replacing Hidden Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumTime.java)
 * [1737. Change Minimum Characters to Satisfy One of Three Conditions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCharacters.java)
 * [1738. Find Kth Largest XOR Coordinate Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/KthLargestValue.java)
