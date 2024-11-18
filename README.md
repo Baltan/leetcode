@@ -96,6 +96,7 @@
 * [83. Remove Duplicates from Sorted List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteDuplicates.java)
 * [84. Largest Rectangle in Histogram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestRectangleArea.java)
 * [84. Largest Rectangle in Histogram](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestRectangleArea1.java)
+* [85. Maximal Rectangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximalRectangle.java)
 * [86. Partition List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Partition.java)
 * [86. Partition List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Partition3.java)
 * [87. Scramble String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsScramble.java)
