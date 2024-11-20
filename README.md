@@ -2430,6 +2430,7 @@
 * [3349. Adjacent Increasing Subarrays Detection I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxIncreasingSubarrays.java)
 * [3350. Adjacent Increasing Subarrays Detection II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxIncreasingSubarrays1.java)
 * [3354. Make Array Elements Equal to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidSelections.java)
+* [3355. Zero Array Transformation I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsZeroArray.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
