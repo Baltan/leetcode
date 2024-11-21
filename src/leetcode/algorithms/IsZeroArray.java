@@ -5,7 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2024/11/20 23:34
- * @see IsZeroArray1
+ * @see MinZeroArray
  */
 public class IsZeroArray {
     public static void main(String[] args) {
