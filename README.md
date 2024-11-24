@@ -499,7 +499,7 @@
 * [584. Find Customer Referee](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindCustomerReferee.sql)
 * [585. Investments in 2016](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/InvestmentsIn2016.sql)
 * [586. Customer Placing the Largest Number of Orders](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/CustomerPlacingTheLargestNumberOfOrders.sql)
-* [587. Erect the Fence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/OuterTrees.sql)
+* [587. Erect the Fence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/OuterTrees.java)
 * [589. N-ary Tree Preorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Preorder.java)
 * [590. N-ary Tree Postorder Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Postorder.java)
 * [592. Fraction Addition and Subtraction](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FractionAddition.java)
