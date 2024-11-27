@@ -6,6 +6,7 @@ package leetcode.algorithms;
  * @author Baltan
  * @date 2024/11/20 23:34
  * @see IsZeroArray
+ * @see MaxRemoval1
  */
 public class MinZeroArray {
     public static void main(String[] args) {
