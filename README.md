@@ -2433,6 +2433,7 @@
 * [3354. Make Array Elements Equal to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountValidSelections.java)
 * [3355. Zero Array Transformation I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsZeroArray.java)
 * [3356. Zero Array Transformation II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinZeroArray.java)
+* [3360. Stone Removal Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanAliceWin1.java)
 * [3361. Shift Distance Between Two Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftDistance.java)
 * [3362. Zero Array Transformation III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRemoval1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
