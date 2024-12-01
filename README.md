@@ -2437,6 +2437,7 @@
 * [3361. Shift Distance Between Two Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftDistance.java)
 * [3362. Zero Array Transformation III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRemoval1.java)
 * [3365. Rearrange K Substrings to Form Target String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossibleToRearrange.java)
+* [3366. Minimum Array Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinArraySum.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
