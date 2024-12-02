@@ -2436,6 +2436,7 @@
 * [3360. Stone Removal Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanAliceWin1.java)
 * [3361. Shift Distance Between Two Strings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ShiftDistance.java)
 * [3362. Zero Array Transformation III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRemoval1.java)
+* [3364. Minimum Positive Sum Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumSumSubarray.java)
 * [3365. Rearrange K Substrings to Form Target String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsPossibleToRearrange.java)
 * [3366. Minimum Array Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinArraySum.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
