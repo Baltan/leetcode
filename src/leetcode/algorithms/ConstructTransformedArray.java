@@ -10,9 +10,8 @@ import leetcode.util.OutputUtils;
  */
 public class ConstructTransformedArray {
     public static void main(String[] args) {
-        OutputUtils.print1DIntegerArray(constructTransformedArray(new int[]{}));
-        OutputUtils.print1DIntegerArray(constructTransformedArray(new int[]{}));
-        OutputUtils.print1DIntegerArray(constructTransformedArray(new int[]{}));
+        OutputUtils.print1DIntegerArray(constructTransformedArray(new int[]{3, -2, 1, 1}));
+        OutputUtils.print1DIntegerArray(constructTransformedArray(new int[]{-1, 4, -1}));
     }
 
     public static int[] constructTransformedArray(int[] nums) {
