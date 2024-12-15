@@ -2442,6 +2442,7 @@
 * [3370. Smallest Number With All Set Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestNumber3.java)
 * [3371. Identify the Largest Outlier in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetLargestOutlier.java)
 * [3372. Maximize the Number of Target Nodes After Connecting Trees I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTargetNodes.java)
+* [3374. First Letter Capitalization II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FirstLetterCapitalizationII.sql)
 * [3375. Minimum Operations to Make Array Values Equal to K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations26.java)
 * [3376. Minimum Time to Break Locks I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMinimumTime.java)
 * [3377. Digit Operations to Make Two Integers Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations27.java)
