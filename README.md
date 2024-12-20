@@ -2450,6 +2450,7 @@
 * [3380. Maximum Area Rectangle With Point Constraints I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxRectangleArea.java)
 * [3381. Maximum Subarray Sum With Length Divisible by K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubarraySum9.java)
 * [3386. Button with Longest Push Time](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ButtonWithLongestTime.java)
+* [3387. Maximize Amount After Two Days of Conversions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAmount.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
