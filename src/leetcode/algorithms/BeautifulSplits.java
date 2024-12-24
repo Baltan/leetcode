@@ -1,9 +1,5 @@
 package leetcode.algorithms;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * Description: 3388. Count Beautiful Splits in an Array
  *
@@ -20,51 +16,40 @@ public class BeautifulSplits {
         System.out.println(beautifulSplits(new int[]{1, 2, 3, 4}));
     }
 
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/count-beautiful-splits-in-an-array/solutions/3020939/liang-chong-fang-fa-lcp-shu-zu-z-shu-zu-dwbrd/"></a>
+     *
+     * @param nums
+     * @return
+     */
     public static int beautifulSplits(int[] nums) {
         int result = 0;
         int length = nums.length;
-        boolean[][] isVisited = new boolean[length][length];
-        List<Integer>[] indexesArray = new List[51];
-        Arrays.setAll(indexesArray, x -> new ArrayList<>());
+        /**
+         * dp[i+1][j+1]表示后缀子数组nums[i……]和nums[j……]的最长公共前缀子数组的长度
+         */
+        int[][] dp = new int[length + 1][length + 1];
 
-        for (int i = 0; i < nums.length; i++) {
-            indexesArray[nums[i]].add(i);
-        }
-
-        for (int i = 1; i < length - 1; i++) {
-            result += help(nums, 0, i, indexesArray[nums[0]], isVisited, 1);
-        }
-
-        for (int i = 1; i < length - 1; i++) {
-            result += help(nums, i, length - 1, indexesArray[nums[i]], isVisited, 2);
-        }
-        return result;
-    }
-
-    public static int help(int[] nums, int left, int right, List<Integer> indexes, boolean[][] isVisited, int type) {
-        int result = 0;
-        outer:
-        for (int index : indexes) {
-            if (index <= left) {
-                continue;
+        for (int i = length - 1; i >= 0; i--) {
+            for (int j = length - 1; j >= i; j--) {
+                /**
+                 * 对于两个数组[m0,m1,m2,……,mx]和[n0,n1,n2,……,ny]，如果m0=n0，则它们的最长公共前缀子数组的长度为数组[m1,m2,……,mx]
+                 * 和[n1,n2,……,ny]的最长公共前缀子数组的长度加1，否则它们的最长公共前缀子数组的长度为0
+                 */
+                dp[i][j] = nums[i] == nums[j] ? dp[i + 1][j + 1] + 1 : 0;
             }
-
-            if (right - index + 1 < index - left) {
-                break;
-            }
-
-            for (int j = 0; j < index - left; j++) {
-                if (nums[left + j] != nums[index + j]) {
-                    continue outer;
+        }
+        /**
+         * 假设第二段子数组的起始索引为i，第三段子数组的起始索引为j。如果第一段子数组是第二段子数组的前缀，则第一段子数组的长度不大于第二段子
+         * 数组的长度，并且后缀子数组nums[0……]和nums[i……]的最长公共前缀子数组的长度不小于第一段子数组的长度，即i<=j-i并且dp[0][i]>=i。
+         * 如果第二段子数组是第三段子数组的前缀，则第二段子数组的长度不大于第三段子数组的长度，并且后缀子数组nums[i……]和nums[j……]的最长公
+         * 共前缀子数组的长度不小于第二段子数组的长度，即j-i<=length-j并且dp[i][j]>=j-i
+         */
+        for (int i = 1; i < length; i++) {
+            for (int j = i + 1; j < length; j++) {
+                if ((i <= j - i && dp[0][i] >= i) || (j - i <= length - j && dp[i][j] >= j - i)) {
+                    result++;
                 }
-            }
-
-            if (type == 1 && !isVisited[index][right + 1]) {
-                isVisited[index][right + 1] = true;
-                result++;
-            } else if (type == 2 && !isVisited[left][index]) {
-                isVisited[left][index] = true;
-                result++;
             }
         }
         return result;
