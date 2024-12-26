@@ -2453,6 +2453,7 @@
 * [3387. Maximize Amount After Two Days of Conversions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAmount.java)
 * [3388. Count Beautiful Splits in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSplits.java)
 * [3392. Count Subarrays of Length Three With a Condition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubarrays3.java)
+* [3393. Count Paths With the Given XOR Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPathsWithXorValue.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
