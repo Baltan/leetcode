@@ -2454,6 +2454,7 @@
 * [3388. Count Beautiful Splits in an Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BeautifulSplits.java)
 * [3392. Count Subarrays of Length Three With a Condition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountSubarrays3.java)
 * [3393. Count Paths With the Given XOR Value](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPathsWithXorValue.java)
+* [3394. Check if Grid can be Cut into Sections](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckValidCuts.java)
 * [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations7.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
