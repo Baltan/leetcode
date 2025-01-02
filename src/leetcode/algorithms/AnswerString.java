@@ -11,8 +11,6 @@ public class AnswerString {
         System.out.println(answerString("gh", 1));
         System.out.println(answerString("dbca", 2));
         System.out.println(answerString("gggg", 4));
-        System.out.println(answerString("g".repeat(5000), 2000));
-        System.out.println("a".repeat(5000));
     }
 
     public static String answerString(String word, int numFriends) {
