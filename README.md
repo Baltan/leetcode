@@ -2457,6 +2457,7 @@
 * [3394. Check if Grid can be Cut into Sections](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckValidCuts.java)
 * [3396. Minimum Number of Operations to Make Elements in Array Distinct](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations7.java)
 * [3397. Maximum Number of Distinct Elements After Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistinctElements.java)
+* [3402. Minimum Operations to Make Columns Strictly Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations8.java)
 * [3403. Find the Lexicographically Largest String From the Box I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AnswerString.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
