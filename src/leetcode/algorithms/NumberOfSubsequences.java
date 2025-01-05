@@ -20,33 +20,31 @@ public class NumberOfSubsequences {
     public static long numberOfSubsequences(int[] nums) {
         long result = 0L;
         int length = nums.length;
-        Map<Double, int[]> map = new HashMap<>();
-
-        for (int p = 0; p < length; p++) {
-            for (int q = p + 2; q < length; q++) {
-                double value = (double) nums[p] / nums[q];
-                map.computeIfAbsent(value, i -> new int[length])[q]++;
-            }
-        }
-
-        for (Map.Entry<Double, int[]> entry : map.entrySet()) {
-            int[] prefixSums = new int[length + 1];
-            int[] counts = entry.getValue();
-
-            for (int i = 0; i < counts.length; i++) {
-                prefixSums[i + 1] = prefixSums[i] + counts[i];
-            }
-            map.put(entry.getKey(), prefixSums);
-        }
-
-        for (int s = length - 1; s >= 0; s--) {
-            for (int r = s - 2; r >= 4; r--) {
+        /**
+         * 根据题意，nums[p]*nums[r]==nums[q]*nums[s]，即nums[p]/nums[q]=nums[s]/nums[r]。对于元素nums[r]，map[i]表示当q不大于
+         * r-2时，nums[p]/nums[q]的值为i的所有数对(nums[p],nums[q])的个数
+         */
+        Map<Double, Integer> map = new HashMap<>();
+        /**
+         * 根据题意，r不可能小于4，所以需要计算r为4的情况时，必须先已知q不大于2时数对(nums[p],nums[q])的个数，此时只有一个符合题意的数对，
+         * 即(nums[0],nums[2])
+         */
+        map.put((double) nums[0] / nums[2], 1);
+        /**
+         * 枚举所有数对(nums[s],nums[r])，此时q最大为r-2，可以对每个nums[s]/nums[r]，从map中计算得到nums[p]/nums[q]也等于nums[s]/
+         * nums[r]的数对的个数
+         */
+        for (int r = 4; r < length; r++) {
+            for (int s = r + 2; s < length; s++) {
                 double value = (double) nums[s] / nums[r];
-                int[] prefixSums = map.get(value);
-
-                if (prefixSums != null) {
-                    result += prefixSums[r - 1];
-                }
+                int count = map.getOrDefault(value, 0);
+                result += count;
+            }
+            /**
+             * 更新q不大于r-1时，nums[p]/nums[q]的值为i的情况
+             */
+            for (int p = r - 3; p >= 0; p--) {
+                map.merge((double) nums[p] / nums[r - 1], 1, Integer::sum);
             }
         }
         return result;
