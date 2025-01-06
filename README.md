@@ -2460,6 +2460,7 @@
 * [3402. Minimum Operations to Make Columns Strictly Increasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumOperations8.java)
 * [3403. Find the Lexicographically Largest String From the Box I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AnswerString.java)
 * [3404. Count Special Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfSubsequences.java)
+* [3407. Substring Matching Pattern](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasMatch.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
