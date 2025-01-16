@@ -2465,6 +2465,7 @@
 * [3409. Longest Subsequence With Decreasing Adjacent Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubsequence3.java)
 * [3411. Maximum Subarray With Equal Products](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxLength1.java)
 * [3412. Find Mirror Score of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalculateScore.java)
+* [3413. Maximum Coins From K Consecutive Bags](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumCoins.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
