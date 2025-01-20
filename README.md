@@ -2469,6 +2469,7 @@
 * [3417. Zigzag Grid Traversal With Skip](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ZigzagTraversal.java)
 * [3418. Maximum Amount of Money Robot Can Earn](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumAmount.java)
 * [3419. Minimize the Maximum Edge Weight of Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMaxWeight.java)
+* [3421. Find Students Who Improved](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindStudentsWhoImproved.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
