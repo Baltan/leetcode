@@ -2472,6 +2472,7 @@
 * [3421. Find Students Who Improved](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindStudentsWhoImproved.sql)
 * [3423. Maximum Difference Between Adjacent Elements in a Circular Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAdjacentDistance.java)
 * [3424. Minimum Cost to Make Arrays Identical](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost6.java)
+* [3427. Sum of Variable Length Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarraySum1.java)
 * [3428. Maximum and Minimum Sums of at Most Size K Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMaxSums.java)
 * [3429. Paint House IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost7.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
