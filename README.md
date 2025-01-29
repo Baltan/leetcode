@@ -1634,6 +1634,7 @@
 * [2094. Finding 3-Digit Even Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindEvenNumbers.java)
 * [2095. Delete the Middle Node of a Linked List](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DeleteMiddle.java)
 * [2096. Step-By-Step Directions From a Binary Tree Node to Another](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetDirections.java)
+* [2097. Valid Arrangement of Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ValidArrangement.java)
 * [2099. Find Subsequence of Length K With the Largest Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubsequence.java)
 * [2100. Find Good Days to Rob the Bank](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GoodDaysToRobBank.java)
 * [2101. Detonate the Maximum Bombs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumDetonation.java)
