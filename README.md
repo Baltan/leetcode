@@ -2476,6 +2476,7 @@
 * [3427. Sum of Variable Length Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubarraySum1.java)
 * [3428. Maximum and Minimum Sums of at Most Size K Subsequences](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMaxSums.java)
 * [3429. Paint House IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost7.java)
+* [3433. Count Mentions Per User](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMentions.java)
 * [3436. Find Valid Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindValidEmails.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
