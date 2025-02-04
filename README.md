@@ -2481,6 +2481,7 @@
 * [3433. Count Mentions Per User](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMentions.java)
 * [3434. Maximum Frequency After Subarray Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFrequency3.java)
 * [3436. Find Valid Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindValidEmails.sql)
+* [3439. Reschedule Meetings for Maximum Free Time I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreeTime.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
