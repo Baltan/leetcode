@@ -6,6 +6,7 @@ package leetcode.algorithms;
  * @author Baltan
  * @date 2018/9/5 10:24
  * @see leetcode.interview.Trap
+ * @see TrapRainWater
  */
 public class Trap {
     public static void main(String[] args) {
