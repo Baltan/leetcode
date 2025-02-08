@@ -2483,6 +2483,7 @@
 * [3436. Find Valid Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindValidEmails.sql)
 * [3439. Reschedule Meetings for Maximum Free Time I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreeTime.java)
 * [3440. Reschedule Meetings for Maximum Free Time II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreeTime1.java)
+* [3443. Maximum Manhattan Distance After K Changes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance4.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
