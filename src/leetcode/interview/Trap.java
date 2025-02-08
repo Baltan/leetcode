@@ -1,11 +1,14 @@
 package leetcode.interview;
 
+import leetcode.algorithms.TrapRainWater;
+
 /**
  * Description: 面试题 17.21. 直方图的水量
  *
  * @author Baltan
  * @date 2020-04-18 11:08
  * @see leetcode.algorithms.Trap
+ * @see TrapRainWater
  */
 public class Trap {
     public static void main(String[] args) {
