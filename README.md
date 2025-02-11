@@ -2486,6 +2486,7 @@
 * [3440. Reschedule Meetings for Maximum Free Time II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreeTime1.java)
 * [3443. Maximum Manhattan Distance After K Changes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance4.java)
 * [3446. Sort Matrix by Diagonals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortMatrix.java)
+* [3447. Assign Elements to Groups with Constraints](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AssignElements.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
