@@ -2482,6 +2482,7 @@
 * [3433. Count Mentions Per User](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMentions.java)
 * [3434. Maximum Frequency After Subarray Operation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFrequency3.java)
 * [3436. Find Valid Emails](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindValidEmails.sql)
+* [3438. Find Valid Pair of Adjacent Digits in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindValidPair.java)
 * [3439. Reschedule Meetings for Maximum Free Time I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreeTime.java)
 * [3440. Reschedule Meetings for Maximum Free Time II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreeTime1.java)
 * [3443. Maximum Manhattan Distance After K Changes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance4.java)
