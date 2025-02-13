@@ -2485,6 +2485,7 @@
 * [3438. Find Valid Pair of Adjacent Digits in String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindValidPair.java)
 * [3439. Reschedule Meetings for Maximum Free Time I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreeTime.java)
 * [3440. Reschedule Meetings for Maximum Free Time II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreeTime1.java)
+* [3442. Maximum Difference Between Even and Odd Frequency I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDifference.java)
 * [3443. Maximum Manhattan Distance After K Changes](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistance4.java)
 * [3446. Sort Matrix by Diagonals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortMatrix.java)
 * [3447. Assign Elements to Groups with Constraints](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AssignElements.java)
