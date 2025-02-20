@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @author Baltan
  * @date 2025/2/20 22:45
  */
-public class MaxWeight9 {
+public class MaxWeight {
     public static void main(String[] args) {
         System.out.println(maxWeight(new int[]{2, 5, 2, 3}));
         System.out.println(maxWeight(new int[]{1, 2, 3, 4, 5, 6, 7, 8}));
