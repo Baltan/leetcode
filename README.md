@@ -2490,6 +2490,7 @@
 * [3446. Sort Matrix by Diagonals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SortMatrix.java)
 * [3447. Assign Elements to Groups with Constraints](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AssignElements.java)
 * [3451. Find Invalid IP Addresses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindInvalidIPAddresses.sql)
+* [3452. Sum of Good Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfGoodNumbers.java)
 * [3453. Separate Squares I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SeparateSquares.java)
 * [3457. Eat Pizzas!](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWeight.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
