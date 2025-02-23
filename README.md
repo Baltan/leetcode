@@ -2493,6 +2493,7 @@
 * [3452. Sum of Good Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfGoodNumbers.java)
 * [3453. Separate Squares I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SeparateSquares.java)
 * [3457. Eat Pizzas!](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWeight.java)
+* [3458. Select K Disjoint Special Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubstringLength.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
