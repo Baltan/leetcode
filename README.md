@@ -2493,6 +2493,7 @@
 * [3451. Find Invalid IP Addresses](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindInvalidIPAddresses.sql)
 * [3452. Sum of Good Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfGoodNumbers.java)
 * [3453. Separate Squares I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SeparateSquares.java)
+* [3456. Find Special Substring of Length K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasSpecialSubstring.java)
 * [3457. Eat Pizzas!](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWeight.java)
 * [3458. Select K Disjoint Special Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubstringLength.java)
 * [3461. Check If Digits Are Equal in String After Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasSameDigits.java)
