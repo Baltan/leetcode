@@ -2499,6 +2499,7 @@
 * [3461. Check If Digits Are Equal in String After Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/HasSameDigits.java)
 * [3462. Maximum Sum With at Most K Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum3.java)
 * [3468. Find the Number of Copy Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountArrays.java)
+* [3475. DNA Pattern Recognition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DNAPatternRecognition.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
