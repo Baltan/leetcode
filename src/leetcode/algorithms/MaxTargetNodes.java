@@ -9,6 +9,7 @@ import java.util.*;
  *
  * @author Baltan
  * @date 2024/12/3 23:12
+ * @see MaxTargetNodes1
  */
 public class MaxTargetNodes {
     public static void main(String[] args) {
