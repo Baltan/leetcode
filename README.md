@@ -2502,6 +2502,7 @@
 * [3465. Find Products with Valid Serial Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindProductWithValidSerialNumbers.sql)
 * [3467. Transform Array by Parity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TransformArray1.java)
 * [3468. Find the Number of Copy Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountArrays.java)
+* [3471. Find the Largest Almost Missing Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestInteger1.java)
 * [3475. DNA Pattern Recognition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DNAPatternRecognition.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
