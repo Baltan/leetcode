@@ -2504,6 +2504,7 @@
 * [3468. Find the Number of Copy Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountArrays.java)
 * [3471. Find the Largest Almost Missing Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestInteger1.java)
 * [3475. DNA Pattern Recognition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DNAPatternRecognition.sql)
+* [3477. Fruits Into Baskets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfUnplacedFruits.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
