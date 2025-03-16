@@ -2502,6 +2502,7 @@
 * [3465. Find Products with Valid Serial Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindProductWithValidSerialNumbers.sql)
 * [3467. Transform Array by Parity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TransformArray1.java)
 * [3468. Find the Number of Copy Arrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountArrays.java)
+* [3469. Find Minimum Cost to Remove Array Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost8.java)
 * [3471. Find the Largest Almost Missing Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestInteger1.java)
 * [3475. DNA Pattern Recognition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DNAPatternRecognition.sql)
 * [3477. Fruits Into Baskets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfUnplacedFruits.java)
