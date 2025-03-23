@@ -2505,6 +2505,7 @@
 * [3469. Find Minimum Cost to Remove Array Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost8.java)
 * [3471. Find the Largest Almost Missing Integer](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestInteger1.java)
 * [3472. Longest Palindromic Subsequence After at Most K Operations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindromicSubsequence.java)
+* [3473. Sum of K Subarrays With Length at Least M](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum4.java)
 * [3475. DNA Pattern Recognition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DNAPatternRecognition.sql)
 * [3477. Fruits Into Baskets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfUnplacedFruits.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
