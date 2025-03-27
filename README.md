@@ -2509,6 +2509,7 @@
 * [3475. DNA Pattern Recognition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/DNAPatternRecognition.sql)
 * [3477. Fruits Into Baskets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfUnplacedFruits.java)
 * [3478. Choose K Elements With Maximum Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxSum.java)
+* [3479. Fruits Into Baskets III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfUnplacedFruits1.java)
 * [3483. Unique 3-Digit Even Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalNumbers.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
