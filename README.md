@@ -2513,6 +2513,7 @@
 * [3479. Fruits Into Baskets III](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfUnplacedFruits1.java)
 * [3483. Unique 3-Digit Even Numbers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalNumbers.java)
 * [3484. Design Spreadsheet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Spreadsheet.java)
+* [3487. Maximum Unique Subarray Sum After Deletion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum5.java)
 * [3488. Closest Equal Element Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SolveQueries.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
