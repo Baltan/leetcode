@@ -11,7 +11,7 @@ import java.util.Set;
  * @author baltan
  * @date 2025/4/6 11:35
  */
-public class MinZeroArray11 {
+public class MinZeroArray1 {
     public static void main(String[] args) {
         System.out.println(minZeroArray(new int[]{2, 0, 2}, new int[][]{{0, 2, 1}, {0, 2, 1}, {1, 1, 3}}));
         System.out.println(minZeroArray(new int[]{4, 3, 2, 1}, new int[][]{{1, 3, 2}, {0, 2, 1}}));
