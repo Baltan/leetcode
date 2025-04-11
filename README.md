@@ -2515,7 +2515,7 @@
 * [3484. Design Spreadsheet](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Spreadsheet.java)
 * [3487. Maximum Unique Subarray Sum After Deletion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSum5.java)
 * [3488. Closest Equal Element Queries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SolveQueries.java)
-* [3489. Zero Array Transformation IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinZeroArray11.java)
+* [3489. Zero Array Transformation IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinZeroArray1.java)
 * [3492. Maximum Containers on a Ship](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxContainers.java)
 * [3493. Properties Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfComponents.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
