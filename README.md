@@ -2518,6 +2518,7 @@
 * [3489. Zero Array Transformation IV](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinZeroArray1.java)
 * [3492. Maximum Containers on a Ship](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxContainers.java)
 * [3493. Properties Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfComponents.java)
+* [3494. Find the Minimum Amount of Time to Brew Potions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime2.java)
 * [3497. Analyze Subscription Conversion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/AnalyzeSubscriptionConversion.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
