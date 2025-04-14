@@ -2520,6 +2520,7 @@
 * [3493. Properties Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumberOfComponents.java)
 * [3494. Find the Minimum Amount of Time to Brew Potions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime2.java)
 * [3497. Analyze Subscription Conversion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/AnalyzeSubscriptionConversion.sql)
+* [3498. Reverse Degree of a String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseDegree.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
