@@ -2,80 +2,113 @@ package leetcode.algorithms;
 
 import leetcode.util.OutputUtils;
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * Description: 3508. Implement Router
  *
  * @author Baltan
  * @date 2025/4/19 22:42
+ * 参考：<a href="https://leetcode.cn/problems/implement-router/solutions/3641772/mo-ni-ha-xi-biao-dui-lie-er-fen-cha-zhao-y7l7/"></a>
  */
 public class Router {
-    private final int maxDestination = 200000;
     private int memoryLimit;
-    private LinkedHashSet<Packet> packets;
-    private List<Integer>[] timestampsArray;
-    private int[] indexes;
+    /**
+     * 保存所有未转发的数据包
+     */
+    private Queue<Packet> packetQueue;
+    /**
+     * 用于对未转发的数据包去重
+     */
+    private Set<Packet> packetSet;
+    /**
+     * 数据包目标机器唯一标识符 -> 到达目标机器的所有数据包的时间
+     */
+    private Map<Integer, Timeline> timelineMap;
 
     public Router(int memoryLimit) {
         this.memoryLimit = memoryLimit;
-        this.packets = new LinkedHashSet<>();
-        this.timestampsArray = new List[maxDestination + 1];
-        this.indexes = new int[maxDestination + 1];
-
-        for (int i = 0; i <= maxDestination; i++) {
-            timestampsArray[i] = new ArrayList<>();
-        }
+        this.packetQueue = new ArrayDeque<>();
+        this.packetSet = new HashSet<>();
+        this.timelineMap = new HashMap<>();
     }
 
     public boolean addPacket(int source, int destination, int timestamp) {
-        Packet addedPacket = new Packet(source, destination, timestamp);
-
-        if (packets.contains(addedPacket)) {
+        Packet packet = new Packet(source, destination, timestamp);
+        /**
+         * 数据包packet为重复数据包，不进行任何操作
+         */
+        if (packetSet.contains(packet)) {
             return false;
         }
-
-        if (packets.size() == memoryLimit) {
-            Packet removedPacket = packets.removeFirst();
-            indexes[removedPacket.destination]++;
+        /**
+         * 未转发的数据包个数已达内存上线，将最早的数据包移除
+         */
+        if (packetQueue.size() == memoryLimit) {
+            forwardPacket();
         }
-        packets.addLast(addedPacket);
-        List<Integer> prefixSums = timestampsArray[addedPacket.destination];
-        prefixSums.add(addedPacket.timestamp);
+        /**
+         * 新数据包packet入队
+         */
+        packetQueue.offer(packet);
+        packetSet.add(packet);
+        /**
+         * 记录到达目标机器destination的所有数据包的时间
+         */
+        timelineMap.computeIfAbsent(packet.destination, i -> new Timeline(new ArrayList<>(), 0)).timestamps.add(timestamp);
         return true;
     }
 
     public int[] forwardPacket() {
-        if (packets.isEmpty()) {
+        /**
+         * 没有未转发的数据包
+         */
+        if (packetQueue.isEmpty()) {
             return new int[0];
         }
-        Packet removedPacket = packets.removeFirst();
-        indexes[removedPacket.destination]++;
-        return new int[]{removedPacket.source, removedPacket.destination, removedPacket.timestamp};
+        /**
+         * 数据包packet出队
+         */
+        Packet packet = packetQueue.poll();
+        packetSet.remove(packet);
+        /**
+         * 更新下一个将要到达目标机器packet.destination的数据包的时间
+         */
+        timelineMap.get(packet.destination).index++;
+        return new int[]{packet.source, packet.destination, packet.timestamp};
     }
 
     public int getCount(int destination, int startTime, int endTime) {
-        List<Integer> prefixSums = timestampsArray[destination];
-
-        if (indexes[destination] >= prefixSums.size() || prefixSums.get(indexes[destination]) > endTime || prefixSums.getLast() < startTime) {
+        Timeline timeline = timelineMap.get(destination);
+        /**
+         * 不存在未转发到目标机器destination的数据包，或将要转发到目标机器destination的所有数据包的时间都不在[startTime,endTime]范围内
+         */
+        if (timeline == null || timeline.index >= timeline.timestamps.size() || timeline.timestamps.get(timeline.index) > endTime || timeline.timestamps.getLast() < startTime) {
             return 0;
         }
-        int startIndex = getStartIndex(prefixSums, startTime, indexes[destination]);
-        int endIndex = getEndIndex(prefixSums, endTime, indexes[destination]);
+        int startIndex = getStartIndex(timeline, startTime);
+        int endIndex = getEndIndex(timeline, endTime);
+        /**
+         * 时间[startTime,endTime]范围内，将要转发到目标机器destination的数据包的时间依次为timeline.timestamps[startIndex]到
+         * timeline.timestamps[endIndex]，一共endIndex-startIndex+1个数据包
+         */
         return endIndex - startIndex + 1;
     }
 
-    private int getStartIndex(List<Integer> prefixSums, int startTime, int first) {
-        int lo = first;
-        int hi = prefixSums.size() - 1;
+    /**
+     * 在有序队列timeline.timestamps中二分查找第一个索引不小于timeline.index，值不小于startTime的元素的索引
+     * @param timeline
+     * @param startTime
+     * @return
+     */
+    private int getStartIndex(Timeline timeline, int startTime) {
+        int lo = timeline.index;
+        int hi = timeline.timestamps.size() - 1;
 
         while (lo < hi) {
             int mid = (lo + hi) / 2;
 
-            if (prefixSums.get(mid) < startTime) {
+            if (timeline.timestamps.get(mid) < startTime) {
                 lo = mid + 1;
             } else {
                 hi = mid;
@@ -84,14 +117,20 @@ public class Router {
         return lo;
     }
 
-    private int getEndIndex(List<Integer> prefixSums, int endTime, int first) {
-        int lo = first;
-        int hi = prefixSums.size() - 1;
+    /**
+     * 在有序队列timeline.timestamps中二分查找第一个索引不小于timeline.index，值不大于endTime的元素的索引
+     * @param timeline
+     * @param endTime
+     * @return
+     */
+    private int getEndIndex(Timeline timeline, int endTime) {
+        int lo = timeline.index;
+        int hi = timeline.timestamps.size() - 1;
 
         while (lo < hi) {
             int mid = (lo + hi + 1) / 2;
 
-            if (prefixSums.get(mid) > endTime) {
+            if (timeline.timestamps.get(mid) > endTime) {
                 hi = mid - 1;
             } else {
                 lo = mid;
@@ -100,27 +139,31 @@ public class Router {
         return lo;
     }
 
-    private static class Packet {
-        private int source;
-        private int destination;
-        private int timestamp;
+    /**
+     * 数据包对象
+     * @param source
+     * @param destination
+     * @param timestamp
+     */
+    private record Packet(int source, int destination, int timestamp) {
+    }
 
-        public Packet(int source, int destination, int timestamp) {
-            this.source = source;
-            this.destination = destination;
-            this.timestamp = timestamp;
-        }
+    /**
+     * 到达指定目标机器的所有数据包的时间
+     */
+    private static class Timeline {
+        /**
+         * 到达目标机器的所有数据包的时间
+         */
+        private final List<Integer> timestamps;
+        /**
+         * 指向时间队列timestamps中，下一个将要到达目标机器的数据包的时间
+         */
+        private int index;
 
-        @Override
-        public boolean equals(Object o) {
-            if (o == null || getClass() != o.getClass()) return false;
-            Packet packet = (Packet) o;
-            return source == packet.source && destination == packet.destination && timestamp == packet.timestamp;
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(source, destination, timestamp);
+        public Timeline(List<Integer> timestamps, int index) {
+            this.timestamps = timestamps;
+            this.index = index;
         }
     }
 
@@ -191,5 +234,13 @@ public class Router {
         System.out.println(router9.addPacket(2, 1, 8));
         System.out.println(router9.getCount(1, 7, 8));
         System.out.println(router9.getCount(1, 1, 8));
+
+        System.out.println("--------------------------------------------------------");
+
+        Router router10 = new Router(2);
+        System.out.println(router10.addPacket(4, 3, 1));
+        System.out.println(router10.addPacket(5, 2, 1));
+        System.out.println(router10.getCount(3, 1, 1));
+        System.out.println(router10.addPacket(4, 3, 1));
     }
 }
