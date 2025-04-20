@@ -2,10 +2,10 @@ package leetcode.algorithms;
 
 import leetcode.util.OutputUtils;
 
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.List;
+import java.util.Objects;
 
 /**
  * Description: 3508. Implement Router
@@ -14,46 +14,37 @@ import java.util.TreeMap;
  * @date 2025/4/19 22:42
  */
 public class Router {
+    private final int maxDestination = 200000;
     private int memoryLimit;
-    private LinkedHashSet<String> packets;
-    private Map<Integer, TreeMap<Integer, Integer>> destinationMap;
-    private String pattern;
+    private LinkedHashSet<Packet> packets;
+    private List<Integer>[] timestampsArray;
+    private int[] indexes;
 
     public Router(int memoryLimit) {
         this.memoryLimit = memoryLimit;
         this.packets = new LinkedHashSet<>();
-        this.destinationMap = new HashMap<>();
-        this.pattern = "%d.%d.%d";
+        this.timestampsArray = new List[maxDestination + 1];
+        this.indexes = new int[maxDestination + 1];
+
+        for (int i = 0; i <= maxDestination; i++) {
+            timestampsArray[i] = new ArrayList<>();
+        }
     }
 
     public boolean addPacket(int source, int destination, int timestamp) {
-        String packet = pattern.formatted(source, destination, timestamp);
+        Packet addedPacket = new Packet(source, destination, timestamp);
 
-        if (packets.contains(packet)) {
+        if (packets.contains(addedPacket)) {
             return false;
         }
 
         if (packets.size() == memoryLimit) {
-            int[] removedPacket = parsePacketPattern(packets.removeFirst());
-            packets.add(packet);
-
-            if (destination == removedPacket[1] && timestamp == removedPacket[2]) {
-                return true;
-            }
-            TreeMap<Integer, Integer> timestampMap = destinationMap.get(removedPacket[1]);
-
-            if (timestampMap.get(removedPacket[2]) == 1) {
-                timestampMap.remove(removedPacket[2]);
-            } else {
-                timestampMap.merge(removedPacket[2], -1, Integer::sum);
-            }
-            destinationMap.computeIfAbsent(destination, x -> new TreeMap<>())
-                    .merge(timestamp, 1, Integer::sum);
-        } else {
-            packets.add(packet);
-            destinationMap.computeIfAbsent(destination, x -> new TreeMap<>())
-                    .merge(timestamp, 1, Integer::sum);
+            Packet removedPacket = packets.removeFirst();
+            indexes[removedPacket.destination]++;
         }
+        packets.addLast(addedPacket);
+        List<Integer> prefixSums = timestampsArray[addedPacket.destination];
+        prefixSums.add(addedPacket.timestamp);
         return true;
     }
 
@@ -61,37 +52,76 @@ public class Router {
         if (packets.isEmpty()) {
             return new int[0];
         }
-        int[] removedPacket = parsePacketPattern(packets.removeFirst());
-        TreeMap<Integer, Integer> timestampMap = destinationMap.get(removedPacket[1]);
-
-        if (timestampMap.get(removedPacket[2]) == 1) {
-            timestampMap.remove(removedPacket[2]);
-        } else {
-            timestampMap.merge(removedPacket[2], -1, Integer::sum);
-        }
-        return removedPacket;
+        Packet removedPacket = packets.removeFirst();
+        indexes[removedPacket.destination]++;
+        return new int[]{removedPacket.source, removedPacket.destination, removedPacket.timestamp};
     }
 
     public int getCount(int destination, int startTime, int endTime) {
-        TreeMap<Integer, Integer> timestampMap = destinationMap.get(destination);
+        List<Integer> prefixSums = timestampsArray[destination];
 
-        if (timestampMap == null) {
+        if (indexes[destination] >= prefixSums.size() || prefixSums.get(indexes[destination]) > endTime || prefixSums.getLast() < startTime) {
             return 0;
         }
-        int count = 0;
-
-        for (Map.Entry<Integer, Integer> entry : timestampMap.subMap(startTime, true, endTime, true).entrySet()) {
-            count += entry.getValue();
-        }
-        return count;
+        int startIndex = getStartIndex(prefixSums, startTime, indexes[destination]);
+        int endIndex = getEndIndex(prefixSums, endTime, indexes[destination]);
+        return endIndex - startIndex + 1;
     }
 
-    private int[] parsePacketPattern(String packetPattern) {
-        int firstSeparator = packetPattern.indexOf('.');
-        int lastSeparator = packetPattern.lastIndexOf('.');
-        return new int[]{Integer.parseInt(packetPattern.substring(0, firstSeparator)),
-                Integer.parseInt(packetPattern.substring(firstSeparator + 1, lastSeparator)),
-                Integer.parseInt(packetPattern.substring(lastSeparator + 1))};
+    private int getStartIndex(List<Integer> prefixSums, int startTime, int first) {
+        int lo = first;
+        int hi = prefixSums.size() - 1;
+
+        while (lo < hi) {
+            int mid = (lo + hi) / 2;
+
+            if (prefixSums.get(mid) < startTime) {
+                lo = mid + 1;
+            } else {
+                hi = mid;
+            }
+        }
+        return lo;
+    }
+
+    private int getEndIndex(List<Integer> prefixSums, int endTime, int first) {
+        int lo = first;
+        int hi = prefixSums.size() - 1;
+
+        while (lo < hi) {
+            int mid = (lo + hi + 1) / 2;
+
+            if (prefixSums.get(mid) > endTime) {
+                hi = mid - 1;
+            } else {
+                lo = mid;
+            }
+        }
+        return lo;
+    }
+
+    private static class Packet {
+        private int source;
+        private int destination;
+        private int timestamp;
+
+        public Packet(int source, int destination, int timestamp) {
+            this.source = source;
+            this.destination = destination;
+            this.timestamp = timestamp;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (o == null || getClass() != o.getClass()) return false;
+            Packet packet = (Packet) o;
+            return source == packet.source && destination == packet.destination && timestamp == packet.timestamp;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(source, destination, timestamp);
+        }
     }
 
     public static void main(String[] args) {
@@ -117,5 +147,49 @@ public class Router {
         Router router3 = new Router(4);
         System.out.println(router3.addPacket(4, 5, 1));
         System.out.println(router3.getCount(5, 1, 1));
+
+        System.out.println("--------------------------------------------------------");
+
+        Router router4 = new Router(3);
+        System.out.println(router4.addPacket(1, 4, 6));
+        System.out.println(router4.getCount(4, 1, 4));
+
+        System.out.println("--------------------------------------------------------");
+
+        Router router5 = new Router(2);
+        System.out.println(router5.addPacket(2, 5, 1));
+        OutputUtils.print1DIntegerArray(router5.forwardPacket());
+        System.out.println(router5.getCount(5, 1, 1));
+
+        System.out.println("--------------------------------------------------------");
+
+        Router router6 = new Router(3);
+        System.out.println(router6.addPacket(5, 4, 1));
+        OutputUtils.print1DIntegerArray(router6.forwardPacket());
+        System.out.println(router6.addPacket(1, 2, 1));
+
+        System.out.println("--------------------------------------------------------");
+
+        Router router7 = new Router(5);
+        System.out.println(router7.addPacket(3, 4, 4));
+        System.out.println(router7.getCount(4, 1, 1));
+        OutputUtils.print1DIntegerArray(router7.forwardPacket());
+
+        System.out.println("--------------------------------------------------------");
+
+        Router router8 = new Router(4);
+        System.out.println(router8.addPacket(2, 3, 1));
+        OutputUtils.print1DIntegerArray(router8.forwardPacket());
+        OutputUtils.print1DIntegerArray(router8.forwardPacket());
+
+        System.out.println("--------------------------------------------------------");
+
+        Router router9 = new Router(50000);
+        System.out.println(router9.addPacket(2, 1, 5));
+        System.out.println(router9.addPacket(2, 1, 6));
+        System.out.println(router9.getCount(1, 3, 6));
+        System.out.println(router9.addPacket(2, 1, 8));
+        System.out.println(router9.getCount(1, 7, 8));
+        System.out.println(router9.getCount(1, 1, 8));
     }
 }
