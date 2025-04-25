@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2025/4/24 22:45
+ * @see UniqueXorTriplets
  */
 public class UniqueXorTriplets {
     public static void main(String[] args) {
