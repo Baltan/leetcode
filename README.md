@@ -2528,6 +2528,7 @@
 * [3513. Number of Unique XOR Triplets I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueXorTriplets.java)
 * [3514. Number of Unique XOR Triplets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueXorTriplets1.java)
 * [3522. Calculate Score After Performing Instructions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalculateScore1.java)
+* [3523. Make Array Non-decreasing](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumPossibleSize.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
