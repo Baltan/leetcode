@@ -2524,6 +2524,7 @@
 * [3499. Maximize Active Section with Trade I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxActiveSectionsAfterTrade.java)
 * [3502. Minimum Cost to Reach Every Position](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCosts.java)
 * [3503. Longest Palindrome After Substring Concatenation I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome3.java)
+* [3507. Minimum Pair Removal to Sort Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPairRemoval.java)
 * [3508. Implement Router](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Router.java)
 * [3513. Number of Unique XOR Triplets I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueXorTriplets.java)
 * [3514. Number of Unique XOR Triplets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueXorTriplets1.java)
