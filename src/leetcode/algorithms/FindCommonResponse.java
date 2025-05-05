@@ -1,6 +1,7 @@
 package leetcode.algorithms;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 
@@ -26,37 +27,30 @@ public class FindCommonResponse {
 
     public static String findCommonResponse(List<List<String>> responses) {
         String result = "";
+        /**
+         * 出现频率最高的回答出现的天数
+         */
         int maxCount = Integer.MIN_VALUE;
-        int days = responses.size();
-        Map<String, Condition> conditionMap = new HashMap<>();
+        /**
+         * 回答 -> 出现该回答的天数
+         */
+        Map<String, Integer> countMap = new HashMap<>();
 
-        for (int i = 0; i < days; i++) {
-            for (String response : responses.get(i)) {
-                Condition condition = conditionMap.computeIfAbsent(response, x -> new Condition(days));
-
-                if (!condition.isVisited[i]) {
-                    condition.isVisited[i] = true;
-                    condition.count++;
-                }
+        for (List<String> response : responses) {
+            /**
+             * 先对当天的所有回答去重后，再统计当前各个回答出现的天数
+             */
+            for (String s : new HashSet<>(response)) {
+                countMap.merge(s, 1, Integer::sum);
             }
         }
 
-        for (Map.Entry<String, Condition> entry : conditionMap.entrySet()) {
-            if (entry.getValue().count > maxCount || (entry.getValue().count == maxCount && entry.getKey().compareTo(result) < 0)) {
+        for (Map.Entry<String, Integer> entry : countMap.entrySet()) {
+            if (entry.getValue() > maxCount || (entry.getValue() == maxCount && entry.getKey().compareTo(result) < 0)) {
                 result = entry.getKey();
-                maxCount = entry.getValue().count;
+                maxCount = entry.getValue();
             }
         }
         return result;
-    }
-
-    public static class Condition {
-        private int count;
-        private final boolean[] isVisited;
-
-        public Condition(int days) {
-            this.count = 0;
-            this.isVisited = new boolean[days];
-        }
     }
 }
