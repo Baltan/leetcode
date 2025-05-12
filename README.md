@@ -2527,6 +2527,7 @@
 * [3503. Longest Palindrome After Substring Concatenation I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestPalindrome3.java)
 * [3507. Minimum Pair Removal to Sort Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumPairRemoval.java)
 * [3508. Implement Router](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Router.java)
+* [3512. Minimum Operations to Make Array Sum Divisible by K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations28.java)
 * [3513. Number of Unique XOR Triplets I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueXorTriplets.java)
 * [3514. Number of Unique XOR Triplets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueXorTriplets1.java)
 * [3517. Smallest Palindromic Rearrangement I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestPalindrome.java)
