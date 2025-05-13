@@ -2530,6 +2530,7 @@
 * [3512. Minimum Operations to Make Array Sum Divisible by K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations28.java)
 * [3513. Number of Unique XOR Triplets I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueXorTriplets.java)
 * [3514. Number of Unique XOR Triplets II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniqueXorTriplets1.java)
+* [3516. Find Closest Person](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindClosest.java)
 * [3517. Smallest Palindromic Rearrangement I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SmallestPalindrome.java)
 * [3521. Find Product Recommendation Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindProductRecommendationPairs.sql)
 * [3522. Calculate Score After Performing Instructions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CalculateScore1.java)
