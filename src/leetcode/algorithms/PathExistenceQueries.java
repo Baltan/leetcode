@@ -2,7 +2,8 @@ package leetcode.algorithms;
 
 import leetcode.util.OutputUtils;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Description: 3532. Path Existence Queries in a Graph I
@@ -23,38 +24,56 @@ public class PathExistenceQueries {
 
     public static boolean[] pathExistenceQueries(int n, int[] nums, int maxDiff, int[][] queries) {
         boolean[] result = new boolean[queries.length];
-        int[] parents = new int[n];
-        int[] heights = new int[n];
-        Arrays.setAll(parents, i -> i);
-        Arrays.fill(heights, 1);
+        /**
+         * 按递增顺序保存各个连通图
+         */
+        List<List<Integer>> graphs = new ArrayList<>();
+        /**
+         * 按递增顺序保存当前连通图中的节点
+         */
+        List<Integer> graph = new ArrayList<>();
+        graph.add(0);
 
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < n; i++) {
             if (nums[i] - nums[i - 1] <= maxDiff) {
-                if (heights[i] <= heights[i - 1]) {
-                    parents[i] = i - 1;
-                    heights[i - 1] = Math.max(heights[i - 1], heights[i] + 1);
-                } else {
-                    parents[i - 1] = i;
-                }
+                graph.add(i);
+            } else {
+                graphs.add(graph);
+                /**
+                 * 当前节点不在前一个连通图中，新建一个新的连通图
+                 */
+                graph = new ArrayList<>();
+                graph.add(i);
             }
         }
+        graphs.add(graph);
 
         for (int i = 0; i < queries.length; i++) {
-            result[i] = !union(parents, queries[i][0], queries[i][1]);
+            result[i] = binarySearch(graphs, queries[i][0]) == binarySearch(graphs, queries[i][1]);
         }
         return result;
     }
 
-    public static int getRoot(int[] parents, int x) {
-        while (x != parents[x]) {
-            x = parents[x];
-        }
-        return x;
-    }
+    /**
+     * 二分查找节点node所在连通图的索引
+     *
+     * @param graphs
+     * @param node
+     * @return
+     */
+    public static int binarySearch(List<List<Integer>> graphs, int node) {
+        int lo = 0;
+        int hi = graphs.size() - 1;
 
-    public static boolean union(int[] parents, int x, int y) {
-        int xRoot = getRoot(parents, x);
-        int yRoot = getRoot(parents, y);
-        return xRoot != yRoot;
+        while (lo < hi) {
+            int mid = (lo + hi + 1) / 2;
+
+            if (graphs.get(mid).get(0) > node) {
+                hi = mid - 1;
+            } else {
+                lo = mid;
+            }
+        }
+        return lo;
     }
 }
