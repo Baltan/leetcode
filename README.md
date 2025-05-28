@@ -2544,6 +2544,7 @@
 * [3536. Maximum Product of Two Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct5.java)
 * [3537. Fill a Special Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialGrid.java)
 * [3541. Find Most Frequent Vowel and Consonant](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreqSum.java)
+* [3542. Minimum Operations to Convert All Elements to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations29.java)
 * [3554. Find Category Recommendation Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindCategoryRecommendationPairs.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
