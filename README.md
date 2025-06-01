@@ -2545,6 +2545,7 @@
 * [3537. Fill a Special Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialGrid.java)
 * [3541. Find Most Frequent Vowel and Consonant](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreqSum.java)
 * [3542. Minimum Operations to Convert All Elements to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations29.java)
+* [3543. Maximum Weighted K-Edge Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWeight1.java)
 * [3546. Equal Sum Grid Partition I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanPartitionGrid.java)
 * [3554. Find Category Recommendation Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindCategoryRecommendationPairs.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
