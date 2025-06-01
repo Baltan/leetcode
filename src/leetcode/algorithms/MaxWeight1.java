@@ -10,7 +10,7 @@ import java.util.List;
  * @author Baltan
  * @date 2025/6/1 22:57
  */
-public class MaxWeight99 {
+public class MaxWeight1 {
     public static void main(String[] args) {
         System.out.println(maxWeight(3, new int[][]{{0, 1, 1}, {1, 2, 2}}, 2, 4));
         System.out.println(maxWeight(3, new int[][]{{0, 1, 2}, {0, 2, 3}}, 1, 3));
