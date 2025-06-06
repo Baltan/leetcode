@@ -2546,6 +2546,7 @@
 * [3541. Find Most Frequent Vowel and Consonant](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxFreqSum.java)
 * [3542. Minimum Operations to Convert All Elements to Zero](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations29.java)
 * [3543. Maximum Weighted K-Edge Path](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxWeight1.java)
+* [3545. Minimum Deletions for At Most K Distinct Characters](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDeletion1.java)
 * [3546. Equal Sum Grid Partition I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanPartitionGrid.java)
 * [3551. Minimum Swaps to Sort by Digit Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps4.java)
 * [3552. Grid Teleportation Traversal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves4.java)
