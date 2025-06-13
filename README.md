@@ -2555,6 +2555,7 @@
 * [3556. Sum of Largest Prime Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfLargestPrimes.java)
 * [3557. Find Maximum Number of Non Intersecting Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubstrings.java)
 * [3558. Number of Ways to Assign Edge Weights I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AssignEdgeWeights.java)
+* [3561. Resulting String After Adjacent Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultingString.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
