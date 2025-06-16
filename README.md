@@ -2558,6 +2558,7 @@
 * [3561. Resulting String After Adjacent Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultingString.java)
 * [3564. Seasonal Sales Analysis](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SeasonalSalesAnalysis.sql)
 * [3566. Partition Array into Two Equal Product Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckEqualPartitions.java)
+* [3567. Minimum Absolute Difference in Sliding Submatrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAbsDiff.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
