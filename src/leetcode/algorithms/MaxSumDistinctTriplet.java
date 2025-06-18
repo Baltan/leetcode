@@ -20,7 +20,10 @@ public class MaxSumDistinctTriplet {
         for (int i = 0; i < x.length; i++) {
             max[x[i]] = Math.max(max[x[i]], y[i]);
         }
-        Arrays.sort(max);
-        return max[max.length - 3] == 0 || max[max.length - 2] == 0 || max[max.length - 1] == 0 ? -1 : max[max.length - 3] + max[max.length - 2] + max[max.length - 1];
+        max = Arrays.stream(max)
+                .filter(i -> i > 0)
+                .sorted()
+                .toArray();
+        return max.length < 3 ? -1 : max[max.length - 3] + max[max.length - 2] + max[max.length - 1];
     }
 }
