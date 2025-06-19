@@ -2555,6 +2555,7 @@
 * [3556. Sum of Largest Prime Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumOfLargestPrimes.java)
 * [3557. Find Maximum Number of Non Intersecting Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSubstrings.java)
 * [3558. Number of Ways to Assign Edge Weights I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/AssignEdgeWeights.java)
+* [3560. Find Minimum Log Transportation Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCuttingCost.java)
 * [3561. Resulting String After Adjacent Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ResultingString.java)
 * [3564. Seasonal Sales Analysis](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/SeasonalSalesAnalysis.sql)
 * [3566. Partition Array into Two Equal Product Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckEqualPartitions.java)
