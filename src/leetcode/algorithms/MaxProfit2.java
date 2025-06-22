@@ -10,6 +10,7 @@ package leetcode.algorithms;
  * @see MaxProfit3
  * @see MaxProfit4
  * @see MaxProfit5
+ * @see MaximumProfit
  */
 public class MaxProfit2 {
     public static void main(String[] args) {
