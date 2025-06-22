@@ -12,6 +12,7 @@ import java.util.Arrays;
  * @see MaxProfit2
  * @see MaxProfit3
  * @see MaxProfit4
+ * @see MaximumProfit
  */
 public class MaxProfit5 {
     public static void main(String[] args) {
