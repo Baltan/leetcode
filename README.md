@@ -2563,6 +2563,7 @@
 * [3568. Minimum Moves to Clean the Classroom](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves5.java)
 * [3572. Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumDistinctTriplet.java)
 * [3573. Best Time to Buy and Sell Stock V](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProfit.java)
+* [3576. Transform Array to All Equal Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeEqual.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
