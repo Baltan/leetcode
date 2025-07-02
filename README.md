@@ -2561,6 +2561,7 @@
 * [3566. Partition Array into Two Equal Product Subsets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckEqualPartitions.java)
 * [3567. Minimum Absolute Difference in Sliding Submatrix](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAbsDiff.java)
 * [3568. Minimum Moves to Clean the Classroom](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMoves5.java)
+* [3570. Find Books with No Available Copies](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindBooksWithNoAvailableCopies.sql)
 * [3572. Maximize Y‑Sum by Picking a Triplet of Distinct X‑Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumDistinctTriplet.java)
 * [3573. Best Time to Buy and Sell Stock V](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProfit.java)
 * [3576. Transform Array to All Equal Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeEqual.java)
