@@ -2567,6 +2567,7 @@
 * [3576. Transform Array to All Equal Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CanMakeEqual.java)
 * [3577. Count the Number of Computer Unlocking Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPermutations.java)
 * [3578. Count Partitions With Max-Min Difference at Most K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPartitions1.java)
+* [3580. Find Consistently Improving Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindConsistentlyImprovingEmployees.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
