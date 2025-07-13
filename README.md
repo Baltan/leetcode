@@ -2570,6 +2570,7 @@
 * [3580. Find Consistently Improving Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindConsistentlyImprovingEmployees.sql)
 * [3583. Count Special Triplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialTriplets.java)
 * [3584. Maximum Product of First and Last Elements of a Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProduct2.java)
+* [3586. Find COVID Recovery Patients](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindCOVIDRecoveryPatients.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
