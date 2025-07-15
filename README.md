@@ -2571,6 +2571,7 @@
 * [3583. Count Special Triplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialTriplets.java)
 * [3584. Maximum Product of First and Last Elements of a Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProduct2.java)
 * [3586. Find COVID Recovery Patients](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindCOVIDRecoveryPatients.sql)
+* [3587. Minimum Adjacent Swaps to Alternate Parity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps5.java)
 * [3588. Find Maximum Area of a Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxArea2.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
