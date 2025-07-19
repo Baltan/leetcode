@@ -2568,6 +2568,7 @@
 * [3577. Count the Number of Computer Unlocking Permutations](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPermutations.java)
 * [3578. Count Partitions With Max-Min Difference at Most K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountPartitions1.java)
 * [3580. Find Consistently Improving Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindConsistentlyImprovingEmployees.sql)
+* [3582. Generate Tag for Video Caption](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GenerateTag.java)
 * [3583. Count Special Triplets](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SpecialTriplets.java)
 * [3584. Maximum Product of First and Last Elements of a Subsequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumProduct2.java)
 * [3586. Find COVID Recovery Patients](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindCOVIDRecoveryPatients.sql)
