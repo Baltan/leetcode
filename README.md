@@ -2576,6 +2576,7 @@
 * [3588. Find Maximum Area of a Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxArea2.java)
 * [3589. Count Prime-Gap Balanced Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrimeSubarray.java)
 * [3592. Inverse Coin Change](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCoins.java)
+* [3593. Minimum Increments to Equalize Leaf Paths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinIncrease.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
