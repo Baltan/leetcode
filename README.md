@@ -2579,6 +2579,7 @@
 * [3593. Minimum Increments to Equalize Leaf Paths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinIncrease.java)
 * [3597. Partition String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionString1.java)
 * [3598. Longest Common Prefix Between Adjacent Strings After Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestCommonPrefix2.java)
+* [3599. Partition Array to Minimize XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinXor.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
