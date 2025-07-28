@@ -2575,6 +2575,7 @@
 * [3587. Minimum Adjacent Swaps to Alternate Parity](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSwaps5.java)
 * [3588. Find Maximum Area of a Triangle](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxArea2.java)
 * [3589. Count Prime-Gap Balanced Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PrimeSubarray.java)
+* [3591. Check if Any Element Has Prime Frequency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckPrimeFrequency.java)
 * [3592. Inverse Coin Change](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindCoins.java)
 * [3593. Minimum Increments to Equalize Leaf Paths](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinIncrease.java)
 * [3597. Partition String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionString1.java)
