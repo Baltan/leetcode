@@ -11,7 +11,7 @@ import java.util.Queue;
  * @author Baltan
  * @date 2025/8/3 14:18
  */
-public class MinTime9 {
+public class MinTime3 {
     public static void main(String[] args) {
         System.out.println(minTime(5, new int[][]{{0, 3, 7, 21}, {3, 4, 13, 23}, {3, 4, 2, 8}, {4, 0, 24, 25}, {3, 2, 23, 23}, {1, 0, 13, 14}, {2, 0, 24, 24}, {3, 1, 9, 13}, {4, 1, 12, 18}, {0, 3, 23, 23}}));
         System.out.println(minTime(5, new int[][]{{0, 4, 20, 23}, {1, 2, 25, 25}, {2, 3, 4, 19}, {2, 4, 4, 24}, {0, 2, 5, 23}}));
