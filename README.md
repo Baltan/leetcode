@@ -2582,6 +2582,7 @@
 * [3598. Longest Common Prefix Between Adjacent Strings After Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestCommonPrefix2.java)
 * [3599. Partition Array to Minimize XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinXor.java)
 * [3601. Find Drivers with Improved Fuel Efficiency](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindDriversWithImprovedFuelEfficiency.sql)
+* [3602. Hexadecimal and Hexatrigesimal Conversion](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ConcatHex36.java)
 * [3603. Minimum Cost Path with Alternating Directions II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost9.java)
 * [3604. Minimum Time to Reach Destination in Directed Graph](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime3.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
