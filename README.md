@@ -2591,6 +2591,7 @@
 * [3611. Find Overbooked Employees](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindOverbookedEmployees.sql)
 * [3612. Process String with Special Operations I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ProcessStr.java)
 * [3613. Minimize Maximum Component Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost10.java)
+* [3618. Split Array by Prime Indices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitArray2.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
