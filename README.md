@@ -2593,6 +2593,7 @@
 * [3613. Minimize Maximum Component Cost](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost10.java)
 * [3618. Split Array by Prime Indices](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitArray2.java)
 * [3619. Count Islands With Total Value Divisible by K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountIslands.java)
+* [3622. Check Divisibility by Digit Sum and Product](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CheckDivisibility.java)
 * [3623. Count Number of Trapezoids I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountTrapezoids.java)
 * [3626. Find Stores with Inventory Imbalance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindStoresWithInventoryImbalance.sql)
 * [3627. Maximum Median Sum of Subsequences of Size 3](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumMedianSum.java)
