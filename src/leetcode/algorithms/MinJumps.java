@@ -10,42 +10,25 @@ import java.util.*;
  */
 public class MinJumps {
     public static void main(String[] args) {
+        System.out.println(minJumps(new int[]{5, 7, 9, 5, 1}));
+        System.out.println(minJumps(new int[]{5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5}));
+        System.out.println(minJumps(new int[]{1}));
+        System.out.println(minJumps(new int[]{1, 1}));
+        System.out.println(minJumps(new int[]{15, 2, 6, 3}));
+        System.out.println(minJumps(new int[]{24, 20, 20, 15, 23}));
         System.out.println(minJumps(new int[]{1, 2, 4, 6}));
         System.out.println(minJumps(new int[]{2, 3, 4, 7, 9}));
         System.out.println(minJumps(new int[]{4, 6, 5, 8}));
     }
 
-    /**
-     * 根据题意，nums[i]∈[1,1000000]
-     */
-    private static final int MAX = 1000000;
-    /**
-     * NOT_PRIME[i]表示i是否不是质数
-     */
-    private static final boolean[] NOT_PRIME = new boolean[MAX + 1];
-
-    /**
-     * 初始化计算[1,1000000]中的各个元素是否是质数
-     */
-    static {
-        NOT_PRIME[0] = true;
-        NOT_PRIME[1] = true;
-
-        for (int i = 4; i <= MAX; i++) {
-            for (int j = 2; j * j <= i; j++) {
-                if (!NOT_PRIME[j] && i % j == 0) {
-                    NOT_PRIME[i] = true;
-                    break;
-                }
-            }
-        }
-    }
-
     public static int minJumps(int[] nums) {
+        if (nums.length == 1) {
+            return 0;
+        }
         int result = 0;
-        int max = Integer.MIN_VALUE;
         int length = nums.length;
-        List<Integer>[] indexes = new List[MAX + 1];
+        int max = Arrays.stream(nums).max().getAsInt();
+        List<Integer>[] indexes = new List[max + 1];
         Queue<Integer> queue = new LinkedList<>();
         boolean[] isVisited = new boolean[length];
         Arrays.setAll(indexes, i -> new ArrayList<>());
@@ -54,18 +37,14 @@ public class MinJumps {
 
         for (int i = 0; i < length; i++) {
             indexes[nums[i]].add(i);
-            max = Math.max(max, nums[i]);
         }
 
         while (!queue.isEmpty()) {
+            result++;
             int size = queue.size();
 
             for (int i = 0; i < size; i++) {
                 int curr = queue.poll();
-
-                if (curr == length - 1) {
-                    return result;
-                }
 
                 if (curr - 1 >= 0 && !isVisited[curr - 1]) {
                     queue.offer(curr - 1);
@@ -73,14 +52,21 @@ public class MinJumps {
                 }
 
                 if (curr + 1 < length && !isVisited[curr + 1]) {
+                    if (curr + 1 == length - 1) {
+                        return result;
+                    }
                     queue.offer(curr + 1);
                     isVisited[curr + 1] = true;
                 }
 
-                if (!NOT_PRIME[nums[curr]]) {
+                if (isPrime(nums[curr])) {
+                    if (nums[length - 1] % nums[curr] == 0) {
+                        return result;
+                    }
+
                     for (int j = nums[curr]; j <= max; j += nums[curr]) {
                         for (int index : indexes[j]) {
-                            if (index == curr) {
+                            if (index == curr || isVisited[index]) {
                                 continue;
                             }
                             queue.offer(index);
@@ -89,8 +75,24 @@ public class MinJumps {
                     }
                 }
             }
-            result++;
         }
         return result;
+    }
+
+    public static boolean isPrime(int num) {
+        if (num <= 1) {
+            return false;
+        }
+
+        if (num == 2) {
+            return true;
+        }
+
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
