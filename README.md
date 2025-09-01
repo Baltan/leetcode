@@ -2598,6 +2598,7 @@
 * [3626. Find Stores with Inventory Imbalance](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindStoresWithInventoryImbalance.sql)
 * [3627. Maximum Median Sum of Subsequences of Size 3](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumMedianSum.java)
 * [3628. Maximum Number of Subsequences After One Inserting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfSubsequences.java)
+* [3629. Minimum Jumps to Reach End via Prime Teleportation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinJumps.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
