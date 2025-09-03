@@ -2599,6 +2599,7 @@
 * [3627. Maximum Median Sum of Subsequences of Size 3](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumMedianSum.java)
 * [3628. Maximum Number of Subsequences After One Inserting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfSubsequences.java)
 * [3629. Minimum Jumps to Reach End via Prime Teleportation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinJumps.java)
+* [3633. Earliest Finish Time for Land and Water Rides I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestFinishTime.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
