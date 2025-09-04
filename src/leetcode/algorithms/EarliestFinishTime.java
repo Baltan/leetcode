@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2025/9/3 23:38
+ * @see EarliestFinishTime1
  */
 public class EarliestFinishTime {
     public static void main(String[] args) {
