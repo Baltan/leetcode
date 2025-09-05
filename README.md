@@ -2600,6 +2600,7 @@
 * [3628. Maximum Number of Subsequences After One Inserting](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/NumOfSubsequences.java)
 * [3629. Minimum Jumps to Reach End via Prime Teleportation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinJumps.java)
 * [3633. Earliest Finish Time for Land and Water Rides I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestFinishTime.java)
+* [3634. Minimum Removals to Balance Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinRemoval.java)
 * [3635. Earliest Finish Time for Land and Water Rides II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestFinishTime1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
