@@ -2603,6 +2603,7 @@
 * [3634. Minimum Removals to Balance Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinRemoval.java)
 * [3635. Earliest Finish Time for Land and Water Rides II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestFinishTime1.java)
 * [3638. Maximum Balanced Shipments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxBalancedShipments.java)
+* [3639. Minimum Time to Activate String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime5.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
