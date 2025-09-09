@@ -11,8 +11,8 @@ select t1.book_id,
        t1.author,
        t1.genre,
        t1.pages,
-       t.max_session_rating - t.min_session_rating rating_spread,
-       round(t.extreme_rating_cnt / t.session_cnt, 2)        polarization_score
+       t.max_session_rating - t.min_session_rating    rating_spread,
+       round(t.extreme_rating_cnt / t.session_cnt, 2) polarization_score
 from t,
      books t1
 where t.book_id = t1.book_id
