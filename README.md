@@ -2602,6 +2602,7 @@
 * [3633. Earliest Finish Time for Land and Water Rides I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestFinishTime.java)
 * [3634. Minimum Removals to Balance Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinRemoval.java)
 * [3635. Earliest Finish Time for Land and Water Rides II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/EarliestFinishTime1.java)
+* [3637. Trionic Array I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/IsTrionic.java)
 * [3638. Maximum Balanced Shipments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxBalancedShipments.java)
 * [3639. Minimum Time to Activate String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime5.java)
 * [3642. Find Books with Polarized Opinions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindBooksWithPolarizedOpinions.sql)
