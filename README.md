@@ -2606,6 +2606,7 @@
 * [3638. Maximum Balanced Shipments](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxBalancedShipments.java)
 * [3639. Minimum Time to Activate String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime5.java)
 * [3642. Find Books with Polarized Opinions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindBooksWithPolarizedOpinions.sql)
+* [3643. Flip Square Submatrix Vertically](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseSubmatrix.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
