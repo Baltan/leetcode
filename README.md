@@ -2607,6 +2607,7 @@
 * [3639. Minimum Time to Activate String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinTime5.java)
 * [3642. Find Books with Polarized Opinions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindBooksWithPolarizedOpinions.sql)
 * [3643. Flip Square Submatrix Vertically](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseSubmatrix.java)
+* [3645. Maximum Total from Optimal Activation Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTotal.java)
 * [3648. Minimum Sensors to Cover Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSensors.java)
 * [3649. Number of Perfect Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PerfectPairs.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
