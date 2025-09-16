@@ -2610,6 +2610,7 @@
 * [3645. Maximum Total from Optimal Activation Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTotal.java)
 * [3648. Minimum Sensors to Cover Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSensors.java)
 * [3649. Number of Perfect Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PerfectPairs.java)
+* [3650. Minimum Cost Path with Edge Reversals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost11.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
