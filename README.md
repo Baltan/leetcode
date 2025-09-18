@@ -2612,6 +2612,7 @@
 * [3649. Number of Perfect Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PerfectPairs.java)
 * [3650. Minimum Cost Path with Edge Reversals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost11.java)
 * [3652. Best Time to Buy and Sell Stock using Strategy](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProfit7.java)
+* [3653. XOR After Range Multiplication Queries I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorAfterQueries.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
