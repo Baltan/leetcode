@@ -2616,6 +2616,7 @@
 * [3653. XOR After Range Multiplication Queries I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/XorAfterQueries.java)
 * [3654. Minimum Sum After Divisible Sum Deletions](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinArraySum1.java)
 * [3657. Find Loyal Customers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindLoyalCustomers.sql)
+* [3659. Partition Array Into K-Distinct Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionArray1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
