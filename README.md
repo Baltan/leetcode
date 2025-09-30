@@ -2620,6 +2620,7 @@
 * [3659. Partition Array Into K-Distinct Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionArray1.java)
 * [3660. Jump Game IX](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValue3.java)
 * [3664. Two-Letter Card Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Score.java)
+* [3665. Twisted Mirror Path Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniquePaths1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
