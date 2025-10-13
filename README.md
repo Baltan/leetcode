@@ -2619,6 +2619,7 @@
 * [3658. GCD of Odd and Even Sums](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GcdOfOddEvenSums.java)
 * [3659. Partition Array Into K-Distinct Groups](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/PartitionArray1.java)
 * [3660. Jump Game IX](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxValue3.java)
+* [3663. Find The Least Frequent Digit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetLeastFrequentDigit.java)
 * [3664. Two-Letter Card Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Score.java)
 * [3665. Twisted Mirror Path Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniquePaths1.java)
 * [3669. Balanced K-Factor Decomposition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDifference2.java)
