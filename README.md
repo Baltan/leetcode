@@ -2626,6 +2626,7 @@
 * [3670. Maximum Product of Two Integers With No Common Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct6.java)
 * [3675. Minimum Operations to Transform String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations30.java)
 * [3676. Count Bowl Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BowlSubarrays.java)
+* [3679. Minimum Discards to Balance Inventory](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinArrivalsToDiscard.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
