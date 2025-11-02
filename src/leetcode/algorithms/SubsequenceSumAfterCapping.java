@@ -26,7 +26,7 @@ public class SubsequenceSumAfterCapping {
         int length = nums.length;
         boolean[] result = new boolean[length];
         /**
-         * 当前要加入背包数字为nums[j]
+         * 当前要加入背包的数字为nums[j]
          */
         int j = 0;
         /**
@@ -74,12 +74,12 @@ public class SubsequenceSumAfterCapping {
                 }
             }
             /**
-             * 出去背包中的已有元素，剩下的length-j个元素都为被限制值更新为i
+             * 除去背包中的已有元素，剩下的length-j个元素都会被限制值更新为i
              */
             for (int l = 0; l <= length - j; l++) {
                 /**
-                 * 如果选择l个被限制值更新后的元素i，则还需要从背包中选择若干个元素，使得他们的的和为k-i*l，此时包含所有这些被选元素的子序
-                 * 列之和才能为k
+                 * 如果选择l个被限制值更新后的元素i，则还需要从背包中选择若干个元素，使得他们的和为k-i*l，此时包含所有这些被选元素的子序列
+                 * 之和才能为k
                  */
                 int otherSum = k - l * i;
 
