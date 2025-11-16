@@ -2632,6 +2632,7 @@
 * [3690. Split and Merge Array Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSplitMerge.java)
 * [3693. Climbing Stairs II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClimbStairs1.java)
 * [3694. Distinct Points Reachable After Substring Removal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctPoints.java)
+* [3698. Split Array With Minimum Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitArray3.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
