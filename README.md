@@ -2633,6 +2633,7 @@
 * [3693. Climbing Stairs II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ClimbStairs1.java)
 * [3694. Distinct Points Reachable After Substring Removal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/DistinctPoints.java)
 * [3698. Split Array With Minimum Difference](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SplitArray3.java)
+* [3702. Longest Subsequence With Non-Zero Bitwise XOR](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubsequence4.java)
 * [3705. Find Golden Hour Customers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindGoldenHourCustomers.sql)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
