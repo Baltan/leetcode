@@ -2637,6 +2637,7 @@
 * [3703. Remove K-Balanced Substrings](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RemoveSubstring.java)
 * [3705. Find Golden Hour Customers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindGoldenHourCustomers.sql)
 * [3708. Longest Fibonacci Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray3.java)
+* [3709. Design Exam Scores Tracker](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExamTracker.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
