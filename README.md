@@ -2622,6 +2622,7 @@
 * [3663. Find The Least Frequent Digit](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GetLeastFrequentDigit.java)
 * [3664. Two-Letter Card Game](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Score.java)
 * [3665. Twisted Mirror Path Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/UniquePaths1.java)
+* [3668. Restore Finishing Order](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/RecoverOrder.java)
 * [3669. Balanced K-Factor Decomposition](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinDifference2.java)
 * [3670. Maximum Product of Two Integers With No Common Bits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct6.java)
 * [3675. Minimum Operations to Transform String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations30.java)
