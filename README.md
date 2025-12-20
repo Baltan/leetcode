@@ -2627,6 +2627,7 @@
 * [3675. Minimum Operations to Transform String](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations30.java)
 * [3676. Count Bowl Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BowlSubarrays.java)
 * [3679. Minimum Discards to Balance Inventory](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinArrivalsToDiscard.java)
+* [3680. Generate Schedule](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/GenerateSchedule.java)
 * [3685. Subsequence Sum After Capping Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SubsequenceSumAfterCapping.java)
 * [3689. Maximum Total Subarray Value I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxTotalValue.java)
 * [3690. Split and Merge Array Transformation](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinSplitMerge.java)
