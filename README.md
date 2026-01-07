@@ -2643,6 +2643,7 @@
 * [3713. Longest Balanced Substring I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestBalanced.java)
 * [3716. Find Churn Risk Customers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindChurnRiskCustomers.sql)
 * [3719. Longest Balanced Subarray I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestBalanced1.java)
+* [3722. Lexicographically Smallest String After Reverse](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexSmallest.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
