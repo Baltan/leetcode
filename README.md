@@ -2646,6 +2646,7 @@
 * [3722. Lexicographically Smallest String After Reverse](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexSmallest.java)
 * [3723. Maximize Sum of Squares of Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumOfSquares.java)
 * [3724. Minimum Operations to Transform Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations31.java)
+* [3727. Maximum Alternating Sum of Squares](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAlternatingSum1.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
