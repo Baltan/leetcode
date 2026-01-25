@@ -2655,6 +2655,7 @@
 * [3742. Maximum Path Score in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPathScore.java)
 * [3746. Minimum String Length After Balanced Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinLengthAfterRemovals1.java)
 * [3747. Count Distinct Integers After Removing Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinct1.java)
+* [3752. Lexicographically Smallest Negated Permutation that Sums to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexSmallestNegatedPerm.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
