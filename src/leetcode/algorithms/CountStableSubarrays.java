@@ -1,8 +1,6 @@
 package leetcode.algorithms;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -18,35 +16,38 @@ public class CountStableSubarrays {
         System.out.println(countStableSubarrays(new int[]{-4, 4, 0, 0, -8, -4}));
     }
 
+    /**
+     * 参考：<a href="https://leetcode.cn/problems/stable-subarrays-with-equal-boundary-and-interior-sum/solutions/3815641/qian-zhui-he-yu-ha-xi-biao-shi-zi-bian-x-d6vf/"></a>
+     *
+     * @param capacity
+     * @return
+     */
     public static long countStableSubarrays(int[] capacity) {
         long result = 0L;
-        /**
-         * 数组capacity的前缀和数组
-         */
+        Map<Tuple, Integer> map = new HashMap<>();
         long[] prefixSums = new long[capacity.length + 1];
+        prefixSums[1] = prefixSums[0] + capacity[0];
+        map.merge(new Tuple(capacity[0], capacity[0] + prefixSums[1]), 1, Integer::sum);
         /**
-         * i -> 数组capacity中所有元素i的索引值的集合
+         * 稳定子数组capacity[x……y]满足capacity[x]=capacity[y]=capacity[x+1]+capacity[x+2]+……+capacity[y-1]=prefixSums[y]-
+         * prefixSums[x+1]，即capacity[x]=capacity[y]并且capacity[x]+prefixSums[x+1]=prefixSums[y]。题目相当于枚举每个右端点y，
+         * 查找二元组(capacity[x],capacity[x]+prefixSums[x+1])的值等于(capacity[y],prefixSums[y])的左端点x的数量。因为稳定子数组
+         * 的长度至少为3，所以右端点至少从capacity[2]开始
          */
-        Map<Integer, List<Integer>> indexMap = new HashMap<>();
-
-        for (int i = 0; i < capacity.length; i++) {
-            prefixSums[i + 1] = prefixSums[i] + capacity[i];
+        for (int y = 2; y < capacity.length; y++) {
+            prefixSums[y] = prefixSums[y - 1] + capacity[y - 1];
             /**
-             * capacity[i]之前所有元素capacity[i]的索引值的集合
+             * 需要查找的二元组的值为(capacity[y],prefixSums[y])，即(capacity[y],prefixSum)
              */
-            List<Integer> indexes = indexMap.computeIfAbsent(capacity[i], x -> new ArrayList<>());
-
-            for (int index : indexes) {
-                /**
-                 * 只有子数组capacity[index……i]的长度不小于3，并且子数组capacity[index+1……i-1]的元素之和为capacity[i]时，该子数组
-                 * 才是一个稳定子数组
-                 */
-                if (i - index >= 2 && prefixSums[i] - prefixSums[index + 1] == capacity[i]) {
-                    result++;
-                }
-            }
-            indexes.add(i);
+            result += map.getOrDefault(new Tuple(capacity[y], prefixSums[y]), 0);
+            /**
+             * 将二元组(capacity[y-1],capacity[y-1]+prefixSums[y])加入map，作为下一轮循环可能的左端点
+             */
+            map.merge(new Tuple(capacity[y - 1], capacity[y - 1] + prefixSums[y]), 1, Integer::sum);
         }
         return result;
+    }
+
+    public record Tuple(int x, long y) {
     }
 }
