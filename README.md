@@ -2648,6 +2648,7 @@
 * [3723. Maximize Sum of Squares of Digits](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxSumOfSquares.java)
 * [3724. Minimum Operations to Transform Array](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations31.java)
 * [3727. Maximum Alternating Sum of Squares](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxAlternatingSum1.java)
+* [3728. Stable Subarrays With Equal Boundary and Interior Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountStableSubarrays.java)
 * [3732. Maximum Product of Three Elements After One Replacement](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxProduct7.java)
 * [3733. Minimum Time to Complete All Deliveries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTime4.java)
 * [3737. Count Subarrays With Majority Element I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMajoritySubarrays.java)
