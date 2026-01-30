@@ -2,6 +2,8 @@ package leetcode.algorithms;
 
 import leetcode.util.OutputUtils;
 
+import java.util.Arrays;
+
 /**
  * Description: 3756. Concatenate Non-Zero Digits and Multiply by Sum II
  *
@@ -32,10 +34,13 @@ public class SumAndMultiply1 {
          */
         int[] indexMapping = new int[s.length()];
         /**
-         * memo[i][j]表示i*(10^j)除以mod的余数。显然i*(10^j)不包含质因数mod，所以i*(10^j)除以mod的余数不可能为0，当memo[i][j]为0时，
-         * 表示memo[i][j]的值未知
+         * memo[i][j]表示i*(10^j)除以mod的余数。初始化memo[i][j]为-1时，表示memo[i][j]的值未知
          */
         long[][] memo = new long[10][s.length()];
+
+        for (long[] row : memo) {
+            Arrays.fill(row, -1);
+        }
 
         for (int i = 0; i < s.length(); i++) {
             int digit = s.charAt(i) - '0';
@@ -81,7 +86,7 @@ public class SumAndMultiply1 {
                     /**
                      * 记忆化搜索计算digit*(10^exponent)除以mod的余数
                      */
-                    if (memo[digit][exponent] == 0) {
+                    if (memo[digit][exponent] == -1) {
                         dfs(memo, mod, digit, exponent);
                     }
                     result[i] = (int) (result[i] + memo[digit][exponent] * sum % mod) % mod;
@@ -102,16 +107,16 @@ public class SumAndMultiply1 {
      */
     public static void dfs(long[][] memo, int mod, int digit, int exponent) {
         /**
-         * 一位数字digit除以mod的余数即其本身
+         * 0或一位数字digit除以mod的余数即其本身
          */
-        if (exponent == 0) {
+        if (exponent == 0 || digit == 0) {
             memo[digit][exponent] = digit;
             return;
         }
         /**
-         * 如果memo[digit][exponent-1]不为0，说明已知memo[digit][exponent-1]的值，否则先递归计算memo[digit][exponent-1]的值
+         * 如果memo[digit][exponent-1]不为-1，说明已知memo[digit][exponent-1]的值，否则先递归计算memo[digit][exponent-1]的值
          */
-        if (memo[digit][exponent - 1] == 0) {
+        if (memo[digit][exponent - 1] == -1) {
             dfs(memo, mod, digit, exponent - 1);
         }
         memo[digit][exponent] = memo[digit][exponent - 1] * 10 % mod;
