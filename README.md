@@ -2660,6 +2660,8 @@
 * [3752. Lexicographically Smallest Negated Permutation that Sums to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexSmallestNegatedPerm.java)
 * [3755. Find Maximum Balanced XOR Subarray Length](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxBalancedSubarray.java)
 * [3756. Concatenate Non-Zero Digits and Multiply by Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumAndMultiply1.java)
+* [3759. Count Elements With at Least K Greater Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountElements1.java)
+* [3759. Count Elements With at Least K Greater Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountElements2.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
