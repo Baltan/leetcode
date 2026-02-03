@@ -2663,6 +2663,7 @@
 * [3759. Count Elements With at Least K Greater Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountElements1.java)
 * [3759. Count Elements With at Least K Greater Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountElements2.java)
 * [3761. Minimum Absolute Distance Between Mirror Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMirrorPairDistance.java)
+* [3765. Complete Prime Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CompletePrime.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
