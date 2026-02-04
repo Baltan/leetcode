@@ -2657,6 +2657,7 @@
 * [3742. Maximum Path Score in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPathScore.java)
 * [3746. Minimum String Length After Balanced Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinLengthAfterRemovals1.java)
 * [3747. Count Distinct Integers After Removing Zeros](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountDistinct1.java)
+* [3751. Total Waviness of Numbers in Range I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalWaviness.java)
 * [3752. Lexicographically Smallest Negated Permutation that Sums to Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexSmallestNegatedPerm.java)
 * [3755. Find Maximum Balanced XOR Subarray Length](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxBalancedSubarray.java)
 * [3756. Concatenate Non-Zero Digits and Multiply by Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumAndMultiply1.java)
