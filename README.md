@@ -2666,6 +2666,7 @@
 * [3761. Minimum Absolute Distance Between Mirror Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMirrorPairDistance.java)
 * [3765. Complete Prime Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CompletePrime.java)
 * [3766. Minimum Operations to Make Binary Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations32.java)
+* [3767. Maximize Points After Choosing K Tasks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints3.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
