@@ -8,6 +8,7 @@ import java.util.Map;
  *
  * @author baltan
  * @date 2025/11/18 11:27
+ * @see LongestBalanced2
  */
 public class LongestBalanced {
     public static void main(String[] args) {
