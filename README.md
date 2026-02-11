@@ -2670,6 +2670,7 @@
 * [3770. Largest Prime from Consecutive Prime Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPrime.java)
 * [3775. Reverse Words With Same Vowel Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseWords2.java)
 * [3781. Maximum Score After Binary Swaps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore3.java)
+* [3790. Smallest All-Ones Multiple](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAllOneMultiple.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
