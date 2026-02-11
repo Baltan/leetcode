@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author Baltan
  * @date 2019-04-28 09:45
+ * @see MinAllOneMultiple
  */
 public class SmallestRepunitDivByK {
     public static void main(String[] args) {
