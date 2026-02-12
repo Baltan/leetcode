@@ -12,6 +12,7 @@ import java.util.Map;
  */
 public class LongestBalanced2 {
     public static void main(String[] args) {
+        System.out.println(longestBalanced("cacbb"));
         System.out.println(longestBalanced("abcbc"));
         System.out.println(longestBalanced("abbac"));
         System.out.println(longestBalanced("aabcc"));
@@ -92,6 +93,7 @@ public class LongestBalanced2 {
                 /**
                  * 平衡子串中只能包含字符c1和c2，后续重新开始查找平衡子串
                  */
+                map = new HashMap<>();
                 map.clear();
                 /**
                  * 哨兵，空字符串的情况
