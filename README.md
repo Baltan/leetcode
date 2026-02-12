@@ -2641,6 +2641,7 @@
 * [3708. Longest Fibonacci Subarray](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray3.java)
 * [3709. Design Exam Scores Tracker](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ExamTracker.java)
 * [3713. Longest Balanced Substring I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestBalanced.java)
+* [3714. Longest Balanced Substring II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestBalanced2.java)
 * [3716. Find Churn Risk Customers](https://github.com/Baltan/leetcode/blob/master/src/leetcode/database/FindChurnRiskCustomers.sql)
 * [3719. Longest Balanced Subarray I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestBalanced1.java)
 * [3720. Lexicographically Smallest Permutation Greater Than Target](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LexGreaterPermutation.java)
