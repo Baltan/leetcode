@@ -2669,6 +2669,7 @@
 * [3766. Minimum Operations to Make Binary Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations32.java)
 * [3767. Maximize Points After Choosing K Tasks](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPoints3.java)
 * [3770. Largest Prime from Consecutive Prime Sum](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LargestPrime.java)
+* [3771. Total Score of Dungeon Runs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/TotalScore.java)
 * [3775. Reverse Words With Same Vowel Count](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/ReverseWords2.java)
 * [3781. Maximum Score After Binary Swaps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore3.java)
 * [3790. Smallest All-Ones Multiple](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAllOneMultiple.java)
