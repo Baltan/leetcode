@@ -2675,6 +2675,7 @@
 * [3790. Smallest All-Ones Multiple](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAllOneMultiple.java)
 * [3795. Minimum Subarray Length With Distinct Sum At Least K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinLength1.java)
 * [3796. Find Maximum Value in a Constrained Sequence](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/FindMaxVal.java)
+* [3800. Minimum Cost to Make Two Binary Strings Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost10.java)
 * [LCP 01. 猜数字](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Game.java)
 * [LCP 02. 分式化简](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Fraction.java)
 * [LCP 03. 机器人大冒险](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/Robot.java)
