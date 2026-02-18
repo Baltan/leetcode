@@ -21,9 +21,7 @@ public class CountPairs7 {
          * 将数组words中的所有字符串都凯撒加密为以字符a开头的字符串后，对其计数
          */
         Map<String, Integer> countMap = new HashMap<>();
-        /**
-         * 将字符串words[i]凯撒加密为以字符a开头的字符串
-         */
+
         for (String word : words) {
             char[] charArray = word.toCharArray();
             /**
