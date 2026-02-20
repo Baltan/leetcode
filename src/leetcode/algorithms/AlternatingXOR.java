@@ -13,63 +13,57 @@ public class AlternatingXOR {
         System.out.println(alternatingXOR(new int[]{7}, 1, 7));
     }
 
-    public static int alternatingXOR(int[] nums, int target1, int target2) {
-        int mod = 1000000007;
-        int[] targets = {target1, target2};
-        /**
-         * memo[i][j]表示对后缀子数组nums[i……]进行分割，并且第一个分割块中所有元素按位异或的值为targets[j]的有效分割方案数
-         */
-        long[][] memo = new long[nums.length + 1][2];
-        /**
-         * 初始化memo[i][j]为-1，表示该种情况的有效分割方案数还未计算
-         */
-        for (int i = 0; i <= nums.length; i++) {
-            memo[i][0] = -1;
-            memo[i][1] = -1;
-        }
-        dfs(nums, 0, targets, 0, memo, mod);
-        return (int) memo[0][0];
-    }
-
     /**
-     * 递归计算对后缀子数组nums[start……]进行分割，并且第一个分割块中所有元素按位异或的值为targets[targetIndex]的有效分割方案数
+     * 参考：<a href="https://leetcode.cn/problems/number-of-alternating-xor-partitions/solutions/3883090/di-tui-by-tsreaper-moug/"></a>
      *
      * @param nums
-     * @param start
-     * @param targets
-     * @param targetIndex
-     * @param memo
-     * @param mod
+     * @param target1
+     * @param target2
+     * @return
      */
-    public static void dfs(int[] nums, int start, int[] targets, int targetIndex, long[][] memo, int mod) {
+    public static int alternatingXOR(int[] nums, int target1, int target2) {
+        long result = 0L;
+        int mod = 1000000007;
         /**
-         * 计算过有效分割方案数的情况不需要重复计算
+         * 数组nums的前缀数组中所有元素按位异或的值
          */
-        if (memo[start][targetIndex] != -1) {
-            return;
-        }
+        int prefixXor = 0;
         /**
-         * 已遍历到数组最后，空数组也视为一种有效分割方案
+         * 因为数组nums分割后各子数组中元素按位异或的值依次为target1、target2、target1、target2……则这些分割点的前缀子数组按位异或的值依
+         * 次为target1、target1^target2、target2、0（四个一组循环）
          */
-        if (start == nums.length) {
-            memo[start][targetIndex] = 1;
-            return;
-        }
-        int xor = 0;
+        int[] targets = {target1, target1 ^ target2, target2, 0};
         /**
-         * 假设不存在有效分割方案
+         * dp[i][j]表示数组nums的前i个元素构成的前缀子数组分割后，到元素nums[i-1]为止可以得到targets[j]分割块的分割方案数
          */
-        memo[start][targetIndex] = 0;
+        long[][] dp = new long[nums.length + 1][4];
+        /**
+         * 空数组中元素按位异或的值为0，可以视为是targets[3]分割块的一种分割方案
+         */
+        dp[0][3] = 1;
 
-        for (int i = start; i < nums.length; i++) {
-            xor ^= nums[i];
-            /**
-             * 将nums[start……i]作为第一个分割块，继续对后续子数组进行分割
-             */
-            if (xor == targets[targetIndex]) {
-                dfs(nums, i + 1, targets, 1 - targetIndex, memo, mod);
-                memo[start][targetIndex] = (memo[start][targetIndex] + memo[i + 1][1 - targetIndex]) % mod;
+        for (int i = 0; i < nums.length; i++) {
+            prefixXor ^= nums[i];
+
+            for (int j = 0; j < targets.length; j++) {
+                /**
+                 * 到元素nums[i]为止可以得到targets[j]分割块，并且到元素nums[i-1]为止只得到targets[j-1]分割块
+                 */
+                if (prefixXor == targets[j]) {
+                    dp[i + 1][j] = dp[i][(j + 3) % 4];
+                }
+            }
+
+            for (int j = 0; j < targets.length; j++) {
+                if (i == nums.length - 1) {
+                    result = (result + dp[i + 1][j]) % mod;
+                }
+                /**
+                 * 到元素nums[i]为止可以得到targets[j]分割块，并且到元素nums[i-1]为止也得到targets[j]分割块
+                 */
+                dp[i + 1][j] = (dp[i + 1][j] + dp[i][j]) % mod;
             }
         }
+        return (int) result;
     }
 }
