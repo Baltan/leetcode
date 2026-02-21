@@ -5,6 +5,7 @@ package leetcode.algorithms;
  *
  * @author baltan
  * @date 2026/2/19 13:28
+ * @see AlternatingXOR1
  */
 public class AlternatingXOR {
     public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class AlternatingXOR {
     }
 
     /**
+     * 看不懂！！！
      * 参考：<a href="https://leetcode.cn/problems/number-of-alternating-xor-partitions/solutions/3883090/di-tui-by-tsreaper-moug/"></a>
      *
      * @param nums
@@ -34,11 +36,11 @@ public class AlternatingXOR {
          */
         int[] targets = {target1, target1 ^ target2, target2, 0};
         /**
-         * dp[i][j]表示数组nums的前i个元素构成的前缀子数组分割后，到元素nums[i-1]为止可以得到targets[j]分割块的分割方案数
+         * dp[i][j]表示数组nums的前i个元素构成的前缀子数组分割后，以元素nums[i-1]为分界点到循环的第j步的分割方案数
          */
         long[][] dp = new long[nums.length + 1][4];
         /**
-         * 空数组中元素按位异或的值为0，可以视为是targets[3]分割块的一种分割方案
+         * 空数组中元素按位异或的值为0，可以视为是循环的第3步的一种分割方案
          */
         dp[0][3] = 1;
 
@@ -47,7 +49,7 @@ public class AlternatingXOR {
 
             for (int j = 0; j < targets.length; j++) {
                 /**
-                 * 到元素nums[i]为止可以得到targets[j]分割块，并且到元素nums[i-1]为止只得到targets[j-1]分割块
+                 * 以元素nums[i]为分界点到循环的第j步，可以由以元素nums[i-1]为分界点到循环的第j-1步这类分割方案转移而来
                  */
                 if (prefixXor == targets[j]) {
                     dp[i + 1][j] = dp[i][(j + 3) % 4];
@@ -59,7 +61,7 @@ public class AlternatingXOR {
                     result = (result + dp[i + 1][j]) % mod;
                 }
                 /**
-                 * 到元素nums[i]为止可以得到targets[j]分割块，并且到元素nums[i-1]为止也得到targets[j]分割块
+                 * 以元素nums[i]为分界点到循环的第j步，可以由以元素nums[i-1]为分界点到循环的第j步这类分割方案转移而来
                  */
                 dp[i + 1][j] = (dp[i + 1][j] + dp[i][j]) % mod;
             }
