@@ -3,3 +3,4 @@
 3670. Maximum Product of Two Integers With No Common Bits
 3680. Generate Schedule
 3810. Minimum Operations to Reach Target Array（题目读不懂）
+3811. Number of Alternating XOR Partitions
