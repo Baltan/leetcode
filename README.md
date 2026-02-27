@@ -2675,6 +2675,7 @@
 * [3779. Minimum Number of Operations to Have Distinct Elements](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations33.java)
 * [3780. Maximum Sum of Three Numbers Divisible by Three](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumSum2.java)
 * [3784. Minimum Deletion Cost to Make All Characters Equal](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinCost12.java)
+* [3788. Maximum Score of a Split](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore4.java)
 * [3804. Number of Centered Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CenteredSubarrays.java)
 * [3781. Maximum Score After Binary Swaps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore3.java)
 * [3790. Smallest All-Ones Multiple](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAllOneMultiple.java)
