@@ -2678,6 +2678,7 @@
 * [3788. Maximum Score of a Split](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore4.java)
 * [3789. Minimum Cost to Acquire Required Items](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumCost9.java)
 * [3804. Number of Centered Subarrays](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CenteredSubarrays.java)
+* [3809. Best Reachable Tower](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/BestTower.java)
 * [3781. Maximum Score After Binary Swaps](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaximumScore3.java)
 * [3790. Smallest All-Ones Multiple](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinAllOneMultiple.java)
 * [3795. Minimum Subarray Length With Distinct Sum At Least K](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinLength1.java)
