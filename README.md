@@ -2665,6 +2665,7 @@
 * [3756. Concatenate Non-Zero Digits and Multiply by Sum II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/SumAndMultiply1.java)
 * [3759. Count Elements With at Least K Greater Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountElements1.java)
 * [3759. Count Elements With at Least K Greater Values](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountElements2.java)
+* [3760. Maximum Substrings With Distinct Start](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxDistinct.java)
 * [3761. Minimum Absolute Distance Between Mirror Pairs](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinMirrorPairDistance.java)
 * [3765. Complete Prime Number](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CompletePrime.java)
 * [3766. Minimum Operations to Make Binary Palindrome](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinOperations32.java)
