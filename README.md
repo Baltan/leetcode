@@ -2654,6 +2654,7 @@
 * [3733. Minimum Time to Complete All Deliveries](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumTime4.java)
 * [3737. Count Subarrays With Majority Element I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/CountMajoritySubarrays.java)
 * [3738. Longest Non-Decreasing Subarray After Replacing at Most One Element](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/LongestSubarray4.java)
+* [3740. Minimum Distance Between Three Equal Elements I](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDistance2.java)
 * [3741. Minimum Distance Between Three Equal Elements II](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinimumDistance1.java)
 * [3742. Maximum Path Score in a Grid](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MaxPathScore.java)
 * [3746. Minimum String Length After Balanced Removals](https://github.com/Baltan/leetcode/blob/master/src/leetcode/algorithms/MinLengthAfterRemovals1.java)
